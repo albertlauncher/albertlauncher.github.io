@@ -1,0 +1,193 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+  <title>Albert - Troubleshooting</title>
+  <meta charset="UTF-8">
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
+  <link rel="stylesheet" href="http://localhost:4000/css/main.css">
+</head>
+
+<body>
+    <main class="wrapper">
+      <nav class="site-header">
+    <section class="container">
+        <a class="title" href="http://localhost:4000">
+            <img class="icon" src="http://localhost:4000/img/albert.svg" alt="Albert" title="Albert">
+            <span class="title">Albert</span>
+        </a>
+        <nav class="navigation float-right">
+            <ul>
+    <li class="">
+        <a href="/">Home</a>
+    </li>
+    <li class=dropdown "current">
+        <a href="/docs/home/">Docs</a>
+        <div>
+            <ul>
+                <li><a target="blank" href="/docs/home/"            >Overview</a></li>
+                <li><a target="blank" href="/docs/installing/"      >Installing</a></li>
+                <li><a target="blank" href="/docs/using/"           >Using</a></li>
+                <li><a target="blank" href="/docs/extending/"       >Extending</a></li>
+                <li><a target="blank" href="/docs/theming/" >Theming</a></li>
+                <li><a target="blank" href="/docs/troubleshooting/" >Troubleshooting</a></li>
+                <li><a target="blank" href="/docs/contributing"     >Contriubting</a></li>
+                <li><a target="blank" href="/docs/changelog"        >Changes</a></li>
+                <li><a target="blank" href="/docs/contact"          >Contact</a></li>
+            </ul>
+        </div>
+    </li>
+    <li class="">
+        <a href="/news/">News</a>
+    </li>
+    <li class="">
+        <a href="/help/">Help</a>
+    </li>
+    <li>
+        <a href="https://github.com/manuelschneid3r/albert.git"><span class="hide-on-mobiles">View on </span>GitHub</a>
+    </li>
+</ul>
+
+        </nav>
+    </section>
+</nav>
+
+      <section class="container">
+    <article>
+        <div class="row">
+            <div class="column column-20">
+              <aside>
+  
+    <h5>User guide</h5>
+    <ul>
+
+  
+  
+  <li class=""><a href="/docs/home/">Welcome</a></li>
+
+  
+  
+  <li class=""><a href="/docs/installing/">Installing Albert</a></li>
+
+  
+  
+  <li class=""><a href="/docs/using/">Using Albert</a></li>
+
+  
+  
+  <li class=""><a href="/docs/extending/">Extending Albert</a></li>
+
+  
+  
+  <li class=""><a href="/docs/theming/">Theming Albert</a></li>
+
+  
+  
+  <li class="current"><a href="/docs/faq/">Troubleshooting</a></li>
+
+</ul>
+
+  
+    <h5>Dev guide</h5>
+    <ul>
+
+  
+  
+  <li class=""><a href="/docs/extending/native/">Native plugins</a></li>
+
+  
+  
+  <li class=""><a href="/docs/extending/external/">External plugins</a></li>
+
+  
+  
+  <li class=""><a href="/docs/extending/python/">Python modules</a></li>
+
+  
+  
+  <li class=""><a href="/docs/extending/javascript/">JS modules</a></li>
+
+  
+  
+  <li class=""><a href="/docs/extending/lua/">Lua modules</a></li>
+
+</ul>
+
+  
+    <h5>Meta</h5>
+    <ul>
+
+  
+  
+  <li class=""><a href="/docs/contributing/">Contributing</a></li>
+
+  
+  
+  <li class=""><a href="/docs/changelog/">Changelog</a></li>
+
+  
+  
+  <li class=""><a href="/docs/contact/">Contact</a></li>
+
+</ul>
+
+  
+</aside>
+
+            </div>
+            <div class="column column-80">
+                <div class="float-right">
+                    <a href="https://github.com/manuelschneid3r/albert/edit/master/docs/_docs/faq.md"><i class="fa fa-pencil"></i> &nbsp;Improve this page</a>
+                </div>
+                <h1>Troubleshooting</h1>
+                <h5 id="how-can-i-autostart-albert">How can I autostart Albert?</h5>
+
+<p>At the moment there is no autostart option, since this application is meant to be desktop agnostic and there is no standard way to achieve this. The most promising approach for the future is the XDG <a href="http://standards.freedesktop.org/autostart-spec/autostart-spec-latest.html">Desktop Application Autostart Specification</a> but not all desktop environments do support it. Link the desktop file into your autostart directory:</p>
+
+<p><code class="highlighter-rouge">ln -s /usr/share/applications/albert.desktop ~/.config/autostart/</code></p>
+
+<h5 id="which-application-is-used-to-open-an-item">Which application is used to open an item?</h5>
+
+<p>Unless explicitely defined by the responsible extension, albert uses the system defaults. They are managed by your desktop environment and defined as stated in the freedesktop.org <a href="http://standards.freedesktop.org/mime-apps-spec/mime-apps-spec-1.0.html">Association between MIME types and applications</a> standard. See the <a href="https://wiki.archlinux.org/index.php/Default_applications#MIME_types_and_desktop_entries">Arch Linux</a> [Debian]
+(https://wiki.debian.org/MIME) wiki for a human readable version of the standard. One generic way to change those associations is <code class="highlighter-rouge">xdg-mime</code>. Check the manual for more informations.</p>
+
+<h5 id="fatal-stylefile-not-found-xxx-where-is-it">“FATAL: Stylefile not found: xxx”, where is it?</h5>
+
+<p>Either you did not install albert or you did it in an unsupported place. The installation process places the stylefiles, icons and libraries in the correct place. If you don’t install albert and just run it, it will not find any of those. In addition to that, this also can happen if the <code class="highlighter-rouge">CMAKE_INSTALL_PREFIX</code> is set to a weird path. <code class="highlighter-rouge">cmake install</code> <a href="https://github.com/ManuelSchneid3r/albert/blob/master/src/application/CMakeLists.txt#L77">places</a> the theme files into ${CMAKE_INSTALL_PREFIX}/share/albert/themes. Albert <a href="https://github.com/ManuelSchneid3r/albert/blob/master/src/application/mainwidget/mainwidget.cpp#L162">searches</a> for theme files in <a href="http://doc.qt.io/qt-5/qstandardpaths.html#StandardLocation-enum">QStandardPaths::AppDataLocation</a>. At least one of them has to match or albert will not find any themes. Common prefixes are <code class="highlighter-rouge">/usr/local</code>(default), <code class="highlighter-rouge">/usr</code> or <code class="highlighter-rouge">$HOME/.local</code></p>
+
+<h5 id="can-i-let-albert-ignore-certain-folders">Can I let albert ignore certain folders?</h5>
+
+<p>Yes. Create a file called “.albertignore” in the folder that contains the file you want to ignore. Fill it with the filenames you want to ignore. One per line. The ignores supports <a href="http://doc.qt.io/qt-5/qregexp.html#wildcard-matching">wildcard matching</a>.</p>
+
+<h5 id="error-key-x-could-not-be-registered">“Error. Key-X could not be registered.”!?</h5>
+
+<p>This is what albert tells you, if the X11 window system refused to register the key comination¹. This may have many reasons, but the most prominent is the fact that an other application already grabbed the key combo. If you really want to get exactly that combo, your best bet is to find out which application grabbed the key and make it ungrab it. In virtually every case this will be your desktop environment, respectively its window manager, e.g. Compiz(Unity), KWin(KDE), Mutter(Gnome), or Muffin(Cinnamon). Remove the wished key combination from the systems keyboard settings and try setting it in albert again.</p>
+
+<p><strong>¹</strong> Actually a registration of one key combination is made up of 4 grabs. Since X11 considers numlock and capslock as modifiers, the actual grabs comprise every permutation of num- and capslock modifiers plus the actual key combo. If one grab fails the registration is considered as failed.</p>
+
+<h5 id="why-are-my-icons-are-not-displayed-correctly">Why are my icons are not displayed correctly?</h5>
+
+<p>Before you submit an issue:</p>
+<ul>
+  <li>make sure you have libqt5-svg installed.</li>
+  <li>make sure Qt has the correct icon theme set. This is cumbersome, verify it by checking other qt apps, e.g. virtualbox or vlc.</li>
+</ul>
+
+<h5 id="why-are-some-applications-not-shown">Why are some applications not shown?</h5>
+
+<p>The <a href="https://specifications.freedesktop.org/desktop-entry-spec/latest/">Desktop Entry Specification</a> defines which applications shall be shown. If the desktop entry contains the key value pair <code class="highlighter-rouge">NoDisplay=true</code>, the application will not be shown. Further the keys <code class="highlighter-rouge">OnlyShowIn</code> and <code class="highlighter-rouge">NotShowIn</code> define which desktop environments should (not) show the desktop entry. The values are compared to the environment variable $XDG_CURRENT_DESKTOP.</p>
+
+            </div>
+        </div>
+    </article>
+    </div>
+</section>
+
+      <footer class="footer">
+  <section class="container">
+  <section>
+</footer>
+
+    </main>
+</body>
+</html>

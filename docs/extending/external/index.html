@@ -1,0 +1,210 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+  <title>Albert - External plugins</title>
+  <meta charset="UTF-8">
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
+  <link rel="stylesheet" href="http://localhost:4000/css/main.css">
+</head>
+
+<body>
+    <main class="wrapper">
+      <nav class="site-header">
+    <section class="container">
+        <a class="title" href="http://localhost:4000">
+            <img class="icon" src="http://localhost:4000/img/albert.svg" alt="Albert" title="Albert">
+            <span class="title">Albert</span>
+        </a>
+        <nav class="navigation float-right">
+            <ul>
+    <li class="">
+        <a href="/">Home</a>
+    </li>
+    <li class=dropdown "current">
+        <a href="/docs/home/">Docs</a>
+        <div>
+            <ul>
+                <li><a target="blank" href="/docs/home/"            >Overview</a></li>
+                <li><a target="blank" href="/docs/installing/"      >Installing</a></li>
+                <li><a target="blank" href="/docs/using/"           >Using</a></li>
+                <li><a target="blank" href="/docs/extending/"       >Extending</a></li>
+                <li><a target="blank" href="/docs/theming/" >Theming</a></li>
+                <li><a target="blank" href="/docs/troubleshooting/" >Troubleshooting</a></li>
+                <li><a target="blank" href="/docs/contributing"     >Contriubting</a></li>
+                <li><a target="blank" href="/docs/changelog"        >Changes</a></li>
+                <li><a target="blank" href="/docs/contact"          >Contact</a></li>
+            </ul>
+        </div>
+    </li>
+    <li class="">
+        <a href="/news/">News</a>
+    </li>
+    <li class="">
+        <a href="/help/">Help</a>
+    </li>
+    <li>
+        <a href="https://github.com/manuelschneid3r/albert.git"><span class="hide-on-mobiles">View on </span>GitHub</a>
+    </li>
+</ul>
+
+        </nav>
+    </section>
+</nav>
+
+      <section class="container">
+    <article>
+        <div class="row">
+            <div class="column column-20">
+              <aside>
+  
+    <h5>User guide</h5>
+    <ul>
+
+  
+  
+  <li class=""><a href="/docs/home/">Welcome</a></li>
+
+  
+  
+  <li class=""><a href="/docs/installing/">Installing Albert</a></li>
+
+  
+  
+  <li class=""><a href="/docs/using/">Using Albert</a></li>
+
+  
+  
+  <li class=""><a href="/docs/extending/">Extending Albert</a></li>
+
+  
+  
+  <li class=""><a href="/docs/theming/">Theming Albert</a></li>
+
+  
+  
+  <li class=""><a href="/docs/faq/">Troubleshooting</a></li>
+
+</ul>
+
+  
+    <h5>Dev guide</h5>
+    <ul>
+
+  
+  
+  <li class=""><a href="/docs/extending/native/">Native plugins</a></li>
+
+  
+  
+  <li class="current"><a href="/docs/extending/external/">External plugins</a></li>
+
+  
+  
+  <li class=""><a href="/docs/extending/python/">Python modules</a></li>
+
+  
+  
+  <li class=""><a href="/docs/extending/javascript/">JS modules</a></li>
+
+  
+  
+  <li class=""><a href="/docs/extending/lua/">Lua modules</a></li>
+
+</ul>
+
+  
+    <h5>Meta</h5>
+    <ul>
+
+  
+  
+  <li class=""><a href="/docs/contributing/">Contributing</a></li>
+
+  
+  
+  <li class=""><a href="/docs/changelog/">Changelog</a></li>
+
+  
+  
+  <li class=""><a href="/docs/contact/">Contact</a></li>
+
+</ul>
+
+  
+</aside>
+
+            </div>
+            <div class="column column-80">
+                <div class="float-right">
+                    <a href="https://github.com/manuelschneid3r/albert/edit/master/docs/_docs/extending/external.md"><i class="fa fa-pencil"></i> &nbsp;Improve this page</a>
+                </div>
+                <h1>External plugins</h1>
+                <p>Albert can be extended using regular executables. They are used like plugins, however the executables are separate processes which have separate address spaces. Therefore these executables are called <em>external extensions</em>.</p>
+
+<p>An external plugin basically acts as a listener. The plugin listens on the <code class="highlighter-rouge">stdin</code> data stream for requests and responds using the <code class="highlighter-rouge">stdout</code> channel. Generally such requests consist of a mandatory command and optional parameters. The set of commands, the expected responses and their format are defined in the section <em>Communication protocol</em>.</p>
+
+<p>The great flexibility of the external plugins comes at a price: Since an external plugin is a separate process it has no access to the core components and helper classes. This holds the other way around as well,which means actions of the results passed to the core application are restricted to the execution of programs with parameters. Further the time to respond to the requests is limited.</p>
+
+<h4 id="communication-protocol">Communication protocol</h4>
+
+<p><code class="highlighter-rouge">INITIALIZE</code> is sent when the plugin has been loaded. Upon receiving this message the plugin shall initialize itself and check for dependencies. If no errors occurred in the initialization the plugin has to send <code class="highlighter-rouge">ACK</code>. If the response does not contain <code class="highlighter-rouge">ACK</code> the return message will be interpreted as an error string and the plugin will be unloaded. The process has 10 seconds to initialize itself. If the timeout is exceeded the plugin will be killed/unloaded forcefully.</p>
+
+<p><code class="highlighter-rouge">FINALIZE</code> is sent when the plugin is about to be unloaded. The plugin is assumed to finalize itself and quit the process. The process has 10 seconds to finalize itself. If the timeout is exceeded the plugin will be killed/unloaded forcefully.</p>
+
+<p><code class="highlighter-rouge">SETUPSESSION</code>/<code class="highlighter-rouge">TEARDOWNSESSION</code> are sent when the user started/ended a session. This is intended to trigger preparation/cleanup of a incoming/past queries. This operation has no timeout and no response is expected. However be aware that since this operation is not synchronized another message, which has a timeout, could have been sent while processing this message.</p>
+
+<p><code class="highlighter-rouge">QUERY</code> is the request to handle a query. The rest of the line after the command is the query as the user typed it, i.e. it contains the complete query including spaces and potential triggers. The results of the query have to be returned as a JSON array containing JSON objects representing the results. The plugin has 10 ms to respond to the query. If the timeout is exceeded the plugin will be killed/unloaded forcefully.</p>
+
+<p>A result object has to contain the following values: <code class="highlighter-rouge">id</code>, <code class="highlighter-rouge">name</code>, <code class="highlighter-rouge">description</code>, <code class="highlighter-rouge">icon</code> and <code class="highlighter-rouge">actions</code>.</p>
+
+<ul>
+  <li><code class="highlighter-rouge">id</code> is the plugin wide unique id of the result</li>
+  <li><code class="highlighter-rouge">name</code> is the name of the result</li>
+  <li><code class="highlighter-rouge">description</code> is the description of the result</li>
+  <li><code class="highlighter-rouge">icon</code> is the icon of the result</li>
+  <li><code class="highlighter-rouge">actions</code> is a JSON array of JSON objects representing the actions for the item.</li>
+</ul>
+
+<p>A JSON object representing an action has to contain the following values: <code class="highlighter-rouge">name</code>, <code class="highlighter-rouge">command</code> and <code class="highlighter-rouge">arguments</code>.</p>
+
+<ul>
+  <li><code class="highlighter-rouge">name</code> is the actions name</li>
+  <li><code class="highlighter-rouge">command</code> is the program to be execute</li>
+  <li><code class="highlighter-rouge">arguments</code> is an array of parameters for <code class="highlighter-rouge">command</code></li>
+</ul>
+
+<p>An example query response could look like this:</p>
+
+<div class="language-json highlighter-rouge"><pre class="highlight"><code><span class="p">[{</span><span class="w">
+  </span><span class="nt">"id"</span><span class="p">:</span><span class="s2">"plugin.wide.unique.id"</span><span class="p">,</span><span class="w">
+  </span><span class="nt">"name"</span><span class="p">:</span><span class="s2">"An Item"</span><span class="p">,</span><span class="w">
+  </span><span class="nt">"description"</span><span class="p">:</span><span class="s2">"Nice description."</span><span class="p">,</span><span class="w">
+  </span><span class="nt">"icon"</span><span class="p">:</span><span class="s2">"/path/to/icon"</span><span class="p">,</span><span class="w">
+  </span><span class="nt">"actions"</span><span class="p">:[{</span><span class="w">
+    </span><span class="nt">"name"</span><span class="p">:</span><span class="s2">"Action name"</span><span class="p">,</span><span class="w">
+    </span><span class="nt">"command"</span><span class="p">:</span><span class="s2">"program"</span><span class="p">,</span><span class="w">
+    </span><span class="nt">"arguments"</span><span class="p">:[</span><span class="s2">"-a"</span><span class="p">]</span><span class="w">
+  </span><span class="p">},{</span><span class="w">
+    </span><span class="nt">"name"</span><span class="p">:</span><span class="s2">"Another action name"</span><span class="p">,</span><span class="w">
+    </span><span class="nt">"command"</span><span class="p">:</span><span class="s2">"another_program"</span><span class="p">,</span><span class="w">
+    </span><span class="nt">"arguments"</span><span class="p">:[</span><span class="s2">"--name"</span><span class="p">,</span><span class="w"> </span><span class="s2">"value"</span><span class="p">]</span><span class="w">
+  </span><span class="p">}]</span><span class="w">
+</span><span class="p">}]</span><span class="w">
+</span></code></pre>
+</div>
+
+            </div>
+        </div>
+    </article>
+    </div>
+</section>
+
+      <footer class="footer">
+  <section class="container">
+  <section>
+</footer>
+
+    </main>
+</body>
+</html>

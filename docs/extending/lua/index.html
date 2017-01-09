@@ -1,0 +1,194 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+  <title>Albert - Lua modules</title>
+  <meta charset="UTF-8">
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
+  <link rel="stylesheet" href="http://localhost:4000/css/main.css">
+</head>
+
+<body>
+    <main class="wrapper">
+      <nav class="site-header">
+    <section class="container">
+        <a class="title" href="http://localhost:4000">
+            <img class="icon" src="http://localhost:4000/img/albert.svg" alt="Albert" title="Albert">
+            <span class="title">Albert</span>
+        </a>
+        <nav class="navigation float-right">
+            <ul>
+    <li class="">
+        <a href="/">Home</a>
+    </li>
+    <li class=dropdown "current">
+        <a href="/docs/home/">Docs</a>
+        <div>
+            <ul>
+                <li><a target="blank" href="/docs/home/"            >Overview</a></li>
+                <li><a target="blank" href="/docs/installing/"      >Installing</a></li>
+                <li><a target="blank" href="/docs/using/"           >Using</a></li>
+                <li><a target="blank" href="/docs/extending/"       >Extending</a></li>
+                <li><a target="blank" href="/docs/theming/" >Theming</a></li>
+                <li><a target="blank" href="/docs/troubleshooting/" >Troubleshooting</a></li>
+                <li><a target="blank" href="/docs/contributing"     >Contriubting</a></li>
+                <li><a target="blank" href="/docs/changelog"        >Changes</a></li>
+                <li><a target="blank" href="/docs/contact"          >Contact</a></li>
+            </ul>
+        </div>
+    </li>
+    <li class="">
+        <a href="/news/">News</a>
+    </li>
+    <li class="">
+        <a href="/help/">Help</a>
+    </li>
+    <li>
+        <a href="https://github.com/manuelschneid3r/albert.git"><span class="hide-on-mobiles">View on </span>GitHub</a>
+    </li>
+</ul>
+
+        </nav>
+    </section>
+</nav>
+
+      <section class="container">
+    <article>
+        <div class="row">
+            <div class="column column-20">
+              <aside>
+  
+    <h5>User guide</h5>
+    <ul>
+
+  
+  
+  <li class=""><a href="/docs/home/">Welcome</a></li>
+
+  
+  
+  <li class=""><a href="/docs/installing/">Installing Albert</a></li>
+
+  
+  
+  <li class=""><a href="/docs/using/">Using Albert</a></li>
+
+  
+  
+  <li class=""><a href="/docs/extending/">Extending Albert</a></li>
+
+  
+  
+  <li class=""><a href="/docs/theming/">Theming Albert</a></li>
+
+  
+  
+  <li class=""><a href="/docs/faq/">Troubleshooting</a></li>
+
+</ul>
+
+  
+    <h5>Dev guide</h5>
+    <ul>
+
+  
+  
+  <li class=""><a href="/docs/extending/native/">Native plugins</a></li>
+
+  
+  
+  <li class=""><a href="/docs/extending/external/">External plugins</a></li>
+
+  
+  
+  <li class=""><a href="/docs/extending/python/">Python modules</a></li>
+
+  
+  
+  <li class=""><a href="/docs/extending/javascript/">JS modules</a></li>
+
+  
+  
+  <li class="current"><a href="/docs/extending/lua/">Lua modules</a></li>
+
+</ul>
+
+  
+    <h5>Meta</h5>
+    <ul>
+
+  
+  
+  <li class=""><a href="/docs/contributing/">Contributing</a></li>
+
+  
+  
+  <li class=""><a href="/docs/changelog/">Changelog</a></li>
+
+  
+  
+  <li class=""><a href="/docs/contact/">Contact</a></li>
+
+</ul>
+
+  
+</aside>
+
+            </div>
+            <div class="column column-80">
+                <div class="float-right">
+                    <a href="https://github.com/manuelschneid3r/albert/edit/master/docs/_docs/extending/lua.md"><i class="fa fa-pencil"></i> &nbsp;Improve this page</a>
+                </div>
+                <h1>Lua modules</h1>
+                <blockquote>
+  <p>Coming soon…</p>
+</blockquote>
+
+<div class="language-json highlighter-rouge"><pre class="highlight"><code><span class="p">[{</span><span class="w">
+  </span><span class="nt">"id"</span><span class="p">:</span><span class="s2">"extension.wide.unique.id"</span><span class="p">,</span><span class="w">
+  </span><span class="nt">"name"</span><span class="p">:</span><span class="s2">"An Item"</span><span class="p">,</span><span class="w">
+  </span><span class="nt">"description"</span><span class="p">:</span><span class="s2">"Nice description."</span><span class="p">,</span><span class="w">
+  </span><span class="nt">"icon"</span><span class="p">:</span><span class="s2">"/path/to/icon"</span><span class="p">,</span><span class="w">
+  </span><span class="nt">"actions"</span><span class="p">:[{</span><span class="w">
+    </span><span class="nt">"name"</span><span class="p">:</span><span class="s2">"Action name"</span><span class="p">,</span><span class="w">
+    </span><span class="nt">"command"</span><span class="p">:</span><span class="s2">"program"</span><span class="p">,</span><span class="w">
+    </span><span class="nt">"arguments"</span><span class="p">:[</span><span class="s2">"-a"</span><span class="p">]</span><span class="w">
+  </span><span class="p">},{</span><span class="w">
+    </span><span class="nt">"name"</span><span class="p">:</span><span class="s2">"Another action name"</span><span class="p">,</span><span class="w">
+    </span><span class="nt">"command"</span><span class="p">:</span><span class="s2">"another_program"</span><span class="p">,</span><span class="w">
+    </span><span class="nt">"arguments"</span><span class="p">:[</span><span class="s2">"--name"</span><span class="p">,</span><span class="w"> </span><span class="s2">"value"</span><span class="p">]</span><span class="w">
+  </span><span class="p">}]</span><span class="w">
+</span><span class="p">}]</span><span class="w">
+</span></code></pre>
+</div>
+
+<div class="language-c highlighter-rouge"><pre class="highlight"><code><span class="n">std</span><span class="o">::</span><span class="n">string</span> <span class="n">bla</span><span class="p">()</span> <span class="p">{</span>
+  <span class="k">return</span> <span class="s">"fotze"</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre>
+</div>
+
+<div class="language-html highlighter-rouge"><pre class="highlight"><code><span class="nt">&lt;ul&gt;</span>
+  {% for post in site.posts %}
+    <span class="nt">&lt;li&gt;</span>
+      <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"{{ post.url }}"</span><span class="nt">&gt;</span>{{ post.title }}<span class="nt">&lt;/a&gt;</span>
+    <span class="nt">&lt;/li&gt;</span>
+  {% endfor %}
+<span class="nt">&lt;/ul&gt;</span>
+</code></pre>
+</div>
+
+            </div>
+        </div>
+    </article>
+    </div>
+</section>
+
+      <footer class="footer">
+  <section class="container">
+  <section>
+</footer>
+
+    </main>
+</body>
+</html>

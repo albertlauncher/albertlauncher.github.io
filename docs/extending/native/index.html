@@ -1,0 +1,222 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+  <title>Albert - Native plugins</title>
+  <meta charset="UTF-8">
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
+  <link rel="stylesheet" href="http://localhost:4000/css/main.css">
+</head>
+
+<body>
+    <main class="wrapper">
+      <nav class="site-header">
+    <section class="container">
+        <a class="title" href="http://localhost:4000">
+            <img class="icon" src="http://localhost:4000/img/albert.svg" alt="Albert" title="Albert">
+            <span class="title">Albert</span>
+        </a>
+        <nav class="navigation float-right">
+            <ul>
+    <li class="">
+        <a href="/">Home</a>
+    </li>
+    <li class=dropdown "current">
+        <a href="/docs/home/">Docs</a>
+        <div>
+            <ul>
+                <li><a target="blank" href="/docs/home/"            >Overview</a></li>
+                <li><a target="blank" href="/docs/installing/"      >Installing</a></li>
+                <li><a target="blank" href="/docs/using/"           >Using</a></li>
+                <li><a target="blank" href="/docs/extending/"       >Extending</a></li>
+                <li><a target="blank" href="/docs/theming/" >Theming</a></li>
+                <li><a target="blank" href="/docs/troubleshooting/" >Troubleshooting</a></li>
+                <li><a target="blank" href="/docs/contributing"     >Contriubting</a></li>
+                <li><a target="blank" href="/docs/changelog"        >Changes</a></li>
+                <li><a target="blank" href="/docs/contact"          >Contact</a></li>
+            </ul>
+        </div>
+    </li>
+    <li class="">
+        <a href="/news/">News</a>
+    </li>
+    <li class="">
+        <a href="/help/">Help</a>
+    </li>
+    <li>
+        <a href="https://github.com/manuelschneid3r/albert.git"><span class="hide-on-mobiles">View on </span>GitHub</a>
+    </li>
+</ul>
+
+        </nav>
+    </section>
+</nav>
+
+      <section class="container">
+    <article>
+        <div class="row">
+            <div class="column column-20">
+              <aside>
+  
+    <h5>User guide</h5>
+    <ul>
+
+  
+  
+  <li class=""><a href="/docs/home/">Welcome</a></li>
+
+  
+  
+  <li class=""><a href="/docs/installing/">Installing Albert</a></li>
+
+  
+  
+  <li class=""><a href="/docs/using/">Using Albert</a></li>
+
+  
+  
+  <li class=""><a href="/docs/extending/">Extending Albert</a></li>
+
+  
+  
+  <li class=""><a href="/docs/theming/">Theming Albert</a></li>
+
+  
+  
+  <li class=""><a href="/docs/faq/">Troubleshooting</a></li>
+
+</ul>
+
+  
+    <h5>Dev guide</h5>
+    <ul>
+
+  
+  
+  <li class="current"><a href="/docs/extending/native/">Native plugins</a></li>
+
+  
+  
+  <li class=""><a href="/docs/extending/external/">External plugins</a></li>
+
+  
+  
+  <li class=""><a href="/docs/extending/python/">Python modules</a></li>
+
+  
+  
+  <li class=""><a href="/docs/extending/javascript/">JS modules</a></li>
+
+  
+  
+  <li class=""><a href="/docs/extending/lua/">Lua modules</a></li>
+
+</ul>
+
+  
+    <h5>Meta</h5>
+    <ul>
+
+  
+  
+  <li class=""><a href="/docs/contributing/">Contributing</a></li>
+
+  
+  
+  <li class=""><a href="/docs/changelog/">Changelog</a></li>
+
+  
+  
+  <li class=""><a href="/docs/contact/">Contact</a></li>
+
+</ul>
+
+  
+</aside>
+
+            </div>
+            <div class="column column-80">
+                <div class="float-right">
+                    <a href="https://github.com/manuelschneid3r/albert/edit/master/docs/_docs/extending/native.md"><i class="fa fa-pencil"></i> &nbsp;Improve this page</a>
+                </div>
+                <h1>Native plugins</h1>
+                <blockquote>
+  <p>TODO: Finish this article</p>
+</blockquote>
+
+<ol>
+  <li>Copy the template extension using the script in the <a href="https://github.com/ManuelSchneid3r/albert/tree/master/src/plugins">plugins folder</a>.</li>
+  <li>Adjust the values in <code class="highlighter-rouge">metadata.json</code> and <code class="highlighter-rouge">CmakeLists.txt</code>.</li>
+  <li>Adjust the extension to your liking. Check the extension interface for members that you may or must implement.</li>
+</ol>
+
+<p>Pretty easy, however there are some caveats: Your extension must have a unique id; set it in <code class="highlighter-rouge">metadata.json</code>. To keep the code readable the main class of the extension is called <code class="highlighter-rouge">Extension</code> and if the extension returns a configuration widget it shall be called <code class="highlighter-rouge">ConfigWidget</code>. This is not strictly necessary, your code will run either way, but the intention is to unify the filenames of the plugins. This would implicitly lead to naming conflicts, therefor all classes of an extensions live in a dedicated namespace. Remember to define the namespace in the <code class="highlighter-rouge">*.ui</code> files, too. Thats it.</p>
+
+<h1 id="synchronous-and-asynchronous-queries">Synchronous and asynchronous queries</h1>
+
+<p>All plugins have to provide a <a href="#the-plugin-specification">plugin specification</a>, which is defined in the next section, and have to reside in dedicated directories following a compulsory layout described in the section <a href="#plugin-deployment">plugin deployment</a>.</p>
+
+<h2 id="the-plugin-specification">The plugin specification</h2>
+
+<p>The plugin specification is a mandatory file that has to be shipped with a plugin. Its content is <em>JSON</em> formatted and its name has to be <em>metadata.json</em>. Its fields give the application information about the plugin without having to load the plugin.</p>
+
+<p>Currently the plugin specification supports the following keys: <code class="highlighter-rouge">id</code>, <code class="highlighter-rouge">name</code>, <code class="highlighter-rouge">version</code>, <code class="highlighter-rouge">platforms</code>, <code class="highlighter-rouge">authors</code> and <code class="highlighter-rouge">dependencies</code>.</p>
+<ul>
+  <li><code class="highlighter-rouge">id</code> is the unique identifier of the app. A plugin will not be loaded if its id has been registered already by an other plugin.</li>
+  <li><code class="highlighter-rouge">name</code> is the pretty printed name of the plugin.</li>
+  <li><code class="highlighter-rouge">version</code> is, well, the version of the plugin.</li>
+  <li><code class="highlighter-rouge">platform</code> is an array that contains the platforms this plugin is written for.</li>
+  <li><code class="highlighter-rouge">authors</code> is an array of names of the developers of this plugin.</li>
+  <li><code class="highlighter-rouge">dependencies</code> is an array of dependencies of this plugin. These dependencies are mandatory for the plugin but optional for the application. The user is responsible to install them.</li>
+</ul>
+
+<p>The different types of plugins may introduce additional keys. Check the related sections.
+A plugin specification could look like the following:</p>
+
+<div class="language-json highlighter-rouge"><pre class="highlight"><code><span class="p">{</span><span class="w">
+    </span><span class="nt">"id"</span><span class="w"> </span><span class="p">:</span><span class="w">              </span><span class="s2">"org.albert.extension.bookmarks"</span><span class="p">,</span><span class="w">
+    </span><span class="nt">"name"</span><span class="w"> </span><span class="p">:</span><span class="w">            </span><span class="s2">"Bookmarks"</span><span class="p">,</span><span class="w">
+    </span><span class="nt">"version"</span><span class="w"> </span><span class="p">:</span><span class="w">         </span><span class="s2">"1.1"</span><span class="p">,</span><span class="w">
+    </span><span class="nt">"platforms"</span><span class="w"> </span><span class="p">:</span><span class="w">       </span><span class="p">[</span><span class="s2">"Linux"</span><span class="p">,</span><span class="w"> </span><span class="s2">"Mac"</span><span class="p">,</span><span class="w"> </span><span class="s2">"Windows"</span><span class="p">],</span><span class="w">
+    </span><span class="nt">"authors"</span><span class="w"> </span><span class="p">:</span><span class="w">         </span><span class="p">[</span><span class="s2">"Manuel Schneider"</span><span class="p">],</span><span class="w">
+    </span><span class="nt">"dependencies"</span><span class="w"> </span><span class="p">:</span><span class="w">    </span><span class="p">[]</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre>
+</div>
+
+<h2 id="plugin-deployment">Plugin deployment</h2>
+
+<p>Plugin lookup is done in several places depending on the platform. Check the documentation for QStandardPaths for <a href="http://doc.qt.io/qt-5/qstandardpaths.html">AppLocalDataDirs</a> to see which directories are looked up exactly. In each of this directories Albert looks for a directory named <code class="highlighter-rouge">plugins</code>. This directory may contain direct named by the type of plugins they contain (Currently supported plugin types are <code class="highlighter-rouge">native</code> and <code class="highlighter-rouge">executable</code>, more coming soon™). These directories contain the plugin directories named by their id. The plugin directory has to contain the plugin specification and the plugin itself. As an example the directory layout could look like this:</p>
+<div class="highlighter-rouge"><pre class="highlight"><code>$AppLocalDataDirs
+└── plugins
+    ├── native
+    │   ├── plugin1
+    │   │   ├── metadata.json
+    │   │   └── libplugin1.so
+    │   ...
+    ├── executable
+    │   ├── plugin2
+    │   │   ├── metadata.json
+    │   │   └── randomExecutable.sh
+    │   ...
+    ├── python
+    │   ...
+    └── js
+        ...
+</code></pre>
+</div>
+
+            </div>
+        </div>
+    </article>
+    </div>
+</section>
+
+      <footer class="footer">
+  <section class="container">
+  <section>
+</footer>
+
+    </main>
+</body>
+</html>

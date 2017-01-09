@@ -1,0 +1,231 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+  <title>Albert - Installing Albert</title>
+  <meta charset="UTF-8">
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
+  <link rel="stylesheet" href="http://localhost:4000/css/main.css">
+</head>
+
+<body>
+    <main class="wrapper">
+      <nav class="site-header">
+    <section class="container">
+        <a class="title" href="http://localhost:4000">
+            <img class="icon" src="http://localhost:4000/img/albert.svg" alt="Albert" title="Albert">
+            <span class="title">Albert</span>
+        </a>
+        <nav class="navigation float-right">
+            <ul>
+    <li class="">
+        <a href="/">Home</a>
+    </li>
+    <li class=dropdown "current">
+        <a href="/docs/home/">Docs</a>
+        <div>
+            <ul>
+                <li><a target="blank" href="/docs/home/"            >Overview</a></li>
+                <li><a target="blank" href="/docs/installing/"      >Installing</a></li>
+                <li><a target="blank" href="/docs/using/"           >Using</a></li>
+                <li><a target="blank" href="/docs/extending/"       >Extending</a></li>
+                <li><a target="blank" href="/docs/theming/" >Theming</a></li>
+                <li><a target="blank" href="/docs/troubleshooting/" >Troubleshooting</a></li>
+                <li><a target="blank" href="/docs/contributing"     >Contriubting</a></li>
+                <li><a target="blank" href="/docs/changelog"        >Changes</a></li>
+                <li><a target="blank" href="/docs/contact"          >Contact</a></li>
+            </ul>
+        </div>
+    </li>
+    <li class="">
+        <a href="/news/">News</a>
+    </li>
+    <li class="">
+        <a href="/help/">Help</a>
+    </li>
+    <li>
+        <a href="https://github.com/manuelschneid3r/albert.git"><span class="hide-on-mobiles">View on </span>GitHub</a>
+    </li>
+</ul>
+
+        </nav>
+    </section>
+</nav>
+
+      <section class="container">
+    <article>
+        <div class="row">
+            <div class="column column-20">
+              <aside>
+  
+    <h5>User guide</h5>
+    <ul>
+
+  
+  
+  <li class=""><a href="/docs/home/">Welcome</a></li>
+
+  
+  
+  <li class="current"><a href="/docs/installing/">Installing Albert</a></li>
+
+  
+  
+  <li class=""><a href="/docs/using/">Using Albert</a></li>
+
+  
+  
+  <li class=""><a href="/docs/extending/">Extending Albert</a></li>
+
+  
+  
+  <li class=""><a href="/docs/theming/">Theming Albert</a></li>
+
+  
+  
+  <li class=""><a href="/docs/faq/">Troubleshooting</a></li>
+
+</ul>
+
+  
+    <h5>Dev guide</h5>
+    <ul>
+
+  
+  
+  <li class=""><a href="/docs/extending/native/">Native plugins</a></li>
+
+  
+  
+  <li class=""><a href="/docs/extending/external/">External plugins</a></li>
+
+  
+  
+  <li class=""><a href="/docs/extending/python/">Python modules</a></li>
+
+  
+  
+  <li class=""><a href="/docs/extending/javascript/">JS modules</a></li>
+
+  
+  
+  <li class=""><a href="/docs/extending/lua/">Lua modules</a></li>
+
+</ul>
+
+  
+    <h5>Meta</h5>
+    <ul>
+
+  
+  
+  <li class=""><a href="/docs/contributing/">Contributing</a></li>
+
+  
+  
+  <li class=""><a href="/docs/changelog/">Changelog</a></li>
+
+  
+  
+  <li class=""><a href="/docs/contact/">Contact</a></li>
+
+</ul>
+
+  
+</aside>
+
+            </div>
+            <div class="column column-80">
+                <div class="float-right">
+                    <a href="https://github.com/manuelschneid3r/albert/edit/master/docs/_docs/installing.md"><i class="fa fa-pencil"></i> &nbsp;Improve this page</a>
+                </div>
+                <h1>Installing Albert</h1>
+                <p>There are two ways to get albert: Using a package manager or building albert from the sources. Using a package manager is highly recommended, since it is less error prone and the necessary dependencies are pulled automatically.</p>
+
+<h2 id="using-package-managers">Using package managers</h2>
+<p>Currently albert is not in any of the major repositories. At least some user repositories contain it. Hopefully there will be more in future:</p>
+
+<h4 id="archlinux---aur-official">Archlinux - AUR (Official)</h4>
+<div class="language-bash highlighter-rouge"><pre class="highlight"><code>yaourt albert
+</code></pre>
+</div>
+
+<h4 id="fedora---copr-rabin-iohttpsgithubcomrabin-io">Fedora - COPR (<a href="https://github.com/rabin-io">rabin-io</a>)</h4>
+<div class="language-bash highlighter-rouge"><pre class="highlight"><code>dnf copr <span class="nb">enable </span>rabiny/albert
+dnf install albert
+</code></pre>
+</div>
+
+<h4 id="ubuntu---ppa-andrewhttpsgithubcomhoticewebupd8httpwwwwebupd8org">Ubuntu - PPA (<a href="https://github.com/hotice">Andrew</a>/<a href="http://www.webupd8.org/">webupd8</a>)</h4>
+<div class="language-bash highlighter-rouge"><pre class="highlight"><code>sudo add-apt-repository ppa:nilarimogard/webupd8
+sudo apt-get update
+sudo apt-get install albert
+</code></pre>
+</div>
+
+<h2 id="building-from-sources">Building from sources</h2>
+
+<p>Building from sources is the least convenient, but most flexible way. The build process is trivial, but you have to manage the dependencies on your own. Before you can start building albert you need some libraries.</p>
+
+<h3 id="prerequisites">Prerequisites</h3>
+
+<p>To build Albert from sources you will need CMake (≥2.8.11) and a C++ compiler supporting at least the C++11 standard. Albert uses the following modules of the Qt toolkit (≥5.1):</p>
+
+<ul>
+  <li>QtCore, QtGui, QtWidgets, QtSQL, QtNetwork from the <a href="http://doc.qt.io/qt-5/qtmodules.html#qt-essentials">Qt Essentials</a></li>
+  <li><a href="http://doc.qt.io/qt-5/qtconcurrent-index.html">Qt Concurrent</a> for threading support</li>
+  <li><a href="doc.qt.io/qt-5/qtx11extras-index.html">Qt X11 Extras</a> for hotkeys on Linux</li>
+  <li><a href="http://doc.qt.io/qt-5/qtsvg-index.html">Qt Svg</a> for SVG rendering</li>
+</ul>
+
+<p>Further the plugins may introduce optional dependencies, e.g the calculator plugin needs the <a href="http://muparser.beltoforion.de/">muparser</a> library. If the optional dependency is not installed the plugin may refuse to load, the core application will run fine though.</p>
+
+<p>Problems may arise with distributions that split submodules into optional dependencies. E.g. Ubuntu is known to split the SQL driver submodules into separate packages. Elementary OS which builds on Ubuntu does not install optional dependencies, users may therefor encounter linkage errors a have to explicitly install the missing dependencies.</p>
+
+<p>Another concern is the difference between compile time and runtime dependencies. Some distributions ship libraries as single packages while others ship a normal package and a <em>*-dev</em> package. Dev packages usually contain the header files and static libraries additionally to the shared libraries. Normal packages are stripped down to the shared libraries. On distributions that do not differ between this kind of packages basically every package is a dev package. For the compilation on e.g. Ubuntu dev packages are needed at compile time but at runtime normal packages are sufficient.</p>
+
+<p>Here are some hints for the package names on some operating systems:</p>
+
+<p><strong>Arch Linux</strong></p>
+<div class="language-bash highlighter-rouge"><pre class="highlight"><code>sudo pacman -S gcc cmake qt5-base qt5-x11extras qt5-svg muparser
+</code></pre>
+</div>
+
+<p><strong>Ubuntu 14.04 and newer</strong></p>
+<div class="language-bash highlighter-rouge"><pre class="highlight"><code>sudo apt-get install g++ cmake qtbase5-dev libmuparser-dev <span class="se">\</span>
+  libqt5x11extras5-dev libqt5svg5-dev libqt5sql5-sqlite
+</code></pre>
+</div>
+
+<h3 id="compilation">Compilation</h3>
+
+<p>To configure, build and install run the following commands:</p>
+<div class="language-bash highlighter-rouge"><pre class="highlight"><code>git clone https://github.com/ManuelSchneid3r/albert.git
+mkdir albert-build-release
+<span class="nb">cd </span>albert-build-release
+cmake ../albert -DCMAKE_INSTALL_PREFIX<span class="o">=</span>/usr -DCMAKE_BUILD_TYPE<span class="o">=</span>Release
+make
+sudo make install
+</code></pre>
+</div>
+
+<p>Lets go through them and clarify what they do. The first command clones the Albert git repository to the local file system. Since no destination directory is specified a directory with the name of the repository is created. The next step is to create the out-of-source-build directory. A self-explanatory name is always a good one.</p>
+
+<p>After changing the working directory to the just created build directory the <code class="highlighter-rouge">cmake</code> command configures the build environment and creates the makefiles. The first positional parameter is the path to the source directory which contains a file called <code class="highlighter-rouge">CMakeLists.txt</code>. The <code class="highlighter-rouge">-D</code> parameter sets CMake variables. <code class="highlighter-rouge">CMAKE_BUILD_TYPE</code> specifies the build type to use. If you want to report bugs it makes sense to build a debug build, since the applications contains debug symbols and its output is more verbose.</p>
+
+<p>Finally <code class="highlighter-rouge">make</code> builds the application and <code class="highlighter-rouge">sudo make install</code> installs the application on your system. Albert is not a portable application so the install step is mandatory.</p>
+
+            </div>
+        </div>
+    </article>
+    </div>
+</section>
+
+      <footer class="footer">
+  <section class="container">
+  <section>
+</footer>
+
+    </main>
+</body>
+</html>
