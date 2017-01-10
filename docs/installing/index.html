@@ -4,16 +4,17 @@
   <title>Albert - Installing Albert</title>
   <meta charset="UTF-8">
   <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <link rel="alternate" type="application/rss+xml" title="Albert RSS" href="/feed.xml">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
-  <link rel="stylesheet" href="/css/main.css">
+  <link rel="stylesheet" href="https://albertlauncher.github.io/css/main.css">
 </head>
 
 <body>
     <main class="wrapper">
       <nav class="site-header">
     <section class="container">
-        <a class="title" href="">
-            <img class="icon" src="/img/albert.svg" alt="Albert" title="Albert">
+        <a class="title" href="https://albertlauncher.github.io">
+            <img class="icon" src="https://albertlauncher.github.io/img/albert.svg" alt="Albert" title="Albert">
             <span class="title">Albert</span>
         </a>
         <nav class="navigation float-right">
@@ -79,37 +80,7 @@
 
   
   
-  <li class=""><a href="/docs/theming/">Theming Albert</a></li>
-
-  
-  
   <li class=""><a href="/docs/faq/">Troubleshooting</a></li>
-
-</ul>
-
-  
-    <h5>Dev guide</h5>
-    <ul>
-
-  
-  
-  <li class=""><a href="/docs/extending/native/">Native plugins</a></li>
-
-  
-  
-  <li class=""><a href="/docs/extending/external/">External plugins</a></li>
-
-  
-  
-  <li class=""><a href="/docs/extending/python/">Python modules</a></li>
-
-  
-  
-  <li class=""><a href="/docs/extending/javascript/">JS modules</a></li>
-
-  
-  
-  <li class=""><a href="/docs/extending/lua/">Lua modules</a></li>
 
 </ul>
 
@@ -137,26 +108,25 @@
             </div>
             <div class="column column-80">
                 <div class="float-right">
-                    <a href="https://github.com/manuelschneid3r/albert/edit/master/docs/_docs/installing.md"><i class="fa fa-pencil"></i> &nbsp;Improve this page</a>
+                    <a href="https://github.com/manuelschneid3r/albert/edit/dev/doc/albertlauncher.github.io/_docs/installing.md">Improve this page</a>
                 </div>
                 <h1>Installing Albert</h1>
-                <p>There are two ways to get albert: Using a package manager or building albert from the sources. Using a package manager is highly recommended, since it is less error prone and the necessary dependencies are pulled automatically.</p>
+                <p>There are two ways to get Albert: Using a package manager or building Albert from the sources. Using a package manager is highly recommended, since it is less error prone and the necessary dependencies are pulled automatically.</p>
 
 <h2 id="using-package-managers">Using package managers</h2>
-<p>Currently albert is not in any of the major repositories. At least some user repositories contain it. Hopefully there will be more in future:</p>
+<p>Currently Albert is not in any of the major official repositories. At least some user repositories contain it. Hopefully there will be more in future:</p>
 
-<h4 id="archlinux---aur-official">Archlinux - AUR (Official)</h4>
+<h6 id="archlinux---aur-official">Archlinux - AUR (Official)</h6>
 <div class="language-bash highlighter-rouge"><pre class="highlight"><code>yaourt albert
 </code></pre>
 </div>
-
-<h4 id="fedora---copr-rabin-iohttpsgithubcomrabin-io">Fedora - COPR (<a href="https://github.com/rabin-io">rabin-io</a>)</h4>
+<h6 id="fedora---copr-rabin-iohttpsgithubcomrabin-io">Fedora - COPR (<a href="https://github.com/rabin-io">rabin-io</a>)</h6>
 <div class="language-bash highlighter-rouge"><pre class="highlight"><code>dnf copr <span class="nb">enable </span>rabiny/albert
 dnf install albert
 </code></pre>
 </div>
 
-<h4 id="ubuntu---ppa-andrewhttpsgithubcomhoticewebupd8httpwwwwebupd8org">Ubuntu - PPA (<a href="https://github.com/hotice">Andrew</a>/<a href="http://www.webupd8.org/">webupd8</a>)</h4>
+<h6 id="ubuntu---ppa-andrewhttpsgithubcomhoticewebupd8httpwwwwebupd8org">Ubuntu - PPA (<a href="https://github.com/hotice">Andrew</a>/<a href="http://www.webupd8.org/">webupd8</a>)</h6>
 <div class="language-bash highlighter-rouge"><pre class="highlight"><code>sudo add-apt-repository ppa:nilarimogard/webupd8
 sudo apt-get update
 sudo apt-get install albert
@@ -165,7 +135,7 @@ sudo apt-get install albert
 
 <h2 id="building-from-sources">Building from sources</h2>
 
-<p>Building from sources is the least convenient, but most flexible way. The build process is trivial, but you have to manage the dependencies on your own. Before you can start building albert you need some libraries.</p>
+<p>Building from sources is the least convenient, but most flexible way. The build process is trivial, but you have to manage the dependencies on your own. Before you can start building Albert you need some libraries.</p>
 
 <h3 id="prerequisites">Prerequisites</h3>
 
@@ -186,12 +156,12 @@ sudo apt-get install albert
 
 <p>Here are some hints for the package names on some operating systems:</p>
 
-<p><strong>Arch Linux</strong></p>
+<h6 id="arch-linux">Arch Linux</h6>
 <div class="language-bash highlighter-rouge"><pre class="highlight"><code>sudo pacman -S gcc cmake qt5-base qt5-x11extras qt5-svg muparser
 </code></pre>
 </div>
 
-<p><strong>Ubuntu 14.04 and newer</strong></p>
+<h6 id="ubuntu-1404-and-newer">Ubuntu 14.04 and newer</h6>
 <div class="language-bash highlighter-rouge"><pre class="highlight"><code>sudo apt-get install g++ cmake qtbase5-dev libmuparser-dev <span class="se">\</span>
   libqt5x11extras5-dev libqt5svg5-dev libqt5sql5-sqlite
 </code></pre>
