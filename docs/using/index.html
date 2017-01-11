@@ -188,7 +188,45 @@ can quit the application by hitting <kbd>Alt</kbd>+<kbd>F4</kbd>.</p>
 
 <h2 id="the-extensions">The extensions</h2>
 
-<p>From the user perspective the application consists of the launcher, which is the main window, the settings window and the tray icon if you enabled it. However under the hood Albert has a plugin based architecture, which allows the user to modify or extend the functionality of the application.</p>
+<p>From the user perspective the application consists of the launcher, which is the main window, the settings window and the tray icon if you enabled it. However under the hood Albert has a plugin based architecture, which allows the user to modify or extend the functionality of the application.
+There are a few extensions that get shipped together with the main albert core.</p>
+
+<h4 id="mpris-control-center-coming-with-0812">MPRIS Control Center (coming with 0.8.12)</h4>
+
+<p>This extension is for linux only. It lets you control running MPRIS-capable media players like Rhythmbox or VLC.
+MPRIS (Media Player Remote Interfacing Specification) is a protocol that enables media players to be controlled via DBus.
+Currently this extension supports the following commands:</p>
+<ul>
+  <li>Play</li>
+  <li>Pause</li>
+  <li>Next</li>
+  <li>Previous</li>
+  <li>Stop</li>
+</ul>
+
+<p>Just enter the action you want to perform (like “play” to start playback) and there will be an entry for every player that is running and the action is applicable.
+I.e. when you have only one player running and it’s already playing, the Play-entry will not occure.
+Or; when you have two players running and one is playing, “next” will yield two entries. One for each player.</p>
+
+<p>If the media player supports the Raise method it can also be brought to front with albert.
+This may or may not work as well depending on the implementation of the Raise method within the media player.
+<strong>But</strong> there is no seperate entry to raise the player, this is an alternative action attached to all MPRIS-entries.</p>
+
+<p>This extension requires <code class="highlighter-rouge">libQt5DBus.so</code> to be installed.</p>
+
+<h4 id="virtualbox">VirtualBox</h4>
+
+<p>This extension lets you control your VirtualBox VMs. It supports various states in which the VM can be:</p>
+<ul>
+  <li>starting/restoring/saving/stopping : All controls are disabled</li>
+  <li>poweroff/aborted/saved : This VM can be <strong>started</strong></li>
+  <li>running : This VM can be <strong>paused</strong>, saved and stopped</li>
+  <li>paused : This VM can be <strong>resumed</strong>, saved and reset</li>
+</ul>
+
+<p>The <strong>bold</strong> options are the main actions that will get executed if the entry is hit. The other ones are alternative actions.</p>
+
+<p>Type in the name of the VM you want to manipulate and an entry will appear.</p>
 
 <blockquote>
   <p><em>TODO</em></p>
