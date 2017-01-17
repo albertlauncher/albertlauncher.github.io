@@ -7,6 +7,66 @@
     
       
         <item>
+          <title>Albert 0.9.0 released</title>
+          <description>&lt;p&gt;Almost four months have passed since the last alpha release. Dozens of hours of contemplation about a sophisticated design, dozens of hours of implementation and even a broken arm later I am happy to announce the release of Albert v0.9.0.&lt;/p&gt;
+
+&lt;p&gt;This release comes with a new architecture that allows extensions to register extensions themselves. Based on this changes a new extension &lt;em&gt;“External extensions”&lt;/em&gt; has been implemented, which can be used to let Albert run external programs and scripts as extensions. Here’s an example of an external bash extension that lets you run the scan popup of goldendict as external search engine:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;#!/bin/bash&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;case&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$ALBERT_OP&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;in&lt;/span&gt;
+  &lt;span class=&quot;s2&quot;&gt;&quot;METADATA&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;nv&quot;&gt;STDOUT&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'{
+      &quot;iid&quot;:&quot;org.albert.extension.external/v2.0&quot;,
+      &quot;name&quot;:&quot;Goldendict&quot;,
+      &quot;version&quot;:&quot;1.0&quot;,
+      &quot;author&quot;:&quot;Manuel Schneider&quot;,
+      &quot;dependencies&quot;:[&quot;goldendict&quot;],
+      &quot;trigger&quot;:&quot;gd &quot;
+    }'&lt;/span&gt;
+    &lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; -n &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;${&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;STDOUT&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+    &lt;span class=&quot;nb&quot;&gt;exit &lt;/span&gt;0
+    &lt;span class=&quot;p&quot;&gt;;;&lt;/span&gt;
+  &lt;span class=&quot;s2&quot;&gt;&quot;QUERY&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;nv&quot;&gt;QUERYSTRING&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;${&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;ALBERT_QUERY&lt;/span&gt;:3&lt;span class=&quot;k&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+    &lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; -n &lt;span class=&quot;s1&quot;&gt;'{
+      &quot;items&quot;:[{
+        &quot;id&quot;:&quot;goldendict&quot;,
+        &quot;name&quot;:&quot;Use goldendict to lookup '&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;'&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;${&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;QUERYSTRING&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;'&quot;&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'&quot;,
+        &quot;description&quot;:&quot;Opens the scan popup and searches for '&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;'&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;${&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;QUERYSTRING&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;'&quot;&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'.&quot;,
+        &quot;icon&quot;:&quot;goldendict&quot;,
+        &quot;actions&quot;:[{
+          &quot;name&quot;:&quot;goldendict&quot;,
+          &quot;command&quot;:&quot;goldendict&quot;,
+          &quot;arguments&quot;:[&quot;'&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;${&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;QUERYSTRING&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'&quot;]
+        }]
+      }]
+    }'&lt;/span&gt;
+    &lt;span class=&quot;nb&quot;&gt;exit &lt;/span&gt;0
+    &lt;span class=&quot;p&quot;&gt;;;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;esac&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;Just a few words on this to get you started. The core application runs the extension with several environment variables set. The vars used in this script are &lt;code class=&quot;highlighter-rouge&quot;&gt;$ALBERT_OP&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;$ALBERT_QUERY&lt;/code&gt;. &lt;code class=&quot;highlighter-rouge&quot;&gt;$ALBERT_OP&lt;/code&gt; tells the extension what to do. When the user enters a query the extension is started with &lt;code class=&quot;highlighter-rouge&quot;&gt;$ALBERT_OP&lt;/code&gt; set to &lt;code class=&quot;highlighter-rouge&quot;&gt;QUERY&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;$ALBERT_QUERY&lt;/code&gt; set to the string that the user entered.&lt;/p&gt;
+
+&lt;p&gt;The bash script in the listing above extracts the query string by cutting the trigger prefix and runs goldendict with this query string, which opens the goldendict scan popup with the query string. Now this was quick! For the details check the relevant section in the documentation.&lt;/p&gt;
+
+&lt;p&gt;Further, finally a Firefox bookmark extension made it into the extension inventory. Just as the chrome bookmarks extension the extension basically indexes the bookmarks and makes them accessible via Albert. In the settings you can choose the user profile you want to track and set if the bookmarks should open in the default browser or in Firefox.&lt;/p&gt;
+
+&lt;p&gt;The virtual box extension got some major improvements as well. You can now control the state of the virtual machine, i.e. if it is turned off you can run it (as before), if it runs you can pause, stop or save it, if it is paused… I think you got it.&lt;/p&gt;
+
+&lt;p&gt;Transparent to the user, things changed a lot under the hood to make albert even better and of course several bug fixes made it into v0.9.0 as well. If you want to see the complete changes check the git log.&lt;/p&gt;
+
+&lt;p&gt;Have fun with it!&lt;/p&gt;
+</description>
+          <pubDate>2017-01-17T14:49:00+01:00</pubDate>
+          <link>https://albertlauncher.github.io/2017/01/17/albert-v0.9.0-released.html</link>
+          <guid isPermaLink="true">https://albertlauncher.github.io/2017/01/17/albert-v0.9.0-released.html</guid>
+        </item>
+      
+    
+      
+        <item>
           <title>Repository moved to organization page</title>
           <description>&lt;p&gt;Finally albert moved from my &lt;a href=&quot;https://github.com/manuelschneid3r&quot;&gt;user page&lt;/a&gt; to the &lt;a href=&quot;https://github.com/albertlauncher&quot;&gt;albert organization page&lt;/a&gt;. The repository url is now &lt;a href=&quot;https://github.com/albertlauncher/albert.git&quot;&gt;https://github.com/albertlauncher/albert.git&lt;/a&gt;. This has some implications for developers who cloned the repository: The git remote urls are now invalid. Fix them by using the git commandline (or your git tool of choice):&lt;/p&gt;
 
@@ -27,7 +87,7 @@
 
 &lt;p&gt;Using &lt;a href=&quot;https://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt; and a handcrafted theme based on the &lt;a href=&quot;https://milligram.github.io/&quot;&gt;Milligram CSS framework&lt;/a&gt; the static website offers a nice reading experience and is still somewhat maintainable for a lazy c++ guy. The docs are dynamically generated from markdown sources and allow Github users to send pull request for modifications, e.g. typos. News post are dynamically generated too and even build a RSS news feed to allow interested users to subscribe and be up to date.&lt;/p&gt;
 </description>
-          <pubDate>2017-01-09T00:00:00+01:00</pubDate>
+          <pubDate>2017-01-09T18:17:00+01:00</pubDate>
           <link>https://albertlauncher.github.io/2017/01/09/albert-now-has-a-website.html</link>
           <guid isPermaLink="true">https://albertlauncher.github.io/2017/01/09/albert-now-has-a-website.html</guid>
         </item>
