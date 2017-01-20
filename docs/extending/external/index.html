@@ -85,6 +85,20 @@
 </ul>
 
   
+    <h5>Dev guide</h5>
+    <ul>
+
+  
+  
+  <li class=""><a href="/docs/extending/native/">Native plugins</a></li>
+
+  
+  
+  <li class="current"><a href="/docs/extending/external/">External plugins</a></li>
+
+</ul>
+
+  
     <h5>Meta</h5>
     <ul>
 
@@ -107,33 +121,64 @@
                     <a href="https://github.com/albertlauncher/documentation/edit/master/src/_docs/extending/external.md">Improve this page</a>
                 </div>
                 <h1>External plugins</h1>
-                <p>Albert can be extended using regular executables. They are used like plugins, however the executables are separate processes which have separate address spaces. Therefore these executables are called <em>external extensions</em>.</p>
+                <blockquote>
+  <p>Currently the term extension and plugin is used interchangeably</p>
+</blockquote>
 
-<p>An external plugin basically acts as a listener. The plugin listens on the <code class="highlighter-rouge">stdin</code> data stream for requests and responds using the <code class="highlighter-rouge">stdout</code> channel. Generally such requests consist of a mandatory command and optional parameters. The set of commands, the expected responses and their format are defined in the section <em>Communication protocol</em>.</p>
+<p>Albert can be extended using regular executables. They are used like plugins, however the executables are separate processes which have separate address spaces. Therefore these executables are called <em>external plugins</em>.</p>
 
-<p>The great flexibility of the external plugins comes at a price: Since an external plugin is a separate process it has no access to the core components and helper classes. This holds the other way around as well,which means actions of the results passed to the core application are restricted to the execution of programs with parameters. Further the time to respond to the requests is limited.</p>
+<p>An external plugin (hereafter plugin) is basically an executable which has a particular interface. Imagine the plugin as a set of functions that can be dynamically invoked. Which function is invoked, is defined by the environment variable <code class="highlighter-rouge">$ALBERT_OP</code>. The plugin should read this environment variable and react accordingly. Additionally to the mandatory environment variable <code class="highlighter-rouge">$ALBERT_OP</code> there may be some other variables defined. Imagine those as the parameters to the dynamic function. The return value of this function is returned to the application through the standard output stream (stdout). Depending on the ALBERT_OP the expected data may differ, but all responses have to be a JSON object containing properties. The set of possible <code class="highlighter-rouge">$ALBERT_OP</code>s and the expected properties and their structures are defined in the section <em>Communication protocol</em>.</p>
 
-<h4 id="communication-protocol">Communication protocol</h4>
+<p>To save state between the executions the plugin can return a JSON object called “variables”. The properties of the object “variables” will be set as environment variables in the next execution. Note that this properties have to be strings otherwise they will not be set in the environment.</p>
 
-<p><code class="highlighter-rouge">INITIALIZE</code> is sent when the plugin has been loaded. Upon receiving this message the plugin shall initialize itself and check for dependencies. If no errors occurred in the initialization the plugin has to send <code class="highlighter-rouge">ACK</code>. If the response does not contain <code class="highlighter-rouge">ACK</code> the return message will be interpreted as an error string and the plugin will be unloaded. The process has 10 seconds to initialize itself. If the timeout is exceeded the plugin will be killed/unloaded forcefully.</p>
+<h2 id="communication-protocol-v2">Communication protocol (v2)</h2>
 
-<p><code class="highlighter-rouge">FINALIZE</code> is sent when the plugin is about to be unloaded. The plugin is assumed to finalize itself and quit the process. The process has 10 seconds to finalize itself. If the timeout is exceeded the plugin will be killed/unloaded forcefully.</p>
+<p><code class="highlighter-rouge">METADATA</code>
+The application wants to get the metadata of the extenion. It should have the
+following keys:</p>
 
-<p><code class="highlighter-rouge">SETUPSESSION</code>/<code class="highlighter-rouge">TEARDOWNSESSION</code> are sent when the user started/ended a session. This is intended to trigger preparation/cleanup of a incoming/past queries. This operation has no timeout and no response is expected. However be aware that since this operation is not synchronized another message, which has a timeout, could have been sent while processing this message.</p>
+<ul>
+  <li><code class="highlighter-rouge">iid</code> (string, mandatory)</li>
+  <li><code class="highlighter-rouge">version</code> (string, defaults to ‘N/A’)</li>
+  <li><code class="highlighter-rouge">name</code> (string, defaults to $id)</li>
+  <li><code class="highlighter-rouge">trigger</code> (string, defaults to ‘empty’)</li>
+  <li><code class="highlighter-rouge">author</code> (string, defaults to ‘N/A’)</li>
+  <li><code class="highlighter-rouge">dependencies</code> (array of strings, defaults to ‘empty’)</li>
+</ul>
 
-<p><code class="highlighter-rouge">QUERY</code> is the request to handle a query. The rest of the line after the command is the query as the user typed it, i.e. it contains the complete query including spaces and potential triggers. The results of the query have to be returned as a JSON array containing JSON objects representing the results. The plugin has 10 ms to respond to the query. If the timeout is exceeded the plugin will be killed/unloaded forcefully.</p>
+<p>The interface id <code class="highlighter-rouge">iid</code> (currently <code class="highlighter-rouge">org.albert.extension.external/v2.0</code>) tells the application the type and version of the communication protocol . If the <code class="highlighter-rouge">iid</code> is incompatible this plugin will not show up in the plugins list. The remaining keys should be self-explanatory. Errors in this step are fatal: loading will not be continued.</p>
 
-<p>A result object has to contain the following values: <code class="highlighter-rouge">id</code>, <code class="highlighter-rouge">name</code>, <code class="highlighter-rouge">description</code>, <code class="highlighter-rouge">icon</code> and <code class="highlighter-rouge">actions</code>.</p>
+<p><code class="highlighter-rouge">INITIALIZE</code>
+The request to initialize the plugin. The plugin should check if all
+requirements are met and set the exit code accordingly. (Everything but  zero
+is an error).
+Errors in this step are fatal: loading will not be continued.</p>
+
+<p><code class="highlighter-rouge">FINALIZE</code>
+The request to finalize the plugin.</p>
+
+<p><code class="highlighter-rouge">SETUPSESSION</code>
+The request to setup for a session, meaning prepare for user queries.</p>
+
+<p><code class="highlighter-rouge">TEARDOWNSESSION</code>
+The request to teardown a session.</p>
+
+<p><code class="highlighter-rouge">QUERY</code>
+The request to handle a query. The environment variable <code class="highlighter-rouge">ALBERT_QUERY</code> contains
+the <em>complete</em> query as the user entered it into the input box, i.e. including
+potential triggers.</p>
+
+<p>Return the results by an array “items” containing JSON objects representing the results. A result object has to contain the following entries: <code class="highlighter-rouge">id</code>, <code class="highlighter-rouge">name</code>, <code class="highlighter-rouge">description</code>, <code class="highlighter-rouge">icon</code> and <code class="highlighter-rouge">actions</code>.</p>
 
 <ul>
   <li><code class="highlighter-rouge">id</code> is the plugin wide unique id of the result</li>
   <li><code class="highlighter-rouge">name</code> is the name of the result</li>
   <li><code class="highlighter-rouge">description</code> is the description of the result</li>
-  <li><code class="highlighter-rouge">icon</code> is the icon of the result</li>
-  <li><code class="highlighter-rouge">actions</code> is a JSON array of JSON objects representing the actions for the item.</li>
+  <li><code class="highlighter-rouge">icon</code> is the icon of the result (name or path)</li>
+  <li><code class="highlighter-rouge">actions</code> is a array of objects representing the actions for the item.</li>
 </ul>
 
-<p>A JSON object representing an action has to contain the following values: <code class="highlighter-rouge">name</code>, <code class="highlighter-rouge">command</code> and <code class="highlighter-rouge">arguments</code>.</p>
+<p>An object representing an action has to contain the following values: <code class="highlighter-rouge">name</code>, <code class="highlighter-rouge">command</code> and <code class="highlighter-rouge">arguments</code>.</p>
 
 <ul>
   <li><code class="highlighter-rouge">name</code> is the actions name</li>
@@ -141,25 +186,42 @@
   <li><code class="highlighter-rouge">arguments</code> is an array of parameters for <code class="highlighter-rouge">command</code></li>
 </ul>
 
-<p>An example query response could look like this:</p>
-
-<div class="language-json highlighter-rouge"><pre class="highlight"><code><span class="p">[{</span><span class="w">
-  </span><span class="nt">"id"</span><span class="p">:</span><span class="s2">"plugin.wide.unique.id"</span><span class="p">,</span><span class="w">
-  </span><span class="nt">"name"</span><span class="p">:</span><span class="s2">"An Item"</span><span class="p">,</span><span class="w">
-  </span><span class="nt">"description"</span><span class="p">:</span><span class="s2">"Nice description."</span><span class="p">,</span><span class="w">
-  </span><span class="nt">"icon"</span><span class="p">:</span><span class="s2">"/path/to/icon"</span><span class="p">,</span><span class="w">
-  </span><span class="nt">"actions"</span><span class="p">:[{</span><span class="w">
-    </span><span class="nt">"name"</span><span class="p">:</span><span class="s2">"Action name"</span><span class="p">,</span><span class="w">
-    </span><span class="nt">"command"</span><span class="p">:</span><span class="s2">"program"</span><span class="p">,</span><span class="w">
-    </span><span class="nt">"arguments"</span><span class="p">:[</span><span class="s2">"-a"</span><span class="p">]</span><span class="w">
-  </span><span class="p">},{</span><span class="w">
-    </span><span class="nt">"name"</span><span class="p">:</span><span class="s2">"Another action name"</span><span class="p">,</span><span class="w">
-    </span><span class="nt">"command"</span><span class="p">:</span><span class="s2">"another_program"</span><span class="p">,</span><span class="w">
-    </span><span class="nt">"arguments"</span><span class="p">:[</span><span class="s2">"--name"</span><span class="p">,</span><span class="w"> </span><span class="s2">"value"</span><span class="p">]</span><span class="w">
-  </span><span class="p">}]</span><span class="w">
-</span><span class="p">}]</span><span class="w">
+<p>An example:</p>
+<div class="language-json highlighter-rouge"><pre class="highlight"><code><span class="p">{</span><span class="w">
+ </span><span class="nt">"items"</span><span class="p">:</span><span class="w"> </span><span class="p">[{</span><span class="w">
+   </span><span class="nt">"id"</span><span class="p">:</span><span class="s2">"extension.wide.unique.id"</span><span class="p">,</span><span class="w">
+   </span><span class="nt">"name"</span><span class="p">:</span><span class="s2">"An Item"</span><span class="p">,</span><span class="w">
+   </span><span class="nt">"description"</span><span class="p">:</span><span class="s2">"Nice description."</span><span class="p">,</span><span class="w">
+   </span><span class="nt">"icon"</span><span class="p">:</span><span class="s2">"/path/to/icon"</span><span class="p">,</span><span class="w">
+   </span><span class="nt">"actions"</span><span class="p">:[{</span><span class="w">
+     </span><span class="nt">"name"</span><span class="p">:</span><span class="s2">"Action name 1"</span><span class="p">,</span><span class="w">
+     </span><span class="nt">"command"</span><span class="p">:</span><span class="s2">"program"</span><span class="p">,</span><span class="w">
+     </span><span class="nt">"arguments"</span><span class="p">:[</span><span class="s2">"-a"</span><span class="p">,</span><span class="w"> </span><span class="s2">"-b"</span><span class="p">]</span><span class="w">
+   </span><span class="p">},{</span><span class="w">
+     </span><span class="nt">"name"</span><span class="p">:</span><span class="s2">"Action name 2"</span><span class="p">,</span><span class="w">
+     </span><span class="nt">"command"</span><span class="p">:</span><span class="s2">"program2"</span><span class="p">,</span><span class="w">
+     </span><span class="nt">"arguments"</span><span class="p">:[</span><span class="s2">"-C"</span><span class="p">,</span><span class="w"> </span><span class="s2">"-D"</span><span class="p">]</span><span class="w">
+   </span><span class="p">}]</span><span class="w">
+ </span><span class="p">}],</span><span class="w">
+ </span><span class="nt">"variables"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+   </span><span class="nt">"some_var"</span><span class="p">:</span><span class="s2">"variable"</span><span class="p">,</span><span class="w">
+   </span><span class="nt">"some_other_var"</span><span class="p">:</span><span class="s2">"cool state"</span><span class="w">
+ </span><span class="p">}</span><span class="w">
+</span><span class="p">}</span><span class="w">
 </span></code></pre>
 </div>
+
+<h2 id="deployment">Deployment</h2>
+
+<p>Albert looks in the <a href="http://doc.qt.io/qt-5/qstandardpaths.html#StandardLocation-enum">DataLocation</a> directories of the application for the directory <code class="highlighter-rouge">external</code>. For the details check the Qt link. As an example on Linux Albert would search the following paths in this order:</p>
+
+<ul>
+  <li>~/.local/share/albert/external</li>
+  <li>/usr/local/share/albert/external</li>
+  <li>/usr/share/albert/external</li>
+</ul>
+
+<p>Ids are guaranteed to be unique. This means that if several of those path contain a plugins with identical ids, only the first found plugin will be used.</p>
 
             </div>
         </div>
