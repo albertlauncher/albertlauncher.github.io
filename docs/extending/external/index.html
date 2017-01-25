@@ -23,18 +23,17 @@
         <a href="/">Home</a>
     </li>
     <li class=dropdown "current">
-        <a href="/docs/home/">Docs</a>
+        <a href="/docs/">Docs</a>
         <div>
             <ul>
-                <li><a target="blank" href="/docs/home/"            >Overview</a></li>
-                <li><a target="blank" href="/docs/installing/"      >Installing</a></li>
-                <li><a target="blank" href="/docs/using/"           >Using</a></li>
-                <li><a target="blank" href="/docs/extending/"       >Extending</a></li>
-                <li><a target="blank" href="/docs/theming/" >Theming</a></li>
-                <li><a target="blank" href="/docs/troubleshooting/" >Troubleshooting</a></li>
-                <li><a target="blank" href="/docs/contributing"     >Contriubting</a></li>
-                <li><a target="blank" href="/docs/changelog"        >Changes</a></li>
-                <li><a target="blank" href="/docs/contact"          >Contact</a></li>
+                <li><a target="blank" href="/docs/"            >Overview</a></li>
+                <li><a target="blank" href="/docs/installing/" >Installing</a></li>
+                <li><a target="blank" href="/docs/using/"      >Using</a></li>
+                <li><a target="blank" href="/docs/extending/"  >Extending</a></li>
+                <li><a target="blank" href="/docs/theming/"    >Theming</a></li>
+                <li><a target="blank" href="/docs/faq/"        >Troubleshooting</a></li>
+                <li><a target="blank" href="/docs/contributing">Contributing</a></li>
+                <li><a target="blank" href="/docs/changelog"   >Changes</a></li>
             </ul>
         </div>
     </li>
@@ -45,7 +44,7 @@
         <a href="/help/">Help</a>
     </li>
     <li>
-        <a href="https://github.com/manuelschneid3r/albert.git"><span class="hide-on-mobiles">View on </span>GitHub</a>
+        <a href="https://github.com/albertlauncher/albert.git"><span class="hide-on-mobiles">View on </span>GitHub</a>
     </li>
 </ul>
 
@@ -64,7 +63,7 @@
 
   
   
-  <li class=""><a href="/docs/home/">Welcome</a></li>
+  <li class=""><a href=""></a></li>
 
   
   
@@ -77,6 +76,10 @@
   
   
   <li class=""><a href="/docs/extending/">Extending Albert</a></li>
+
+  
+  
+  <li class=""><a href="/docs/theming/">Theming Albert</a></li>
 
   
   
@@ -122,7 +125,7 @@
                 </div>
                 <h1>External plugins</h1>
                 <blockquote>
-  <p>Currently the term extension and plugin is used interchangeably</p>
+  <p>Note: Currently the term <em>extension</em> and <em>plugin</em> is used interchangeably</p>
 </blockquote>
 
 <p>Albert can be extended using regular executables. They are used like plugins, however the executables are separate processes which have separate address spaces. Therefore these executables are called <em>external plugins</em>.</p>
@@ -134,7 +137,7 @@
 <h2 id="communication-protocol-v2">Communication protocol (v2)</h2>
 
 <p><code class="highlighter-rouge">METADATA</code>
-The application wants to get the metadata of the extenion. It should have the
+The application wants to get the metadata of the extension. It should have the
 following keys:</p>
 
 <ul>
@@ -150,7 +153,7 @@ following keys:</p>
 
 <p><code class="highlighter-rouge">INITIALIZE</code>
 The request to initialize the plugin. The plugin should check if all
-requirements are met and set the exit code accordingly. (Everything but  zero
+requirements are met and set the exit code accordingly. (Everything but zero
 is an error).
 Errors in this step are fatal: loading will not be continued.</p>
 
