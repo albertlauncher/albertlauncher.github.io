@@ -12,7 +12,7 @@
 <body>
     <main class="wrapper">
       <nav class="site-header">
-    <section class="container">
+    <div class="container">
         <a class="title" href="https://albertlauncher.github.io">
             <img class="icon" src="https://albertlauncher.github.io/img/albert.svg" alt="Albert" title="Albert">
             <span class="title">Albert</span>
@@ -49,10 +49,10 @@
 </ul>
 
         </nav>
-    </section>
+    </div>
 </nav>
 
-      <section class="container">
+      <section class="container docs">
     <article>
         <div class="row">
             <div class="column column-20">
@@ -136,11 +136,11 @@
 
 <p>Pretty easy, however there are some caveats: Your extension must have a unique id; set it in <code class="highlighter-rouge">metadata.json</code>. To keep the code readable the main class of the extension is called <code class="highlighter-rouge">Extension</code> and if the extension returns a configuration widget it shall be called <code class="highlighter-rouge">ConfigWidget</code>. This is not strictly necessary, your code will run either way, but the intention is to unify the filenames of the plugins. This would implicitly lead to naming conflicts, therefor all classes of an extensions live in a dedicated namespace. Remember to define the namespace in the <code class="highlighter-rouge">*.ui</code> files, too. Thats it.</p>
 
-<h1 id="synchronous-and-asynchronous-queries">Synchronous and asynchronous queries</h1>
+<h2 id="synchronous-and-asynchronous-queries">Synchronous and asynchronous queries</h2>
 
 <p>All plugins have to provide a <a href="#the-plugin-specification">plugin specification</a>, which is defined in the next section, and have to reside in dedicated directories following a compulsory layout described in the section <a href="#plugin-deployment">plugin deployment</a>.</p>
 
-<h2 id="the-plugin-specification">The plugin specification</h2>
+<h3 id="the-plugin-specification">The plugin specification</h3>
 
 <p>The plugin specification is a mandatory file that has to be shipped with a plugin. Its content is <em>JSON</em> formatted and its name has to be <em>metadata.json</em>. Its fields give the application information about the plugin without having to load the plugin.</p>
 
@@ -174,10 +174,40 @@ A plugin specification could look like the following:</p>
     </div>
 </section>
 
-      <footer class="footer">
-  <section class="container">
-  <section>
-</footer>
+      
+      <script>
+  var anchorForId = function (id) {
+    var anchor = document.createElement("a");
+    anchor.className = "header-link";
+    anchor.href      = "#" + id;
+    anchor.innerHTML = "<i class=\"fa fa-link\"></i>";
+    anchor.title = "Permalink";
+    return anchor;
+  };
+
+  var linkifyAnchors = function (level, containingElement) {
+    var headers = containingElement.getElementsByTagName("h" + level);
+    for (var h = 0; h < headers.length; h++) {
+      var header = headers[h];
+
+      if (typeof header.id !== "undefined" && header.id !== "") {
+        header.appendChild(anchorForId(header.id));
+      }
+    }
+  };
+
+  document.onreadystatechange = function () {
+    if (this.readyState === "complete") {
+      var contentBlock = document.getElementsByClassName("docs")[0] || document.getElementsByClassName("news")[0];
+      if (!contentBlock) {
+        return;
+      }
+      for (var level = 1; level <= 6; level++) {
+        linkifyAnchors(level, contentBlock);
+      }
+    }
+  };
+</script>
 
     </main>
 </body>

@@ -12,7 +12,7 @@
 <body>
     <main class="wrapper">
       <nav class="site-header">
-    <section class="container">
+    <div class="container">
         <a class="title" href="https://albertlauncher.github.io">
             <img class="icon" src="https://albertlauncher.github.io/img/albert.svg" alt="Albert" title="Albert">
             <span class="title">Albert</span>
@@ -49,10 +49,10 @@
 </ul>
 
         </nav>
-    </section>
+    </div>
 </nav>
 
-      <section class="container">
+      <section class="container docs">
     <article>
         <div class="row">
             <div class="column column-20">
@@ -147,13 +147,10 @@ sudo apt-get install albert
 </div>
 
 <h6 id="debian-8-jessie-idkcppadminlounge">Debian 8 Jessie (<a href="https://github.com/idkcpp">idkcpp</a>/<a href="https://software.adminlounge.org/">AdminLounge</a>)</h6>
-<div class="language-bash highlighter-rouge"><pre class="highlight"><code>wget -qO - https://repo.adminlounge.org/archive.key | sudo apt-key add -
-
-<span class="c"># Either</span>
-sudo <span class="nb">echo</span> <span class="s2">"deb http://repo.adminlounge.org/ jessie main"</span> &gt;&gt; /etc/apt/sources.list
-<span class="c"># Or</span>
-sudo <span class="nb">echo</span> <span class="s2">"deb http://repo.adminlounge.org/ jessie main"</span> &gt; /etc/apt/sources.list.d/adminlounge.list
-
+<div class="language-bash highlighter-rouge"><pre class="highlight"><code>wget -qO - https://repo.adminlounge.org/archive.key <span class="se">\</span>
+    | sudo apt-key add -
+sudo <span class="nb">echo</span> <span class="s2">"deb http://repo.adminlounge.org/ jessie main"</span> <span class="se">\</span>
+    &gt; /etc/apt/sources.list.d/adminlounge.list
 sudo apt-get update
 sudo apt-get install albert
 </code></pre>
@@ -221,10 +218,40 @@ sudo make install
     </div>
 </section>
 
-      <footer class="footer">
-  <section class="container">
-  <section>
-</footer>
+      
+      <script>
+  var anchorForId = function (id) {
+    var anchor = document.createElement("a");
+    anchor.className = "header-link";
+    anchor.href      = "#" + id;
+    anchor.innerHTML = "<i class=\"fa fa-link\"></i>";
+    anchor.title = "Permalink";
+    return anchor;
+  };
+
+  var linkifyAnchors = function (level, containingElement) {
+    var headers = containingElement.getElementsByTagName("h" + level);
+    for (var h = 0; h < headers.length; h++) {
+      var header = headers[h];
+
+      if (typeof header.id !== "undefined" && header.id !== "") {
+        header.appendChild(anchorForId(header.id));
+      }
+    }
+  };
+
+  document.onreadystatechange = function () {
+    if (this.readyState === "complete") {
+      var contentBlock = document.getElementsByClassName("docs")[0] || document.getElementsByClassName("news")[0];
+      if (!contentBlock) {
+        return;
+      }
+      for (var level = 1; level <= 6; level++) {
+        linkifyAnchors(level, contentBlock);
+      }
+    }
+  };
+</script>
 
     </main>
 </body>
