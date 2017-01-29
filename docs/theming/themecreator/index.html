@@ -55,7 +55,7 @@
       <section class="container">
     <article>
         <h1>Theme Creator</h1>
-        <link rel="stylesheet/less" type="text/css" href="https://albertlauncher.github.io/css/themecreator/style.less"/>
+        <link rel="stylesheet" href="https://albertlauncher.github.io/css/themecreator.css">
 
 <div class="welcome">
     <p>Welcome to the Albert theme creator! Here you can create your own theme customizing the options below.</p>
@@ -63,10 +63,17 @@
     <pre>~/.local/share/albert/themes/yourthemename.qss</pre>
     Close Albert and open again. You should see your theme.</p>
 </div>
-<div class="albert">
+
+<div id="albert">
     <div id="frame">
-        <input id="inputLine" type="text" value="Hi, I'm Albert!"/>
-        <div id="settingsButton"><i></i></div>
+        <input id="inputLine" type="text" value="Hi, I'm Albert!" autofocus/>
+        <div id="settingsButton">
+            <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 200 200" id="svg" class="a">
+                <metadata id="metadata11" class="undefined"/>
+                <defs id="defs4" class="undefined"/>
+                <path d="M110.5 0.5L100 20 67.5 26.9 50 13.4 19.1 41.2 30.7 60 20.4 91.6 0 100 8.6 140.7 30.7 140 53 164.7 50 186.6 89.5 199.5 100 180 132.5 173.1 150 186.6 180.9 158.8 169.3 140 179.6 108.4 200 100 191.4 59.3 169.3 60 147 35.3 150 13.4 110.5 0.5zM100 60A40 40 0 0 1 140 100 40 40 0 0 1 100 140 40 40 0 0 1 60 100 40 40 0 0 1 100 60z" id="path9" class="undefined"/>
+            </svg>
+        </div>
 
         <div id="proposalList">
             <ul>
@@ -124,16 +131,17 @@
         </ul>
     </div>
 </div>
-<div class="options">
+
+<div id="options">
     <div>
         <h5>General</h5>
         <label>
             <span>Foreground color</span>
-            <input class="style" type="color" name="foreground_color" value="#808080">
+            <input class="style" type="color" name="foreground_color" value="#000000">
         </label>
         <label>
             <span>Background color</span>
-            <input class="style" type="color" name="background_color" value="#FFFFFF">
+            <input class="style" type="color" name="background_color" value="#000000">
         </label>
     </div>
 
@@ -145,7 +153,7 @@
         </label>
         <label>
             <span>Border color</span>
-            <input class="style" type="color" name="frame_border_color" value="#808080">
+            <input class="style" type="color" name="frame_border_color" value="#000000">
         </label>
     </div>
 
@@ -153,19 +161,19 @@
         <h5>Input</h5>
         <label>
             <span>Background color</span>
-            <input class="style" type="color" name="input_line_background_color" value="#D0D0D0">
+            <input class="style" type="color" name="input_line_background_color" value="#000000">
         </label>
         <label>
             <span>Selection background color</span>
-            <input class="style" type="color" name="input_selection_background_color" value="#808080">
+            <input class="style" type="color" name="input_selection_background_color" value="#000000">
         </label>
         <label>
             <span>Selection font color</span>
-            <input class="style" type="color" name="input_selection_font_color" value="#FFFFFF">
+            <input class="style" type="color" name="input_selection_font_color" value="#000000">
         </label>
         <label>
             <span>Color</span>
-            <input class="style" type="color" name="input_color" value="#808080">
+            <input class="style" type="color" name="input_color" value="#000000">
         </label>
         <label>
             <span>Font size</span>
@@ -177,7 +185,7 @@
         <h5>Settings</h5>
         <label>
             <span>Button color</span>
-            <input class="style" type="color" name="settings_button_color" value="#808080">
+            <input class="style" type="color" name="settings_button_color" value="#000000">
         </label>
     </div>
 
@@ -197,7 +205,7 @@
         </label>
         <label>
             <span>Selected background color</span>
-            <input class="style" type="color" name="item_selected_color" value="#808080">
+            <input class="style" type="color" name="item_selected_color" value="#000000">
         </label>
     </div>
 
@@ -209,7 +217,7 @@
         </label>
         <label>
             <span>Color</span>
-            <input class="style" type="color" name="scrollbar_color" value="#808080">
+            <input class="style" type="color" name="scrollbar_color" value="#000000">
         </label>
     </div>
 
@@ -225,10 +233,11 @@
         </label>
         <label>
             <span>Selected background color</span>
-            <input class="style" type="color" name="action_list_selected_color" value="#808080">
+            <input class="style" type="color" name="action_list_selected_color" value="#000000">
         </label>
     </div>
 </div>
+
 <div class="theme">
     <pre id="result">
 /*
@@ -327,7 +336,8 @@ QListView#proposalList::item::selected{
     <button>Click here to copy</button>
 </div>
 
-<script type="text/javascript" src="https://albertlauncher.github.io/js/themecreator/less.min.js" data-env="development"></script>
+<small>Made by <a href="https://github.com/Fuhrmann" target="_blank">@Fuhrmann</a></small>
+
 <script type="text/javascript" src="https://albertlauncher.github.io/js/themecreator/clipboard.min.js"></script>
 <script type="text/javascript" src="https://albertlauncher.github.io/js/themecreator/generator.js"></script>
     </article>

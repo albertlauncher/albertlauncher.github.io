@@ -165,19 +165,19 @@ can quit the application by hitting <kbd>Alt</kbd>+<kbd>F4</kbd>.</p>
       <td>Activate the primary action of selected item</td>
     </tr>
     <tr>
-      <td><kbd>Alt</kbd>+<kbd>⏎</kbd></td>
+      <td><kbd>Alt</kbd>+<kbd>Enter</kbd></td>
       <td>Activate the 1<sup>st</sup> fallback item with the query</td>
     </tr>
     <tr>
-      <td><kbd>Meta/Win</kbd>+<kbd>⏎</kbd></td>
+      <td><kbd>Meta/Win</kbd>+<kbd>Enter</kbd></td>
       <td>Activate the 1<sup>st</sup> alternative action of the selected item</td>
     </tr>
     <tr>
-      <td><kbd>Ctrl</kbd>+<kbd>⏎</kbd></td>
+      <td><kbd>Ctrl</kbd>+<kbd>Enter</kbd></td>
       <td>Activate the 2<sup>nd</sup> alternative action of the selected item</td>
     </tr>
     <tr>
-      <td><kbd>Shift</kbd>+<kbd>⏎</kbd></td>
+      <td><kbd>Shift</kbd>+<kbd>Enter</kbd></td>
       <td>Activate the 3<sup>rd</sup> alternative action of the selected item</td>
     </tr>
     <tr>
@@ -203,53 +203,6 @@ can quit the application by hitting <kbd>Alt</kbd>+<kbd>F4</kbd>.</p>
 
 <p>From the user perspective the application consists of the launcher, which is the main window, the settings window and the tray icon if you enabled it. However under the hood Albert has a plugin based architecture, which allows the user to modify or extend the functionality of the application.
 There are a few extensions that get shipped together with the main albert core.</p>
-
-<h4 id="files">Files</h4>
-
-<p>If some files should not be indexed, a file called <code class="highlighter-rouge">.albertignore</code> can be created containing file patterns to ignore. An <code class="highlighter-rouge">.albertignore</code> file can be placed in any folder of an indexed directory tree. Unless explicitly prevented the patterns in an <code class="highlighter-rouge">.albertignore</code> file are applied recursively in the directory tree and may be overridden in one of the descending directories by other <code class="highlighter-rouge">.albertignore</code> files. The patterns are matched relative to the folder indexed.</p>
-
-<h5 id="pattern-format">Pattern format</h5>
-
-<ul>
-  <li>Blank lines and lines starting with # are ignored.</li>
-  <li>A prefix “!” negates the pattern; any matching file excluded by a previous pattern will become included again. It is not possible to re-include a file if a parent directory of that file is excluded. Put a backslash (“") in front of the first “!” for patterns that begin with a literal “!”.</li>
-  <li>Patterns beginning with a slash “/” are <em>not</em> inherited.</li>
-</ul>
-
-<p>These pattern are used for wildcard matching. The character ‘' escapes the the wildcard characters.</p>
-
-<table>
-  <tr>
-    <td>c</td>
-    <td>Any character represents itself apart from those mentioned below. Thus c matches the character c. </td>
-  </tr>
-  <tr>
-    <td>?</td>
-    <td>Matches any single character. It is the same as . in full regexps. </td>
-  </tr>
-  <tr>
-    <td>\*</td>
-    <td>Matches zero or more of any characters. It is the same as .* in full regexps. </td>
-  </tr>
-  <tr>
-    <td>[…]</td>
-    <td>Sets of characters can be represented in square brackets, similar to full regexps. <br />The dash indicates a range of characters, e.g. [a-z].</td>
-  </tr>
-</table>
-
-<h5 id="examples">Examples:</h5>
-
-<h6 id="ignore-all-cpp-files">Ignore all cpp files:</h6>
-<div class="highlighter-rouge"><pre class="highlight"><code>*
-!*.h
-!*.cpp
-</code></pre>
-</div>
-<h6 id="ignore-all-swap-files-except-int-this-dir">Ignore all swap files except int this dir:</h6>
-<div class="highlighter-rouge"><pre class="highlight"><code>*.swp
-!/*.swp
-</code></pre>
-</div>
 
 <h4 id="mpris-control-center-coming-with-0812">MPRIS Control Center (coming with 0.8.12)</h4>
 
