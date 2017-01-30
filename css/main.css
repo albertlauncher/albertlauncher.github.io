@@ -7,7 +7,10 @@ body {
   font-family: 'Roboto', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
   font-size: 1.6em;
   line-height: 1.6;
-  font-weight: 300; }
+  font-weight: 300;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+  overflow-y: scroll;
+  margin: 0px; }
 
 *,
 *:after,
@@ -512,8 +515,8 @@ img {
   .wrapper .container {
     max-width: 72rem; }
   .wrapper > .container {
-    padding-bottom: 7.5rem;
-    padding-top: 7.5rem; }
+    padding-bottom: 3rem;
+    padding-top: 3rem; }
 
 .header {
   background-color: #f4f5f6;
@@ -525,8 +528,8 @@ img {
     border-top: 0; }
   .header .container {
     border-top: 0;
-    padding-bottom: 7.5rem;
-    padding-top: 7.5rem;
+    padding-bottom: 3rem;
+    padding-top: 3rem;
     position: relative;
     text-align: center; }
   .header .title {
@@ -542,14 +545,11 @@ img {
         margin-bottom: 4rem;
         margin-top: 2rem; } }
 
-body {
-  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
-  overflow-y: scroll; }
-  body a {
-    -moz-transition: color 0.5s cubic-bezier(0.66, 0, 0.33, 1);
-    -o-transition: color 0.5s cubic-bezier(0.66, 0, 0.33, 1);
-    -webkit-transition: color 0.5s cubic-bezier(0.66, 0, 0.33, 1);
-    transition: color 0.5s cubic-bezier(0.66, 0, 0.33, 1); }
+a {
+  -moz-transition: color 0.5s cubic-bezier(0.66, 0, 0.33, 1);
+  -o-transition: color 0.5s cubic-bezier(0.66, 0, 0.33, 1);
+  -webkit-transition: color 0.5s cubic-bezier(0.66, 0, 0.33, 1);
+  transition: color 0.5s cubic-bezier(0.66, 0, 0.33, 1); }
 
 p {
   text-align: justify;
@@ -589,6 +589,10 @@ h5:hover .header-link,
 h6:hover .header-link {
   opacity: 1; }
 
+.stuck {
+  position: fixed;
+  top: 20px; }
+
 .site-header {
   background: #f4f5f6;
   border-bottom: 0.1rem solid #d1d1d1;
@@ -596,7 +600,6 @@ h6:hover .header-link {
   height: 5.2rem;
   left: 0;
   max-width: 100%;
-  position: fixed;
   right: 0;
   top: 0;
   width: 100%;
@@ -658,78 +661,6 @@ aside li {
     transform: rotate(0); }
   25%, 75% {
     transform: rotate(-25deg); } }
-.dropdown {
-  position: relative;
-  display: inline-block; }
-  .dropdown:hover > div {
-    display: block; }
-  .dropdown > div {
-    display: none;
-    list-style: none;
-    background: #fff;
-    border: 0.1rem solid #d1d1d1;
-    border-radius: 0.5rem;
-    filter: drop-shadow(0rem 0.5rem 0.5rem rgba(0, 0, 0, 0.3));
-    position: absolute;
-    left: 50%;
-    top: 90%;
-    transform: translateX(-50%); }
-    .dropdown > div:after, .dropdown > div:before {
-      border: solid transparent;
-      border-color: transparent;
-      border-width: 1rem;
-      content: " ";
-      height: 0;
-      left: 50%;
-      pointer-events: none;
-      position: absolute;
-      right: 1.7rem;
-      top: 0;
-      width: 0; }
-    .dropdown > div:after {
-      border-bottom-color: #fff;
-      transform: translate(-50%, -100%); }
-    .dropdown > div:before {
-      border-bottom-color: #d1d1d1;
-      transform: translate(-50%, -102%); }
-    .dropdown > div > ul {
-      list-style: none;
-      padding: 0;
-      margin: 0; }
-      .dropdown > div > ul > li {
-        margin: 0; }
-        .dropdown > div > ul > li:hover > a {
-          background: #00cccc;
-          border-bottom-color: #00cccc;
-          color: #fff; }
-        .dropdown > div > ul > li > a {
-          display: block;
-          border-bottom: 0.1rem solid #d1d1d1;
-          color: #606c76;
-          font-size: 1.2rem;
-          padding: 0.8rem 2.5rem;
-          position: relative;
-          text-align: center;
-          text-decoration: none;
-          white-space: nowrap;
-          -moz-transition-property: border-bottom-color, background-color, color;
-          -o-transition-property: border-bottom-color, background-color, color;
-          -webkit-transition-property: border-bottom-color, background-color, color;
-          transition-property: border-bottom-color, background-color, color;
-          -moz-transition-timing-function: cubic-bezier(0.66, 0, 0.33, 1);
-          -o-transition-timing-function: cubic-bezier(0.66, 0, 0.33, 1);
-          -webkit-transition-timing-function: cubic-bezier(0.66, 0, 0.33, 1);
-          transition-timing-function: cubic-bezier(0.66, 0, 0.33, 1);
-          -moz-transition-duration: 0.33s;
-          -o-transition-duration: 0.33s;
-          -webkit-transition-duration: 0.33s;
-          transition-duration: 0.33s; }
-        .dropdown > div > ul > li:first-child > a {
-          border-radius: 0.5rem 0.5rem 0 0; }
-        .dropdown > div > ul > li:last-child > a {
-          border-bottom-width: 0;
-          border-radius: 0 0 0.5rem 0.5rem; }
-
 .share,
 .share-list,
 .share-list a {

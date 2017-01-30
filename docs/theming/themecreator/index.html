@@ -22,20 +22,8 @@
     <li class="">
         <a href="/">Home</a>
     </li>
-    <li class="dropdown current">
+    <li class="current">
         <a href="/docs/">Docs</a>
-        <div>
-            <ul>
-                <li><a target="blank" href="/docs/"            >Overview</a></li>
-                <li><a target="blank" href="/docs/installing/" >Installing</a></li>
-                <li><a target="blank" href="/docs/using/"      >Using</a></li>
-                <li><a target="blank" href="/docs/extending/"  >Extending</a></li>
-                <li><a target="blank" href="/docs/theming/"    >Theming</a></li>
-                <li><a target="blank" href="/docs/faq/"        >Troubleshooting</a></li>
-                <li><a target="blank" href="/docs/contributing">Contributing</a></li>
-                <li><a target="blank" href="/docs/changelog"   >Changes</a></li>
-            </ul>
-        </div>
     </li>
     <li class="">
         <a href="/news/">News</a>
@@ -376,6 +364,20 @@ QListView#proposalList::item::selected{
       }
     }
   };
+
+  var topEdge
+  document.onscroll = function () {
+    if (topEdge === undefined)
+      topEdge = document.getElementById("doc_nav").getBoundingClientRect().top+window.pageYOffset-20;
+
+    if ( window.pageYOffset > topEdge)
+      document.getElementById("doc_nav").classList.add("stuck");
+    else
+      document.getElementById("doc_nav").classList.remove("stuck");
+  };
+
+
+
 </script>
 
     </main>
