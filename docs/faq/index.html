@@ -158,6 +158,10 @@
 
 <p>Sorry, I cant help you with this. Waylands integration into the major DEs is far from mature. Wayland support needs a lot of time and hopefully these infancy problems vanish with time. I’d like to invest the little time I have to do things <a href="https://en.wikipedia.org/wiki/No_Silver_Bullet">essential</a> to the development of albert. If you google a bit, you will find out that a lot of applications have problems with Wayland. However if you are willing I’d appreciate to get help with that problems.</p>
 
+<h5 id="hidpi">HiDPI?</h5>
+
+<p>This is up to Qt. Unfortunately Qt does not support <a href="http://doc.qt.io/qt-5/highdpi.html">HiDPI scaling</a> until 5.6. From there on you can use <code class="highlighter-rouge">QT_SCALE_FACTOR=2 albert</code> to run albert scaled. A better solution might be to set <code class="highlighter-rouge">QT_AUTO_SCREEN_SCALE_FACTOR=1</code> globally. This enables automatic scaling, based on the pixel density of the monitor. Note that this affects all Qt applications.</p>
+
             </div>
         </div>
     </article>
