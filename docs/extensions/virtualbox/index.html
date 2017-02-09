@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html lang="en-US">
 <head>
-  <title>Albert - Extending Albert</title>
+  <title>Albert - VirtualBox extension</title>
   <meta charset="UTF-8">
   <link rel="icon" type="image/x-icon" href="/favicon.ico">
   <link rel="alternate" type="application/rss+xml" title="Albert RSS" href="/feed.xml">
@@ -63,7 +63,7 @@
 
   
   
-  <li class="current"><a href="/docs/extending/">Extending Albert</a></li>
+  <li class=""><a href="/docs/extending/">Extending Albert</a></li>
 
   
   
@@ -109,16 +109,20 @@
             </div>
             <div class="column column-80">
                 <div class="float-right">
-                    <a href="https://github.com/albertlauncher/documentation/edit/master/src/_docs/extending.md">Improve this page</a>
+                    <a href="https://github.com/albertlauncher/documentation/edit/master/src/_docs/extensions/virtualbox.md">Improve this page</a>
                 </div>
-                <h1>Extending Albert</h1>
-                <p>Albert has a flexible extension system, which provides users and developers with the ability to extend the functionality by creating <em>plugins</em>. These plugins can be used to provide several kinds of functionality by implementing particular interfaces. An instance of such an interface is called an <em>extension</em>. A plugin can provide several extensions.</p>
+                <h1>VirtualBox extension</h1>
+                <p>This extension lets you control your VirtualBox VMs. It supports various states in which the VM can be:</p>
+<ul>
+  <li>starting/restoring/saving/stopping : All controls are disabled</li>
+  <li>poweroff/aborted/saved : This VM can be <strong>started</strong></li>
+  <li>running : This VM can be <strong>paused</strong>, saved and stopped</li>
+  <li>paused : This VM can be <strong>resumed</strong>, saved and reset</li>
+</ul>
 
-<p>Albert is written in C++ using the Qt framework. Since C++ knowledge is not that widespread and to make extension developers lifes easier, Albert can be extended in several ways.</p>
+<p>The <strong>bold</strong> options are the main actions that will get executed if the entry is hit. The other ones are alternative actions.</p>
 
-<p>The native and primary way is to use C++/Qt to write a QPlugin. This gives you the performance of C++, the full set of interfaces to implement, access to several utility classes and direct access to the application and Qt framework including the event loop, which allows asynchronous operations. Read more in the article about <a href="/docs/extending/native/">native plugins</a>.</p>
-
-<p>A simple and extremely flexible way to extend Albert is to use executables. This makes writing plugins less complicated and accessible to a broader community, since <em>any</em> language that can be used to build executable files can be used. However this approach is expensive in resource consumption and has several restrictions. Read more in the article about <a href="/docs/extending/external/">external plugins</a>.</p>
+<p>Type in the name of the VM you want to manipulate and an entry will appear.</p>
 
             </div>
         </div>

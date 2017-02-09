@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html lang="en-US">
 <head>
-  <title>Albert - Extending Albert</title>
+  <title>Albert - MPRIS extension</title>
   <meta charset="UTF-8">
   <link rel="icon" type="image/x-icon" href="/favicon.ico">
   <link rel="alternate" type="application/rss+xml" title="Albert RSS" href="/feed.xml">
@@ -63,7 +63,7 @@
 
   
   
-  <li class="current"><a href="/docs/extending/">Extending Albert</a></li>
+  <li class=""><a href="/docs/extending/">Extending Albert</a></li>
 
   
   
@@ -109,16 +109,29 @@
             </div>
             <div class="column column-80">
                 <div class="float-right">
-                    <a href="https://github.com/albertlauncher/documentation/edit/master/src/_docs/extending.md">Improve this page</a>
+                    <a href="https://github.com/albertlauncher/documentation/edit/master/src/_docs/extensions/mpris.md">Improve this page</a>
                 </div>
-                <h1>Extending Albert</h1>
-                <p>Albert has a flexible extension system, which provides users and developers with the ability to extend the functionality by creating <em>plugins</em>. These plugins can be used to provide several kinds of functionality by implementing particular interfaces. An instance of such an interface is called an <em>extension</em>. A plugin can provide several extensions.</p>
+                <h1>MPRIS extension</h1>
+                <p><strong>Note</strong>: This extension depends on the <a href="http://doc.qt.io/qt-5/qtdbus-index.html">Qt D-Bus</a> module.</p>
 
-<p>Albert is written in C++ using the Qt framework. Since C++ knowledge is not that widespread and to make extension developers lifes easier, Albert can be extended in several ways.</p>
+<p>This extension is for linux only. It lets you control running MPRIS-capable media players like Rhythmbox or VLC.
+MPRIS (Media Player Remote Interfacing Specification) is a protocol that enables media players to be controlled via DBus.
+Currently this extension supports the following commands:</p>
+<ul>
+  <li>Play</li>
+  <li>Pause</li>
+  <li>Next</li>
+  <li>Previous</li>
+  <li>Stop</li>
+</ul>
 
-<p>The native and primary way is to use C++/Qt to write a QPlugin. This gives you the performance of C++, the full set of interfaces to implement, access to several utility classes and direct access to the application and Qt framework including the event loop, which allows asynchronous operations. Read more in the article about <a href="/docs/extending/native/">native plugins</a>.</p>
+<p>Just enter the action you want to perform (like “play” to start playback) and there will be an entry for every player that is running and the action is applicable.
+I.e. when you have only one player running and it’s already playing, the Play-entry will not occure.
+Or; when you have two players running and one is playing, “next” will yield two entries. One for each player.</p>
 
-<p>A simple and extremely flexible way to extend Albert is to use executables. This makes writing plugins less complicated and accessible to a broader community, since <em>any</em> language that can be used to build executable files can be used. However this approach is expensive in resource consumption and has several restrictions. Read more in the article about <a href="/docs/extending/external/">external plugins</a>.</p>
+<p>If the media player supports the Raise method it can also be brought to front with albert.
+This may or may not work as well depending on the implementation of the Raise method within the media player.
+<strong>But</strong> there is no seperate entry to raise the player, this is an alternative action attached to all MPRIS-entries.</p>
 
             </div>
         </div>
