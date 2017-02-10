@@ -112,7 +112,9 @@
                     <a href="https://github.com/albertlauncher/documentation/edit/master/src/_docs/extensions/applications.md">Improve this page</a>
                 </div>
                 <h1>Applications extension</h1>
-                <p>The applications extension makes desktop applications runnable by albert. The concept of desktop applications is described in the <a href="https://specifications.freedesktop.org/desktop-entry-spec/latest/">freedesktop.org Desktop Entry Specification</a>. The desktop entries are looked up in the <a href="http://doc.qt.io/qt-5/qstandardpaths.html#StandardLocation-enum">ApplicationsLocation</a> meaning <code class="highlighter-rouge">~/.local/share/applications</code>, <code class="highlighter-rouge">/usr/local/share/applications</code> and <code class="highlighter-rouge">/usr/share/applications</code>.</p>
+                <p>The applications extension makes desktop applications runnable by albert. The concept of desktop applications is described in the <a href="https://specifications.freedesktop.org/desktop-entry-spec/latest/">freedesktop.org Desktop Entry Specification</a>.</p>
+
+<p>Desktop entries are looked up in the <em>applications</em> directory in the paths set in <code class="highlighter-rouge">$XDG_DATA_HOME</code> and <code class="highlighter-rouge">$XDG_DATA_DIRS</code> environment variables. If they are not set, they default to <code class="highlighter-rouge">~/.local/share</code> and <code class="highlighter-rouge">/usr/local/share:/usr/share</code>.</p>
 
 <p>Every application is represented by a desktop file which has an ID. The desktop file ID is built using the path of the desktop file relative to the applications directory and turning ‘/’ into ‘-‘. If multiple files have the same desktop file ID, the first one in the precedence order given by the paths above is used. The standard action of an application item is to start the application, the alternative actions are defined by the desktop actions in the desktop entry.</p>
 
