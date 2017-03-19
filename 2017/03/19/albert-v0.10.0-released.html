@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html lang="en-US">
 <head>
-  <title>Albert - Secure shell extension</title>
+  <title>Albert - Albert 0.10 released</title>
   <meta charset="UTF-8">
   <link rel="icon" type="image/x-icon" href="/favicon.ico">
   <link rel="alternate" type="application/rss+xml" title="Albert RSS" href="/feed.xml">
@@ -22,7 +22,7 @@
     <li class="">
         <a href="/">Home</a>
     </li>
-    <li class="current">
+    <li class="">
         <a href="/docs/">Docs</a>
     </li>
     <li class="">
@@ -40,88 +40,26 @@
     </div>
 </nav>
 
-      <section class="container docs">
+      <section class="container">
     <article>
-        <div class="row">
-            <div class="column column-20">
-              <aside id="doc_nav">
-  
-    <h5>User guide</h5>
-    <ul>
+        <h1>Albert 0.10 released</h1>
+        <p>Albert v0.10 introduces tab completion using the <kbd>Tab</kbd> key. This allows extensions to suggest a completion text for the input box. An example: You type 2+2 into the box. When you select the calculator item and press complete the equation in the input box resolves to the result 4. The alternative actions have moved to the <kbd>Alt</kbd> key, which has to be hold to show the alternative actions. The default fallback is now on <kbd>Meta</kbd>.</p>
 
-  
-  
-  <li class=""><a href=""></a></li>
+<p>Hovering over the input box the mouse wheel can now be used to browse the history, exactly the way you are used to it with <kbd>Ctrl</kbd>+.</p>
 
-  
-  
-  <li class=""><a href="/docs/installing/">Installing Albert</a></li>
+<p>Further there is a new group of themes, the Spotlight themes, which come in three flavors: Bright, Dark and Space (Gray with Blue accent).</p>
 
-  
-  
-  <li class=""><a href="/docs/using/">Using Albert</a></li>
+<p>Albert v0.10 ships with two new extensions, <a href="/docs/extensions/mpris/">MPRIS</a> and a rudimentary <a href="/docs/extensions/ssh/">Secure Shell</a> extension. Check their documentation for more details.</p>
 
-  
-  
-  <li class=""><a href="/docs/extending/">Extending Albert</a></li>
+<p>The terminal extension now provides the shell aliases too.</p>
 
-  
-  
-  <li class=""><a href="/docs/theming/">Theming Albert</a></li>
+<p>Further the files extension provides now a way to browse through paths that are <em>not</em> indexed. Queries that begin with either <code class="highlighter-rouge">/</code> or <code class="highlighter-rouge">~/</code> are interpreted as a beginning of a path and the extension lists the files in this directory. In combination with the tab completions this is a nice way to browse the file system.</p>
 
-  
-  
-  <li class=""><a href="/docs/faq/">Troubleshooting</a></li>
+<p>The application extension allows now to ignore the <code class="highlighter-rouge">OnlyShowIn</code> and <code class="highlighter-rouge">NotShowIn</code> keys in the desktop entries.</p>
 
-</ul>
+<p>For developers: The bash script to clone the template extension is now deprecated and replaced by a Python script.</p>
 
-  
-    <h5>Dev guide</h5>
-    <ul>
-
-  
-  
-  <li class=""><a href="/docs/extending/native/">Native plugins</a></li>
-
-  
-  
-  <li class=""><a href="/docs/extending/external/">External plugins</a></li>
-
-</ul>
-
-  
-    <h5>Meta</h5>
-    <ul>
-
-  
-  
-  <li class=""><a href="/docs/contributing/">Contributing</a></li>
-
-  
-  
-  <li class=""><a href="/docs/changelog/">Changelog</a></li>
-
-</ul>
-
-  
-</aside>
-
-            </div>
-            <div class="column column-80">
-                <div class="float-right">
-                    <a href="https://github.com/albertlauncher/documentation/edit/master/src/_docs/extensions/ssh.md">Improve this page</a>
-                </div>
-                <h1>Secure shell extension</h1>
-                <p>This extension scans your <code class="highlighter-rouge">/etc/ssh/config</code> and <code class="highlighter-rouge">~/.ssh/config</code> and makes your ssh hosts accessible by Albert.</p>
-
-<p>Type the trigger <code class="highlighter-rouge">ssh</code> and albert will list all your ssh hosts. When you type another word this word is used to filter the hosts by prefix match. There is one additional item that uses the complete second word as host. This item is intended to quick connect to undefined hosts.</p>
-
-<p>Parameters are not allowed. To use parameters you may want to use the terminal extension or just start a terminal.</p>
-
-            </div>
-        </div>
     </article>
-    </div>
 </section>
 
       

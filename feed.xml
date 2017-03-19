@@ -7,6 +7,31 @@
     
       
         <item>
+          <title>Albert 0.10 released</title>
+          <description>&lt;p&gt;Albert v0.10 introduces tab completion using the &lt;kbd&gt;Tab&lt;/kbd&gt; key. This allows extensions to suggest a completion text for the input box. An example: You type 2+2 into the box. When you select the calculator item and press complete the equation in the input box resolves to the result 4. The alternative actions have moved to the &lt;kbd&gt;Alt&lt;/kbd&gt; key, which has to be hold to show the alternative actions. The default fallback is now on &lt;kbd&gt;Meta&lt;/kbd&gt;.&lt;/p&gt;
+
+&lt;p&gt;Hovering over the input box the mouse wheel can now be used to browse the history, exactly the way you are used to it with &lt;kbd&gt;Ctrl&lt;/kbd&gt;+.&lt;/p&gt;
+
+&lt;p&gt;Further there is a new group of themes, the Spotlight themes, which come in three flavors: Bright, Dark and Space (Gray with Blue accent).&lt;/p&gt;
+
+&lt;p&gt;Albert v0.10 ships with two new extensions, &lt;a href=&quot;/docs/extensions/mpris/&quot;&gt;MPRIS&lt;/a&gt; and a rudimentary &lt;a href=&quot;/docs/extensions/ssh/&quot;&gt;Secure Shell&lt;/a&gt; extension. Check their documentation for more details.&lt;/p&gt;
+
+&lt;p&gt;The terminal extension now provides the shell aliases too.&lt;/p&gt;
+
+&lt;p&gt;Further the files extension provides now a way to browse through paths that are &lt;em&gt;not&lt;/em&gt; indexed. Queries that begin with either &lt;code class=&quot;highlighter-rouge&quot;&gt;/&lt;/code&gt; or &lt;code class=&quot;highlighter-rouge&quot;&gt;~/&lt;/code&gt; are interpreted as a beginning of a path and the extension lists the files in this directory. In combination with the tab completions this is a nice way to browse the file system.&lt;/p&gt;
+
+&lt;p&gt;The application extension allows now to ignore the &lt;code class=&quot;highlighter-rouge&quot;&gt;OnlyShowIn&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;NotShowIn&lt;/code&gt; keys in the desktop entries.&lt;/p&gt;
+
+&lt;p&gt;For developers: The bash script to clone the template extension is now deprecated and replaced by a Python script.&lt;/p&gt;
+</description>
+          <pubDate>2017-03-19T23:45:00+01:00</pubDate>
+          <link>https://albertlauncher.github.io/2017/03/19/albert-v0.10.0-released.html</link>
+          <guid isPermaLink="true">https://albertlauncher.github.io/2017/03/19/albert-v0.10.0-released.html</guid>
+        </item>
+      
+    
+      
+        <item>
           <title>Albert 0.9.5 released</title>
           <description>&lt;p&gt;This is a pure bugfix release. Check the &lt;a href=&quot;https://github.com/albertlauncher/albert/commits/v0.9.5&quot;&gt;git log&lt;/a&gt; for details.&lt;/p&gt;
 </description>
