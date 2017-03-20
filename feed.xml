@@ -7,6 +7,17 @@
     
       
         <item>
+          <title>Albert 0.10.1 released</title>
+          <description>&lt;p&gt;This release contains the latest hotfixes. Check the &lt;a href=&quot;https://github.com/albertlauncher/albert/commits/v0.10.1&quot;&gt;git log&lt;/a&gt; for details.&lt;/p&gt;
+</description>
+          <pubDate>2017-03-20T16:30:00+01:00</pubDate>
+          <link>https://albertlauncher.github.io/2017/03/20/albert-v0.10.1-released.html</link>
+          <guid isPermaLink="true">https://albertlauncher.github.io/2017/03/20/albert-v0.10.1-released.html</guid>
+        </item>
+      
+    
+      
+        <item>
           <title>Albert 0.10 released</title>
           <description>&lt;p&gt;Albert v0.10 introduces tab completion using the &lt;kbd&gt;Tab&lt;/kbd&gt; key. This allows extensions to suggest a completion text for the input box. An example: You type 2+2 into the box. When you select the calculator item and press complete the equation in the input box resolves to the result 4. The alternative actions have moved to the &lt;kbd&gt;Alt&lt;/kbd&gt; key, which has to be hold to show the alternative actions. The default fallback is now on &lt;kbd&gt;Meta&lt;/kbd&gt;.&lt;/p&gt;
 
@@ -25,6 +36,8 @@
 &lt;p&gt;The application extension allows now to ignore the &lt;code class=&quot;highlighter-rouge&quot;&gt;OnlyShowIn&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;NotShowIn&lt;/code&gt; keys in the desktop entries.&lt;/p&gt;
 
 &lt;p&gt;For developers: The bash script to clone the template extension is now deprecated and replaced by a Python script.&lt;/p&gt;
+
+&lt;p&gt;Check the &lt;a href=&quot;https://github.com/albertlauncher/albert/commits/v0.10.0&quot;&gt;git log&lt;/a&gt; for details.&lt;/p&gt;
 </description>
           <pubDate>2017-03-19T23:45:00+01:00</pubDate>
           <link>https://albertlauncher.github.io/2017/03/19/albert-v0.10.0-released.html</link>
