@@ -169,7 +169,7 @@ potential triggers.</p>
   <li><code class="highlighter-rouge">actions</code> is a array of objects representing the actions for the item.</li>
 </ul>
 
-<p>An object representing an action has to contain the following values: <code class="highlighter-rouge">name</code>, <code class="highlighter-rouge">command</code> and <code class="highlighter-rouge">arguments</code>.</p>
+<p>The <code class="highlighter-rouge">id</code> of the item will be used to sort the items by usage. The <code class="highlighter-rouge">name</code>, <code class="highlighter-rouge">icon</code> and <code class="highlighter-rouge">description</code> will be displayed together as an item in the results list. If <code class="highlighter-rouge">icon</code> is an absolute path, the given file will be used. If the <code class="highlighter-rouge">icon</code> is not an absolute path, the algorithm described in the <a href="https://freedesktop.org/wiki/Specifications/icon-theme-spec/">Icon Theme Specification</a> will be used to locate the icon. An object representing an action has to contain the following values: <code class="highlighter-rouge">name</code>, <code class="highlighter-rouge">command</code> and <code class="highlighter-rouge">arguments</code>.</p>
 
 <ul>
   <li><code class="highlighter-rouge">name</code> is the actions name</li>
