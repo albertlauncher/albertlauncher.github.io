@@ -1,0 +1,48 @@
+# Site settings
+title: Albert Launcher - Work in Progress
+email:
+description: A desktop-agnostic Keyboard Launcher for Linux
+url: https://albertlauncher.github.io
+encoding: "utf-8"
+
+# Build settings
+sass:
+  sass_dir: assets/sass
+  style: :compressed
+
+include: [_pages]
+exclude: [node_modules, gulpfile.js, package.json, README.md, LICENSE, yarn.lock]
+
+# Markdown
+markdown: kramdown
+kramdown:
+  input: GFM
+
+#Serving
+port: 4100
+baseurl: ""
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+  -
+    scope:
+      path: ""
+      type: "docs"
+    values:
+      layout: "documentation"
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      permalink: /news/:title/
+
+collections:
+  docs:
+    output: true

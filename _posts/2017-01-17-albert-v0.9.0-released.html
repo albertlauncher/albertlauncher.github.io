@@ -1,0 +1,60 @@
+---
+title: Albert 0.9 Released
+---
+
+<section class="container">
+  <article>
+        <h1>Albert 0.9 released</h1>
+        <p>Almost four months have passed since the last alpha release. Dozens of hours of contemplation about a sophisticated design, dozens of hours of implementation and even a broken arm later I am happy to announce the release of Albert v0.9.</p>
+
+<p>This release comes with a new architecture that allows extensions to register extensions themselves. Based on this changes a new extension <em>“External extensions”</em> has been implemented, which can be used to let Albert run external programs and scripts as extensions. Here’s an example of an external bash extension that lets you run the scan popup of goldendict as external search engine:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code><span class="c">#!/bin/bash</span>
+<span class="k">case</span> <span class="nv">$ALBERT_OP</span> <span class="k">in</span>
+  <span class="s2">"METADATA"</span><span class="p">)</span>
+    <span class="nv">STDOUT</span><span class="o">=</span><span class="s1">'{
+      "iid":"org.albert.extension.external/v2.0",
+      "name":"Goldendict",
+      "version":"1.0",
+      "author":"Manuel Schneider",
+      "dependencies":["goldendict"],
+      "trigger":"gd "
+    }'</span>
+    <span class="nb">echo</span> -n <span class="s2">"</span><span class="k">${</span><span class="nv">STDOUT</span><span class="k">}</span><span class="s2">"</span>
+    <span class="nb">exit </span>0
+    <span class="p">;;</span>
+  <span class="s2">"QUERY"</span><span class="p">)</span>
+    <span class="nv">QUERYSTRING</span><span class="o">=</span><span class="s2">"</span><span class="k">${</span><span class="nv">ALBERT_QUERY</span>:3<span class="k">}</span><span class="s2">"</span>
+    <span class="nb">echo</span> -n <span class="s1">'{
+      "items":[{
+        "id":"goldendict",
+        "name":"Use goldendict to lookup '</span><span class="s2">"'</span><span class="k">${</span><span class="nv">QUERYSTRING</span><span class="k">}</span><span class="s2">'"</span><span class="s1">'",
+        "description":"Opens the scan popup and searches for '</span><span class="s2">"'</span><span class="k">${</span><span class="nv">QUERYSTRING</span><span class="k">}</span><span class="s2">'"</span><span class="s1">'.",
+        "icon":"goldendict",
+        "actions":[{
+          "name":"goldendict",
+          "command":"goldendict",
+          "arguments":["'</span><span class="k">${</span><span class="nv">QUERYSTRING</span><span class="k">}</span><span class="s1">'"]
+        }]
+      }]
+    }'</span>
+    <span class="nb">exit </span>0
+    <span class="p">;;</span>
+<span class="k">esac</span>
+
+</code></pre>
+</div>
+<p>Just a few words on this to get you started. The core application runs the extension with several environment variables set. The vars used in this script are <code class="highlighter-rouge">$ALBERT_OP</code> and <code class="highlighter-rouge">$ALBERT_QUERY</code>. <code class="highlighter-rouge">$ALBERT_OP</code> tells the extension what to do. When the user enters a query the extension is started with <code class="highlighter-rouge">$ALBERT_OP</code> set to <code class="highlighter-rouge">QUERY</code> and <code class="highlighter-rouge">$ALBERT_QUERY</code> set to the string that the user entered.</p>
+
+<p>The bash script in the listing above extracts the query string by cutting the trigger prefix and runs goldendict with this query string, which opens the goldendict scan popup with the query string. Now this was quick! For the details check the relevant section in the documentation.</p>
+
+<p>Further, finally a Firefox bookmark extension made it into the extension inventory. Just as the chrome bookmarks extension the extension basically indexes the bookmarks and makes them accessible via Albert. In the settings you can choose the user profile you want to track and set if the bookmarks should open in the default browser or in Firefox.</p>
+
+<p>The virtual box extension got some major improvements as well. You can now control the state of the virtual machine, i.e. if it is turned off you can run it (as before), if it runs you can pause, stop or save it, if it is paused… I think you got it.</p>
+
+<p>Transparent to the user, things changed a lot under the hood to make albert even better and of course several bug fixes made it into v0.9.0 as well. If you want to see the complete changes check the <a href="https://github.com/albertlauncher/albert/commits/v0.9.0">git log</a>.</p>
+
+<p>Have fun with it!</p>
+
+    </article>
+</section>
