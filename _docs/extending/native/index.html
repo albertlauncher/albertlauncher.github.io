@@ -1,0 +1,48 @@
+---
+title: Native Plugins
+---
+
+<h1>Native plugins</h1>
+<blockquote>
+<p>NOTE: Incomplete. Come back later.</p>
+</blockquote>
+
+<ol>
+  <li>Copy the template extension using the script in the plugins folder.</li>
+  <li>Adjust the values in <code class="highlighter-rouge">metadata.json</code> and <code class="highlighter-rouge">CmakeLists.txt</code>.</li>
+  <li>Adjust the extension to your liking. Check the extension interface for members that you may or must implement.</li>
+</ol>
+
+<p>Pretty easy, however there are some caveats: Your extension must have a unique id; set it in <code class="highlighter-rouge">metadata.json</code>. To keep the code readable the main class of the extension is called <code class="highlighter-rouge">Extension</code> and if the extension returns a configuration widget it shall be called <code class="highlighter-rouge">ConfigWidget</code>. This is not strictly necessary, your code will run either way, but the intention is to unify the filenames of the plugins. This would implicitly lead to naming conflicts, therefor all classes of an extensions live in a dedicated namespace. Remember to define the namespace in the <code class="highlighter-rouge">*.ui</code> files, too. Thats it.</p>
+
+<h2 id="synchronous-and-asynchronous-queries">Synchronous and asynchronous queries</h2>
+
+<p>All plugins have to provide a <a href="#the-plugin-specification">plugin specification</a>, which is defined in the next section, and have to reside in dedicated directories following a compulsory layout described in the section <a href="#plugin-deployment">plugin deployment</a>.</p>
+
+<h3 id="the-plugin-specification">The plugin specification</h3>
+
+<p>The plugin specification is a mandatory file that has to be shipped with a plugin. Its content is <em>JSON</em> formatted and its name has to be <em>metadata.json</em>. Its fields give the application information about the plugin without having to load the plugin.</p>
+
+<p>Currently the plugin specification supports the following keys: <code class="highlighter-rouge">id</code>, <code class="highlighter-rouge">name</code>, <code class="highlighter-rouge">version</code>, <code class="highlighter-rouge">platforms</code>, <code class="highlighter-rouge">authors</code> and <code class="highlighter-rouge">dependencies</code>.</p>
+<ul>
+  <li><code class="highlighter-rouge">id</code> is the unique identifier of the app. A plugin will not be loaded if its id has been registered already by an other plugin.</li>
+  <li><code class="highlighter-rouge">name</code> is the pretty printed name of the plugin.</li>
+  <li><code class="highlighter-rouge">version</code> is, well, the version of the plugin.</li>
+  <li><code class="highlighter-rouge">platform</code> is an array that contains the platforms this plugin is written for.</li>
+  <li><code class="highlighter-rouge">authors</code> is an array of names of the developers of this plugin.</li>
+  <li><code class="highlighter-rouge">dependencies</code> is an array of dependencies of this plugin. These dependencies are mandatory for the plugin but optional for the application. The user is responsible to install them.</li>
+</ul>
+
+<p>The different types of plugins may introduce additional keys. Check the related sections.
+A plugin specification could look like the following:</p>
+
+<div class="language-json highlighter-rouge"><pre class="highlight"><code><span class="p">{</span><span class="w">
+    </span><span class="nt">"id"</span><span class="w"> </span><span class="p">:</span><span class="w">              </span><span class="s2">"org.albert.extension.bookmarks"</span><span class="p">,</span><span class="w">
+    </span><span class="nt">"name"</span><span class="w"> </span><span class="p">:</span><span class="w">            </span><span class="s2">"Bookmarks"</span><span class="p">,</span><span class="w">
+    </span><span class="nt">"version"</span><span class="w"> </span><span class="p">:</span><span class="w">         </span><span class="s2">"1.1"</span><span class="p">,</span><span class="w">
+    </span><span class="nt">"platforms"</span><span class="w"> </span><span class="p">:</span><span class="w">       </span><span class="p">[</span><span class="s2">"Linux"</span><span class="p">,</span><span class="w"> </span><span class="s2">"Mac"</span><span class="p">,</span><span class="w"> </span><span class="s2">"Windows"</span><span class="p">],</span><span class="w">
+    </span><span class="nt">"authors"</span><span class="w"> </span><span class="p">:</span><span class="w">         </span><span class="p">[</span><span class="s2">"Manuel Schneider"</span><span class="p">],</span><span class="w">
+    </span><span class="nt">"dependencies"</span><span class="w"> </span><span class="p">:</span><span class="w">    </span><span class="p">[]</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre>
+</div>

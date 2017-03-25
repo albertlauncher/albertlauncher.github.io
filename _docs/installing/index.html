@@ -1,0 +1,97 @@
+---
+title: Installing Albert
+---
+
+<h1>Installing Albert</h1>
+
+<p>There are two ways to get Albert: Using a package manager or building Albert from the sources. Using a package manager is highly recommended, since it is less error prone and the necessary dependencies are pulled automatically.</p>
+
+<h2 id="using-package-managers">Using package managers</h2>
+
+<p><font size="3rem" color="red"><i>We are looking for volunteering packagers for the missing distributions!</i></font></p>
+
+<p>Currently Albert is not in any of the major official repositories. At least some user repositories contain it. Hopefully there will be more in future:</p>
+
+<h6 id="archlinux---aur-official">Archlinux - <a href="https://aur.archlinux.org/packages/albert/">AUR</a> (Official)</h6>
+<div class="language-bash highlighter-rouge"><pre class="highlight"><code>yaourt albert
+</code></pre>
+</div>
+
+<h6 id="fedora---copr-rabin-io">Fedora - COPR (<a href="https://github.com/rabin-io">rabin-io</a>)</h6>
+<div class="language-bash highlighter-rouge"><pre class="highlight"><code>sudo dnf copr <span class="nb">enable </span>rabiny/albert
+sudo dnf install albert
+</code></pre>
+</div>
+
+<h6 id="ubuntu---ppa-hoticewebupd8">Ubuntu - PPA (<a href="https://github.com/hotice">hotice</a>/<a href="http://www.webupd8.org/">webupd8</a>)</h6>
+<div class="language-bash highlighter-rouge"><pre class="highlight"><code>sudo add-apt-repository ppa:nilarimogard/webupd8
+sudo apt-get update
+sudo apt-get install albert
+</code></pre>
+</div>
+
+<h6 id="debian-8-jessie-idkcppadminlounge">Debian 8 Jessie (<a href="https://github.com/idkcpp">idkcpp</a>/<a href="https://software.adminlounge.org/">AdminLounge</a>)</h6>
+<div class="language-bash highlighter-rouge"><pre class="highlight"><code>wget -qO - https://repo.adminlounge.org/archive.key <span class="se">\</span>
+    | sudo apt-key add -
+sudo <span class="nb">echo</span> <span class="s2">"deb http://repo.adminlounge.org/ jessie main"</span> <span class="se">\</span>
+    &gt; /etc/apt/sources.list.d/adminlounge.list
+sudo apt-get update
+sudo apt-get install albert
+</code></pre>
+</div>
+
+<h2 id="building-from-sources">Building from sources</h2>
+
+<p>Building from sources is the least convenient, but most flexible way. The build process is trivial, but you have to manage the dependencies on your own. Before you can start building Albert you need some libraries.</p>
+
+<h3 id="prerequisites">Prerequisites</h3>
+
+<p>To build Albert from sources you will need CMake (≥2.8.12) and a C++ compiler supporting at least the C++11 standard. Albert uses the following modules of the Qt toolkit (≥5.1):</p>
+
+<ul>
+  <li>QtCore, QtGui, QtWidgets, QtSQL, QtNetwork from the <a href="http://doc.qt.io/qt-5/qtmodules.html#qt-essentials">Qt Essentials</a></li>
+  <li><a href="http://doc.qt.io/qt-5/qtconcurrent-index.html">Qt Concurrent</a> for threading support</li>
+  <li><a href="doc.qt.io/qt-5/qtx11extras-index.html">Qt X11 Extras</a> for hotkeys on Linux</li>
+  <li><a href="http://doc.qt.io/qt-5/qtsvg-index.html">Qt Svg</a> for SVG rendering</li>
+</ul>
+
+<p>Further the plugins may introduce optional dependencies, e.g the calculator plugin needs the <a href="http://muparser.beltoforion.de/">muparser</a> library. If the optional dependency is not installed the plugin may refuse to load, the core application will run fine though.</p>
+
+<p>Problems may arise with distributions that split submodules into optional dependencies. E.g. Ubuntu is known to split the SQL driver submodules into separate packages. Elementary OS which builds on Ubuntu does not install optional dependencies, users may therefor encounter linkage errors a have to explicitly install the missing dependencies.</p>
+
+<p>Another concern is the difference between compile time and runtime dependencies. Some distributions ship libraries as single packages while others ship a normal package and a <em>*-dev</em> package. Dev packages usually contain the header files and static libraries additionally to the shared libraries. Normal packages are stripped down to the shared libraries. On distributions that do not differ between this kind of packages basically every package is a dev package. For the compilation on e.g. Ubuntu dev packages are needed at compile time but at runtime normal packages are sufficient.</p>
+
+<p>Here are some hints for the package names on some operating systems:</p>
+
+<h6 id="arch-linux">Arch Linux</h6>
+<div class="language-bash highlighter-rouge"><pre class="highlight"><code>sudo pacman -S gcc cmake qt5-base qt5-x11extras qt5-svg muparser
+</code></pre>
+</div>
+
+<h6 id="ubuntu-1404-and-newer">Ubuntu 14.04 and newer</h6>
+<div class="language-bash highlighter-rouge"><pre class="highlight"><code>sudo apt-get install g++ cmake qtbase5-dev libmuparser-dev <span class="se">\</span>
+  libqt5x11extras5-dev libqt5svg5-dev libqt5sql5-sqlite
+</code></pre>
+</div>
+
+<h3 id="compilation">Compilation</h3>
+
+<p>To configure, build and install run the following commands:</p>
+<div class="language-bash highlighter-rouge"><pre class="highlight"><code>git clone https://github.com/albertlauncher/albert.git
+mkdir albert-build
+<span class="nb">cd </span>albert-build
+cmake ../albert -DCMAKE_INSTALL_PREFIX<span class="o">=</span>/usr -DCMAKE_BUILD_TYPE<span class="o">=</span>Debug
+make
+sudo make install
+</code></pre>
+</div>
+
+<p>Lets go through them and clarify what they do. The first command clones the Albert git repository to the local file system. Since no destination directory is specified a directory with the name of the repository is created. The next step is to create the out-of-source-build directory. A self-explanatory name is always a good one.</p>
+
+<p>After changing the working directory to the just created build directory the <code class="highlighter-rouge">cmake</code> command configures the build environment and creates the makefiles. The first positional parameter is the path to the source directory which contains a file called <code class="highlighter-rouge">CMakeLists.txt</code>. The <code class="highlighter-rouge">-D</code> parameter sets CMake variables.</p>
+
+<p>The CMake variable <code class="highlighter-rouge">CMAKE_BUILD_TYPE</code> specifies the build type to use. If you want to report bugs it makes sense to build a <code class="highlighter-rouge">Debug</code> build, since the build then produces debugging information with which GDB can work. Core dumps of this build can be used to track down issues. Futher the make output is more verbose. If you dont want any of those that use the build type <code class="highlighter-rouge">Release</code>.</p>
+
+<p><code class="highlighter-rouge">CMAKE_INSTALL_PREFIX</code> defines the prefix for the installation directory. This value usually defaults to <code class="highlighter-rouge">/usr/local</code>. Since albert looks up libraries, plugins and stylefiles etc only <code class="highlighter-rouge">/usr</code>, <code class="highlighter-rouge">/usr/local</code> are supported. If you still want to make it work somewhere else, you have to use environment variables to manipulate XDG base dir specs and the lookup paths of the dynamic linker. Do absolutely not do this unless you exactly know what you are doing.</p>
+
+<p>Finally <code class="highlighter-rouge">make</code> builds the application and <code class="highlighter-rouge">sudo make install</code> installs the application on your system. Albert is not a portable application so the install step is mandatory.</p>

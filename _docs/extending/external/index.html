@@ -1,0 +1,110 @@
+---
+title: External Plugins
+---
+
+<h1>External plugins</h1>
+<blockquote>
+<p>Note: Currently the term <em>extension</em> and <em>plugin</em> is used interchangeably</p>
+</blockquote>
+
+<p>Albert can be extended using regular executables. They are used like plugins, however the executables are separate processes which have separate address spaces. Therefore these executables are called <em>external plugins</em>.</p>
+
+<p>An external plugin (hereafter plugin) is basically an executable which has a particular interface. Imagine the plugin as a set of functions that can be dynamically invoked. Which function is invoked, is defined by the environment variable <code class="highlighter-rouge">$ALBERT_OP</code>. The plugin should read this environment variable and react accordingly. Additionally to the mandatory environment variable <code class="highlighter-rouge">$ALBERT_OP</code> there may be some other variables defined. Imagine those as the parameters to the dynamic function. The return value of this function is returned to the application through the standard output stream (stdout). Depending on the ALBERT_OP the expected data may differ, but all responses have to be a JSON object containing properties. The set of possible <code class="highlighter-rouge">$ALBERT_OP</code>s and the expected properties and their structures are defined in the section <em>Communication protocol</em>.</p>
+
+<p>To save state between the executions the plugin can return a JSON object called “variables”. The properties of the object “variables” will be set as environment variables in the next execution. Note that this properties have to be strings otherwise they will not be set in the environment.</p>
+
+<h2 id="communication-protocol-v2">Communication protocol (v2)</h2>
+
+<p><code class="highlighter-rouge">METADATA</code>
+The application wants to get the metadata of the extension. It should have the
+following keys:</p>
+
+<ul>
+  <li><code class="highlighter-rouge">iid</code> (string, mandatory)</li>
+  <li><code class="highlighter-rouge">version</code> (string, defaults to ‘N/A’)</li>
+  <li><code class="highlighter-rouge">name</code> (string, defaults to $id)</li>
+  <li><code class="highlighter-rouge">trigger</code> (string, defaults to ‘empty’)</li>
+  <li><code class="highlighter-rouge">author</code> (string, defaults to ‘N/A’)</li>
+  <li><code class="highlighter-rouge">dependencies</code> (array of strings, defaults to ‘empty’)</li>
+</ul>
+
+<p>The interface id <code class="highlighter-rouge">iid</code> (currently <code class="highlighter-rouge">org.albert.extension.external/v2.0</code>) tells the application the type and version of the communication protocol . If the <code class="highlighter-rouge">iid</code> is incompatible this plugin will not show up in the plugins list. The remaining keys should be self-explanatory. Errors in this step are fatal: loading will not be continued.</p>
+
+<p><code class="highlighter-rouge">INITIALIZE</code>
+The request to initialize the plugin. The plugin should check if all
+requirements are met and set the exit code accordingly. (Everything but zero
+is an error).
+Errors in this step are fatal: loading will not be continued.</p>
+
+<p><code class="highlighter-rouge">FINALIZE</code>
+The request to finalize the plugin.</p>
+
+<p><code class="highlighter-rouge">SETUPSESSION</code>
+The request to setup for a session, meaning prepare for user queries.</p>
+
+<p><code class="highlighter-rouge">TEARDOWNSESSION</code>
+The request to teardown a session.</p>
+
+<p><code class="highlighter-rouge">QUERY</code>
+The request to handle a query. The environment variable <code class="highlighter-rouge">ALBERT_QUERY</code> contains
+the <em>complete</em> query as the user entered it into the input box, i.e. including
+potential triggers.</p>
+
+<p>Return the results by an array “items” containing JSON objects representing the results. A result object has to contain the following entries: <code class="highlighter-rouge">id</code>, <code class="highlighter-rouge">name</code>, <code class="highlighter-rouge">description</code>, <code class="highlighter-rouge">icon</code> and <code class="highlighter-rouge">actions</code>.</p>
+
+<ul>
+  <li><code class="highlighter-rouge">id</code> is the plugin wide unique id of the result</li>
+  <li><code class="highlighter-rouge">name</code> is the name of the result</li>
+  <li><code class="highlighter-rouge">description</code> is the description of the result</li>
+  <li><code class="highlighter-rouge">icon</code> is the icon of the result (name or path)</li>
+  <li><code class="highlighter-rouge">actions</code> is a array of objects representing the actions for the item.</li>
+</ul>
+
+<p>The <code class="highlighter-rouge">id</code> of the item will be used to sort the items by usage. The <code class="highlighter-rouge">name</code>, <code class="highlighter-rouge">icon</code> and <code class="highlighter-rouge">description</code> will be displayed together as an item in the results list. If <code class="highlighter-rouge">icon</code> is an absolute path, the given file will be used. If the <code class="highlighter-rouge">icon</code> is not an absolute path, the algorithm described in the <a href="https://freedesktop.org/wiki/Specifications/icon-theme-spec/">Icon Theme Specification</a> will be used to locate the icon. An object representing an action has to contain the following values: <code class="highlighter-rouge">name</code>, <code class="highlighter-rouge">command</code> and <code class="highlighter-rouge">arguments</code>.</p>
+
+<ul>
+  <li><code class="highlighter-rouge">name</code> is the actions name</li>
+  <li><code class="highlighter-rouge">command</code> is the program to be execute</li>
+  <li><code class="highlighter-rouge">arguments</code> is an array of parameters for <code class="highlighter-rouge">command</code></li>
+</ul>
+
+<p>An example:</p>
+<div class="language-json highlighter-rouge"><pre class="highlight"><code><span class="p">{</span><span class="w">
+ </span><span class="nt">"items"</span><span class="p">:</span><span class="w"> </span><span class="p">[{</span><span class="w">
+   </span><span class="nt">"id"</span><span class="p">:</span><span class="s2">"extension.wide.unique.id"</span><span class="p">,</span><span class="w">
+   </span><span class="nt">"name"</span><span class="p">:</span><span class="s2">"An Item"</span><span class="p">,</span><span class="w">
+   </span><span class="nt">"description"</span><span class="p">:</span><span class="s2">"Nice description."</span><span class="p">,</span><span class="w">
+   </span><span class="nt">"icon"</span><span class="p">:</span><span class="s2">"/path/to/icon"</span><span class="p">,</span><span class="w">
+   </span><span class="nt">"actions"</span><span class="p">:[{</span><span class="w">
+     </span><span class="nt">"name"</span><span class="p">:</span><span class="s2">"Action name 1"</span><span class="p">,</span><span class="w">
+     </span><span class="nt">"command"</span><span class="p">:</span><span class="s2">"program"</span><span class="p">,</span><span class="w">
+     </span><span class="nt">"arguments"</span><span class="p">:[</span><span class="s2">"-a"</span><span class="p">,</span><span class="w"> </span><span class="s2">"-b"</span><span class="p">]</span><span class="w">
+   </span><span class="p">},{</span><span class="w">
+     </span><span class="nt">"name"</span><span class="p">:</span><span class="s2">"Action name 2"</span><span class="p">,</span><span class="w">
+     </span><span class="nt">"command"</span><span class="p">:</span><span class="s2">"program2"</span><span class="p">,</span><span class="w">
+     </span><span class="nt">"arguments"</span><span class="p">:[</span><span class="s2">"-C"</span><span class="p">,</span><span class="w"> </span><span class="s2">"-D"</span><span class="p">]</span><span class="w">
+   </span><span class="p">}]</span><span class="w">
+ </span><span class="p">}],</span><span class="w">
+ </span><span class="nt">"variables"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+   </span><span class="nt">"some_var"</span><span class="p">:</span><span class="s2">"variable"</span><span class="p">,</span><span class="w">
+   </span><span class="nt">"some_other_var"</span><span class="p">:</span><span class="s2">"cool state"</span><span class="w">
+ </span><span class="p">}</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre>
+</div>
+
+<h2 id="deployment">Deployment</h2>
+
+<p>Albert looks in the <a href="http://doc.qt.io/qt-5/qstandardpaths.html#StandardLocation-enum">DataLocation</a> directories of the application for the directory <code class="highlighter-rouge">external</code>. For the details check the Qt link. As an example on Linux Albert would search the following paths in this order:</p>
+
+<ul>
+  <li>~/.local/share/albert/external</li>
+  <li>/usr/local/share/albert/external</li>
+  <li>/usr/share/albert/external</li>
+</ul>
+
+<p>Ids are guaranteed to be unique. This means that if several of those path contain a plugins with identical ids, only the first found plugin will be used.</p>
+
+<h2 id="sharing-extensions">Sharing extensions</h2>
+
+<p>There is a <a href="https://github.com/albertlauncher/external/">community repository</a> for external extension. Currently this repository is not distributed with the app. However you can clone it to your disk to use the extensions. To share your extensions you have to fork it. Read the <a href="https://github.com/albertlauncher/external/blob/master/README.md">README</a> in the repository for more information.</p>
