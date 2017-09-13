@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Albert launcher news feed</title>
+    <description>Your latest Albert news</description>
+    <link>https://albertlauncher.github.io</link>
+    
+      
+        <item>
+          <title>Albert 0.12.0 released</title>
+          <description>&lt;p&gt;Albert v0.12.0 finally comes with the capability of git-like ignore files. There have been ignore files in the versions before, but they only supported wildcard matching the filename. The ignores in v0.12.0 now support relative patterns by prefixing the pattern with a slash. This way users can define global excludes. Further the wildcard character &lt;code class=&quot;highlighter-rouge&quot;&gt;*&lt;/code&gt; now behaves like in git ignore files by matching all characters but slashes. For wildcard matching including slashes use the double asterisks &lt;code class=&quot;highlighter-rouge&quot;&gt;**&lt;/code&gt;. Further files excluded by loose patterns can be included again by prefixing the pattern by prefixing the pattern with &lt;code class=&quot;highlighter-rouge&quot;&gt;!&lt;/code&gt;. For more details and caveats check the &lt;a href=&quot;/docs/extensions/files/&quot;&gt;docs on the files extension&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The websearch extension got some attention too: The settings UI is now much more comfortable. The list now supports drag and drop and the search engines are now edited using a dedicated dialog.&lt;/p&gt;
+
+&lt;p&gt;A minor change has been made to the terminal extension: The default action now launches in a shell without terminal.&lt;/p&gt;
+
+&lt;p&gt;As always check the &lt;a href=&quot;https://github.com/albertlauncher/albert/commits/v0.12.0&quot;&gt;git log&lt;/a&gt; for details.&lt;/p&gt;
+</description>
+          <pubDate>2017-06-09T17:30:00+00:00</pubDate>
+          <link>https://albertlauncher.github.io/2017/06/09/albert-v0.12.0-released.html</link>
+          <guid isPermaLink="true">https://albertlauncher.github.io/2017/06/09/albert-v0.12.0-released.html</guid>
+        </item>
+      
+    
+      
+        <item>
+          <title>Albert 0.11.3 released</title>
+          <description>&lt;p&gt;This release contains the latest fixes. Check the &lt;a href=&quot;https://github.com/albertlauncher/albert/commits/v0.11.3&quot;&gt;git log&lt;/a&gt; for details.&lt;/p&gt;
+</description>
+          <pubDate>2017-05-28T20:00:00+00:00</pubDate>
+          <link>https://albertlauncher.github.io/2017/05/28/albert-v0.11.3-released.html</link>
+          <guid isPermaLink="true">https://albertlauncher.github.io/2017/05/28/albert-v0.11.3-released.html</guid>
+        </item>
+      
+    
+      
+        <item>
+          <title>Albert 0.11.2 released</title>
+          <description>&lt;p&gt;This release contains the latest fixes. Further the following minor things changed:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The web searches can not be enabled/disabled anymore as fallbacks. There will be a more generic mechanism that is responsible for that.&lt;/li&gt;
+  &lt;li&gt;URLs starting with &lt;code class=&quot;highlighter-rouge&quot;&gt;http&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;https&lt;/code&gt; skip the TLD validation. This way you can access e.g. host in the LAN.&lt;/li&gt;
+  &lt;li&gt;The files extension &lt;strong&gt;does not&lt;/strong&gt; require at least three chars anymore. Make sure you set your file filters correctly.&lt;/li&gt;
+  &lt;li&gt;&lt;kbd&gt;Home&lt;/kbd&gt; and &lt;kbd&gt;End&lt;/kbd&gt; now work for the results list holding &lt;kbd&gt;Ctrl&lt;/kbd&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Check the &lt;a href=&quot;https://github.com/albertlauncher/albert/commits/v0.11.2&quot;&gt;git log&lt;/a&gt; for details.&lt;/p&gt;
+</description>
+          <pubDate>2017-05-13T13:00:00+00:00</pubDate>
+          <link>https://albertlauncher.github.io/2017/05/13/albert-v0.11.2-released.html</link>
+          <guid isPermaLink="true">https://albertlauncher.github.io/2017/05/13/albert-v0.11.2-released.html</guid>
+        </item>
+      
+    
+      
+        <item>
+          <title>Albert 0.11.1 released</title>
+          <description>&lt;p&gt;This release contains the latest fixes.&lt;/p&gt;
+
+&lt;p&gt;Check the &lt;a href=&quot;https://github.com/albertlauncher/albert/commits/v0.11.1&quot;&gt;git log&lt;/a&gt; for details.&lt;/p&gt;
+</description>
+          <pubDate>2017-04-16T11:00:00+00:00</pubDate>
+          <link>https://albertlauncher.github.io/2017/04/16/albert-v0.11.1-released.html</link>
+          <guid isPermaLink="true">https://albertlauncher.github.io/2017/04/16/albert-v0.11.1-released.html</guid>
+        </item>
+      
+    
+      
+        <item>
+          <title>Albert 0.11.0 released</title>
+          <description>&lt;p&gt;Albert v0.11.0 is all about the files extension. The new release finally allows a fine-grained control of the MIME types to be indexed by the files extension. In the settings of the files extension the &lt;em&gt;Advanced&lt;/em&gt; button in the &lt;em&gt;Indexed MIME types&lt;/em&gt; group box opens a dialog which allows the user to set wildcard patterns that are used to match against the MIME types of the indexed files. Hopefully this is a partial solution for &lt;a href=&quot;https://github.com/albertlauncher/albert/issues/1&quot;&gt;#1&lt;/a&gt; for some of you too.&lt;/p&gt;
+
+&lt;p&gt;Extensions can now have multiple triggers. An example of multiple triggers is the files extension: A prefix of &lt;code class=&quot;highlighter-rouge&quot;&gt;/&lt;/code&gt; or &lt;code class=&quot;highlighter-rouge&quot;&gt;~&lt;/code&gt; triggers the files extension in browse mode.&lt;/p&gt;
+
+&lt;p&gt;The sorting algorithm is now stable. This means that items that are equal regarding their sorting order are now displayed in the order they were added to the results.&lt;/p&gt;
+
+&lt;p&gt;Based on this the browse mode now lists the results in lexicographical order with directories before the files.&lt;/p&gt;
+
+&lt;p&gt;Additionally the use of fallbacks have been disabled for triggered queries. The rationale behind this decision is that the user implicitly tells that he want something special, not a general fallback.&lt;/p&gt;
+
+&lt;p&gt;All of the changes above make the files browse mode extremely convenient and clutter free.&lt;/p&gt;
+
+&lt;p&gt;Further the websearch extension now contains an URL handler. Valid URLs are recognized as such if it contains a top- and second level domain, e.g. &lt;code class=&quot;highlighter-rouge&quot;&gt;google.com&lt;/code&gt;. The top level domain has to be one of the ones registered by the &lt;a href=&quot;http://www.iana.org/&quot;&gt;Internet Assigned Numbers Authority&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Last but not least the qss property &lt;code class=&quot;highlighter-rouge&quot;&gt;selection-color&lt;/code&gt; works as expected now.&lt;/p&gt;
+
+&lt;p&gt;As always check the &lt;a href=&quot;https://github.com/albertlauncher/albert/commits/v0.11.0&quot;&gt;git log&lt;/a&gt; for details.&lt;/p&gt;
+</description>
+          <pubDate>2017-04-15T23:00:00+00:00</pubDate>
+          <link>https://albertlauncher.github.io/2017/04/15/albert-v0.11.0-released.html</link>
+          <guid isPermaLink="true">https://albertlauncher.github.io/2017/04/15/albert-v0.11.0-released.html</guid>
+        </item>
+      
+    
+      
+        <item>
+          <title>Albert 0.10.4 released</title>
+          <description>&lt;p&gt;This release contains the latest fixes.&lt;/p&gt;
+
+&lt;p&gt;Check the &lt;a href=&quot;https://github.com/albertlauncher/albert/commits/v0.10.4&quot;&gt;git log&lt;/a&gt; for details.&lt;/p&gt;
+</description>
+          <pubDate>2017-04-14T10:00:00+00:00</pubDate>
+          <link>https://albertlauncher.github.io/2017/04/14/albert-v0.10.4-released.html</link>
+          <guid isPermaLink="true">https://albertlauncher.github.io/2017/04/14/albert-v0.10.4-released.html</guid>
+        </item>
+      
+    
+      
+        <item>
+          <title>Albert 0.10.3 released</title>
+          <description>&lt;p&gt;This release contains the latest fixes.&lt;/p&gt;
+
+&lt;p&gt;Due to problems with the indexing (#419) the terminal extension changed. The extension does no more show suggestions, but a single item to run your command instead. Further the default action is now “Run in terminal”. However the “Run in shell” action is still available in the alternative actions.&lt;/p&gt;
+
+&lt;p&gt;Check the &lt;a href=&quot;https://github.com/albertlauncher/albert/commits/v0.10.3&quot;&gt;git log&lt;/a&gt; for details.&lt;/p&gt;
+</description>
+          <pubDate>2017-04-02T18:00:00+00:00</pubDate>
+          <link>https://albertlauncher.github.io/2017/04/02/albert-v0.10.3-released.html</link>
+          <guid isPermaLink="true">https://albertlauncher.github.io/2017/04/02/albert-v0.10.3-released.html</guid>
+        </item>
+      
+    
+      
+        <item>
+          <title>Albert 0.10.2 released</title>
+          <description>&lt;p&gt;This release contains the latest fixes. Check the &lt;a href=&quot;https://github.com/albertlauncher/albert/commits/v0.10.2&quot;&gt;git log&lt;/a&gt; for details.&lt;/p&gt;
+</description>
+          <pubDate>2017-03-24T11:00:00+00:00</pubDate>
+          <link>https://albertlauncher.github.io/2017/03/24/albert-v0.10.2-released.html</link>
+          <guid isPermaLink="true">https://albertlauncher.github.io/2017/03/24/albert-v0.10.2-released.html</guid>
+        </item>
+      
+    
+      
+        <item>
+          <title>Albert 0.10.1 released</title>
+          <description>&lt;p&gt;This release contains the latest hotfixes. Check the &lt;a href=&quot;https://github.com/albertlauncher/albert/commits/v0.10.1&quot;&gt;git log&lt;/a&gt; for details.&lt;/p&gt;
+</description>
+          <pubDate>2017-03-20T15:30:00+00:00</pubDate>
+          <link>https://albertlauncher.github.io/2017/03/20/albert-v0.10.1-released.html</link>
+          <guid isPermaLink="true">https://albertlauncher.github.io/2017/03/20/albert-v0.10.1-released.html</guid>
+        </item>
+      
+    
+      
+        <item>
+          <title>Albert 0.10 released</title>
+          <description>&lt;p&gt;Albert v0.10 introduces tab completion using the &lt;kbd&gt;Tab&lt;/kbd&gt; key. This allows extensions to suggest a completion text for the input box. An example: You type 2+2 into the box. When you select the calculator item and press complete the equation in the input box resolves to the result 4. The alternative actions have moved to the &lt;kbd&gt;Alt&lt;/kbd&gt; key, which has to be hold to show the alternative actions. The default fallback is now on &lt;kbd&gt;Meta&lt;/kbd&gt;.&lt;/p&gt;
+
+&lt;p&gt;Hovering over the input box the mouse wheel can now be used to browse the history, exactly the way you are used to it with &lt;kbd&gt;Ctrl&lt;/kbd&gt;+.&lt;/p&gt;
+
+&lt;p&gt;Further there is a new group of themes, the Spotlight themes, which come in three flavors: Bright, Dark and Space (Gray with Blue accent).&lt;/p&gt;
+
+&lt;center&gt;&lt;img src=&quot;https://albertlauncher.github.io/img/v0.10.jpg&quot; alt=&quot;v0.10&quot; /&gt;&lt;/center&gt;
+
+&lt;p&gt;Albert v0.10 ships with two new extensions, &lt;a href=&quot;/docs/extensions/mpris/&quot;&gt;MPRIS&lt;/a&gt; and a rudimentary &lt;a href=&quot;/docs/extensions/ssh/&quot;&gt;Secure Shell&lt;/a&gt; extension. Check their documentation for more details.&lt;/p&gt;
+
+&lt;p&gt;The terminal extension now provides the shell aliases too.&lt;/p&gt;
+
+&lt;p&gt;Further the files extension provides now a way to browse through paths that are &lt;em&gt;not&lt;/em&gt; indexed. Queries that begin with either &lt;code class=&quot;highlighter-rouge&quot;&gt;/&lt;/code&gt; or &lt;code class=&quot;highlighter-rouge&quot;&gt;~/&lt;/code&gt; are interpreted as a beginning of a path and the extension lists the files in this directory. In combination with the tab completions this is a nice way to browse the file system.&lt;/p&gt;
+
+&lt;p&gt;The application extension allows now to ignore the &lt;code class=&quot;highlighter-rouge&quot;&gt;OnlyShowIn&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;NotShowIn&lt;/code&gt; keys in the desktop entries.&lt;/p&gt;
+
+&lt;p&gt;For developers: The bash script to clone the template extension is now deprecated and replaced by a Python script.&lt;/p&gt;
+
+&lt;p&gt;Check the &lt;a href=&quot;https://github.com/albertlauncher/albert/commits/v0.10.0&quot;&gt;git log&lt;/a&gt; for details.&lt;/p&gt;
+</description>
+          <pubDate>2017-03-19T22:45:00+00:00</pubDate>
+          <link>https://albertlauncher.github.io/2017/03/19/albert-v0.10.0-released.html</link>
+          <guid isPermaLink="true">https://albertlauncher.github.io/2017/03/19/albert-v0.10.0-released.html</guid>
+        </item>
+      
+    
+      
+        <item>
+          <title>Albert 0.9.5 released</title>
+          <description>&lt;p&gt;This is a pure bugfix release. Check the &lt;a href=&quot;https://github.com/albertlauncher/albert/commits/v0.9.5&quot;&gt;git log&lt;/a&gt; for details.&lt;/p&gt;
+</description>
+          <pubDate>2017-03-13T13:00:00+00:00</pubDate>
+          <link>https://albertlauncher.github.io/2017/03/13/albert-v0.9.5-released.html</link>
+          <guid isPermaLink="true">https://albertlauncher.github.io/2017/03/13/albert-v0.9.5-released.html</guid>
+        </item>
+      
+    
+      
+        <item>
+          <title>Albert 0.9.4 released</title>
+          <description>&lt;p&gt;This is a pure bugfix release. Check the &lt;a href=&quot;https://github.com/albertlauncher/albert/commits/v0.9.4&quot;&gt;git log&lt;/a&gt; for details.&lt;/p&gt;
+</description>
+          <pubDate>2017-03-01T10:36:00+00:00</pubDate>
+          <link>https://albertlauncher.github.io/2017/03/01/albert-v0.9.4-released.html</link>
+          <guid isPermaLink="true">https://albertlauncher.github.io/2017/03/01/albert-v0.9.4-released.html</guid>
+        </item>
+      
+    
+      
+        <item>
+          <title>Albert 0.9.3 released</title>
+          <description>&lt;p&gt;This is a pure bugfix release. Check the &lt;a href=&quot;https://github.com/albertlauncher/albert/commits/v0.9.3&quot;&gt;git log&lt;/a&gt; for details.&lt;/p&gt;
+</description>
+          <pubDate>2017-02-05T15:39:00+00:00</pubDate>
+          <link>https://albertlauncher.github.io/2017/02/05/albert-v0.9.3-released.html</link>
+          <guid isPermaLink="true">https://albertlauncher.github.io/2017/02/05/albert-v0.9.3-released.html</guid>
+        </item>
+      
+    
+      
+        <item>
+          <title>Albert 0.9.2 released</title>
+          <description>&lt;p&gt;This release contains just a few but critical fixes. Check the &lt;a href=&quot;https://github.com/albertlauncher/albert/commits/v0.9.2&quot;&gt;git log&lt;/a&gt; for details.&lt;/p&gt;
+</description>
+          <pubDate>2017-01-30T00:00:00+00:00</pubDate>
+          <link>https://albertlauncher.github.io/2017/01/30/albert-v0.9.2-released.html</link>
+          <guid isPermaLink="true">https://albertlauncher.github.io/2017/01/30/albert-v0.9.2-released.html</guid>
+        </item>
+      
+    
+      
+        <item>
+          <title>Albert 0.9.1 released</title>
+          <description>&lt;p&gt;This release was intended to contain only fixes.
+However there are some minor nifty changes recognizable by the user.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Although not planned to be made official you can scan your files by typing albert scan files. Note that this feature may disappear someday.&lt;/li&gt;
+  &lt;li&gt;You can choose the terminal command in the settings dialog. The list shows all installed terminals. If you like you can provide a custom command.&lt;/li&gt;
+  &lt;li&gt;The app icon now uses a theme icon.&lt;/li&gt;
+  &lt;li&gt;Items of the files extension have now an “Open terminal here” action.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Check the &lt;a href=&quot;https://github.com/albertlauncher/albert/commits/v0.9.1&quot;&gt;git log&lt;/a&gt; for details.&lt;/p&gt;
+</description>
+          <pubDate>2017-01-23T00:00:00+00:00</pubDate>
+          <link>https://albertlauncher.github.io/2017/01/23/albert-v0.9.1-released.html</link>
+          <guid isPermaLink="true">https://albertlauncher.github.io/2017/01/23/albert-v0.9.1-released.html</guid>
+        </item>
+      
+    
+      
+        <item>
+          <title>Albert 0.9 released</title>
+          <description>&lt;p&gt;Almost four months have passed since the last alpha release. Dozens of hours of contemplation about a sophisticated design, dozens of hours of implementation and even a broken arm later I am happy to announce the release of Albert v0.9.&lt;/p&gt;
+
+&lt;p&gt;This release comes with a new architecture that allows extensions to register extensions themselves. Based on this changes a new extension &lt;em&gt;“External extensions”&lt;/em&gt; has been implemented, which can be used to let Albert run external programs and scripts as extensions. Here’s an example of an external bash extension that lets you run the scan popup of goldendict as external search engine:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;#!/bin/bash&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;case&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$ALBERT_OP&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;in&lt;/span&gt;
+  &lt;span class=&quot;s2&quot;&gt;&quot;METADATA&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;nv&quot;&gt;STDOUT&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'{
+      &quot;iid&quot;:&quot;org.albert.extension.external/v2.0&quot;,
+      &quot;name&quot;:&quot;Goldendict&quot;,
+      &quot;version&quot;:&quot;1.0&quot;,
+      &quot;author&quot;:&quot;Manuel Schneider&quot;,
+      &quot;dependencies&quot;:[&quot;goldendict&quot;],
+      &quot;trigger&quot;:&quot;gd &quot;
+    }'&lt;/span&gt;
+    &lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; -n &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;${&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;STDOUT&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+    &lt;span class=&quot;nb&quot;&gt;exit &lt;/span&gt;0
+    &lt;span class=&quot;p&quot;&gt;;;&lt;/span&gt;
+  &lt;span class=&quot;s2&quot;&gt;&quot;QUERY&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;nv&quot;&gt;QUERYSTRING&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;${&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;ALBERT_QUERY&lt;/span&gt;:3&lt;span class=&quot;k&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+    &lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; -n &lt;span class=&quot;s1&quot;&gt;'{
+      &quot;items&quot;:[{
+        &quot;id&quot;:&quot;goldendict&quot;,
+        &quot;name&quot;:&quot;Use goldendict to lookup '&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;'&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;${&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;QUERYSTRING&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;'&quot;&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'&quot;,
+        &quot;description&quot;:&quot;Opens the scan popup and searches for '&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;'&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;${&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;QUERYSTRING&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;'&quot;&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'.&quot;,
+        &quot;icon&quot;:&quot;goldendict&quot;,
+        &quot;actions&quot;:[{
+          &quot;name&quot;:&quot;goldendict&quot;,
+          &quot;command&quot;:&quot;goldendict&quot;,
+          &quot;arguments&quot;:[&quot;'&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;${&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;QUERYSTRING&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'&quot;]
+        }]
+      }]
+    }'&lt;/span&gt;
+    &lt;span class=&quot;nb&quot;&gt;exit &lt;/span&gt;0
+    &lt;span class=&quot;p&quot;&gt;;;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;esac&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;Just a few words on this to get you started. The core application runs the extension with several environment variables set. The vars used in this script are &lt;code class=&quot;highlighter-rouge&quot;&gt;$ALBERT_OP&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;$ALBERT_QUERY&lt;/code&gt;. &lt;code class=&quot;highlighter-rouge&quot;&gt;$ALBERT_OP&lt;/code&gt; tells the extension what to do. When the user enters a query the extension is started with &lt;code class=&quot;highlighter-rouge&quot;&gt;$ALBERT_OP&lt;/code&gt; set to &lt;code class=&quot;highlighter-rouge&quot;&gt;QUERY&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;$ALBERT_QUERY&lt;/code&gt; set to the string that the user entered.&lt;/p&gt;
+
+&lt;p&gt;The bash script in the listing above extracts the query string by cutting the trigger prefix and runs goldendict with this query string, which opens the goldendict scan popup with the query string. Now this was quick! For the details check the relevant section in the documentation.&lt;/p&gt;
+
+&lt;p&gt;Further, finally a Firefox bookmark extension made it into the extension inventory. Just as the chrome bookmarks extension the extension basically indexes the bookmarks and makes them accessible via Albert. In the settings you can choose the user profile you want to track and set if the bookmarks should open in the default browser or in Firefox.&lt;/p&gt;
+
+&lt;p&gt;The virtual box extension got some major improvements as well. You can now control the state of the virtual machine, i.e. if it is turned off you can run it (as before), if it runs you can pause, stop or save it, if it is paused… I think you got it.&lt;/p&gt;
+
+&lt;p&gt;Transparent to the user, things changed a lot under the hood to make albert even better and of course several bug fixes made it into v0.9.0 as well. If you want to see the complete changes check the &lt;a href=&quot;https://github.com/albertlauncher/albert/commits/v0.9.0&quot;&gt;git log&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Have fun with it!&lt;/p&gt;
+</description>
+          <pubDate>2017-01-17T13:49:00+00:00</pubDate>
+          <link>https://albertlauncher.github.io/2017/01/17/albert-v0.9.0-released.html</link>
+          <guid isPermaLink="true">https://albertlauncher.github.io/2017/01/17/albert-v0.9.0-released.html</guid>
+        </item>
+      
+    
+      
+        <item>
+          <title>Repository moved to organization page</title>
+          <description>&lt;p&gt;Finally albert moved from my &lt;a href=&quot;https://github.com/manuelschneid3r&quot;&gt;user page&lt;/a&gt; to the &lt;a href=&quot;https://github.com/albertlauncher&quot;&gt;albert organization page&lt;/a&gt;. The repository url is now &lt;a href=&quot;https://github.com/albertlauncher/albert.git&quot;&gt;https://github.com/albertlauncher/albert.git&lt;/a&gt;. This has some implications for developers who cloned the repository: The git remote urls are now invalid. Fix them by using the git commandline (or your git tool of choice):&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git remote &lt;span class=&quot;nb&quot;&gt;set&lt;/span&gt;-url &amp;lt;name&amp;gt; https://github.com/albertlauncher/albert
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+</description>
+          <pubDate>2017-01-11T19:09:00+00:00</pubDate>
+          <link>https://albertlauncher.github.io/2017/01/11/repository-moved-to-organization.html</link>
+          <guid isPermaLink="true">https://albertlauncher.github.io/2017/01/11/repository-moved-to-organization.html</guid>
+        </item>
+      
+    
+      
+        <item>
+          <title>Albert finally has a website</title>
+          <description>&lt;p&gt;Until recently the information relevant to the user was cluttered over several places. For a motivation there was a small landing page on github-pages, the github repository had a README.md, which basically served the same purpose, to get help the user had to go to the wiki and for news… well there was nothing. Finally there is now a place where everything gets merged to a single website: The project website &lt;em&gt;&lt;a href=&quot;http://albertlauncher.github.io&quot;&gt;albertlauncher.github.io&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Using &lt;a href=&quot;https://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt; and a handcrafted theme based on the &lt;a href=&quot;https://milligram.github.io/&quot;&gt;Milligram CSS framework&lt;/a&gt; the static website offers a nice reading experience and is still somewhat maintainable for a lazy c++ guy. The docs are dynamically generated from markdown sources and allow Github users to send pull request for modifications, e.g. typos. News post are dynamically generated too and even build a RSS news feed to allow interested users to subscribe and be up to date.&lt;/p&gt;
+</description>
+          <pubDate>2017-01-09T17:17:00+00:00</pubDate>
+          <link>https://albertlauncher.github.io/2017/01/09/albert-now-has-a-website.html</link>
+          <guid isPermaLink="true">https://albertlauncher.github.io/2017/01/09/albert-now-has-a-website.html</guid>
+        </item>
+      
+    
+  </channel>
+</rss>

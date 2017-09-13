@@ -1,0 +1,214 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+  <title>Albert - Troubleshooting</title>
+  <meta charset="UTF-8">
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <link rel="alternate" type="application/rss+xml" title="Albert RSS" href="/feed.xml">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
+  <link rel="stylesheet" href="https://albertlauncher.github.io/css/main.css">
+</head>
+
+<body>
+    <main class="wrapper">
+      <nav class="site-header">
+    <div class="container">
+        <a class="title" href="https://albertlauncher.github.io">
+            <img class="icon" src="https://albertlauncher.github.io/img/albert.svg" alt="Albert" title="Albert">
+            <span class="title">Albert</span>
+        </a>
+        <nav class="navigation float-right">
+            <ul>
+    <li class="">
+        <a href="/">Home</a>
+    </li>
+    <li class="current">
+        <a href="/docs/">Docs</a>
+    </li>
+    <li class="">
+        <a href="/news/">News</a>
+    </li>
+    <li class="">
+        <a href="/help/">Help</a>
+    </li>
+    <li>
+        <a href="https://github.com/albertlauncher/albert.git"><span class="hide-on-mobiles">View on </span>GitHub</a>
+    </li>
+</ul>
+
+        </nav>
+    </div>
+</nav>
+
+      <section class="container docs">
+    <article>
+        <div class="row">
+            <div class="column column-20">
+              <aside id="doc_nav">
+  
+    <h5>User guide</h5>
+    <ul>
+
+  
+  
+  <li class=""><a href=""></a></li>
+
+  
+  
+  <li class=""><a href="/docs/installing/">Installing Albert</a></li>
+
+  
+  
+  <li class=""><a href="/docs/using/">Using Albert</a></li>
+
+  
+  
+  <li class=""><a href="/docs/extending/">Extending Albert</a></li>
+
+  
+  
+  <li class=""><a href="/docs/theming/">Theming Albert</a></li>
+
+  
+  
+  <li class="current"><a href="/docs/faq/">Troubleshooting</a></li>
+
+</ul>
+
+  
+    <h5>Dev guide</h5>
+    <ul>
+
+  
+  
+  <li class=""><a href="/docs/extending/native/">Native plugins</a></li>
+
+  
+  
+  <li class=""><a href="/docs/extending/external/">External plugins</a></li>
+
+</ul>
+
+  
+    <h5>Meta</h5>
+    <ul>
+
+  
+  
+  <li class=""><a href="/docs/contributing/">Contributing</a></li>
+
+  
+  
+  <li class=""><a href="/docs/changelog/">Changelog</a></li>
+
+</ul>
+
+  
+</aside>
+
+            </div>
+            <div class="column column-80">
+                <div class="float-right">
+                    <a href="https://github.com/albertlauncher/documentation/edit/master/src/_docs/faq.md">Improve this page</a>
+                </div>
+                <h1>Troubleshooting</h1>
+                <h5 id="how-can-i-autostart-albert">How can I autostart Albert?</h5>
+
+<p>At the moment there is no autostart option, since this application is meant to be desktop agnostic and there is no standard way to achieve this. The most promising approach for the future is the XDG <a href="http://standards.freedesktop.org/autostart-spec/autostart-spec-latest.html">Desktop Application Autostart Specification</a> but not all desktop environments do support it. Link the desktop file into your autostart directory: <code class="highlighter-rouge">ln -s /usr/share/applications/albert.desktop ~/.config/autostart/</code></p>
+
+<h5 id="which-application-is-used-to-open-an-item">Which application is used to open an item?</h5>
+
+<p>Unless explicitely defined by the responsible extension, Albert uses the system defaults. They are managed by your desktop environment and defined as stated in the freedesktop.org <a href="http://standards.freedesktop.org/mime-apps-spec/mime-apps-spec-1.0.html">Association between MIME types and applications</a> standard. See the <a href="https://wiki.archlinux.org/index.php/Default_applications#MIME_types_and_desktop_entries">Arch Linux</a> or <a href="https://wiki.debian.org/MIME">Debian</a> wiki for a human readable version of the standard. One generic way to change those associations is <code class="highlighter-rouge">xdg-mime</code>. Check the manual for more informations.</p>
+
+<h5 id="fatal-stylefile-not-found-xxx-where-is-it">“FATAL: Stylefile not found: xxx”, where is it?</h5>
+
+<p>Albert searches for theme files in the directory <code class="highlighter-rouge">albert/themes</code> in the <a href="http://doc.qt.io/qt-5/qstandardpaths.html#StandardLocation-enum">QStandardPaths::AppDataLocation</a>. Most probably you did not <em>install</em> Albert (The installation process places the stylefiles, icons and libraries in the correct places) or you did it in a place where the theme directories are not in an AppDataLocation. This can happen if you use an unusual <code class="highlighter-rouge">CMAKE_INSTALL_PREFIX</code>.</p>
+
+<h5 id="can-i-let-albert-ignore-certain-filesfolders">Can I let Albert ignore certain files/folders?</h5>
+
+<p>Create a file called <code class="highlighter-rouge">.albertignore</code> in the folder that contains the file you want to ignore. Fill it with the filenames you want to ignore. One per line. The ignores supports <a href="http://doc.qt.io/qt-5/qregexp.html#wildcard-matching">wildcard matching</a>. Global ignores like e.g. the <code class="highlighter-rouge">.gitignore</code> provides are currently not supported.</p>
+
+<h5 id="error-key-x-could-not-be-registered">“Error. Key-X could not be registered.”!?</h5>
+
+<p>This is what Albert tells you, if the window system refused to register the key combination¹. This may have many reasons, but the most prominent is that an other application already grabbed the key combo. If you really want to get exactly that combo, your best bet is to find out which application grabbed the key and make it ungrab it. In virtually every case this will be your desktop environment, respectively its window manager, e.g. Compiz (Unity), KWin (KDE), Mutter (Gnome), or Muffin (Cinnamon). Remove the desired key combination from the systems keyboard settings and try again to set it Albert.</p>
+
+<p>Another alternative to open albert is to let other applications, such as your desktop environment, handle the registration and run the command <code class="highlighter-rouge">albert show</code> or <code class="highlighter-rouge">albert toggle</code> on activation.</p>
+
+<p><strong>¹</strong> <span style="font-size: 12px">Actually a registration of one key combination is made up of 4 grabs. Since X11 considers numlock and capslock as modifiers, the actual grabs comprise every permutation of num- and capslock modifiers plus the actual key combo. If one grab fails the registration is considered as failed.</span></p>
+
+<h5 id="why-are-my-icons-are-not-displayed-correctly">Why are my icons are not displayed correctly?</h5>
+
+<p>Make sure you have libqt5-svg (May be slightly different on some distributions) installed. Further make sure that Qt has the correct icon theme set. This is not a problem of Albert in particular, but of all Qt applications. This is a common problem and the internet provides solutions to the tons of possible reasons. Two mainstream options: Get Qt to <a href="https://wiki.archlinux.org/index.php/Uniform_look_for_Qt_and_GTK_applications#Using_a_GTK.2B_icon_theme_in_Qt_apps">inherit the GTK icon theme</a> or use qt5ct to <a href="https://wiki.archlinux.org/index.php/qt#Configuration_of_Qt5_apps_under_environments_other_than_KDE_Plasma">configure Qt</a>.</p>
+
+<h5 id="why-are-some-applications-not-shown">Why are some applications not shown?</h5>
+
+<p>The <a href="https://specifications.freedesktop.org/desktop-entry-spec/latest/">Desktop Entry Specification</a> defines which applications shall be shown. If the desktop entry contains the key value pair <code class="highlighter-rouge">NoDisplay=true</code>, the application will not be shown. Further the keys <code class="highlighter-rouge">OnlyShowIn</code> and <code class="highlighter-rouge">NotShowIn</code> define which desktop environments should (not) show the desktop entry. The values are compared to the environment variable <code class="highlighter-rouge">$XDG_CURRENT_DESKTOP</code>.</p>
+
+<h5 id="-wayland--">.* Wayland .* ?</h5>
+
+<p>Sorry, I cant help you with this. Waylands integration into the major DEs is far from mature. Wayland support needs a lot of time and hopefully these infancy problems vanish with time. I’d like to invest the little time I have to do things <a href="https://en.wikipedia.org/wiki/No_Silver_Bullet">essential</a> to the development of albert. If you google a bit, you will find out that a lot of applications have problems with Wayland. However if you are willing I’d appreciate to get help with that problems.</p>
+
+<p>If you came here because setting the hotkey does not work under Wayland, note that you can let other applications, such as your desktop environment, handle the registration of hotkeys and run the command <code class="highlighter-rouge">albert show</code> or <code class="highlighter-rouge">albert toggle</code> on activation.</p>
+
+<h5 id="hidpi">HiDPI?</h5>
+
+<p>This is up to Qt. Unfortunately Qt does not support <a href="http://doc.qt.io/qt-5/highdpi.html">HiDPI scaling</a> until 5.6. From there on you can use <code class="highlighter-rouge">QT_SCALE_FACTOR=2 albert</code> to run albert scaled. A better solution might be to set <code class="highlighter-rouge">QT_AUTO_SCREEN_SCALE_FACTOR=1</code> globally. This enables automatic scaling, based on the pixel density of the monitor. Note that this affects all Qt applications.</p>
+
+            </div>
+        </div>
+    </article>
+    </div>
+</section>
+
+      
+      <script>
+  var anchorForId = function (id) {
+    var anchor = document.createElement("a");
+    anchor.className = "header-link";
+    anchor.href      = "#" + id;
+    anchor.innerHTML = "<i class=\"fa fa-link\"></i>";
+    anchor.title = "Permalink";
+    return anchor;
+  };
+
+  var linkifyAnchors = function (level, containingElement) {
+    var headers = containingElement.getElementsByTagName("h" + level);
+    for (var h = 0; h < headers.length; h++) {
+      var header = headers[h];
+
+      if (typeof header.id !== "undefined" && header.id !== "") {
+        header.appendChild(anchorForId(header.id));
+      }
+    }
+  };
+
+  document.onreadystatechange = function () {
+    if (this.readyState === "complete") {
+      var contentBlock = document.getElementsByClassName("docs")[0] || document.getElementsByClassName("news")[0];
+      if (!contentBlock) {
+        return;
+      }
+      for (var level = 1; level <= 6; level++) {
+        linkifyAnchors(level, contentBlock);
+      }
+    }
+  };
+
+  var topEdge
+  document.onscroll = function () {
+    if (topEdge === undefined)
+      topEdge = document.getElementById("doc_nav").getBoundingClientRect().top+window.pageYOffset-20;
+
+    if ( window.pageYOffset > topEdge)
+      document.getElementById("doc_nav").classList.add("stuck");
+    else
+      document.getElementById("doc_nav").classList.remove("stuck");
+  };
+
+
+
+</script>
+
+    </main>
+</body>
+</html>
