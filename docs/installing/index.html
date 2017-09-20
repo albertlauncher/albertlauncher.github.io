@@ -141,8 +141,8 @@ sudo apt-get install albert
 <h6 id="debian-8-jessie-idkcppadminlounge">Debian 8 Jessie (<a href="https://github.com/idkcpp">idkcpp</a>/<a href="https://software.adminlounge.org/">AdminLounge</a>)</h6>
 <div class="language-bash highlighter-rouge"><pre class="highlight"><code>wget -qO - https://repo.adminlounge.org/archive.key <span class="se">\</span>
     | sudo apt-key add -
-sudo <span class="nb">echo</span> <span class="s2">"deb http://repo.adminlounge.org/ jessie main"</span> <span class="se">\</span>
-    &gt; /etc/apt/sources.list.d/adminlounge.list
+sudo <span class="nb">sudo bash -c 'echo</span> <span class="s2">"deb http://repo.adminlounge.org/ jessie main"</span> <span class="se">\</span>
+    &gt; /etc/apt/sources.list.d/adminlounge.list'
 sudo apt-get update
 sudo apt-get install albert
 </code></pre>
