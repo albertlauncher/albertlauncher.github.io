@@ -1,0 +1,213 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+  <title>Albert - Installing Albert</title>
+  <meta charset="UTF-8">
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <link rel="alternate" type="application/rss+xml" title="Albert RSS" href="/feed.xml">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
+  <link rel="stylesheet" href="https://albertlauncher.github.io/css/main.css">
+</head>
+
+<body>
+    <main class="wrapper">
+      <nav class="site-header">
+    <div class="container">
+        <a class="title" href="https://albertlauncher.github.io">
+            <img class="icon" src="https://albertlauncher.github.io/img/albert.svg" alt="Albert" title="Albert">
+            <span class="title">Albert</span>
+        </a>
+        <nav class="navigation float-right">
+            <ul>
+    <li class="">
+        <a href="/">Home</a>
+    </li>
+    <li class="current">
+        <a href="/docs/">Docs</a>
+    </li>
+    <li class="">
+        <a href="/news/">News</a>
+    </li>
+    <li class="">
+        <a href="/help/">Help</a>
+    </li>
+    <li>
+        <a href="https://github.com/albertlauncher/albert.git"><span class="hide-on-mobiles">View on </span>GitHub</a>
+    </li>
+</ul>
+
+        </nav>
+    </div>
+</nav>
+
+      <section class="container docs">
+    <article>
+        <div class="row">
+            <div class="column column-20">
+              <aside id="doc_nav">
+  
+    <h5>User guide</h5>
+    <ul>
+
+  
+  
+  <li class="current"><a href="/docs/installing/">Installing Albert</a></li>
+
+  
+  
+  <li class=""><a href="/docs/using/">Using Albert</a></li>
+
+  
+  
+  <li class=""><a href="/docs/extending/">Extending Albert</a></li>
+
+  
+  
+  <li class=""><a href="/docs/theming/">Theming Albert</a></li>
+
+  
+  
+  <li class=""><a href="/docs/faq/">Troubleshooting</a></li>
+
+</ul>
+
+  
+    <h5>Meta</h5>
+    <ul>
+
+  
+  
+  <li class=""><a href="/docs/contributing/">Contributing</a></li>
+
+  
+  
+  <li class=""><a href="/docs/changelog/">Changelog</a></li>
+
+</ul>
+
+  
+</aside>
+
+            </div>
+            <div class="column column-80">
+                <div class="float-right">
+                    <a href="https://github.com/albertlauncher/documentation/edit/master/src/_docs/installing.md">Improve this page</a>
+                </div>
+                <h1>Installing Albert</h1>
+                <p>There are two ways to get Albert: Using a package manager or building Albert from the sources. Using a package manager is highly recommended, since it is less error prone and the necessary dependencies are pulled automatically.</p>
+
+<h2 id="using-package-managers">Using package managers</h2>
+
+<h3 id="archlinux---aur-official">Archlinux - <a href="https://aur.archlinux.org/packages/albert/">AUR</a> (Official)</h3>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>yaourt albert
+</code></pre></div></div>
+<h3 id="debian-9-ubuntu-1604-fedora-25-and-opensuse---obs-official">Debian 9, Ubuntu 16.04+, Fedora 25+ and openSuse - <a href="https://build.opensuse.org/package/show/home:manuelschneid3r/albert">OBS</a> (Official)</h3>
+<p>These packages are built using the openSUSE Build Service. First you have to import the keyfile. How to do this depends on your package manager.</p>
+
+<p>For rpm based package managers do:</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sudo </span>rpm <span class="nt">--import</span> <span class="se">\</span>
+  https://build.opensuse.org/projects/home:manuelschneid3r/public_key
+</code></pre></div></div>
+
+<p>while for deb based package managers you have to:</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>wget <span class="nt">-nv</span> <span class="nt">-O</span> Release.key <span class="se">\ </span>
+  https://build.opensuse.org/projects/home:manuelschneid3r/public_key
+apt-key add - &lt; Release.key
+apt-get update
+</code></pre></div></div>
+
+<p>Now follow the instructions <a href="https://software.opensuse.org/download.html?project=home:manuelschneid3r&amp;package=albert">here</a>.</p>
+
+<h2 id="building-from-sources">Building from sources</h2>
+
+<p>Building from sources is the least convenient, but most flexible way. The build process is trivial, but you have to manage the dependencies on your own. Before you can start building Albert you need some libraries.</p>
+
+<h3 id="prerequisites">Prerequisites</h3>
+
+<p>The goal is to be always compatible to the lasest Ubuntu LTS release. To build Albert from sources you will need CMake, a C++ compiler supporting at least the C++14 standard and the Qt toolkit.</p>
+
+<p>Further the plugins may introduce optional dependencies, e.g the calculator plugin needs the <a href="http://muparser.beltoforion.de/">muparser</a> library and the QMLBoxModel frontend needs the QtDeclarative library. Check the <a href="https://github.com/albertlauncher/albert/blob/dev/.travis.yml">travis file</a> for an updated list of dependencies.</p>
+
+<p>Problems may arise with distributions that split submodules into optional dependencies. E.g. Ubuntu is known to split the SQL driver submodules into separate packages. Elementary OS which builds on Ubuntu does not install optional dependencies, users may therefore encounter linkage errors a have to explicitly install the missing dependencies.</p>
+
+<p>Another concern is the difference between compile time and runtime dependencies. Some distributions ship libraries as single packages while others ship a normal package and a <em>*-dev</em> package. Dev packages usually contain the header files and static libraries additionally to the shared libraries. Normal packages are stripped down to the shared libraries. On distributions that do not differ between this kind of packages basically every package is a dev package. For the compilation on e.g. Ubuntu dev packages are needed at compile time but at runtime normal packages are sufficient. If the optional dependency of a plugin is not available at runtime it will refuse to load, the core application will run fine though.</p>
+
+<h3 id="compilation">Compilation</h3>
+
+<p>To configure, build and install run the following commands:</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git clone <span class="nt">--recursive</span> https://github.com/albertlauncher/albert.git
+mkdir albert-build
+<span class="nb">cd </span>albert-build
+cmake ../albert <span class="nt">-DCMAKE_INSTALL_PREFIX</span><span class="o">=</span>/usr <span class="nt">-DCMAKE_BUILD_TYPE</span><span class="o">=</span>Debug
+make
+<span class="nb">sudo </span>make install
+</code></pre></div></div>
+
+<p>Lets go through them and clarify what they do. The first command clones the Albert git repository to the local file system. Since no destination directory is specified a directory with the name of the repository is created. The next step is to create the out-of-source-build directory. A self-explanatory name is always a good one.</p>
+
+<p>After changing the working directory to the just created build directory the <code class="highlighter-rouge">cmake</code> command configures the build environment and creates the makefiles. The first positional parameter is the path to the source directory which contains a file called <code class="highlighter-rouge">CMakeLists.txt</code>. The <code class="highlighter-rouge">-D</code> parameter sets CMake variables.</p>
+
+<p>The CMake variable <code class="highlighter-rouge">CMAKE_BUILD_TYPE</code> specifies the build type to use. If you want to report bugs it makes sense to build a <code class="highlighter-rouge">Debug</code> build, since the build then produces debugging information with which GDB can work. Core dumps of this build can be used to track down issues. Futher the make output is more verbose. If you dont want any of those that use the build type <code class="highlighter-rouge">Release</code>.</p>
+
+<p><code class="highlighter-rouge">CMAKE_INSTALL_PREFIX</code> defines the prefix for the installation directory. This value usually defaults to <code class="highlighter-rouge">/usr/local</code>. Since albert looks up libraries, plugins and stylefiles etc only <code class="highlighter-rouge">/usr</code>, <code class="highlighter-rouge">/usr/local</code> are supported. If you still want to make it work somewhere else, you have to use environment variables to manipulate XDG base dir specs and the lookup paths of the dynamic linker. Do absolutely not do this unless you exactly know what you are doing.</p>
+
+<p>Finally <code class="highlighter-rouge">make</code> builds the application and <code class="highlighter-rouge">sudo make install</code> installs the application on your system. Albert is not a portable application so the install step is mandatory.</p>
+
+            </div>
+        </div>
+    </article>
+    </div>
+</section>
+
+      
+      <script>
+  var anchorForId = function (id) {
+    var anchor = document.createElement("a");
+    anchor.className = "header-link";
+    anchor.href      = "#" + id;
+    anchor.innerHTML = "<i class=\"fa fa-link\"></i>";
+    anchor.title = "Permalink";
+    return anchor;
+  };
+
+  var linkifyAnchors = function (level, containingElement) {
+    var headers = containingElement.getElementsByTagName("h" + level);
+    for (var h = 0; h < headers.length; h++) {
+      var header = headers[h];
+
+      if (typeof header.id !== "undefined" && header.id !== "") {
+        header.appendChild(anchorForId(header.id));
+      }
+    }
+  };
+
+  document.onreadystatechange = function () {
+    if (this.readyState === "complete") {
+      var contentBlock = document.getElementsByClassName("docs")[0] || document.getElementsByClassName("news")[0];
+      if (!contentBlock) {
+        return;
+      }
+      for (var level = 1; level <= 6; level++) {
+        linkifyAnchors(level, contentBlock);
+      }
+    }
+  };
+
+  var topEdge
+  document.onscroll = function () {
+    if (topEdge === undefined)
+      topEdge = document.getElementById("doc_nav").getBoundingClientRect().top+window.pageYOffset-20;
+
+    if ( window.pageYOffset > topEdge)
+      document.getElementById("doc_nav").classList.add("stuck");
+    else
+      document.getElementById("doc_nav").classList.remove("stuck");
+  };
+
+
+
+</script>
+
+    </main>
+</body>
+</html>

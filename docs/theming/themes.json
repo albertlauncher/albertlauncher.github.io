@@ -1,0 +1,24 @@
+{
+    "Bright": {
+        "foreground_color": "#808080",
+        "background_color": "#FFFFFF",
+        "frame_border_size": "6",
+        "frame_border_color": "#808080",
+        "input_line_background_color": "#D0D0D0",
+        "input_line_font_size": "36",
+        "input_color": "#808080",
+        "input_selection_background_color": "#808080",
+        "input_selection_font_color": "#FFFFFF",
+        "settings_button_color": "#808080",
+        "item_icon_size": "44",
+        "item_font_size": "26",
+        "item_color": "#808080",
+        "item_height": "48",
+        "item_selected_color": "#808080",
+        "scrollbar_width": "5",
+        "scrollbar_color": "#808080",
+        "action_list_height": "28",
+        "action_list_font_size": "20",
+        "action_list_selected_color": "#808080"
+    }
+}

@@ -1,0 +1,178 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+  <title>Albert - External extension</title>
+  <meta charset="UTF-8">
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <link rel="alternate" type="application/rss+xml" title="Albert RSS" href="/feed.xml">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
+  <link rel="stylesheet" href="https://albertlauncher.github.io/css/main.css">
+</head>
+
+<body>
+    <main class="wrapper">
+      <nav class="site-header">
+    <div class="container">
+        <a class="title" href="https://albertlauncher.github.io">
+            <img class="icon" src="https://albertlauncher.github.io/img/albert.svg" alt="Albert" title="Albert">
+            <span class="title">Albert</span>
+        </a>
+        <nav class="navigation float-right">
+            <ul>
+    <li class="">
+        <a href="/">Home</a>
+    </li>
+    <li class="current">
+        <a href="/docs/">Docs</a>
+    </li>
+    <li class="">
+        <a href="/news/">News</a>
+    </li>
+    <li class="">
+        <a href="/help/">Help</a>
+    </li>
+    <li>
+        <a href="https://github.com/albertlauncher/albert.git"><span class="hide-on-mobiles">View on </span>GitHub</a>
+    </li>
+</ul>
+
+        </nav>
+    </div>
+</nav>
+
+      <section class="container docs">
+    <article>
+        <div class="row">
+            <div class="column column-20">
+              <aside id="doc_nav">
+  
+    <h5>User guide</h5>
+    <ul>
+
+  
+  
+  <li class=""><a href="/docs/installing/">Installing Albert</a></li>
+
+  
+  
+  <li class=""><a href="/docs/using/">Using Albert</a></li>
+
+  
+  
+  <li class=""><a href="/docs/extending/">Extending Albert</a></li>
+
+  
+  
+  <li class=""><a href="/docs/theming/">Theming Albert</a></li>
+
+  
+  
+  <li class=""><a href="/docs/faq/">Troubleshooting</a></li>
+
+</ul>
+
+  
+    <h5>Meta</h5>
+    <ul>
+
+  
+  
+  <li class=""><a href="/docs/contributing/">Contributing</a></li>
+
+  
+  
+  <li class=""><a href="/docs/changelog/">Changelog</a></li>
+
+</ul>
+
+  
+</aside>
+
+            </div>
+            <div class="column column-80">
+                <div class="float-right">
+                    <a href="https://github.com/albertlauncher/documentation/edit/master/src/_docs/extensions/external.md">Improve this page</a>
+                </div>
+                <h1>External extension</h1>
+                <p><strong><em>Note: This scripting extension is deprecated as of v0.14.0. Use the python extension instead</em></strong></p>
+
+<p>Albert can be extended using regular executables. They are used like plugins, however the executables are separate processes which have separate address spaces. Therefore these executables are called <em>external plugins</em>. This documentation refers to the extension shipped with v0.13.</p>
+
+<p>An external plugin (hereafter plugin) is basically an executable which has a particular interface. Imagine the plugin as a set of functions that can be dynamically invoked. Which function is invoked, is defined by the environment variable <code class="highlighter-rouge">$ALBERT_OP</code>. The plugin should read this environment variable and react accordingly. Additionally to the mandatory environment variable <code class="highlighter-rouge">$ALBERT_OP</code> there may be some other variables defined. Imagine those as the parameters to the dynamic function. The return value of this function is returned to the application through the standard output stream (stdout). Depending on <code class="highlighter-rouge">$ALBERT_OP</code> the expected data may differ, but all responses have to be a JSON object containing properties. The set of possible <code class="highlighter-rouge">$ALBERT_OP</code>s and the expected properties and their structures are defined by the <a href="/docs/extensions/external/v3/"><em>Communication protocol v3</em></a> (Since v0.13, <a href="/docs/extensions/external/v2/"><em>v2</em></a> until 0.13).</p>
+
+<p>To save state between the executions the plugin can return a JSON object called “variables”. The properties of the object “variables” will be set as environment variables in the next execution. Note that this properties have to be strings otherwise they will not be set in the environment.</p>
+
+<h2 id="deployment">Deployment</h2>
+
+<blockquote>
+  <p>Note that the exteral extensions have to be executable to be used by albert</p>
+</blockquote>
+
+<p>The extension check its data directories for a directory called <code class="highlighter-rouge">extensions</code>. The name of a data directory is the id of the extension. I the case of the external extension this is <code class="highlighter-rouge">org.albert.extension.externalextensions</code>. The data directories reside in the data directories of the application defined by <a href="http://doc.qt.io/qt-5/qstandardpaths.html#StandardLocation-enum">Qt</a>. Hence the external extensions would be looked up in the following directories (in this order:</p>
+
+<ul>
+  <li>~/.local/share/albert/org.albert.extension.externalextensions/extensions</li>
+  <li>/usr/local/share/albert/org.albert.extension.externalextensions/extensions</li>
+  <li>/usr/share/albert/org.albert.extension.externalextensions/extensions</li>
+</ul>
+
+<p>Ids are guaranteed to be unique. This means that if several of those path contain a plugins with identical ids, only the first found plugin will be used.</p>
+
+            </div>
+        </div>
+    </article>
+    </div>
+</section>
+
+      
+      <script>
+  var anchorForId = function (id) {
+    var anchor = document.createElement("a");
+    anchor.className = "header-link";
+    anchor.href      = "#" + id;
+    anchor.innerHTML = "<i class=\"fa fa-link\"></i>";
+    anchor.title = "Permalink";
+    return anchor;
+  };
+
+  var linkifyAnchors = function (level, containingElement) {
+    var headers = containingElement.getElementsByTagName("h" + level);
+    for (var h = 0; h < headers.length; h++) {
+      var header = headers[h];
+
+      if (typeof header.id !== "undefined" && header.id !== "") {
+        header.appendChild(anchorForId(header.id));
+      }
+    }
+  };
+
+  document.onreadystatechange = function () {
+    if (this.readyState === "complete") {
+      var contentBlock = document.getElementsByClassName("docs")[0] || document.getElementsByClassName("news")[0];
+      if (!contentBlock) {
+        return;
+      }
+      for (var level = 1; level <= 6; level++) {
+        linkifyAnchors(level, contentBlock);
+      }
+    }
+  };
+
+  var topEdge
+  document.onscroll = function () {
+    if (topEdge === undefined)
+      topEdge = document.getElementById("doc_nav").getBoundingClientRect().top+window.pageYOffset-20;
+
+    if ( window.pageYOffset > topEdge)
+      document.getElementById("doc_nav").classList.add("stuck");
+    else
+      document.getElementById("doc_nav").classList.remove("stuck");
+  };
+
+
+
+</script>
+
+    </main>
+</body>
+</html>

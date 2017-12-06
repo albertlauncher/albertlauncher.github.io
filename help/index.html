@@ -1,0 +1,118 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+  <title>Albert - Help</title>
+  <meta charset="UTF-8">
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <link rel="alternate" type="application/rss+xml" title="Albert RSS" href="/feed.xml">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
+  <link rel="stylesheet" href="https://albertlauncher.github.io/css/main.css">
+</head>
+
+<body>
+    <main class="wrapper">
+      <nav class="site-header">
+    <div class="container">
+        <a class="title" href="https://albertlauncher.github.io">
+            <img class="icon" src="https://albertlauncher.github.io/img/albert.svg" alt="Albert" title="Albert">
+            <span class="title">Albert</span>
+        </a>
+        <nav class="navigation float-right">
+            <ul>
+    <li class="">
+        <a href="/">Home</a>
+    </li>
+    <li class="">
+        <a href="/docs/">Docs</a>
+    </li>
+    <li class="">
+        <a href="/news/">News</a>
+    </li>
+    <li class="current">
+        <a href="/help/">Help</a>
+    </li>
+    <li>
+        <a href="https://github.com/albertlauncher/albert.git"><span class="hide-on-mobiles">View on </span>GitHub</a>
+    </li>
+</ul>
+
+        </nav>
+    </div>
+</nav>
+
+      <section class="container">
+    <article>
+        <h1>Help</h1>
+        <p>Problems with Albert? Try these.</p>
+
+<h5 id="documentation"><a href="/docs/">Documentation</a></h5>
+
+<p>The documentation should cover everything you are concerned about. From a users point of view the user guide explains how to use Albert. Developers will find informations about the development of albert too.</p>
+
+<h5 id="telegram-chat"><a href="https://telegram.me/albert_launcher_community">Telegram Chat</a></h5>
+
+<p>The <strong>Albert Launcher Chat</strong> in <strong>Telegram</strong> is most convenient source of support if the documentation did not help you. All users are invited to join and stay in the channel to build a vivid community.</p>
+
+<h5 id="irc-channel"><a href="IRC://irc.freenode.net/albertlauncher">IRC channel</a></h5>
+
+<p>The <strong>#albertlauncher</strong> channel on <strong>irc.freenode.net</strong> is another place where you can get help. This place is more about the technical things. Github regularly pushes events from the repo in this channel. As in the telegram chat all users are invited to join and stay in the channel to build a vivid community. If you have no IRC client there are <a href="http://webchat.freenode.net?channels=%23albertlauncher">web clients</a> too.</p>
+
+<h5 id="github-repository"><a href="https://github.com/albertlauncher/albert.git">Github repository</a></h5>
+
+<p>If you wonder why Albert does this and that check out the source code to see how things work under the hood. If you think you encountered a bug, file an issue or check if somebody did already.</p>
+
+    </article>
+</section>
+
+      
+      <script>
+  var anchorForId = function (id) {
+    var anchor = document.createElement("a");
+    anchor.className = "header-link";
+    anchor.href      = "#" + id;
+    anchor.innerHTML = "<i class=\"fa fa-link\"></i>";
+    anchor.title = "Permalink";
+    return anchor;
+  };
+
+  var linkifyAnchors = function (level, containingElement) {
+    var headers = containingElement.getElementsByTagName("h" + level);
+    for (var h = 0; h < headers.length; h++) {
+      var header = headers[h];
+
+      if (typeof header.id !== "undefined" && header.id !== "") {
+        header.appendChild(anchorForId(header.id));
+      }
+    }
+  };
+
+  document.onreadystatechange = function () {
+    if (this.readyState === "complete") {
+      var contentBlock = document.getElementsByClassName("docs")[0] || document.getElementsByClassName("news")[0];
+      if (!contentBlock) {
+        return;
+      }
+      for (var level = 1; level <= 6; level++) {
+        linkifyAnchors(level, contentBlock);
+      }
+    }
+  };
+
+  var topEdge
+  document.onscroll = function () {
+    if (topEdge === undefined)
+      topEdge = document.getElementById("doc_nav").getBoundingClientRect().top+window.pageYOffset-20;
+
+    if ( window.pageYOffset > topEdge)
+      document.getElementById("doc_nav").classList.add("stuck");
+    else
+      document.getElementById("doc_nav").classList.remove("stuck");
+  };
+
+
+
+</script>
+
+    </main>
+</body>
+</html>
