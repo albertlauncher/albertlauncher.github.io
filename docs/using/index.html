@@ -1,0 +1,223 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+  <title>Albert - Using Albert</title>
+  <meta charset="UTF-8">
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <link rel="alternate" type="application/rss+xml" title="Albert RSS" href="/feed.xml">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
+  <link rel="stylesheet" href="https://albertlauncher.github.io/css/main.css">
+</head>
+
+<body>
+    <main class="wrapper">
+      <nav class="site-header">
+    <div class="container">
+        <a class="title" href="https://albertlauncher.github.io">
+            <img class="icon" src="https://albertlauncher.github.io/img/albert.svg" alt="Albert" title="Albert">
+            <span class="title">Albert</span>
+        </a>
+        <nav class="navigation float-right">
+            <ul>
+    <li class="">
+        <a href="/">Home</a>
+    </li>
+    <li class="current">
+        <a href="/docs/">Docs</a>
+    </li>
+    <li class="">
+        <a href="/news/">News</a>
+    </li>
+    <li class="">
+        <a href="/help/">Help</a>
+    </li>
+    <li>
+        <a href="https://github.com/albertlauncher/albert.git"><span class="hide-on-mobiles">View on </span>GitHub</a>
+    </li>
+</ul>
+
+        </nav>
+    </div>
+</nav>
+
+      <section class="container docs">
+    <article>
+        <div class="row">
+            <div class="column column-20">
+              <aside id="doc_nav">
+  
+    <h5>User guide</h5>
+    <ul>
+
+  
+  
+  <li class=""><a href="/docs/installing/">Installing Albert</a></li>
+
+  
+  
+  <li class="current"><a href="/docs/using/">Using Albert</a></li>
+
+  
+  
+  <li class=""><a href="/docs/extending/">Extending Albert</a></li>
+
+  
+  
+  <li class=""><a href="/docs/extensions/">Extensions</a></li>
+
+  
+  
+  <li class=""><a href="/docs/faq/">Troubleshooting</a></li>
+
+</ul>
+
+  
+    <h5>Meta</h5>
+    <ul>
+
+  
+  
+  <li class=""><a href="/docs/contributing/">Contributing</a></li>
+
+  
+  
+  <li class=""><a href="/docs/donation/">Donating</a></li>
+
+  
+  
+  <li class=""><a href="/docs/changelog/">Changelog</a></li>
+
+</ul>
+
+  
+</aside>
+
+            </div>
+            <div class="column column-80">
+                <div class="float-right">
+                    <a href="https://github.com/albertlauncher/documentation/edit/master/src/_docs/using.md">Improve this page</a>
+                </div>
+                <h1>Using Albert</h1>
+                <p>To get up and running just run <code class="highlighter-rouge">albert</code> in terminal and press the hotkey (which is configured upon install) to start using it. When albert is running you can configure or quit the application via the tray icon. To make albert autostart checkout <a href="/docs/faq">Troubleshooting</a>.</p>
+
+<p>As you would expect from a launcher, the main use case is to type a query into an input box and finally to interact with some sort of results. Actually there is not much more Albert allows you to do - triggering things. No more, no less.</p>
+
+<p>By pressing the hotkey the launcher is shown and the focused input line awaits a query. If you press <kbd>Esc</kbd> or the hotkey again or if the window looses focus, the window hides. The query entered in the input box is delegated to a set of plugins, which in turn return items that are somehow related to the query.</p>
+
+<p>While typing a query Albert instantly shows the results in a vertical list below the input box. These results can be browsed like a regular list view. With the keys <kbd>⬆</kbd> and <kbd>⬇</kbd> the selection can be moved a single item, <kbd>PgUp</kbd> and <kbd>PgDn</kbd> moves the selection by the amount of visible items, <kbd>Ctrl</kbd> + <kbd>Home</kbd> and <kbd>Ctrl</kbd> + <kbd>End</kbd> moves the selection to the first and last item respectively. You have to hold <kbd>Ctrl</kbd> since the input line has precedence. If you found the item you are looking for, you can run its associated action by activating the item with <kbd>⏎</kbd>, <kbd>Enter</kbd> or a mouse click.</p>
+
+<p>If a query yielded no results, several fallback items are provided. Fallback items are items that can handle every query, e.g. an item that opens an external search engine like google in your browser or your local dictionary application.</p>
+
+<p>Items can have multiple alternative actions. By holding <kbd>Alt</kbd> a list containing the alternative actions shows up. As long as this list is visible the arrow up and down keys move the cursor in this list. Release <kbd>Alt</kbd> to return to the result items - the action list disappears.</p>
+
+<p>Holding <kbd>Meta</kbd> can be used as a shortcut for the default fallback action. Holding <kbd>Meta</kbd> while activating an item runs the 1<sup>st</sup> fallback item with the entered query.</p>
+
+<p>Albert stores the input query when you activate an item. If the item selection is on the first item, the <kbd>⬆</kbd> is overloaded to iterate over this history. The arrow down key is reserved for moving the selection, however in combination with the <kbd>Ctrl</kbd> key the arrow keys can be used to navigate the history back and forth. The history is sorted chronologically and duplicates are removed.</p>
+
+<p>In the input box a little gear is spinning. If you left click on this gear, the settings dialog will appear. Alternatively you can simply hit <kbd>Ctrl</kbd> + <kbd>,</kbd> or <kbd>Alt</kbd> + <kbd>,</kbd> to open the settings dialog. A right click opens a context menu offering some actions including the
+“Quit” action. Clicking this item will quit the application. Alternatively you
+can quit the application by hitting <kbd>Alt</kbd> + <kbd>F4</kbd>.</p>
+
+<p>For reference the following table lists all keys you can use to control Albert:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Key</th>
+      <th>Action</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><kbd>Esc</kbd></td>
+      <td>Hide Albert</td>
+    </tr>
+    <tr>
+      <td><kbd>Alt</kbd></td>
+      <td>Hold to show alternative actions for the item</td>
+    </tr>
+    <tr>
+      <td><kbd>Enter</kbd></td>
+      <td>Activate the primary action of selected item</td>
+    </tr>
+    <tr>
+      <td><kbd>Meta/Win</kbd> + <kbd>⏎</kbd><br /><kbd>Meta/Win</kbd> + <kbd>Enter</kbd></td>
+      <td>Activate the 1<sup>st</sup> fallback item with the query</td>
+    </tr>
+    <tr>
+      <td><kbd>Ctrl</kbd> + <kbd>,</kbd><br /><kbd>Alt</kbd> + <kbd>,</kbd></td>
+      <td>Show the settings dialog</td>
+    </tr>
+    <tr>
+      <td><kbd>⬆</kbd>,<kbd>⬇</kbd>,<br /><kbd>PgUp</kbd>,<kbd>PgDn</kbd>,<br /><kbd>Ctrl</kbd> + <kbd>Home</kbd>,<br /><kbd>Ctrl</kbd> + <kbd>End</kbd></td>
+      <td>Navigation in the results list. If the first item is selected, <kbd>⬆</kbd> iterates though the query history.</td>
+    </tr>
+    <tr>
+      <td><kbd>Ctrl</kbd> + <kbd>⬆</kbd><br /><kbd>Ctrl</kbd> + <kbd>⬇</kbd></td>
+      <td>Navigate in query history</td>
+    </tr>
+    <tr>
+      <td><kbd>Alt</kbd> + <kbd>F4</kbd></td>
+      <td>Quit Albert</td>
+    </tr>
+  </tbody>
+</table>
+
+            </div>
+        </div>
+    </article>
+    </div>
+</section>
+
+      
+      <script>
+  var anchorForId = function (id) {
+    var anchor = document.createElement("a");
+    anchor.className = "header-link";
+    anchor.href      = "#" + id;
+    anchor.innerHTML = "<i class=\"fa fa-link\"></i>";
+    anchor.title = "Permalink";
+    return anchor;
+  };
+
+  var linkifyAnchors = function (level, containingElement) {
+    var headers = containingElement.getElementsByTagName("h" + level);
+    for (var h = 0; h < headers.length; h++) {
+      var header = headers[h];
+
+      if (typeof header.id !== "undefined" && header.id !== "") {
+        header.appendChild(anchorForId(header.id));
+      }
+    }
+  };
+
+  document.onreadystatechange = function () {
+    if (this.readyState === "complete") {
+      var contentBlock = document.getElementsByClassName("docs")[0] || document.getElementsByClassName("news")[0];
+      if (!contentBlock) {
+        return;
+      }
+      for (var level = 1; level <= 6; level++) {
+        linkifyAnchors(level, contentBlock);
+      }
+    }
+  };
+
+  var topEdge
+  document.onscroll = function () {
+    if (topEdge === undefined)
+      topEdge = document.getElementById("doc_nav").getBoundingClientRect().top+window.pageYOffset-20;
+
+    if ( window.pageYOffset > topEdge)
+      document.getElementById("doc_nav").classList.add("stuck");
+    else
+      document.getElementById("doc_nav").classList.remove("stuck");
+  };
+
+
+
+</script>
+
+    </main>
+</body>
+</html>

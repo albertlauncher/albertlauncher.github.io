@@ -1,0 +1,200 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+  <title>Albert - Widget Box Model</title>
+  <meta charset="UTF-8">
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <link rel="alternate" type="application/rss+xml" title="Albert RSS" href="/feed.xml">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
+  <link rel="stylesheet" href="https://albertlauncher.github.io/css/main.css">
+</head>
+
+<body>
+    <main class="wrapper">
+      <nav class="site-header">
+    <div class="container">
+        <a class="title" href="https://albertlauncher.github.io">
+            <img class="icon" src="https://albertlauncher.github.io/img/albert.svg" alt="Albert" title="Albert">
+            <span class="title">Albert</span>
+        </a>
+        <nav class="navigation float-right">
+            <ul>
+    <li class="">
+        <a href="/">Home</a>
+    </li>
+    <li class="current">
+        <a href="/docs/">Docs</a>
+    </li>
+    <li class="">
+        <a href="/news/">News</a>
+    </li>
+    <li class="">
+        <a href="/help/">Help</a>
+    </li>
+    <li>
+        <a href="https://github.com/albertlauncher/albert.git"><span class="hide-on-mobiles">View on </span>GitHub</a>
+    </li>
+</ul>
+
+        </nav>
+    </div>
+</nav>
+
+      <section class="container docs">
+    <article>
+        <div class="row">
+            <div class="column column-20">
+              <aside id="doc_nav">
+  
+    <h5>User guide</h5>
+    <ul>
+
+  
+  
+  <li class=""><a href="/docs/installing/">Installing Albert</a></li>
+
+  
+  
+  <li class=""><a href="/docs/using/">Using Albert</a></li>
+
+  
+  
+  <li class=""><a href="/docs/extending/">Extending Albert</a></li>
+
+  
+  
+  <li class=""><a href="/docs/extensions/">Extensions</a></li>
+
+  
+  
+  <li class=""><a href="/docs/faq/">Troubleshooting</a></li>
+
+</ul>
+
+  
+    <h5>Meta</h5>
+    <ul>
+
+  
+  
+  <li class=""><a href="/docs/contributing/">Contributing</a></li>
+
+  
+  
+  <li class=""><a href="/docs/donation/">Donating</a></li>
+
+  
+  
+  <li class=""><a href="/docs/changelog/">Changelog</a></li>
+
+</ul>
+
+  
+</aside>
+
+            </div>
+            <div class="column column-80">
+                <div class="float-right">
+                    <a href="https://github.com/albertlauncher/documentation/edit/master/src/_docs/extensions/widgetboxmodel/widgetboxmodel.md">Improve this page</a>
+                </div>
+                <h1>Widget Box Model</h1>
+                <p>The main user interface can be customized using <a href="http://doc.qt.io/qt-5/stylesheet.html">QStyleSheets</a>. Qt Style Sheets are a powerful mechanism that allows you to customize the appearance of widgets. The concepts, terminology, and syntax of Qt Style Sheets are heavily inspired by HTML Cascading Style Sheets (CSS) but adapted to the world of widgets.</p>
+
+<p>Before handcrafting your own style sheet you might want to consider the convenient <a href="/docs/theming/themecreator/">theme creator</a> written by Ricardo Fuhrmann. If you’re not satisfied with the output, you can still customize the style sheet.</p>
+
+<h5 id="writing-style-sheets">Writing style sheets</h5>
+
+<p>The user interface consists of five widgets: The window itself, the input line, the settings button the two list views for the items and their actions. In Qt terms a <a href="http://doc.qt.io/qt-5/qframe.html">QFrame</a>, a <a href="http://doc.qt.io/qt-5/qlineedit.html">QLineEdit</a>, a <a href="http://doc.qt.io/qt-5/qpushbutton.html">QPushButton</a> and a <a href="http://doc.qt.io/qt-5/qlistview.html">QListView</a>. All of them support the <a href="http://doc.qt.io/qt-5/stylesheet-customizing.html">box model</a>.</p>
+
+<p>To differentiate the views they have an ID Selector to refer to it, for the sake of completeness all other widgets too: <code class="highlighter-rouge">frame</code>, <code class="highlighter-rouge">inputLine</code>, <code class="highlighter-rouge">settingsButton</code>, <code class="highlighter-rouge">resultsList</code> (until v0.12 <code class="highlighter-rouge">proposalList</code>) and <code class="highlighter-rouge">actionList</code>. You can identify them like this :</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>QListView#actionList {
+	font-size: 20px;
+}
+</code></pre></div></div>
+
+<p>There is an excellent documentation on QStyleSheets:</p>
+
+<ul>
+  <li><a href="http://doc.qt.io/qt-5/stylesheet.html">Overview</a>
+    <ul>
+      <li><a href="http://doc.qt.io/qt-5/stylesheet-syntax.html">The Style Sheet Syntax</a></li>
+      <li><a href="http://doc.qt.io/qt-5/stylesheet-customizing.html">Customizing Qt Widgets Using Style Sheets</a></li>
+      <li><a href="http://doc.qt.io/qt-5/stylesheet-reference.html">Qt Style Sheets Reference</a>, especially the sections
+        <ul>
+          <li><a href="http://doc.qt.io/qt-5/stylesheet-examples.html#customizing-qframe">Customizing QFrame</a></li>
+          <li><a href="http://doc.qt.io/qt-5/stylesheet-examples.html#customizing-qlineedit">Customizing QLineEdit</a></li>
+          <li><a href="http://doc.qt.io/qt-5/stylesheet-examples.html#customizing-qlistview">Customizing QListView</a></li>
+        </ul>
+      </li>
+      <li><a href="http://doc.qt.io/qt-5/stylesheet-examples.html">Qt Style Sheets Examples</a></li>
+    </ul>
+  </li>
+</ul>
+
+<p>Further check the <a href="https://github.com/albertlauncher/plugins/tree/master/widgetboxmodel/share/themes">existing themes</a>.</p>
+
+<p>If your done place the file in “~/.local/share/albert/org.albert.frontend.boxmodel.widgets/themes/” and restart albert. The restart is necessary because file list is read once at start. If the file is listed you can apply changes by switching to other themes and and back again.</p>
+
+<h5 id="limitations">Limitations</h5>
+
+<p>The item is printed using a custom QStyleItemDelegate and the regular items do not intend to display a second text. So there is no (proper) possibilty to design the subtexts font size.</p>
+
+            </div>
+        </div>
+    </article>
+    </div>
+</section>
+
+      
+      <script>
+  var anchorForId = function (id) {
+    var anchor = document.createElement("a");
+    anchor.className = "header-link";
+    anchor.href      = "#" + id;
+    anchor.innerHTML = "<i class=\"fa fa-link\"></i>";
+    anchor.title = "Permalink";
+    return anchor;
+  };
+
+  var linkifyAnchors = function (level, containingElement) {
+    var headers = containingElement.getElementsByTagName("h" + level);
+    for (var h = 0; h < headers.length; h++) {
+      var header = headers[h];
+
+      if (typeof header.id !== "undefined" && header.id !== "") {
+        header.appendChild(anchorForId(header.id));
+      }
+    }
+  };
+
+  document.onreadystatechange = function () {
+    if (this.readyState === "complete") {
+      var contentBlock = document.getElementsByClassName("docs")[0] || document.getElementsByClassName("news")[0];
+      if (!contentBlock) {
+        return;
+      }
+      for (var level = 1; level <= 6; level++) {
+        linkifyAnchors(level, contentBlock);
+      }
+    }
+  };
+
+  var topEdge
+  document.onscroll = function () {
+    if (topEdge === undefined)
+      topEdge = document.getElementById("doc_nav").getBoundingClientRect().top+window.pageYOffset-20;
+
+    if ( window.pageYOffset > topEdge)
+      document.getElementById("doc_nav").classList.add("stuck");
+    else
+      document.getElementById("doc_nav").classList.remove("stuck");
+  };
+
+
+
+</script>
+
+    </main>
+</body>
+</html>

@@ -1,0 +1,144 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+  <title>Albert - Albert 0.13.0 released</title>
+  <meta charset="UTF-8">
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <link rel="alternate" type="application/rss+xml" title="Albert RSS" href="/feed.xml">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
+  <link rel="stylesheet" href="https://albertlauncher.github.io/css/main.css">
+</head>
+
+<body>
+    <main class="wrapper">
+      <nav class="site-header">
+    <div class="container">
+        <a class="title" href="https://albertlauncher.github.io">
+            <img class="icon" src="https://albertlauncher.github.io/img/albert.svg" alt="Albert" title="Albert">
+            <span class="title">Albert</span>
+        </a>
+        <nav class="navigation float-right">
+            <ul>
+    <li class="">
+        <a href="/">Home</a>
+    </li>
+    <li class="">
+        <a href="/docs/">Docs</a>
+    </li>
+    <li class="">
+        <a href="/news/">News</a>
+    </li>
+    <li class="">
+        <a href="/help/">Help</a>
+    </li>
+    <li>
+        <a href="https://github.com/albertlauncher/albert.git"><span class="hide-on-mobiles">View on </span>GitHub</a>
+    </li>
+</ul>
+
+        </nav>
+    </div>
+</nav>
+
+      <section class="container">
+    <article>
+        <h1>Albert 0.13.0 released</h1>
+        <p>Albert v0.13 sets the focus on new frontends and performance optimizations in the core.</p>
+
+<h2 id="changes-in-the-core">Changes in the core</h2>
+
+<p>The frontend is now completely modular. From now on albert supports not only theming but an
+abstract way to write completely separated user interfaces. You can even write one on your own since they are plugins now! No, don’t. Designing frontends is a pain, PRs for curses interface welcome though ;D. The really amazing thing is that this finally allows using QML for designig frontends.</p>
+
+<p>QML is a user interface markup language. It is a JSON-like declarative language for designing user interface–centric applications. Inline JavaScript code handles imperative aspects. This allows extremely flexible, flashy and animated interfaces, without coding imperative lines for hours and hours.</p>
+
+<p>v0.13 comes with a new ready to use QML frontend plugin. QML allows to write the entire user interface in QML and Javascript. There is actually no need for another QML UI plugin anymore since the C++ code below to run QML would not change. Hence the QML plugin itself is modular, designed to have several <em>styles</em> adhering to a determined QML-C++ interface. You can even write one on your own! No, dont, unless you’re a dev. Actually its still a pain to write polished UIs, although its pretty easy. The devil’s in the details.</p>
+
+<p>A style in this context means a QML Frontend written in QML. v0.13 comes with one standard style: The <em>Box Model</em> style. Looks pretty similar to the Widgets Box Model, but as you guessed, its flexible, animated and whatever. The Box Model style has properties that can be set with predefined themes. You could even make your own theme with the easy to use property editor without touching a single line of code! No don’t… just kidding, do it! Its fun. Check out this video how-to video on <a href="https://youtu.be/aCyB3ZngbLk">youtube</a>.</p>
+
+<p>Under the hood albert got some performance improvements. In the core ranking scores are now precomputed and items are added using move semantics to avoid expensive reference counting. Further you can tick the option lazy sort which delays sorting the items displayed until you actually display them by scrolling down. This has some implications on the scrollbar and the <kbd>Ctrl</kbd>+<kbd>End</kbd> button. The scrollbars height and position is determined by the amount of sorted instead of the actual amount of items and the <kbd>Ctrl</kbd>+<kbd>End</kbd> button moves the highlight to the last sorted item, which will trigger fetching and sorting of new items. So you wont be able to go to the actual last item. If you use neither of them enable it. It will save you some milliseconds on queries.</p>
+
+<h2 id="changes-in-the-extensions">Changes in the extensions</h2>
+
+<p>The files extension now has a tree structured folder index for smart indexing an less space
+requirements. QStrings are memory expensive. Inherently to the tree structure of the file system, the prefix of a path repeatedly occurs in the file paths. The tree structured index avoids this kind of duplication. Further the tree stores information about the modified times to determine if an update of the directory is necessary at all. This greatly reduces index times and resource consumption.</p>
+
+<p>Then there are several minor changes, the minimum language standard changed to C++14 and the minimum required CMake version is now 3.1.3. This comes along with the idea to always develop against the latest Ubuntu LTS.</p>
+
+<p>Further several configuration paths changed. The uniform data location are now like {configPath, dataPath, cachePath}/albert/&lt;extensionId&gt; for each extension and type. If something broke while updating check if the folders are in the correct place.</p>
+
+<p>The terminals tab completion for the executable is shell like, by completing the common prefix of all matches.</p>
+
+<p>New actions were introduced. There’s a file action “execute file” and a app action “run as root” using <code class="highlighter-rouge">gksudo</code> now.</p>
+
+<p>The interface of the external extensions changed slightly. The trigger is now removed from the query string before extension get called.</p>
+
+<h2 id="new-extensions">New extensions</h2>
+
+<p><strong>Key Value Store</strong> lets you store key value pairs for later lookup, e.g. <code class="highlighter-rouge">"IBAN": "DE1329423908429304102"</code> or <code class="highlighter-rouge">"Telefon": "+49 176 32434920"</code>. Use the trigger <code class="highlighter-rouge">kv</code> to interact with the extension. Set values with <code class="highlighter-rouge">kv set &lt;key&gt; &lt;value&gt;</code>, unset values with <code class="highlighter-rouge">kv unset &lt;key&gt;</code> and get them either by directly calling the extension <code class="highlighter-rouge">kv &lt;keyprefix&gt;</code> or by regular lookup with a prefix of the key.</p>
+
+<p><strong>Hash Generator</strong> does string hashing for you. Enter <code class="highlighter-rouge">hash</code> or the name of the hash directly, e.g. <code class="highlighter-rouge">md5</code>, and a string you want to hash. You will get the hashes as results. Exmaple: <code class="highlighter-rouge">md5 hashsource</code>.</p>
+
+<h2 id="notes-for-devs">Notes for devs</h2>
+
+<p>As in the external extensions the query interface changed. The query now has a string and a rawString. The raw string returns the query string including the trigger. If the query is not triggered string and rawString are equivalent.</p>
+
+<p>The extensions folder is now a git submodule. Expect this to change to a even more fine grained structure in future.</p>
+
+<p>As always check the <a href="https://github.com/albertlauncher/albert/commits/v0.13.0">git log</a> for details.</p>
+
+    </article>
+</section>
+
+      
+      <script>
+  var anchorForId = function (id) {
+    var anchor = document.createElement("a");
+    anchor.className = "header-link";
+    anchor.href      = "#" + id;
+    anchor.innerHTML = "<i class=\"fa fa-link\"></i>";
+    anchor.title = "Permalink";
+    return anchor;
+  };
+
+  var linkifyAnchors = function (level, containingElement) {
+    var headers = containingElement.getElementsByTagName("h" + level);
+    for (var h = 0; h < headers.length; h++) {
+      var header = headers[h];
+
+      if (typeof header.id !== "undefined" && header.id !== "") {
+        header.appendChild(anchorForId(header.id));
+      }
+    }
+  };
+
+  document.onreadystatechange = function () {
+    if (this.readyState === "complete") {
+      var contentBlock = document.getElementsByClassName("docs")[0] || document.getElementsByClassName("news")[0];
+      if (!contentBlock) {
+        return;
+      }
+      for (var level = 1; level <= 6; level++) {
+        linkifyAnchors(level, contentBlock);
+      }
+    }
+  };
+
+  var topEdge
+  document.onscroll = function () {
+    if (topEdge === undefined)
+      topEdge = document.getElementById("doc_nav").getBoundingClientRect().top+window.pageYOffset-20;
+
+    if ( window.pageYOffset > topEdge)
+      document.getElementById("doc_nav").classList.add("stuck");
+    else
+      document.getElementById("doc_nav").classList.remove("stuck");
+  };
+
+
+
+</script>
+
+    </main>
+</body>
+</html>

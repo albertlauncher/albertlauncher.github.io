@@ -1,0 +1,233 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+  <title>Albert - External extensions communication protocol (v2)</title>
+  <meta charset="UTF-8">
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <link rel="alternate" type="application/rss+xml" title="Albert RSS" href="/feed.xml">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
+  <link rel="stylesheet" href="https://albertlauncher.github.io/css/main.css">
+</head>
+
+<body>
+    <main class="wrapper">
+      <nav class="site-header">
+    <div class="container">
+        <a class="title" href="https://albertlauncher.github.io">
+            <img class="icon" src="https://albertlauncher.github.io/img/albert.svg" alt="Albert" title="Albert">
+            <span class="title">Albert</span>
+        </a>
+        <nav class="navigation float-right">
+            <ul>
+    <li class="">
+        <a href="/">Home</a>
+    </li>
+    <li class="current">
+        <a href="/docs/">Docs</a>
+    </li>
+    <li class="">
+        <a href="/news/">News</a>
+    </li>
+    <li class="">
+        <a href="/help/">Help</a>
+    </li>
+    <li>
+        <a href="https://github.com/albertlauncher/albert.git"><span class="hide-on-mobiles">View on </span>GitHub</a>
+    </li>
+</ul>
+
+        </nav>
+    </div>
+</nav>
+
+      <section class="container docs">
+    <article>
+        <div class="row">
+            <div class="column column-20">
+              <aside id="doc_nav">
+  
+    <h5>User guide</h5>
+    <ul>
+
+  
+  
+  <li class=""><a href="/docs/installing/">Installing Albert</a></li>
+
+  
+  
+  <li class=""><a href="/docs/using/">Using Albert</a></li>
+
+  
+  
+  <li class=""><a href="/docs/extending/">Extending Albert</a></li>
+
+  
+  
+  <li class=""><a href="/docs/extensions/">Extensions</a></li>
+
+  
+  
+  <li class=""><a href="/docs/faq/">Troubleshooting</a></li>
+
+</ul>
+
+  
+    <h5>Meta</h5>
+    <ul>
+
+  
+  
+  <li class=""><a href="/docs/contributing/">Contributing</a></li>
+
+  
+  
+  <li class=""><a href="/docs/donation/">Donating</a></li>
+
+  
+  
+  <li class=""><a href="/docs/changelog/">Changelog</a></li>
+
+</ul>
+
+  
+</aside>
+
+            </div>
+            <div class="column column-80">
+                <div class="float-right">
+                    <a href="https://github.com/albertlauncher/documentation/edit/master/src/_docs/extensions/external.v2.md">Improve this page</a>
+                </div>
+                <h1>External extensions communication protocol (v2)</h1>
+                <h4 id="metadata"><code class="highlighter-rouge">METADATA</code></h4>
+<p>The application wants to get the metadata of the extension. It should have the
+following keys:</p>
+
+<ul>
+  <li><code class="highlighter-rouge">iid</code> (string, mandatory)</li>
+  <li><code class="highlighter-rouge">version</code> (string, defaults to ‘N/A’)</li>
+  <li><code class="highlighter-rouge">name</code> (string, defaults to $id)</li>
+  <li><code class="highlighter-rouge">trigger</code> (string, defaults to ‘empty’)</li>
+  <li><code class="highlighter-rouge">author</code> (string, defaults to ‘N/A’)</li>
+  <li><code class="highlighter-rouge">dependencies</code> (array of strings, defaults to ‘empty’)</li>
+</ul>
+
+<p>The interface id <code class="highlighter-rouge">iid</code> (currently <code class="highlighter-rouge">org.albert.extension.external/v2.0</code> tells the application the type and version of the communication protocol . If the <code class="highlighter-rouge">iid</code> is incompatible this plugin will not show up in the plugins list. The remaining keys should be self-explanatory. Errors in this step are fatal: loading will not be continued.</p>
+
+<h4 id="initialize"><code class="highlighter-rouge">INITIALIZE</code></h4>
+<p>The request to initialize the plugin. The plugin should load potential state from persistant storage, check if all requirements are met and set the exit code accordingly. (Everything but zero is an error). Errors in this step are fatal: loading will not be continued.</p>
+
+<h4 id="finalize"><code class="highlighter-rouge">FINALIZE</code></h4>
+<p>The request to finalize the plugin. The plugin should save the state to persistent storage.</p>
+
+<h4 id="setupsession"><code class="highlighter-rouge">SETUPSESSION</code></h4>
+<p>The request to setup for a session, meaning prepare for user queries. This message is sent when the users starts a session, i.e.  the main window opens.</p>
+
+<h4 id="teardownsession"><code class="highlighter-rouge">TEARDOWNSESSION</code></h4>
+<p>The request to teardown a session. This message is sent when the users ends a session, i.e. the main window closes.</p>
+
+<h4 id="query"><code class="highlighter-rouge">QUERY</code></h4>
+<p>The request to handle a query. The environment variable <code class="highlighter-rouge">ALBERT_QUERY</code> contains the <em>complete</em> query as the user entered it into the input box, i.e. including potential triggers.</p>
+
+<p><strong>Note:</strong> The process handling <code class="highlighter-rouge">QUERY</code> can be terminated at any time. Do <em>not</em> change state in this code segment.</p>
+
+<p>Return the results by an array “items” containing JSON objects representing the results. A result object has to contain the following entries: <code class="highlighter-rouge">id</code>, <code class="highlighter-rouge">name</code>, <code class="highlighter-rouge">description</code>, <code class="highlighter-rouge">icon</code> and <code class="highlighter-rouge">actions</code>.</p>
+
+<ul>
+  <li><code class="highlighter-rouge">id</code> is the plugin wide unique id of the result</li>
+  <li><code class="highlighter-rouge">name</code> is the name of the result</li>
+  <li><code class="highlighter-rouge">description</code> is the description of the result</li>
+  <li><code class="highlighter-rouge">completion</code> is the completions string of the result</li>
+  <li><code class="highlighter-rouge">icon</code> is the icon of the result (name or path)</li>
+  <li><code class="highlighter-rouge">actions</code> is a array of objects representing the actions for the item.</li>
+</ul>
+
+<p>The <code class="highlighter-rouge">id</code> of the item will be used to sort the items by usage. The <code class="highlighter-rouge">name</code>, <code class="highlighter-rouge">icon</code> and <code class="highlighter-rouge">description</code> will be displayed together as an item in the results list. <code class="highlighter-rouge">completion</code> is the string that will be used to replace the text in the input box when the user pressed <kbd>Tab</kbd>. If <code class="highlighter-rouge">icon</code> is an absolute path, the given file will be used. If the <code class="highlighter-rouge">icon</code> is not an absolute path, the algorithm described in the <a href="https://freedesktop.org/wiki/Specifications/icon-theme-spec/">Icon Theme Specification</a> will be used to locate the icon. An object representing an action has to contain the following values: <code class="highlighter-rouge">name</code>, <code class="highlighter-rouge">command</code> and <code class="highlighter-rouge">arguments</code>.</p>
+
+<ul>
+  <li><code class="highlighter-rouge">name</code> is the actions name</li>
+  <li><code class="highlighter-rouge">command</code> is the program to be execute</li>
+  <li><code class="highlighter-rouge">arguments</code> is an array of parameters for <code class="highlighter-rouge">command</code></li>
+</ul>
+
+<p>An example:</p>
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
+ </span><span class="s2">"items"</span><span class="p">:</span><span class="w"> </span><span class="p">[{</span><span class="w">
+   </span><span class="s2">"id"</span><span class="p">:</span><span class="s2">"extension.wide.unique.id"</span><span class="p">,</span><span class="w">
+   </span><span class="s2">"name"</span><span class="p">:</span><span class="s2">"An Item"</span><span class="p">,</span><span class="w">
+   </span><span class="s2">"description"</span><span class="p">:</span><span class="s2">"Nice description."</span><span class="p">,</span><span class="w">
+   </span><span class="s2">"icon"</span><span class="p">:</span><span class="s2">"/path/to/icon"</span><span class="p">,</span><span class="w">
+   </span><span class="s2">"actions"</span><span class="p">:[{</span><span class="w">
+     </span><span class="s2">"name"</span><span class="p">:</span><span class="s2">"Action name 1"</span><span class="p">,</span><span class="w">
+     </span><span class="s2">"command"</span><span class="p">:</span><span class="s2">"program"</span><span class="p">,</span><span class="w">
+     </span><span class="s2">"arguments"</span><span class="p">:[</span><span class="s2">"-a"</span><span class="p">,</span><span class="w"> </span><span class="s2">"-b"</span><span class="p">]</span><span class="w">
+   </span><span class="p">},{</span><span class="w">
+     </span><span class="s2">"name"</span><span class="p">:</span><span class="s2">"Action name 2"</span><span class="p">,</span><span class="w">
+     </span><span class="s2">"command"</span><span class="p">:</span><span class="s2">"program2"</span><span class="p">,</span><span class="w">
+     </span><span class="s2">"arguments"</span><span class="p">:[</span><span class="s2">"-C"</span><span class="p">,</span><span class="w"> </span><span class="s2">"-D"</span><span class="p">]</span><span class="w">
+   </span><span class="p">}]</span><span class="w">
+ </span><span class="p">}],</span><span class="w">
+ </span><span class="s2">"variables"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+   </span><span class="s2">"some_var"</span><span class="p">:</span><span class="s2">"variable"</span><span class="p">,</span><span class="w">
+   </span><span class="s2">"some_other_var"</span><span class="p">:</span><span class="s2">"cool state"</span><span class="w">
+ </span><span class="p">}</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div></div>
+
+            </div>
+        </div>
+    </article>
+    </div>
+</section>
+
+      
+      <script>
+  var anchorForId = function (id) {
+    var anchor = document.createElement("a");
+    anchor.className = "header-link";
+    anchor.href      = "#" + id;
+    anchor.innerHTML = "<i class=\"fa fa-link\"></i>";
+    anchor.title = "Permalink";
+    return anchor;
+  };
+
+  var linkifyAnchors = function (level, containingElement) {
+    var headers = containingElement.getElementsByTagName("h" + level);
+    for (var h = 0; h < headers.length; h++) {
+      var header = headers[h];
+
+      if (typeof header.id !== "undefined" && header.id !== "") {
+        header.appendChild(anchorForId(header.id));
+      }
+    }
+  };
+
+  document.onreadystatechange = function () {
+    if (this.readyState === "complete") {
+      var contentBlock = document.getElementsByClassName("docs")[0] || document.getElementsByClassName("news")[0];
+      if (!contentBlock) {
+        return;
+      }
+      for (var level = 1; level <= 6; level++) {
+        linkifyAnchors(level, contentBlock);
+      }
+    }
+  };
+
+  var topEdge
+  document.onscroll = function () {
+    if (topEdge === undefined)
+      topEdge = document.getElementById("doc_nav").getBoundingClientRect().top+window.pageYOffset-20;
+
+    if ( window.pageYOffset > topEdge)
+      document.getElementById("doc_nav").classList.add("stuck");
+    else
+      document.getElementById("doc_nav").classList.remove("stuck");
+  };
+
+
+
+</script>
+
+    </main>
+</body>
+</html>

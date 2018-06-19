@@ -1,0 +1,338 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+  <title>Albert - Python extension</title>
+  <meta charset="UTF-8">
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <link rel="alternate" type="application/rss+xml" title="Albert RSS" href="/feed.xml">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
+  <link rel="stylesheet" href="https://albertlauncher.github.io/css/main.css">
+</head>
+
+<body>
+    <main class="wrapper">
+      <nav class="site-header">
+    <div class="container">
+        <a class="title" href="https://albertlauncher.github.io">
+            <img class="icon" src="https://albertlauncher.github.io/img/albert.svg" alt="Albert" title="Albert">
+            <span class="title">Albert</span>
+        </a>
+        <nav class="navigation float-right">
+            <ul>
+    <li class="">
+        <a href="/">Home</a>
+    </li>
+    <li class="current">
+        <a href="/docs/">Docs</a>
+    </li>
+    <li class="">
+        <a href="/news/">News</a>
+    </li>
+    <li class="">
+        <a href="/help/">Help</a>
+    </li>
+    <li>
+        <a href="https://github.com/albertlauncher/albert.git"><span class="hide-on-mobiles">View on </span>GitHub</a>
+    </li>
+</ul>
+
+        </nav>
+    </div>
+</nav>
+
+      <section class="container docs">
+    <article>
+        <div class="row">
+            <div class="column column-20">
+              <aside id="doc_nav">
+  
+    <h5>User guide</h5>
+    <ul>
+
+  
+  
+  <li class=""><a href="/docs/installing/">Installing Albert</a></li>
+
+  
+  
+  <li class=""><a href="/docs/using/">Using Albert</a></li>
+
+  
+  
+  <li class=""><a href="/docs/extending/">Extending Albert</a></li>
+
+  
+  
+  <li class=""><a href="/docs/extensions/">Extensions</a></li>
+
+  
+  
+  <li class=""><a href="/docs/faq/">Troubleshooting</a></li>
+
+</ul>
+
+  
+    <h5>Meta</h5>
+    <ul>
+
+  
+  
+  <li class=""><a href="/docs/contributing/">Contributing</a></li>
+
+  
+  
+  <li class=""><a href="/docs/donation/">Donating</a></li>
+
+  
+  
+  <li class=""><a href="/docs/changelog/">Changelog</a></li>
+
+</ul>
+
+  
+</aside>
+
+            </div>
+            <div class="column column-80">
+                <div class="float-right">
+                    <a href="https://github.com/albertlauncher/documentation/edit/master/src/_docs/extensions/python.md">Improve this page</a>
+                </div>
+                <h1>Python extension</h1>
+                <p>The Python extension makes the application extendable by embedding Python modules. Since the name of the native extension providing this functionality is “Python extension” and a Python module in this context is called “Python extension” too, this article refers to the Python extensions by using the term <em>Python modules</em>.</p>
+
+<p>A Python module must have a specific interface to be applicable as extension. The interface uses classes which are defined in the builtin <code class="highlighter-rouge">albertv0</code> module. Check the relevant sections below.</p>
+
+<p>The extension interface and the built-in albert module are <em>not</em> final. They are prototypes and intended to be improved on user feedback.</p>
+
+<p>The extension interface is a versioned protocol that describes how the Python extension interacts with the Python modules. The current interface identifier is <strong>PythonInterface/v0.2</strong>.</p>
+
+<h2 id="extension-interface-02">Extension interface (0.2)</h2>
+
+<p>Additions to PythonInterface/0.1:</p>
+
+<h5 id="cachelocation"><code class="highlighter-rouge">cacheLocation()</code></h5>
+
+<p>Returns the writable cache location of the app. (E.g. $HOME/.cache/albert/ on Linux)</p>
+
+<h5 id="configlocation"><code class="highlighter-rouge">configLocation()</code></h5>
+
+<p>Returns the writable config location of the app. (E.g. $HOME/.config/albert/ on Linux)</p>
+
+<h5 id="datalocation"><code class="highlighter-rouge">dataLocation()</code></h5>
+
+<p>Returns the writable data location of the app. (E.g. $HOME/.local/share/albert/ on Linux)</p>
+
+<h2 id="extension-interface-01">Extension interface (0.1)</h2>
+
+<h5 id="handlequeryquery"><code class="highlighter-rouge">handleQuery(Query)</code></h5>
+<p>Mandatory function. This is the crucial part of a Python module. When the user types a query, this function is called with a query object representing the current query execution.</p>
+
+<p>This function should return a list of Item objects. See the Item class section below.</p>
+
+<h5 id="initialize"><code class="highlighter-rouge">initialize()</code></h5>
+<p>Optional function. This function is called when the extension is loaded.</p>
+
+<h5 id="finalize"><code class="highlighter-rouge">finalize()</code></h5>
+<p>Optional function. This function is called when the extension is unloaded.</p>
+
+<h5 id="the-docstring-of-the-module-__doc__">The docstring of the module (<code class="highlighter-rouge">__doc__</code>)</h5>
+<p>The docstring of the module is used as description of the extension. This string will be displayed to the user.</p>
+
+<h5 id="__iid__"><code class="highlighter-rouge">__iid__</code></h5>
+<p>Mandatory variable (string). This variable has to hold the interface version the extension implements.</p>
+
+<h5 id="__prettyname__"><code class="highlighter-rouge">__prettyname__</code></h5>
+<p>Optional variable (string). This variable should hold the pretty name of the extension. This string will be displayed to the user.</p>
+
+<h5 id="__version__"><code class="highlighter-rouge">__version__</code></h5>
+<p>Optional variable (string). This variable should hold the version of the extension. This string will be displayed to the user. The versioning scheme should follow the <a href="http://semver.org">semantic versioning</a>.</p>
+
+<h5 id="__trigger__"><code class="highlighter-rouge">__trigger__</code></h5>
+<p>Optional variable (string). If this extension should be run exclusively, this variable has to hold the trigger that causes the extension to be executed.</p>
+
+<h5 id="__author__"><code class="highlighter-rouge">__author__</code></h5>
+<p>Optional variable (string). This variable should hold the name of the author of the extension.</p>
+
+<h5 id="__dependencies__"><code class="highlighter-rouge">__dependencies__</code></h5>
+<p>Optional variable (list of strings). This string should contain any dependencies the extension needs to be used.</p>
+
+<h2 id="api-reference---the-albertv0-module">Api reference - The <code class="highlighter-rouge">albertv0</code> module</h2>
+
+<p>The built-in albert module exposes several functions and classes for use with Albert.</p>
+
+<h3 id="the-query-class">The <code class="highlighter-rouge">Query</code> class</h3>
+
+<p>The query class represents a query execution. It holds the necessary information to handle a Query. It is passed to the handleQuery function. It holds the following read-only properties.</p>
+
+<h5 id="string"><code class="highlighter-rouge">string</code></h5>
+<p>This is the actual query string without the trigger. If the query is not triggered this string equals rawstring.</p>
+
+<h5 id="rawstring"><code class="highlighter-rouge">rawString</code></h5>
+<p>This is the full query string including the trigger. If the query is not triggered this string equals string.</p>
+
+<h5 id="trigger"><code class="highlighter-rouge">trigger</code></h5>
+<p>This is the trigger that has been used to start this extension.</p>
+
+<h5 id="istriggered"><code class="highlighter-rouge">isTriggered</code></h5>
+<p>Indicates that this query has been triggered.</p>
+
+<h5 id="isvalid"><code class="highlighter-rouge">isValid</code></h5>
+<p>This flag indicates if the query is valid. A query is valid as long as the core cancels it. You should regularly check this flag and abort the query handling if the flag is False to release threads in the threadpool for the next query.</p>
+
+<h3 id="abstract-classes">Abstract classes</h3>
+
+<h5 id="the-actionbase-class">The <code class="highlighter-rouge">ActionBase</code> class</h5>
+
+<p>The base class for actions. This is a wrapper for the internal Action interface. You should not need it. If you think you do I‘d be interested why. Please contact me.</p>
+
+<h5 id="the-itembase-class">The <code class="highlighter-rouge">ItemBase</code> class</h5>
+
+<p>The base class for items. This is a wrapper for the internal Item interface. You should not need this unless you need the Urgency enum.</p>
+
+<h6 id="the-urgency-enum">The <code class="highlighter-rouge">Urgency</code> enum</h6>
+<p>The urgency of an item. Note that this enum is defined in the scope of the ItemBase class.</p>
+
+<h3 id="standard-action-classes">Standard action classes</h3>
+
+<p>Standard actions are realizations of the Action interface from the core. They implement often used actions for Albert items.</p>
+
+<h5 id="the-clipaction-class">The <code class="highlighter-rouge">ClipAction</code> class</h5>
+<p>This class copies the given text to the clipboard on activation.</p>
+
+<h5 id="urlaction"><code class="highlighter-rouge">UrlAction</code></h5>
+<p>This class opens the given URL with the systems default URL handler for the scheme of the URL on activation.</p>
+
+<h5 id="procaction"><code class="highlighter-rouge">ProcAction</code></h5>
+<p>This class executes the given commandline as a detached process on activation. Optionally the working directory of the process can be set.</p>
+
+<h5 id="termaction"><code class="highlighter-rouge">TermAction</code></h5>
+<p>This class executes the given commandline in the terminal set in the preferences. Optionally the working directory of the process can be set.</p>
+
+<h5 id="the-funcaction-class">The <code class="highlighter-rouge">FuncAction</code> class</h5>
+<p>This class is a general purpose action. On activation the callable is executed.</p>
+
+<h3 id="the-item-class">The <code class="highlighter-rouge">Item</code> class</h3>
+
+<p>This class represents a result item. Objects of this class are intended to be returned by the handleQuery function.</p>
+
+<h5 id="itemid-iconpython_module-text-subtext-completion-urgencyurgencynormal-actions"><code class="highlighter-rouge">Item(id="", icon=":python_module", text="", subtext="", completion="", urgency=Urgency::Normal, actions=[])</code></h5>
+<p>This is the constructor of the item.</p>
+
+<p>Note that the default icon path is “:python_module” which is an embedded resource icon depicting a Python script and the urgency defaults to normal.</p>
+
+<h5 id="id"><code class="highlighter-rouge">id</code></h5>
+<p>The identifier string of the item. It is used for ranking aloritms and should not be empty.</p>
+
+<h5 id="icon"><code class="highlighter-rouge">icon</code></h5>
+<p>The path of the icon displayed in the item.</p>
+
+<h5 id="text"><code class="highlighter-rouge">text</code></h5>
+<p>The primary text of the item.</p>
+
+<h5 id="subtext"><code class="highlighter-rouge">subtext</code></h5>
+<p>The secondary text of the item. This text should have informative character.</p>
+
+<h5 id="completion"><code class="highlighter-rouge">completion</code></h5>
+<p>The completion string of the item. This string will be used to replace the input line when the user hits the Tab key on an item.</p>
+
+<p>Note that the semantics may vary depending in the context. Often evaluate semantics are more appropriate.</p>
+
+<h5 id="urgency"><code class="highlighter-rouge">urgency</code></h5>
+<p>The urgency of the item. Note that the Urgency enum is defined in the ItemBase class. See the Urgency enum.</p>
+
+<h5 id="addactionaction"><code class="highlighter-rouge">addAction(Action)</code></h5>
+<p>Add an action to the item.</p>
+
+<h3 id="free-functions">Free functions</h3>
+
+<h5 id="debugtext"><code class="highlighter-rouge">debug(text)</code></h5>
+<p>Log a debug message. Note that this is effectively a NOP in release builds.</p>
+
+<h5 id="infotext"><code class="highlighter-rouge">info(text)</code></h5>
+<p>Log an info message.</p>
+
+<h5 id="warningtext"><code class="highlighter-rouge">warning(text)</code></h5>
+<p>Log a warning message.</p>
+
+<h5 id="criticaltext"><code class="highlighter-rouge">critical(text)</code></h5>
+<p>Log a critical message.</p>
+
+<h5 id="iconlookupiconname"><code class="highlighter-rouge">iconLookup(iconName)</code></h5>
+<p>Perform xdg icon lookup and return a path. Empty if nothing found.</p>
+
+<h2 id="deployment">Deployment</h2>
+
+<p>The extension checks its data directories for a directory called <code class="highlighter-rouge">modules</code>. The name of a data directory is the id of the extension. I the case of the Python extension this is <code class="highlighter-rouge">org.albert.extension.python</code>. The data directories reside in the data directories of the application defined by <a href="http://doc.qt.io/qt-5/qstandardpaths.html#StandardLocation-enum">Qt</a>. Hence the external extensions would be looked up in the following directories (in this order):</p>
+
+<ul>
+  <li>~/.local/share/albert/org.albert.extension.python/modules</li>
+  <li>/usr/local/share/albert/org.albert.extension.python/modules</li>
+  <li>/usr/share/albert/org.albert.extension.python/modules</li>
+</ul>
+
+<p>Ids are guaranteed to be unique. This means that if several of those paths contain a plugins with identical ids, the first plugin found will be used.</p>
+
+<h1 id="known-issues">Known issues</h1>
+
+<p>Python exceptions thrown at the core application are not handled well and may introduce a lot of weird errors. Ensure that you catch <em>all</em> exceptions in the Pyhton code.</p>
+
+<p>The Python interpreter shuts down when the Python extension is unloaded. After this, enabling the extension will restart the interpreter. Some modules can not be re-initialized safely and may cause segfaults after the interpreter has been restarted (numpy!). The issue is that Python itself cannot completely unload extension modules and there are several caveats with regard to interpreter restarting. In short, not all memory may be freed, either due to Python reference cycles or user-created global data. All the details can be found in the CPython documentation.</p>
+
+            </div>
+        </div>
+    </article>
+    </div>
+</section>
+
+      
+      <script>
+  var anchorForId = function (id) {
+    var anchor = document.createElement("a");
+    anchor.className = "header-link";
+    anchor.href      = "#" + id;
+    anchor.innerHTML = "<i class=\"fa fa-link\"></i>";
+    anchor.title = "Permalink";
+    return anchor;
+  };
+
+  var linkifyAnchors = function (level, containingElement) {
+    var headers = containingElement.getElementsByTagName("h" + level);
+    for (var h = 0; h < headers.length; h++) {
+      var header = headers[h];
+
+      if (typeof header.id !== "undefined" && header.id !== "") {
+        header.appendChild(anchorForId(header.id));
+      }
+    }
+  };
+
+  document.onreadystatechange = function () {
+    if (this.readyState === "complete") {
+      var contentBlock = document.getElementsByClassName("docs")[0] || document.getElementsByClassName("news")[0];
+      if (!contentBlock) {
+        return;
+      }
+      for (var level = 1; level <= 6; level++) {
+        linkifyAnchors(level, contentBlock);
+      }
+    }
+  };
+
+  var topEdge
+  document.onscroll = function () {
+    if (topEdge === undefined)
+      topEdge = document.getElementById("doc_nav").getBoundingClientRect().top+window.pageYOffset-20;
+
+    if ( window.pageYOffset > topEdge)
+      document.getElementById("doc_nav").classList.add("stuck");
+    else
+      document.getElementById("doc_nav").classList.remove("stuck");
+  };
+
+
+
+</script>
+
+    </main>
+</body>
+</html>
