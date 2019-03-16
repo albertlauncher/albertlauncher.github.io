@@ -1,0 +1,418 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+  <title>Albert - Calculator extension</title>
+  <meta charset="UTF-8">
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <link rel="alternate" type="application/rss+xml" title="Albert RSS" href="/feed.xml">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
+  <link rel="stylesheet" href="https://albertlauncher.github.io/css/main.css">
+</head>
+
+<body>
+    <main class="wrapper">
+      <nav class="site-header">
+    <div class="container">
+        <a class="title" href="https://albertlauncher.github.io">
+            <img class="icon" src="https://albertlauncher.github.io/img/albert.svg" alt="Albert" title="Albert">
+            <span class="title">Albert</span>
+        </a>
+        <nav class="navigation float-right">
+            <ul>
+    <li class="">
+        <a href="/">Home</a>
+    </li>
+    <li class="current">
+        <a href="/docs/">Docs</a>
+    </li>
+    <li class="">
+        <a href="/news/">News</a>
+    </li>
+    <li class="">
+        <a href="/help/">Help</a>
+    </li>
+    <li>
+        <a href="https://github.com/albertlauncher/albert.git"><span class="hide-on-mobiles">View on </span>GitHub</a>
+    </li>
+</ul>
+
+        </nav>
+    </div>
+</nav>
+
+      <section class="container docs">
+    <article>
+        <div class="row">
+            <div class="column column-20">
+              <aside id="doc_nav">
+  
+    <h5>User guide</h5>
+    <ul>
+
+  
+  
+  <li class=""><a href="/docs/installing/">Installing Albert</a></li>
+
+  
+  
+  <li class=""><a href="/docs/using/">Using Albert</a></li>
+
+  
+  
+  <li class=""><a href="/docs/extending/">Extending Albert</a></li>
+
+  
+  
+  <li class=""><a href="/docs/extensions/">Extensions</a></li>
+
+  
+  
+  <li class=""><a href="/docs/faq/">Troubleshooting</a></li>
+
+</ul>
+
+  
+    <h5>Meta</h5>
+    <ul>
+
+  
+  
+  <li class=""><a href="/docs/contributing/">Contributing</a></li>
+
+  
+  
+  <li class=""><a href="/docs/donation/">Donating</a></li>
+
+  
+  
+  <li class=""><a href="/docs/changelog/">Changelog</a></li>
+
+</ul>
+
+  
+</aside>
+
+            </div>
+            <div class="column column-80">
+                <div class="float-right">
+                    <a href="https://github.com/albertlauncher/documentation/edit/master/src/_docs/extensions/calculator.md">Improve this page</a>
+                </div>
+                <h1>Calculator extension</h1>
+                <p><strong>Note</strong>: This extension depends on <a href="http://beltoforion.de/article.php?a=muparser">muparser</a>.</p>
+
+<p>The calculator should be self-explanatory. The calculator item appears as soon as you type a valid math expression into the input box. Euler’s number <code class="highlighter-rouge">_e</code> and π <code class="highlighter-rouge">_pi</code> are predefined.</p>
+
+<h2 id="known-limitations">Known limitations</h2>
+
+<p>Muparser uses double precision floats which introduces the well known <a href="https://stackoverflow.com/questions/588004/is-floating-point-math-broken">precision problems</a>.</p>
+
+<h2 id="built-in-functions">Built-in functions</h2>
+
+<p>The following table gives an overview of the functions supported by the default implementation. It lists the function names, the number of arguments and a brief description.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Argc.</th>
+      <th>Explanation</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>sin</td>
+      <td>1</td>
+      <td>sine function</td>
+    </tr>
+    <tr>
+      <td>cos</td>
+      <td>1</td>
+      <td>cosine function</td>
+    </tr>
+    <tr>
+      <td>tan</td>
+      <td>1</td>
+      <td>tangens function</td>
+    </tr>
+    <tr>
+      <td>asin</td>
+      <td>1</td>
+      <td>arcus sine function</td>
+    </tr>
+    <tr>
+      <td>acos</td>
+      <td>1</td>
+      <td>arcus cosine function</td>
+    </tr>
+    <tr>
+      <td>atan</td>
+      <td>1</td>
+      <td>arcus tangens function</td>
+    </tr>
+    <tr>
+      <td>sinh</td>
+      <td>1</td>
+      <td>hyperbolic sine function</td>
+    </tr>
+    <tr>
+      <td>cosh</td>
+      <td>1</td>
+      <td>hyperbolic cosine</td>
+    </tr>
+    <tr>
+      <td>tanh</td>
+      <td>1</td>
+      <td>hyperbolic tangens function</td>
+    </tr>
+    <tr>
+      <td>asinh</td>
+      <td>1</td>
+      <td>hyperbolic arcus sine function</td>
+    </tr>
+    <tr>
+      <td>acosh</td>
+      <td>1</td>
+      <td>hyperbolic arcus tangens function</td>
+    </tr>
+    <tr>
+      <td>atanh</td>
+      <td>1</td>
+      <td>hyperbolic arcur tangens function</td>
+    </tr>
+    <tr>
+      <td>log2</td>
+      <td>1</td>
+      <td>logarithm to the base 2</td>
+    </tr>
+    <tr>
+      <td>log10</td>
+      <td>1</td>
+      <td>logarithm to the base 10</td>
+    </tr>
+    <tr>
+      <td>log</td>
+      <td>1</td>
+      <td>logarithm to base e (2.71828…)</td>
+    </tr>
+    <tr>
+      <td>ln</td>
+      <td>1</td>
+      <td>logarithm to base e (2.71828…)</td>
+    </tr>
+    <tr>
+      <td>exp</td>
+      <td>1</td>
+      <td>e raised to the power of x</td>
+    </tr>
+    <tr>
+      <td>sqrt</td>
+      <td>1</td>
+      <td>square root of a value</td>
+    </tr>
+    <tr>
+      <td>sign</td>
+      <td>1</td>
+      <td>sign function -1 if x&lt;0; 1 if x&gt;0</td>
+    </tr>
+    <tr>
+      <td>rint</td>
+      <td>1</td>
+      <td>round to nearest integer</td>
+    </tr>
+    <tr>
+      <td>abs</td>
+      <td>1</td>
+      <td>absolute value</td>
+    </tr>
+    <tr>
+      <td>min</td>
+      <td>var.</td>
+      <td>min of all arguments</td>
+    </tr>
+    <tr>
+      <td>max</td>
+      <td>var.</td>
+      <td>max of all arguments</td>
+    </tr>
+    <tr>
+      <td>sum</td>
+      <td>var.</td>
+      <td>sum of all arguments</td>
+    </tr>
+    <tr>
+      <td>avg</td>
+      <td>var.</td>
+      <td>mean value of all arguments</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="built-in-binary-operators">Built-in binary operators</h2>
+
+<p>The following table lists the default binary operators supported by the parser.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Operator</th>
+      <th>Description</th>
+      <th>Priority</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>=</td>
+      <td>assignement</td>
+      <td>-1</td>
+    </tr>
+    <tr>
+      <td>&amp;&amp;</td>
+      <td>logical and</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>||</td>
+      <td>logical or</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>&lt;=</td>
+      <td>less or equal</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td>&gt;=</td>
+      <td>greater or equal</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td>!=</td>
+      <td>not equal</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td>==</td>
+      <td>equal</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td>&gt;</td>
+      <td>greater than</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td>&lt;</td>
+      <td>less than</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td>+</td>
+      <td>addition</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>-</td>
+      <td>subtraction</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>*</td>
+      <td>multiplication</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <td>/</td>
+      <td>division</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <td>^</td>
+      <td>raise x to the power of y</td>
+      <td>7</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>*The assignment operator is special since it changes one of its arguments and can only by applied to variables.</p>
+
+<h2 id="ternary-operators">Ternary Operators</h2>
+
+<p>muParser has built in support for the if then else operator. It uses lazy evaluation in order to make sure only the necessary branch of the expression is evaluated.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Operator</th>
+      <th>Description</th>
+      <th>Remarks</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>?:</td>
+      <td>if then else operator</td>
+      <td>C++ style syntax</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>For more details check the <a href="http://beltoforion.de/article.php?a=muparser&amp;hl=en&amp;p=features&amp;s=idDef1#idDef1">muparser documentation</a>.</p>
+
+            </div>
+        </div>
+    </article>
+    </div>
+</section>
+
+      
+      <script>
+  var anchorForId = function (id) {
+    var anchor = document.createElement("a");
+    anchor.className = "header-link";
+    anchor.href      = "#" + id;
+    anchor.innerHTML = "<i class=\"fa fa-link\"></i>";
+    anchor.title = "Permalink";
+    return anchor;
+  };
+
+  var linkifyAnchors = function (level, containingElement) {
+    var headers = containingElement.getElementsByTagName("h" + level);
+    for (var h = 0; h < headers.length; h++) {
+      var header = headers[h];
+
+      if (typeof header.id !== "undefined" && header.id !== "") {
+        header.appendChild(anchorForId(header.id));
+      }
+    }
+  };
+
+  document.onreadystatechange = function () {
+    if (this.readyState === "complete") {
+      var contentBlock = document.getElementsByClassName("docs")[0] || document.getElementsByClassName("news")[0];
+      if (!contentBlock) {
+        return;
+      }
+      for (var level = 1; level <= 6; level++) {
+        linkifyAnchors(level, contentBlock);
+      }
+    }
+  };
+
+  var topEdge
+  document.onscroll = function () {
+    if (topEdge === undefined)
+      topEdge = document.getElementById("doc_nav").getBoundingClientRect().top+window.pageYOffset-20;
+
+    if ( window.pageYOffset > topEdge)
+      document.getElementById("doc_nav").classList.add("stuck");
+    else
+      document.getElementById("doc_nav").classList.remove("stuck");
+  };
+
+
+
+</script>
+
+    </main>
+</body>
+</html>

@@ -1,0 +1,383 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+  <title>Albert - Theme Creator</title>
+  <meta charset="UTF-8">
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <link rel="alternate" type="application/rss+xml" title="Albert RSS" href="/feed.xml">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
+  <link rel="stylesheet" href="https://albertlauncher.github.io/css/main.css">
+</head>
+
+<body>
+    <main class="wrapper">
+      <nav class="site-header">
+    <div class="container">
+        <a class="title" href="https://albertlauncher.github.io">
+            <img class="icon" src="https://albertlauncher.github.io/img/albert.svg" alt="Albert" title="Albert">
+            <span class="title">Albert</span>
+        </a>
+        <nav class="navigation float-right">
+            <ul>
+    <li class="">
+        <a href="/">Home</a>
+    </li>
+    <li class="current">
+        <a href="/docs/">Docs</a>
+    </li>
+    <li class="">
+        <a href="/news/">News</a>
+    </li>
+    <li class="">
+        <a href="/help/">Help</a>
+    </li>
+    <li>
+        <a href="https://github.com/albertlauncher/albert.git"><span class="hide-on-mobiles">View on </span>GitHub</a>
+    </li>
+</ul>
+
+        </nav>
+    </div>
+</nav>
+
+      <section class="container">
+    <article>
+        <h1>Theme Creator</h1>
+        <link rel="stylesheet" href="https://albertlauncher.github.io/css/themecreator.css">
+
+<div class="welcome">
+    <p>Welcome to the Albert theme creator! Here you can create your own theme customizing the options below.</p>
+</div>
+
+<div id="albert">
+    <div id="frame">
+        <input id="inputLine" type="text" value="Hi, I'm Albert!" autofocus/>
+        <div id="settingsButton">
+            <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 200 200" id="svg" class="a">
+                <metadata id="metadata11" class="undefined"/>
+                <defs id="defs4" class="undefined"/>
+                <path d="M110.5 0.5L100 20 67.5 26.9 50 13.4 19.1 41.2 30.7 60 20.4 91.6 0 100 8.6 140.7 30.7 140 53 164.7 50 186.6 89.5 199.5 100 180 132.5 173.1 150 186.6 180.9 158.8 169.3 140 179.6 108.4 200 100 191.4 59.3 169.3 60 147 35.3 150 13.4 110.5 0.5zM100 60A40 40 0 0 1 140 100 40 40 0 0 1 100 140 40 40 0 0 1 60 100 40 40 0 0 1 100 60z" id="path9" class="undefined"/>
+            </svg>
+        </div>
+
+        <div id="resultsList">
+            <ul>
+                <li class="item selected">
+                    <div class="content">
+                        <div class="icon">
+                            <img alt="google" src="https://albertlauncher.github.io/img/themecreator/ic_google.svg">
+                        </div>
+                        <div class="description">
+                            <p class="title">Google</p>
+                            <p class="subtitle">Start Google search in your browser</p>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="item">
+                    <div class="content">
+                        <div class="icon">
+                            <img alt="youtube" src="https://albertlauncher.github.io/img/themecreator/ic_youtube.svg">
+                        </div>
+                        <div class="description">
+                            <p class="title">Youtube</p>
+                            <p class="subtitle">Start Youtube search in your browser</p>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="item">
+                    <div class="content">
+                        <div class="icon">
+                            <img alt="amazon" src="https://albertlauncher.github.io/img/themecreator/ic_amazon.svg">
+                        </div>
+                        <div class="description">
+                            <p class="title">Amazon</p>
+                            <p class="subtitle">Start Amazon search in your browser</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="item">
+                    <div class="content">
+                        <div class="icon">
+                            <img alt="github" src="https://albertlauncher.github.io/img/themecreator/ic_octocat.svg">
+                        </div>
+                        <div class="description">
+                            <p class="title">Github</p>
+                            <p class="subtitle">Start Github search in your browser</p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <div id="scrollbar"></div>
+        </div>
+        <ul id="actionList">
+            <li class="selected">Start Google search in your browser</li>
+        </ul>
+    </div>
+</div>
+
+<div id="options">
+    <div>
+        <h5>General</h5>
+        <label>
+            <span>Foreground color</span>
+            <input class="style" type="color" name="foreground_color" value="#000000">
+        </label>
+        <label>
+            <span>Background color</span>
+            <input class="style" type="color" name="background_color" value="#000000">
+        </label>
+    </div>
+
+    <div>
+        <h5>Frame</h5>
+        <label>
+            <span>Border size</span>
+            <input class="style" type="number" name="frame_border_size" value="6">
+        </label>
+        <label>
+            <span>Border color</span>
+            <input class="style" type="color" name="frame_border_color" value="#000000">
+        </label>
+    </div>
+
+    <div>
+        <h5>Input</h5>
+        <label>
+            <span>Background color</span>
+            <input class="style" type="color" name="input_line_background_color" value="#000000">
+        </label>
+        <label>
+            <span>Selection background color</span>
+            <input class="style" type="color" name="input_selection_background_color" value="#000000">
+        </label>
+        <label>
+            <span>Selection font color</span>
+            <input class="style" type="color" name="input_selection_font_color" value="#000000">
+        </label>
+        <label>
+            <span>Color</span>
+            <input class="style" type="color" name="input_color" value="#000000">
+        </label>
+        <label>
+            <span>Font size</span>
+            <input class="style" type="number" name="input_line_font_size" value="36">
+        </label>
+    </div>
+
+    <div>
+        <h5>Settings</h5>
+        <label>
+            <span>Button color</span>
+            <input class="style" type="color" name="settings_button_color" value="#000000">
+        </label>
+    </div>
+
+    <div>
+        <h5>Proposal list</h5>
+        <label>
+            <span>Icon size</span>
+            <input class="style" type="number" name="item_icon_size" value="44">
+        </label>
+        <label>
+            <span>Font size</span>
+            <input class="style" type="number" name="item_font_size" value="26">
+        </label>
+        <label>
+            <span>Height</span>
+            <input class="style" type="number" name="item_height" value="48">
+        </label>
+        <label>
+            <span>Selected background color</span>
+            <input class="style" type="color" name="item_selected_color" value="#000000">
+        </label>
+    </div>
+
+    <div>
+        <h5>Scrollbar</h5>
+        <label>
+            <span>Width</span>
+            <input class="style" type="number" name="scrollbar_width" value="5">
+        </label>
+        <label>
+            <span>Color</span>
+            <input class="style" type="color" name="scrollbar_color" value="#000000">
+        </label>
+    </div>
+
+    <div>
+        <h5>Action list</h5>
+        <label>
+            <span>Height</span>
+            <input class="style" type="number" name="action_list_height" value="28">
+        </label>
+        <label>
+            <span>Font size</span>
+            <input class="style" type="number" name="action_list_font_size" value="20">
+        </label>
+        <label>
+            <span>Selected background color</span>
+            <input class="style" type="color" name="action_list_selected_color" value="#000000">
+        </label>
+    </div>
+</div>
+
+<div class="theme">
+    <pre id="result">
+/*
+ * This theme was made using Albert theme creator (https://albertlauncher.github.io/docs/theming/themecreator/).
+ *
+ * Check http://doc.qt.io/qt-5/stylesheet-syntax.html especially the subtopics:
+ * The Style Sheet Syntax (http://doc.qt.io/qt-5/stylesheet-syntax.html)
+ * Qt Style Sheets Reference (http://doc.qt.io/qt-5/stylesheet-reference.html)
+ */
+* {
+  border: none;
+  color : #<span class="foreground_color"></span>;
+  background-color: #<span class="background_color"></span>;
+}
+
+#frame {
+  padding: 6px;
+  border-radius: 12px;
+  background-color: #<span class="background_color"></span>;
+  border: <span class="frame_border_size"></span>px solid #<span class="frame_border_color"></span>;
+  min-width: 640px;
+  max-width: 640px;
+}
+
+#inputLine {
+  padding: 2px;
+  border-radius: 2px;
+  font-size: <span class="input_line_font_size"></span>px;
+  selection-color: #<span class="input_selection_font_color"></span>;
+  selection-background-color: #<span class="input_selection_background_color"></span>;
+  background-color: #<span class="input_line_background_color"></span>;
+  color: #<span class="input_color"></span>
+}
+
+#settingsButton {
+  color: #<span class="settings_button_color"></span>;
+  background-color: #<span class="background_color"></span>;
+  padding: 4px;
+  margin: 6px 6px 0px 0px;
+  border-top-right-radius: 6px;
+  border-bottom-left-radius: 10px;
+  min-width:13px;
+  min-height:13px;
+  max-width:13px;
+  max-height:13px;
+}
+
+/********** ListViews **********/
+QListView QScrollBar:vertical  {
+  width: <span class="scrollbar_width"></span>px;
+  background: transparent;
+}
+
+QListView QScrollBar::handle:vertical  {
+  background: #<span class="scrollbar_color"></span>;
+  min-height: 24px;
+}
+
+QListView QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical,
+QListView QScrollBar::up-arrow:vertical, QScrollBar::down-arrow:vertical,
+QListView QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {
+  border: 0px;
+  width: 0px;
+  height: 0px;
+  background: transparent;
+}
+
+/********** actionList **********/
+QListView#actionList {
+  font-size: <span class="action_list_font_size"></span>px;
+}
+
+QListView#actionList::item{
+  height: <span class="action_list_height"></span>px;
+}
+
+QListView#actionList::item::selected{
+  background: qlineargradient(x1:0, x2:1, stop:0.0 #40<span class="action_list_selected_color"></span>, stop:0.5 #20<span class="action_list_selected_color"></span>, stop:1.0 #40<span class="action_list_selected_color"></span> );
+}
+
+/********** resultsList **********/
+QListView#resultsList {
+  icon-size: <span class="item_icon_size"></span>px;
+  font-size: <span class="item_font_size"></span>px;
+  color: #<span class="foreground_color"></span>;
+}
+
+QListView#resultsList::item{
+  height: <span class="item_height"></span>px;
+}
+
+QListView#resultsList::item::selected{
+  background: qlineargradient(x1:0, x2:1, stop:0.0 #40<span class="item_selected_color"></span>, stop:0.5 #20<span class="item_selected_color"></span>, stop:1.0 #40<span class="item_selected_color"></span> );
+}
+      </pre>
+    <button>Click here to copy</button>
+</div>
+
+<small>Made by <a href="https://github.com/Fuhrmann" target="_blank">@Fuhrmann</a></small>
+
+<script type="text/javascript" src="https://albertlauncher.github.io/js/themecreator/clipboard.min.js"></script>
+<script type="text/javascript" src="https://albertlauncher.github.io/js/themecreator/generator.js"></script>
+
+    </article>
+</section>
+
+      
+      <script>
+  var anchorForId = function (id) {
+    var anchor = document.createElement("a");
+    anchor.className = "header-link";
+    anchor.href      = "#" + id;
+    anchor.innerHTML = "<i class=\"fa fa-link\"></i>";
+    anchor.title = "Permalink";
+    return anchor;
+  };
+
+  var linkifyAnchors = function (level, containingElement) {
+    var headers = containingElement.getElementsByTagName("h" + level);
+    for (var h = 0; h < headers.length; h++) {
+      var header = headers[h];
+
+      if (typeof header.id !== "undefined" && header.id !== "") {
+        header.appendChild(anchorForId(header.id));
+      }
+    }
+  };
+
+  document.onreadystatechange = function () {
+    if (this.readyState === "complete") {
+      var contentBlock = document.getElementsByClassName("docs")[0] || document.getElementsByClassName("news")[0];
+      if (!contentBlock) {
+        return;
+      }
+      for (var level = 1; level <= 6; level++) {
+        linkifyAnchors(level, contentBlock);
+      }
+    }
+  };
+
+  var topEdge
+  document.onscroll = function () {
+    if (topEdge === undefined)
+      topEdge = document.getElementById("doc_nav").getBoundingClientRect().top+window.pageYOffset-20;
+
+    if ( window.pageYOffset > topEdge)
+      document.getElementById("doc_nav").classList.add("stuck");
+    else
+      document.getElementById("doc_nav").classList.remove("stuck");
+  };
+
+
+
+</script>
+
+    </main>
+</body>
+</html>

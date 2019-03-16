@@ -1,0 +1,221 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+  <title>Albert - Files extension</title>
+  <meta charset="UTF-8">
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <link rel="alternate" type="application/rss+xml" title="Albert RSS" href="/feed.xml">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
+  <link rel="stylesheet" href="https://albertlauncher.github.io/css/main.css">
+</head>
+
+<body>
+    <main class="wrapper">
+      <nav class="site-header">
+    <div class="container">
+        <a class="title" href="https://albertlauncher.github.io">
+            <img class="icon" src="https://albertlauncher.github.io/img/albert.svg" alt="Albert" title="Albert">
+            <span class="title">Albert</span>
+        </a>
+        <nav class="navigation float-right">
+            <ul>
+    <li class="">
+        <a href="/">Home</a>
+    </li>
+    <li class="current">
+        <a href="/docs/">Docs</a>
+    </li>
+    <li class="">
+        <a href="/news/">News</a>
+    </li>
+    <li class="">
+        <a href="/help/">Help</a>
+    </li>
+    <li>
+        <a href="https://github.com/albertlauncher/albert.git"><span class="hide-on-mobiles">View on </span>GitHub</a>
+    </li>
+</ul>
+
+        </nav>
+    </div>
+</nav>
+
+      <section class="container docs">
+    <article>
+        <div class="row">
+            <div class="column column-20">
+              <aside id="doc_nav">
+  
+    <h5>User guide</h5>
+    <ul>
+
+  
+  
+  <li class=""><a href="/docs/installing/">Installing Albert</a></li>
+
+  
+  
+  <li class=""><a href="/docs/using/">Using Albert</a></li>
+
+  
+  
+  <li class=""><a href="/docs/extending/">Extending Albert</a></li>
+
+  
+  
+  <li class=""><a href="/docs/extensions/">Extensions</a></li>
+
+  
+  
+  <li class=""><a href="/docs/faq/">Troubleshooting</a></li>
+
+</ul>
+
+  
+    <h5>Meta</h5>
+    <ul>
+
+  
+  
+  <li class=""><a href="/docs/contributing/">Contributing</a></li>
+
+  
+  
+  <li class=""><a href="/docs/donation/">Donating</a></li>
+
+  
+  
+  <li class=""><a href="/docs/changelog/">Changelog</a></li>
+
+</ul>
+
+  
+</aside>
+
+            </div>
+            <div class="column column-80">
+                <div class="float-right">
+                    <a href="https://github.com/albertlauncher/documentation/edit/master/src/_docs/extensions/files.md">Improve this page</a>
+                </div>
+                <h1>Files extension</h1>
+                <p>The files extension offers ways to access files through Albert.</p>
+
+<p>One way to access files is to use the offline index. The extension indexes files that can be accessed by their filename. In the settings you can set paths the extension recursively scans for files.</p>
+
+<p>Further the files extension provides a way to browse through the file system using paths. This is handy to access files that are <em>not</em> indexed. Queries beginning with either <code class="highlighter-rouge">/</code> or <code class="highlighter-rouge">~</code> are interpreted as a path. In combination with the tab completion this is a nice way to browse the file system.</p>
+
+<p>The offline index can be configured in several ways. It is recommended that you configure the extension depending on your needs. Simply indexing all files on your system may be convenient, but on one hand the vast amounts of files you’ll never use will clutter the output and on the other hand a large file index may introduce performance penalties, like long indexing and lookup times and high memory usage.</p>
+
+<p>Generally you have to define where the extension should look for files. But you may not want to index all of the files in the directory tree below the paths you specified. You have now two options to exclude files from indexing: File filters and MIME type filters.</p>
+
+<h2 id="file-filters--ignore-files">File filters / Ignore files</h2>
+
+<p>An ignore file is a simple text file with the name <code class="highlighter-rouge">.albertignore</code> which specifies which files should be ignored. Each line in an ignore file specifies a pattern which serves as an exclusive filter. Patterns read from an ignore file in the same directory as the path, or in any parent directory, with patterns in the higher level files (up to the toplevel path to be indexed) being overridden by those in lower level files down to the directory containing the file. These patterns match relative to the location of the ignore file.</p>
+
+<h3 id="pattern-format">Pattern format</h3>
+
+<p>A blank line matches no files, so it can serve as a separator for readability.</p>
+
+<p>A line starting with <code class="highlighter-rouge">#</code> serves as a comment.</p>
+
+<p>The prefix <code class="highlighter-rouge">!</code>  negates the pattern; any matching file excluded by a previous pattern will become included again. It is not possible to re-include a file if a parent directory of that file is excluded. Put a backslash (<code class="highlighter-rouge">\</code>) in front of the first <code class="highlighter-rouge">!</code> for patterns that begin with a literal <code class="highlighter-rouge">!</code>.</p>
+
+<p>A leading slash <code class="highlighter-rouge">/</code> marks a relative pattern. This pattern is anchored relative to the directory the ignore file resides in. Without the leading slash a pattern is an absolute pattern and is inherited to sub directories. For example the pattern <code class="highlighter-rouge">/bar</code> matches the file <code class="highlighter-rouge">bar</code> but not <code class="highlighter-rouge">foo/bar</code>, while the pattern <code class="highlighter-rouge">bar</code> does.</p>
+
+<p>An asterisk <code class="highlighter-rouge">*</code> in a pattern matches against all characters but the directory separator <code class="highlighter-rouge">/</code>. Two consecutive asterisks <code class="highlighter-rouge">**</code> in a pattern match against all characters. More consecutive asterisks collapse to <code class="highlighter-rouge">**</code>.</p>
+
+<h4 id="example">Example</h4>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code># Ignore eclipse dir
+/workspace
+
+# Ignore git projects
+/git/*
+
+# Include albert repos though
+!/git/albert
+!/git/aur-albert
+
+# However in the albert repo dont index source files
+/git/albert/**.cpp
+
+# General ignores
+node_modules
+bower_components
+</code></pre></div></div>
+
+<h2 id="mime-filters">MIME filters</h2>
+
+<p>You also have fine-grained control over the MIME types that should be indexed. The <kbd>Advanced</kbd> button in the settings opens a dialog that lets you set a list of patterns that are used to match against the MIME types of the indexed files. The check boxes besides the button are shortcuts that let you add or remove the most popular patterns.</p>
+
+<p>As against the file filters the MIME filters are inclusive, files are only indexed if their MIME type match against one of the patterns. Unlike the file filters which reside in a file the MIME filters have global scope.</p>
+
+<p>The patterns support common <a href="http://doc.qt.io/qt-5/qregexp.html#wildcard-matching">wildcard matching</a>.</p>
+
+<h4 id="example-1">Example</h4>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>application/*
+inode/directory
+audio/*
+video/*
+text/x-python
+</code></pre></div></div>
+
+            </div>
+        </div>
+    </article>
+    </div>
+</section>
+
+      
+      <script>
+  var anchorForId = function (id) {
+    var anchor = document.createElement("a");
+    anchor.className = "header-link";
+    anchor.href      = "#" + id;
+    anchor.innerHTML = "<i class=\"fa fa-link\"></i>";
+    anchor.title = "Permalink";
+    return anchor;
+  };
+
+  var linkifyAnchors = function (level, containingElement) {
+    var headers = containingElement.getElementsByTagName("h" + level);
+    for (var h = 0; h < headers.length; h++) {
+      var header = headers[h];
+
+      if (typeof header.id !== "undefined" && header.id !== "") {
+        header.appendChild(anchorForId(header.id));
+      }
+    }
+  };
+
+  document.onreadystatechange = function () {
+    if (this.readyState === "complete") {
+      var contentBlock = document.getElementsByClassName("docs")[0] || document.getElementsByClassName("news")[0];
+      if (!contentBlock) {
+        return;
+      }
+      for (var level = 1; level <= 6; level++) {
+        linkifyAnchors(level, contentBlock);
+      }
+    }
+  };
+
+  var topEdge
+  document.onscroll = function () {
+    if (topEdge === undefined)
+      topEdge = document.getElementById("doc_nav").getBoundingClientRect().top+window.pageYOffset-20;
+
+    if ( window.pageYOffset > topEdge)
+      document.getElementById("doc_nav").classList.add("stuck");
+    else
+      document.getElementById("doc_nav").classList.remove("stuck");
+  };
+
+
+
+</script>
+
+    </main>
+</body>
+</html>
