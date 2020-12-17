@@ -82,9 +82,7 @@
   <p>
     
     
-    <span><p>[albert]</p> <ul> <li>Change sig of iconLookup from initlist to QStringlist</li> </ul> <p>For the sake of easy Python exposing</p> <ul> <li>Hotkey and focus out is still a problem.</li> </ul> <p>Revert but as global native event filter</p> <ul> <li> <p>Some syntactic sugar</p> </li> <li> <p>const activate for action</p> </li> <li> <p>Revert “Fix… <a href="/2020/12/17/albert-v0.17.0-released.html"> Read full post.</a></p>
-</li>
-</ul></span>
+    <span><p>[albert]</p> <ul> <li>Again break init order of Item for the sake of less boilerplate. Presumed this frequency indexStrings &gt; actions &gt; completion &gt; urgency.</li> <li>Let shells handle splitting/quoting</li> <li>Add core as QueryHandler. Add restart, quit, settings action. Also to tray and cli.</li> <li>Drop shutil:: and let shells handle lexing</li> </ul>… <a href="/2020/12/17/albert-v0.17.0-released.html"> Read full post.</a></span>
     
   </p>
 </article>

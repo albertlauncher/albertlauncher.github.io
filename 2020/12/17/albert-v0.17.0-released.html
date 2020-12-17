@@ -17,298 +17,68 @@
         <h1>Albert v0.17.0 released</h1>
         <p>[albert]</p>
 <ul>
-  <li>Change sig of iconLookup from initlist to QStringlist</li>
-</ul>
-
-<p>For the sake of easy Python exposing</p>
-
-<ul>
-  <li>Hotkey and focus out is still a problem.</li>
-</ul>
-
-<p>Revert but as global native event filter</p>
-
-<ul>
-  <li>
-    <p>Some syntactic sugar</p>
-  </li>
-  <li>
-    <p>const activate for action</p>
-  </li>
-  <li>
-    <p>Revert “Fix also-cache-failed-iconlookups”</p>
-  </li>
-</ul>
-
-<p>Sincew stuff like this fails:
-d-&gt;iconPath = iconPath.isNull() ? “:terminal” : iconPath;</p>
-
-<p>This reverts commit 772c2235bfe6e4d36ee58e978953debf5883630f.</p>
-
-<p>Dont expose QIcon, fix lookup cache issue.</p>
-
-<ul>
-  <li>Again break init order of items for the sake of less boilerplate.</li>
-</ul>
-
-<p>Presumed this frequency indexStrings &gt; actions &gt; completion &gt; urgency.
-Also add some <code class="language-plaintext highlighter-rouge">explicits</code> since Qstringlist implicitly converts to
-qtsring.</p>
-
-<ul>
-  <li>
-    <p>Let shells handle splitting/quoting</p>
-  </li>
-  <li>
-    <p>Core logging category</p>
-  </li>
-  <li>Update .travis.yml</li>
-  <li>
-    <p>Cleanup after releases</p>
-  </li>
-  <li>
-    <p>Avoid implicit copies</p>
-  </li>
-  <li>
-    <p>Add restart action to coreQueryHandler, tray and cli.</p>
-  </li>
-  <li>Add core query handler.</li>
-</ul>
-
-<p>Also</p>
-<ul>
-  <li>Remove menu icons</li>
-  <li>Use smart pointers</li>
+  <li>Again break init order of Item for the sake of less boilerplate. Presumed this frequency indexStrings &gt; actions &gt; completion &gt; urgency.</li>
+  <li>Let shells handle splitting/quoting</li>
+  <li>Add core as QueryHandler. Add restart, quit, settings action. Also to tray and cli.</li>
+  <li>Drop shutil:: and let shells handle lexing</li>
 </ul>
 
 <p>[plugins]</p>
 <ul>
-  <li>[Apps] Fix regression on i3. Missing desktops fall back to ~.</li>
-</ul>
-
-<p>As discussed in #38.</p>
-
-<ul>
-  <li>
-    <p>Shorter icon lookups</p>
-  </li>
-  <li>
-    <p>[Python] Add QStringlist cast specialization for direct arg passing</p>
-  </li>
-  <li>
-    <p>[Python] Adopt core changes</p>
-  </li>
-  <li>
-    <p>[File] Drop shell use convenience class</p>
-  </li>
-  <li>
-    <p>[py] v1.3 new APIv0.4</p>
-  </li>
-</ul>
-
-<p>Changes to the API:</p>
-<ul>
-  <li>embedded module is called ‘albert’ now</li>
-  <li>Reflect core api changes:
-    <ul>
-      <li>Positional arguments of the standard item changes</li>
-      <li>New semantics of the term action constructors
-        <ul>
-          <li>String commandline will be executed in a shell</li>
-          <li>StringList commandline will be executed without shell</li>
-        </ul>
-      </li>
-    </ul>
-  </li>
-  <li>Add core version of iconLookup(StringList)</li>
-  <li>New metadata labels:
-    <ul>
-      <li>
-<strong>version</strong>: new versioning scheme iid_maj.iid_min.ext_version</li>
-      <li>
-<strong>title</strong>: former <strong>prettyname</strong>
-</li>
-      <li>
-<strong>authors</strong>: string or list</li>
-      <li>
-<strong>exec_deps</strong>: string or list</li>
-      <li>
-<strong>py_deps</strong>: string or list</li>
-      <li>
-<strong>triggers</strong>: string or list</li>
-    </ul>
-  </li>
-  <li>Implicit dependency check for executables and Pyhton modules</li>
-  <li>Allow multiple triggers</li>
-  <li>Allow multiple authors</li>
+  <li>FINALLY ARCHIVE EXTERNAL EXTENSIONS.</li>
   <li>New extension state : MissingDependencies</li>
   <li>Disable settings items of exts in this new state</li>
-  <li>Minor changes to the python settings UI</li>
-  <li>
-    <p>Allow multiple triggers</p>
-  </li>
-  <li>
-    <p>Use pybind v2.6.1</p>
-  </li>
-  <li>
-    <p>[term] v1.1 Let shells handle lexing</p>
-  </li>
-  <li>Reduce boilerplate codebase</li>
-  <li>use the new sugar</li>
-  <li>Drop the config ui</li>
-  <li>Drop shutil and let shells handle lexing</li>
-</ul>
-
-<p>Closes albertlauncher/albert#855</p>
-
-<ul>
-  <li>
-    <p>[websearch] Fix default icon</p>
-  </li>
-  <li>
-    <p>apps STASH vaiadic</p>
-  </li>
-  <li>
-    <p>Syntactic sugar with variadic macros and typedefs</p>
-  </li>
-  <li>
-    <p>Finally archive external extensions.</p>
-  </li>
-</ul>
-
-<p>Python is dominant in all aspects, besides well maybe networks
-transparency or stuff like that.</p>
-
-<ul>
-  <li>
-    <p>[Files] ~ expansion on all unixoids</p>
-  </li>
-  <li>
-    <p>[Files] Adopt API changes</p>
-  </li>
-  <li>
-    <p>[Debug] Fix weird issue poping out of the blue.</p>
-  </li>
-  <li>
-    <p>[Chromium] Adopt API changes</p>
-  </li>
-  <li>
-    <p>[Calc] Adopt API changes</p>
-  </li>
-  <li>
-    <p>[Apps] Adopt API changes</p>
-  </li>
-  <li>
-    <p>[wbm, qbm] Allow “no completion” semantic</p>
-  </li>
-</ul>
-
-<p>Unfortunately a bit hackish since QML tanslates Null-QStrings to emtpy
-strings instead of undefined.</p>
-
-<ul>
-  <li>
-    <p>[chromium] Some amendments to the recent v1.1</p>
-  </li>
-  <li>
-    <p>[Apps] Fix label (missing in #38)</p>
-  </li>
-  <li>
-    <p>[calc] Adopt API changes. Fix PR introduced weirdness. Fix checkboxes.</p>
-  </li>
-  <li>
-    <p>Adopt API changes. Remove root action.</p>
-  </li>
-  <li>
-    <p>[system] Drop shutil dependency</p>
-  </li>
-</ul>
-
-<p>And fix score 🤦‍♂️</p>
-
-<ul>
-  <li>
-    <p>Remove global termialCommand</p>
-  </li>
-  <li>
-    <p>Fix changes of last commit to adopt conventions</p>
-  </li>
-</ul>
-
-<p>Closes #42</p>
-
-<ul>
-  <li>
-    <p>Add muparserInt option for hex calculations</p>
-  </li>
-  <li>
-    <p>[qml] Disable X11 code.</p>
-  </li>
-</ul>
-
-<p>See https://stackoverflow.com/questions/65242431/mouse-input-
-transparency-in-qt-without-visual-transparency</p>
-
-<ul>
-  <li>[widgets] Disable X11 code.</li>
-</ul>
-
-<p>See https://stackoverflow.com/questions/65242431/mouse-input-
-transparency-in-qt-without-visual-transparency</p>
-
-<ul>
-  <li>
-    <p>[widgets] Drop X11 workaround for QFocusOut QtBug</p>
-  </li>
-  <li>
-    <p>[qml] Drop X11 workaround for QFocusOut QtBug</p>
-  </li>
-  <li>
-    <p>Tasks</p>
-  </li>
-  <li>
-    <p>Avoid variadic macro warning</p>
-  </li>
-  <li>
-    <p>Use QLoggingCategory in all extensions</p>
-  </li>
-  <li>
-    <p>Avoid Variadic Macro warning</p>
+  <li>Use pybind v2.6.1</li>
+  <li>[term] v1.1 Let shells handle lexing</li>
+  <li>[calc] Add muparserInt option for hex calculations</li>
+  <li>Use QLoggingCategory in all extensions</li>
+  <li>Implicit dependency check for executables and Python modules</li>
+  <li>[Pyv1.3] Adopt core changes. PyAPIv0.4. Changes to the API:
+    <ul>
+      <li>embedded module is called ‘albert’ now</li>
+      <li>Reflect core api changes:
+        <ul>
+          <li>Positional arguments of the standard item changes</li>
+          <li>New semantics of the term action constructors
+            <ul>
+              <li>String commandline will be executed in a shell</li>
+              <li>StringList commandline will be executed without shell</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li>Add core version of iconLookup(StringList)</li>
+      <li>New metadata labels:
+        <ul>
+          <li>
+<strong>version</strong>: new versioning scheme iid_maj.iid_min.ext_version</li>
+          <li>
+<strong>title</strong>: former <strong>prettyname</strong>
+</li>
+          <li>
+<strong>authors</strong>: string or list</li>
+          <li>
+<strong>exec_deps</strong>: string or list</li>
+          <li>
+<strong>py_deps</strong>: string or list</li>
+          <li>
+<strong>triggers</strong>: string or list</li>
+        </ul>
+      </li>
+      <li>Allow multiple triggers</li>
+      <li>Allow multiple authors</li>
+    </ul>
   </li>
 </ul>
 
 <p>[python]</p>
 <ul>
-  <li>
-    <p>[locate] ‘ for basename ‘’ for full path lookups</p>
-  </li>
-  <li>
-    <p>[timer] Make notification stay.</p>
-  </li>
-  <li>
-    <p>split multiple authors in lists</p>
-  </li>
-  <li>
-    <p>Adpot APIv0.4 changes</p>
-  </li>
-  <li>
-    <p>Python-style base prefixes to detect source base</p>
-  </li>
-  <li>
-    <p>Change module name (iid v0.4)</p>
-  </li>
-  <li>
-    <p>[vbox] Update dependecy</p>
-  </li>
-  <li>
-    <p>[copyq] Disable albert sorting (#102)</p>
-  </li>
-  <li>
-    <p>[texdoc] Add texdoc plugin</p>
-  </li>
-  <li>
-    <p>[aur] add yay helper</p>
-  </li>
+  <li>Adpot APIv0.4 changes</li>
+  <li>[locate] ‘ for basename ‘’ for full path lookups</li>
+  <li>[timer] Make notification stay.</li>
+  <li>[baseconv] Python-style base prefixes to detect source base</li>
+  <li>[texdoc] Add texdoc plugin</li>
+  <li>[aur] add yay helper</li>
 </ul>
 
 <p>Check the GitHub repositories for details.</p>
