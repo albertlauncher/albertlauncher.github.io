@@ -1,0 +1,160 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>Albert - Extending</title>
+  <meta charset="UTF-8">
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <link rel="alternate" type="application/rss+xml" title="Albert RSS" href="/feed.xml">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
+  <link rel="stylesheet" href="https://albertlauncher.github.io/css/main.css">
+</head>
+
+<body>
+    <main class="wrapper">
+      <section class="container docs">
+    <article>
+        <div class="row">
+            <div class="column column-20">
+              <aside class="navigation" id="doc_nav">
+
+    <a class="title" href="https://albertlauncher.github.io" style="margin-bottom:3cm;">
+        <img class="icon" src="https://albertlauncher.github.io/img/albert.svg" alt="Albert" title="Albert">
+        <span class="title">Albert</span>
+    </a>
+    <br><br>
+
+    
+    <h5>User guide</h5>
+    <ul>
+        
+        
+        
+        <li class=""><a href="/installing/">Installing</a></li>
+        
+        
+        
+        <li class=""><a href="/using/">Using</a></li>
+        
+        
+        
+        <li class="current"><a href="/extending/">Extending</a></li>
+        
+    </ul>
+    
+    <h5>Meta</h5>
+    <ul>
+        
+        
+        
+        <li class=""><a href="/news/">News</a></li>
+        
+        
+        
+        <li class=""><a href="/help/">Help</a></li>
+        
+        
+        
+        <li class=""><a href="/contributing/">Contributing</a></li>
+        
+        
+        
+        <li class=""><a href="/donation/">Donating</a></li>
+        
+    </ul>
+    
+    <li><a href="https://github.com/albertlauncher/albert.git">GitHub</a></li>
+    <li><a href="https://raw.githubusercontent.com/albertlauncher/albert/master/CHANGELOG.md">Changelog</a></li>
+</aside>
+
+            </div>
+            <div class="column column-80">
+                <div class="float-right">
+                    <a href="https://github.com/albertlauncher/documentation/edit/master/src/_pages/extending.md">Improve this page</a>
+                </div>
+                <h1>Extending</h1>
+                <p>Albert has a flexible nested extension system, which gives users and developers the ability to extend its functionality.</p>
+
+<h2 id="native-extensions">Native extensions</h2>
+
+<p>The native and primary way is to use C++/Qt to write a QPlugin. This gives you the performance of C++, the full set of interfaces to implement, access to several utility classes and direct access to the application and Qt framework including the event loop, which allows asynchronous operations. If you want to write a native extension, check the docs on <a href="https://github.com/albertlauncher/plugins/blob/master/README.md">native extension</a>. Check the <a href="https://github.com/albertlauncher/plugins"><code class="language-plaintext highlighter-rouge">plugins</code></a> repo for an up to date list of extensions.</p>
+
+<p>C++ knowledge is not that widespread therefore there are (native) extensions which make albert scriptable.</p>
+
+<h2 id="python-extensions">Python extensions</h2>
+
+<p>The primary way to script albert is the Python extension. The Python extension adds functionality via Python modules. Most of the community effort goes into this part of the project. It supports a good fraction of the internal API, is in memory and pretty fast. If you want to write a Python extension, check the docs of the <a href="https://github.com/albertlauncher/plugins/blob/master/python/README.md">Python plugin</a>. Check the <a href="https://github.com/albertlauncher/plugins/"><code class="language-plaintext highlighter-rouge">python</code></a> repo for an up to date list of extensions.</p>
+
+<h2 id="external-extensions-archived">External extensions [Archived]</h2>
+
+<p>A more flexible but less performant and convenient way to extend Albert <strong>were</strong> external extensions. Since they are basically CGI executables you can use <em>any</em> language that can be used to build executable files. If you plan to write an extension now it is recommended to use the native or Python approach.
+Check the docs of the <a href="https://github.com/albertlauncher/plugins/tree/master/.archive/externalextensions">external extension plugin</a>.</p>
+
+<h2 id="concepts">Concepts</h2>
+
+<p><img class="mermaid" src="https://mermaid.ink/svg/eyJjb2RlIjoiZ3JhcGggVERcblNUQVJUW1F1ZXJ5IGVudGVyZWRdO1xuRU5EW1JldHVybiByZXN1bHRzXTtcblNUQVJUIC0tPiBCe3tJcyBhbnkgdHJpZ2dlciBwcmVmaXggb2YgdGhlIHF1ZXJ5P319O1xuQiAtLT58WWVzfCBDW1J1biB0aGUgdHJpZ2dlcmVkIGV4dGVuc2lvbl07XG5DIC0tPiBFTkQ7XG5CIC0tPnxOb3wgRFtSdW4gYWxsIGV4dGVuc2lvbnNdO1xuRCAtLT4gRXt7UmVzdWx0cyBlbXB0eT99fTtcbkUgLS0-fFllc3wgRltHZXQgZmFsbGJhY2tzXTtcbkYgLS0-IEVORDtcbkUgLS0-fE5vfCBFTkQ7IiwibWVybWFpZCI6bnVsbH0"></p>
+
+<h2 id="official-extensions">Official extensions</h2>
+
+<ul>
+  
+    <li><a href=""></a></li>
+  
+</ul>
+
+            </div>
+        </div>
+    </article>
+</section>
+
+      <script>
+  var anchorForId = function (id) {
+    var anchor = document.createElement("a");
+    anchor.className = "header-link";
+    anchor.href      = "#" + id;
+    anchor.innerHTML = "<i class=\"fa fa-link\"></i>";
+    anchor.title = "Permalink";
+    return anchor;
+  };
+
+  var linkifyAnchors = function (level, containingElement) {
+    var headers = containingElement.getElementsByTagName("h" + level);
+    for (var h = 0; h < headers.length; h++) {
+      var header = headers[h];
+
+      if (typeof header.id !== "undefined" && header.id !== "") {
+        header.appendChild(anchorForId(header.id));
+      }
+    }
+  };
+
+  document.onreadystatechange = function () {
+    if (this.readyState === "complete") {
+      var contentBlock = document.getElementsByClassName("docs")[0] || document.getElementsByClassName("news")[0];
+      if (!contentBlock) {
+        return;
+      }
+      for (var level = 1; level <= 6; level++) {
+        linkifyAnchors(level, contentBlock);
+      }
+    }
+  };
+
+  var topEdge
+  document.onscroll = function () {
+    if (topEdge === undefined)
+      topEdge = document.getElementById("doc_nav").getBoundingClientRect().top+window.pageYOffset-20;
+
+    if ( window.pageYOffset > topEdge)
+      document.getElementById("doc_nav").classList.add("stuck");
+    else
+      document.getElementById("doc_nav").classList.remove("stuck");
+  };
+
+
+
+</script>
+
+    </main>
+</body>
+</html>
