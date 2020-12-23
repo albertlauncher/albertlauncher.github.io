@@ -7,6 +7,25 @@
     
       
         <item>
+          <title>Albert v0.17.2 released</title>
+          <description>&lt;p&gt;[albert]&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Drop telemetry
+[plugins]&lt;/li&gt;
+  &lt;li&gt;[wbm] Hotfix completion&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Check the GitHub repositories for details.
+https://github.com/albertlauncher/albert/commits/v0.17.2&lt;/p&gt;
+</description>
+          <pubDate>2020-12-24T00:56:00-06:00</pubDate>
+          <link>https://albertlauncher.github.io/2020/12/24/albert-v0.17.2-released.html</link>
+          <guid isPermaLink="true">https://albertlauncher.github.io/2020/12/24/albert-v0.17.2-released.html</guid>
+        </item>
+      
+    
+      
+        <item>
           <title>Albert v0.17.1 released</title>
           <description>&lt;p&gt;[albert]&lt;/p&gt;
 &lt;ul&gt;
