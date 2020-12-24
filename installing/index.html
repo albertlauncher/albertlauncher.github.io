@@ -150,7 +150,7 @@ dnf <span class="nb">install </span>albert
 
 <p>The goal is to be always compatible with the latest Ubuntu LTS release. To build Albert from sources you will need CMake, a C++ compiler supporting at least the C++14 standard, and the Qt toolkit.</p>
 
-<p>Further the plugins may introduce optional dependencies, e.g the calculator plugin needs the <a href="http://beltoforion.de/article.php?a=muparser">muparser</a> library and the QMLBoxModel frontend needs the QtDeclarative library. Check the <a href="https://github.com/albertlauncher/albert/blob/dev/Dockerfile">docker file</a> for an up to date list of dependencies.</p>
+<p>Further the plugins may introduce optional dependencies, e.g the calculator plugin needs the <a href="http://beltoforion.de/article.php?a=muparser">muparser</a> library and the QMLBoxModel frontend needs the QtDeclarative library. Check the <a href="https://github.com/albertlauncher/albert/blob/master/.docker">docker files</a> for an up to date list of dependencies.</p>
 
 <p>Problems may arise with distributions that split submodules into optional dependencies. Ubuntu is known to split the SQL driver submodules into separate packages. Additionally, Elementary OS - which builds on Ubuntu - does not install optional dependencies. Users may therefore encounter linkage errors and have to explicitly install the missing dependencies.</p>
 
