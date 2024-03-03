@@ -1,0 +1,19 @@
+var searchData=
+[
+  ['parallel_0',['parallel',['../classalbert_1_1BackgroundExecutor.html#a6866d11ec2d2ecca149318a4b6a3f97c',1,'albert::BackgroundExecutor']]],
+  ['path_1',['path',['../classalbert_1_1PluginLoader.html#adaeee71bdc38be3a98fa6f471b6a8f0a',1,'albert::PluginLoader']]],
+  ['platforms_2',['platforms',['../classalbert_1_1PluginMetaData.html#af20d9960d822f37578c1404544665df3',1,'albert::PluginMetaData']]],
+  ['plugin_3',['Plugin',['../classalbert_1_1plugin_1_1Plugin.html',1,'albert::plugin']]],
+  ['plugin_2eh_4',['plugin.h',['../plugin_8h.html',1,'']]],
+  ['plugin_5fdependencies_5',['plugin_dependencies',['../classalbert_1_1PluginMetaData.html#a24873aa4ff8073ba3e03a5b47d818d8d',1,'albert::PluginMetaData']]],
+  ['plugininstance_6',['PluginInstance',['../classalbert_1_1PluginInstance.html',1,'albert::PluginInstance'],['../classalbert_1_1PluginInstance.html#a97268fde3a98b3ea1857a5effd01e277',1,'albert::PluginInstance::PluginInstance()']]],
+  ['plugininstance_2eh_7',['plugininstance.h',['../plugininstance_8h.html',1,'']]],
+  ['pluginloader_8',['PluginLoader',['../classalbert_1_1PluginLoader.html',1,'albert']]],
+  ['pluginloader_2eh_9',['pluginloader.h',['../pluginloader_8h.html',1,'']]],
+  ['pluginmetadata_10',['PluginMetaData',['../classalbert_1_1PluginMetaData.html',1,'albert']]],
+  ['pluginmetadata_2eh_11',['pluginmetadata.h',['../pluginmetadata_8h.html',1,'']]],
+  ['pluginprovider_12',['PluginProvider',['../classalbert_1_1PluginProvider.html',1,'albert']]],
+  ['pluginprovider_2eh_13',['pluginprovider.h',['../pluginprovider_8h.html',1,'']]],
+  ['plugins_14',['plugins',['../classalbert_1_1PluginProvider.html#a7976388d5144d9a0a0e34156afaabf32',1,'albert::PluginProvider']]],
+  ['prev_15',['prev',['../classalbert_1_1InputHistory.html#aa75446e23cd1c296d24e7db35c96bb68',1,'albert::InputHistory']]]
+];

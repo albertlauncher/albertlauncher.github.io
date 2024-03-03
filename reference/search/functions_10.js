@@ -1,0 +1,26 @@
+var searchData=
+[
+  ['setactions_0',['setActions',['../classalbert_1_1StandardItem.html#af285d6a81a83b640bde98abe223ed05f',1,'albert::StandardItem']]],
+  ['setclipboardtext_1',['setClipboardText',['../namespacealbert.html#af1ce5669423d646a686c0682917930ab',1,'albert']]],
+  ['setclipboardtextandpaste_2',['setClipboardTextAndPaste',['../namespacealbert.html#a074c9a711f70e31a066e1e432fc41490',1,'albert']]],
+  ['setextensionregistry_3',['setExtensionRegistry',['../classalbert_1_1ExtensionWatcher.html#a8c749a8b8f76c7e6c19b9dcdd8e8d765',1,'albert::ExtensionWatcher']]],
+  ['setfuzzymatching_4',['setFuzzyMatching',['../classalbert_1_1IndexQueryHandler.html#a8b8017d998ad997a46be3aaedb6a0ae5',1,'albert::IndexQueryHandler::setFuzzyMatching()'],['../classalbert_1_1TriggerQueryHandler.html#a4004638b15c55c526b0088e12d20b7f2',1,'albert::TriggerQueryHandler::setFuzzyMatching()']]],
+  ['seticonurls_5',['setIconUrls',['../classalbert_1_1StandardItem.html#aa2e6deac74aec9f6afc06ecd14743d7e',1,'albert::StandardItem']]],
+  ['setid_6',['setId',['../classalbert_1_1StandardItem.html#a482b09f80aaec878a9cb3cfded27ecdf',1,'albert::StandardItem']]],
+  ['setindexitems_7',['setIndexItems',['../classalbert_1_1IndexQueryHandler.html#ae9ac32494f3f85fe5af6a13085e6c1ec',1,'albert::IndexQueryHandler']]],
+  ['setinput_8',['setInput',['../classalbert_1_1Frontend.html#a08349cc72ea7d21aa6bd989e1cf84991',1,'albert::Frontend']]],
+  ['setinputactiontext_9',['setInputActionText',['../classalbert_1_1StandardItem.html#ab3867f39fe824d9873248f406a4fa622',1,'albert::StandardItem']]],
+  ['setquery_10',['setQuery',['../classalbert_1_1Frontend.html#a2f5d98e3b6ed7f9a2b9f1604581f2395',1,'albert::Frontend']]],
+  ['setsubtext_11',['setSubtext',['../classalbert_1_1StandardItem.html#a6db7d37f05d57a9695a442325c61470f',1,'albert::StandardItem']]],
+  ['settext_12',['setText',['../classalbert_1_1StandardItem.html#aa6a79337acbbe55d810307ee12b3299b',1,'albert::StandardItem']]],
+  ['settings_13',['settings',['../classalbert_1_1PluginInstance.html#a9413862a66464d1bdeb940e1d7971593',1,'albert::PluginInstance::settings()'],['../namespacealbert.html#aefe080148aeeb8ec606be9e4d7585801',1,'albert::settings()']]],
+  ['setvisible_14',['setVisible',['../classalbert_1_1Frontend.html#a18af1da7411cb5ca3a9e90471f8f70a0',1,'albert::Frontend']]],
+  ['show_15',['show',['../namespacealbert.html#a392bdfcdcee15dcaf17fb5dc6d3d3113',1,'albert']]],
+  ['showsettings_16',['showSettings',['../namespacealbert.html#ab8aa8ed98419a442ebd5e3a303f26347',1,'albert']]],
+  ['standarditem_17',['StandardItem',['../classalbert_1_1StandardItem.html#a4fc74616cb7bb8b4c4fc28d66781b910',1,'albert::StandardItem::StandardItem(const StandardItem &amp;)=delete'],['../classalbert_1_1StandardItem.html#a8a07221cae4641ce2d11ef98d843db52',1,'albert::StandardItem::StandardItem(StandardItem &amp;&amp;)=default'],['../classalbert_1_1StandardItem.html#ac8f59f5af9d3b484b5f3c2efec9fac94',1,'albert::StandardItem::StandardItem(QString id={}, QString text={}, QString subtext={}, QString input_action_text={}, QStringList icon_urls={}, std::vector&lt; Action &gt; actions={})']]],
+  ['state_18',['state',['../namespacealbert.html#ad6c8ce82c40bddee897a2d14bc46b67c',1,'albert::state()'],['../classalbert_1_1PluginInstance.html#a5a9678437750233481ca162744bdb93f',1,'albert::PluginInstance::state()']]],
+  ['string_19',['string',['../classalbert_1_1TriggerQueryHandler_1_1TriggerQuery.html#a4a0e8a98d871f786f738118940c1f351',1,'albert::TriggerQueryHandler::TriggerQuery::string()'],['../classalbert_1_1GlobalQueryHandler_1_1GlobalQuery.html#a6077a5394564eec16474dbb4b3a43559',1,'albert::GlobalQueryHandler::GlobalQuery::string()'],['../classalbert_1_1Query.html#ae967c24f8c35a866235eecdc83b36fb6',1,'albert::Query::string()']]],
+  ['subtext_20',['subtext',['../classalbert_1_1StandardItem.html#a1ab1c6f42fe6e919db5e7f44b4424672',1,'albert::StandardItem::subtext()'],['../classalbert_1_1Item.html#a510423487b0ae6c2fb800521718a831d',1,'albert::Item::subtext()']]],
+  ['supportsfuzzymatching_21',['supportsFuzzyMatching',['../classalbert_1_1IndexQueryHandler.html#a4918cddcd95dafedddbe6b2b4fbe9149',1,'albert::IndexQueryHandler::supportsFuzzyMatching()'],['../classalbert_1_1TriggerQueryHandler.html#a82133091f339ec43665604501dc562ea',1,'albert::TriggerQueryHandler::supportsFuzzyMatching()']]],
+  ['synopsis_22',['synopsis',['../classalbert_1_1Query.html#a055e6e2dc39d1bc8c5df67ead0adbf14',1,'albert::Query::synopsis()'],['../classalbert_1_1IndexQueryHandler.html#ae79550a61e17fec1cf89fb009b9f2204',1,'albert::IndexQueryHandler::synopsis()'],['../classalbert_1_1TriggerQueryHandler.html#a9853785b6798df4ef4b18ab715bb8608',1,'albert::TriggerQueryHandler::synopsis()']]]
+];
