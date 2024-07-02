@@ -1,0 +1,207 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+  <title>Albert - Albert v0.21.0 released</title>
+  <meta charset="UTF-8">
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <link rel="alternate" type="application/rss+xml" title="Albert RSS" href="/feed.xml">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
+  <link rel="stylesheet" href="https://albertlauncher.github.io/css/main.css">
+</head>
+
+<body>
+    <main class="wrapper">
+      <section class="container docs">
+    <article>
+        <div class="row">
+            <div class="column column-20">
+              <aside class="navigation" id="doc_nav">
+
+    <a class="title" href="https://albertlauncher.github.io"  style="margin-bottom:3cm;">
+        <img class="icon" src="https://albertlauncher.github.io/img/albert.svg" alt="Albert" title="Albert">
+        <span class="title">Albert</span>
+    </a>
+    <br><br>
+
+    
+    <h5>User guide</h5>
+    <ul>
+        
+        
+        
+        <li class=""><a href="/setup/">Setup</a></li>
+        
+        
+        
+        <li class=""><a href="/usage/">Usage</a></li>
+        
+        
+        
+        <li class=""><a href="/extension/">Extension</a></li>
+        
+    </ul>
+    
+    <h5>Meta</h5>
+    <ul>
+        
+        
+        
+        <li class=""><a href="/news/">News</a></li>
+        
+        
+        
+        <li class=""><a href="/help/">Help</a></li>
+        
+        
+        
+        <li class=""><a href="/contributing/">Contributing</a></li>
+        
+        
+        
+        <li class=""><a href="/donation/">Donating</a></li>
+        
+    </ul>
+    
+    <li><a href="/reference/">Reference</a></li>
+    <li><a href="https://github.com/albertlauncher">GitHub</a></li>
+    <li><a href="https://raw.githubusercontent.com/albertlauncher/albert/master/CHANGELOG.md">Changelog</a></li>
+</aside>
+
+            </div>
+            <div class="column column-80">
+                <div class="float-right">
+                    <a href="https://github.com/albertlauncher/documentation/edit/master/src/_posts/2023-06-23-albert-v0.21.0-released.md">Improve this page</a>
+                </div>
+                <h1>Albert v0.21.0 released</h1>
+                <p>[albert]</p>
+<ul>
+  <li>v0.21.0
+    <ul>
+      <li>Remove <code class="language-plaintext highlighter-rouge">Item::hasActions</code></li>
+      <li>Add global config, cache and data location functions</li>
+      <li>Change <code class="language-plaintext highlighter-rouge">RankItem::score</code> type to float <code class="language-plaintext highlighter-rouge">(0,1]</code></li>
+      <li>Make queries pointers in handler functions</li>
+      <li>Add function to get global network manager</li>
+      <li>Use explicit named query handling methods (no parameter overloading) <code class="language-plaintext highlighter-rouge">handleTriggerQuery</code> and <code class="language-plaintext highlighter-rouge">handleGlobalQuery</code>. This reduces confusion, avoids annoying extra boilerplate to disambiguate methods to avoid hide-virtual warnings and serves as a lowest common denominator on a language/naming level since these features may not be supported by script languages (e.g. Python).</li>
+    </ul>
+  </li>
+  <li>Settings window
+    <ul>
+      <li>Add a new search widget in settingswindow</li>
+      <li>Make handlers of all types optionable</li>
+      <li>Make window and search widgets tabs in the settings window</li>
+    </ul>
+  </li>
+  <li>Change usagedatabase location to datadir</li>
+  <li>Change IPC socket path to <code class="language-plaintext highlighter-rouge">$CACHEDIR/albert/ipc_socket</code>. Was <code class="language-plaintext highlighter-rouge">$CACHEDIR/albert_socket</code>.</li>
+  <li>Fix triggered global query MRU sort</li>
+</ul>
+
+<p>[plugins]</p>
+<ul>
+  <li>New extensions:
+    <ul>
+      <li>[docs] Reduced set of Zeal docsets at hands</li>
+      <li>[clipboard] Clipboard history</li>
+    </ul>
+  </li>
+  <li>[contacts:1.2]
+    <ul>
+      <li>Formatting: Remove Apple specific braces</li>
+    </ul>
+  </li>
+  <li>[snip:1.3]
+    <ul>
+      <li>Add “Add” and “Remove” button in config widget</li>
+      <li>Add “Add snippet” item on “add” query</li>
+      <li>Add “Remove” action to snippet items</li>
+    </ul>
+  </li>
+  <li>[python:1.8] Adopt API v0.21. New interface version iid 1.0
+    <ul>
+      <li>Add <code class="language-plaintext highlighter-rouge">Extension.cache</code>-, <code class="language-plaintext highlighter-rouge">config</code>- and <code class="language-plaintext highlighter-rouge">dataLocation</code></li>
+      <li>Expose <code class="language-plaintext highlighter-rouge">FallbackHandler</code></li>
+      <li>Expose <code class="language-plaintext highlighter-rouge">TriggerQueryHandler</code></li>
+      <li>Expose <code class="language-plaintext highlighter-rouge">GlobalQueryHandler</code></li>
+      <li>Expose <code class="language-plaintext highlighter-rouge">QueryHandler</code></li>
+      <li>Expose <code class="language-plaintext highlighter-rouge">IndexQueryHandler</code></li>
+      <li>Expose abstract <code class="language-plaintext highlighter-rouge">Item</code> class entirely such that plugins can subclass it</li>
+      <li>Proper multi extension registration</li>
+      <li>Move interface spec into python stub file (yay!)</li>
+      <li>Use pointer for queries</li>
+      <li>Remove global cache/config/data dir functions</li>
+    </ul>
+  </li>
+  <li>[all] Adopt API v0.21.0</li>
+</ul>
+
+<p>[python]</p>
+<ul>
+  <li>Add stub file for type hinting and documentation in IDEs</li>
+  <li>New extensions:
+    <ul>
+      <li>[coingecko] Crypto currencies</li>
+      <li>[mathematica] iid:1.0 port</li>
+    </ul>
+  </li>
+  <li>[all] Adopt iid v1.0</li>
+</ul>
+
+<p>Check the <a href="https://github.com/albertlauncher/albert/commits/v0.21.0">GitHub repositories</a> for details.</p>
+
+            </div>
+        </div>
+    </article>
+</section>
+
+      <script>
+  var anchorForId = function (id) {
+    var anchor = document.createElement("a");
+    anchor.className = "header-link";
+    anchor.href      = "#" + id;
+    anchor.innerHTML = "<i class=\"fa fa-link\"></i>";
+    anchor.title = "Permalink";
+    return anchor;
+  };
+
+  var linkifyAnchors = function (level, containingElement) {
+    var headers = containingElement.getElementsByTagName("h" + level);
+    for (var h = 0; h < headers.length; h++) {
+      var header = headers[h];
+
+      if (typeof header.id !== "undefined" && header.id !== "") {
+        header.appendChild(anchorForId(header.id));
+      }
+    }
+  };
+
+  document.onreadystatechange = function () {
+    if (this.readyState === "complete") {
+      var contentBlock = document.getElementsByClassName("docs")[0] || document.getElementsByClassName("news")[0];
+      if (!contentBlock) {
+        return;
+      }
+      for (var level = 1; level <= 6; level++) {
+        linkifyAnchors(level, contentBlock);
+      }
+    }
+  };
+
+  var topEdge
+  document.onscroll = function () {
+    if (topEdge === undefined)
+      topEdge = document.getElementById("doc_nav").getBoundingClientRect().top+window.pageYOffset-20;
+
+    if ( window.pageYOffset > topEdge)
+      document.getElementById("doc_nav").classList.add("stuck");
+    else
+      document.getElementById("doc_nav").classList.remove("stuck");
+  };
+
+
+
+</script>
+
+    </main>
+</body>
+</html>
