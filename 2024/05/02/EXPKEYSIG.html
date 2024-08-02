@@ -1,0 +1,178 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+  <title>Albert - GPG error: Signatures invalid: EXPKEYSIG</title>
+  <meta charset="UTF-8">
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <link rel="alternate" type="application/rss+xml" title="Albert RSS" href="/feed.xml">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
+  <link rel="stylesheet" href="https://albertlauncher.github.io/css/main.css">
+</head>
+
+<body>
+    <main class="wrapper">
+      <section class="container docs">
+    <article>
+        <div class="row">
+            <div class="column column-20">
+              <aside class="navigation" id="doc_nav">
+
+    <a class="title" href="https://albertlauncher.github.io"  style="margin-bottom:3cm;">
+        <img class="icon" src="https://albertlauncher.github.io/img/albert.svg" alt="Albert" title="Albert">
+        <span class="title">Albert</span>
+    </a>
+    <br><br>
+
+    
+    <h5>User guide</h5>
+    <ul>
+        
+        
+        
+        <li class=""><a href="/setup/">Setup</a></li>
+        
+        
+        
+        <li class=""><a href="/usage/">Usage</a></li>
+        
+        
+        
+        <li class=""><a href="/extension/">Extension</a></li>
+        
+    </ul>
+    
+    <h5>Meta</h5>
+    <ul>
+        
+        
+        
+        <li class=""><a href="/news/">News</a></li>
+        
+        
+        
+        <li class=""><a href="/help/">Help</a></li>
+        
+        
+        
+        <li class=""><a href="/contributing/">Contributing</a></li>
+        
+        
+        
+        <li class=""><a href="/donation/">Donating</a></li>
+        
+    </ul>
+    
+    <li><a href="/reference/">Reference</a></li>
+    <li><a href="https://github.com/albertlauncher">GitHub</a></li>
+    <li><a href="https://raw.githubusercontent.com/albertlauncher/albert/master/CHANGELOG.md">Changelog</a></li>
+</aside>
+
+            </div>
+            <div class="column column-80">
+                <div class="float-right">
+                    <a href="https://github.com/albertlauncher/documentation/edit/master/src/_posts/2024-05-02-EXPKEYSIG.md">Improve this page</a>
+                </div>
+                <h1>GPG error: Signatures invalid: EXPKEYSIG</h1>
+                <p><em>tl;dr</em> (But keep in mind that that the key will expire again in future)</p>
+
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code>curl <span class="nt">-fsSL</span> <span class="s2">"https://build.opensuse.org/projects/home:manuelschneid3r/signing_keys/download?kind=gpg"</span> | gpg <span class="nt">--dearmor</span> <span class="o">&gt;</span> /etc/apt/trusted.gpg.d/home_manuelschneid3r.gpg
+</code></pre></div></div>
+
+<p>If you have Albert installed and recently tried to update your system you probably ran into this error:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code># apt update
+Hit:1 http://ports.ubuntu.com/ubuntu-ports jammy InRelease
+Get:2 http://download.opensuse.org/repositories/home:/manuelschneid3r/xUbuntu_22.10  InRelease [1557 B]
+Hit:3 http://ports.ubuntu.com/ubuntu-ports jammy-updates InRelease
+Hit:4 http://ports.ubuntu.com/ubuntu-ports jammy-backports InRelease
+Hit:5 http://ports.ubuntu.com/ubuntu-ports jammy-security InRelease
+Err:2 http://download.opensuse.org/repositories/home:/manuelschneid3r/xUbuntu_22.10  InRelease
+  The following signatures were invalid: EXPKEYSIG 1488EB46E192A257 home:manuelschneid3r OBS Project &lt;home:manuelschneid3r@build.opensuse.org&gt;
+Reading package lists... Done
+W: GPG error: http://download.opensuse.org/repositories/home:/manuelschneid3r/xUbuntu_22.10  InRelease: The following signatures were invalid: EXPKEYSIG 1488EB46E192A257 home:manuelschneid3r OBS Project &lt;home:manuelschneid3r@build.opensuse.org&gt;
+E: The repository 'http://download.opensuse.org/repositories/home:/manuelschneid3r/xUbuntu_22.10  InRelease' is not signed.
+N: Updating from such a repository can't be done securely, and is therefore disabled by default.
+N: See apt-secure(8) manpage for repository creation and user configuration details.
+</code></pre></div></div>
+
+<p>The per repository key of most repos expired recently:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code># curl -fsSL "https://download.opensuse.org/repositories/home:manuelschneid3r/xUbuntu_22.04/Release.key" | gpg --dearmor | gpg --show-keys
+pub   rsa2048 2017-10-27 [SC] [expired: 2024-04-29]
+      A4B83CD05FDF5C5178482D4A1488EB46E192A257
+uid                      home:manuelschneid3r OBS Project &lt;home:manuelschneid3r@build.opensuse.org&gt;
+</code></pre></div></div>
+
+<p>Open Build Service updates this key only on publish and only if the key is expired.
+That’s unfortunate because a relase would have to be published as soon as the key expires and users would have to manually add the new key.
+One solution would be to ship a dedicated package containing an up to date key.
+However that’s quite some maintenance work.
+Fortunately the guys at OBS offered an alternative solution.
+Expiry dates of keys are <a href="https://github.com/openSUSE/open-build-service/pull/16082">soon</a> user configurable.
+Setting the expiry date to some more years than the default two years will make this less of a problem since most users will have set up a new OS by then anyway.
+Until the mentioned PR has been merged and the key is still valid for around two years only users of the affected distributions have to run the command above to update the key.
+Everything should be fine until 2026-07-11 then.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code># curl -fsSL "https://build.opensuse.org/projects/home:manuelschneid3r/signing_keys/download?kind=gpg" | gpg --dearmor | gpg --show-keys
+pub   rsa2048 2017-10-27 [SC] [expires: 2026-07-11]
+      A4B83CD05FDF5C5178482D4A1488EB46E192A257
+uid                      home:manuelschneid3r OBS Project &lt;home:manuelschneid3r@build.opensuse.org&gt;
+</code></pre></div></div>
+
+
+            </div>
+        </div>
+    </article>
+</section>
+
+      <script>
+  var anchorForId = function (id) {
+    var anchor = document.createElement("a");
+    anchor.className = "header-link";
+    anchor.href      = "#" + id;
+    anchor.innerHTML = "<i class=\"fa fa-link\"></i>";
+    anchor.title = "Permalink";
+    return anchor;
+  };
+
+  var linkifyAnchors = function (level, containingElement) {
+    var headers = containingElement.getElementsByTagName("h" + level);
+    for (var h = 0; h < headers.length; h++) {
+      var header = headers[h];
+
+      if (typeof header.id !== "undefined" && header.id !== "") {
+        header.appendChild(anchorForId(header.id));
+      }
+    }
+  };
+
+  document.onreadystatechange = function () {
+    if (this.readyState === "complete") {
+      var contentBlock = document.getElementsByClassName("docs")[0] || document.getElementsByClassName("news")[0];
+      if (!contentBlock) {
+        return;
+      }
+      for (var level = 1; level <= 6; level++) {
+        linkifyAnchors(level, contentBlock);
+      }
+    }
+  };
+
+  var topEdge
+  document.onscroll = function () {
+    if (topEdge === undefined)
+      topEdge = document.getElementById("doc_nav").getBoundingClientRect().top+window.pageYOffset-20;
+
+    if ( window.pageYOffset > topEdge)
+      document.getElementById("doc_nav").classList.add("stuck");
+    else
+      document.getElementById("doc_nav").classList.remove("stuck");
+  };
+
+
+
+</script>
+
+    </main>
+</body>
+</html>

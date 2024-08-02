@@ -1,0 +1,265 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+  <title>Albert - Albert v0.23.0 released</title>
+  <meta charset="UTF-8">
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <link rel="alternate" type="application/rss+xml" title="Albert RSS" href="/feed.xml">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
+  <link rel="stylesheet" href="https://albertlauncher.github.io/css/main.css">
+</head>
+
+<body>
+    <main class="wrapper">
+      <section class="container docs">
+    <article>
+        <div class="row">
+            <div class="column column-20">
+              <aside class="navigation" id="doc_nav">
+
+    <a class="title" href="https://albertlauncher.github.io"  style="margin-bottom:3cm;">
+        <img class="icon" src="https://albertlauncher.github.io/img/albert.svg" alt="Albert" title="Albert">
+        <span class="title">Albert</span>
+    </a>
+    <br><br>
+
+    
+    <h5>User guide</h5>
+    <ul>
+        
+        
+        
+        <li class=""><a href="/setup/">Setup</a></li>
+        
+        
+        
+        <li class=""><a href="/usage/">Usage</a></li>
+        
+        
+        
+        <li class=""><a href="/extension/">Extension</a></li>
+        
+    </ul>
+    
+    <h5>Meta</h5>
+    <ul>
+        
+        
+        
+        <li class=""><a href="/news/">News</a></li>
+        
+        
+        
+        <li class=""><a href="/help/">Help</a></li>
+        
+        
+        
+        <li class=""><a href="/contributing/">Contributing</a></li>
+        
+        
+        
+        <li class=""><a href="/donation/">Donating</a></li>
+        
+    </ul>
+    
+    <li><a href="/reference/">Reference</a></li>
+    <li><a href="https://github.com/albertlauncher">GitHub</a></li>
+    <li><a href="https://raw.githubusercontent.com/albertlauncher/albert/master/CHANGELOG.md">Changelog</a></li>
+</aside>
+
+            </div>
+            <div class="column column-80">
+                <div class="float-right">
+                    <a href="https://github.com/albertlauncher/documentation/edit/master/src/_posts/2024-03-03-albert-v0.23.0-released.md">Improve this page</a>
+                </div>
+                <h1>Albert v0.23.0 released</h1>
+                <p>[albert]</p>
+
+<ul>
+  <li>i18n</li>
+  <li>Make fallback order settable in new query tab.</li>
+  <li>Load native plugins threaded.</li>
+  <li>Add –no-load cli param</li>
+  <li>Use hashmap and avoid exceptions. Twice as fast 🚀</li>
+  <li>Add german translation</li>
+  <li>Make “Show settings” action the default for plugin items</li>
+  <li>[API:v0.23]
+    <ul>
+      <li>Change frontend interface design</li>
+      <li>drop extensions() from PluginInstance interface.
+Extensions can now bei registered dynamically at any time.</li>
+      <li>Reduce the plugin system interfaces to the bare minimum</li>
+      <li>Allow hard plugin dependencies.</li>
+      <li>Private destructors for interfaces</li>
+      <li>Refactoring
+        <ul>
+          <li>ExtensionRegistry add &gt; registerExtension</li>
+          <li>ExtensionRegistry remove &gt; deregisterExtension</li>
+        </ul>
+      </li>
+      <li>Make UI strings in the metadata required.</li>
+      <li>Allow plugins to have public interfaces</li>
+      <li>Revert to authors. Drop maintainers. (plugin metadata)</li>
+      <li>Remove polymorphism in PluginInstance id/name/description</li>
+      <li>Remove dynamic allocation of cache/config/dataDir()</li>
+      <li>Drop template parameter QOBJECT</li>
+      <li>Frontend is not an extension</li>
+      <li>Support localized metadata</li>
+      <li>CMake interface
+        <ul>
+          <li>Drop long_description from metadata</li>
+          <li>Add TS_FILES parameter to albert_plugin macro.</li>
+          <li>Revert back to json metadata file again</li>
+          <li>Complete metadata using cmake project details</li>
+          <li>Move Qt::Widgets into the public link interface</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<p>[plugins]</p>
+
+<ul>
+  <li>Support i18n</li>
+  <li>[python:4.2] Open external links in config labels by default</li>
+  <li>[widgetsboxmodel:7.1] Fix animation on linux</li>
+  <li>[qmlboxmodel] archive wip</li>
+  <li>[widgetsboxmodel:7.0]
+    <ul>
+      <li>Dark theme support</li>
+      <li>Themes update</li>
+      <li>Reproducible style (fusion)</li>
+      <li>Fix history search</li>
+      <li>Move persistent window position to state</li>
+      <li>Clear icon cache on hide</li>
+      <li>Archive unlicensed themes</li>
+      <li>Remove “Show fallbacks on empty result” option</li>
+      <li>Drop fonts from themes</li>
+    </ul>
+  </li>
+  <li>[websearch:8.0]
+    <ul>
+      <li>Capital You_T_ube</li>
+      <li>Add Google translate default engine</li>
+    </ul>
+  </li>
+  <li>[ssh:8.0]
+    <ul>
+      <li>Reduce complexity of this overengineered plugin
+        <ul>
+          <li>Remove quick connect</li>
+          <li>Remove known hosts</li>
+          <li>Remove file watchers (configs change not that often)</li>
+          <li>remove indexer mutexes</li>
+          <li>remove fuzzy index</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>[snippets:5.0]
+    <ul>
+      <li>Public extension interface “Add snippet”</li>
+    </ul>
+  </li>
+  <li>[qmlboxmodel:3.0]</li>
+  <li>Archived</li>
+  <li>[python:4.0]
+    <ul>
+      <li>Drop source watches. a plugin provider cant just reload without notifying the plugin registry</li>
+      <li>API 2.2
+        <ul>
+          <li>PluginInstance.configWidget supports ‘label’</li>
+          <li><strong>doc</strong> is not used anymore, since 0.23 drops long_description metadata</li>
+          <li>md_maintainers not used anymore</li>
+          <li>md_authors new optional field</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>[dictionary:3.0] Former platform_services
+    <ul>
+      <li>Rename plugin platform services to dict</li>
+    </ul>
+  </li>
+  <li>[clipboard:3.0]
+    <ul>
+      <li>use snippets interface</li>
+    </ul>
+  </li>
+  <li>[applications_macos:5.0]
+    <ul>
+      <li>Use KVO to track NSQuery results</li>
+    </ul>
+  </li>
+</ul>
+
+<p>[python]</p>
+
+<ul>
+  <li>Reinstate proper licensing</li>
+  <li>[virtualbox:1.6] Add info on vboxapi requirement</li>
+  <li>[docker:2.0] Show error on conn failure.</li>
+  <li>[pomodoro:1.5] Fix notifications</li>
+  <li>[pyi] v2.2</li>
+  <li>[inhibit_sleep:1.0] Similar to caffeine, theine, amphetamine etc…</li>
+</ul>
+
+<p>Check the <a href="https://github.com/albertlauncher/albert/commits/v0.23.0">GitHub repositories</a> for details.</p>
+
+            </div>
+        </div>
+    </article>
+</section>
+
+      <script>
+  var anchorForId = function (id) {
+    var anchor = document.createElement("a");
+    anchor.className = "header-link";
+    anchor.href      = "#" + id;
+    anchor.innerHTML = "<i class=\"fa fa-link\"></i>";
+    anchor.title = "Permalink";
+    return anchor;
+  };
+
+  var linkifyAnchors = function (level, containingElement) {
+    var headers = containingElement.getElementsByTagName("h" + level);
+    for (var h = 0; h < headers.length; h++) {
+      var header = headers[h];
+
+      if (typeof header.id !== "undefined" && header.id !== "") {
+        header.appendChild(anchorForId(header.id));
+      }
+    }
+  };
+
+  document.onreadystatechange = function () {
+    if (this.readyState === "complete") {
+      var contentBlock = document.getElementsByClassName("docs")[0] || document.getElementsByClassName("news")[0];
+      if (!contentBlock) {
+        return;
+      }
+      for (var level = 1; level <= 6; level++) {
+        linkifyAnchors(level, contentBlock);
+      }
+    }
+  };
+
+  var topEdge
+  document.onscroll = function () {
+    if (topEdge === undefined)
+      topEdge = document.getElementById("doc_nav").getBoundingClientRect().top+window.pageYOffset-20;
+
+    if ( window.pageYOffset > topEdge)
+      document.getElementById("doc_nav").classList.add("stuck");
+    else
+      document.getElementById("doc_nav").classList.remove("stuck");
+  };
+
+
+
+</script>
+
+    </main>
+</body>
+</html>

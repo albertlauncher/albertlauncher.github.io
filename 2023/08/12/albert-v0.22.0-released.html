@@ -1,0 +1,259 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+  <title>Albert - Albert v0.22.0 released</title>
+  <meta charset="UTF-8">
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <link rel="alternate" type="application/rss+xml" title="Albert RSS" href="/feed.xml">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
+  <link rel="stylesheet" href="https://albertlauncher.github.io/css/main.css">
+</head>
+
+<body>
+    <main class="wrapper">
+      <section class="container docs">
+    <article>
+        <div class="row">
+            <div class="column column-20">
+              <aside class="navigation" id="doc_nav">
+
+    <a class="title" href="https://albertlauncher.github.io"  style="margin-bottom:3cm;">
+        <img class="icon" src="https://albertlauncher.github.io/img/albert.svg" alt="Albert" title="Albert">
+        <span class="title">Albert</span>
+    </a>
+    <br><br>
+
+    
+    <h5>User guide</h5>
+    <ul>
+        
+        
+        
+        <li class=""><a href="/setup/">Setup</a></li>
+        
+        
+        
+        <li class=""><a href="/usage/">Usage</a></li>
+        
+        
+        
+        <li class=""><a href="/extension/">Extension</a></li>
+        
+    </ul>
+    
+    <h5>Meta</h5>
+    <ul>
+        
+        
+        
+        <li class=""><a href="/news/">News</a></li>
+        
+        
+        
+        <li class=""><a href="/help/">Help</a></li>
+        
+        
+        
+        <li class=""><a href="/contributing/">Contributing</a></li>
+        
+        
+        
+        <li class=""><a href="/donation/">Donating</a></li>
+        
+    </ul>
+    
+    <li><a href="/reference/">Reference</a></li>
+    <li><a href="https://github.com/albertlauncher">GitHub</a></li>
+    <li><a href="https://raw.githubusercontent.com/albertlauncher/albert/master/CHANGELOG.md">Changelog</a></li>
+</aside>
+
+            </div>
+            <div class="column column-80">
+                <div class="float-right">
+                    <a href="https://github.com/albertlauncher/documentation/edit/master/src/_posts/2023-08-12-albert-v0.22.0-released.md">Improve this page</a>
+                </div>
+                <h1>Albert v0.22.0 released</h1>
+                <h3 id="albert">Albert</h3>
+
+<ul>
+  <li>Add commandline option for logging filter rules</li>
+  <li>Add contour terminal</li>
+  <li>Add settingswindow shortcut action for plugin settings</li>
+  <li>Add feature copy and paste</li>
+  <li>Add “Run empty query” option</li>
+  <li>Add handler configurations tab</li>
+  <li>Sort fallbacks</li>
+  <li>LexSort items having equal score</li>
+  <li>Doxygen documentation</li>
+</ul>
+
+<p>API 0.22:</p>
+
+<ul>
+  <li>TriggerQueryHandler
+    <ul>
+      <li>Add bool supportsFuzzyMatching()</li>
+      <li>Add bool fuzzyMatchingEnabled()</li>
+      <li>Add void setFuzzyMatchingEnabled(bool)</li>
+      <li>Add QString trigger() (the user configured one)</li>
+    </ul>
+  </li>
+  <li>GlobalQueryHandler
+    <ul>
+      <li>Add applyUsageScore(…).</li>
+      <li>Inherit TQH, i.e. every handler is a TQH</li>
+    </ul>
+  </li>
+  <li>IndexQueryHandler
+    <ul>
+      <li>Reimplement TQH fuzzy methods</li>
+      <li>Default synopsis <filter></filter></li>
+    </ul>
+  </li>
+  <li>Plugin system
+    <ul>
+      <li>Revert multithreaded plugin laoding (Qt makes problems everywhere)</li>
+      <li>Statically inject metadata, use it for PluginInstances</li>
+      <li>Move native plugin interface into plugin:: namespace</li>
+      <li>Cache/Conf/Data dirs per plugin only (were per Extension)</li>
+      <li>Add PluginInstance::extensions()</li>
+      <li>Add Template based ExtensionPlugin(Instance)</li>
+      <li>Make native plugin a template class to allow subclassing any QObject</li>
+    </ul>
+  </li>
+  <li>Frontend:
+    <ul>
+      <li>Add Frontend::winId, Move the window quirks to the core</li>
+      <li>Use appwide input history file</li>
+      <li>Add generic qml/widgets icon provider to interface</li>
+      <li>Add generic icon provider, creating icons on the fly</li>
+    </ul>
+  </li>
+  <li>Fuctions and macros:
+    <ul>
+      <li>Put all free functions in albert.h</li>
+      <li>Add openUrl QUrl overload</li>
+      <li>Add convenience macros for user property definition</li>
+      <li>Require albert logging category to pass the name</li>
+      <li>Add state file</li>
+      <li>Add global settings factory</li>
+    </ul>
+  </li>
+  <li>Rename History to InputHistory</li>
+  <li>Drop QueryHandler convenience class</li>
+  <li>Drop global albert.h include</li>
+</ul>
+
+<h3 id="plugins">Plugins</h3>
+
+<ul>
+  <li>[clipboard]
+    <ul>
+      <li>Add paste action</li>
+    </ul>
+  </li>
+  <li>[wbm]
+    <ul>
+      <li>Remove option “display icon”</li>
+      <li>Appwide input history</li>
+    </ul>
+  </li>
+  <li>[websearch]
+    <ul>
+      <li>Adopt to sorted fallbacks, drop dragndrop in listview</li>
+      <li>Add drag’n’drop image feature</li>
+    </ul>
+  </li>
+  <li>[snippets]
+    <ul>
+      <li>Add paste action</li>
+      <li>Snippets are now required to be txt files!</li>
+    </ul>
+  </li>
+  <li>[qml:2.0] Revamped QML frontend</li>
+  <li>[python]
+    <ul>
+      <li>Mimic internal api as close as possible</li>
+      <li>Attach logging functions to plugin modules</li>
+      <li>Expose albert::setClipboardTextAndPaste</li>
+      <li>Expose albert::Notification</li>
+    </ul>
+  </li>
+  <li>[files]
+    <ul>
+      <li>Show filePath instead path in subtext</li>
+      <li>Add option for case sentivity of fs browsers.</li>
+      <li>Add user property for inline config</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="python-plugins">Python plugins</h3>
+
+<ul>
+  <li>Interface v2.0 stub</li>
+  <li>[emoji] New generic and platform agnostic emoji implementation</li>
+  <li>[duckduckgo] Add extension</li>
+  <li>[color] Add extension</li>
+</ul>
+
+<p>And loads of other changes…</p>
+
+<p>Check the <a href="https://github.com/albertlauncher/albert/commits/v0.22.0">GitHub repositories</a> for details.</p>
+
+            </div>
+        </div>
+    </article>
+</section>
+
+      <script>
+  var anchorForId = function (id) {
+    var anchor = document.createElement("a");
+    anchor.className = "header-link";
+    anchor.href      = "#" + id;
+    anchor.innerHTML = "<i class=\"fa fa-link\"></i>";
+    anchor.title = "Permalink";
+    return anchor;
+  };
+
+  var linkifyAnchors = function (level, containingElement) {
+    var headers = containingElement.getElementsByTagName("h" + level);
+    for (var h = 0; h < headers.length; h++) {
+      var header = headers[h];
+
+      if (typeof header.id !== "undefined" && header.id !== "") {
+        header.appendChild(anchorForId(header.id));
+      }
+    }
+  };
+
+  document.onreadystatechange = function () {
+    if (this.readyState === "complete") {
+      var contentBlock = document.getElementsByClassName("docs")[0] || document.getElementsByClassName("news")[0];
+      if (!contentBlock) {
+        return;
+      }
+      for (var level = 1; level <= 6; level++) {
+        linkifyAnchors(level, contentBlock);
+      }
+    }
+  };
+
+  var topEdge
+  document.onscroll = function () {
+    if (topEdge === undefined)
+      topEdge = document.getElementById("doc_nav").getBoundingClientRect().top+window.pageYOffset-20;
+
+    if ( window.pageYOffset > topEdge)
+      document.getElementById("doc_nav").classList.add("stuck");
+    else
+      document.getElementById("doc_nav").classList.remove("stuck");
+  };
+
+
+
+</script>
+
+    </main>
+</body>
+</html>
