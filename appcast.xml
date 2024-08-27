@@ -1,0 +1,105 @@
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+<channel>
+    <title>Albert launcher</title>
+    <language>en</language>
+
+    <item>
+      <title>Version 0.22.17</title>
+      <pubDate>Sun, 26 Nov 2023 01:55:50 +0000</pubDate>
+      <link>https://albertlauncher.github.io/</link>
+      <sparkle:version>2.0</sparkle:version>
+      <sparkle:minimumSystemVersion>11.0.0</sparkle:minimumSystemVersion>
+      <sparkle:releaseNotesLink>https://albertlauncher.github.io/news/</sparkle:releaseNotesLink>
+      <enclosure
+        url="https://github.com/albertlauncher/albert/releases/download/v0.22.17/Albert-v0.22.17.dmg"
+        sparkle:version="0.22.17"
+        sparkle:shortVersionString="0.22.17"
+        
+        type="application/octet-stream"/>
+    </item>
+
+
+    <item>
+      <title>Version 0.22.16</title>
+      <pubDate>Sat, 18 Nov 2023 21:07:36 +0000</pubDate>
+      <link>https://albertlauncher.github.io/</link>
+      <sparkle:version>2.0</sparkle:version>
+      <sparkle:minimumSystemVersion>11.0.0</sparkle:minimumSystemVersion>
+      <sparkle:releaseNotesLink>https://albertlauncher.github.io/news/</sparkle:releaseNotesLink>
+      <enclosure
+        url="https://github.com/albertlauncher/albert/releases/download/v0.22.16/Albert-v0.22.16.dmg"
+        sparkle:version="0.22.16"
+        sparkle:shortVersionString="0.22.16"
+        
+        type="application/octet-stream"/>
+    </item>
+
+
+    <item>
+      <title>Version 0.22.15</title>
+      <pubDate>Wed, 08 Nov 2023 08:50:22 +0000</pubDate>
+      <link>https://albertlauncher.github.io/</link>
+      <sparkle:version>2.0</sparkle:version>
+      <sparkle:minimumSystemVersion>11.0.0</sparkle:minimumSystemVersion>
+      <sparkle:releaseNotesLink>https://albertlauncher.github.io/news/</sparkle:releaseNotesLink>
+      <enclosure
+        url="https://github.com/albertlauncher/albert/releases/download/v0.22.15/Albert-v0.22.15.dmg"
+        sparkle:version="0.22.15"
+        sparkle:shortVersionString="0.22.15"
+        
+        type="application/octet-stream"/>
+    </item>
+
+
+    <item>
+      <title>Version 0.22.14</title>
+      <pubDate>Fri, 06 Oct 2023 10:56:07 +0000</pubDate>
+      <link>https://albertlauncher.github.io/</link>
+      <sparkle:version>2.0</sparkle:version>
+      <sparkle:minimumSystemVersion>11.0.0</sparkle:minimumSystemVersion>
+      <sparkle:releaseNotesLink>https://albertlauncher.github.io/news/</sparkle:releaseNotesLink>
+      <enclosure
+        url="https://github.com/albertlauncher/albert/releases/download/v0.22.14/Albert-v0.22.14.dmg"
+        sparkle:version="0.22.14"
+        sparkle:shortVersionString="0.22.14"
+        sparkle:edSignature="OcgIlJPyvVUH6Hg+BZwLh/WYF6+++RFe4GuSNQGJdCgLBRa9wEMgyevLcSKUmqfp6Ps/DKhSlVq/IvsvU6xSAQ==" length="84742351"
+        type="application/octet-stream"/>
+    </item>
+
+
+    <item>
+      <title>Version 0.22.13</title>
+      <pubDate>Thu, 05 Oct 2023 09:36:47 +0000</pubDate>
+      <link>https://albertlauncher.github.io/</link>
+      <sparkle:version>2.0</sparkle:version>
+      <sparkle:minimumSystemVersion>11.0.0</sparkle:minimumSystemVersion>
+      <sparkle:releaseNotesLink>https://albertlauncher.github.io/news/</sparkle:releaseNotesLink>
+      <enclosure
+        url="https://github.com/albertlauncher/albert/releases/download/v0.22.13/Albert-v0.22.13.dmg"
+        sparkle:version="0.22.13"
+        sparkle:shortVersionString="0.22.13"
+        sparkle:edSignature="Zi7qJn/E4OrVAdctAJf6+Hdp9mXsyfnpL3rSdg6O9DK/J+KdYnW1WoZvFhzXbvBeiigVozmEOVDCngXxupCJAg==" length="84743487"
+        type="application/octet-stream"/>
+    </item>
+
+
+    <item>
+      <title>Version 0.22.12</title>
+      <pubDate>Tue, 03 Oct 2023 20:45:02 +0000</pubDate>
+      <link>https://albertlauncher.github.io/</link>
+      <sparkle:version>2.0</sparkle:version>
+      <sparkle:minimumSystemVersion>11.0.0</sparkle:minimumSystemVersion>
+      <sparkle:releaseNotesLink>https://raw.githubusercontent.com/albertlauncher/albert/master/CHANGELOG.md</sparkle:releaseNotesLink>
+      <enclosure
+        url="https://github.com/albertlauncher/albert/releases/download/v0.22.12/Albert-v0.22.12.dmg"
+        sparkle:version="0.22.12"
+        sparkle:shortVersionString="0.22.12"
+        sparkle:edSignature="VSh4BB2ht6WtH720g2ZKhn0NEyMAbHgiXmUVwJ4EEOUJ7aL1OU/dKMqsm2uGbQV6Mzp56g87hZmluH8piEqRAQ==" length="84743377"
+        type="application/octet-stream"/>
+    </item>
+
+
+
+
+</channel>
+</rss>
