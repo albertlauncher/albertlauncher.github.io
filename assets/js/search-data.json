@@ -141,7 +141,7 @@
   },"20": {
     "doc": "Installation",
     "title": "Installation",
-    "content": ". | Official packages | Unofficial packages | From source | . Unofficial packages and repository sources may contain malicious code! Please make sure to use trusted or official repositories. ",
+    "content": ". | Official packages | Unofficial packages | From source | . Unofficial packages may contain malicious code! Please make sure to use trusted or official repositories. ",
     "url": "/installation/",
     
     "relUrl": "/installation/"
