@@ -1,0 +1,3638 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Albert launcher news feed</title>
+    <description>Your latest Albert news</description>
+    <link>https://albertlauncher.github.io</link>
+    
+      
+        <item>
+          <title>Albert v0.26.2 released</title>
+          <description>&lt;h1 id=&quot;albert-v0262-released&quot;&gt;Albert v0.26.2 released&lt;/h1&gt;
+
+&lt;p&gt;Hotfix docs plugin cluttering output due to nonunique item id&lt;/p&gt;
+
+&lt;p&gt;Check the &lt;a href=&quot;https://github.com/albertlauncher/albert/commits/v0.26.2&quot;&gt;GitHub repositories&lt;/a&gt; for details.&lt;/p&gt;
+</description>
+          <pubDate>2024-08-21T17:03:00+00:00</pubDate>
+          <link>https://albertlauncher.github.io/2024/08/21/albert-v0.26.2-released/</link>
+          <guid isPermaLink="true">https://albertlauncher.github.io/2024/08/21/albert-v0.26.2-released/</guid>
+        </item>
+      
+    
+      
+        <item>
+          <title>Albert v0.26.1 released</title>
+          <description>&lt;h1 id=&quot;albert-v0261-released&quot;&gt;Albert v0.26.1 released&lt;/h1&gt;
+
+&lt;p&gt;[albert]&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Albert license v1.1&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;[plugins]&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;[system]
+    &lt;ul&gt;
+      &lt;li&gt;Also match the trigger for sleep inhibition&lt;/li&gt;
+      &lt;li&gt;Allow changing trigger for sleep inhibition&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;[docs]
+    &lt;ul&gt;
+      &lt;li&gt;Proper anchor support for all kinds of docsets&lt;/li&gt;
+      &lt;li&gt;Add the type to the description&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;[files]
+    &lt;ul&gt;
+      &lt;li&gt;Add option “index file path”&lt;/li&gt;
+      &lt;li&gt;Also fix persistence for option “case senstive file browsers”&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;[applications]
+    &lt;ul&gt;
+      &lt;li&gt;Sort terminals list by caseinsensitive name&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Check the &lt;a href=&quot;https://github.com/albertlauncher/albert/commits/v0.26.1&quot;&gt;GitHub repositories&lt;/a&gt; for details.&lt;/p&gt;
+</description>
+          <pubDate>2024-08-20T18:40:00+00:00</pubDate>
+          <link>https://albertlauncher.github.io/2024/08/20/albert-v0.26.1-released/</link>
+          <guid isPermaLink="true">https://albertlauncher.github.io/2024/08/20/albert-v0.26.1-released/</guid>
+        </item>
+      
+    
+      
+        <item>
+          <title>Albert v0.26.0 released</title>
+          <description>&lt;h1 id=&quot;albert-v0260-released&quot;&gt;Albert v0.26.0 released&lt;/h1&gt;
+
+&lt;p&gt;[albert]&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Give QIcon::fromTheme another try.&lt;/li&gt;
+  &lt;li&gt;API
+    &lt;ul&gt;
+      &lt;li&gt;Remove const from GQH::hgq and GQH::heq.&lt;/li&gt;
+      &lt;li&gt;Drop albert::runTerminal. Moved to applications plugin.&lt;/li&gt;
+      &lt;li&gt;Make private property available in subclasses.&lt;/li&gt;
+      &lt;li&gt;Add getter for plugin dependecies.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;[plugins]&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;[system:10.0] Add inhibit sleep feature.&lt;/li&gt;
+  &lt;li&gt;[docs:3.17] Be more tolerant with anchors. Macos and Win cant handle anchors. Use it though because it is still better than skipping the item entirely.&lt;/li&gt;
+  &lt;li&gt;[applications:12.0]
+    &lt;ul&gt;
+      &lt;li&gt;Move terminal detection here&lt;/li&gt;
+      &lt;li&gt;Proper flatpak terminal support&lt;/li&gt;
+      &lt;li&gt;Add public interface to run terminals&lt;/li&gt;
+      &lt;li&gt;Proper platform abstraction&lt;/li&gt;
+      &lt;li&gt;Foundation for xdg-terminal-execute&lt;/li&gt;
+      &lt;li&gt;Foundation for URL scheme and mime type handlers&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;[python]&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;[inhibit_sleep] Archive. Moved to system plugin.&lt;/li&gt;
+  &lt;li&gt;[docker:3.0] Revert to trigger query handling. Global query handler not applicable, queries take seconds sometimes.&lt;/li&gt;
+  &lt;li&gt;[unit_converter:1.6] Port to API v2&lt;/li&gt;
+  &lt;li&gt;[jetbrains:2.0] Add Aqua and Writerside&lt;/li&gt;
+  &lt;li&gt;[tex_to_unicode:1.3] Port to v2.3. Author is okay with license change. See https://github.com/orgs/albertlauncher/discussions/1391#discussioncomment-10263863&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Check the &lt;a href=&quot;https://github.com/albertlauncher/albert/commits/v0.26.0&quot;&gt;GitHub repositories&lt;/a&gt; for details.&lt;/p&gt;
+</description>
+          <pubDate>2024-08-16T20:27:00+00:00</pubDate>
+          <link>https://albertlauncher.github.io/2024/08/16/albert-v0.26.0-released/</link>
+          <guid isPermaLink="true">https://albertlauncher.github.io/2024/08/16/albert-v0.26.0-released/</guid>
+        </item>
+      
+    
+      
+        <item>
+          <title>Albert v0.25.0 released</title>
+          <description>&lt;h1 id=&quot;albert-v0250-released&quot;&gt;Albert v0.25.0 released&lt;/h1&gt;
+
+&lt;p&gt;[albert]&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Simplify MatchConfig&lt;/li&gt;
+  &lt;li&gt;Hardcode error_tolerance_divisor to 4&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;[plugins]&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;[chromium:7.1] Minor improvements
+    &lt;ul&gt;
+      &lt;li&gt;Avoid initial double indexing&lt;/li&gt;
+      &lt;li&gt;Fix status message in settings window&lt;/li&gt;
+      &lt;li&gt;Fix warnings on empty paths&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;[bluetooth:1.1] Support fuzzy matching&lt;/li&gt;
+  &lt;li&gt;[urlhandler:5.2] Use albert::openUrl instead of QDesktopServices::openUrl
+QDesktopServices::openUrl fails on wayland
+Close https://github.com/albertlauncher/albert/issues/1414&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Check the &lt;a href=&quot;https://github.com/albertlauncher/albert/commits/v0.25.0&quot;&gt;GitHub repositories&lt;/a&gt; for details.&lt;/p&gt;
+</description>
+          <pubDate>2024-08-02T09:20:00+00:00</pubDate>
+          <link>https://albertlauncher.github.io/2024/08/02/albert-v0.25.0-released/</link>
+          <guid isPermaLink="true">https://albertlauncher.github.io/2024/08/02/albert-v0.25.0-released/</guid>
+        </item>
+      
+    
+      
+        <item>
+          <title>Albert v0.24.3 released</title>
+          <description>&lt;h1 id=&quot;albert-v0243-released&quot;&gt;Albert v0.24.3 released&lt;/h1&gt;
+
+&lt;h2 id=&quot;albert&quot;&gt;Albert&lt;/h2&gt;
+&lt;p&gt;Port applications settings to new id. Hotfix &lt;a href=&quot;https://github.com/albertlauncher/albert/issues/1412&quot;&gt;#1412&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;plugins&quot;&gt;Plugins&lt;/h2&gt;
+&lt;p&gt;[snippets:5.4] Show a snippet preview in description. Close &lt;a href=&quot;https://github.com/albertlauncher/albert/issues/1387&quot;&gt;#1387&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Check the &lt;a href=&quot;https://github.com/albertlauncher/albert/commits/v0.24.3&quot;&gt;GitHub repositories&lt;/a&gt; for details.&lt;/p&gt;
+</description>
+          <pubDate>2024-07-09T23:49:00+00:00</pubDate>
+          <link>https://albertlauncher.github.io/2024/07/09/albert-v0.24.3-released/</link>
+          <guid isPermaLink="true">https://albertlauncher.github.io/2024/07/09/albert-v0.24.3-released/</guid>
+        </item>
+      
+    
+      
+        <item>
+          <title>Albert v0.24.2 released</title>
+          <description>&lt;h1 id=&quot;albert-v0242-released&quot;&gt;Albert v0.24.2 released&lt;/h1&gt;
+
+&lt;p&gt;[albert]&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Add “open terminal here” to app directory items&lt;/li&gt;
+  &lt;li&gt;Hotfix #1408&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;[plugins]&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;[python:4.5] Update python stub file&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;[python]&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;[GoldenDict:1.5] Remove breaking type hints&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Check the &lt;a href=&quot;https://github.com/albertlauncher/albert/commits/v0.24.2&quot;&gt;GitHub repositories&lt;/a&gt; for details.&lt;/p&gt;
+</description>
+          <pubDate>2024-07-02T09:54:00+00:00</pubDate>
+          <link>https://albertlauncher.github.io/2024/07/02/albert-v0.24.2-released/</link>
+          <guid isPermaLink="true">https://albertlauncher.github.io/2024/07/02/albert-v0.24.2-released/</guid>
+        </item>
+      
+    
+      
+        <item>
+          <title>Albert v0.24.1 released</title>
+          <description>&lt;h1 id=&quot;albert-v0241-released&quot;&gt;Albert v0.24.1 released&lt;/h1&gt;
+
+&lt;p&gt;[plugins]&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;[python:4.4] Revert back to using pybind submodule (v2.12.0)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Check the &lt;a href=&quot;https://github.com/albertlauncher/albert/commits/v0.24.1&quot;&gt;GitHub repositories&lt;/a&gt; for details.&lt;/p&gt;
+</description>
+          <pubDate>2024-06-28T18:18:00+00:00</pubDate>
+          <link>https://albertlauncher.github.io/2024/06/28/albert-v0.24.1-released/</link>
+          <guid isPermaLink="true">https://albertlauncher.github.io/2024/06/28/albert-v0.24.1-released/</guid>
+        </item>
+      
+    
+      
+        <item>
+          <title>Albert v0.24.0 released</title>
+          <description>&lt;h1 id=&quot;albert-v0240-released&quot;&gt;Albert v0.24.0 released&lt;/h1&gt;
+
+&lt;p&gt;[albert]&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Ignore soft hyphens in lookup strings&lt;/li&gt;
+  &lt;li&gt;Add TriggersQueryHandler builtin handler&lt;/li&gt;
+  &lt;li&gt;Drop PluginConfigQueryHandler&lt;/li&gt;
+  &lt;li&gt;Ignore order of query words&lt;/li&gt;
+  &lt;li&gt;Do not run fallbacks on empty queries&lt;/li&gt;
+  &lt;li&gt;Allow unsetting hotkey on backspace&lt;/li&gt;
+  &lt;li&gt;Move about into general tab&lt;/li&gt;
+  &lt;li&gt;Use a button for hotkeys such that tab order is usable&lt;/li&gt;
+  &lt;li&gt;Cache icons in the fallback handler to avoid laggy resize&lt;/li&gt;
+  &lt;li&gt;Set 700 on albert dirs&lt;/li&gt;
+  &lt;li&gt;Use same config location and format on all platforms.&lt;/li&gt;
+  &lt;li&gt;Show message box on errors while loading enabled plugins&lt;/li&gt;
+  &lt;li&gt;Make openUrl working on wayland by using xdg-open&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;[API 0.24]&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Loads of changes around the project structure
+    &lt;ul&gt;
+      &lt;li&gt;AUTOMOC,UIC,RCC per target&lt;/li&gt;
+      &lt;li&gt;Structure sources in folders&lt;/li&gt;
+      &lt;li&gt;Flatten headers&lt;/li&gt;
+      &lt;li&gt;No paths in core source files (rather lots of include dirs)&lt;/li&gt;
+      &lt;li&gt;Finally proper target export such that plugin build in build tree as well as separate projects&lt;/li&gt;
+      &lt;li&gt;Add custom target global_lupdate&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;CMake
+    &lt;ul&gt;
+      &lt;li&gt;albert_plugin(…) modifications
+        &lt;ul&gt;
+          &lt;li&gt;Add QT parameter&lt;/li&gt;
+          &lt;li&gt;Add I18N_SOURCES parameter&lt;/li&gt;
+          &lt;li&gt;SOURCE_FILES &amp;gt; SOURCES&lt;/li&gt;
+          &lt;li&gt;I18N_SOURCE_FILES &amp;gt; I18N_SOURCES&lt;/li&gt;
+          &lt;li&gt;INCLUDE_DIRECTORIES &amp;gt; INCLUDE&lt;/li&gt;
+          &lt;li&gt;LINK_LIBRARIES &amp;gt; LINK&lt;/li&gt;
+          &lt;li&gt;Make SOURCES optional. Specify source conventions: include/&lt;em&gt;.h, src/&lt;/em&gt;.h, src/&lt;em&gt;.cpp, src/&lt;/em&gt;.mm, src/*.ui and &lt;plugin_id&gt;.qrc&lt;/plugin_id&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Drop METADATA the metadata.json is a mandatory convention now.&lt;/li&gt;
+      &lt;li&gt;Drop TS_FILES. Autosource from ‘i18n’ dir given a naming convention.
+        &lt;plugin_id&gt;.ts and &lt;plugin_id&gt;_&lt;ui_language&gt;.ts
+&lt;/ui_language&gt;&lt;/plugin_id&gt;&lt;/plugin_id&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Add CMake option BUILD_PLUGINS&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;General
+    &lt;ul&gt;
+      &lt;li&gt;Move Q_OBJECT into ALBERT_PLUGIN macro&lt;/li&gt;
+      &lt;li&gt;Remove app functions from API&lt;/li&gt;
+      &lt;li&gt;Rename albert.h to util.h&lt;/li&gt;
+      &lt;li&gt;albert::networkManager -&amp;gt; albert::network&lt;/li&gt;
+      &lt;li&gt;Add convenience classes for plugin interdependencies&lt;/li&gt;
+      &lt;li&gt;Allow RankItems to be created using a Match&lt;/li&gt;
+      &lt;li&gt;Revert back to per plugin translations. Plugins shall be self contained modules and in principle be packageable in a separate package.&lt;/li&gt;
+      &lt;li&gt;Let QtPluginLoader automatically load translations if available.&lt;/li&gt;
+      &lt;li&gt;Add finished and total count to translations metadata&lt;/li&gt;
+      &lt;li&gt;User per target compile options&lt;/li&gt;
+      &lt;li&gt;Add havePasteSupport()&lt;/li&gt;
+      &lt;li&gt;Remove openIssueTracker from interface&lt;/li&gt;
+      &lt;li&gt;Separate and improve ALBERT_PLUGIN_PROPERTY macros
+        &lt;ul&gt;
+          &lt;li&gt;ALBERT_PROPERTY_GETSET&lt;/li&gt;
+          &lt;li&gt;ALBERT_PLUGIN_PROPERTY_GETSET&lt;/li&gt;
+          &lt;li&gt;ALBERT_PROPERTY_CONNECT_SPINBOX&lt;/li&gt;
+          &lt;li&gt;Add param in property changed signal&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;PluginInstance
+    &lt;ul&gt;
+      &lt;li&gt;Add {cache,config,data}Location. Checks are up to the clients.&lt;/li&gt;
+      &lt;li&gt;Add createOrThrow as a utility function for the above functions.&lt;/li&gt;
+      &lt;li&gt;Add weak refs for PluginLoader and ExtensionRegistry&lt;/li&gt;
+      &lt;li&gt;Drop convenience functinos like id, name, description.&lt;/li&gt;
+      &lt;li&gt;Drop initialize/finalize&lt;/li&gt;
+      &lt;li&gt;Registering extensions can fail&lt;/li&gt;
+      &lt;li&gt;Auto register root extensions&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Changes to icon provider API
+    &lt;ul&gt;
+      &lt;li&gt;Add QIcon support&lt;/li&gt;
+      &lt;li&gt;Make it free functions&lt;/li&gt;
+      &lt;li&gt;Remove caching&lt;/li&gt;
+      &lt;li&gt;Returned size can be smaller than requestedSize, but is never larger.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Query, engine and handlers
+    &lt;ul&gt;
+      &lt;li&gt;Handle handler configuration in core (trigger, fuzzy, enabled).
+Remove the getters, have only setters to update plugins.
+        &lt;ul&gt;
+          &lt;li&gt;Add TriggerQueryHandler::setUserTrigger&lt;/li&gt;
+          &lt;li&gt;Remove TriggerQueryHandler::trigger()&lt;/li&gt;
+          &lt;li&gt;Remove TriggerQueryHandler::fuzzyMatching()&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Do not allow users to disable triggered query handlers.
+This may end up in states where plugins are loaded but actually not used.
+Also some handlers may rely on them to be there, like e.g. the files global
+handler redirects tabs to the triggered handlers.&lt;/li&gt;
+      &lt;li&gt;Remove const from handleTriggerQuery&lt;/li&gt;
+      &lt;li&gt;Support ignore diacritics&lt;/li&gt;
+      &lt;li&gt;Support ignore word order&lt;/li&gt;
+      &lt;li&gt;Make Query contextually convertible to QString&lt;/li&gt;
+      &lt;li&gt;Unify query interface, no more global- and triggerquery&lt;/li&gt;
+      &lt;li&gt;Add parameterizable Matcher/Match class&lt;/li&gt;
+      &lt;li&gt;Add dedicated empty query handling
+Empty patterns should match everything. For global queries thats too
+much. For triggered queries it is desired though. Since a lot of global
+query handlers relay the handleTriggerQuery to handleGlobalQuery it is
+not possible to have both. This introduces a dedicated function for
+GlobalQueryHandlers that will be called on empty queries:&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;[plugins]&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;All plugins: Minor fixes and port to API 0.24&lt;/li&gt;
+  &lt;li&gt;[widgetsboxmodel:7.4] Use QWindow::startSystemMove instead QWidget:move for Wayland Support&lt;/li&gt;
+  &lt;li&gt;[websearch:9.0] 0.24
+    &lt;ul&gt;
+      &lt;li&gt;Add fallback option&lt;/li&gt;
+      &lt;li&gt;Add GPT to default engines&lt;/li&gt;
+      &lt;li&gt;Add fallback section.&lt;/li&gt;
+      &lt;li&gt;Allow inline editing of fallback and trigger withough using the search engine widget.&lt;/li&gt;
+      &lt;li&gt;Use matcher for more tolerant queries&lt;/li&gt;
+      &lt;li&gt;Complete to trigger instead of name&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;[timezones:1.0]&lt;/li&gt;
+  &lt;li&gt;[timer:1.0]&lt;/li&gt;
+  &lt;li&gt;[telegram] Archive failed telegram quick access approach&lt;/li&gt;
+  &lt;li&gt;[path] Rename from ‘terminal’&lt;/li&gt;
+  &lt;li&gt;[system:9.1] System commands update for KDE Plasma 6&lt;/li&gt;
+  &lt;li&gt;[ssh:8.3] Allow params only in triggered handler&lt;/li&gt;
+  &lt;li&gt;[sparkle] Archive for now&lt;/li&gt;
+  &lt;li&gt;[snippets:5.2] Check if paste is supported at all&lt;/li&gt;
+  &lt;li&gt;[qmlboxmodel] Port&lt;/li&gt;
+  &lt;li&gt;[python:4.3]
+    &lt;ul&gt;
+      &lt;li&gt;Namespace plugin id&lt;/li&gt;
+      &lt;li&gt;Compensate the API changes gracefully to defer a breaking API change&lt;/li&gt;
+      &lt;li&gt;Ship stub file with the plugin&lt;/li&gt;
+      &lt;li&gt;Add buttons for stubfile and user plugin dir&lt;/li&gt;
+      &lt;li&gt;API 2.3
+        &lt;ul&gt;
+          &lt;li&gt;Deprecate obscure module attached md_id. Use PluginInstance.id.&lt;/li&gt;
+          &lt;li&gt;Expose function albert.havePasteSupport&lt;/li&gt;
+          &lt;li&gt;Expose class albert.Matcher&lt;/li&gt;
+          &lt;li&gt;Expose class albert.Match&lt;/li&gt;
+          &lt;li&gt;Expose method albert.TQH.handleTriggerQuery&lt;/li&gt;
+          &lt;li&gt;Expose method albert.GQH.handleGlobalQuery&lt;/li&gt;
+          &lt;li&gt;albert.PluginInstance:
+            &lt;ul&gt;
+              &lt;li&gt;Add read only property id&lt;/li&gt;
+              &lt;li&gt;Add read only property name&lt;/li&gt;
+              &lt;li&gt;Add read only property description&lt;/li&gt;
+              &lt;li&gt;Add instance method registerExtension(…)&lt;/li&gt;
+              &lt;li&gt;Add instance method deregisterExtension(…)&lt;/li&gt;
+              &lt;li&gt;Deprecate initialize(…). Use &lt;strong&gt;init&lt;/strong&gt;(…).&lt;/li&gt;
+              &lt;li&gt;Deprecate finalize(…). Use &lt;strong&gt;del&lt;/strong&gt;(…).&lt;/li&gt;
+              &lt;li&gt;Deprecate &lt;strong&gt;init&lt;/strong&gt; extensions parameter. Use (de)registerExtension(…).&lt;/li&gt;
+              &lt;li&gt;Auto(de)register plugin extension. (if isinstance(Plugin, Extension))&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+          &lt;li&gt;albert.Notification:
+            &lt;ul&gt;
+              &lt;li&gt;Add property title&lt;/li&gt;
+              &lt;li&gt;Add property text&lt;/li&gt;
+              &lt;li&gt;Add instance method send()&lt;/li&gt;
+              &lt;li&gt;Add instance method dismiss()&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+          &lt;li&gt;Minor breaking change that is probably not even in use:
+  Notification does not display unless send(…) has been called&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;[mpris:3.1] Rewrite using xml interface files&lt;/li&gt;
+  &lt;li&gt;[exprtk] Archive exprtk prototype&lt;/li&gt;
+  &lt;li&gt;[docs:6.4] Fix XML based docs.&lt;/li&gt;
+  &lt;li&gt;[docs:6.3] Do not upscale icons&lt;/li&gt;
+  &lt;li&gt;[docs:6.2] Fix leak on plugin unloading&lt;/li&gt;
+  &lt;li&gt;[dictionary:3.1] Drop resources, use Dictionary.app icon&lt;/li&gt;
+  &lt;li&gt;[datetime:5.1] Separate timetzonehandler&lt;/li&gt;
+  &lt;li&gt;[datetime:5.0] Add “show_date_on_empty_query” option&lt;/li&gt;
+  &lt;li&gt;[clipboard:3.1]
+    &lt;ul&gt;
+      &lt;li&gt;Check if paste is supported at all&lt;/li&gt;
+      &lt;li&gt;Use albert::WeakDependency&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;[chromium:7.0]
+    &lt;ul&gt;
+      &lt;li&gt;Add completion&lt;/li&gt;
+      &lt;li&gt;Display bookmark folder&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;[bluetooth:1.0] New extension on macos
+    &lt;ul&gt;
+      &lt;li&gt;Enable disable Bluetooth&lt;/li&gt;
+      &lt;li&gt;Connect to paired devices&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;[applications:11.0] Add non localized option on macos&lt;/li&gt;
+  &lt;li&gt;[applications:10.0]
+    &lt;ul&gt;
+      &lt;li&gt;Merge applications_macos and applications_xdg&lt;/li&gt;
+      &lt;li&gt;Add completion&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;[python]&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;All plugins: Minor fixes and port to API 2.3&lt;/li&gt;
+  &lt;li&gt;[zeal:2.0] Add fallback extension&lt;/li&gt;
+  &lt;li&gt;[wikipedia:2.0] Add fuzzy search support&lt;/li&gt;
+  &lt;li&gt;[tr:1.6] Check paste support&lt;/li&gt;
+  &lt;li&gt;[timer] Move to archive&lt;/li&gt;
+  &lt;li&gt;[syncthing:1.0] Initial prototype&lt;/li&gt;
+  &lt;li&gt;[goldendict:1.4] Support flatpaks and goldendict-ng&lt;/li&gt;
+  &lt;li&gt;[emoji:2.2] Check paste support&lt;/li&gt;
+  &lt;li&gt;Remove albert.pyi
+Ship, install and update with plugin.
+Add python stubfile to ignore files&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Check the &lt;a href=&quot;https://github.com/albertlauncher/albert/commits/v0.24.0&quot;&gt;GitHub repositories&lt;/a&gt; for details.&lt;/p&gt;
+</description>
+          <pubDate>2024-06-28T03:32:00+00:00</pubDate>
+          <link>https://albertlauncher.github.io/2024/06/28/albert-v0.24.0-released/</link>
+          <guid isPermaLink="true">https://albertlauncher.github.io/2024/06/28/albert-v0.24.0-released/</guid>
+        </item>
+      
+    
+      
+        <item>
+          <title>GPG error: Signatures invalid: EXPKEYSIG</title>
+          <description>&lt;h1 id=&quot;gpg-error-signatures-invalid-expkeysig&quot;&gt;GPG error: Signatures invalid: EXPKEYSIG&lt;/h1&gt;
+
+&lt;p&gt;&lt;em&gt;tl;dr&lt;/em&gt; (But keep in mind that that the key will expire again in future)&lt;/p&gt;
+
+&lt;div class=&quot;language-sh highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;curl &lt;span class=&quot;nt&quot;&gt;-fsSL&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;https://build.opensuse.org/projects/home:manuelschneid3r/signing_keys/download?kind=gpg&quot;&lt;/span&gt; | gpg &lt;span class=&quot;nt&quot;&gt;--dearmor&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; /etc/apt/trusted.gpg.d/home_manuelschneid3r.gpg
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;If you have Albert installed and recently tried to update your system you probably ran into this error:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;# apt update
+Hit:1 http://ports.ubuntu.com/ubuntu-ports jammy InRelease
+Get:2 http://download.opensuse.org/repositories/home:/manuelschneid3r/xUbuntu_22.10  InRelease [1557 B]
+Hit:3 http://ports.ubuntu.com/ubuntu-ports jammy-updates InRelease
+Hit:4 http://ports.ubuntu.com/ubuntu-ports jammy-backports InRelease
+Hit:5 http://ports.ubuntu.com/ubuntu-ports jammy-security InRelease
+Err:2 http://download.opensuse.org/repositories/home:/manuelschneid3r/xUbuntu_22.10  InRelease
+  The following signatures were invalid: EXPKEYSIG 1488EB46E192A257 home:manuelschneid3r OBS Project &amp;lt;home:manuelschneid3r@build.opensuse.org&amp;gt;
+Reading package lists... Done
+W: GPG error: http://download.opensuse.org/repositories/home:/manuelschneid3r/xUbuntu_22.10  InRelease: The following signatures were invalid: EXPKEYSIG 1488EB46E192A257 home:manuelschneid3r OBS Project &amp;lt;home:manuelschneid3r@build.opensuse.org&amp;gt;
+E: The repository &apos;http://download.opensuse.org/repositories/home:/manuelschneid3r/xUbuntu_22.10  InRelease&apos; is not signed.
+N: Updating from such a repository can&apos;t be done securely, and is therefore disabled by default.
+N: See apt-secure(8) manpage for repository creation and user configuration details.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;The per repository key of most repos expired recently:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;# curl -fsSL &quot;https://download.opensuse.org/repositories/home:manuelschneid3r/xUbuntu_22.04/Release.key&quot; | gpg --dearmor | gpg --show-keys
+pub   rsa2048 2017-10-27 [SC] [expired: 2024-04-29]
+      A4B83CD05FDF5C5178482D4A1488EB46E192A257
+uid                      home:manuelschneid3r OBS Project &amp;lt;home:manuelschneid3r@build.opensuse.org&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Open Build Service updates this key only on publish and only if the key is expired.
+That’s unfortunate because a relase would have to be published as soon as the key expires and users would have to manually add the new key.
+One solution would be to ship a dedicated package containing an up to date key.
+However that’s quite some maintenance work.
+Fortunately the guys at OBS offered an alternative solution.
+Expiry dates of keys are &lt;a href=&quot;https://github.com/openSUSE/open-build-service/pull/16082&quot;&gt;soon&lt;/a&gt; user configurable.
+Setting the expiry date to some more years than the default two years will make this less of a problem since most users will have set up a new OS by then anyway.
+Until the mentioned PR has been merged and the key is still valid for around two years only users of the affected distributions have to run the command above to update the key.
+Everything should be fine until 2026-07-11 then.&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;# curl -fsSL &quot;https://build.opensuse.org/projects/home:manuelschneid3r/signing_keys/download?kind=gpg&quot; | gpg --dearmor | gpg --show-keys
+pub   rsa2048 2017-10-27 [SC] [expires: 2026-07-11]
+      A4B83CD05FDF5C5178482D4A1488EB46E192A257
+uid                      home:manuelschneid3r OBS Project &amp;lt;home:manuelschneid3r@build.opensuse.org&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+</description>
+          <pubDate>2024-05-02T18:00:00+00:00</pubDate>
+          <link>https://albertlauncher.github.io/2024/05/02/EXPKEYSIG/</link>
+          <guid isPermaLink="true">https://albertlauncher.github.io/2024/05/02/EXPKEYSIG/</guid>
+        </item>
+      
+    
+      
+        <item>
+          <title>Albert v0.23.0 released</title>
+          <description>&lt;h1 id=&quot;albert-v0230-released&quot;&gt;Albert v0.23.0 released&lt;/h1&gt;
+
+&lt;p&gt;[albert]&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;i18n&lt;/li&gt;
+  &lt;li&gt;Make fallback order settable in new query tab.&lt;/li&gt;
+  &lt;li&gt;Load native plugins threaded.&lt;/li&gt;
+  &lt;li&gt;Add –no-load cli param&lt;/li&gt;
+  &lt;li&gt;Use hashmap and avoid exceptions. Twice as fast 🚀&lt;/li&gt;
+  &lt;li&gt;Add german translation&lt;/li&gt;
+  &lt;li&gt;Make “Show settings” action the default for plugin items&lt;/li&gt;
+  &lt;li&gt;[API:v0.23]
+    &lt;ul&gt;
+      &lt;li&gt;Change frontend interface design&lt;/li&gt;
+      &lt;li&gt;drop extensions() from PluginInstance interface.
+Extensions can now bei registered dynamically at any time.&lt;/li&gt;
+      &lt;li&gt;Reduce the plugin system interfaces to the bare minimum&lt;/li&gt;
+      &lt;li&gt;Allow hard plugin dependencies.&lt;/li&gt;
+      &lt;li&gt;Private destructors for interfaces&lt;/li&gt;
+      &lt;li&gt;Refactoring
+        &lt;ul&gt;
+          &lt;li&gt;ExtensionRegistry add &amp;gt; registerExtension&lt;/li&gt;
+          &lt;li&gt;ExtensionRegistry remove &amp;gt; deregisterExtension&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Make UI strings in the metadata required.&lt;/li&gt;
+      &lt;li&gt;Allow plugins to have public interfaces&lt;/li&gt;
+      &lt;li&gt;Revert to authors. Drop maintainers. (plugin metadata)&lt;/li&gt;
+      &lt;li&gt;Remove polymorphism in PluginInstance id/name/description&lt;/li&gt;
+      &lt;li&gt;Remove dynamic allocation of cache/config/dataDir()&lt;/li&gt;
+      &lt;li&gt;Drop template parameter QOBJECT&lt;/li&gt;
+      &lt;li&gt;Frontend is not an extension&lt;/li&gt;
+      &lt;li&gt;Support localized metadata&lt;/li&gt;
+      &lt;li&gt;CMake interface
+        &lt;ul&gt;
+          &lt;li&gt;Drop long_description from metadata&lt;/li&gt;
+          &lt;li&gt;Add TS_FILES parameter to albert_plugin macro.&lt;/li&gt;
+          &lt;li&gt;Revert back to json metadata file again&lt;/li&gt;
+          &lt;li&gt;Complete metadata using cmake project details&lt;/li&gt;
+          &lt;li&gt;Move Qt::Widgets into the public link interface&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;[plugins]&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Support i18n&lt;/li&gt;
+  &lt;li&gt;[python:4.2] Open external links in config labels by default&lt;/li&gt;
+  &lt;li&gt;[widgetsboxmodel:7.1] Fix animation on linux&lt;/li&gt;
+  &lt;li&gt;[qmlboxmodel] archive wip&lt;/li&gt;
+  &lt;li&gt;[widgetsboxmodel:7.0]
+    &lt;ul&gt;
+      &lt;li&gt;Dark theme support&lt;/li&gt;
+      &lt;li&gt;Themes update&lt;/li&gt;
+      &lt;li&gt;Reproducible style (fusion)&lt;/li&gt;
+      &lt;li&gt;Fix history search&lt;/li&gt;
+      &lt;li&gt;Move persistent window position to state&lt;/li&gt;
+      &lt;li&gt;Clear icon cache on hide&lt;/li&gt;
+      &lt;li&gt;Archive unlicensed themes&lt;/li&gt;
+      &lt;li&gt;Remove “Show fallbacks on empty result” option&lt;/li&gt;
+      &lt;li&gt;Drop fonts from themes&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;[websearch:8.0]
+    &lt;ul&gt;
+      &lt;li&gt;Capital You_T_ube&lt;/li&gt;
+      &lt;li&gt;Add Google translate default engine&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;[ssh:8.0]
+    &lt;ul&gt;
+      &lt;li&gt;Reduce complexity of this overengineered plugin
+        &lt;ul&gt;
+          &lt;li&gt;Remove quick connect&lt;/li&gt;
+          &lt;li&gt;Remove known hosts&lt;/li&gt;
+          &lt;li&gt;Remove file watchers (configs change not that often)&lt;/li&gt;
+          &lt;li&gt;remove indexer mutexes&lt;/li&gt;
+          &lt;li&gt;remove fuzzy index&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;[snippets:5.0]
+    &lt;ul&gt;
+      &lt;li&gt;Public extension interface “Add snippet”&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;[qmlboxmodel:3.0]&lt;/li&gt;
+  &lt;li&gt;Archived&lt;/li&gt;
+  &lt;li&gt;[python:4.0]
+    &lt;ul&gt;
+      &lt;li&gt;Drop source watches. a plugin provider cant just reload without notifying the plugin registry&lt;/li&gt;
+      &lt;li&gt;API 2.2
+        &lt;ul&gt;
+          &lt;li&gt;PluginInstance.configWidget supports ‘label’&lt;/li&gt;
+          &lt;li&gt;&lt;strong&gt;doc&lt;/strong&gt; is not used anymore, since 0.23 drops long_description metadata&lt;/li&gt;
+          &lt;li&gt;md_maintainers not used anymore&lt;/li&gt;
+          &lt;li&gt;md_authors new optional field&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;[dictionary:3.0] Former platform_services
+    &lt;ul&gt;
+      &lt;li&gt;Rename plugin platform services to dict&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;[clipboard:3.0]
+    &lt;ul&gt;
+      &lt;li&gt;use snippets interface&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;[applications_macos:5.0]
+    &lt;ul&gt;
+      &lt;li&gt;Use KVO to track NSQuery results&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;[python]&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Reinstate proper licensing&lt;/li&gt;
+  &lt;li&gt;[virtualbox:1.6] Add info on vboxapi requirement&lt;/li&gt;
+  &lt;li&gt;[docker:2.0] Show error on conn failure.&lt;/li&gt;
+  &lt;li&gt;[pomodoro:1.5] Fix notifications&lt;/li&gt;
+  &lt;li&gt;[pyi] v2.2&lt;/li&gt;
+  &lt;li&gt;[inhibit_sleep:1.0] Similar to caffeine, theine, amphetamine etc…&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Check the &lt;a href=&quot;https://github.com/albertlauncher/albert/commits/v0.23.0&quot;&gt;GitHub repositories&lt;/a&gt; for details.&lt;/p&gt;
+</description>
+          <pubDate>2024-03-03T08:54:00+00:00</pubDate>
+          <link>https://albertlauncher.github.io/2024/03/03/albert-v0.23.0-released/</link>
+          <guid isPermaLink="true">https://albertlauncher.github.io/2024/03/03/albert-v0.23.0-released/</guid>
+        </item>
+      
+    
+      
+        <item>
+          <title>Albert v0.22.17 released</title>
+          <description>&lt;h1 id=&quot;albert-v02217-released&quot;&gt;Albert v0.22.17 released&lt;/h1&gt;
+
+&lt;p&gt;[albert]&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Prepend albert to logging categories, default filter debug&lt;/li&gt;
+  &lt;li&gt;Remove logging rules cli arguments
+Dont work on some systems and there is QT_LOGGING_RULES for it&lt;/li&gt;
+  &lt;li&gt;Differentiate terminator terminals suffering bug 660&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;[plugins]&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;[mpris:2.0] Ported&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Check the &lt;a href=&quot;https://github.com/albertlauncher/albert/commits/v0.22.17&quot;&gt;GitHub repositories&lt;/a&gt; for details.&lt;/p&gt;
+</description>
+          <pubDate>2023-11-26T02:34:00+00:00</pubDate>
+          <link>https://albertlauncher.github.io/2023/11/26/albert-v0.22.17-released/</link>
+          <guid isPermaLink="true">https://albertlauncher.github.io/2023/11/26/albert-v0.22.17-released/</guid>
+        </item>
+      
+    
+      
+        <item>
+          <title>Albert v0.22.16 released</title>
+          <description>&lt;h1 id=&quot;albert-v02216-released&quot;&gt;Albert v0.22.16 released&lt;/h1&gt;
+
+&lt;p&gt;[albert]&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Remove the visual warning on crashes.
+This ICE error bug is going to stay around for a while.&lt;/li&gt;
+  &lt;li&gt;Remove autostart option
+This is a feature unnecessary complicated to maintain and perfectly fine
+to delegate entirely to the desktop environment.&lt;/li&gt;
+  &lt;li&gt;Add “report” RPC
+To get the ability to fetch report from the running instance.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;[plugins]&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;[python:2.1.0]
+Make plugin major.minor the interface version
+Improve UX while installing dependencies&lt;/li&gt;
+  &lt;li&gt;[calc:1.4] Threadsafe and aborting calculations
+libcalculate does not mention any thread safety. lock it.
+Use async calculate(…) function and poll query validity to abort
+unnecessary calculations. This does not only save resources, but is
+also required such that the locks above dont introduce stuttering.&lt;/li&gt;
+  &lt;li&gt;[system:1.8] Dont prompt on gnome session logout&lt;/li&gt;
+  &lt;li&gt;[app_xdg:1.8] Use Ubuntu gettext domains&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;[python]&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;[bitwarden] 2.0
+Add copy-username action&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Check the &lt;a href=&quot;https://github.com/albertlauncher/albert/commits/v0.22.16&quot;&gt;GitHub repositories&lt;/a&gt; for details.&lt;/p&gt;
+</description>
+          <pubDate>2023-11-18T21:48:00+00:00</pubDate>
+          <link>https://albertlauncher.github.io/2023/11/18/albert-v0.22.16-released/</link>
+          <guid isPermaLink="true">https://albertlauncher.github.io/2023/11/18/albert-v0.22.16-released/</guid>
+        </item>
+      
+    
+      
+        <item>
+          <title>Albert v0.22.15 released</title>
+          <description>&lt;h1 id=&quot;albert-v02215-released&quot;&gt;Albert v0.22.15 released&lt;/h1&gt;
+
+&lt;p&gt;[albert]&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Fix missing smooth transform in icon provider&lt;/li&gt;
+  &lt;li&gt;Add style information to report&lt;/li&gt;
+  &lt;li&gt;Use X-GNOME-Autostart-Delay&lt;/li&gt;
+  &lt;li&gt;Add proper unix signal handling using self pipe trick&lt;/li&gt;
+  &lt;li&gt;Revert printing to logfile&lt;/li&gt;
+  &lt;li&gt;Give enough time to connect to other instance.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;[plugins]&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;[system:1.8] Dont prompt on gnome session logout&lt;/li&gt;
+  &lt;li&gt;[wbm:1.6] Remove unnecessary cast that may introduce segfaults&lt;/li&gt;
+  &lt;li&gt;[app_xdg:1.8] Use Ubuntu gettext domains&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;[python]&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;[stub] Fix links&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Check the &lt;a href=&quot;https://github.com/albertlauncher/albert/commits/v0.22.15&quot;&gt;GitHub repositories&lt;/a&gt; for details.&lt;/p&gt;
+</description>
+          <pubDate>2023-11-08T09:31:00+00:00</pubDate>
+          <link>https://albertlauncher.github.io/2023/11/08/albert-v0.22.15-released/</link>
+          <guid isPermaLink="true">https://albertlauncher.github.io/2023/11/08/albert-v0.22.15-released/</guid>
+        </item>
+      
+    
+      
+        <item>
+          <title>Albert v0.22.14 released</title>
+          <description>&lt;h1 id=&quot;albert-v02214-released&quot;&gt;Albert v0.22.14 released&lt;/h1&gt;
+
+&lt;p&gt;[albert]&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Let RPCServer take care of crash reports. This is a hotfix to remove the recurring crash report on start, if the app is run more than once, e.g. because the session manager restores a session including albert, but albert is also configured to be autostarted.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Check the &lt;a href=&quot;https://github.com/albertlauncher/albert/commits/v0.22.14&quot;&gt;GitHub repositories&lt;/a&gt; for details.&lt;/p&gt;
+</description>
+          <pubDate>2023-10-06T12:36:00+00:00</pubDate>
+          <link>https://albertlauncher.github.io/2023/10/06/albert-v0.22.14-released/</link>
+          <guid isPermaLink="true">https://albertlauncher.github.io/2023/10/06/albert-v0.22.14-released/</guid>
+        </item>
+      
+    
+      
+        <item>
+          <title>Albert v0.22.13 released</title>
+          <description>&lt;h1 id=&quot;albert-v02213-released&quot;&gt;Albert v0.22.13 released&lt;/h1&gt;
+
+&lt;p&gt;[albert]&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Hotfix create missing application paths&lt;/li&gt;
+  &lt;li&gt;Fix pixmaps path&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;[plugins]&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;[qml] Fix version branching logic&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Check the &lt;a href=&quot;https://github.com/albertlauncher/albert/commits/v0.22.13&quot;&gt;GitHub repositories&lt;/a&gt; for details.&lt;/p&gt;
+</description>
+          <pubDate>2023-10-05T11:12:00+00:00</pubDate>
+          <link>https://albertlauncher.github.io/2023/10/05/albert-v0.22.13-released/</link>
+          <guid isPermaLink="true">https://albertlauncher.github.io/2023/10/05/albert-v0.22.13-released/</guid>
+        </item>
+      
+    
+      
+        <item>
+          <title>Albert v0.22.12 released</title>
+          <description>&lt;h1 id=&quot;albert-v02212-released&quot;&gt;Albert v0.22.12 released&lt;/h1&gt;
+
+&lt;p&gt;[albert]&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;CI/CD: Fix path in sed expression&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;[plugins]&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;[sparkle] Add macos updater plugin prototype&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;[python]&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;[jetbrains] Add RustRover editor&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Check the &lt;a href=&quot;https://github.com/albertlauncher/albert/commits/v0.22.12&quot;&gt;GitHub repositories&lt;/a&gt; for details.&lt;/p&gt;
+</description>
+          <pubDate>2023-10-03T22:26:00+00:00</pubDate>
+          <link>https://albertlauncher.github.io/2023/10/03/albert-v0.22.12-released/</link>
+          <guid isPermaLink="true">https://albertlauncher.github.io/2023/10/03/albert-v0.22.12-released/</guid>
+        </item>
+      
+    
+      
+        <item>
+          <title>Albert v0.22.11 released</title>
+          <description>&lt;h1 id=&quot;albert-v02211-released&quot;&gt;Albert v0.22.11 released&lt;/h1&gt;
+
+&lt;p&gt;[albert]&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Add missing “-executable=” for macdeployqt plugin parameters&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;[plugins]&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;[py] Hotfix: Workaround https://bugreports.qt.io/browse/QTBUG-117153&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Check the &lt;a href=&quot;https://github.com/albertlauncher/albert/commits/v0.22.11&quot;&gt;GitHub repositories&lt;/a&gt; for details.&lt;/p&gt;
+</description>
+          <pubDate>2023-10-03T12:00:00+00:00</pubDate>
+          <link>https://albertlauncher.github.io/2023/10/03/albert-v0.22.11-released/</link>
+          <guid isPermaLink="true">https://albertlauncher.github.io/2023/10/03/albert-v0.22.11-released/</guid>
+        </item>
+      
+    
+      
+        <item>
+          <title>Albert v0.22.10 released</title>
+          <description>&lt;h1 id=&quot;albert-v02210-released&quot;&gt;Albert v0.22.10 released&lt;/h1&gt;
+
+&lt;p&gt;[albert]&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;CI/CD: Appcast prototype&lt;/li&gt;
+  &lt;li&gt;Store log in cache dir&lt;/li&gt;
+  &lt;li&gt;Add loadtype NOUNLOAD
+There are some plugins that dont like to be unloaded (Sparkle, Python).
+Add a mechanism to let plugins prohibit users to unload it at runtime.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;[plugins]&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;[py] Fix 6.5.2 only QLogCat quirks. Fixes arch builds&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Check the &lt;a href=&quot;https://github.com/albertlauncher/albert/commits/v0.22.10&quot;&gt;GitHub repositories&lt;/a&gt; for details.&lt;/p&gt;
+</description>
+          <pubDate>2023-10-03T09:12:00+00:00</pubDate>
+          <link>https://albertlauncher.github.io/2023/10/03/albert-v0.22.10-released/</link>
+          <guid isPermaLink="true">https://albertlauncher.github.io/2023/10/03/albert-v0.22.10-released/</guid>
+        </item>
+      
+    
+      
+        <item>
+          <title>Albert v0.22.9 released</title>
+          <description>&lt;h1 id=&quot;albert-v0229-released&quot;&gt;Albert v0.22.9 released&lt;/h1&gt;
+
+&lt;p&gt;[albert]&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;CD: upload on tag&lt;/li&gt;
+  &lt;li&gt;Revert. NO_SONAME makes troubles on other platforms.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Check the &lt;a href=&quot;https://github.com/albertlauncher/albert/commits/v0.22.9&quot;&gt;GitHub repositories&lt;/a&gt; for details.&lt;/p&gt;
+</description>
+          <pubDate>2023-09-28T15:54:00+00:00</pubDate>
+          <link>https://albertlauncher.github.io/2023/09/28/albert-v0.22.9-released/</link>
+          <guid isPermaLink="true">https://albertlauncher.github.io/2023/09/28/albert-v0.22.9-released/</guid>
+        </item>
+      
+    
+      
+        <item>
+          <title>Albert v0.22.8 released</title>
+          <description>&lt;h1 id=&quot;albert-v0228-released&quot;&gt;Albert v0.22.8 released&lt;/h1&gt;
+
+&lt;p&gt;[albert]&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Hotfix fixing RPM based builds&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Check the &lt;a href=&quot;https://github.com/albertlauncher/albert/commits/v0.22.8&quot;&gt;GitHub repositories&lt;/a&gt; for details.&lt;/p&gt;
+</description>
+          <pubDate>2023-09-28T10:08:00+00:00</pubDate>
+          <link>https://albertlauncher.github.io/2023/09/28/albert-v0.22.8-released/</link>
+          <guid isPermaLink="true">https://albertlauncher.github.io/2023/09/28/albert-v0.22.8-released/</guid>
+        </item>
+      
+    
+      
+        <item>
+          <title>Albert v0.22.7 released</title>
+          <description>&lt;h1 id=&quot;albert-v0227-released&quot;&gt;Albert v0.22.7 released&lt;/h1&gt;
+
+&lt;p&gt;[albert]&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Restore 6.2 backward compatibility&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Check the &lt;a href=&quot;https://github.com/albertlauncher/albert/commits/v0.22.7&quot;&gt;GitHub repositories&lt;/a&gt; for details.&lt;/p&gt;
+</description>
+          <pubDate>2023-09-27T11:20:00+00:00</pubDate>
+          <link>https://albertlauncher.github.io/2023/09/27/albert-v0.22.7-released/</link>
+          <guid isPermaLink="true">https://albertlauncher.github.io/2023/09/27/albert-v0.22.7-released/</guid>
+        </item>
+      
+    
+      
+        <item>
+          <title>Albert v0.22.6 released</title>
+          <description>&lt;h1 id=&quot;albert-v0226-released&quot;&gt;Albert v0.22.6 released&lt;/h1&gt;
+
+&lt;p&gt;[albert]&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Proper tab navigation in handler widget&lt;/li&gt;
+  &lt;li&gt;NativePluginProvider: Use absolute file paths.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;[plugins]&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;[files] Fix “rel. dirpaths of depth 1 have dot prepended” issue&lt;/li&gt;
+  &lt;li&gt;[docs] Fix recent changes to download urls&lt;/li&gt;
+  &lt;li&gt;[qalc] Fix tab order&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Check the &lt;a href=&quot;https://github.com/albertlauncher/albert/commits/v0.22.6&quot;&gt;GitHub repositories&lt;/a&gt; for details.&lt;/p&gt;
+</description>
+          <pubDate>2023-09-26T14:18:00+00:00</pubDate>
+          <link>https://albertlauncher.github.io/2023/09/26/albert-v0.22.6-released/</link>
+          <guid isPermaLink="true">https://albertlauncher.github.io/2023/09/26/albert-v0.22.6-released/</guid>
+        </item>
+      
+    
+      
+        <item>
+          <title>Albert v0.22.5 released</title>
+          <description>&lt;h1 id=&quot;albert-v0225-released&quot;&gt;Albert v0.22.5 released&lt;/h1&gt;
+
+&lt;p&gt;[albert]&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;CMake: On macOS include the macports lookup path&lt;/li&gt;
+  &lt;li&gt;Fix segfaults on busywait&lt;/li&gt;
+  &lt;li&gt;Hardcode /usr/local/bin to PATH&lt;/li&gt;
+  &lt;li&gt;Move last report ts from settings to state&lt;/li&gt;
+  &lt;li&gt;Add iconlookup in /usr/local/share although not standardized&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;[plugins]&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;[qml] Add hack around lacking DropShadow.samples in Qt &amp;lt;6.4&lt;/li&gt;
+  &lt;li&gt;[apps_macos] v1.3
+    &lt;ul&gt;
+      &lt;li&gt;Find all apps in home dir&lt;/li&gt;
+      &lt;li&gt;Keep apps up to date unsing online search&lt;/li&gt;
+      &lt;li&gt;Localized app names&lt;/li&gt;
+      &lt;li&gt;Add prefpanes&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;[docs] Disable build on macOS. Licensing does not allow usage on macOS.&lt;/li&gt;
+  &lt;li&gt;[files] Add emtpy trash action on macos&lt;/li&gt;
+  &lt;li&gt;[muparser] Archive muparser. One calculator is enough.&lt;/li&gt;
+  &lt;li&gt;[qml] Fix shadow clipping&lt;/li&gt;
+  &lt;li&gt;[qml] Fix clear on hide breaking history search&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;[python]&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;[goldendict] Fix import issue&lt;/li&gt;
+  &lt;li&gt;[pass] Add OTP feature&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Check the &lt;a href=&quot;https://github.com/albertlauncher/albert/commits/v0.22.5&quot;&gt;GitHub repositories&lt;/a&gt; for details.&lt;/p&gt;
+</description>
+          <pubDate>2023-09-22T15:24:00+00:00</pubDate>
+          <link>https://albertlauncher.github.io/2023/09/22/albert-v0.22.5-released/</link>
+          <guid isPermaLink="true">https://albertlauncher.github.io/2023/09/22/albert-v0.22.5-released/</guid>
+        </item>
+      
+    
+      
+        <item>
+          <title>Albert v0.22.4 released</title>
+          <description>&lt;h1 id=&quot;albert-v0224-released&quot;&gt;Albert v0.22.4 released&lt;/h1&gt;
+
+&lt;p&gt;[plugins]&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;[docs] Add cache for docset list&lt;/li&gt;
+  &lt;li&gt;[docs] Use find_program to find brew for ootb cmake config&lt;/li&gt;
+  &lt;li&gt;[muparser] Use find_program to find brew for ootb cmake config&lt;/li&gt;
+  &lt;li&gt;[py] Silently skip dirs and files that are no python modules&lt;/li&gt;
+  &lt;li&gt;[py] iid v2.1: Add config facilities&lt;/li&gt;
+  &lt;li&gt;[qalcualte] Use find_program to find brew for ootb cmake config&lt;/li&gt;
+  &lt;li&gt;[qml] Add Cmd/Ctrl+Enter/Return to show actions&lt;/li&gt;
+  &lt;li&gt;[snippets] Port old snippets&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;[python]&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;[googletrans] Archive. py-googletrans is broken.&lt;/li&gt;
+  &lt;li&gt;[translators] Add “translators” plugin&lt;/li&gt;
+  &lt;li&gt;[emoji] Add “Use derived emojis” option&lt;/li&gt;
+  &lt;li&gt;[dice_roll] iid 2.0&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Check the &lt;a href=&quot;https://github.com/albertlauncher/albert/commits/v0.22.4&quot;&gt;GitHub repositories&lt;/a&gt; for details.&lt;/p&gt;
+</description>
+          <pubDate>2023-08-30T12:00:00+00:00</pubDate>
+          <link>https://albertlauncher.github.io/2023/08/30/albert-v0.22.4-released/</link>
+          <guid isPermaLink="true">https://albertlauncher.github.io/2023/08/30/albert-v0.22.4-released/</guid>
+        </item>
+      
+    
+      
+        <item>
+          <title>Albert v0.22.3 released</title>
+          <description>&lt;h1 id=&quot;albert-v0223-released&quot;&gt;Albert v0.22.3 released&lt;/h1&gt;
+
+&lt;p&gt;[albert]&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Dont show version notification before app is fully initialized&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Check the &lt;a href=&quot;https://github.com/albertlauncher/albert/commits/v0.22.3&quot;&gt;GitHub repositories&lt;/a&gt; for details.&lt;/p&gt;
+</description>
+          <pubDate>2023-08-17T01:20:00+00:00</pubDate>
+          <link>https://albertlauncher.github.io/2023/08/17/albert-v0.22.3-released/</link>
+          <guid isPermaLink="true">https://albertlauncher.github.io/2023/08/17/albert-v0.22.3-released/</guid>
+        </item>
+      
+    
+      
+        <item>
+          <title>Albert v0.22.2 released</title>
+          <description>&lt;h1 id=&quot;albert-v0222-released&quot;&gt;Albert v0.22.2 released&lt;/h1&gt;
+
+&lt;p&gt;[albert]&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Fix logging filters&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;[plugins]&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;[ws] Fix websearch breaking users search engines config&lt;/li&gt;
+  &lt;li&gt;[ws] Fix websearch not applying icon when selected from file dialog&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Check the &lt;a href=&quot;https://github.com/albertlauncher/albert/commits/v0.22.2&quot;&gt;GitHub repositories&lt;/a&gt; for details.&lt;/p&gt;
+</description>
+          <pubDate>2023-08-14T18:35:00+00:00</pubDate>
+          <link>https://albertlauncher.github.io/2023/08/14/albert-v0.22.2-released/</link>
+          <guid isPermaLink="true">https://albertlauncher.github.io/2023/08/14/albert-v0.22.2-released/</guid>
+        </item>
+      
+    
+      
+        <item>
+          <title>Albert v0.22.1 released</title>
+          <description>&lt;h1 id=&quot;albert-v0221-released&quot;&gt;Albert v0.22.1 released&lt;/h1&gt;
+
+&lt;p&gt;[albert]&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Freedesktop notification implementation&lt;/li&gt;
+  &lt;li&gt;Adopt generic Notification interface on macOS&lt;/li&gt;
+  &lt;li&gt;Fix Linux paste action&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;[plugins]&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;[apps_xdg] Default trigger “apps”&lt;/li&gt;
+  &lt;li&gt;[yp] Update notification function&lt;/li&gt;
+  &lt;li&gt;[py] Fix function warn &amp;gt; warning&lt;/li&gt;
+  &lt;li&gt;[clipboard] Add paste action&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;[python]&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;[pint,yt] Archived. Require maintenance&lt;/li&gt;
+  &lt;li&gt;[timer] Adopt notification api changes&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Check the &lt;a href=&quot;https://github.com/albertlauncher/albert/commits/v0.22.1&quot;&gt;GitHub repositories&lt;/a&gt; for details.&lt;/p&gt;
+</description>
+          <pubDate>2023-08-14T14:46:00+00:00</pubDate>
+          <link>https://albertlauncher.github.io/2023/08/14/albert-v0.22.1-released/</link>
+          <guid isPermaLink="true">https://albertlauncher.github.io/2023/08/14/albert-v0.22.1-released/</guid>
+        </item>
+      
+    
+      
+        <item>
+          <title>Albert v0.22.0 released</title>
+          <description>&lt;h1 id=&quot;albert-v0220-released&quot;&gt;Albert v0.22.0 released&lt;/h1&gt;
+
+&lt;h3 id=&quot;albert&quot;&gt;Albert&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Add commandline option for logging filter rules&lt;/li&gt;
+  &lt;li&gt;Add contour terminal&lt;/li&gt;
+  &lt;li&gt;Add settingswindow shortcut action for plugin settings&lt;/li&gt;
+  &lt;li&gt;Add feature copy and paste&lt;/li&gt;
+  &lt;li&gt;Add “Run empty query” option&lt;/li&gt;
+  &lt;li&gt;Add handler configurations tab&lt;/li&gt;
+  &lt;li&gt;Sort fallbacks&lt;/li&gt;
+  &lt;li&gt;LexSort items having equal score&lt;/li&gt;
+  &lt;li&gt;Doxygen documentation&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;API 0.22:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;TriggerQueryHandler
+    &lt;ul&gt;
+      &lt;li&gt;Add bool supportsFuzzyMatching()&lt;/li&gt;
+      &lt;li&gt;Add bool fuzzyMatchingEnabled()&lt;/li&gt;
+      &lt;li&gt;Add void setFuzzyMatchingEnabled(bool)&lt;/li&gt;
+      &lt;li&gt;Add QString trigger() (the user configured one)&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;GlobalQueryHandler
+    &lt;ul&gt;
+      &lt;li&gt;Add applyUsageScore(…).&lt;/li&gt;
+      &lt;li&gt;Inherit TQH, i.e. every handler is a TQH&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;IndexQueryHandler
+    &lt;ul&gt;
+      &lt;li&gt;Reimplement TQH fuzzy methods&lt;/li&gt;
+      &lt;li&gt;Default synopsis &lt;filter&gt;&lt;/filter&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Plugin system
+    &lt;ul&gt;
+      &lt;li&gt;Revert multithreaded plugin laoding (Qt makes problems everywhere)&lt;/li&gt;
+      &lt;li&gt;Statically inject metadata, use it for PluginInstances&lt;/li&gt;
+      &lt;li&gt;Move native plugin interface into plugin:: namespace&lt;/li&gt;
+      &lt;li&gt;Cache/Conf/Data dirs per plugin only (were per Extension)&lt;/li&gt;
+      &lt;li&gt;Add PluginInstance::extensions()&lt;/li&gt;
+      &lt;li&gt;Add Template based ExtensionPlugin(Instance)&lt;/li&gt;
+      &lt;li&gt;Make native plugin a template class to allow subclassing any QObject&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Frontend:
+    &lt;ul&gt;
+      &lt;li&gt;Add Frontend::winId, Move the window quirks to the core&lt;/li&gt;
+      &lt;li&gt;Use appwide input history file&lt;/li&gt;
+      &lt;li&gt;Add generic qml/widgets icon provider to interface&lt;/li&gt;
+      &lt;li&gt;Add generic icon provider, creating icons on the fly&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Fuctions and macros:
+    &lt;ul&gt;
+      &lt;li&gt;Put all free functions in albert.h&lt;/li&gt;
+      &lt;li&gt;Add openUrl QUrl overload&lt;/li&gt;
+      &lt;li&gt;Add convenience macros for user property definition&lt;/li&gt;
+      &lt;li&gt;Require albert logging category to pass the name&lt;/li&gt;
+      &lt;li&gt;Add state file&lt;/li&gt;
+      &lt;li&gt;Add global settings factory&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Rename History to InputHistory&lt;/li&gt;
+  &lt;li&gt;Drop QueryHandler convenience class&lt;/li&gt;
+  &lt;li&gt;Drop global albert.h include&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;plugins&quot;&gt;Plugins&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;[clipboard]
+    &lt;ul&gt;
+      &lt;li&gt;Add paste action&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;[wbm]
+    &lt;ul&gt;
+      &lt;li&gt;Remove option “display icon”&lt;/li&gt;
+      &lt;li&gt;Appwide input history&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;[websearch]
+    &lt;ul&gt;
+      &lt;li&gt;Adopt to sorted fallbacks, drop dragndrop in listview&lt;/li&gt;
+      &lt;li&gt;Add drag’n’drop image feature&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;[snippets]
+    &lt;ul&gt;
+      &lt;li&gt;Add paste action&lt;/li&gt;
+      &lt;li&gt;Snippets are now required to be txt files!&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;[qml:2.0] Revamped QML frontend&lt;/li&gt;
+  &lt;li&gt;[python]
+    &lt;ul&gt;
+      &lt;li&gt;Mimic internal api as close as possible&lt;/li&gt;
+      &lt;li&gt;Attach logging functions to plugin modules&lt;/li&gt;
+      &lt;li&gt;Expose albert::setClipboardTextAndPaste&lt;/li&gt;
+      &lt;li&gt;Expose albert::Notification&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;[files]
+    &lt;ul&gt;
+      &lt;li&gt;Show filePath instead path in subtext&lt;/li&gt;
+      &lt;li&gt;Add option for case sentivity of fs browsers.&lt;/li&gt;
+      &lt;li&gt;Add user property for inline config&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;python-plugins&quot;&gt;Python plugins&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Interface v2.0 stub&lt;/li&gt;
+  &lt;li&gt;[emoji] New generic and platform agnostic emoji implementation&lt;/li&gt;
+  &lt;li&gt;[duckduckgo] Add extension&lt;/li&gt;
+  &lt;li&gt;[color] Add extension&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;And loads of other changes…&lt;/p&gt;
+
+&lt;p&gt;Check the &lt;a href=&quot;https://github.com/albertlauncher/albert/commits/v0.22.0&quot;&gt;GitHub repositories&lt;/a&gt; for details.&lt;/p&gt;
+</description>
+          <pubDate>2023-08-12T22:43:00+00:00</pubDate>
+          <link>https://albertlauncher.github.io/2023/08/12/albert-v0.22.0-released/</link>
+          <guid isPermaLink="true">https://albertlauncher.github.io/2023/08/12/albert-v0.22.0-released/</guid>
+        </item>
+      
+    
+      
+        <item>
+          <title>Albert v0.21.1 released</title>
+          <description>&lt;h1 id=&quot;albert-v0211-released&quot;&gt;Albert v0.21.1 released&lt;/h1&gt;
+
+&lt;p&gt;[albert]&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Add cmd/ctrl + number tab navigation in settings&lt;/li&gt;
+  &lt;li&gt;Automatically add hpp and qml files to plugin projects&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;[plugins]&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;[docs:1.2] Polish. Fix #106&lt;/li&gt;
+  &lt;li&gt;Fix misleading comment in config widget&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;[python]&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;[stub] Add missing imports to stub file&lt;/li&gt;
+  &lt;li&gt;[tex_to_unicode] Fix crash due to wrong type annotation&lt;/li&gt;
+  &lt;li&gt;[emoji] Fix #179. Call cacheLocation as method of self.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Check the &lt;a href=&quot;https://github.com/albertlauncher/albert/commits/v0.21.1&quot;&gt;GitHub repositories&lt;/a&gt; for details.&lt;/p&gt;
+</description>
+          <pubDate>2023-06-27T12:41:00+00:00</pubDate>
+          <link>https://albertlauncher.github.io/2023/06/27/albert-v0.21.1-released/</link>
+          <guid isPermaLink="true">https://albertlauncher.github.io/2023/06/27/albert-v0.21.1-released/</guid>
+        </item>
+      
+    
+      
+        <item>
+          <title>Albert v0.21.0 released</title>
+          <description>&lt;h1 id=&quot;albert-v0210-released&quot;&gt;Albert v0.21.0 released&lt;/h1&gt;
+
+&lt;p&gt;[albert]&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;v0.21.0
+    &lt;ul&gt;
+      &lt;li&gt;Remove &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Item::hasActions&lt;/code&gt;&lt;/li&gt;
+      &lt;li&gt;Add global config, cache and data location functions&lt;/li&gt;
+      &lt;li&gt;Change &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;RankItem::score&lt;/code&gt; type to float &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;(0,1]&lt;/code&gt;&lt;/li&gt;
+      &lt;li&gt;Make queries pointers in handler functions&lt;/li&gt;
+      &lt;li&gt;Add function to get global network manager&lt;/li&gt;
+      &lt;li&gt;Use explicit named query handling methods (no parameter overloading) &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;handleTriggerQuery&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;handleGlobalQuery&lt;/code&gt;. This reduces confusion, avoids annoying extra boilerplate to disambiguate methods to avoid hide-virtual warnings and serves as a lowest common denominator on a language/naming level since these features may not be supported by script languages (e.g. Python).&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Settings window
+    &lt;ul&gt;
+      &lt;li&gt;Add a new search widget in settingswindow&lt;/li&gt;
+      &lt;li&gt;Make handlers of all types optionable&lt;/li&gt;
+      &lt;li&gt;Make window and search widgets tabs in the settings window&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Change usagedatabase location to datadir&lt;/li&gt;
+  &lt;li&gt;Change IPC socket path to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;$CACHEDIR/albert/ipc_socket&lt;/code&gt;. Was &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;$CACHEDIR/albert_socket&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;Fix triggered global query MRU sort&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;[plugins]&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;New extensions:
+    &lt;ul&gt;
+      &lt;li&gt;[docs] Reduced set of Zeal docsets at hands&lt;/li&gt;
+      &lt;li&gt;[clipboard] Clipboard history&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;[contacts:1.2]
+    &lt;ul&gt;
+      &lt;li&gt;Formatting: Remove Apple specific braces&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;[snip:1.3]
+    &lt;ul&gt;
+      &lt;li&gt;Add “Add” and “Remove” button in config widget&lt;/li&gt;
+      &lt;li&gt;Add “Add snippet” item on “add” query&lt;/li&gt;
+      &lt;li&gt;Add “Remove” action to snippet items&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;[python:1.8] Adopt API v0.21. New interface version iid 1.0
+    &lt;ul&gt;
+      &lt;li&gt;Add &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Extension.cache&lt;/code&gt;-, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;config&lt;/code&gt;- and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;dataLocation&lt;/code&gt;&lt;/li&gt;
+      &lt;li&gt;Expose &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;FallbackHandler&lt;/code&gt;&lt;/li&gt;
+      &lt;li&gt;Expose &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;TriggerQueryHandler&lt;/code&gt;&lt;/li&gt;
+      &lt;li&gt;Expose &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;GlobalQueryHandler&lt;/code&gt;&lt;/li&gt;
+      &lt;li&gt;Expose &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;QueryHandler&lt;/code&gt;&lt;/li&gt;
+      &lt;li&gt;Expose &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;IndexQueryHandler&lt;/code&gt;&lt;/li&gt;
+      &lt;li&gt;Expose abstract &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Item&lt;/code&gt; class entirely such that plugins can subclass it&lt;/li&gt;
+      &lt;li&gt;Proper multi extension registration&lt;/li&gt;
+      &lt;li&gt;Move interface spec into python stub file (yay!)&lt;/li&gt;
+      &lt;li&gt;Use pointer for queries&lt;/li&gt;
+      &lt;li&gt;Remove global cache/config/data dir functions&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;[all] Adopt API v0.21.0&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;[python]&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Add stub file for type hinting and documentation in IDEs&lt;/li&gt;
+  &lt;li&gt;New extensions:
+    &lt;ul&gt;
+      &lt;li&gt;[coingecko] Crypto currencies&lt;/li&gt;
+      &lt;li&gt;[mathematica] iid:1.0 port&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;[all] Adopt iid v1.0&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Check the &lt;a href=&quot;https://github.com/albertlauncher/albert/commits/v0.21.0&quot;&gt;GitHub repositories&lt;/a&gt; for details.&lt;/p&gt;
+</description>
+          <pubDate>2023-06-23T16:57:00+00:00</pubDate>
+          <link>https://albertlauncher.github.io/2023/06/23/albert-v0.21.0-released/</link>
+          <guid isPermaLink="true">https://albertlauncher.github.io/2023/06/23/albert-v0.21.0-released/</guid>
+        </item>
+      
+    
+      
+        <item>
+          <title>Prebuilt master branch packages available</title>
+          <description>&lt;h1 id=&quot;prebuilt-master-branch-packages-available&quot;&gt;Prebuilt master branch packages available&lt;/h1&gt;
+
+&lt;p&gt;Albert master branch is now available as packages on OBS.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;More details &lt;a href=&quot;https://build.opensuse.org/package/show/home:manuelschneid3r:devel/albert&quot;&gt;here&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;Get the packages &lt;a href=&quot;https://software.opensuse.org//download.html?project=home%3Amanuelschneid3r%3Adevel&amp;amp;package=albert&quot;&gt;here&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Hope this makes the nerds happy and the releases even more stable.&lt;/p&gt;
+</description>
+          <pubDate>2023-06-19T11:00:00+00:00</pubDate>
+          <link>https://albertlauncher.github.io/2023/06/19/devel-repos-on-obs/</link>
+          <guid isPermaLink="true">https://albertlauncher.github.io/2023/06/19/devel-repos-on-obs/</guid>
+        </item>
+      
+    
+      
+        <item>
+          <title>Albert v0.20.14 released</title>
+          <description>&lt;h1 id=&quot;albert-v02014-released&quot;&gt;Albert v0.20.14 released&lt;/h1&gt;
+
+&lt;p&gt;[albert]&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Sort triggerwidget by name rather than id&lt;/li&gt;
+  &lt;li&gt;Avoid segfaults when setting hotkey failed.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;[plugins]&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;[ws] fix oversized text in config&lt;/li&gt;
+  &lt;li&gt;[sys:1.6] Dynamic default commands.&lt;/li&gt;
+  &lt;li&gt;[app_xdg] Remove content margins of settings widget&lt;/li&gt;
+  &lt;li&gt;[system] Add lxqt defaults&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;[python]&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;[python_eval:1.3] Fix type of result in item subtext&lt;/li&gt;
+  &lt;li&gt;[locate:1.7] Fix lambda capture&lt;/li&gt;
+  &lt;li&gt;remove api_test&lt;/li&gt;
+  &lt;li&gt;[aur:1.6] Fix install action&lt;/li&gt;
+  &lt;li&gt;[jetbrains_projects] handle missing projectOpenTimestamp&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Check the &lt;a href=&quot;https://github.com/albertlauncher/albert/commits/v0.20.14&quot;&gt;GitHub repositories&lt;/a&gt; for details.&lt;/p&gt;
+</description>
+          <pubDate>2023-05-01T15:59:00+00:00</pubDate>
+          <link>https://albertlauncher.github.io/2023/05/01/albert-v0.20.14-released/</link>
+          <guid isPermaLink="true">https://albertlauncher.github.io/2023/05/01/albert-v0.20.14-released/</guid>
+        </item>
+      
+    
+      
+        <item>
+          <title>Albert v0.20.13 released</title>
+          <description>&lt;h1 id=&quot;albert-v02013-released&quot;&gt;Albert v0.20.13 released&lt;/h1&gt;
+
+&lt;p&gt;[plugins]&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;[ws] Show space markers in trigger section&lt;/li&gt;
+  &lt;li&gt;[vbox:v1.3] Port iid:0.5&lt;/li&gt;
+  &lt;li&gt;[dice_roll] iid:0.5 v1.0&lt;/li&gt;
+  &lt;li&gt;[emoji] iid:0.5 v1.0&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Check the &lt;a href=&quot;https://github.com/albertlauncher/albert/commits/v0.20.13&quot;&gt;GitHub repositories&lt;/a&gt; for details.&lt;/p&gt;
+</description>
+          <pubDate>2023-03-30T15:47:00+00:00</pubDate>
+          <link>https://albertlauncher.github.io/2023/03/30/albert-v0.20.13-released/</link>
+          <guid isPermaLink="true">https://albertlauncher.github.io/2023/03/30/albert-v0.20.13-released/</guid>
+        </item>
+      
+    
+      
+        <item>
+          <title>Albert v0.20.12 released</title>
+          <description>&lt;h1 id=&quot;albert-v02012-released&quot;&gt;Albert v0.20.12 released&lt;/h1&gt;
+
+&lt;p&gt;[plugins]&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;[system:1.4] Make items checkable and titles customizeable&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Check the &lt;a href=&quot;https://github.com/albertlauncher/albert/commits/v0.20.12&quot;&gt;GitHub repositories&lt;/a&gt; for details.&lt;/p&gt;
+</description>
+          <pubDate>2023-03-29T18:18:00+00:00</pubDate>
+          <link>https://albertlauncher.github.io/2023/03/29/albert-v0.20.12-released/</link>
+          <guid isPermaLink="true">https://albertlauncher.github.io/2023/03/29/albert-v0.20.12-released/</guid>
+        </item>
+      
+    
+      
+        <item>
+          <title>Albert v0.20.11 released</title>
+          <description>&lt;h1 id=&quot;albert-v02011-released&quot;&gt;Albert v0.20.11 released&lt;/h1&gt;
+
+&lt;p&gt;[albert]&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Respect whitespaces in rpcs&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;[plugins]&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;[wbm] Add option “Center on active screen”&lt;/li&gt;
+  &lt;li&gt;[app_xdg] Add action “reveal desktop entry”&lt;/li&gt;
+  &lt;li&gt;[files] Workaround Qt appending slash to root paths&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;[python]&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;[bitwarden] 1.1 (iid: 0.5)&lt;/li&gt;
+  &lt;li&gt;[vpn] Add wireguard to connection types&lt;/li&gt;
+  &lt;li&gt;[pacman] Fix out of scope lambda vars&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Check the &lt;a href=&quot;https://github.com/albertlauncher/albert/commits/v0.20.11&quot;&gt;GitHub repositories&lt;/a&gt; for details.&lt;/p&gt;
+</description>
+          <pubDate>2023-03-27T12:08:00+00:00</pubDate>
+          <link>https://albertlauncher.github.io/2023/03/27/albert-v0.20.11-released/</link>
+          <guid isPermaLink="true">https://albertlauncher.github.io/2023/03/27/albert-v0.20.11-released/</guid>
+        </item>
+      
+    
+      
+        <item>
+          <title>Albert v0.20.10 released</title>
+          <description>&lt;h1 id=&quot;albert-v02010-released&quot;&gt;Albert v0.20.10 released&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;[vpn] Add wireguard to connection types&lt;/li&gt;
+  &lt;li&gt;Several bugfixes&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Check the &lt;a href=&quot;https://github.com/albertlauncher/albert/commits/v0.20.10&quot;&gt;GitHub repositories&lt;/a&gt; for details.&lt;/p&gt;
+</description>
+          <pubDate>2023-03-20T13:38:00+00:00</pubDate>
+          <link>https://albertlauncher.github.io/2023/03/20/albert-v0.20.10-released/</link>
+          <guid isPermaLink="true">https://albertlauncher.github.io/2023/03/20/albert-v0.20.10-released/</guid>
+        </item>
+      
+    
+      
+        <item>
+          <title>Albert v0.20.9 released</title>
+          <description>&lt;h1 id=&quot;albert-v0209-released&quot;&gt;Albert v0.20.9 released&lt;/h1&gt;
+
+&lt;p&gt;[albert]&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Update supported terminals (add st and blackbox, remove tilda)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;[plugins]&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;[wbm] Hide task bar entry&lt;/li&gt;
+  &lt;li&gt;[ws] Add google scholar to defaults&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Check the &lt;a href=&quot;https://github.com/albertlauncher/albert/commits/v0.20.9&quot;&gt;GitHub repositories&lt;/a&gt; for details.&lt;/p&gt;
+</description>
+          <pubDate>2023-03-13T13:41:00+00:00</pubDate>
+          <link>https://albertlauncher.github.io/2023/03/13/albert-v0.20.9-released/</link>
+          <guid isPermaLink="true">https://albertlauncher.github.io/2023/03/13/albert-v0.20.9-released/</guid>
+        </item>
+      
+    
+      
+        <item>
+          <title>Albert v0.20.8 released</title>
+          <description>&lt;h1 id=&quot;albert-v0208-released&quot;&gt;Albert v0.20.8 released&lt;/h1&gt;
+
+&lt;p&gt;[albert]&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Tilda support&lt;/li&gt;
+  &lt;li&gt;Print font in report&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;[plugins]&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;[contacts_mac] v1.0&lt;/li&gt;
+  &lt;li&gt;[wbm] Dont hide window when control modifier is hold&lt;/li&gt;
+  &lt;li&gt;[xdgapps] Do not inherit QT_QPA_PLATFORM to launched apps&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Check the &lt;a href=&quot;https://github.com/albertlauncher/albert/commits/v0.20.8&quot;&gt;GitHub repositories&lt;/a&gt; for details.&lt;/p&gt;
+</description>
+          <pubDate>2023-02-11T09:22:00+00:00</pubDate>
+          <link>https://albertlauncher.github.io/2023/02/11/albert-v0.20.8-released/</link>
+          <guid isPermaLink="true">https://albertlauncher.github.io/2023/02/11/albert-v0.20.8-released/</guid>
+        </item>
+      
+    
+      
+        <item>
+          <title>Albert v0.20.7 released</title>
+          <description>&lt;h1 id=&quot;albert-v0207-released&quot;&gt;Albert v0.20.7 released&lt;/h1&gt;
+
+&lt;p&gt;[albert]&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Clear icon cache if unused for a minute.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;[plugins]&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;[wbm] Postpone query deletion until hide event to prevent busy wait for destruction&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Check the &lt;a href=&quot;https://github.com/albertlauncher/albert/commits/v0.20.7&quot;&gt;GitHub repositories&lt;/a&gt; for details.&lt;/p&gt;
+</description>
+          <pubDate>2023-02-10T07:47:00+00:00</pubDate>
+          <link>https://albertlauncher.github.io/2023/02/10/albert-v0.20.7-released/</link>
+          <guid isPermaLink="true">https://albertlauncher.github.io/2023/02/10/albert-v0.20.7-released/</guid>
+        </item>
+      
+    
+      
+        <item>
+          <title>Albert v0.20.6 released</title>
+          <description>&lt;h1 id=&quot;albert-v0206-released&quot;&gt;Albert v0.20.6 released&lt;/h1&gt;
+
+&lt;p&gt;[albert]&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Close settingswindow on ctrl+w&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;[plugins]&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;[wbm] Avoid segfaults on failing screenAt()&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;[python]&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;[jetbrains:1.1] Polish. Fix Macos.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Check the &lt;a href=&quot;https://github.com/albertlauncher/albert/commits/v0.20.6&quot;&gt;GitHub repositories&lt;/a&gt; for details.&lt;/p&gt;
+</description>
+          <pubDate>2023-02-08T09:33:00+00:00</pubDate>
+          <link>https://albertlauncher.github.io/2023/02/08/albert-v0.20.6-released/</link>
+          <guid isPermaLink="true">https://albertlauncher.github.io/2023/02/08/albert-v0.20.6-released/</guid>
+        </item>
+      
+    
+      
+        <item>
+          <title>Albert v0.20.5 released</title>
+          <description>&lt;h1 id=&quot;albert-v0205-released&quot;&gt;Albert v0.20.5 released&lt;/h1&gt;
+
+&lt;p&gt;[albert]&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Drop usage weight. Add option to prioritize perfect matches. See #695&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Check the &lt;a href=&quot;https://github.com/albertlauncher/albert/commits/v0.20.5&quot;&gt;GitHub repositories&lt;/a&gt; for details.&lt;/p&gt;
+</description>
+          <pubDate>2023-02-01T13:54:00+00:00</pubDate>
+          <link>https://albertlauncher.github.io/2023/02/01/albert-v0.20.5-released/</link>
+          <guid isPermaLink="true">https://albertlauncher.github.io/2023/02/01/albert-v0.20.5-released/</guid>
+        </item>
+      
+    
+      
+        <item>
+          <title>Albert v0.20.4 released</title>
+          <description>&lt;h1 id=&quot;albert-v0204-released&quot;&gt;Albert v0.20.4 released&lt;/h1&gt;
+
+&lt;p&gt;[albert]&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Reintroduce telemetry&lt;/li&gt;
+  &lt;li&gt;Fix disfunctional link in settings&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;[python]&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;[tex_to_unicode] py interface 0.5&lt;/li&gt;
+  &lt;li&gt;[vpn] 1.1 (iid: 0.5)&lt;/li&gt;
+  &lt;li&gt;[yt] v1.3 create tmp dirs lazily&lt;/li&gt;
+  &lt;li&gt;[jetbrains] 1.0 (iid:0.5)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Check the &lt;a href=&quot;https://github.com/albertlauncher/albert/commits/v0.20.4&quot;&gt;GitHub repositories&lt;/a&gt; for details.&lt;/p&gt;
+</description>
+          <pubDate>2023-01-31T11:24:00+00:00</pubDate>
+          <link>https://albertlauncher.github.io/2023/01/31/albert-v0.20.4-released/</link>
+          <guid isPermaLink="true">https://albertlauncher.github.io/2023/01/31/albert-v0.20.4-released/</guid>
+        </item>
+      
+    
+      
+        <item>
+          <title>Albert v0.20.3 released</title>
+          <description>&lt;h1 id=&quot;albert-v0203-released&quot;&gt;Albert v0.20.3 released&lt;/h1&gt;
+
+&lt;p&gt;[albert]&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Remove plugin registry from global search&lt;/li&gt;
+  &lt;li&gt;Add -Wno-inline&lt;/li&gt;
+  &lt;li&gt;Fix line breaks in errors displayed in settings&lt;/li&gt;
+  &lt;li&gt;Tray icon isMask&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;[plugins]&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;[platform_mac] 1.0&lt;/li&gt;
+  &lt;li&gt;[py] Add button to open the dependency dir&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;[python]&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;[pint] 1.0 (currency converter)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Check the &lt;a href=&quot;https://github.com/albertlauncher/albert/commits/v0.20.3&quot;&gt;GitHub repositories&lt;/a&gt; for details.&lt;/p&gt;
+</description>
+          <pubDate>2023-01-27T16:22:00+00:00</pubDate>
+          <link>https://albertlauncher.github.io/2023/01/27/albert-v0.20.3-released/</link>
+          <guid isPermaLink="true">https://albertlauncher.github.io/2023/01/27/albert-v0.20.3-released/</guid>
+        </item>
+      
+    
+      
+        <item>
+          <title>Albert v0.20.2 released</title>
+          <description>&lt;h1 id=&quot;albert-v0202-released&quot;&gt;Albert v0.20.2 released&lt;/h1&gt;
+
+&lt;p&gt;[plugins]&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;[py] Quote cd path&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;[python]&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;[pacman] v1.6 iid:0.5&lt;/li&gt;
+  &lt;li&gt;[timer] v1.4 iid:0.5&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Check the &lt;a href=&quot;https://github.com/albertlauncher/albert/commits/v0.20.2&quot;&gt;GitHub repositories&lt;/a&gt; for details.&lt;/p&gt;
+</description>
+          <pubDate>2023-01-25T18:50:00+00:00</pubDate>
+          <link>https://albertlauncher.github.io/2023/01/25/albert-v0.20.2-released/</link>
+          <guid isPermaLink="true">https://albertlauncher.github.io/2023/01/25/albert-v0.20.2-released/</guid>
+        </item>
+      
+    
+      
+        <item>
+          <title>Albert v0.20.1 released</title>
+          <description>&lt;h1 id=&quot;albert-v0201-released&quot;&gt;Albert v0.20.1 released&lt;/h1&gt;
+
+&lt;p&gt;[albert]&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Fix pedantic warnings&lt;/li&gt;
+  &lt;li&gt;BW tray&lt;/li&gt;
+  &lt;li&gt;Use env vars to set default locale&lt;/li&gt;
+  &lt;li&gt;Strech config widget&lt;/li&gt;
+  &lt;li&gt;Fix segfaults on empty icon name lookup&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;[plugins]&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Lots of UI polishing&lt;/li&gt;
+  &lt;li&gt;[qalc] Fix precision probles&lt;/li&gt;
+  &lt;li&gt;[websearch] Add google maps to defaults&lt;/li&gt;
+  &lt;li&gt;[datetime] Use default locale&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Check the &lt;a href=&quot;https://github.com/albertlauncher/albert/commits/v0.20.1&quot;&gt;GitHub repositories&lt;/a&gt; for details.&lt;/p&gt;
+</description>
+          <pubDate>2023-01-25T15:09:00+00:00</pubDate>
+          <link>https://albertlauncher.github.io/2023/01/25/albert-v0.20.1-released/</link>
+          <guid isPermaLink="true">https://albertlauncher.github.io/2023/01/25/albert-v0.20.1-released/</guid>
+        </item>
+      
+    
+      
+        <item>
+          <title>Albert v0.20.0 released</title>
+          <description>&lt;h1 id=&quot;albert-v0200-released&quot;&gt;Albert v0.20.0 released&lt;/h1&gt;
+
+&lt;p&gt;[albert]&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Config widget per plugin (v0.20)&lt;/li&gt;
+  &lt;li&gt;Make Triggerwidget edit trigger on double click anywhere&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;[plugins]&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;[chromium:1.4] Add path reset button&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;[python]&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;[locate] 1.6&lt;/li&gt;
+  &lt;li&gt;[docker] 1.3&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Lots of polishing around the new UI&lt;/p&gt;
+
+&lt;p&gt;Check the &lt;a href=&quot;https://github.com/albertlauncher/albert/commits/v0.20.0&quot;&gt;GitHub repositories&lt;/a&gt; for details.&lt;/p&gt;
+</description>
+          <pubDate>2023-01-24T02:48:00+00:00</pubDate>
+          <link>https://albertlauncher.github.io/2023/01/24/albert-v0.20.0-released/</link>
+          <guid isPermaLink="true">https://albertlauncher.github.io/2023/01/24/albert-v0.20.0-released/</guid>
+        </item>
+      
+    
+      
+        <item>
+          <title>Albert v0.19.4 released</title>
+          <description>&lt;h1 id=&quot;albert-v0194-released&quot;&gt;Albert v0.19.4 released&lt;/h1&gt;
+
+&lt;p&gt;[plugins]&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;[qalc] v1.0 Prototype&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Check the &lt;a href=&quot;https://github.com/albertlauncher/albert/commits/v0.19.4&quot;&gt;GitHub repositories&lt;/a&gt; for details.&lt;/p&gt;
+</description>
+          <pubDate>2023-01-22T22:44:00+00:00</pubDate>
+          <link>https://albertlauncher.github.io/2023/01/22/albert-v0.19.4-released/</link>
+          <guid isPermaLink="true">https://albertlauncher.github.io/2023/01/22/albert-v0.19.4-released/</guid>
+        </item>
+      
+    
+      
+        <item>
+          <title>Albert v0.19.3 released</title>
+          <description>&lt;h1 id=&quot;albert-v0193-released&quot;&gt;Albert v0.19.3 released&lt;/h1&gt;
+
+&lt;p&gt;[albert]&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;[md] Use content if long description is a file path&lt;/li&gt;
+  &lt;li&gt;Use both, extension and item id, as icon cache key&lt;/li&gt;
+  &lt;li&gt;Add standard pixmaps support to iconprovider&lt;/li&gt;
+  &lt;li&gt;Workaround terminator bug #702&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;[plugins]&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;[wbm] Add Nord theme&lt;/li&gt;
+  &lt;li&gt;[calc] Respect LC_*&lt;/li&gt;
+  &lt;li&gt;[chromium] Fix filewatcher does not watch bookmarks&lt;/li&gt;
+  &lt;li&gt;[wbm] Do not exit on missing themes&lt;/li&gt;
+  &lt;li&gt;[wbm] Use generic placeholder color for input hint&lt;/li&gt;
+  &lt;li&gt;[app:xdg] Add exec key option. Also exclude ‘env’ in exec keys.&lt;/li&gt;
+  &lt;li&gt;[wbm] Fix clipped label&lt;/li&gt;
+  &lt;li&gt;[WBM] fix open theme file action&lt;/li&gt;
+  &lt;li&gt;[files] Provide trash item&lt;/li&gt;
+  &lt;li&gt;[wbm] Fix list view height margins&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;[python]&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;[trash] Drop. Provided by files plugin now.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Check the &lt;a href=&quot;https://github.com/albertlauncher/albert/commits/v0.19.3&quot;&gt;GitHub repositories&lt;/a&gt; for details.&lt;/p&gt;
+</description>
+          <pubDate>2023-01-22T14:36:00+00:00</pubDate>
+          <link>https://albertlauncher.github.io/2023/01/22/albert-v0.19.3-released/</link>
+          <guid isPermaLink="true">https://albertlauncher.github.io/2023/01/22/albert-v0.19.3-released/</guid>
+        </item>
+      
+    
+      
+        <item>
+          <title>Albert v0.19.2 released</title>
+          <description>&lt;h1 id=&quot;albert-v0192-released&quot;&gt;Albert v0.19.2 released&lt;/h1&gt;
+
+&lt;p&gt;[plugins]&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;[datetime] v1.0&lt;/li&gt;
+  &lt;li&gt;[urlhandler] Fix tld validation&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Check the &lt;a href=&quot;https://github.com/albertlauncher/albert/commits/v0.19.2&quot;&gt;GitHub repositories&lt;/a&gt; for details.&lt;/p&gt;
+</description>
+          <pubDate>2023-01-18T22:26:00+00:00</pubDate>
+          <link>https://albertlauncher.github.io/2023/01/18/albert-v0.19.2-released/</link>
+          <guid isPermaLink="true">https://albertlauncher.github.io/2023/01/18/albert-v0.19.2-released/</guid>
+        </item>
+      
+    
+      
+        <item>
+          <title>Albert v0.19.1 released</title>
+          <description>&lt;h1 id=&quot;albert-v0191-released&quot;&gt;Albert v0.19.1 released&lt;/h1&gt;
+
+&lt;p&gt;[albert]&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Fix recurring new version info&lt;/li&gt;
+  &lt;li&gt;Allow copyconstruction of rank and index items&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;[plugins]&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;[calc] 1.5
+    &lt;ul&gt;
+      &lt;li&gt;Inline evaluation&lt;/li&gt;
+      &lt;li&gt;Default trigger ‘=’&lt;/li&gt;
+      &lt;li&gt;Synopsis&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;[wbm] Add item activation using Ctrl+O&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Check the &lt;a href=&quot;https://github.com/albertlauncher/albert/commits/v0.19.1&quot;&gt;GitHub repositories&lt;/a&gt; for details.&lt;/p&gt;
+</description>
+          <pubDate>2023-01-18T20:08:00+00:00</pubDate>
+          <link>https://albertlauncher.github.io/2023/01/18/albert-v0.19.1-released/</link>
+          <guid isPermaLink="true">https://albertlauncher.github.io/2023/01/18/albert-v0.19.1-released/</guid>
+        </item>
+      
+    
+      
+        <item>
+          <title>Albert v0.19.0 released</title>
+          <description>&lt;h1 id=&quot;albert-v0190-released&quot;&gt;Albert v0.19.0 released&lt;/h1&gt;
+
+&lt;p&gt;[albert]&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Add reload actinon for plugins&lt;/li&gt;
+  &lt;li&gt;Support Console term&lt;/li&gt;
+  &lt;li&gt;Fix backgroundexecutor not using move semantics&lt;/li&gt;
+  &lt;li&gt;0.19 interface
+    &lt;ul&gt;
+      &lt;li&gt;Revert to dedicated FallbackHandler&lt;/li&gt;
+      &lt;li&gt;Clean interface using opaque pointers&lt;/li&gt;
+      &lt;li&gt;GlobalQueryHandler::rankItems -&amp;gt; handlyQuery&lt;/li&gt;
+      &lt;li&gt;IndexQueryHandlers have to set items directly&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Refactoring&lt;/li&gt;
+  &lt;li&gt;Show plugin header files in IDEs&lt;/li&gt;
+  &lt;li&gt;Use handcrafted icon lookup again&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;[plugins]&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;[wbs] 1.3 add query handler providing themes&lt;/li&gt;
+  &lt;li&gt;[apps_xdg] 1.5 Remove desktop indexing&lt;/li&gt;
+  &lt;li&gt;[ssh] 1.5
+    &lt;ul&gt;
+      &lt;li&gt;Fix ssh connect containing user or port&lt;/li&gt;
+      &lt;li&gt;Allow specifying a command to send to the host&lt;/li&gt;
+      &lt;li&gt;Add action (keep/close term)&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;[python]&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;[yt] v1.2 (iid:0.5)&lt;/li&gt;
+  &lt;li&gt;[kill] v1.1 (iid:0.5)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Check the &lt;a href=&quot;https://github.com/albertlauncher/albert/commits/v0.19.0&quot;&gt;GitHub repositories&lt;/a&gt; for details.&lt;/p&gt;
+</description>
+          <pubDate>2023-01-18T14:25:00+00:00</pubDate>
+          <link>https://albertlauncher.github.io/2023/01/18/albert-v0.19.0-released/</link>
+          <guid isPermaLink="true">https://albertlauncher.github.io/2023/01/18/albert-v0.19.0-released/</guid>
+        </item>
+      
+    
+      
+        <item>
+          <title>Albert v0.18.13 released</title>
+          <description>&lt;h1 id=&quot;albert-v01813-released&quot;&gt;Albert v0.18.13 released&lt;/h1&gt;
+
+&lt;p&gt;Fix invalid submodule link breaking OBS builds&lt;/p&gt;
+
+&lt;p&gt;[plugins]&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;[chromium] Fix config loading&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;[python]&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;[goldendict] 1.1 (0.18)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Check the &lt;a href=&quot;https://github.com/albertlauncher/albert/commits/v0.18.13&quot;&gt;GitHub repositories&lt;/a&gt; for details.&lt;/p&gt;
+</description>
+          <pubDate>2023-01-13T14:07:00+00:00</pubDate>
+          <link>https://albertlauncher.github.io/2023/01/13/albert-v0.18.13-released/</link>
+          <guid isPermaLink="true">https://albertlauncher.github.io/2023/01/13/albert-v0.18.13-released/</guid>
+        </item>
+      
+    
+      
+        <item>
+          <title>Albert v0.18.12 released</title>
+          <description>&lt;h1 id=&quot;albert-v01812-released&quot;&gt;Albert v0.18.12 released&lt;/h1&gt;
+
+&lt;p&gt;[albert]&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Always print report in debug mode&lt;/li&gt;
+  &lt;li&gt;Add platform, lang and locale to report&lt;/li&gt;
+  &lt;li&gt;Support Terminology&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;[plugins]&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;[mac_apps] Dons show system service apps
+! Add default md_id if not available&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Check the &lt;a href=&quot;https://github.com/albertlauncher/albert/commits/v0.18.12&quot;&gt;GitHub repositories&lt;/a&gt; for details.&lt;/p&gt;
+</description>
+          <pubDate>2023-01-13T02:08:00+00:00</pubDate>
+          <link>https://albertlauncher.github.io/2023/01/13/albert-v0.18.12-released/</link>
+          <guid isPermaLink="true">https://albertlauncher.github.io/2023/01/13/albert-v0.18.12-released/</guid>
+        </item>
+      
+    
+      
+        <item>
+          <title>Albert v0.18.11 released</title>
+          <description>&lt;h1 id=&quot;albert-v01811-released&quot;&gt;Albert v0.18.11 released&lt;/h1&gt;
+
+&lt;p&gt;[albert]&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Add missing long description in plugin metadata.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;[plugins]&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Handcraft tld validation. Make handler global.&lt;/li&gt;
+  &lt;li&gt;Add metadata LONG_DESCRIPTON to docs&lt;/li&gt;
+  &lt;li&gt;[py] Create site-packages dir if necessary&lt;/li&gt;
+  &lt;li&gt;Fix open snippet&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Check the &lt;a href=&quot;https://github.com/albertlauncher/albert/commits/v0.18.11&quot;&gt;GitHub repositories&lt;/a&gt; for details.&lt;/p&gt;
+</description>
+          <pubDate>2023-01-11T01:46:00+00:00</pubDate>
+          <link>https://albertlauncher.github.io/2023/01/11/albert-v0.18.11-released/</link>
+          <guid isPermaLink="true">https://albertlauncher.github.io/2023/01/11/albert-v0.18.11-released/</guid>
+        </item>
+      
+    
+      
+        <item>
+          <title>Albert v0.18.10 released</title>
+          <description>&lt;h1 id=&quot;albert-v01810-released&quot;&gt;Albert v0.18.10 released&lt;/h1&gt;
+
+&lt;p&gt;Fixes, minor changes and requests&lt;/p&gt;
+
+&lt;p&gt;Check the &lt;a href=&quot;https://github.com/albertlauncher/albert/commits/v0.18.10&quot;&gt;GitHub repositories&lt;/a&gt; for details.&lt;/p&gt;
+</description>
+          <pubDate>2023-01-09T00:23:00+00:00</pubDate>
+          <link>https://albertlauncher.github.io/2023/01/09/albert-v0.18.10-released/</link>
+          <guid isPermaLink="true">https://albertlauncher.github.io/2023/01/09/albert-v0.18.10-released/</guid>
+        </item>
+      
+    
+      
+        <item>
+          <title>Albert v0.18.9 released</title>
+          <description>&lt;h1 id=&quot;albert-v0189-released&quot;&gt;Albert v0.18.9 released&lt;/h1&gt;
+
+&lt;p&gt;[plugins]&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;[py] Ask user to install missing python dependencies in terminal&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;[python]&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;googletrans 1.0&lt;/li&gt;
+  &lt;li&gt;pass 1.2&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Check the &lt;a href=&quot;https://github.com/albertlauncher/albert/commits/v0.18.9&quot;&gt;GitHub repositories&lt;/a&gt; for details.&lt;/p&gt;
+</description>
+          <pubDate>2023-01-07T14:21:00+00:00</pubDate>
+          <link>https://albertlauncher.github.io/2023/01/07/albert-v0.18.9-released/</link>
+          <guid isPermaLink="true">https://albertlauncher.github.io/2023/01/07/albert-v0.18.9-released/</guid>
+        </item>
+      
+    
+      
+        <item>
+          <title>Albert v0.18.8 released</title>
+          <description>&lt;h1 id=&quot;albert-v0188-released&quot;&gt;Albert v0.18.8 released&lt;/h1&gt;
+
+&lt;p&gt;[albert]&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Give sensible defaults for usage history&lt;/li&gt;
+  &lt;li&gt;Fix memory weight not being loaded&lt;/li&gt;
+  &lt;li&gt;Merge frontend tab into general&lt;/li&gt;
+  &lt;li&gt;Support foot terminal&lt;/li&gt;
+  &lt;li&gt;Check for other instances &lt;em&gt;before&lt;/em&gt; laoding plugins&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;[plugins]&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Avoid starting indexing on file index serialization&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;[python]&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;googletrans 1.0&lt;/li&gt;
+  &lt;li&gt;pass 1.2&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Check the &lt;a href=&quot;https://github.com/albertlauncher/albert/commits/v0.18.8&quot;&gt;GitHub repositories&lt;/a&gt; for details.&lt;/p&gt;
+</description>
+          <pubDate>2023-01-07T09:18:00+00:00</pubDate>
+          <link>https://albertlauncher.github.io/2023/01/07/albert-v0.18.8-released/</link>
+          <guid isPermaLink="true">https://albertlauncher.github.io/2023/01/07/albert-v0.18.8-released/</guid>
+        </item>
+      
+    
+      
+        <item>
+          <title>Albert v0.18.7 released</title>
+          <description>&lt;h1 id=&quot;albert-v0187-released&quot;&gt;Albert v0.18.7 released&lt;/h1&gt;
+
+&lt;p&gt;[albert]&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Drop albertctl. Back to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;albert &amp;lt;command&amp;gt;&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Check the &lt;a href=&quot;https://github.com/albertlauncher/albert/commits/v0.18.7&quot;&gt;GitHub repositories&lt;/a&gt; for details.&lt;/p&gt;
+</description>
+          <pubDate>2023-01-05T19:03:00+00:00</pubDate>
+          <link>https://albertlauncher.github.io/2023/01/05/albert-v0.18.7-released/</link>
+          <guid isPermaLink="true">https://albertlauncher.github.io/2023/01/05/albert-v0.18.7-released/</guid>
+        </item>
+      
+    
+      
+        <item>
+          <title>Albert v0.18.6 released</title>
+          <description>&lt;h1 id=&quot;albert-v0186-released&quot;&gt;Albert v0.18.6 released&lt;/h1&gt;
+
+&lt;p&gt;[albert]&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;sendTrayNotification(…) add time parameter&lt;/li&gt;
+  &lt;li&gt;Support wezterm.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;[plugins]&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Python 1.5
+    &lt;ul&gt;
+      &lt;li&gt;sendTrayNotification(…) add ms parameter&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Hash 1.5
+    &lt;ul&gt;
+      &lt;li&gt;Global query handler&lt;/li&gt;
+      &lt;li&gt;Add copy 8 char action&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;[python]&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Pomodoro 1.1&lt;/li&gt;
+  &lt;li&gt;CopyQ 1.2&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Check the &lt;a href=&quot;https://github.com/albertlauncher/albert/commits/v0.18.6&quot;&gt;GitHub repositories&lt;/a&gt; for details.&lt;/p&gt;
+</description>
+          <pubDate>2023-01-05T14:42:00+00:00</pubDate>
+          <link>https://albertlauncher.github.io/2023/01/05/albert-v0.18.6-released/</link>
+          <guid isPermaLink="true">https://albertlauncher.github.io/2023/01/05/albert-v0.18.6-released/</guid>
+        </item>
+      
+    
+      
+        <item>
+          <title>Albert v0.18.5 released</title>
+          <description>&lt;h1 id=&quot;albert-v0185-released&quot;&gt;Albert v0.18.5 released&lt;/h1&gt;
+
+&lt;p&gt;[albert]&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Support Kitty terminal&lt;/li&gt;
+  &lt;li&gt;Support Alacritty terminal
+[plugins]&lt;/li&gt;
+  &lt;li&gt;[wbm] Show synopsis in tooltip&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Check the &lt;a href=&quot;https://github.com/albertlauncher/albert/commits/v0.18.5&quot;&gt;GitHub repositories&lt;/a&gt; for details.&lt;/p&gt;
+</description>
+          <pubDate>2023-01-04T13:06:00+00:00</pubDate>
+          <link>https://albertlauncher.github.io/2023/01/04/albert-v0.18.5-released/</link>
+          <guid isPermaLink="true">https://albertlauncher.github.io/2023/01/04/albert-v0.18.5-released/</guid>
+        </item>
+      
+    
+      
+        <item>
+          <title>Albert v0.18.4 released</title>
+          <description>&lt;h1 id=&quot;albert-v0184-released&quot;&gt;Albert v0.18.4 released&lt;/h1&gt;
+
+&lt;p&gt;[albert]&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;fix single instance mechanism&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;[python]&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Archive docker, curious segfaults&lt;/li&gt;
+  &lt;li&gt;Port 0.5 aur&lt;/li&gt;
+  &lt;li&gt;Port 0.5 awiki&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Check the &lt;a href=&quot;https://github.com/albertlauncher/albert/commits/v0.18.4&quot;&gt;GitHub repositories&lt;/a&gt; for details.&lt;/p&gt;
+</description>
+          <pubDate>2023-01-03T21:09:00+00:00</pubDate>
+          <link>https://albertlauncher.github.io/2023/01/03/albert-v0.18.4-released/</link>
+          <guid isPermaLink="true">https://albertlauncher.github.io/2023/01/03/albert-v0.18.4-released/</guid>
+        </item>
+      
+    
+      
+        <item>
+          <title>Albert v0.18.3 released</title>
+          <description>&lt;h1 id=&quot;albert-v0183-released&quot;&gt;Albert v0.18.3 released&lt;/h1&gt;
+
+&lt;p&gt;[plugins]&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;[wbm] Fix theme dir paths&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Check the &lt;a href=&quot;https://github.com/albertlauncher/albert/commits/v0.18.3&quot;&gt;GitHub repositories&lt;/a&gt; for details.&lt;/p&gt;
+</description>
+          <pubDate>2023-01-02T23:30:00+00:00</pubDate>
+          <link>https://albertlauncher.github.io/2023/01/02/albert-v0.18.3-released/</link>
+          <guid isPermaLink="true">https://albertlauncher.github.io/2023/01/02/albert-v0.18.3-released/</guid>
+        </item>
+      
+    
+      
+        <item>
+          <title>Albert v0.18.2 released</title>
+          <description>&lt;h1 id=&quot;albert-v0182-released&quot;&gt;Albert v0.18.2 released&lt;/h1&gt;
+
+&lt;p&gt;[albert]&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Better diagnostics on frontend loading&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Check the &lt;a href=&quot;https://github.com/albertlauncher/albert/commits/v0.18.2&quot;&gt;GitHub repositories&lt;/a&gt; for details.&lt;/p&gt;
+</description>
+          <pubDate>2023-01-02T23:04:00+00:00</pubDate>
+          <link>https://albertlauncher.github.io/2023/01/02/albert-v0.18.2-released/</link>
+          <guid isPermaLink="true">https://albertlauncher.github.io/2023/01/02/albert-v0.18.2-released/</guid>
+        </item>
+      
+    
+      
+        <item>
+          <title>Albert v0.18.1 released</title>
+          <description>&lt;h1 id=&quot;albert-v0181-released&quot;&gt;Albert v0.18.1 released&lt;/h1&gt;
+
+&lt;p&gt;[albert]&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Fix armhf builds&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Check the &lt;a href=&quot;https://github.com/albertlauncher/albert/commits/v0.18.1&quot;&gt;GitHub repositories&lt;/a&gt; for details.&lt;/p&gt;
+</description>
+          <pubDate>2023-01-01T23:25:00+00:00</pubDate>
+          <link>https://albertlauncher.github.io/2023/01/01/albert-v0.18.1-released/</link>
+          <guid isPermaLink="true">https://albertlauncher.github.io/2023/01/01/albert-v0.18.1-released/</guid>
+        </item>
+      
+    
+      
+        <item>
+          <title>Albert v0.18.0 released</title>
+          <description>&lt;h1 id=&quot;albert-v0180-released&quot;&gt;Albert v0.18.0 released&lt;/h1&gt;
+
+&lt;p&gt;Note that there have been some breaking changes. The new plugin id format changed settings keys and config/cache/data paths. If you want to keep your old plugin settings you have to adjust the section names in the config file and adjust the paths in your config/cache/data dirs. (e.g. from &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;org.albert.files&lt;/code&gt; to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;files&lt;/code&gt;). I’d recommend to start from scratch though, since too much changed.&lt;/p&gt;
+
+&lt;p&gt;[albert]&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Shorter plugin ids. (This breaks configs)&lt;/li&gt;
+  &lt;li&gt;Customizeable triggers (if the extension permits)&lt;/li&gt;
+  &lt;li&gt;Central plugin management&lt;/li&gt;
+  &lt;li&gt;More useful plugin metadata&lt;/li&gt;
+  &lt;li&gt;User customizable scoring parameters
+    &lt;ul&gt;
+      &lt;li&gt;Add user option memory decay&lt;/li&gt;
+      &lt;li&gt;Add user option memory weight&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Finally scoring for &lt;em&gt;all&lt;/em&gt; items&lt;/li&gt;
+  &lt;li&gt;Inputline history goes to a file now&lt;/li&gt;
+  &lt;li&gt;Settingswidget overhaul&lt;/li&gt;
+  &lt;li&gt;Hello Qt6, C++20 👋&lt;/li&gt;
+  &lt;li&gt;Entirely new interface (see header files)
+    &lt;ul&gt;
+      &lt;li&gt;Value typed Action class based on std::function&lt;/li&gt;
+      &lt;li&gt;Drop all former *Action classes
+        &lt;ul&gt;
+          &lt;li&gt;Free functions replace and extend action subclass functionality&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Updates to Item interface&lt;/li&gt;
+      &lt;li&gt;New and extended query handling interface classes&lt;/li&gt;
+      &lt;li&gt;Extended frontend interface&lt;/li&gt;
+      &lt;li&gt;New abstract plugin provider interface
+        &lt;ul&gt;
+          &lt;li&gt;Common plugin metadata&lt;/li&gt;
+          &lt;li&gt;Maintainership is a thing now!&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Add StandardItem factory for better type deduction and readability&lt;/li&gt;
+      &lt;li&gt;Add bgexecutor class&lt;/li&gt;
+      &lt;li&gt;Add timeprinter&lt;/li&gt;
+      &lt;li&gt;Leaner logging&lt;/li&gt;
+      &lt;li&gt;Query design change (realtime, global, indexed)&lt;/li&gt;
+      &lt;li&gt;Add extension watcher template class&lt;/li&gt;
+      &lt;li&gt;Move XDG into the lib.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;[plugins]&lt;/p&gt;
+
+&lt;p&gt;python 1.4 (0.18)&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Use system pybind&lt;/li&gt;
+  &lt;li&gt;0.5 interface&lt;/li&gt;
+  &lt;li&gt;auto pip dependencies&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;files 1.2 (0.18)&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Drop bashlike completions. We have items.&lt;/li&gt;
+  &lt;li&gt;Settings per root path&lt;/li&gt;
+  &lt;li&gt;Add name filter dialog&lt;/li&gt;
+  &lt;li&gt;Add option watch filesystem&lt;/li&gt;
+  &lt;li&gt;Add option max depth&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;snippets 1.1 (0.18)&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;files instead database&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;widgetsboxmodel 1.2 (0.18)&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Fading busy indicating settingsbutton&lt;/li&gt;
+  &lt;li&gt;Drop rich text&lt;/li&gt;
+  &lt;li&gt;Proper async query witout flicker using statemachines&lt;/li&gt;
+  &lt;li&gt;Add input hint&lt;/li&gt;
+  &lt;li&gt;Add option show fallbacks on empty query&lt;/li&gt;
+  &lt;li&gt;Add option history search&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Also new or ported to 0.18&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;calculator 1.3 (0.18)&lt;/li&gt;
+  &lt;li&gt;system 1.2 (0.18)&lt;/li&gt;
+  &lt;li&gt;applications_xdg 1.3 (0.18)&lt;/li&gt;
+  &lt;li&gt;applications_macos 1.0 (0.18)&lt;/li&gt;
+  &lt;li&gt;ssh 1.3 (0.18)&lt;/li&gt;
+  &lt;li&gt;terminal 1.2 (0.18)&lt;/li&gt;
+  &lt;li&gt;chromium 1.2 (0.18)&lt;/li&gt;
+  &lt;li&gt;websearch 1.2 (0.18)&lt;/li&gt;
+  &lt;li&gt;urlhander 1.0 (0.18)&lt;/li&gt;
+  &lt;li&gt;hash 1.4 (0.18)&lt;/li&gt;
+  &lt;li&gt;template 0.0 (0.18)&lt;/li&gt;
+  &lt;li&gt;debug 1.1 (0.18)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Archived&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;firefox&lt;/li&gt;
+  &lt;li&gt;qml box model&lt;/li&gt;
+  &lt;li&gt;mpris&lt;/li&gt;
+  &lt;li&gt;vbox&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Check the &lt;a href=&quot;https://github.com/albertlauncher/albert/commits/v0.18.0&quot;&gt;GitHub repositories&lt;/a&gt; for details.&lt;/p&gt;
+</description>
+          <pubDate>2022-12-31T16:06:00+00:00</pubDate>
+          <link>https://albertlauncher.github.io/2022/12/31/albert-v0.18.0-released/</link>
+          <guid isPermaLink="true">https://albertlauncher.github.io/2022/12/31/albert-v0.18.0-released/</guid>
+        </item>
+      
+    
+      
+        <item>
+          <title>Albert v0.17.4 released</title>
+          <description>&lt;h1 id=&quot;albert-v0174-released&quot;&gt;Albert v0.17.4 released&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Fix https://github.com/albertlauncher/albert/issues/1117&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Check the &lt;a href=&quot;https://github.com/albertlauncher/albert/commits/v0.17.4&quot;&gt;GitHub repositories&lt;/a&gt; for details.&lt;/p&gt;
+</description>
+          <pubDate>2022-10-04T22:43:00+00:00</pubDate>
+          <link>https://albertlauncher.github.io/2022/10/04/albert-v0.17.4-released/</link>
+          <guid isPermaLink="true">https://albertlauncher.github.io/2022/10/04/albert-v0.17.4-released/</guid>
+        </item>
+      
+    
+      
+        <item>
+          <title>Albert v0.17.3 released</title>
+          <description>&lt;h1 id=&quot;albert-v0173-released&quot;&gt;Albert v0.17.3 released&lt;/h1&gt;
+
+&lt;p&gt;[albert]&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Sloppy hotfix #1088. 0.18 will change DB entirely anyway.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Check the &lt;a href=&quot;https://github.com/albertlauncher/albert/commits/v0.17.3&quot;&gt;GitHub repositories&lt;/a&gt; for details.&lt;/p&gt;
+</description>
+          <pubDate>2022-07-05T22:25:00+00:00</pubDate>
+          <link>https://albertlauncher.github.io/2022/07/05/albert-v0.17.3-released/</link>
+          <guid isPermaLink="true">https://albertlauncher.github.io/2022/07/05/albert-v0.17.3-released/</guid>
+        </item>
+      
+    
+      
+        <item>
+          <title>Albert v0.17.2 released</title>
+          <description>&lt;h1 id=&quot;albert-v0172-released&quot;&gt;Albert v0.17.2 released&lt;/h1&gt;
+
+&lt;p&gt;[albert]&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Drop telemetry&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;[plugins]&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;[wbm] Hotfix completion&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Check the &lt;a href=&quot;https://github.com/albertlauncher/albert/commits/v0.17.2&quot;&gt;GitHub repositories&lt;/a&gt; for details.&lt;/p&gt;
+
+</description>
+          <pubDate>2020-12-24T00:56:00+00:00</pubDate>
+          <link>https://albertlauncher.github.io/2020/12/24/albert-v0.17.2-released/</link>
+          <guid isPermaLink="true">https://albertlauncher.github.io/2020/12/24/albert-v0.17.2-released/</guid>
+        </item>
+      
+    
+      
+        <item>
+          <title>Albert v0.17.1 released</title>
+          <description>&lt;h1 id=&quot;albert-v0171-released&quot;&gt;Albert v0.17.1 released&lt;/h1&gt;
+
+&lt;p&gt;[albert]&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Fix OBS builds&lt;/li&gt;
+  &lt;li&gt;Several fixes&lt;/li&gt;
+  &lt;li&gt;Archive virtualbox python extension&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Check the GitHub repositories for details.
+https://github.com/albertlauncher/albert/commits/v0.17.1&lt;/p&gt;
+</description>
+          <pubDate>2020-12-21T01:39:00+00:00</pubDate>
+          <link>https://albertlauncher.github.io/2020/12/21/albert-v0.17.1-released/</link>
+          <guid isPermaLink="true">https://albertlauncher.github.io/2020/12/21/albert-v0.17.1-released/</guid>
+        </item>
+      
+    
+      
+        <item>
+          <title>Albert v0.17.0 released</title>
+          <description>&lt;h1 id=&quot;albert-v0170-released&quot;&gt;Albert v0.17.0 released&lt;/h1&gt;
+
+&lt;p&gt;[albert]&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Again break init order of Item for the sake of less boilerplate. Presumed this frequency indexStrings &amp;gt; actions &amp;gt; completion &amp;gt; urgency.&lt;/li&gt;
+  &lt;li&gt;Let shells handle splitting/quoting&lt;/li&gt;
+  &lt;li&gt;Add core as QueryHandler. Add restart, quit, settings action. Also to tray and cli.&lt;/li&gt;
+  &lt;li&gt;Drop shutil:: and let shells handle lexing&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;[plugins]&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;FINALLY ARCHIVE EXTERNAL EXTENSIONS.&lt;/li&gt;
+  &lt;li&gt;New extension state : MissingDependencies&lt;/li&gt;
+  &lt;li&gt;Disable settings items of exts in this new state&lt;/li&gt;
+  &lt;li&gt;Use pybind v2.6.1&lt;/li&gt;
+  &lt;li&gt;[term] v1.1 Let shells handle lexing&lt;/li&gt;
+  &lt;li&gt;[calc] Add muparserInt option for hex calculations&lt;/li&gt;
+  &lt;li&gt;Use QLoggingCategory in all extensions&lt;/li&gt;
+  &lt;li&gt;Implicit dependency check for executables and Python modules&lt;/li&gt;
+  &lt;li&gt;[Pyv1.3] Adopt core changes. PyAPIv0.4. Changes to the API:
+    &lt;ul&gt;
+      &lt;li&gt;embedded module is called ‘albert’ now&lt;/li&gt;
+      &lt;li&gt;Reflect core api changes:
+        &lt;ul&gt;
+          &lt;li&gt;Positional arguments of the standard item changes&lt;/li&gt;
+          &lt;li&gt;New semantics of the term action constructors
+            &lt;ul&gt;
+              &lt;li&gt;String commandline will be executed in a shell&lt;/li&gt;
+              &lt;li&gt;StringList commandline will be executed without shell&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Add core version of iconLookup(StringList)&lt;/li&gt;
+      &lt;li&gt;New metadata labels:
+        &lt;ul&gt;
+          &lt;li&gt;&lt;strong&gt;version&lt;/strong&gt;: new versioning scheme iid_maj.iid_min.ext_version&lt;/li&gt;
+          &lt;li&gt;&lt;strong&gt;title&lt;/strong&gt;: former &lt;strong&gt;prettyname&lt;/strong&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;strong&gt;authors&lt;/strong&gt;: string or list&lt;/li&gt;
+          &lt;li&gt;&lt;strong&gt;exec_deps&lt;/strong&gt;: string or list&lt;/li&gt;
+          &lt;li&gt;&lt;strong&gt;py_deps&lt;/strong&gt;: string or list&lt;/li&gt;
+          &lt;li&gt;&lt;strong&gt;triggers&lt;/strong&gt;: string or list&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Allow multiple triggers&lt;/li&gt;
+      &lt;li&gt;Allow multiple authors&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;[python]&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Adpot APIv0.4 changes&lt;/li&gt;
+  &lt;li&gt;[locate] ‘ for basename ‘’ for full path lookups&lt;/li&gt;
+  &lt;li&gt;[timer] Make notification stay.&lt;/li&gt;
+  &lt;li&gt;[baseconv] Python-style base prefixes to detect source base&lt;/li&gt;
+  &lt;li&gt;[texdoc] Add texdoc plugin&lt;/li&gt;
+  &lt;li&gt;[aur] add yay helper&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Check the GitHub repositories for details.&lt;/p&gt;
+</description>
+          <pubDate>2020-12-17T03:41:00+00:00</pubDate>
+          <link>https://albertlauncher.github.io/2020/12/17/albert-v0.17.0-released/</link>
+          <guid isPermaLink="true">https://albertlauncher.github.io/2020/12/17/albert-v0.17.0-released/</guid>
+        </item>
+      
+    
+      
+        <item>
+          <title>Albert v0.16.4 released</title>
+          <description>&lt;h1 id=&quot;albert-v0164-released&quot;&gt;Albert v0.16.4 released&lt;/h1&gt;
+
+&lt;p&gt;Hotfix for #959&lt;/p&gt;
+
+&lt;p&gt;[albert]&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Fix tab order. Closes #866&lt;/li&gt;
+  &lt;li&gt;Update stale.yml&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;[plugins]&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;[chromium] Chromium v1.1&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;[python]&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;[docker] New extension prototype&lt;/li&gt;
+  &lt;li&gt;[timer] Use dbus instead of notify-send&lt;/li&gt;
+  &lt;li&gt;[units] v1.2 including to time conversion&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Check the GitHub repositories for details.&lt;/p&gt;
+</description>
+          <pubDate>2020-12-10T03:46:00+00:00</pubDate>
+          <link>https://albertlauncher.github.io/2020/12/10/albert-v0.16.4-released/</link>
+          <guid isPermaLink="true">https://albertlauncher.github.io/2020/12/10/albert-v0.16.4-released/</guid>
+        </item>
+      
+    
+      
+        <item>
+          <title>Albert v0.16.3 released</title>
+          <description>&lt;h1 id=&quot;albert-v0163-released&quot;&gt;Albert v0.16.3 released&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Hotfix for #955&lt;/li&gt;
+  &lt;li&gt;Archive defunct CoinMarketCap and Bitfinex extensions&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Check the GitHub repositories for details.&lt;/p&gt;
+</description>
+          <pubDate>2020-12-03T23:28:00+00:00</pubDate>
+          <link>https://albertlauncher.github.io/2020/12/03/albert-v0.16.3-released/</link>
+          <guid isPermaLink="true">https://albertlauncher.github.io/2020/12/03/albert-v0.16.3-released/</guid>
+        </item>
+      
+    
+      
+        <item>
+          <title>Albert v0.16.2 released</title>
+          <description>&lt;h1 id=&quot;albert-v0162-released&quot;&gt;Albert v0.16.2 released&lt;/h1&gt;
+
+&lt;p&gt;[albert]&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Allow multiple instances of albert on different X sessions&lt;/li&gt;
+  &lt;li&gt;Fix super key not registering&lt;/li&gt;
+  &lt;li&gt;Add terms: Elementary, Tilix, QTerminal, Termite&lt;/li&gt;
+  &lt;li&gt;Fix build on FreeBSD&lt;/li&gt;
+  &lt;li&gt;Dont show fallbacks on triggered queries&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;[plugins]&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;[Applications] Index desktop files on desktop&lt;/li&gt;
+  &lt;li&gt;[firefox] Rework v2&lt;/li&gt;
+  &lt;li&gt;[ssh] Respect the Include keyword&lt;/li&gt;
+  &lt;li&gt;[ssh] Allow hyphens to be part of hostnames&lt;/li&gt;
+  &lt;li&gt;[chromium] Add brave-browser to list of chromium based browsers.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;[python]&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Add an offline emoji picker&lt;/li&gt;
+  &lt;li&gt;Add bitwarden extension&lt;/li&gt;
+  &lt;li&gt;Add xkcd plugin as submodule&lt;/li&gt;
+  &lt;li&gt;Add new extension: node.js evaluator&lt;/li&gt;
+  &lt;li&gt;Add new extension: php evaluator&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Check the github repositories for details.&lt;/p&gt;
+</description>
+          <pubDate>2020-11-25T23:49:00+00:00</pubDate>
+          <link>https://albertlauncher.github.io/2020/11/25/albert-v0.16.2-released/</link>
+          <guid isPermaLink="true">https://albertlauncher.github.io/2020/11/25/albert-v0.16.2-released/</guid>
+        </item>
+      
+    
+      
+        <item>
+          <title>Albert v0.16.1 released</title>
+          <description>&lt;h1 id=&quot;albert-v0161-released&quot;&gt;Albert v0.16.1 released&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;[albert] Fix default plugin lookup path&lt;/li&gt;
+  &lt;li&gt;[albert] Fix flicker when changing frontends&lt;/li&gt;
+  &lt;li&gt;[albert] Fix “Terminal option resets after a restart”&lt;/li&gt;
+  &lt;li&gt;[albert] Link libglobalshortcut statically&lt;/li&gt;
+  &lt;li&gt;[albert] Add a build flag for QtCharts&lt;/li&gt;
+  &lt;li&gt;[albert] Drop debug options if favor of QLoggingCategory env vars&lt;/li&gt;
+  &lt;li&gt;[plugins:ssh] Fix input regex. Sort by length then lexically.&lt;/li&gt;
+  &lt;li&gt;[plugins:ssh] Use backward compatible ssh url syntax&lt;/li&gt;
+  &lt;li&gt;[plugins:qml] Consistent form layout&lt;/li&gt;
+  &lt;li&gt;[modules:aur] Sort items by length first&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Further the release contains minor changes and fixes.&lt;/p&gt;
+
+&lt;p&gt;Check the &lt;a href=&quot;https://github.com/albertlauncher/albert/commits/v0.16.1&quot;&gt;git log&lt;/a&gt; for details.&lt;/p&gt;
+</description>
+          <pubDate>2018-12-31T18:07:03+00:00</pubDate>
+          <link>https://albertlauncher.github.io/2018/12/31/albert-v0.16.1-released/</link>
+          <guid isPermaLink="true">https://albertlauncher.github.io/2018/12/31/albert-v0.16.1-released/</guid>
+        </item>
+      
+    
+      
+        <item>
+          <title>Albert v0.16.0 released</title>
+          <description>&lt;h1 id=&quot;albert-v0160-released&quot;&gt;Albert v0.16.0 released&lt;/h1&gt;
+
+&lt;h2 id=&quot;changes&quot;&gt;Changes&lt;/h2&gt;
+
+&lt;h3 id=&quot;albert&quot;&gt;Albert&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Add jekyll website as submodule&lt;/li&gt;
+  &lt;li&gt;New project structure&lt;/li&gt;
+  &lt;li&gt;Derive albert version from CMake project&lt;/li&gt;
+  &lt;li&gt;Let travis build against Ubuntu 18.04 and 16.04&lt;/li&gt;
+  &lt;li&gt;Backward compatibility for Ubuntu 16.04&lt;/li&gt;
+  &lt;li&gt;Build without QtCharts if Qt version below 5.6&lt;/li&gt;
+  &lt;li&gt;Let fuzzy require an additional character. Tolerance: floor((wordlen - 1)/3))&lt;/li&gt;
+  &lt;li&gt;Print logging category to stdout [not all plugins support it yet]&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;plugins&quot;&gt;Plugins&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;[Python] Use ast to read metadata without loading the modules&lt;/li&gt;
+  &lt;li&gt;[Term] Change terminal action order: Let “Run w/o term” be the last one&lt;/li&gt;
+  &lt;li&gt;[VBox] Set default build switch for VirtualBox to OFF&lt;/li&gt;
+  &lt;li&gt;[Files] Add fancy icons to mime dialog&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;modules&quot;&gt;Modules&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Additional constraint: Metadata have to be string literals (for ast)&lt;/li&gt;
+  &lt;li&gt;Additional constraint: Name modules according PEP8&lt;/li&gt;
+  &lt;li&gt;[WinSwitch] Add close win action&lt;/li&gt;
+  &lt;li&gt;[VBox] Add VirtualBox extension&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Further the release contains minor changes and fixes.&lt;/p&gt;
+
+&lt;p&gt;Check the &lt;a href=&quot;https://github.com/albertlauncher/albert/commits/v0.16.0&quot;&gt;git log&lt;/a&gt; for details.&lt;/p&gt;
+</description>
+          <pubDate>2018-12-28T20:52:04+00:00</pubDate>
+          <link>https://albertlauncher.github.io/2018/12/28/albert-v0.16.0-released/</link>
+          <guid isPermaLink="true">https://albertlauncher.github.io/2018/12/28/albert-v0.16.0-released/</guid>
+        </item>
+      
+    
+      
+        <item>
+          <title>Albert v0.15.0 released</title>
+          <description>&lt;h1 id=&quot;albert-v0150-released&quot;&gt;Albert v0.15.0 released&lt;/h1&gt;
+
+&lt;p&gt;This release increases the required versions of the dependencies to Qt 5.9 this means that some distributions will not be supported anymore.&lt;/p&gt;
+
+&lt;p&gt;Major changes:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Fancy usage graph in the settings&lt;/li&gt;
+  &lt;li&gt;QML frontend: History search of the input now allows substring matching (Type and navigate)&lt;/li&gt;
+  &lt;li&gt;QML frontend: Store user input of every session&lt;/li&gt;
+  &lt;li&gt;Add extension “Fortune”&lt;/li&gt;
+  &lt;li&gt;Add extension “Window switcher”&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Further the release contains minor changes and fixes.&lt;/p&gt;
+
+&lt;p&gt;Check the &lt;a href=&quot;https://github.com/albertlauncher/albert/commits/v0.15.0&quot;&gt;git log&lt;/a&gt; for details.&lt;/p&gt;
+</description>
+          <pubDate>2018-12-16T17:00:00+00:00</pubDate>
+          <link>https://albertlauncher.github.io/2018/12/16/albert-v0.15.0-released/</link>
+          <guid isPermaLink="true">https://albertlauncher.github.io/2018/12/16/albert-v0.15.0-released/</guid>
+        </item>
+      
+    
+      
+        <item>
+          <title>Albert v0.14.22 released</title>
+          <description>&lt;h1 id=&quot;albert-v01422-released&quot;&gt;Albert v0.14.22 released&lt;/h1&gt;
+
+&lt;p&gt;This is mostly a fix release. Telemetry is now opt-in. Some new themes and the Pidgin python extension were added.&lt;/p&gt;
+
+&lt;p&gt;Check the &lt;a href=&quot;https://github.com/albertlauncher/albert/commits/v0.14.22&quot;&gt;git log&lt;/a&gt; for details.&lt;/p&gt;
+</description>
+          <pubDate>2018-09-21T17:00:00+00:00</pubDate>
+          <link>https://albertlauncher.github.io/2018/09/21/albert-v0.14.22-released/</link>
+          <guid isPermaLink="true">https://albertlauncher.github.io/2018/09/21/albert-v0.14.22-released/</guid>
+        </item>
+      
+    
+      
+        <item>
+          <title>Albert v0.14.21 released</title>
+          <description>&lt;h1 id=&quot;albert-v01421-released&quot;&gt;Albert v0.14.21 released&lt;/h1&gt;
+
+&lt;p&gt;This is a patch release. Check the &lt;a href=&quot;https://github.com/albertlauncher/albert/commits/v0.14.21&quot;&gt;git log&lt;/a&gt; for details.&lt;/p&gt;
+</description>
+          <pubDate>2018-06-08T13:28:00+00:00</pubDate>
+          <link>https://albertlauncher.github.io/2018/06/08/albert-v0.14.21-released/</link>
+          <guid isPermaLink="true">https://albertlauncher.github.io/2018/06/08/albert-v0.14.21-released/</guid>
+        </item>
+      
+    
+      
+        <item>
+          <title>Albert v0.14.20 released</title>
+          <description>&lt;h1 id=&quot;albert-v01420-released&quot;&gt;Albert v0.14.20 released&lt;/h1&gt;
+
+&lt;p&gt;This is a patch release. Check the &lt;a href=&quot;https://github.com/albertlauncher/albert/commits/v0.14.20&quot;&gt;git log&lt;/a&gt; for details.&lt;/p&gt;
+</description>
+          <pubDate>2018-06-04T10:00:00+00:00</pubDate>
+          <link>https://albertlauncher.github.io/2018/06/04/albert-v0.14.20-released/</link>
+          <guid isPermaLink="true">https://albertlauncher.github.io/2018/06/04/albert-v0.14.20-released/</guid>
+        </item>
+      
+    
+      
+        <item>
+          <title>Albert v0.14.19 released</title>
+          <description>&lt;h1 id=&quot;albert-v01419-released&quot;&gt;Albert v0.14.19 released&lt;/h1&gt;
+
+&lt;p&gt;This release contains the latest fixes and two new Python extensions:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Datetime. (Time display and conversion. Supersedes the external extension)&lt;/li&gt;
+  &lt;li&gt;Bitfinex. (Quickly access Bitfinex markets)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The file browse mode finally mimics bash completion behavior.&lt;/p&gt;
+
+&lt;p&gt;Check the &lt;a href=&quot;https://github.com/albertlauncher/albert/commits/v0.14.19&quot;&gt;git log&lt;/a&gt; for details.&lt;/p&gt;
+
+&lt;p&gt;Further I want to let you know that I will stop posting news on &lt;a href=&quot;https://semver.org/&quot;&gt;patch releases&lt;/a&gt;.
+I’ll try to move changes that are recognizeable by users into minor releases.
+Note that there are no major releases at the moment since albert is still alpha.&lt;/p&gt;
+</description>
+          <pubDate>2018-05-15T09:00:00+00:00</pubDate>
+          <link>https://albertlauncher.github.io/2018/05/15/albert-v0.14.19-released/</link>
+          <guid isPermaLink="true">https://albertlauncher.github.io/2018/05/15/albert-v0.14.19-released/</guid>
+        </item>
+      
+    
+      
+        <item>
+          <title>Albert v0.14.18 released</title>
+          <description>&lt;h1 id=&quot;albert-v01418-released&quot;&gt;Albert v0.14.18 released&lt;/h1&gt;
+
+&lt;p&gt;This release contains a hotfix for a bug that made all single file python extensions disappear.&lt;/p&gt;
+
+&lt;p&gt;Check the &lt;a href=&quot;https://github.com/albertlauncher/albert/commits/v0.14.18&quot;&gt;git log&lt;/a&gt; for details.&lt;/p&gt;
+</description>
+          <pubDate>2018-03-23T12:00:00+00:00</pubDate>
+          <link>https://albertlauncher.github.io/2018/03/23/albert-v0.14.18-released/</link>
+          <guid isPermaLink="true">https://albertlauncher.github.io/2018/03/23/albert-v0.14.18-released/</guid>
+        </item>
+      
+    
+      
+        <item>
+          <title>Albert v0.14.17 released</title>
+          <description>&lt;h1 id=&quot;albert-v01417-released&quot;&gt;Albert v0.14.17 released&lt;/h1&gt;
+
+&lt;p&gt;This release contains the latest fixes, minor improvements to the extensions and a new Python extension.&lt;/p&gt;
+
+&lt;p&gt;With the new Python extension &lt;em&gt;Arch Wiki&lt;/em&gt; you can search the wiki.archlinux.org mediawiki and directly access articles.&lt;/p&gt;
+
+&lt;p&gt;The applications extension got two new options: &lt;em&gt;Use keywords for lookup&lt;/em&gt; and &lt;em&gt;Use generic name for lookup&lt;/em&gt;. &lt;em&gt;Keywords&lt;/em&gt; and &lt;em&gt;GenericName&lt;/em&gt; are keys in the desktop entry whose values can be used for lookup.&lt;/p&gt;
+
+&lt;p&gt;The &lt;em&gt;kvstore&lt;/em&gt; extension was renamed to &lt;em&gt;Snippets&lt;/em&gt; and got an improved config UI.&lt;/p&gt;
+
+&lt;p&gt;Check the &lt;a href=&quot;https://github.com/albertlauncher/albert/commits/v0.14.17&quot;&gt;git log&lt;/a&gt; for details.&lt;/p&gt;
+</description>
+          <pubDate>2018-03-23T11:00:00+00:00</pubDate>
+          <link>https://albertlauncher.github.io/2018/03/23/albert-v0.14.17-released/</link>
+          <guid isPermaLink="true">https://albertlauncher.github.io/2018/03/23/albert-v0.14.17-released/</guid>
+        </item>
+      
+    
+      
+        <item>
+          <title>Albert v0.14.16 released</title>
+          <description>&lt;h1 id=&quot;albert-v01416-released&quot;&gt;Albert v0.14.16 released&lt;/h1&gt;
+
+&lt;p&gt;This release contains the latest fixes and new Python extensions:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Gnome dictionary extension. (nikhilwanpal)&lt;/li&gt;
+  &lt;li&gt;Mathematica extension. (Asger Hautop Drewsen)&lt;/li&gt;
+  &lt;li&gt;TeX to unicode extension. (Asger Hautop Drewsen)&lt;/li&gt;
+  &lt;li&gt;IP address extension. (Benedict Dudel)&lt;/li&gt;
+  &lt;li&gt;Multi Translate extension. (David Britt)&lt;/li&gt;
+  &lt;li&gt;Emoji lookup extension. (David Britt)&lt;/li&gt;
+  &lt;li&gt;Kaomoji lookup extension. (David Britt)&lt;/li&gt;
+  &lt;li&gt;Timer extension.&lt;/li&gt;
+  &lt;li&gt;Binance extension.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Kudos to the contributors. 👏&lt;/p&gt;
+
+&lt;p&gt;Check the &lt;a href=&quot;https://github.com/albertlauncher/albert/commits/v0.14.16&quot;&gt;git log&lt;/a&gt; for details.&lt;/p&gt;
+</description>
+          <pubDate>2018-03-09T17:00:00+00:00</pubDate>
+          <link>https://albertlauncher.github.io/2018/03/09/albert-v0.14.16-released/</link>
+          <guid isPermaLink="true">https://albertlauncher.github.io/2018/03/09/albert-v0.14.16-released/</guid>
+        </item>
+      
+    
+      
+        <item>
+          <title>Albert v0.14.15 released</title>
+          <description>&lt;h1 id=&quot;albert-v01415-released&quot;&gt;Albert v0.14.15 released&lt;/h1&gt;
+
+&lt;p&gt;This release contains the latest fixes and new Python extensions:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;CoinMarketCap. Quickly view/access coins/tokens on CoinMarketCap.&lt;/li&gt;
+  &lt;li&gt;Trash extension. Adds an item that opens the trash bin in the file manager.&lt;/li&gt;
+  &lt;li&gt;Pomodoro extension. Tool to apply the focus and flow enhancing technique.&lt;/li&gt;
+  &lt;li&gt;Epoch extension. Simply shows current or translates unix timestamps.&lt;/li&gt;
+  &lt;li&gt;Packagist extension. Search for PHP packages on &lt;a href=&quot;https://packagist.org/&quot;&gt;Packagist&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Futher the python API has been extended by three functions: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;configLocation()&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;dataLocation()&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;cacheLocation()&lt;/code&gt;. Therefore the minor API version increased. The interface identifier is now &lt;strong&gt;PythonInterface/v0.2&lt;/strong&gt;. Note that the Python extension guarantees backward compatibility on minor version changes.&lt;/p&gt;
+
+&lt;p&gt;Check the &lt;a href=&quot;https://github.com/albertlauncher/albert/commits/v0.14.15&quot;&gt;git log&lt;/a&gt; for details.&lt;/p&gt;
+</description>
+          <pubDate>2018-01-26T11:00:00+00:00</pubDate>
+          <link>https://albertlauncher.github.io/2018/01/26/albert-v0.14.15-released/</link>
+          <guid isPermaLink="true">https://albertlauncher.github.io/2018/01/26/albert-v0.14.15-released/</guid>
+        </item>
+      
+    
+      
+        <item>
+          <title>Albert v0.14.14 released</title>
+          <description>&lt;h1 id=&quot;albert-v01414-released&quot;&gt;Albert v0.14.14 released&lt;/h1&gt;
+
+&lt;p&gt;This release contains the latest fixes and a new npm Python extension (Again credits go to Benedict Dudel :+1:)&lt;/p&gt;
+
+&lt;p&gt;Check the &lt;a href=&quot;https://github.com/albertlauncher/albert/commits/v0.14.14&quot;&gt;git log&lt;/a&gt; for details.&lt;/p&gt;
+</description>
+          <pubDate>2017-12-06T11:00:00+00:00</pubDate>
+          <link>https://albertlauncher.github.io/2017/12/06/albert-v0.14.14-released/</link>
+          <guid isPermaLink="true">https://albertlauncher.github.io/2017/12/06/albert-v0.14.14-released/</guid>
+        </item>
+      
+    
+      
+        <item>
+          <title>Albert v0.14.13 released</title>
+          <description>&lt;h1 id=&quot;albert-v01413-released&quot;&gt;Albert v0.14.13 released&lt;/h1&gt;
+
+&lt;p&gt;This release introduces rich text for item texts. Extensions using the offline index do not use it yet, since computing the matching substring is a bit more involved.&lt;/p&gt;
+
+&lt;p&gt;The TermAction now has a new option to set the behavior when the process exited. (Close, Close on success, Don not close).&lt;/p&gt;
+
+&lt;p&gt;This version ships with two new python extension: One interfacing the Arch User Repositories and another adapting scrot, a screenshot tool (credits go to Benedict Dudel).&lt;/p&gt;
+
+&lt;p&gt;As always the release also contains the latest fixes and minor improvements.&lt;/p&gt;
+
+&lt;p&gt;Check the &lt;a href=&quot;https://github.com/albertlauncher/albert/commits/v0.14.13&quot;&gt;git log&lt;/a&gt; for details.&lt;/p&gt;
+</description>
+          <pubDate>2017-11-25T17:00:00+00:00</pubDate>
+          <link>https://albertlauncher.github.io/2017/11/25/albert-v0.14.13-released/</link>
+          <guid isPermaLink="true">https://albertlauncher.github.io/2017/11/25/albert-v0.14.13-released/</guid>
+        </item>
+      
+    
+      
+        <item>
+          <title>Albert v0.14.12 released</title>
+          <description>&lt;h1 id=&quot;albert-v01412-released&quot;&gt;Albert v0.14.12 released&lt;/h1&gt;
+
+&lt;p&gt;This release contains the latest fixes the CopyQ port to python.&lt;/p&gt;
+
+&lt;p&gt;Check the &lt;a href=&quot;https://github.com/albertlauncher/albert/commits/v0.14.12&quot;&gt;git log&lt;/a&gt; for details.&lt;/p&gt;
+</description>
+          <pubDate>2017-11-23T19:00:00+00:00</pubDate>
+          <link>https://albertlauncher.github.io/2017/11/23/albert-v0.14.12-released/</link>
+          <guid isPermaLink="true">https://albertlauncher.github.io/2017/11/23/albert-v0.14.12-released/</guid>
+        </item>
+      
+    
+      
+        <item>
+          <title>Albert v0.14.11 released</title>
+          <description>&lt;h1 id=&quot;albert-v01411-released&quot;&gt;Albert v0.14.11 released&lt;/h1&gt;
+
+&lt;p&gt;This release contains the latest fixes and a locate python extension.&lt;/p&gt;
+
+&lt;p&gt;Check the &lt;a href=&quot;https://github.com/albertlauncher/albert/commits/v0.14.11&quot;&gt;git log&lt;/a&gt; for details.&lt;/p&gt;
+</description>
+          <pubDate>2017-11-18T23:00:00+00:00</pubDate>
+          <link>https://albertlauncher.github.io/2017/11/18/albert-v0.14.11-released/</link>
+          <guid isPermaLink="true">https://albertlauncher.github.io/2017/11/18/albert-v0.14.11-released/</guid>
+        </item>
+      
+    
+      
+        <item>
+          <title>Albert v0.14.10 released</title>
+          <description>&lt;h1 id=&quot;albert-v01410-released&quot;&gt;Albert v0.14.10 released&lt;/h1&gt;
+
+&lt;p&gt;This release contains the latest fixes.&lt;/p&gt;
+
+&lt;p&gt;Check the &lt;a href=&quot;https://github.com/albertlauncher/albert/commits/v0.14.10&quot;&gt;git log&lt;/a&gt; for details.&lt;/p&gt;
+</description>
+          <pubDate>2017-11-16T22:00:00+00:00</pubDate>
+          <link>https://albertlauncher.github.io/2017/11/16/albert-v0.14.10-released/</link>
+          <guid isPermaLink="true">https://albertlauncher.github.io/2017/11/16/albert-v0.14.10-released/</guid>
+        </item>
+      
+    
+      
+        <item>
+          <title>Albert v0.14.9 released</title>
+          <description>&lt;h1 id=&quot;albert-v0149-released&quot;&gt;Albert v0.14.9 released&lt;/h1&gt;
+
+&lt;p&gt;This release contains minor improvements:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Add “Open docs” action to tray&lt;/li&gt;
+  &lt;li&gt;Generally use HiDPI pixmaps (lifts required Qt to 5.6)&lt;/li&gt;
+  &lt;li&gt;Debug output is now a cmdline option (-d)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Of course it also contains the latest fixes.&lt;/p&gt;
+
+&lt;p&gt;Check the &lt;a href=&quot;https://github.com/albertlauncher/albert/commits/v0.14.9&quot;&gt;git log&lt;/a&gt; for details.&lt;/p&gt;
+</description>
+          <pubDate>2017-11-15T23:00:00+00:00</pubDate>
+          <link>https://albertlauncher.github.io/2017/11/15/albert-v0.14.9-released/</link>
+          <guid isPermaLink="true">https://albertlauncher.github.io/2017/11/15/albert-v0.14.9-released/</guid>
+        </item>
+      
+    
+      
+        <item>
+          <title>Albert v0.14.8 released</title>
+          <description>&lt;h1 id=&quot;albert-v0148-released&quot;&gt;Albert v0.14.8 released&lt;/h1&gt;
+
+&lt;p&gt;This release contains new Python extensions:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Gnote extension (Ported from external extension)&lt;/li&gt;
+  &lt;li&gt;Tomboy extension (Ported from external extension)&lt;/li&gt;
+  &lt;li&gt;Pacman extension&lt;/li&gt;
+  &lt;li&gt;Pass extension&lt;/li&gt;
+  &lt;li&gt;Kill extension&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Of course it also contains the latest fixes.&lt;/p&gt;
+
+&lt;p&gt;Check the &lt;a href=&quot;https://github.com/albertlauncher/albert/commits/v0.14.8&quot;&gt;git log&lt;/a&gt; for details.&lt;/p&gt;
+</description>
+          <pubDate>2017-11-13T23:00:00+00:00</pubDate>
+          <link>https://albertlauncher.github.io/2017/11/13/albert-v0.14.8-released/</link>
+          <guid isPermaLink="true">https://albertlauncher.github.io/2017/11/13/albert-v0.14.8-released/</guid>
+        </item>
+      
+    
+      
+        <item>
+          <title>Albert v0.14.7 released</title>
+          <description>&lt;h1 id=&quot;albert-v0147-released&quot;&gt;Albert v0.14.7 released&lt;/h1&gt;
+
+&lt;p&gt;This release contains the latest fixes.&lt;/p&gt;
+
+&lt;p&gt;Check the &lt;a href=&quot;https://github.com/albertlauncher/albert/commits/v0.14.7&quot;&gt;git log&lt;/a&gt; for details.&lt;/p&gt;
+</description>
+          <pubDate>2017-11-03T20:00:00+00:00</pubDate>
+          <link>https://albertlauncher.github.io/2017/11/03/albert-v0.14.7-released/</link>
+          <guid isPermaLink="true">https://albertlauncher.github.io/2017/11/03/albert-v0.14.7-released/</guid>
+        </item>
+      
+    
+      
+        <item>
+          <title>Official repositories at openSUSE Build Service</title>
+          <description>&lt;h1 id=&quot;official-repositories-at-opensuse-build-service&quot;&gt;Official repositories at openSUSE Build Service&lt;/h1&gt;
+
+&lt;p&gt;Finally there are official repositories other than the Arch Linux User Repositories hosted on the openSUSE Build Service platform. The openSUSE Build Service is the public instance of the Open Build Service (OBS). It builds software for several distributions and architectures in an automated fashion and hosts repositories for the built packages. This means that as soon as a new albert version is released the build service gets triggered to build albert and as soon it is finished, you will be able to get the latest version of albert. Check the &lt;a href=&quot;https://build.opensuse.org/package/show/home:manuelschneid3r/albert&quot;&gt;albert package on openSUSE Build Service&lt;/a&gt; to see the supported platforms.&lt;/p&gt;
+</description>
+          <pubDate>2017-11-02T11:00:00+00:00</pubDate>
+          <link>https://albertlauncher.github.io/2017/11/02/official-repos-on-obs/</link>
+          <guid isPermaLink="true">https://albertlauncher.github.io/2017/11/02/official-repos-on-obs/</guid>
+        </item>
+      
+    
+      
+        <item>
+          <title>Albert v0.14.6 released</title>
+          <description>&lt;h1 id=&quot;albert-v0146-released&quot;&gt;Albert v0.14.6 released&lt;/h1&gt;
+
+&lt;p&gt;This release contains a wikipedia python extension and the latest fixes.&lt;/p&gt;
+
+&lt;p&gt;Check the &lt;a href=&quot;https://github.com/albertlauncher/albert/commits/v0.14.6&quot;&gt;git log&lt;/a&gt; for details.&lt;/p&gt;
+</description>
+          <pubDate>2017-10-31T03:00:00+00:00</pubDate>
+          <link>https://albertlauncher.github.io/2017/10/31/albert-v0.14.6-released/</link>
+          <guid isPermaLink="true">https://albertlauncher.github.io/2017/10/31/albert-v0.14.6-released/</guid>
+        </item>
+      
+    
+      
+        <item>
+          <title>Albert v0.14.5 released</title>
+          <description>&lt;h1 id=&quot;albert-v0145-released&quot;&gt;Albert v0.14.5 released&lt;/h1&gt;
+
+&lt;p&gt;This release contains the latest fixes.&lt;/p&gt;
+
+&lt;p&gt;Check the &lt;a href=&quot;https://github.com/albertlauncher/albert/commits/v0.14.5&quot;&gt;git log&lt;/a&gt; for details.&lt;/p&gt;
+</description>
+          <pubDate>2017-10-30T03:00:00+00:00</pubDate>
+          <link>https://albertlauncher.github.io/2017/10/30/albert-v0.14.5-released/</link>
+          <guid isPermaLink="true">https://albertlauncher.github.io/2017/10/30/albert-v0.14.5-released/</guid>
+        </item>
+      
+    
+      
+        <item>
+          <title>Albert v0.14.4 released</title>
+          <description>&lt;h1 id=&quot;albert-v0144-released&quot;&gt;Albert v0.14.4 released&lt;/h1&gt;
+
+&lt;p&gt;This release contains a new base converter plugin, the latest fixes and finally uses GNUInstallDirs.&lt;/p&gt;
+
+&lt;p&gt;Check the &lt;a href=&quot;https://github.com/albertlauncher/albert/commits/v0.14.4&quot;&gt;git log&lt;/a&gt; for details.&lt;/p&gt;
+</description>
+          <pubDate>2017-10-25T10:00:00+00:00</pubDate>
+          <link>https://albertlauncher.github.io/2017/10/25/albert-v0.14.4-released/</link>
+          <guid isPermaLink="true">https://albertlauncher.github.io/2017/10/25/albert-v0.14.4-released/</guid>
+        </item>
+      
+    
+      
+        <item>
+          <title>Albert v0.14.3 released</title>
+          <description>&lt;h1 id=&quot;albert-v0143-released&quot;&gt;Albert v0.14.3 released&lt;/h1&gt;
+
+&lt;p&gt;This release contains the latest fixes and a new Google Translate Python extension.&lt;/p&gt;
+
+&lt;p&gt;Check the &lt;a href=&quot;https://github.com/albertlauncher/albert/commits/v0.14.3&quot;&gt;git log&lt;/a&gt; for details.&lt;/p&gt;
+</description>
+          <pubDate>2017-10-21T19:00:00+00:00</pubDate>
+          <link>https://albertlauncher.github.io/2017/10/21/albert-v0.14.3-released/</link>
+          <guid isPermaLink="true">https://albertlauncher.github.io/2017/10/21/albert-v0.14.3-released/</guid>
+        </item>
+      
+    
+      
+        <item>
+          <title>Albert v0.14.2 released</title>
+          <description>&lt;h1 id=&quot;albert-v0142-released&quot;&gt;Albert v0.14.2 released&lt;/h1&gt;
+
+&lt;p&gt;This release contains the latest fixes.&lt;/p&gt;
+
+&lt;p&gt;Check the &lt;a href=&quot;https://github.com/albertlauncher/albert/commits/v0.14.2&quot;&gt;git log&lt;/a&gt; for details.&lt;/p&gt;
+</description>
+          <pubDate>2017-10-20T00:00:00+00:00</pubDate>
+          <link>https://albertlauncher.github.io/2017/10/20/albert-v0.14.2-released/</link>
+          <guid isPermaLink="true">https://albertlauncher.github.io/2017/10/20/albert-v0.14.2-released/</guid>
+        </item>
+      
+    
+      
+        <item>
+          <title>Albert v0.14.1 released</title>
+          <description>&lt;h1 id=&quot;albert-v0141-released&quot;&gt;Albert v0.14.1 released&lt;/h1&gt;
+
+&lt;p&gt;This release contains the latest fixes.&lt;/p&gt;
+
+&lt;p&gt;Check the &lt;a href=&quot;https://github.com/albertlauncher/albert/commits/v0.14.1&quot;&gt;git log&lt;/a&gt; for details.&lt;/p&gt;
+</description>
+          <pubDate>2017-10-19T17:00:00+00:00</pubDate>
+          <link>https://albertlauncher.github.io/2017/10/19/albert-v0.14.1-released/</link>
+          <guid isPermaLink="true">https://albertlauncher.github.io/2017/10/19/albert-v0.14.1-released/</guid>
+        </item>
+      
+    
+      
+        <item>
+          <title>Albert v0.14.0 released</title>
+          <description>&lt;h1 id=&quot;albert-v0140-released&quot;&gt;Albert v0.14.0 released&lt;/h1&gt;
+
+&lt;p&gt;This release contains internal API changes that make developers lifes easier and and a new extension that allows to embed python scripts.&lt;/p&gt;
+
+&lt;p&gt;With this release the use of the old CGI style external extension is discouraged. External extensions will stay for now but just for personal use. As soon as the scripts in the public repo of the external extensions have been ported it will be deleted.&lt;/p&gt;
+
+&lt;p&gt;With the Python extension writing an extension can be as easy as this:&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;albertv0&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;__iid__&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;sh&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;PythonInterface/v0.1&lt;/span&gt;&lt;span class=&quot;sh&quot;&gt;&quot;&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;handleQuery&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;query&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;Item&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;text&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;sh&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;Hello&lt;/span&gt;&lt;span class=&quot;sh&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)]&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;This is a valid extension. However it makes not much sense, but by adding some docs, metadata and functionality a pretty minimal example, e.g. to run Zeal, can look like this:&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;# -*- coding: utf-8 -*-
+&lt;/span&gt;
+&lt;span class=&quot;sh&quot;&gt;&quot;&quot;&quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;Fire up an external search in Zeal.
+Just type zl &amp;lt;query&amp;gt;&lt;/span&gt;&lt;span class=&quot;sh&quot;&gt;&quot;&quot;&quot;&lt;/span&gt;
+
+&lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;albertv0&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;
+&lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;subprocess&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;run&lt;/span&gt;
+&lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;shutil&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;which&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;__iid__&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;sh&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;PythonInterface/v0.1&lt;/span&gt;&lt;span class=&quot;sh&quot;&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;__prettyname__&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;sh&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;Zeal&lt;/span&gt;&lt;span class=&quot;sh&quot;&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;__version__&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;sh&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;1.0&lt;/span&gt;&lt;span class=&quot;sh&quot;&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;__trigger__&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;sh&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;zl &lt;/span&gt;&lt;span class=&quot;sh&quot;&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;__author__&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;sh&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;Manuel Schneider&lt;/span&gt;&lt;span class=&quot;sh&quot;&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;__dependencies__&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;sh&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;zeal&lt;/span&gt;&lt;span class=&quot;sh&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+
+
+&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;which&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;sh&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;zeal&lt;/span&gt;&lt;span class=&quot;sh&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;is&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;None&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;raise&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Exception&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;sh&quot;&gt;&quot;&apos;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;zeal&lt;/span&gt;&lt;span class=&quot;sh&quot;&gt;&apos;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt; is not in $PATH.&lt;/span&gt;&lt;span class=&quot;sh&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+
+&lt;span class=&quot;n&quot;&gt;iconPath&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;iconLookup&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;sh&quot;&gt;&apos;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;zeal&lt;/span&gt;&lt;span class=&quot;sh&quot;&gt;&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+
+&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;handleQuery&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;query&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;query&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;isTriggered&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;
+            &lt;span class=&quot;nc&quot;&gt;Item&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
+                &lt;span class=&quot;nb&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;__prettyname__&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+                &lt;span class=&quot;n&quot;&gt;icon&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;iconPath&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+                &lt;span class=&quot;n&quot;&gt;text&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;__prettyname__&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+                &lt;span class=&quot;n&quot;&gt;subtext&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;sh&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;Look up %s&lt;/span&gt;&lt;span class=&quot;sh&quot;&gt;&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;__prettyname__&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+                &lt;span class=&quot;n&quot;&gt;completion&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;query&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;rawString&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+                &lt;span class=&quot;n&quot;&gt;actions&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;ProcAction&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;sh&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;Start query in %s&lt;/span&gt;&lt;span class=&quot;sh&quot;&gt;&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;__prettyname__&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+                                    &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;sh&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;zeal&lt;/span&gt;&lt;span class=&quot;sh&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;query&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;string&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;])])&lt;/span&gt;
+        &lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;This 26 lines build a full fledged extension. In fact it is the Zeal extension.&lt;/p&gt;
+
+&lt;p&gt;The documentation is not written at the moment, but the API is darn easy. Take a look at the &lt;a href=&quot;https://github.com/albertlauncher/python/blob/master/api_test/__init__.py&quot;&gt;API test extension&lt;/a&gt;. It should contain every possible thing you can use. If you want to know it exactly read the interface definition. For real examples of extensions check the &lt;a href=&quot;https://github.com/albertlauncher/python/&quot;&gt;extensions shipped with albert&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;I ask the devs of the external extensions in the public repo to port their extensions to the new scripting API and send a pull request.&lt;/p&gt;
+
+&lt;p&gt;I hope you enjoy the new scripting API and I’d be happy to receive pull requests for extensions you wish to see shipped with albert. Have fun.&lt;/p&gt;
+
+&lt;p&gt;As always check the &lt;a href=&quot;https://github.com/albertlauncher/albert/commits/v0.14.0&quot;&gt;git log&lt;/a&gt; for details.&lt;/p&gt;
+</description>
+          <pubDate>2017-10-18T17:00:00+00:00</pubDate>
+          <link>https://albertlauncher.github.io/2017/10/18/albert-v0.14.0-released/</link>
+          <guid isPermaLink="true">https://albertlauncher.github.io/2017/10/18/albert-v0.14.0-released/</guid>
+        </item>
+      
+    
+      
+        <item>
+          <title>Albert v0.13.1 released</title>
+          <description>&lt;h1 id=&quot;albert-v0131-released&quot;&gt;Albert v0.13.1 released&lt;/h1&gt;
+
+&lt;p&gt;This release contains the latest fixes.&lt;/p&gt;
+
+&lt;p&gt;Check the &lt;a href=&quot;https://github.com/albertlauncher/albert/commits/v0.13.1&quot;&gt;git log&lt;/a&gt; for details.&lt;/p&gt;
+</description>
+          <pubDate>2017-09-30T11:00:00+00:00</pubDate>
+          <link>https://albertlauncher.github.io/2017/09/30/albert-v0.13.1-released/</link>
+          <guid isPermaLink="true">https://albertlauncher.github.io/2017/09/30/albert-v0.13.1-released/</guid>
+        </item>
+      
+    
+      
+        <item>
+          <title>Albert v0.13.0 released</title>
+          <description>&lt;h1 id=&quot;albert-v0130-released&quot;&gt;Albert v0.13.0 released&lt;/h1&gt;
+
+&lt;p&gt;Albert v0.13 sets the focus on new frontends and performance optimizations in the core.&lt;/p&gt;
+
+&lt;h2 id=&quot;changes-in-the-core&quot;&gt;Changes in the core&lt;/h2&gt;
+
+&lt;p&gt;The frontend is now completely modular. From now on albert supports not only theming but an
+abstract way to write completely separated user interfaces. You can even write one on your own since they are plugins now! No, don’t. Designing frontends is a pain, PRs for curses interface welcome though ;D. The really amazing thing is that this finally allows using QML for designig frontends.&lt;/p&gt;
+
+&lt;p&gt;QML is a user interface markup language. It is a JSON-like declarative language for designing user interface–centric applications. Inline JavaScript code handles imperative aspects. This allows extremely flexible, flashy and animated interfaces, without coding imperative lines for hours and hours.&lt;/p&gt;
+
+&lt;p&gt;v0.13 comes with a new ready to use QML frontend plugin. QML allows to write the entire user interface in QML and Javascript. There is actually no need for another QML UI plugin anymore since the C++ code below to run QML would not change. Hence the QML plugin itself is modular, designed to have several &lt;em&gt;styles&lt;/em&gt; adhering to a determined QML-C++ interface. You can even write one on your own! No, dont, unless you’re a dev. Actually its still a pain to write polished UIs, although its pretty easy. The devil’s in the details.&lt;/p&gt;
+
+&lt;p&gt;A style in this context means a QML Frontend written in QML. v0.13 comes with one standard style: The &lt;em&gt;Box Model&lt;/em&gt; style. Looks pretty similar to the Widgets Box Model, but as you guessed, its flexible, animated and whatever. The Box Model style has properties that can be set with predefined themes. You could even make your own theme with the easy to use property editor without touching a single line of code! No don’t… just kidding, do it! Its fun.&lt;/p&gt;
+
+&lt;p&gt;Under the hood albert got some performance improvements. In the core ranking scores are now precomputed and items are added using move semantics to avoid expensive reference counting. Further you can tick the option lazy sort which delays sorting the items displayed until you actually display them by scrolling down. This has some implications on the scrollbar and the &lt;kbd&gt;Ctrl&lt;/kbd&gt;+&lt;kbd&gt;End&lt;/kbd&gt; button. The scrollbars height and position is determined by the amount of sorted instead of the actual amount of items and the &lt;kbd&gt;Ctrl&lt;/kbd&gt;+&lt;kbd&gt;End&lt;/kbd&gt; button moves the highlight to the last sorted item, which will trigger fetching and sorting of new items. So you wont be able to go to the actual last item. If you use neither of them enable it. It will save you some milliseconds on queries.&lt;/p&gt;
+
+&lt;h2 id=&quot;changes-in-the-extensions&quot;&gt;Changes in the extensions&lt;/h2&gt;
+
+&lt;p&gt;The files extension now has a tree structured folder index for smart indexing an less space
+requirements. QStrings are memory expensive. Inherently to the tree structure of the file system, the prefix of a path repeatedly occurs in the file paths. The tree structured index avoids this kind of duplication. Further the tree stores information about the modified times to determine if an update of the directory is necessary at all. This greatly reduces index times and resource consumption.&lt;/p&gt;
+
+&lt;p&gt;Then there are several minor changes, the minimum language standard changed to C++14 and the minimum required CMake version is now 3.1.3. This comes along with the idea to always develop against the latest Ubuntu LTS.&lt;/p&gt;
+
+&lt;p&gt;Further several configuration paths changed. The uniform data location are now like {configPath, dataPath, cachePath}/albert/&amp;lt;extensionId&amp;gt; for each extension and type. If something broke while updating check if the folders are in the correct place.&lt;/p&gt;
+
+&lt;p&gt;The terminals tab completion for the executable is shell like, by completing the common prefix of all matches.&lt;/p&gt;
+
+&lt;p&gt;New actions were introduced. There’s a file action “execute file” and a app action “run as root” using &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;gksudo&lt;/code&gt; now.&lt;/p&gt;
+
+&lt;p&gt;The interface of the external extensions changed slightly. The trigger is now removed from the query string before extension get called.&lt;/p&gt;
+
+&lt;h2 id=&quot;new-extensions&quot;&gt;New extensions&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Key Value Store&lt;/strong&gt; lets you store key value pairs for later lookup, e.g. &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&quot;IBAN&quot;: &quot;DE1329423908429304102&quot;&lt;/code&gt; or &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&quot;Telefon&quot;: &quot;+49 176 32434920&quot;&lt;/code&gt;. Use the trigger &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;kv&lt;/code&gt; to interact with the extension. Set values with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;kv set &amp;lt;key&amp;gt; &amp;lt;value&amp;gt;&lt;/code&gt;, unset values with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;kv unset &amp;lt;key&amp;gt;&lt;/code&gt; and get them either by directly calling the extension &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;kv &amp;lt;keyprefix&amp;gt;&lt;/code&gt; or by regular lookup with a prefix of the key.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Hash Generator&lt;/strong&gt; does string hashing for you. Enter &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;hash&lt;/code&gt; or the name of the hash directly, e.g. &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;md5&lt;/code&gt;, and a string you want to hash. You will get the hashes as results. Exmaple: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;md5 hashsource&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;notes-for-devs&quot;&gt;Notes for devs&lt;/h2&gt;
+
+&lt;p&gt;As in the external extensions the query interface changed. The query now has a string and a rawString. The raw string returns the query string including the trigger. If the query is not triggered string and rawString are equivalent.&lt;/p&gt;
+
+&lt;p&gt;The extensions folder is now a git submodule. Expect this to change to a even more fine grained structure in future.&lt;/p&gt;
+
+&lt;p&gt;As always check the &lt;a href=&quot;https://github.com/albertlauncher/albert/commits/v0.13.0&quot;&gt;git log&lt;/a&gt; for details.&lt;/p&gt;
+</description>
+          <pubDate>2017-09-28T20:00:00+00:00</pubDate>
+          <link>https://albertlauncher.github.io/2017/09/28/albert-v0.13.0-released/</link>
+          <guid isPermaLink="true">https://albertlauncher.github.io/2017/09/28/albert-v0.13.0-released/</guid>
+        </item>
+      
+    
+      
+        <item>
+          <title>Albert v0.12.0 released</title>
+          <description>&lt;h1 id=&quot;albert-v0120-released&quot;&gt;Albert v0.12.0 released&lt;/h1&gt;
+
+&lt;p&gt;Albert v0.12.0 finally comes with the capability of git-like ignore files. There have been ignore files in the versions before, but they only supported wildcard matching the filename. The ignores in v0.12.0 now support relative patterns by prefixing the pattern with a slash. This way users can define global excludes. Further the wildcard character &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;*&lt;/code&gt; now behaves like in git ignore files by matching all characters but slashes. For wildcard matching including slashes use the double asterisks &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;**&lt;/code&gt;. Further files excluded by loose patterns can be included again by prefixing the pattern by prefixing the pattern with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;!&lt;/code&gt;. For more details and caveats check the docs on the files extension.&lt;/p&gt;
+
+&lt;p&gt;The websearch extension got some attention too: The settings UI is now much more comfortable. The list now supports drag and drop and the search engines are now edited using a dedicated dialog.&lt;/p&gt;
+
+&lt;p&gt;A minor change has been made to the terminal extension: The default action now launches in a shell without terminal.&lt;/p&gt;
+
+&lt;p&gt;As always check the &lt;a href=&quot;https://github.com/albertlauncher/albert/commits/v0.12.0&quot;&gt;git log&lt;/a&gt; for details.&lt;/p&gt;
+</description>
+          <pubDate>2017-06-09T17:30:00+00:00</pubDate>
+          <link>https://albertlauncher.github.io/2017/06/09/albert-v0.12.0-released/</link>
+          <guid isPermaLink="true">https://albertlauncher.github.io/2017/06/09/albert-v0.12.0-released/</guid>
+        </item>
+      
+    
+      
+        <item>
+          <title>Albert v0.11.3 released</title>
+          <description>&lt;h1 id=&quot;albert-v0113-released&quot;&gt;Albert v0.11.3 released&lt;/h1&gt;
+
+&lt;p&gt;This release contains the latest fixes. Check the &lt;a href=&quot;https://github.com/albertlauncher/albert/commits/v0.11.3&quot;&gt;git log&lt;/a&gt; for details.&lt;/p&gt;
+</description>
+          <pubDate>2017-05-28T20:00:00+00:00</pubDate>
+          <link>https://albertlauncher.github.io/2017/05/28/albert-v0.11.3-released/</link>
+          <guid isPermaLink="true">https://albertlauncher.github.io/2017/05/28/albert-v0.11.3-released/</guid>
+        </item>
+      
+    
+      
+        <item>
+          <title>Albert v0.11.2 released</title>
+          <description>&lt;h1 id=&quot;albert-v0112-released&quot;&gt;Albert v0.11.2 released&lt;/h1&gt;
+
+&lt;p&gt;This release contains the latest fixes. Further the following minor things changed:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The web searches can not be enabled/disabled anymore as fallbacks. There will be a more generic mechanism that is responsible for that.&lt;/li&gt;
+  &lt;li&gt;URLs starting with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;http&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;https&lt;/code&gt; skip the TLD validation. This way you can access e.g. host in the LAN.&lt;/li&gt;
+  &lt;li&gt;The files extension &lt;strong&gt;does not&lt;/strong&gt; require at least three chars anymore. Make sure you set your file filters correctly.&lt;/li&gt;
+  &lt;li&gt;&lt;kbd&gt;Home&lt;/kbd&gt; and &lt;kbd&gt;End&lt;/kbd&gt; now work for the results list holding &lt;kbd&gt;Ctrl&lt;/kbd&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Check the &lt;a href=&quot;https://github.com/albertlauncher/albert/commits/v0.11.2&quot;&gt;git log&lt;/a&gt; for details.&lt;/p&gt;
+</description>
+          <pubDate>2017-05-13T13:00:00+00:00</pubDate>
+          <link>https://albertlauncher.github.io/2017/05/13/albert-v0.11.2-released/</link>
+          <guid isPermaLink="true">https://albertlauncher.github.io/2017/05/13/albert-v0.11.2-released/</guid>
+        </item>
+      
+    
+      
+        <item>
+          <title>Albert v0.11.1 released</title>
+          <description>&lt;h1 id=&quot;albert-v0111-released&quot;&gt;Albert v0.11.1 released&lt;/h1&gt;
+
+&lt;p&gt;This release contains the latest fixes.&lt;/p&gt;
+
+&lt;p&gt;Check the &lt;a href=&quot;https://github.com/albertlauncher/albert/commits/v0.11.1&quot;&gt;git log&lt;/a&gt; for details.&lt;/p&gt;
+</description>
+          <pubDate>2017-04-16T11:00:00+00:00</pubDate>
+          <link>https://albertlauncher.github.io/2017/04/16/albert-v0.11.1-released/</link>
+          <guid isPermaLink="true">https://albertlauncher.github.io/2017/04/16/albert-v0.11.1-released/</guid>
+        </item>
+      
+    
+      
+        <item>
+          <title>Albert v0.11.0 released</title>
+          <description>&lt;h1 id=&quot;albert-v0110-released&quot;&gt;Albert v0.11.0 released&lt;/h1&gt;
+
+&lt;p&gt;Albert v0.11.0 is all about the files extension. The new release finally allows a fine-grained control of the MIME types to be indexed by the files extension. In the settings of the files extension the &lt;em&gt;Advanced&lt;/em&gt; button in the &lt;em&gt;Indexed MIME types&lt;/em&gt; group box opens a dialog which allows the user to set wildcard patterns that are used to match against the MIME types of the indexed files. Hopefully this is a partial solution for &lt;a href=&quot;https://github.com/albertlauncher/albert/issues/1&quot;&gt;#1&lt;/a&gt; for some of you too.&lt;/p&gt;
+
+&lt;p&gt;Extensions can now have multiple triggers. An example of multiple triggers is the files extension: A prefix of &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/&lt;/code&gt; or &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;~&lt;/code&gt; triggers the files extension in browse mode.&lt;/p&gt;
+
+&lt;p&gt;The sorting algorithm is now stable. This means that items that are equal regarding their sorting order are now displayed in the order they were added to the results.&lt;/p&gt;
+
+&lt;p&gt;Based on this the browse mode now lists the results in lexicographical order with directories before the files.&lt;/p&gt;
+
+&lt;p&gt;Additionally the use of fallbacks have been disabled for triggered queries. The rationale behind this decision is that the user implicitly tells that he want something special, not a general fallback.&lt;/p&gt;
+
+&lt;p&gt;All of the changes above make the files browse mode extremely convenient and clutter free.&lt;/p&gt;
+
+&lt;p&gt;Further the websearch extension now contains an URL handler. Valid URLs are recognized as such if it contains a top- and second level domain, e.g. &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;google.com&lt;/code&gt;. The top level domain has to be one of the ones registered by the &lt;a href=&quot;http://www.iana.org/&quot;&gt;Internet Assigned Numbers Authority&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Last but not least the qss property &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;selection-color&lt;/code&gt; works as expected now.&lt;/p&gt;
+
+&lt;p&gt;As always check the &lt;a href=&quot;https://github.com/albertlauncher/albert/commits/v0.11.0&quot;&gt;git log&lt;/a&gt; for details.&lt;/p&gt;
+</description>
+          <pubDate>2017-04-15T23:00:00+00:00</pubDate>
+          <link>https://albertlauncher.github.io/2017/04/15/albert-v0.11.0-released/</link>
+          <guid isPermaLink="true">https://albertlauncher.github.io/2017/04/15/albert-v0.11.0-released/</guid>
+        </item>
+      
+    
+      
+        <item>
+          <title>Albert v0.10.4 released</title>
+          <description>&lt;h1 id=&quot;albert-v0104-released&quot;&gt;Albert v0.10.4 released&lt;/h1&gt;
+
+&lt;p&gt;This release contains the latest fixes.&lt;/p&gt;
+
+&lt;p&gt;Check the &lt;a href=&quot;https://github.com/albertlauncher/albert/commits/v0.10.4&quot;&gt;git log&lt;/a&gt; for details.&lt;/p&gt;
+</description>
+          <pubDate>2017-04-14T10:00:00+00:00</pubDate>
+          <link>https://albertlauncher.github.io/2017/04/14/albert-v0.10.4-released/</link>
+          <guid isPermaLink="true">https://albertlauncher.github.io/2017/04/14/albert-v0.10.4-released/</guid>
+        </item>
+      
+    
+      
+        <item>
+          <title>Albert v0.10.3 released</title>
+          <description>&lt;h1 id=&quot;albert-v0103-released&quot;&gt;Albert v0.10.3 released&lt;/h1&gt;
+
+&lt;p&gt;This release contains the latest fixes.&lt;/p&gt;
+
+&lt;p&gt;Due to problems with the indexing (#419) the terminal extension changed. The extension does no more show suggestions, but a single item to run your command instead. Further the default action is now “Run in terminal”. However the “Run in shell” action is still available in the alternative actions.&lt;/p&gt;
+
+&lt;p&gt;Check the &lt;a href=&quot;https://github.com/albertlauncher/albert/commits/v0.10.3&quot;&gt;git log&lt;/a&gt; for details.&lt;/p&gt;
+</description>
+          <pubDate>2017-04-02T18:00:00+00:00</pubDate>
+          <link>https://albertlauncher.github.io/2017/04/02/albert-v0.10.3-released/</link>
+          <guid isPermaLink="true">https://albertlauncher.github.io/2017/04/02/albert-v0.10.3-released/</guid>
+        </item>
+      
+    
+      
+        <item>
+          <title>Albert v0.10.2 released</title>
+          <description>&lt;h1 id=&quot;albert-v0102-released&quot;&gt;Albert v0.10.2 released&lt;/h1&gt;
+
+&lt;p&gt;This release contains the latest fixes. Check the &lt;a href=&quot;https://github.com/albertlauncher/albert/commits/v0.10.2&quot;&gt;git log&lt;/a&gt; for details.&lt;/p&gt;
+</description>
+          <pubDate>2017-03-24T11:00:00+00:00</pubDate>
+          <link>https://albertlauncher.github.io/2017/03/24/albert-v0.10.2-released/</link>
+          <guid isPermaLink="true">https://albertlauncher.github.io/2017/03/24/albert-v0.10.2-released/</guid>
+        </item>
+      
+    
+      
+        <item>
+          <title>Albert v0.10.1 released</title>
+          <description>&lt;h1 id=&quot;albert-v0101-released&quot;&gt;Albert v0.10.1 released&lt;/h1&gt;
+
+&lt;p&gt;This release contains the latest hotfixes. Check the &lt;a href=&quot;https://github.com/albertlauncher/albert/commits/v0.10.1&quot;&gt;git log&lt;/a&gt; for details.&lt;/p&gt;
+</description>
+          <pubDate>2017-03-20T15:30:00+00:00</pubDate>
+          <link>https://albertlauncher.github.io/2017/03/20/albert-v0.10.1-released/</link>
+          <guid isPermaLink="true">https://albertlauncher.github.io/2017/03/20/albert-v0.10.1-released/</guid>
+        </item>
+      
+    
+      
+        <item>
+          <title>Albert v0.10 released</title>
+          <description>&lt;h1 id=&quot;albert-v010-released&quot;&gt;Albert v0.10 released&lt;/h1&gt;
+
+&lt;p&gt;Albert v0.10 introduces tab completion using the &lt;kbd&gt;Tab&lt;/kbd&gt; key. This allows extensions to suggest a completion text for the input box. An example: You type 2+2 into the box. When you select the calculator item and press complete the equation in the input box resolves to the result 4. The alternative actions have moved to the &lt;kbd&gt;Alt&lt;/kbd&gt; key, which has to be hold to show the alternative actions. The default fallback is now on &lt;kbd&gt;Meta&lt;/kbd&gt;.&lt;/p&gt;
+
+&lt;p&gt;Hovering over the input box the mouse wheel can now be used to browse the history, exactly the way you are used to it with &lt;kbd&gt;Ctrl&lt;/kbd&gt;+.&lt;/p&gt;
+
+&lt;p&gt;Further there is a new group of themes, the Spotlight themes, which come in three flavors: Bright, Dark and Space (Gray with Blue accent).&lt;/p&gt;
+
+&lt;p&gt;(image removed)&lt;/p&gt;
+
+&lt;p&gt;Albert v0.10 ships with two new extensions, MPRIS and a rudimentary ssh extension. Check their documentation for more details.&lt;/p&gt;
+
+&lt;p&gt;The terminal extension now provides the shell aliases too.&lt;/p&gt;
+
+&lt;p&gt;Further the files extension provides now a way to browse through paths that are &lt;em&gt;not&lt;/em&gt; indexed. Queries that begin with either &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/&lt;/code&gt; or &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;~/&lt;/code&gt; are interpreted as a beginning of a path and the extension lists the files in this directory. In combination with the tab completions this is a nice way to browse the file system.&lt;/p&gt;
+
+&lt;p&gt;The application extension allows now to ignore the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;OnlyShowIn&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;NotShowIn&lt;/code&gt; keys in the desktop entries.&lt;/p&gt;
+
+&lt;p&gt;For developers: The bash script to clone the template extension is now deprecated and replaced by a Python script.&lt;/p&gt;
+
+&lt;p&gt;Check the &lt;a href=&quot;https://github.com/albertlauncher/albert/commits/v0.10.0&quot;&gt;git log&lt;/a&gt; for details.&lt;/p&gt;
+</description>
+          <pubDate>2017-03-19T22:45:00+00:00</pubDate>
+          <link>https://albertlauncher.github.io/2017/03/19/albert-v0.10.0-released/</link>
+          <guid isPermaLink="true">https://albertlauncher.github.io/2017/03/19/albert-v0.10.0-released/</guid>
+        </item>
+      
+    
+      
+        <item>
+          <title>Albert v0.9.5 released</title>
+          <description>&lt;h1 id=&quot;albert-v095-released&quot;&gt;Albert v0.9.5 released&lt;/h1&gt;
+
+&lt;p&gt;This is a pure bugfix release. Check the &lt;a href=&quot;https://github.com/albertlauncher/albert/commits/v0.9.5&quot;&gt;git log&lt;/a&gt; for details.&lt;/p&gt;
+</description>
+          <pubDate>2017-03-13T13:00:00+00:00</pubDate>
+          <link>https://albertlauncher.github.io/2017/03/13/albert-v0.9.5-released/</link>
+          <guid isPermaLink="true">https://albertlauncher.github.io/2017/03/13/albert-v0.9.5-released/</guid>
+        </item>
+      
+    
+      
+        <item>
+          <title>Albert v0.9.4 released</title>
+          <description>&lt;h1 id=&quot;albert-v094-released&quot;&gt;Albert v0.9.4 released&lt;/h1&gt;
+
+&lt;p&gt;This is a pure bugfix release. Check the &lt;a href=&quot;https://github.com/albertlauncher/albert/commits/v0.9.4&quot;&gt;git log&lt;/a&gt; for details.&lt;/p&gt;
+</description>
+          <pubDate>2017-03-01T10:36:00+00:00</pubDate>
+          <link>https://albertlauncher.github.io/2017/03/01/albert-v0.9.4-released/</link>
+          <guid isPermaLink="true">https://albertlauncher.github.io/2017/03/01/albert-v0.9.4-released/</guid>
+        </item>
+      
+    
+      
+        <item>
+          <title>Albert v0.9.3 released</title>
+          <description>&lt;h1 id=&quot;albert-v093-released&quot;&gt;Albert v0.9.3 released&lt;/h1&gt;
+
+&lt;p&gt;This is a pure bugfix release. Check the &lt;a href=&quot;https://github.com/albertlauncher/albert/commits/v0.9.3&quot;&gt;git log&lt;/a&gt; for details.&lt;/p&gt;
+</description>
+          <pubDate>2017-02-05T15:39:00+00:00</pubDate>
+          <link>https://albertlauncher.github.io/2017/02/05/albert-v0.9.3-released/</link>
+          <guid isPermaLink="true">https://albertlauncher.github.io/2017/02/05/albert-v0.9.3-released/</guid>
+        </item>
+      
+    
+      
+        <item>
+          <title>Albert v0.9.2 released</title>
+          <description>&lt;h1 id=&quot;albert-v092-released&quot;&gt;Albert v0.9.2 released&lt;/h1&gt;
+
+&lt;p&gt;This release contains just a few but critical fixes. Check the &lt;a href=&quot;https://github.com/albertlauncher/albert/commits/v0.9.2&quot;&gt;git log&lt;/a&gt; for details.&lt;/p&gt;
+</description>
+          <pubDate>2017-01-30T00:00:00+00:00</pubDate>
+          <link>https://albertlauncher.github.io/2017/01/30/albert-v0.9.2-released/</link>
+          <guid isPermaLink="true">https://albertlauncher.github.io/2017/01/30/albert-v0.9.2-released/</guid>
+        </item>
+      
+    
+      
+        <item>
+          <title>Albert v0.9.1 released</title>
+          <description>&lt;h1 id=&quot;albert-v091-released&quot;&gt;Albert v0.9.1 released&lt;/h1&gt;
+
+&lt;p&gt;This release was intended to contain only fixes.
+However there are some minor nifty changes recognizable by the user.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Although not planned to be made official you can scan your files by typing albert scan files. Note that this feature may disappear someday.&lt;/li&gt;
+  &lt;li&gt;You can choose the terminal command in the settings dialog. The list shows all installed terminals. If you like you can provide a custom command.&lt;/li&gt;
+  &lt;li&gt;The app icon now uses a theme icon.&lt;/li&gt;
+  &lt;li&gt;Items of the files extension have now an “Open terminal here” action.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Check the &lt;a href=&quot;https://github.com/albertlauncher/albert/commits/v0.9.1&quot;&gt;git log&lt;/a&gt; for details.&lt;/p&gt;
+</description>
+          <pubDate>2017-01-23T00:00:00+00:00</pubDate>
+          <link>https://albertlauncher.github.io/2017/01/23/albert-v0.9.1-released/</link>
+          <guid isPermaLink="true">https://albertlauncher.github.io/2017/01/23/albert-v0.9.1-released/</guid>
+        </item>
+      
+    
+      
+        <item>
+          <title>Albert v0.9 released</title>
+          <description>&lt;h1 id=&quot;albert-v09-released&quot;&gt;Albert v0.9 released&lt;/h1&gt;
+
+&lt;p&gt;Almost four months have passed since the last alpha release. Dozens of hours of contemplation about a sophisticated design, dozens of hours of implementation and even a broken arm later I am happy to announce the release of Albert v0.9.&lt;/p&gt;
+
+&lt;p&gt;This release comes with a new architecture that allows extensions to register extensions themselves. Based on this changes a new extension &lt;em&gt;“External extensions”&lt;/em&gt; has been implemented, which can be used to let Albert run external programs and scripts as extensions. Here’s an example of an external bash extension that lets you run the scan popup of goldendict as external search engine:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;#!/bin/bash
+case $ALBERT_OP in
+  &quot;METADATA&quot;)
+    STDOUT=&apos;{
+      &quot;iid&quot;:&quot;org.albert.extension.external/v2.0&quot;,
+      &quot;name&quot;:&quot;Goldendict&quot;,
+      &quot;version&quot;:&quot;1.0&quot;,
+      &quot;author&quot;:&quot;Manuel Schneider&quot;,
+      &quot;dependencies&quot;:[&quot;goldendict&quot;],
+      &quot;trigger&quot;:&quot;gd &quot;
+    }&apos;
+    echo -n &quot;${STDOUT}&quot;
+    exit 0
+    ;;
+  &quot;QUERY&quot;)
+    QUERYSTRING=&quot;${ALBERT_QUERY:3}&quot;
+    echo -n &apos;{
+      &quot;items&quot;:[{
+        &quot;id&quot;:&quot;goldendict&quot;,
+        &quot;name&quot;:&quot;Use goldendict to lookup &apos;&quot;&apos;${QUERYSTRING}&apos;&quot;&apos;&quot;,
+        &quot;description&quot;:&quot;Opens the scan popup and searches for &apos;&quot;&apos;${QUERYSTRING}&apos;&quot;&apos;.&quot;,
+        &quot;icon&quot;:&quot;goldendict&quot;,
+        &quot;actions&quot;:[{
+          &quot;name&quot;:&quot;goldendict&quot;,
+          &quot;command&quot;:&quot;goldendict&quot;,
+          &quot;arguments&quot;:[&quot;&apos;${QUERYSTRING}&apos;&quot;]
+        }]
+      }]
+    }&apos;
+    exit 0
+    ;;
+esac
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;Just a few words on this to get you started. The core application runs the extension with several environment variables set. The vars used in this script are &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;$ALBERT_OP&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;$ALBERT_QUERY&lt;/code&gt;. &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;$ALBERT_OP&lt;/code&gt; tells the extension what to do. When the user enters a query the extension is started with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;$ALBERT_OP&lt;/code&gt; set to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;QUERY&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;$ALBERT_QUERY&lt;/code&gt; set to the string that the user entered.&lt;/p&gt;
+
+&lt;p&gt;The bash script in the listing above extracts the query string by cutting the trigger prefix and runs goldendict with this query string, which opens the goldendict scan popup with the query string. Now this was quick! For the details check the relevant section in the documentation.&lt;/p&gt;
+
+&lt;p&gt;Further, finally a Firefox bookmark extension made it into the extension inventory. Just as the chrome bookmarks extension the extension basically indexes the bookmarks and makes them accessible via Albert. In the settings you can choose the user profile you want to track and set if the bookmarks should open in the default browser or in Firefox.&lt;/p&gt;
+
+&lt;p&gt;The virtual box extension got some major improvements as well. You can now control the state of the virtual machine, i.e. if it is turned off you can run it (as before), if it runs you can pause, stop or save it, if it is paused… I think you got it.&lt;/p&gt;
+
+&lt;p&gt;Transparent to the user, things changed a lot under the hood to make albert even better and of course several bug fixes made it into v0.9.0 as well. If you want to see the complete changes check the &lt;a href=&quot;https://github.com/albertlauncher/albert/commits/v0.9.0&quot;&gt;git log&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Have fun with it!&lt;/p&gt;
+</description>
+          <pubDate>2017-01-17T13:49:00+00:00</pubDate>
+          <link>https://albertlauncher.github.io/2017/01/17/albert-v0.9.0-released/</link>
+          <guid isPermaLink="true">https://albertlauncher.github.io/2017/01/17/albert-v0.9.0-released/</guid>
+        </item>
+      
+    
+      
+        <item>
+          <title>Repository moved to organization page</title>
+          <description>&lt;h1 id=&quot;repository-moved-to-organization-page&quot;&gt;Repository moved to organization page&lt;/h1&gt;
+
+&lt;p&gt;Finally albert moved from my &lt;a href=&quot;https://github.com/manuelschneid3r&quot;&gt;user page&lt;/a&gt; to the &lt;a href=&quot;https://github.com/albertlauncher&quot;&gt;albert organization page&lt;/a&gt;. The repository url is now &lt;a href=&quot;https://github.com/albertlauncher/albert.git&quot;&gt;https://github.com/albertlauncher/albert.git&lt;/a&gt;. This has some implications for developers who cloned the repository: The git remote urls are now invalid. Fix them by using the git commandline (or your git tool of choice):&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git remote set-url &amp;lt;name&amp;gt; https://github.com/albertlauncher/albert
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+</description>
+          <pubDate>2017-01-11T19:09:00+00:00</pubDate>
+          <link>https://albertlauncher.github.io/2017/01/11/repository-moved-to-organization/</link>
+          <guid isPermaLink="true">https://albertlauncher.github.io/2017/01/11/repository-moved-to-organization/</guid>
+        </item>
+      
+    
+      
+        <item>
+          <title>Albert finally has a website</title>
+          <description>&lt;h1 id=&quot;albert-finally-has-a-website&quot;&gt;Albert finally has a website&lt;/h1&gt;
+
+&lt;p&gt;Until recently the information relevant to the user was cluttered over several places. For a motivation there was a small landing page on github-pages, the github repository had a README.md, which basically served the same purpose, to get help the user had to go to the wiki and for news… well there was nothing. Finally there is now a place where everything gets merged to a single website: The project website &lt;em&gt;&lt;a href=&quot;http://albertlauncher.github.io&quot;&gt;albertlauncher.github.io&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Using &lt;a href=&quot;https://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt; and a handcrafted theme based on the &lt;a href=&quot;https://milligram.io/&quot;&gt;Milligram CSS framework&lt;/a&gt; the static website offers a nice reading experience and is still somewhat maintainable for a lazy c++ guy. The docs are dynamically generated from markdown sources and allow Github users to send pull request for modifications, e.g. typos. News post are dynamically generated too and even build a RSS news feed to allow interested users to subscribe and be up to date.&lt;/p&gt;
+</description>
+          <pubDate>2017-01-09T17:17:00+00:00</pubDate>
+          <link>https://albertlauncher.github.io/2017/01/09/albert-now-has-a-website/</link>
+          <guid isPermaLink="true">https://albertlauncher.github.io/2017/01/09/albert-now-has-a-website/</guid>
+        </item>
+      
+    
+  </channel>
+</rss>
