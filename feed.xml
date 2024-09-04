@@ -25,32 +25,34 @@
           <title>Albert v0.26.1 released</title>
           <description>&lt;h1 id=&quot;albert-v0261-released&quot;&gt;Albert v0.26.1 released&lt;/h1&gt;
 
-&lt;p&gt;[albert]&lt;/p&gt;
+&lt;h2 id=&quot;albert&quot;&gt;albert&lt;/h2&gt;
+
 &lt;ul&gt;
   &lt;li&gt;Albert license v1.1&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;[plugins]&lt;/p&gt;
+&lt;h2 id=&quot;plugins&quot;&gt;plugins&lt;/h2&gt;
+
 &lt;ul&gt;
-  &lt;li&gt;[system]
+  &lt;li&gt;&lt;strong&gt;system&lt;/strong&gt;
     &lt;ul&gt;
       &lt;li&gt;Also match the trigger for sleep inhibition&lt;/li&gt;
       &lt;li&gt;Allow changing trigger for sleep inhibition&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-  &lt;li&gt;[docs]
+  &lt;li&gt;&lt;strong&gt;docs&lt;/strong&gt;
     &lt;ul&gt;
       &lt;li&gt;Proper anchor support for all kinds of docsets&lt;/li&gt;
       &lt;li&gt;Add the type to the description&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-  &lt;li&gt;[files]
+  &lt;li&gt;&lt;strong&gt;files&lt;/strong&gt;
     &lt;ul&gt;
       &lt;li&gt;Add option “index file path”&lt;/li&gt;
       &lt;li&gt;Also fix persistence for option “case senstive file browsers”&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-  &lt;li&gt;[applications]
+  &lt;li&gt;&lt;strong&gt;applications&lt;/strong&gt;
     &lt;ul&gt;
       &lt;li&gt;Sort terminals list by caseinsensitive name&lt;/li&gt;
     &lt;/ul&gt;
@@ -70,7 +72,7 @@
           <title>Albert v0.26.0 released</title>
           <description>&lt;h1 id=&quot;albert-v0260-released&quot;&gt;Albert v0.26.0 released&lt;/h1&gt;
 
-&lt;p&gt;[albert]&lt;/p&gt;
+&lt;h2 id=&quot;albert&quot;&gt;albert&lt;/h2&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Give QIcon::fromTheme another try.&lt;/li&gt;
@@ -84,7 +86,7 @@
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;[plugins]&lt;/p&gt;
+&lt;h2 id=&quot;plugins&quot;&gt;plugins&lt;/h2&gt;
 
 &lt;ul&gt;
   &lt;li&gt;[system:10.0] Add inhibit sleep feature.&lt;/li&gt;
@@ -101,7 +103,7 @@
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;[python]&lt;/p&gt;
+&lt;h2 id=&quot;python&quot;&gt;python&lt;/h2&gt;
 
 &lt;ul&gt;
   &lt;li&gt;[inhibit_sleep] Archive. Moved to system plugin.&lt;/li&gt;
@@ -124,13 +126,15 @@
           <title>Albert v0.25.0 released</title>
           <description>&lt;h1 id=&quot;albert-v0250-released&quot;&gt;Albert v0.25.0 released&lt;/h1&gt;
 
-&lt;p&gt;[albert]&lt;/p&gt;
+&lt;h2 id=&quot;albert&quot;&gt;albert&lt;/h2&gt;
+
 &lt;ul&gt;
   &lt;li&gt;Simplify MatchConfig&lt;/li&gt;
   &lt;li&gt;Hardcode error_tolerance_divisor to 4&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;[plugins]&lt;/p&gt;
+&lt;h2 id=&quot;plugins&quot;&gt;plugins&lt;/h2&gt;
+
 &lt;ul&gt;
   &lt;li&gt;[chromium:7.1] Minor improvements
     &lt;ul&gt;
@@ -177,18 +181,21 @@ Close https://github.com/albertlauncher/albert/issues/1414&lt;/li&gt;
           <title>Albert v0.24.2 released</title>
           <description>&lt;h1 id=&quot;albert-v0242-released&quot;&gt;Albert v0.24.2 released&lt;/h1&gt;
 
-&lt;p&gt;[albert]&lt;/p&gt;
+&lt;h2 id=&quot;albert&quot;&gt;albert&lt;/h2&gt;
+
 &lt;ul&gt;
   &lt;li&gt;Add “open terminal here” to app directory items&lt;/li&gt;
   &lt;li&gt;Hotfix #1408&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;[plugins]&lt;/p&gt;
+&lt;h2 id=&quot;plugins&quot;&gt;plugins&lt;/h2&gt;
+
 &lt;ul&gt;
   &lt;li&gt;[python:4.5] Update python stub file&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;[python]&lt;/p&gt;
+&lt;h2 id=&quot;python&quot;&gt;python&lt;/h2&gt;
+
 &lt;ul&gt;
   &lt;li&gt;[GoldenDict:1.5] Remove breaking type hints&lt;/li&gt;
 &lt;/ul&gt;
@@ -206,7 +213,8 @@ Close https://github.com/albertlauncher/albert/issues/1414&lt;/li&gt;
           <title>Albert v0.24.1 released</title>
           <description>&lt;h1 id=&quot;albert-v0241-released&quot;&gt;Albert v0.24.1 released&lt;/h1&gt;
 
-&lt;p&gt;[plugins]&lt;/p&gt;
+&lt;h2 id=&quot;plugins&quot;&gt;plugins&lt;/h2&gt;
+
 &lt;ul&gt;
   &lt;li&gt;[python:4.4] Revert back to using pybind submodule (v2.12.0)&lt;/li&gt;
 &lt;/ul&gt;
@@ -224,7 +232,7 @@ Close https://github.com/albertlauncher/albert/issues/1414&lt;/li&gt;
           <title>Albert v0.24.0 released</title>
           <description>&lt;h1 id=&quot;albert-v0240-released&quot;&gt;Albert v0.24.0 released&lt;/h1&gt;
 
-&lt;p&gt;[albert]&lt;/p&gt;
+&lt;h2 id=&quot;albert&quot;&gt;albert&lt;/h2&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Ignore soft hyphens in lookup strings&lt;/li&gt;
@@ -349,7 +357,7 @@ GlobalQueryHandlers that will be called on empty queries:&lt;/li&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;[plugins]&lt;/p&gt;
+&lt;h2 id=&quot;plugins&quot;&gt;plugins&lt;/h2&gt;
 
 &lt;ul&gt;
   &lt;li&gt;All plugins: Minor fixes and port to API 0.24&lt;/li&gt;
@@ -449,7 +457,8 @@ GlobalQueryHandlers that will be called on empty queries:&lt;/li&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;[python]&lt;/p&gt;
+&lt;h2 id=&quot;python&quot;&gt;python&lt;/h2&gt;
+
 &lt;ul&gt;
   &lt;li&gt;All plugins: Minor fixes and port to API 2.3&lt;/li&gt;
   &lt;li&gt;[zeal:2.0] Add fallback extension&lt;/li&gt;
@@ -535,7 +544,7 @@ uid                      home:manuelschneid3r OBS Project &amp;lt;home:manuelsch
           <title>Albert v0.23.0 released</title>
           <description>&lt;h1 id=&quot;albert-v0230-released&quot;&gt;Albert v0.23.0 released&lt;/h1&gt;
 
-&lt;p&gt;[albert]&lt;/p&gt;
+&lt;h2 id=&quot;albert&quot;&gt;albert&lt;/h2&gt;
 
 &lt;ul&gt;
   &lt;li&gt;i18n&lt;/li&gt;
@@ -580,7 +589,7 @@ Extensions can now bei registered dynamically at any time.&lt;/li&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;[plugins]&lt;/p&gt;
+&lt;h2 id=&quot;plugins&quot;&gt;plugins&lt;/h2&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Support i18n&lt;/li&gt;
@@ -656,7 +665,7 @@ Extensions can now bei registered dynamically at any time.&lt;/li&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;[python]&lt;/p&gt;
+&lt;h2 id=&quot;python&quot;&gt;python&lt;/h2&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Reinstate proper licensing&lt;/li&gt;
@@ -680,7 +689,8 @@ Extensions can now bei registered dynamically at any time.&lt;/li&gt;
           <title>Albert v0.22.17 released</title>
           <description>&lt;h1 id=&quot;albert-v02217-released&quot;&gt;Albert v0.22.17 released&lt;/h1&gt;
 
-&lt;p&gt;[albert]&lt;/p&gt;
+&lt;h2 id=&quot;albert&quot;&gt;albert&lt;/h2&gt;
+
 &lt;ul&gt;
   &lt;li&gt;Prepend albert to logging categories, default filter debug&lt;/li&gt;
   &lt;li&gt;Remove logging rules cli arguments
@@ -688,7 +698,8 @@ Dont work on some systems and there is QT_LOGGING_RULES for it&lt;/li&gt;
   &lt;li&gt;Differentiate terminator terminals suffering bug 660&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;[plugins]&lt;/p&gt;
+&lt;h2 id=&quot;plugins&quot;&gt;plugins&lt;/h2&gt;
+
 &lt;ul&gt;
   &lt;li&gt;[mpris:2.0] Ported&lt;/li&gt;
 &lt;/ul&gt;
@@ -706,7 +717,8 @@ Dont work on some systems and there is QT_LOGGING_RULES for it&lt;/li&gt;
           <title>Albert v0.22.16 released</title>
           <description>&lt;h1 id=&quot;albert-v02216-released&quot;&gt;Albert v0.22.16 released&lt;/h1&gt;
 
-&lt;p&gt;[albert]&lt;/p&gt;
+&lt;h2 id=&quot;albert&quot;&gt;albert&lt;/h2&gt;
+
 &lt;ul&gt;
   &lt;li&gt;Remove the visual warning on crashes.
 This ICE error bug is going to stay around for a while.&lt;/li&gt;
@@ -717,7 +729,8 @@ to delegate entirely to the desktop environment.&lt;/li&gt;
 To get the ability to fetch report from the running instance.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;[plugins]&lt;/p&gt;
+&lt;h2 id=&quot;plugins&quot;&gt;plugins&lt;/h2&gt;
+
 &lt;ul&gt;
   &lt;li&gt;[python:2.1.0]
 Make plugin major.minor the interface version
@@ -731,7 +744,8 @@ also required such that the locks above dont introduce stuttering.&lt;/li&gt;
   &lt;li&gt;[app_xdg:1.8] Use Ubuntu gettext domains&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;[python]&lt;/p&gt;
+&lt;h2 id=&quot;python&quot;&gt;python&lt;/h2&gt;
+
 &lt;ul&gt;
   &lt;li&gt;[bitwarden] 2.0
 Add copy-username action&lt;/li&gt;
@@ -750,7 +764,8 @@ Add copy-username action&lt;/li&gt;
           <title>Albert v0.22.15 released</title>
           <description>&lt;h1 id=&quot;albert-v02215-released&quot;&gt;Albert v0.22.15 released&lt;/h1&gt;
 
-&lt;p&gt;[albert]&lt;/p&gt;
+&lt;h2 id=&quot;albert&quot;&gt;albert&lt;/h2&gt;
+
 &lt;ul&gt;
   &lt;li&gt;Fix missing smooth transform in icon provider&lt;/li&gt;
   &lt;li&gt;Add style information to report&lt;/li&gt;
@@ -760,14 +775,16 @@ Add copy-username action&lt;/li&gt;
   &lt;li&gt;Give enough time to connect to other instance.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;[plugins]&lt;/p&gt;
+&lt;h2 id=&quot;plugins&quot;&gt;plugins&lt;/h2&gt;
+
 &lt;ul&gt;
   &lt;li&gt;[system:1.8] Dont prompt on gnome session logout&lt;/li&gt;
   &lt;li&gt;[wbm:1.6] Remove unnecessary cast that may introduce segfaults&lt;/li&gt;
   &lt;li&gt;[app_xdg:1.8] Use Ubuntu gettext domains&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;[python]&lt;/p&gt;
+&lt;h2 id=&quot;python&quot;&gt;python&lt;/h2&gt;
+
 &lt;ul&gt;
   &lt;li&gt;[stub] Fix links&lt;/li&gt;
 &lt;/ul&gt;
@@ -785,7 +802,8 @@ Add copy-username action&lt;/li&gt;
           <title>Albert v0.22.14 released</title>
           <description>&lt;h1 id=&quot;albert-v02214-released&quot;&gt;Albert v0.22.14 released&lt;/h1&gt;
 
-&lt;p&gt;[albert]&lt;/p&gt;
+&lt;h2 id=&quot;albert&quot;&gt;albert&lt;/h2&gt;
+
 &lt;ul&gt;
   &lt;li&gt;Let RPCServer take care of crash reports. This is a hotfix to remove the recurring crash report on start, if the app is run more than once, e.g. because the session manager restores a session including albert, but albert is also configured to be autostarted.&lt;/li&gt;
 &lt;/ul&gt;
@@ -803,13 +821,15 @@ Add copy-username action&lt;/li&gt;
           <title>Albert v0.22.13 released</title>
           <description>&lt;h1 id=&quot;albert-v02213-released&quot;&gt;Albert v0.22.13 released&lt;/h1&gt;
 
-&lt;p&gt;[albert]&lt;/p&gt;
+&lt;h2 id=&quot;albert&quot;&gt;albert&lt;/h2&gt;
+
 &lt;ul&gt;
   &lt;li&gt;Hotfix create missing application paths&lt;/li&gt;
   &lt;li&gt;Fix pixmaps path&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;[plugins]&lt;/p&gt;
+&lt;h2 id=&quot;plugins&quot;&gt;plugins&lt;/h2&gt;
+
 &lt;ul&gt;
   &lt;li&gt;[qml] Fix version branching logic&lt;/li&gt;
 &lt;/ul&gt;
@@ -827,17 +847,20 @@ Add copy-username action&lt;/li&gt;
           <title>Albert v0.22.12 released</title>
           <description>&lt;h1 id=&quot;albert-v02212-released&quot;&gt;Albert v0.22.12 released&lt;/h1&gt;
 
-&lt;p&gt;[albert]&lt;/p&gt;
+&lt;h2 id=&quot;albert&quot;&gt;albert&lt;/h2&gt;
+
 &lt;ul&gt;
   &lt;li&gt;CI/CD: Fix path in sed expression&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;[plugins]&lt;/p&gt;
+&lt;h2 id=&quot;plugins&quot;&gt;plugins&lt;/h2&gt;
+
 &lt;ul&gt;
   &lt;li&gt;[sparkle] Add macos updater plugin prototype&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;[python]&lt;/p&gt;
+&lt;h2 id=&quot;python&quot;&gt;python&lt;/h2&gt;
+
 &lt;ul&gt;
   &lt;li&gt;[jetbrains] Add RustRover editor&lt;/li&gt;
 &lt;/ul&gt;
@@ -855,12 +878,14 @@ Add copy-username action&lt;/li&gt;
           <title>Albert v0.22.11 released</title>
           <description>&lt;h1 id=&quot;albert-v02211-released&quot;&gt;Albert v0.22.11 released&lt;/h1&gt;
 
-&lt;p&gt;[albert]&lt;/p&gt;
+&lt;h2 id=&quot;albert&quot;&gt;albert&lt;/h2&gt;
+
 &lt;ul&gt;
   &lt;li&gt;Add missing “-executable=” for macdeployqt plugin parameters&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;[plugins]&lt;/p&gt;
+&lt;h2 id=&quot;plugins&quot;&gt;plugins&lt;/h2&gt;
+
 &lt;ul&gt;
   &lt;li&gt;[py] Hotfix: Workaround https://bugreports.qt.io/browse/QTBUG-117153&lt;/li&gt;
 &lt;/ul&gt;
@@ -878,7 +903,8 @@ Add copy-username action&lt;/li&gt;
           <title>Albert v0.22.10 released</title>
           <description>&lt;h1 id=&quot;albert-v02210-released&quot;&gt;Albert v0.22.10 released&lt;/h1&gt;
 
-&lt;p&gt;[albert]&lt;/p&gt;
+&lt;h2 id=&quot;albert&quot;&gt;albert&lt;/h2&gt;
+
 &lt;ul&gt;
   &lt;li&gt;CI/CD: Appcast prototype&lt;/li&gt;
   &lt;li&gt;Store log in cache dir&lt;/li&gt;
@@ -887,7 +913,8 @@ There are some plugins that dont like to be unloaded (Sparkle, Python).
 Add a mechanism to let plugins prohibit users to unload it at runtime.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;[plugins]&lt;/p&gt;
+&lt;h2 id=&quot;plugins&quot;&gt;plugins&lt;/h2&gt;
+
 &lt;ul&gt;
   &lt;li&gt;[py] Fix 6.5.2 only QLogCat quirks. Fixes arch builds&lt;/li&gt;
 &lt;/ul&gt;
@@ -905,7 +932,8 @@ Add a mechanism to let plugins prohibit users to unload it at runtime.&lt;/li&gt
           <title>Albert v0.22.9 released</title>
           <description>&lt;h1 id=&quot;albert-v0229-released&quot;&gt;Albert v0.22.9 released&lt;/h1&gt;
 
-&lt;p&gt;[albert]&lt;/p&gt;
+&lt;h2 id=&quot;albert&quot;&gt;albert&lt;/h2&gt;
+
 &lt;ul&gt;
   &lt;li&gt;CD: upload on tag&lt;/li&gt;
   &lt;li&gt;Revert. NO_SONAME makes troubles on other platforms.&lt;/li&gt;
@@ -924,7 +952,8 @@ Add a mechanism to let plugins prohibit users to unload it at runtime.&lt;/li&gt
           <title>Albert v0.22.8 released</title>
           <description>&lt;h1 id=&quot;albert-v0228-released&quot;&gt;Albert v0.22.8 released&lt;/h1&gt;
 
-&lt;p&gt;[albert]&lt;/p&gt;
+&lt;h2 id=&quot;albert&quot;&gt;albert&lt;/h2&gt;
+
 &lt;ul&gt;
   &lt;li&gt;Hotfix fixing RPM based builds&lt;/li&gt;
 &lt;/ul&gt;
@@ -942,7 +971,8 @@ Add a mechanism to let plugins prohibit users to unload it at runtime.&lt;/li&gt
           <title>Albert v0.22.7 released</title>
           <description>&lt;h1 id=&quot;albert-v0227-released&quot;&gt;Albert v0.22.7 released&lt;/h1&gt;
 
-&lt;p&gt;[albert]&lt;/p&gt;
+&lt;h2 id=&quot;albert&quot;&gt;albert&lt;/h2&gt;
+
 &lt;ul&gt;
   &lt;li&gt;Restore 6.2 backward compatibility&lt;/li&gt;
 &lt;/ul&gt;
@@ -960,13 +990,15 @@ Add a mechanism to let plugins prohibit users to unload it at runtime.&lt;/li&gt
           <title>Albert v0.22.6 released</title>
           <description>&lt;h1 id=&quot;albert-v0226-released&quot;&gt;Albert v0.22.6 released&lt;/h1&gt;
 
-&lt;p&gt;[albert]&lt;/p&gt;
+&lt;h2 id=&quot;albert&quot;&gt;albert&lt;/h2&gt;
+
 &lt;ul&gt;
   &lt;li&gt;Proper tab navigation in handler widget&lt;/li&gt;
   &lt;li&gt;NativePluginProvider: Use absolute file paths.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;[plugins]&lt;/p&gt;
+&lt;h2 id=&quot;plugins&quot;&gt;plugins&lt;/h2&gt;
+
 &lt;ul&gt;
   &lt;li&gt;[files] Fix “rel. dirpaths of depth 1 have dot prepended” issue&lt;/li&gt;
   &lt;li&gt;[docs] Fix recent changes to download urls&lt;/li&gt;
@@ -986,7 +1018,8 @@ Add a mechanism to let plugins prohibit users to unload it at runtime.&lt;/li&gt
           <title>Albert v0.22.5 released</title>
           <description>&lt;h1 id=&quot;albert-v0225-released&quot;&gt;Albert v0.22.5 released&lt;/h1&gt;
 
-&lt;p&gt;[albert]&lt;/p&gt;
+&lt;h2 id=&quot;albert&quot;&gt;albert&lt;/h2&gt;
+
 &lt;ul&gt;
   &lt;li&gt;CMake: On macOS include the macports lookup path&lt;/li&gt;
   &lt;li&gt;Fix segfaults on busywait&lt;/li&gt;
@@ -995,7 +1028,8 @@ Add a mechanism to let plugins prohibit users to unload it at runtime.&lt;/li&gt
   &lt;li&gt;Add iconlookup in /usr/local/share although not standardized&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;[plugins]&lt;/p&gt;
+&lt;h2 id=&quot;plugins&quot;&gt;plugins&lt;/h2&gt;
+
 &lt;ul&gt;
   &lt;li&gt;[qml] Add hack around lacking DropShadow.samples in Qt &amp;lt;6.4&lt;/li&gt;
   &lt;li&gt;[apps_macos] v1.3
@@ -1013,7 +1047,8 @@ Add a mechanism to let plugins prohibit users to unload it at runtime.&lt;/li&gt
   &lt;li&gt;[qml] Fix clear on hide breaking history search&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;[python]&lt;/p&gt;
+&lt;h2 id=&quot;python&quot;&gt;python&lt;/h2&gt;
+
 &lt;ul&gt;
   &lt;li&gt;[goldendict] Fix import issue&lt;/li&gt;
   &lt;li&gt;[pass] Add OTP feature&lt;/li&gt;
@@ -1032,7 +1067,8 @@ Add a mechanism to let plugins prohibit users to unload it at runtime.&lt;/li&gt
           <title>Albert v0.22.4 released</title>
           <description>&lt;h1 id=&quot;albert-v0224-released&quot;&gt;Albert v0.22.4 released&lt;/h1&gt;
 
-&lt;p&gt;[plugins]&lt;/p&gt;
+&lt;h2 id=&quot;plugins&quot;&gt;plugins&lt;/h2&gt;
+
 &lt;ul&gt;
   &lt;li&gt;[docs] Add cache for docset list&lt;/li&gt;
   &lt;li&gt;[docs] Use find_program to find brew for ootb cmake config&lt;/li&gt;
@@ -1044,7 +1080,8 @@ Add a mechanism to let plugins prohibit users to unload it at runtime.&lt;/li&gt
   &lt;li&gt;[snippets] Port old snippets&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;[python]&lt;/p&gt;
+&lt;h2 id=&quot;python&quot;&gt;python&lt;/h2&gt;
+
 &lt;ul&gt;
   &lt;li&gt;[googletrans] Archive. py-googletrans is broken.&lt;/li&gt;
   &lt;li&gt;[translators] Add “translators” plugin&lt;/li&gt;
@@ -1065,7 +1102,8 @@ Add a mechanism to let plugins prohibit users to unload it at runtime.&lt;/li&gt
           <title>Albert v0.22.3 released</title>
           <description>&lt;h1 id=&quot;albert-v0223-released&quot;&gt;Albert v0.22.3 released&lt;/h1&gt;
 
-&lt;p&gt;[albert]&lt;/p&gt;
+&lt;h2 id=&quot;albert&quot;&gt;albert&lt;/h2&gt;
+
 &lt;ul&gt;
   &lt;li&gt;Dont show version notification before app is fully initialized&lt;/li&gt;
 &lt;/ul&gt;
@@ -1083,12 +1121,14 @@ Add a mechanism to let plugins prohibit users to unload it at runtime.&lt;/li&gt
           <title>Albert v0.22.2 released</title>
           <description>&lt;h1 id=&quot;albert-v0222-released&quot;&gt;Albert v0.22.2 released&lt;/h1&gt;
 
-&lt;p&gt;[albert]&lt;/p&gt;
+&lt;h2 id=&quot;albert&quot;&gt;albert&lt;/h2&gt;
+
 &lt;ul&gt;
   &lt;li&gt;Fix logging filters&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;[plugins]&lt;/p&gt;
+&lt;h2 id=&quot;plugins&quot;&gt;plugins&lt;/h2&gt;
+
 &lt;ul&gt;
   &lt;li&gt;[ws] Fix websearch breaking users search engines config&lt;/li&gt;
   &lt;li&gt;[ws] Fix websearch not applying icon when selected from file dialog&lt;/li&gt;
@@ -1107,14 +1147,16 @@ Add a mechanism to let plugins prohibit users to unload it at runtime.&lt;/li&gt
           <title>Albert v0.22.1 released</title>
           <description>&lt;h1 id=&quot;albert-v0221-released&quot;&gt;Albert v0.22.1 released&lt;/h1&gt;
 
-&lt;p&gt;[albert]&lt;/p&gt;
+&lt;h2 id=&quot;albert&quot;&gt;albert&lt;/h2&gt;
+
 &lt;ul&gt;
   &lt;li&gt;Freedesktop notification implementation&lt;/li&gt;
   &lt;li&gt;Adopt generic Notification interface on macOS&lt;/li&gt;
   &lt;li&gt;Fix Linux paste action&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;[plugins]&lt;/p&gt;
+&lt;h2 id=&quot;plugins&quot;&gt;plugins&lt;/h2&gt;
+
 &lt;ul&gt;
   &lt;li&gt;[apps_xdg] Default trigger “apps”&lt;/li&gt;
   &lt;li&gt;[yp] Update notification function&lt;/li&gt;
@@ -1122,7 +1164,8 @@ Add a mechanism to let plugins prohibit users to unload it at runtime.&lt;/li&gt
   &lt;li&gt;[clipboard] Add paste action&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;[python]&lt;/p&gt;
+&lt;h2 id=&quot;python&quot;&gt;python&lt;/h2&gt;
+
 &lt;ul&gt;
   &lt;li&gt;[pint,yt] Archived. Require maintenance&lt;/li&gt;
   &lt;li&gt;[timer] Adopt notification api changes&lt;/li&gt;
@@ -1280,19 +1323,22 @@ Add a mechanism to let plugins prohibit users to unload it at runtime.&lt;/li&gt
           <title>Albert v0.21.1 released</title>
           <description>&lt;h1 id=&quot;albert-v0211-released&quot;&gt;Albert v0.21.1 released&lt;/h1&gt;
 
-&lt;p&gt;[albert]&lt;/p&gt;
+&lt;h2 id=&quot;albert&quot;&gt;albert&lt;/h2&gt;
+
 &lt;ul&gt;
   &lt;li&gt;Add cmd/ctrl + number tab navigation in settings&lt;/li&gt;
   &lt;li&gt;Automatically add hpp and qml files to plugin projects&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;[plugins]&lt;/p&gt;
+&lt;h2 id=&quot;plugins&quot;&gt;plugins&lt;/h2&gt;
+
 &lt;ul&gt;
   &lt;li&gt;[docs:1.2] Polish. Fix #106&lt;/li&gt;
   &lt;li&gt;Fix misleading comment in config widget&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;[python]&lt;/p&gt;
+&lt;h2 id=&quot;python&quot;&gt;python&lt;/h2&gt;
+
 &lt;ul&gt;
   &lt;li&gt;[stub] Add missing imports to stub file&lt;/li&gt;
   &lt;li&gt;[tex_to_unicode] Fix crash due to wrong type annotation&lt;/li&gt;
@@ -1312,7 +1358,8 @@ Add a mechanism to let plugins prohibit users to unload it at runtime.&lt;/li&gt
           <title>Albert v0.21.0 released</title>
           <description>&lt;h1 id=&quot;albert-v0210-released&quot;&gt;Albert v0.21.0 released&lt;/h1&gt;
 
-&lt;p&gt;[albert]&lt;/p&gt;
+&lt;h2 id=&quot;albert&quot;&gt;albert&lt;/h2&gt;
+
 &lt;ul&gt;
   &lt;li&gt;v0.21.0
     &lt;ul&gt;
@@ -1336,7 +1383,8 @@ Add a mechanism to let plugins prohibit users to unload it at runtime.&lt;/li&gt
   &lt;li&gt;Fix triggered global query MRU sort&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;[plugins]&lt;/p&gt;
+&lt;h2 id=&quot;plugins&quot;&gt;plugins&lt;/h2&gt;
+
 &lt;ul&gt;
   &lt;li&gt;New extensions:
     &lt;ul&gt;
@@ -1374,7 +1422,8 @@ Add a mechanism to let plugins prohibit users to unload it at runtime.&lt;/li&gt
   &lt;li&gt;[all] Adopt API v0.21.0&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;[python]&lt;/p&gt;
+&lt;h2 id=&quot;python&quot;&gt;python&lt;/h2&gt;
+
 &lt;ul&gt;
   &lt;li&gt;Add stub file for type hinting and documentation in IDEs&lt;/li&gt;
   &lt;li&gt;New extensions:
@@ -1419,13 +1468,15 @@ Add a mechanism to let plugins prohibit users to unload it at runtime.&lt;/li&gt
           <title>Albert v0.20.14 released</title>
           <description>&lt;h1 id=&quot;albert-v02014-released&quot;&gt;Albert v0.20.14 released&lt;/h1&gt;
 
-&lt;p&gt;[albert]&lt;/p&gt;
+&lt;h2 id=&quot;albert&quot;&gt;albert&lt;/h2&gt;
+
 &lt;ul&gt;
   &lt;li&gt;Sort triggerwidget by name rather than id&lt;/li&gt;
   &lt;li&gt;Avoid segfaults when setting hotkey failed.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;[plugins]&lt;/p&gt;
+&lt;h2 id=&quot;plugins&quot;&gt;plugins&lt;/h2&gt;
+
 &lt;ul&gt;
   &lt;li&gt;[ws] fix oversized text in config&lt;/li&gt;
   &lt;li&gt;[sys:1.6] Dynamic default commands.&lt;/li&gt;
@@ -1433,7 +1484,8 @@ Add a mechanism to let plugins prohibit users to unload it at runtime.&lt;/li&gt
   &lt;li&gt;[system] Add lxqt defaults&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;[python]&lt;/p&gt;
+&lt;h2 id=&quot;python&quot;&gt;python&lt;/h2&gt;
+
 &lt;ul&gt;
   &lt;li&gt;[python_eval:1.3] Fix type of result in item subtext&lt;/li&gt;
   &lt;li&gt;[locate:1.7] Fix lambda capture&lt;/li&gt;
@@ -1455,7 +1507,8 @@ Add a mechanism to let plugins prohibit users to unload it at runtime.&lt;/li&gt
           <title>Albert v0.20.13 released</title>
           <description>&lt;h1 id=&quot;albert-v02013-released&quot;&gt;Albert v0.20.13 released&lt;/h1&gt;
 
-&lt;p&gt;[plugins]&lt;/p&gt;
+&lt;h2 id=&quot;plugins&quot;&gt;plugins&lt;/h2&gt;
+
 &lt;ul&gt;
   &lt;li&gt;[ws] Show space markers in trigger section&lt;/li&gt;
   &lt;li&gt;[vbox:v1.3] Port iid:0.5&lt;/li&gt;
@@ -1476,7 +1529,8 @@ Add a mechanism to let plugins prohibit users to unload it at runtime.&lt;/li&gt
           <title>Albert v0.20.12 released</title>
           <description>&lt;h1 id=&quot;albert-v02012-released&quot;&gt;Albert v0.20.12 released&lt;/h1&gt;
 
-&lt;p&gt;[plugins]&lt;/p&gt;
+&lt;h2 id=&quot;plugins&quot;&gt;plugins&lt;/h2&gt;
+
 &lt;ul&gt;
   &lt;li&gt;[system:1.4] Make items checkable and titles customizeable&lt;/li&gt;
 &lt;/ul&gt;
@@ -1494,19 +1548,22 @@ Add a mechanism to let plugins prohibit users to unload it at runtime.&lt;/li&gt
           <title>Albert v0.20.11 released</title>
           <description>&lt;h1 id=&quot;albert-v02011-released&quot;&gt;Albert v0.20.11 released&lt;/h1&gt;
 
-&lt;p&gt;[albert]&lt;/p&gt;
+&lt;h2 id=&quot;albert&quot;&gt;albert&lt;/h2&gt;
+
 &lt;ul&gt;
   &lt;li&gt;Respect whitespaces in rpcs&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;[plugins]&lt;/p&gt;
+&lt;h2 id=&quot;plugins&quot;&gt;plugins&lt;/h2&gt;
+
 &lt;ul&gt;
   &lt;li&gt;[wbm] Add option “Center on active screen”&lt;/li&gt;
   &lt;li&gt;[app_xdg] Add action “reveal desktop entry”&lt;/li&gt;
   &lt;li&gt;[files] Workaround Qt appending slash to root paths&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;[python]&lt;/p&gt;
+&lt;h2 id=&quot;python&quot;&gt;python&lt;/h2&gt;
+
 &lt;ul&gt;
   &lt;li&gt;[bitwarden] 1.1 (iid: 0.5)&lt;/li&gt;
   &lt;li&gt;[vpn] Add wireguard to connection types&lt;/li&gt;
@@ -1544,12 +1601,14 @@ Add a mechanism to let plugins prohibit users to unload it at runtime.&lt;/li&gt
           <title>Albert v0.20.9 released</title>
           <description>&lt;h1 id=&quot;albert-v0209-released&quot;&gt;Albert v0.20.9 released&lt;/h1&gt;
 
-&lt;p&gt;[albert]&lt;/p&gt;
+&lt;h2 id=&quot;albert&quot;&gt;albert&lt;/h2&gt;
+
 &lt;ul&gt;
   &lt;li&gt;Update supported terminals (add st and blackbox, remove tilda)&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;[plugins]&lt;/p&gt;
+&lt;h2 id=&quot;plugins&quot;&gt;plugins&lt;/h2&gt;
+
 &lt;ul&gt;
   &lt;li&gt;[wbm] Hide task bar entry&lt;/li&gt;
   &lt;li&gt;[ws] Add google scholar to defaults&lt;/li&gt;
@@ -1568,13 +1627,15 @@ Add a mechanism to let plugins prohibit users to unload it at runtime.&lt;/li&gt
           <title>Albert v0.20.8 released</title>
           <description>&lt;h1 id=&quot;albert-v0208-released&quot;&gt;Albert v0.20.8 released&lt;/h1&gt;
 
-&lt;p&gt;[albert]&lt;/p&gt;
+&lt;h2 id=&quot;albert&quot;&gt;albert&lt;/h2&gt;
+
 &lt;ul&gt;
   &lt;li&gt;Tilda support&lt;/li&gt;
   &lt;li&gt;Print font in report&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;[plugins]&lt;/p&gt;
+&lt;h2 id=&quot;plugins&quot;&gt;plugins&lt;/h2&gt;
+
 &lt;ul&gt;
   &lt;li&gt;[contacts_mac] v1.0&lt;/li&gt;
   &lt;li&gt;[wbm] Dont hide window when control modifier is hold&lt;/li&gt;
@@ -1594,12 +1655,14 @@ Add a mechanism to let plugins prohibit users to unload it at runtime.&lt;/li&gt
           <title>Albert v0.20.7 released</title>
           <description>&lt;h1 id=&quot;albert-v0207-released&quot;&gt;Albert v0.20.7 released&lt;/h1&gt;
 
-&lt;p&gt;[albert]&lt;/p&gt;
+&lt;h2 id=&quot;albert&quot;&gt;albert&lt;/h2&gt;
+
 &lt;ul&gt;
   &lt;li&gt;Clear icon cache if unused for a minute.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;[plugins]&lt;/p&gt;
+&lt;h2 id=&quot;plugins&quot;&gt;plugins&lt;/h2&gt;
+
 &lt;ul&gt;
   &lt;li&gt;[wbm] Postpone query deletion until hide event to prevent busy wait for destruction&lt;/li&gt;
 &lt;/ul&gt;
@@ -1617,17 +1680,20 @@ Add a mechanism to let plugins prohibit users to unload it at runtime.&lt;/li&gt
           <title>Albert v0.20.6 released</title>
           <description>&lt;h1 id=&quot;albert-v0206-released&quot;&gt;Albert v0.20.6 released&lt;/h1&gt;
 
-&lt;p&gt;[albert]&lt;/p&gt;
+&lt;h2 id=&quot;albert&quot;&gt;albert&lt;/h2&gt;
+
 &lt;ul&gt;
   &lt;li&gt;Close settingswindow on ctrl+w&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;[plugins]&lt;/p&gt;
+&lt;h2 id=&quot;plugins&quot;&gt;plugins&lt;/h2&gt;
+
 &lt;ul&gt;
   &lt;li&gt;[wbm] Avoid segfaults on failing screenAt()&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;[python]&lt;/p&gt;
+&lt;h2 id=&quot;python&quot;&gt;python&lt;/h2&gt;
+
 &lt;ul&gt;
   &lt;li&gt;[jetbrains:1.1] Polish. Fix Macos.&lt;/li&gt;
 &lt;/ul&gt;
@@ -1645,7 +1711,8 @@ Add a mechanism to let plugins prohibit users to unload it at runtime.&lt;/li&gt
           <title>Albert v0.20.5 released</title>
           <description>&lt;h1 id=&quot;albert-v0205-released&quot;&gt;Albert v0.20.5 released&lt;/h1&gt;
 
-&lt;p&gt;[albert]&lt;/p&gt;
+&lt;h2 id=&quot;albert&quot;&gt;albert&lt;/h2&gt;
+
 &lt;ul&gt;
   &lt;li&gt;Drop usage weight. Add option to prioritize perfect matches. See #695&lt;/li&gt;
 &lt;/ul&gt;
@@ -1663,13 +1730,15 @@ Add a mechanism to let plugins prohibit users to unload it at runtime.&lt;/li&gt
           <title>Albert v0.20.4 released</title>
           <description>&lt;h1 id=&quot;albert-v0204-released&quot;&gt;Albert v0.20.4 released&lt;/h1&gt;
 
-&lt;p&gt;[albert]&lt;/p&gt;
+&lt;h2 id=&quot;albert&quot;&gt;albert&lt;/h2&gt;
+
 &lt;ul&gt;
   &lt;li&gt;Reintroduce telemetry&lt;/li&gt;
   &lt;li&gt;Fix disfunctional link in settings&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;[python]&lt;/p&gt;
+&lt;h2 id=&quot;python&quot;&gt;python&lt;/h2&gt;
+
 &lt;ul&gt;
   &lt;li&gt;[tex_to_unicode] py interface 0.5&lt;/li&gt;
   &lt;li&gt;[vpn] 1.1 (iid: 0.5)&lt;/li&gt;
@@ -1690,7 +1759,8 @@ Add a mechanism to let plugins prohibit users to unload it at runtime.&lt;/li&gt
           <title>Albert v0.20.3 released</title>
           <description>&lt;h1 id=&quot;albert-v0203-released&quot;&gt;Albert v0.20.3 released&lt;/h1&gt;
 
-&lt;p&gt;[albert]&lt;/p&gt;
+&lt;h2 id=&quot;albert&quot;&gt;albert&lt;/h2&gt;
+
 &lt;ul&gt;
   &lt;li&gt;Remove plugin registry from global search&lt;/li&gt;
   &lt;li&gt;Add -Wno-inline&lt;/li&gt;
@@ -1698,13 +1768,15 @@ Add a mechanism to let plugins prohibit users to unload it at runtime.&lt;/li&gt
   &lt;li&gt;Tray icon isMask&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;[plugins]&lt;/p&gt;
+&lt;h2 id=&quot;plugins&quot;&gt;plugins&lt;/h2&gt;
+
 &lt;ul&gt;
   &lt;li&gt;[platform_mac] 1.0&lt;/li&gt;
   &lt;li&gt;[py] Add button to open the dependency dir&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;[python]&lt;/p&gt;
+&lt;h2 id=&quot;python&quot;&gt;python&lt;/h2&gt;
+
 &lt;ul&gt;
   &lt;li&gt;[pint] 1.0 (currency converter)&lt;/li&gt;
 &lt;/ul&gt;
@@ -1722,12 +1794,14 @@ Add a mechanism to let plugins prohibit users to unload it at runtime.&lt;/li&gt
           <title>Albert v0.20.2 released</title>
           <description>&lt;h1 id=&quot;albert-v0202-released&quot;&gt;Albert v0.20.2 released&lt;/h1&gt;
 
-&lt;p&gt;[plugins]&lt;/p&gt;
+&lt;h2 id=&quot;plugins&quot;&gt;plugins&lt;/h2&gt;
+
 &lt;ul&gt;
   &lt;li&gt;[py] Quote cd path&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;[python]&lt;/p&gt;
+&lt;h2 id=&quot;python&quot;&gt;python&lt;/h2&gt;
+
 &lt;ul&gt;
   &lt;li&gt;[pacman] v1.6 iid:0.5&lt;/li&gt;
   &lt;li&gt;[timer] v1.4 iid:0.5&lt;/li&gt;
@@ -1746,7 +1820,8 @@ Add a mechanism to let plugins prohibit users to unload it at runtime.&lt;/li&gt
           <title>Albert v0.20.1 released</title>
           <description>&lt;h1 id=&quot;albert-v0201-released&quot;&gt;Albert v0.20.1 released&lt;/h1&gt;
 
-&lt;p&gt;[albert]&lt;/p&gt;
+&lt;h2 id=&quot;albert&quot;&gt;albert&lt;/h2&gt;
+
 &lt;ul&gt;
   &lt;li&gt;Fix pedantic warnings&lt;/li&gt;
   &lt;li&gt;BW tray&lt;/li&gt;
@@ -1755,7 +1830,8 @@ Add a mechanism to let plugins prohibit users to unload it at runtime.&lt;/li&gt
   &lt;li&gt;Fix segfaults on empty icon name lookup&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;[plugins]&lt;/p&gt;
+&lt;h2 id=&quot;plugins&quot;&gt;plugins&lt;/h2&gt;
+
 &lt;ul&gt;
   &lt;li&gt;Lots of UI polishing&lt;/li&gt;
   &lt;li&gt;[qalc] Fix precision probles&lt;/li&gt;
@@ -1776,18 +1852,21 @@ Add a mechanism to let plugins prohibit users to unload it at runtime.&lt;/li&gt
           <title>Albert v0.20.0 released</title>
           <description>&lt;h1 id=&quot;albert-v0200-released&quot;&gt;Albert v0.20.0 released&lt;/h1&gt;
 
-&lt;p&gt;[albert]&lt;/p&gt;
+&lt;h2 id=&quot;albert&quot;&gt;albert&lt;/h2&gt;
+
 &lt;ul&gt;
   &lt;li&gt;Config widget per plugin (v0.20)&lt;/li&gt;
   &lt;li&gt;Make Triggerwidget edit trigger on double click anywhere&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;[plugins]&lt;/p&gt;
+&lt;h2 id=&quot;plugins&quot;&gt;plugins&lt;/h2&gt;
+
 &lt;ul&gt;
   &lt;li&gt;[chromium:1.4] Add path reset button&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;[python]&lt;/p&gt;
+&lt;h2 id=&quot;python&quot;&gt;python&lt;/h2&gt;
+
 &lt;ul&gt;
   &lt;li&gt;[locate] 1.6&lt;/li&gt;
   &lt;li&gt;[docker] 1.3&lt;/li&gt;
@@ -1808,7 +1887,8 @@ Add a mechanism to let plugins prohibit users to unload it at runtime.&lt;/li&gt
           <title>Albert v0.19.4 released</title>
           <description>&lt;h1 id=&quot;albert-v0194-released&quot;&gt;Albert v0.19.4 released&lt;/h1&gt;
 
-&lt;p&gt;[plugins]&lt;/p&gt;
+&lt;h2 id=&quot;plugins&quot;&gt;plugins&lt;/h2&gt;
+
 &lt;ul&gt;
   &lt;li&gt;[qalc] v1.0 Prototype&lt;/li&gt;
 &lt;/ul&gt;
@@ -1826,7 +1906,8 @@ Add a mechanism to let plugins prohibit users to unload it at runtime.&lt;/li&gt
           <title>Albert v0.19.3 released</title>
           <description>&lt;h1 id=&quot;albert-v0193-released&quot;&gt;Albert v0.19.3 released&lt;/h1&gt;
 
-&lt;p&gt;[albert]&lt;/p&gt;
+&lt;h2 id=&quot;albert&quot;&gt;albert&lt;/h2&gt;
+
 &lt;ul&gt;
   &lt;li&gt;[md] Use content if long description is a file path&lt;/li&gt;
   &lt;li&gt;Use both, extension and item id, as icon cache key&lt;/li&gt;
@@ -1834,7 +1915,8 @@ Add a mechanism to let plugins prohibit users to unload it at runtime.&lt;/li&gt
   &lt;li&gt;Workaround terminator bug #702&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;[plugins]&lt;/p&gt;
+&lt;h2 id=&quot;plugins&quot;&gt;plugins&lt;/h2&gt;
+
 &lt;ul&gt;
   &lt;li&gt;[wbm] Add Nord theme&lt;/li&gt;
   &lt;li&gt;[calc] Respect LC_*&lt;/li&gt;
@@ -1848,7 +1930,8 @@ Add a mechanism to let plugins prohibit users to unload it at runtime.&lt;/li&gt
   &lt;li&gt;[wbm] Fix list view height margins&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;[python]&lt;/p&gt;
+&lt;h2 id=&quot;python&quot;&gt;python&lt;/h2&gt;
+
 &lt;ul&gt;
   &lt;li&gt;[trash] Drop. Provided by files plugin now.&lt;/li&gt;
 &lt;/ul&gt;
@@ -1866,7 +1949,8 @@ Add a mechanism to let plugins prohibit users to unload it at runtime.&lt;/li&gt
           <title>Albert v0.19.2 released</title>
           <description>&lt;h1 id=&quot;albert-v0192-released&quot;&gt;Albert v0.19.2 released&lt;/h1&gt;
 
-&lt;p&gt;[plugins]&lt;/p&gt;
+&lt;h2 id=&quot;plugins&quot;&gt;plugins&lt;/h2&gt;
+
 &lt;ul&gt;
   &lt;li&gt;[datetime] v1.0&lt;/li&gt;
   &lt;li&gt;[urlhandler] Fix tld validation&lt;/li&gt;
@@ -1885,13 +1969,15 @@ Add a mechanism to let plugins prohibit users to unload it at runtime.&lt;/li&gt
           <title>Albert v0.19.1 released</title>
           <description>&lt;h1 id=&quot;albert-v0191-released&quot;&gt;Albert v0.19.1 released&lt;/h1&gt;
 
-&lt;p&gt;[albert]&lt;/p&gt;
+&lt;h2 id=&quot;albert&quot;&gt;albert&lt;/h2&gt;
+
 &lt;ul&gt;
   &lt;li&gt;Fix recurring new version info&lt;/li&gt;
   &lt;li&gt;Allow copyconstruction of rank and index items&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;[plugins]&lt;/p&gt;
+&lt;h2 id=&quot;plugins&quot;&gt;plugins&lt;/h2&gt;
+
 &lt;ul&gt;
   &lt;li&gt;[calc] 1.5
     &lt;ul&gt;
@@ -1916,7 +2002,8 @@ Add a mechanism to let plugins prohibit users to unload it at runtime.&lt;/li&gt
           <title>Albert v0.19.0 released</title>
           <description>&lt;h1 id=&quot;albert-v0190-released&quot;&gt;Albert v0.19.0 released&lt;/h1&gt;
 
-&lt;p&gt;[albert]&lt;/p&gt;
+&lt;h2 id=&quot;albert&quot;&gt;albert&lt;/h2&gt;
+
 &lt;ul&gt;
   &lt;li&gt;Add reload actinon for plugins&lt;/li&gt;
   &lt;li&gt;Support Console term&lt;/li&gt;
@@ -1934,7 +2021,8 @@ Add a mechanism to let plugins prohibit users to unload it at runtime.&lt;/li&gt
   &lt;li&gt;Use handcrafted icon lookup again&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;[plugins]&lt;/p&gt;
+&lt;h2 id=&quot;plugins&quot;&gt;plugins&lt;/h2&gt;
+
 &lt;ul&gt;
   &lt;li&gt;[wbs] 1.3 add query handler providing themes&lt;/li&gt;
   &lt;li&gt;[apps_xdg] 1.5 Remove desktop indexing&lt;/li&gt;
@@ -1947,7 +2035,8 @@ Add a mechanism to let plugins prohibit users to unload it at runtime.&lt;/li&gt
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;[python]&lt;/p&gt;
+&lt;h2 id=&quot;python&quot;&gt;python&lt;/h2&gt;
+
 &lt;ul&gt;
   &lt;li&gt;[yt] v1.2 (iid:0.5)&lt;/li&gt;
   &lt;li&gt;[kill] v1.1 (iid:0.5)&lt;/li&gt;
@@ -1968,12 +2057,14 @@ Add a mechanism to let plugins prohibit users to unload it at runtime.&lt;/li&gt
 
 &lt;p&gt;Fix invalid submodule link breaking OBS builds&lt;/p&gt;
 
-&lt;p&gt;[plugins]&lt;/p&gt;
+&lt;h2 id=&quot;plugins&quot;&gt;plugins&lt;/h2&gt;
+
 &lt;ul&gt;
   &lt;li&gt;[chromium] Fix config loading&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;[python]&lt;/p&gt;
+&lt;h2 id=&quot;python&quot;&gt;python&lt;/h2&gt;
+
 &lt;ul&gt;
   &lt;li&gt;[goldendict] 1.1 (0.18)&lt;/li&gt;
 &lt;/ul&gt;
@@ -1991,14 +2082,16 @@ Add a mechanism to let plugins prohibit users to unload it at runtime.&lt;/li&gt
           <title>Albert v0.18.12 released</title>
           <description>&lt;h1 id=&quot;albert-v01812-released&quot;&gt;Albert v0.18.12 released&lt;/h1&gt;
 
-&lt;p&gt;[albert]&lt;/p&gt;
+&lt;h2 id=&quot;albert&quot;&gt;albert&lt;/h2&gt;
+
 &lt;ul&gt;
   &lt;li&gt;Always print report in debug mode&lt;/li&gt;
   &lt;li&gt;Add platform, lang and locale to report&lt;/li&gt;
   &lt;li&gt;Support Terminology&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;[plugins]&lt;/p&gt;
+&lt;h2 id=&quot;plugins&quot;&gt;plugins&lt;/h2&gt;
+
 &lt;ul&gt;
   &lt;li&gt;[mac_apps] Dons show system service apps
 ! Add default md_id if not available&lt;/li&gt;
@@ -2017,12 +2110,14 @@ Add a mechanism to let plugins prohibit users to unload it at runtime.&lt;/li&gt
           <title>Albert v0.18.11 released</title>
           <description>&lt;h1 id=&quot;albert-v01811-released&quot;&gt;Albert v0.18.11 released&lt;/h1&gt;
 
-&lt;p&gt;[albert]&lt;/p&gt;
+&lt;h2 id=&quot;albert&quot;&gt;albert&lt;/h2&gt;
+
 &lt;ul&gt;
   &lt;li&gt;Add missing long description in plugin metadata.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;[plugins]&lt;/p&gt;
+&lt;h2 id=&quot;plugins&quot;&gt;plugins&lt;/h2&gt;
+
 &lt;ul&gt;
   &lt;li&gt;Handcraft tld validation. Make handler global.&lt;/li&gt;
   &lt;li&gt;Add metadata LONG_DESCRIPTON to docs&lt;/li&gt;
@@ -2058,12 +2153,14 @@ Add a mechanism to let plugins prohibit users to unload it at runtime.&lt;/li&gt
           <title>Albert v0.18.9 released</title>
           <description>&lt;h1 id=&quot;albert-v0189-released&quot;&gt;Albert v0.18.9 released&lt;/h1&gt;
 
-&lt;p&gt;[plugins]&lt;/p&gt;
+&lt;h2 id=&quot;plugins&quot;&gt;plugins&lt;/h2&gt;
+
 &lt;ul&gt;
   &lt;li&gt;[py] Ask user to install missing python dependencies in terminal&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;[python]&lt;/p&gt;
+&lt;h2 id=&quot;python&quot;&gt;python&lt;/h2&gt;
+
 &lt;ul&gt;
   &lt;li&gt;googletrans 1.0&lt;/li&gt;
   &lt;li&gt;pass 1.2&lt;/li&gt;
@@ -2082,7 +2179,8 @@ Add a mechanism to let plugins prohibit users to unload it at runtime.&lt;/li&gt
           <title>Albert v0.18.8 released</title>
           <description>&lt;h1 id=&quot;albert-v0188-released&quot;&gt;Albert v0.18.8 released&lt;/h1&gt;
 
-&lt;p&gt;[albert]&lt;/p&gt;
+&lt;h2 id=&quot;albert&quot;&gt;albert&lt;/h2&gt;
+
 &lt;ul&gt;
   &lt;li&gt;Give sensible defaults for usage history&lt;/li&gt;
   &lt;li&gt;Fix memory weight not being loaded&lt;/li&gt;
@@ -2091,12 +2189,14 @@ Add a mechanism to let plugins prohibit users to unload it at runtime.&lt;/li&gt
   &lt;li&gt;Check for other instances &lt;em&gt;before&lt;/em&gt; laoding plugins&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;[plugins]&lt;/p&gt;
+&lt;h2 id=&quot;plugins&quot;&gt;plugins&lt;/h2&gt;
+
 &lt;ul&gt;
   &lt;li&gt;Avoid starting indexing on file index serialization&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;[python]&lt;/p&gt;
+&lt;h2 id=&quot;python&quot;&gt;python&lt;/h2&gt;
+
 &lt;ul&gt;
   &lt;li&gt;googletrans 1.0&lt;/li&gt;
   &lt;li&gt;pass 1.2&lt;/li&gt;
@@ -2115,7 +2215,8 @@ Add a mechanism to let plugins prohibit users to unload it at runtime.&lt;/li&gt
           <title>Albert v0.18.7 released</title>
           <description>&lt;h1 id=&quot;albert-v0187-released&quot;&gt;Albert v0.18.7 released&lt;/h1&gt;
 
-&lt;p&gt;[albert]&lt;/p&gt;
+&lt;h2 id=&quot;albert&quot;&gt;albert&lt;/h2&gt;
+
 &lt;ul&gt;
   &lt;li&gt;Drop albertctl. Back to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;albert &amp;lt;command&amp;gt;&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -2133,13 +2234,15 @@ Add a mechanism to let plugins prohibit users to unload it at runtime.&lt;/li&gt
           <title>Albert v0.18.6 released</title>
           <description>&lt;h1 id=&quot;albert-v0186-released&quot;&gt;Albert v0.18.6 released&lt;/h1&gt;
 
-&lt;p&gt;[albert]&lt;/p&gt;
+&lt;h2 id=&quot;albert&quot;&gt;albert&lt;/h2&gt;
+
 &lt;ul&gt;
   &lt;li&gt;sendTrayNotification(…) add time parameter&lt;/li&gt;
   &lt;li&gt;Support wezterm.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;[plugins]&lt;/p&gt;
+&lt;h2 id=&quot;plugins&quot;&gt;plugins&lt;/h2&gt;
+
 &lt;ul&gt;
   &lt;li&gt;Python 1.5
     &lt;ul&gt;
@@ -2154,7 +2257,8 @@ Add a mechanism to let plugins prohibit users to unload it at runtime.&lt;/li&gt
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;[python]&lt;/p&gt;
+&lt;h2 id=&quot;python&quot;&gt;python&lt;/h2&gt;
+
 &lt;ul&gt;
   &lt;li&gt;Pomodoro 1.1&lt;/li&gt;
   &lt;li&gt;CopyQ 1.2&lt;/li&gt;
@@ -2173,11 +2277,13 @@ Add a mechanism to let plugins prohibit users to unload it at runtime.&lt;/li&gt
           <title>Albert v0.18.5 released</title>
           <description>&lt;h1 id=&quot;albert-v0185-released&quot;&gt;Albert v0.18.5 released&lt;/h1&gt;
 
-&lt;p&gt;[albert]&lt;/p&gt;
+&lt;h2 id=&quot;albert&quot;&gt;albert&lt;/h2&gt;
+
 &lt;ul&gt;
   &lt;li&gt;Support Kitty terminal&lt;/li&gt;
   &lt;li&gt;Support Alacritty terminal
-[plugins]&lt;/li&gt;
+    &lt;h2 id=&quot;plugins&quot;&gt;plugins&lt;/h2&gt;
+  &lt;/li&gt;
   &lt;li&gt;[wbm] Show synopsis in tooltip&lt;/li&gt;
 &lt;/ul&gt;
 
@@ -2194,12 +2300,14 @@ Add a mechanism to let plugins prohibit users to unload it at runtime.&lt;/li&gt
           <title>Albert v0.18.4 released</title>
           <description>&lt;h1 id=&quot;albert-v0184-released&quot;&gt;Albert v0.18.4 released&lt;/h1&gt;
 
-&lt;p&gt;[albert]&lt;/p&gt;
+&lt;h2 id=&quot;albert&quot;&gt;albert&lt;/h2&gt;
+
 &lt;ul&gt;
   &lt;li&gt;fix single instance mechanism&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;[python]&lt;/p&gt;
+&lt;h2 id=&quot;python&quot;&gt;python&lt;/h2&gt;
+
 &lt;ul&gt;
   &lt;li&gt;Archive docker, curious segfaults&lt;/li&gt;
   &lt;li&gt;Port 0.5 aur&lt;/li&gt;
@@ -2219,7 +2327,8 @@ Add a mechanism to let plugins prohibit users to unload it at runtime.&lt;/li&gt
           <title>Albert v0.18.3 released</title>
           <description>&lt;h1 id=&quot;albert-v0183-released&quot;&gt;Albert v0.18.3 released&lt;/h1&gt;
 
-&lt;p&gt;[plugins]&lt;/p&gt;
+&lt;h2 id=&quot;plugins&quot;&gt;plugins&lt;/h2&gt;
+
 &lt;ul&gt;
   &lt;li&gt;[wbm] Fix theme dir paths&lt;/li&gt;
 &lt;/ul&gt;
@@ -2237,7 +2346,8 @@ Add a mechanism to let plugins prohibit users to unload it at runtime.&lt;/li&gt
           <title>Albert v0.18.2 released</title>
           <description>&lt;h1 id=&quot;albert-v0182-released&quot;&gt;Albert v0.18.2 released&lt;/h1&gt;
 
-&lt;p&gt;[albert]&lt;/p&gt;
+&lt;h2 id=&quot;albert&quot;&gt;albert&lt;/h2&gt;
+
 &lt;ul&gt;
   &lt;li&gt;Better diagnostics on frontend loading&lt;/li&gt;
 &lt;/ul&gt;
@@ -2255,7 +2365,8 @@ Add a mechanism to let plugins prohibit users to unload it at runtime.&lt;/li&gt
           <title>Albert v0.18.1 released</title>
           <description>&lt;h1 id=&quot;albert-v0181-released&quot;&gt;Albert v0.18.1 released&lt;/h1&gt;
 
-&lt;p&gt;[albert]&lt;/p&gt;
+&lt;h2 id=&quot;albert&quot;&gt;albert&lt;/h2&gt;
+
 &lt;ul&gt;
   &lt;li&gt;Fix armhf builds&lt;/li&gt;
 &lt;/ul&gt;
@@ -2275,7 +2386,7 @@ Add a mechanism to let plugins prohibit users to unload it at runtime.&lt;/li&gt
 
 &lt;p&gt;Note that there have been some breaking changes. The new plugin id format changed settings keys and config/cache/data paths. If you want to keep your old plugin settings you have to adjust the section names in the config file and adjust the paths in your config/cache/data dirs. (e.g. from &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;org.albert.files&lt;/code&gt; to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;files&lt;/code&gt;). I’d recommend to start from scratch though, since too much changed.&lt;/p&gt;
 
-&lt;p&gt;[albert]&lt;/p&gt;
+&lt;h2 id=&quot;albert&quot;&gt;albert&lt;/h2&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Shorter plugin ids. (This breaks configs)&lt;/li&gt;
@@ -2320,7 +2431,7 @@ Add a mechanism to let plugins prohibit users to unload it at runtime.&lt;/li&gt
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;[plugins]&lt;/p&gt;
+&lt;h2 id=&quot;plugins&quot;&gt;plugins&lt;/h2&gt;
 
 &lt;p&gt;python 1.4 (0.18)&lt;/p&gt;
 &lt;ul&gt;
@@ -2408,7 +2519,8 @@ Add a mechanism to let plugins prohibit users to unload it at runtime.&lt;/li&gt
           <title>Albert v0.17.3 released</title>
           <description>&lt;h1 id=&quot;albert-v0173-released&quot;&gt;Albert v0.17.3 released&lt;/h1&gt;
 
-&lt;p&gt;[albert]&lt;/p&gt;
+&lt;h2 id=&quot;albert&quot;&gt;albert&lt;/h2&gt;
+
 &lt;ul&gt;
   &lt;li&gt;Sloppy hotfix #1088. 0.18 will change DB entirely anyway.&lt;/li&gt;
 &lt;/ul&gt;
@@ -2426,12 +2538,14 @@ Add a mechanism to let plugins prohibit users to unload it at runtime.&lt;/li&gt
           <title>Albert v0.17.2 released</title>
           <description>&lt;h1 id=&quot;albert-v0172-released&quot;&gt;Albert v0.17.2 released&lt;/h1&gt;
 
-&lt;p&gt;[albert]&lt;/p&gt;
+&lt;h2 id=&quot;albert&quot;&gt;albert&lt;/h2&gt;
+
 &lt;ul&gt;
   &lt;li&gt;Drop telemetry&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;[plugins]&lt;/p&gt;
+&lt;h2 id=&quot;plugins&quot;&gt;plugins&lt;/h2&gt;
+
 &lt;ul&gt;
   &lt;li&gt;[wbm] Hotfix completion&lt;/li&gt;
 &lt;/ul&gt;
@@ -2450,7 +2564,8 @@ Add a mechanism to let plugins prohibit users to unload it at runtime.&lt;/li&gt
           <title>Albert v0.17.1 released</title>
           <description>&lt;h1 id=&quot;albert-v0171-released&quot;&gt;Albert v0.17.1 released&lt;/h1&gt;
 
-&lt;p&gt;[albert]&lt;/p&gt;
+&lt;h2 id=&quot;albert&quot;&gt;albert&lt;/h2&gt;
+
 &lt;ul&gt;
   &lt;li&gt;Fix OBS builds&lt;/li&gt;
   &lt;li&gt;Several fixes&lt;/li&gt;
@@ -2471,7 +2586,8 @@ https://github.com/albertlauncher/albert/commits/v0.17.1&lt;/p&gt;
           <title>Albert v0.17.0 released</title>
           <description>&lt;h1 id=&quot;albert-v0170-released&quot;&gt;Albert v0.17.0 released&lt;/h1&gt;
 
-&lt;p&gt;[albert]&lt;/p&gt;
+&lt;h2 id=&quot;albert&quot;&gt;albert&lt;/h2&gt;
+
 &lt;ul&gt;
   &lt;li&gt;Again break init order of Item for the sake of less boilerplate. Presumed this frequency indexStrings &amp;gt; actions &amp;gt; completion &amp;gt; urgency.&lt;/li&gt;
   &lt;li&gt;Let shells handle splitting/quoting&lt;/li&gt;
@@ -2479,7 +2595,8 @@ https://github.com/albertlauncher/albert/commits/v0.17.1&lt;/p&gt;
   &lt;li&gt;Drop shutil:: and let shells handle lexing&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;[plugins]&lt;/p&gt;
+&lt;h2 id=&quot;plugins&quot;&gt;plugins&lt;/h2&gt;
+
 &lt;ul&gt;
   &lt;li&gt;FINALLY ARCHIVE EXTERNAL EXTENSIONS.&lt;/li&gt;
   &lt;li&gt;New extension state : MissingDependencies&lt;/li&gt;
@@ -2520,7 +2637,8 @@ https://github.com/albertlauncher/albert/commits/v0.17.1&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;[python]&lt;/p&gt;
+&lt;h2 id=&quot;python&quot;&gt;python&lt;/h2&gt;
+
 &lt;ul&gt;
   &lt;li&gt;Adpot APIv0.4 changes&lt;/li&gt;
   &lt;li&gt;[locate] ‘ for basename ‘’ for full path lookups&lt;/li&gt;
@@ -2545,18 +2663,21 @@ https://github.com/albertlauncher/albert/commits/v0.17.1&lt;/p&gt;
 
 &lt;p&gt;Hotfix for #959&lt;/p&gt;
 
-&lt;p&gt;[albert]&lt;/p&gt;
+&lt;h2 id=&quot;albert&quot;&gt;albert&lt;/h2&gt;
+
 &lt;ul&gt;
   &lt;li&gt;Fix tab order. Closes #866&lt;/li&gt;
   &lt;li&gt;Update stale.yml&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;[plugins]&lt;/p&gt;
+&lt;h2 id=&quot;plugins&quot;&gt;plugins&lt;/h2&gt;
+
 &lt;ul&gt;
   &lt;li&gt;[chromium] Chromium v1.1&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;[python]&lt;/p&gt;
+&lt;h2 id=&quot;python&quot;&gt;python&lt;/h2&gt;
+
 &lt;ul&gt;
   &lt;li&gt;[docker] New extension prototype&lt;/li&gt;
   &lt;li&gt;[timer] Use dbus instead of notify-send&lt;/li&gt;
@@ -2594,7 +2715,8 @@ https://github.com/albertlauncher/albert/commits/v0.17.1&lt;/p&gt;
           <title>Albert v0.16.2 released</title>
           <description>&lt;h1 id=&quot;albert-v0162-released&quot;&gt;Albert v0.16.2 released&lt;/h1&gt;
 
-&lt;p&gt;[albert]&lt;/p&gt;
+&lt;h2 id=&quot;albert&quot;&gt;albert&lt;/h2&gt;
+
 &lt;ul&gt;
   &lt;li&gt;Allow multiple instances of albert on different X sessions&lt;/li&gt;
   &lt;li&gt;Fix super key not registering&lt;/li&gt;
@@ -2603,7 +2725,8 @@ https://github.com/albertlauncher/albert/commits/v0.17.1&lt;/p&gt;
   &lt;li&gt;Dont show fallbacks on triggered queries&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;[plugins]&lt;/p&gt;
+&lt;h2 id=&quot;plugins&quot;&gt;plugins&lt;/h2&gt;
+
 &lt;ul&gt;
   &lt;li&gt;[Applications] Index desktop files on desktop&lt;/li&gt;
   &lt;li&gt;[firefox] Rework v2&lt;/li&gt;
@@ -2612,7 +2735,8 @@ https://github.com/albertlauncher/albert/commits/v0.17.1&lt;/p&gt;
   &lt;li&gt;[chromium] Add brave-browser to list of chromium based browsers.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;[python]&lt;/p&gt;
+&lt;h2 id=&quot;python&quot;&gt;python&lt;/h2&gt;
+
 &lt;ul&gt;
   &lt;li&gt;Add an offline emoji picker&lt;/li&gt;
   &lt;li&gt;Add bitwarden extension&lt;/li&gt;
@@ -2634,17 +2758,33 @@ https://github.com/albertlauncher/albert/commits/v0.17.1&lt;/p&gt;
           <title>Albert v0.16.1 released</title>
           <description>&lt;h1 id=&quot;albert-v0161-released&quot;&gt;Albert v0.16.1 released&lt;/h1&gt;
 
+&lt;h2 id=&quot;albert&quot;&gt;albert&lt;/h2&gt;
+
 &lt;ul&gt;
-  &lt;li&gt;[albert] Fix default plugin lookup path&lt;/li&gt;
-  &lt;li&gt;[albert] Fix flicker when changing frontends&lt;/li&gt;
-  &lt;li&gt;[albert] Fix “Terminal option resets after a restart”&lt;/li&gt;
-  &lt;li&gt;[albert] Link libglobalshortcut statically&lt;/li&gt;
-  &lt;li&gt;[albert] Add a build flag for QtCharts&lt;/li&gt;
-  &lt;li&gt;[albert] Drop debug options if favor of QLoggingCategory env vars&lt;/li&gt;
-  &lt;li&gt;[plugins:ssh] Fix input regex. Sort by length then lexically.&lt;/li&gt;
-  &lt;li&gt;[plugins:ssh] Use backward compatible ssh url syntax&lt;/li&gt;
-  &lt;li&gt;[plugins:qml] Consistent form layout&lt;/li&gt;
-  &lt;li&gt;[modules:aur] Sort items by length first&lt;/li&gt;
+  &lt;li&gt;Fix default plugin lookup path&lt;/li&gt;
+  &lt;li&gt;Fix flicker when changing frontends&lt;/li&gt;
+  &lt;li&gt;Fix “Terminal option resets after a restart”&lt;/li&gt;
+  &lt;li&gt;Link libglobalshortcut statically&lt;/li&gt;
+  &lt;li&gt;Add a build flag for QtCharts&lt;/li&gt;
+  &lt;li&gt;Drop debug options if favor of QLoggingCategory env vars&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;plugins&quot;&gt;plugins&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;[ssh]
+    &lt;ul&gt;
+      &lt;li&gt;Fix input regex. Sort by length then lexically.&lt;/li&gt;
+      &lt;li&gt;Use backward compatible ssh url syntax&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;[qml] Consistent form layout&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;python&quot;&gt;python&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;[aur] Sort items by length first&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;Further the release contains minor changes and fixes.&lt;/p&gt;
@@ -2662,9 +2802,7 @@ https://github.com/albertlauncher/albert/commits/v0.17.1&lt;/p&gt;
           <title>Albert v0.16.0 released</title>
           <description>&lt;h1 id=&quot;albert-v0160-released&quot;&gt;Albert v0.16.0 released&lt;/h1&gt;
 
-&lt;h2 id=&quot;changes&quot;&gt;Changes&lt;/h2&gt;
-
-&lt;h3 id=&quot;albert&quot;&gt;Albert&lt;/h3&gt;
+&lt;h2 id=&quot;albert&quot;&gt;Albert&lt;/h2&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Add jekyll website as submodule&lt;/li&gt;
@@ -2677,7 +2815,7 @@ https://github.com/albertlauncher/albert/commits/v0.17.1&lt;/p&gt;
   &lt;li&gt;Print logging category to stdout [not all plugins support it yet]&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&quot;plugins&quot;&gt;Plugins&lt;/h3&gt;
+&lt;h2 id=&quot;plugins&quot;&gt;Plugins&lt;/h2&gt;
 
 &lt;ul&gt;
   &lt;li&gt;[Python] Use ast to read metadata without loading the modules&lt;/li&gt;
@@ -2686,7 +2824,7 @@ https://github.com/albertlauncher/albert/commits/v0.17.1&lt;/p&gt;
   &lt;li&gt;[Files] Add fancy icons to mime dialog&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&quot;modules&quot;&gt;Modules&lt;/h3&gt;
+&lt;h2 id=&quot;modules&quot;&gt;Modules&lt;/h2&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Additional constraint: Metadata have to be string literals (for ast)&lt;/li&gt;
