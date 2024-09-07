@@ -7,6 +7,37 @@
     
       
         <item>
+          <title>Albert v0.26.3 released</title>
+          <description>&lt;h1 id=&quot;albert-v0263-released&quot;&gt;Albert v0.26.3 released&lt;/h1&gt;
+
+&lt;h2 id=&quot;plugins&quot;&gt;plugins&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;[calculator_qalculate]
+    &lt;ul&gt;
+      &lt;li&gt;Add option: Units in global query&lt;/li&gt;
+      &lt;li&gt;Add option: Functions in global query&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;[python]
+    &lt;ul&gt;
+      &lt;li&gt;Proper venv isolation&lt;/li&gt;
+      &lt;li&gt;Fix excluding regex breaking aur builds&lt;/li&gt;
+      &lt;li&gt;No quotes around logs&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Check the &lt;a href=&quot;https://github.com/albertlauncher/albert/commits/v0.26.3&quot;&gt;GitHub repositories&lt;/a&gt; for details.&lt;/p&gt;
+</description>
+          <pubDate>2024-09-07T20:31:00+00:00</pubDate>
+          <link>https://albertlauncher.github.io/2024/09/07/albert-v0.26.3-released/</link>
+          <guid isPermaLink="true">https://albertlauncher.github.io/2024/09/07/albert-v0.26.3-released/</guid>
+        </item>
+      
+    
+      
+        <item>
           <title>Albert v0.26.2 released</title>
           <description>&lt;h1 id=&quot;albert-v0262-released&quot;&gt;Albert v0.26.2 released&lt;/h1&gt;
 

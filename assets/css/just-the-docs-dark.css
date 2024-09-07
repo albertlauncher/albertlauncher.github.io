@@ -1,28 +1,4 @@
 @charset "UTF-8";
-.btn-yellow {
-  color: #fff;
-  background-color: #fadd46;
-  background-image: linear-gradient(#fbe469, #fadd46);
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), 0 4px 10px rgba(0, 0, 0, 0.12);
-}
-.btn-yellow:hover, .btn-yellow.zeroclipboard-is-hover {
-  color: #fff;
-  background-color: #f9db3c;
-  background-image: linear-gradient(#fae15a, #f9db3c);
-}
-.btn-yellow:active, .btn-yellow.selected, .btn-yellow.zeroclipboard-is-active {
-  background-color: #f9da37;
-  background-image: none;
-  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15);
-}
-.btn-yellow.selected:hover {
-  background-color: #f9d61e;
-}
-
-pre.highlight {
-  line-height: 1;
-}
-
 .highlight,
 pre.highlight {
   background: #f9f9f9;
@@ -7929,6 +7905,30 @@ blockquote.warning-title > p:nth-child(2) {
 }
 blockquote.warning-title > p:last-child {
   margin-bottom: 0;
+}
+
+.btn-yellow {
+  color: #fff;
+  background-color: #fadd46;
+  background-image: linear-gradient(#fbe469, #fadd46);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), 0 4px 10px rgba(0, 0, 0, 0.12);
+}
+.btn-yellow:hover, .btn-yellow.zeroclipboard-is-hover {
+  color: #fff;
+  background-color: #f9db3c;
+  background-image: linear-gradient(#fae15a, #f9db3c);
+}
+.btn-yellow:active, .btn-yellow.selected, .btn-yellow.zeroclipboard-is-active {
+  background-color: #f9da37;
+  background-image: none;
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15);
+}
+.btn-yellow.selected:hover {
+  background-color: #f9d61e;
+}
+
+pre.highlight {
+  line-height: 1;
 }
 
 /*# sourceMappingURL=just-the-docs-dark.css.map */
