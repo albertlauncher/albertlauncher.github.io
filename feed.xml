@@ -7,6 +7,44 @@
     
       
         <item>
+          <title>Albert v0.26.4 released</title>
+          <description>&lt;h1 id=&quot;-pagetitle-&quot;&gt;{ page.title }&lt;/h1&gt;
+
+&lt;p&gt;This version contains the latest fixes.&lt;/p&gt;
+
+&lt;h2 id=&quot;albert&quot;&gt;Albert&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;ItemIndex: Fix access to moved item. Skip emtpy IndexItems.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;plugins&quot;&gt;Plugins&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;[applications] Search in /System/Cryptexes/App/System/Applications&lt;/li&gt;
+  &lt;li&gt;[files] Fix f-term action failing on spaces&lt;/li&gt;
+  &lt;li&gt;[files] Fix xfce4-terminal&lt;/li&gt;
+  &lt;li&gt;[snippets] Fix typo&lt;/li&gt;
+  &lt;li&gt;[websearch] Create required data directory on start&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;python&quot;&gt;Python&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;[syncthing] Use python-syncthing2. python-syncthing is dead.&lt;/li&gt;
+  &lt;li&gt;[unit_converter] Remove future typehints&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Check the &lt;a href=&quot;https://github.com/albertlauncher/albert/commits/v0.26.4&quot;&gt;GitHub repositories&lt;/a&gt; for details.&lt;/p&gt;
+</description>
+          <pubDate>2024-09-24T22:04:00+00:00</pubDate>
+          <link>https://albertlauncher.github.io/2024/09/24/albert-v0.26.4-released/</link>
+          <guid isPermaLink="true">https://albertlauncher.github.io/2024/09/24/albert-v0.26.4-released/</guid>
+        </item>
+      
+    
+      
+        <item>
           <title>Albert v0.26.3 released</title>
           <description>&lt;h1 id=&quot;albert-v0263-released&quot;&gt;Albert v0.26.3 released&lt;/h1&gt;
 
