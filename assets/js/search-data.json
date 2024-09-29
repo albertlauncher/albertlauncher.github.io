@@ -99,7 +99,7 @@
   },"14": {
     "doc": "FAQ",
     "title": "How to make hotkeys work on Wayland?",
-    "content": "Wayland hotkey adoption is still in its infancy. A generic solution is to let your desktop environment handle the hotkey registration. Bind the hotkey to the command you want it to run, e.g. albert toggle . | Gnome help | KDE documentation | You are welcome to improve this list. | . The above runs a new app instance, which is relatively heavy. Another approach is to pipe the command you want to send directly into the albert IPC socket. # Using netcat-openbsd echo -n toggle | nc -U ~/.cache/albert/ipc_socket # Using socat echo -n toggle | socat - ~/.cache/albert/ipc_socket . Gnome does not invoke a shell for bindings. Use sh -c \"&lt;command line&gt;\". ",
+    "content": "Wayland hotkey adoption is still in its infancy. A general solution is to let your desktop environment handle the hotkey registration. Bind the hotkey to the command you want it to run, e.g. albert toggle . | Gnome help | KDE documentation | You are welcome to improve this list. | . The above runs a new app instance, which is relatively heavy. Another approach is to pipe the command you want to send directly into the albert IPC socket. # Using netcat-openbsd echo -n toggle | nc -U ~/.cache/albert/ipc_socket # Using socat echo -n toggle | socat - ~/.cache/albert/ipc_socket . Gnome does not invoke a shell for bindings. Use sh -c \"&lt;command line&gt;\". ",
     "url": "/gettingstarted/faq/#how-to-make-hotkeys-work-on-wayland",
     
     "relUrl": "/gettingstarted/faq/#how-to-make-hotkeys-work-on-wayland"
@@ -176,7 +176,7 @@
   },"25": {
     "doc": "Extension",
     "title": "General considerations and best practices",
-    "content": "How to version plugins . If it has a public API major.minor.patch else minor.patch. Increase major if the API breaks. Increase minor if the API got some backward compatible additions or the user experiences noticable changes. In all other cases increase patch. Avoiding name conflicts of extension identifiers . If your plugin provides multiple extensions it’s a good idea to prepend the plugin id to the extension id to avoid name conflicts of extensions, e.g. files.root_browser. The root extension is fine to match the plugin id. ",
+    "content": "How to version plugins . If it has a public API major.minor.patch else minor.patch. Increase major if the API breaks. Increase minor if the API got some backward compatible additions or the user experiences noticeable changes. In all other cases increase patch. Avoiding name conflicts of extension identifiers . If your plugin provides multiple extensions it’s a good idea to prepend the plugin id to the extension id to avoid name conflicts of extensions, e.g. files.root_browser. The root extension is fine to match the plugin id. ",
     "url": "/gettingstarted/extension/#general-considerations-and-best-practices",
     
     "relUrl": "/gettingstarted/extension/#general-considerations-and-best-practices"
