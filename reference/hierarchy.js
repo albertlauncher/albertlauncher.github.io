@@ -36,5 +36,6 @@ var hierarchy =
       [ "albert::Notification", "classalbert_1_1Notification.html", null ],
       [ "albert::Query", "classalbert_1_1Query.html", null ]
     ] ],
-    [ "albert::RankItem", "classalbert_1_1RankItem.html", null ]
+    [ "albert::RankItem", "classalbert_1_1RankItem.html", null ],
+    [ "TimeIt", "structTimeIt.html", null ]
 ];

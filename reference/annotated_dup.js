@@ -28,5 +28,6 @@ var annotated_dup =
       [ "StrongDependency", "classalbert_1_1StrongDependency.html", "classalbert_1_1StrongDependency" ],
       [ "TriggerQueryHandler", "classalbert_1_1TriggerQueryHandler.html", "classalbert_1_1TriggerQueryHandler" ],
       [ "WeakDependency", "classalbert_1_1WeakDependency.html", "classalbert_1_1WeakDependency" ]
-    ] ]
+    ] ],
+    [ "TimeIt", "structTimeIt.html", "structTimeIt" ]
 ];

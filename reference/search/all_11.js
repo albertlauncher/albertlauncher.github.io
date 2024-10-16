@@ -4,9 +4,11 @@ var searchData=
   ['text_5f_1',['text_',['../classalbert_1_1StandardItem.html#a277d77f4c599d91187820f849e9a9c52',1,'albert::StandardItem']]],
   ['textrole_2',['TextRole',['../namespacealbert.html#a2c9bc002c072a7be9c445ada4820ab4aa2db1189d71f70f05201a3aa5be17de0a',1,'albert']]],
   ['third_5fparty_5fcredits_3',['third_party_credits',['../classalbert_1_1PluginMetaData.html#a98a024db32e7452f078ae7685b20a9cb',1,'albert::PluginMetaData']]],
-  ['title_4',['title',['../classalbert_1_1Notification.html#a89254761b3387909595fad368ed1cd16',1,'albert::Notification']]],
-  ['translations_5',['translations',['../classalbert_1_1PluginMetaData.html#a5da5859ac1f0ecea79526c03a054b305',1,'albert::PluginMetaData']]],
-  ['trigger_6',['trigger',['../classalbert_1_1Query.html#a9a6cf0301a8fbae3cbb9cb77c7be3454',1,'albert::Query']]],
-  ['triggerqueryhandler_7',['TriggerQueryHandler',['../classalbert_1_1TriggerQueryHandler.html',1,'albert']]],
-  ['triggerqueryhandler_2eh_8',['triggerqueryhandler.h',['../triggerqueryhandler_8h.html',1,'']]]
+  ['timeit_4',['timeit',['../structTimeIt.html',1,'TimeIt'],['../structTimeIt.html#a788a4b35a4c0f53e636d31e0c4da08c7',1,'TimeIt::TimeIt()']]],
+  ['timeit_2eh_5',['timeit.h',['../timeit_8h.html',1,'']]],
+  ['title_6',['title',['../classalbert_1_1Notification.html#a89254761b3387909595fad368ed1cd16',1,'albert::Notification']]],
+  ['translations_7',['translations',['../classalbert_1_1PluginMetaData.html#a5da5859ac1f0ecea79526c03a054b305',1,'albert::PluginMetaData']]],
+  ['trigger_8',['trigger',['../classalbert_1_1Query.html#a9a6cf0301a8fbae3cbb9cb77c7be3454',1,'albert::Query']]],
+  ['triggerqueryhandler_9',['TriggerQueryHandler',['../classalbert_1_1TriggerQueryHandler.html',1,'albert']]],
+  ['triggerqueryhandler_2eh_10',['triggerqueryhandler.h',['../triggerqueryhandler_8h.html',1,'']]]
 ];

@@ -15,6 +15,7 @@ var searchData=
   ['_7epluginloader_12',['~PluginLoader',['../classalbert_1_1PluginLoader.html#aed12605269105560dfa0130957d8b403',1,'albert::PluginLoader']]],
   ['_7epluginprovider_13',['~PluginProvider',['../classalbert_1_1PluginProvider.html#a1d3172a2832639a55d0fcf30905b9fec',1,'albert::PluginProvider']]],
   ['_7equery_14',['~Query',['../classalbert_1_1Query.html#a8f6a1727abc202c50bf6bd1606cd976d',1,'albert::Query']]],
-  ['_7etriggerqueryhandler_15',['~TriggerQueryHandler',['../classalbert_1_1TriggerQueryHandler.html#af5a7811af0fdf807b26826c277776505',1,'albert::TriggerQueryHandler']]],
-  ['_7eweakdependency_16',['~WeakDependency',['../classalbert_1_1WeakDependency.html#a58e2c966cb28fa2a6593f2fd20bf80d9',1,'albert::WeakDependency']]]
+  ['_7etimeit_15',['~TimeIt',['../structTimeIt.html#a71ea27923f652367945be22cb3be553d',1,'TimeIt']]],
+  ['_7etriggerqueryhandler_16',['~TriggerQueryHandler',['../classalbert_1_1TriggerQueryHandler.html#af5a7811af0fdf807b26826c277776505',1,'albert::TriggerQueryHandler']]],
+  ['_7eweakdependency_17',['~WeakDependency',['../classalbert_1_1WeakDependency.html#a58e2c966cb28fa2a6593f2fd20bf80d9',1,'albert::WeakDependency']]]
 ];

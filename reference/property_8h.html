@@ -132,15 +132,12 @@ Macros</h2></td></tr>
 <tr class="memitem:abf1cdce7b9bdaf0075417c18ac35918d" id="r_abf1cdce7b9bdaf0075417c18ac35918d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="property_8h.html#abf1cdce7b9bdaf0075417c18ac35918d">ALBERT_PLUGIN_PROPERTY</a>(type,  name,  defaultValue)&#160;&#160;&#160;    <a class="el" href="property_8h.html#a19e664a0b38678487ade172aa8c61d5d">ALBERT_PROPERTY</a>(type, name, defaultValue, PluginInstance::settings)</td></tr>
 <tr class="memdesc:abf1cdce7b9bdaf0075417c18ac35918d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convenience macro for plugin user property definition defining a member.  <br /></td></tr>
 <tr class="separator:abf1cdce7b9bdaf0075417c18ac35918d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a010c227dd7ae89ebc76e1a9452cfd7e7" id="r_a010c227dd7ae89ebc76e1a9452cfd7e7"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="property_8h.html#a010c227dd7ae89ebc76e1a9452cfd7e7">ALBERT_PROPERTY_CONNECT</a>(object,  name,  widget,  widget_setter,  widget_signal)</td></tr>
-<tr class="memdesc:a010c227dd7ae89ebc76e1a9452cfd7e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convenience macro to connect UI elemetens to albert user properties.  <br /></td></tr>
-<tr class="separator:a010c227dd7ae89ebc76e1a9452cfd7e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae7217a6706e6ca0ced8c21552e94c0bf" id="r_ae7217a6706e6ca0ced8c21552e94c0bf"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="property_8h.html#ae7217a6706e6ca0ced8c21552e94c0bf">ALBERT_PROPERTY_CONNECT_CHECKBOX</a>(object,  name,  widget)&#160;&#160;&#160;<a class="el" href="property_8h.html#a010c227dd7ae89ebc76e1a9452cfd7e7">ALBERT_PROPERTY_CONNECT</a>(object, name, widget, setChecked, toggled)</td></tr>
-<tr class="memdesc:ae7217a6706e6ca0ced8c21552e94c0bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convenience macro to connect checkboxes to boolean user properties.  <br /></td></tr>
-<tr class="separator:ae7217a6706e6ca0ced8c21552e94c0bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4385da6da63689ddad3258216eece831" id="r_a4385da6da63689ddad3258216eece831"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="property_8h.html#a4385da6da63689ddad3258216eece831">ALBERT_PROPERTY_CONNECT_SPINBOX</a>(object,  name,  widget)&#160;&#160;&#160;<a class="el" href="property_8h.html#a010c227dd7ae89ebc76e1a9452cfd7e7">ALBERT_PROPERTY_CONNECT</a>(object, name, widget, setValue, valueChanged)</td></tr>
-<tr class="memdesc:a4385da6da63689ddad3258216eece831"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convenience macro to connect spinboxes to int user properties.  <br /></td></tr>
-<tr class="separator:a4385da6da63689ddad3258216eece831"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2b7d7199366ae57309396a419cf39421" id="r_a2b7d7199366ae57309396a419cf39421"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="property_8h.html#a2b7d7199366ae57309396a419cf39421">ALBERT_PROPERTY_CONNECT_CHECKBOX</a>(object,  name,  checkbox)</td></tr>
+<tr class="memdesc:a2b7d7199366ae57309396a419cf39421"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convenience macro to connect checkboxes to boolean user properties.  <br /></td></tr>
+<tr class="separator:a2b7d7199366ae57309396a419cf39421"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a18301fedc5894bbb2b294c46edbe6f1f" id="r_a18301fedc5894bbb2b294c46edbe6f1f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="property_8h.html#a18301fedc5894bbb2b294c46edbe6f1f">ALBERT_PROPERTY_CONNECT_SPINBOX</a>(object,  name,  spinbox)</td></tr>
+<tr class="memdesc:a18301fedc5894bbb2b294c46edbe6f1f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convenience macro to connect spinboxes to int user properties.  <br /></td></tr>
+<tr class="separator:a18301fedc5894bbb2b294c46edbe6f1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
 <a id="abf1cdce7b9bdaf0075417c18ac35918d" name="abf1cdce7b9bdaf0075417c18ac35918d"></a>
@@ -336,7 +333,7 @@ Macros</h2></td></tr>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line">    <a class="code hl_define" href="property_8h.html#a3e3e2661f264e96ea7c515fe8800e1f7">ALBERT_PROPERTY_MEMBER</a>(type, name, name##_, defaultValue, settings) \</div>
 <div class="line">    <span class="keyword">protected</span>: type name##_{name##_default()};</div>
-<div class="ttc" id="aproperty_8h_html_a3e3e2661f264e96ea7c515fe8800e1f7"><div class="ttname"><a href="property_8h.html#a3e3e2661f264e96ea7c515fe8800e1f7">ALBERT_PROPERTY_MEMBER</a></div><div class="ttdeci">#define ALBERT_PROPERTY_MEMBER(type, name, member, defaultValue, settings)</div><div class="ttdoc">Convenience macro for user property definition using a given member.</div><div class="ttdef"><b>Definition</b> property.h:104</div></div>
+<div class="ttc" id="aproperty_8h_html_a3e3e2661f264e96ea7c515fe8800e1f7"><div class="ttname"><a href="property_8h.html#a3e3e2661f264e96ea7c515fe8800e1f7">ALBERT_PROPERTY_MEMBER</a></div><div class="ttdeci">#define ALBERT_PROPERTY_MEMBER(type, name, member, defaultValue, settings)</div><div class="ttdoc">Convenience macro for user property definition using a given member.</div><div class="ttdef"><b>Definition</b> property.h:107</div></div>
 </div><!-- fragment -->
 <p>Convenience macro for user property definition defining a member. </p>
 <p>Extends ALBERT_PLUGIN_PROPERTY_MEMBER by (psuedo code):</p>
@@ -432,71 +429,8 @@ Macros</h2></td></tr>
 
 </div>
 </div>
-<a id="a010c227dd7ae89ebc76e1a9452cfd7e7" name="a010c227dd7ae89ebc76e1a9452cfd7e7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a010c227dd7ae89ebc76e1a9452cfd7e7">&#9670;&#160;</a></span>ALBERT_PROPERTY_CONNECT</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define ALBERT_PROPERTY_CONNECT</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">object, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">name, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">widget, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">widget_setter, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">widget_signal&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">    widget-&gt;widget_setter(object-&gt;name()); \</div>
-<div class="line">    connect(widget, &amp;std::remove_pointer&lt;<span class="keyword">decltype</span>(widget)&gt;::type::widget_signal, \</div>
-<div class="line">            <span class="keywordtype">object</span>, &amp;std::remove_pointer&lt;<span class="keyword">decltype</span>(<span class="keywordtype">object</span>)&gt;::type::set_##name); \</div>
-<div class="line">    connect(<span class="keywordtype">object</span>, &amp;std::remove_pointer&lt;<span class="keyword">decltype</span>(<span class="keywordtype">object</span>)&gt;::type::name##_changed, \</div>
-<div class="line">            widget, [o=<span class="keywordtype">object</span>,w=widget](){ w-&gt;widget_setter(o-&gt;name()); });</div>
-</div><!-- fragment -->
-<p>Convenience macro to connect UI elemetens to albert user properties. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">object</td><td>The object containing the property </td></tr>
-    <tr><td class="paramname">name</td><td>The property name </td></tr>
-    <tr><td class="paramname">widget</td><td>The widget pointer to connect to </td></tr>
-    <tr><td class="paramname">widget_setter</td><td>The setter function of the widget </td></tr>
-    <tr><td class="paramname">widget_signal</td><td>The changed signal of the widget </td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
-<a id="ae7217a6706e6ca0ced8c21552e94c0bf" name="ae7217a6706e6ca0ced8c21552e94c0bf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae7217a6706e6ca0ced8c21552e94c0bf">&#9670;&#160;</a></span>ALBERT_PROPERTY_CONNECT_CHECKBOX</h2>
+<a id="a2b7d7199366ae57309396a419cf39421" name="a2b7d7199366ae57309396a419cf39421"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2b7d7199366ae57309396a419cf39421">&#9670;&#160;</a></span>ALBERT_PROPERTY_CONNECT_CHECKBOX</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -517,16 +451,21 @@ Macros</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname">widget&#160;</td>
+          <td class="paramname">checkbox&#160;</td>
         </tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;<a class="el" href="property_8h.html#a010c227dd7ae89ebc76e1a9452cfd7e7">ALBERT_PROPERTY_CONNECT</a>(object, name, widget, setChecked, toggled)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<b>Value:</b><div class="fragment"><div class="line">    checkbox-&gt;setChecked(object-&gt;name()); \</div>
+<div class="line">    connect(<span class="keywordtype">object</span>, &amp;std::remove_pointer&lt;<span class="keyword">decltype</span>(<span class="keywordtype">object</span>)&gt;::type::name##_changed, \</div>
+<div class="line">            checkbox, &amp;QCheckBox::setChecked); \</div>
+<div class="line">    connect(checkbox, &amp;QCheckBox::toggled, \</div>
+<div class="line">            <span class="keywordtype">object</span>, &amp;std::remove_pointer&lt;<span class="keyword">decltype</span>(<span class="keywordtype">object</span>)&gt;::type::set_##name);</div>
+</div><!-- fragment -->
 <p>Convenience macro to connect checkboxes to boolean user properties. </p>
 <p>Specialization of ALBERT_PLUGIN_PROPERTY_CONNECT</p>
 <dl class="params"><dt>Parameters</dt><dd>
@@ -540,8 +479,8 @@ Macros</h2></td></tr>
 
 </div>
 </div>
-<a id="a4385da6da63689ddad3258216eece831" name="a4385da6da63689ddad3258216eece831"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4385da6da63689ddad3258216eece831">&#9670;&#160;</a></span>ALBERT_PROPERTY_CONNECT_SPINBOX</h2>
+<a id="a18301fedc5894bbb2b294c46edbe6f1f" name="a18301fedc5894bbb2b294c46edbe6f1f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a18301fedc5894bbb2b294c46edbe6f1f">&#9670;&#160;</a></span>ALBERT_PROPERTY_CONNECT_SPINBOX</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -562,16 +501,21 @@ Macros</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname">widget&#160;</td>
+          <td class="paramname">spinbox&#160;</td>
         </tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;<a class="el" href="property_8h.html#a010c227dd7ae89ebc76e1a9452cfd7e7">ALBERT_PROPERTY_CONNECT</a>(object, name, widget, setValue, valueChanged)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<b>Value:</b><div class="fragment"><div class="line">    spinbox-&gt;setValue(object-&gt;name()); \</div>
+<div class="line">    connect(<span class="keywordtype">object</span>, &amp;std::remove_pointer&lt;<span class="keyword">decltype</span>(<span class="keywordtype">object</span>)&gt;::type::name##_changed, \</div>
+<div class="line">            spinbox, &amp;QSpinBox::setValue); \</div>
+<div class="line">    connect(spinbox, &amp;QSpinBox::valueChanged, \</div>
+<div class="line">            <span class="keywordtype">object</span>, &amp;std::remove_pointer&lt;<span class="keyword">decltype</span>(<span class="keywordtype">object</span>)&gt;::type::set_##name);</div>
+</div><!-- fragment -->
 <p>Convenience macro to connect spinboxes to int user properties. </p>
 <p>Specialization of ALBERT_PLUGIN_PROPERTY_CONNECT</p>
 <dl class="params"><dt>Parameters</dt><dd>

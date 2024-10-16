@@ -7,6 +7,49 @@
     
       
         <item>
+          <title>Albert v0.26.5 released</title>
+          <description>&lt;h1 id=&quot;-pagetitle-&quot;&gt;{ page.title }&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Archive &lt;strong&gt;qmlboxmodel&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;applications&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Fix segfaults on Qt 6.8&lt;/li&gt;
+      &lt;li&gt;Add option “split camel case”&lt;/li&gt;
+      &lt;li&gt;Add option “use acronyms”&lt;/li&gt;
+      &lt;li&gt;Add terminals debian-uxterm and com.alacritty.Alacritty&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;python&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Do not allow &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;site_import&lt;/code&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;dictionary&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Implement FallbackHandler&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;contacts&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Implement IndexQueryHandler&lt;/li&gt;
+      &lt;li&gt;Index contacts in background&lt;/li&gt;
+      &lt;li&gt;Use all available names&lt;/li&gt;
+      &lt;li&gt;Add website addresses actions&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Check the &lt;a href=&quot;https://github.com/albertlauncher/albert/commits/v0.26.5&quot;&gt;GitHub repositories&lt;/a&gt; for details.&lt;/p&gt;
+</description>
+          <pubDate>2024-10-16T18:04:00+00:00</pubDate>
+          <link>https://albertlauncher.github.io/2024/10/16/albert-v0.26.5-released/</link>
+          <guid isPermaLink="true">https://albertlauncher.github.io/2024/10/16/albert-v0.26.5-released/</guid>
+        </item>
+      
+    
+      
+        <item>
           <title>Albert v0.26.4 released</title>
           <description>&lt;h1 id=&quot;-pagetitle-&quot;&gt;{ page.title }&lt;/h1&gt;
 

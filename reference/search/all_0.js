@@ -20,12 +20,11 @@ var searchData=
   ['albert_5fplugin_5fproperty_5fmember_17',['ALBERT_PLUGIN_PROPERTY_MEMBER',['../property_8h.html#a08058f7358683544c03e4d14bd71a031',1,'property.h']]],
   ['albert_5fproperty_18',['ALBERT_PROPERTY',['../property_8h.html#a19e664a0b38678487ade172aa8c61d5d',1,'property.h']]],
   ['albert_5fproperty_5fbase_19',['ALBERT_PROPERTY_BASE',['../property_8h.html#a69d43d35887c6a7bcdf961743bfcde2e',1,'property.h']]],
-  ['albert_5fproperty_5fconnect_20',['ALBERT_PROPERTY_CONNECT',['../property_8h.html#a010c227dd7ae89ebc76e1a9452cfd7e7',1,'property.h']]],
-  ['albert_5fproperty_5fconnect_5fcheckbox_21',['ALBERT_PROPERTY_CONNECT_CHECKBOX',['../property_8h.html#ae7217a6706e6ca0ced8c21552e94c0bf',1,'property.h']]],
-  ['albert_5fproperty_5fconnect_5fspinbox_22',['ALBERT_PROPERTY_CONNECT_SPINBOX',['../property_8h.html#a4385da6da63689ddad3258216eece831',1,'property.h']]],
-  ['albert_5fproperty_5fgetset_23',['ALBERT_PROPERTY_GETSET',['../property_8h.html#a676ef7567c3e50c1d23798d6ab140a61',1,'property.h']]],
-  ['albert_5fproperty_5fmember_24',['ALBERT_PROPERTY_MEMBER',['../property_8h.html#a3e3e2661f264e96ea7c515fe8800e1f7',1,'property.h']]],
-  ['allowtriggerremap_25',['allowTriggerRemap',['../classalbert_1_1TriggerQueryHandler.html#a565b2220701d672e00c54b71f4e9cb94',1,'albert::TriggerQueryHandler']]],
-  ['applyusagescore_26',['applyUsageScore',['../classalbert_1_1GlobalQueryHandler.html#a656d92e3b99137024993f7721e02e676',1,'albert::GlobalQueryHandler']]],
-  ['authors_27',['authors',['../classalbert_1_1PluginMetaData.html#abf2c32f8c629f57dd5850f967c29d458',1,'albert::PluginMetaData']]]
+  ['albert_5fproperty_5fconnect_5fcheckbox_20',['ALBERT_PROPERTY_CONNECT_CHECKBOX',['../property_8h.html#a2b7d7199366ae57309396a419cf39421',1,'property.h']]],
+  ['albert_5fproperty_5fconnect_5fspinbox_21',['ALBERT_PROPERTY_CONNECT_SPINBOX',['../property_8h.html#a18301fedc5894bbb2b294c46edbe6f1f',1,'property.h']]],
+  ['albert_5fproperty_5fgetset_22',['ALBERT_PROPERTY_GETSET',['../property_8h.html#a676ef7567c3e50c1d23798d6ab140a61',1,'property.h']]],
+  ['albert_5fproperty_5fmember_23',['ALBERT_PROPERTY_MEMBER',['../property_8h.html#a3e3e2661f264e96ea7c515fe8800e1f7',1,'property.h']]],
+  ['allowtriggerremap_24',['allowTriggerRemap',['../classalbert_1_1TriggerQueryHandler.html#a565b2220701d672e00c54b71f4e9cb94',1,'albert::TriggerQueryHandler']]],
+  ['applyusagescore_25',['applyUsageScore',['../classalbert_1_1GlobalQueryHandler.html#a656d92e3b99137024993f7721e02e676',1,'albert::GlobalQueryHandler']]],
+  ['authors_26',['authors',['../classalbert_1_1PluginMetaData.html#abf2c32f8c629f57dd5850f967c29d458',1,'albert::PluginMetaData']]]
 ];
