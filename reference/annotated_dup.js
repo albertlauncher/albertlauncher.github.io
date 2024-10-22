@@ -26,6 +26,7 @@ var annotated_dup =
       [ "RankItem", "classalbert_1_1RankItem.html", "classalbert_1_1RankItem" ],
       [ "StandardItem", "classalbert_1_1StandardItem.html", "classalbert_1_1StandardItem" ],
       [ "StrongDependency", "classalbert_1_1StrongDependency.html", "classalbert_1_1StrongDependency" ],
+      [ "TelemetryProvider", "classalbert_1_1TelemetryProvider.html", "classalbert_1_1TelemetryProvider" ],
       [ "TriggerQueryHandler", "classalbert_1_1TriggerQueryHandler.html", "classalbert_1_1TriggerQueryHandler" ],
       [ "WeakDependency", "classalbert_1_1WeakDependency.html", "classalbert_1_1WeakDependency" ]
     ] ],

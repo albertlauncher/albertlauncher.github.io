@@ -59,7 +59,7 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "action_8h.html",
-"classalbert_1_1Notification.html#aa1d3a2a9695f2c76f4f90dc9abeeff0f",
+"classalbert_1_1Notification.html#acc2d18d42d9545c5fbc49bb29a7ec5fb",
 "functions_h.html"
 ];
 

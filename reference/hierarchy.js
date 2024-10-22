@@ -10,6 +10,7 @@ var hierarchy =
       [ "albert::ExtensionPlugin", "classalbert_1_1ExtensionPlugin.html", null ],
       [ "albert::FallbackHandler", "classalbert_1_1FallbackHandler.html", null ],
       [ "albert::PluginProvider", "classalbert_1_1PluginProvider.html", null ],
+      [ "albert::TelemetryProvider", "classalbert_1_1TelemetryProvider.html", null ],
       [ "albert::TriggerQueryHandler", "classalbert_1_1TriggerQueryHandler.html", [
         [ "albert::GlobalQueryHandler", "classalbert_1_1GlobalQueryHandler.html", [
           [ "albert::IndexQueryHandler", "classalbert_1_1IndexQueryHandler.html", null ]

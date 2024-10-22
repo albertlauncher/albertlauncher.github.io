@@ -7,6 +7,94 @@
     
       
         <item>
+          <title>Albert v0.26.6 released</title>
+          <description>&lt;h1 id=&quot;albert-v0266-released&quot;&gt;Albert v0.26.6 released&lt;/h1&gt;
+
+&lt;h2 id=&quot;albert&quot;&gt;Albert&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Actually make use of telemetry and send enabled plugins and activated extensions.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Add context menu to the plugin list
+    &lt;ul&gt;
+      &lt;li&gt;En/disable plugin&lt;/li&gt;
+      &lt;li&gt;Un/load plugin&lt;/li&gt;
+      &lt;li&gt;Option to sort list by checked state&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Improve testing
+    &lt;ul&gt;
+      &lt;li&gt;Drop doctest. Use QTest.&lt;/li&gt;
+      &lt;li&gt;Drop doctest and use QTest&lt;/li&gt;
+      &lt;li&gt;Enable CTest for better CI&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;api&quot;&gt;API&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;albert&lt;/code&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Add &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;quit()&lt;/code&gt;&lt;/li&gt;
+      &lt;li&gt;Add &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;restart()&lt;/code&gt;&lt;/li&gt;
+      &lt;li&gt;Add &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;open(QUrl url)&lt;/code&gt;&lt;/li&gt;
+      &lt;li&gt;Add &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;open(QString path)&lt;/code&gt;&lt;/li&gt;
+      &lt;li&gt;Add &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;open(filesystem::path path)&lt;/code&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;InputHistory&lt;/code&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Constructor now optionally takes a path&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Add colors to logging.h&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;plugins&quot;&gt;Plugins&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;applications&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Send telemetry about available terminals&lt;/li&gt;
+      &lt;li&gt;Log warning on unsupported terminals&lt;/li&gt;
+      &lt;li&gt;Case sensitive desktop ids&lt;/li&gt;
+      &lt;li&gt;Fix desktop entry shadowing&lt;/li&gt;
+      &lt;li&gt;Add terminal org.gnome.ptyxis&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;bluetooth&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Fix warning on language&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;files&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Add filebrowser option: Show hidden files&lt;/li&gt;
+      &lt;li&gt;Add filebrowser option: Sort case insensitive&lt;/li&gt;
+      &lt;li&gt;Add filebrowser option: Show directories first&lt;/li&gt;
+      &lt;li&gt;Use QTest&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;widgetsboxmodel&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Fix weird end of history behavior&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Check the &lt;a href=&quot;https://github.com/albertlauncher/albert/commits/v0.26.6&quot;&gt;GitHub repositories&lt;/a&gt; for details.&lt;/p&gt;
+
+</description>
+          <pubDate>2024-10-22T23:54:00+00:00</pubDate>
+          <link>https://albertlauncher.github.io/2024/10/22/albert-v0.26.6-released/</link>
+          <guid isPermaLink="true">https://albertlauncher.github.io/2024/10/22/albert-v0.26.6-released/</guid>
+        </item>
+      
+    
+      
+        <item>
           <title>Albert v0.26.5 released</title>
           <description>&lt;h1 id=&quot;albert-v0265-released&quot;&gt;Albert v0.26.5 released&lt;/h1&gt;
 

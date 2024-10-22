@@ -19,7 +19,7 @@ var searchData=
   ['inputactionrole_16',['InputActionRole',['../namespacealbert.html#a2c9bc002c072a7be9c445ada4820ab4aa53c068784eb4804d94f89da8133fae9c',1,'albert']]],
   ['inputactiontext_17',['inputactiontext',['../classalbert_1_1Item.html#a895b7ffa23356556ef72d4ba33633306',1,'albert::Item::inputActionText()'],['../classalbert_1_1StandardItem.html#a9930511eb0a37648cdd1fae7fa7e1e98',1,'albert::StandardItem::inputActionText()']]],
   ['inputchanged_18',['inputChanged',['../classalbert_1_1Frontend.html#a063fafe9030dd792bdb79cf2a9bcef84',1,'albert::Frontend']]],
-  ['inputhistory_19',['inputhistory',['../classalbert_1_1InputHistory.html#a8dade81ec81caa047a79b1e1dafd266f',1,'albert::InputHistory::InputHistory()'],['../classalbert_1_1InputHistory.html',1,'albert::InputHistory']]],
+  ['inputhistory_19',['inputhistory',['../classalbert_1_1InputHistory.html#ab950b4e8cf8e7d825e34abe31ab929ad',1,'albert::InputHistory::InputHistory()'],['../classalbert_1_1InputHistory.html',1,'albert::InputHistory']]],
   ['inputhistory_2eh_20',['inputhistory.h',['../inputhistory_8h.html',1,'']]],
   ['isemptymatch_21',['isEmptyMatch',['../classalbert_1_1Match.html#a48fa9fb3c1b4b03f6bc525de785a75f0',1,'albert::Match']]],
   ['isexactmatch_22',['isExactMatch',['../classalbert_1_1Match.html#ada8b57297ddee9300997e81aa4f1bd75',1,'albert::Match']]],

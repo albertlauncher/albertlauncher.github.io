@@ -9,7 +9,7 @@ var searchData=
   ['input_6',['input',['../classalbert_1_1Frontend.html#a79f9cfdf9e46cdf5cacb10a87e675d2c',1,'albert::Frontend']]],
   ['inputactiontext_7',['inputactiontext',['../classalbert_1_1StandardItem.html#a9930511eb0a37648cdd1fae7fa7e1e98',1,'albert::StandardItem::inputActionText()'],['../classalbert_1_1Item.html#a895b7ffa23356556ef72d4ba33633306',1,'albert::Item::inputActionText()']]],
   ['inputchanged_8',['inputChanged',['../classalbert_1_1Frontend.html#a063fafe9030dd792bdb79cf2a9bcef84',1,'albert::Frontend']]],
-  ['inputhistory_9',['InputHistory',['../classalbert_1_1InputHistory.html#a8dade81ec81caa047a79b1e1dafd266f',1,'albert::InputHistory']]],
+  ['inputhistory_9',['InputHistory',['../classalbert_1_1InputHistory.html#ab950b4e8cf8e7d825e34abe31ab929ad',1,'albert::InputHistory']]],
   ['isemptymatch_10',['isEmptyMatch',['../classalbert_1_1Match.html#a48fa9fb3c1b4b03f6bc525de785a75f0',1,'albert::Match']]],
   ['isexactmatch_11',['isExactMatch',['../classalbert_1_1Match.html#ada8b57297ddee9300997e81aa4f1bd75',1,'albert::Match']]],
   ['isfinished_12',['isFinished',['../classalbert_1_1Query.html#a74d697e5bdc98ed0abeac06be4e84897',1,'albert::Query']]],

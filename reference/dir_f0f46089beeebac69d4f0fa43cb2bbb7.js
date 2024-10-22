@@ -27,6 +27,7 @@ var dir_f0f46089beeebac69d4f0fa43cb2bbb7 =
     [ "query.h", "query_8h.html", "query_8h" ],
     [ "rankitem.h", "rankitem_8h.html", "rankitem_8h" ],
     [ "standarditem.h", "standarditem_8h.html", "standarditem_8h" ],
+    [ "telemetryprovider.h", "telemetryprovider_8h.html", "telemetryprovider_8h" ],
     [ "timeit.h", "timeit_8h.html", "timeit_8h" ],
     [ "triggerqueryhandler.h", "triggerqueryhandler_8h.html", "triggerqueryhandler_8h" ],
     [ "util.h", "util_8h.html", "util_8h" ]
