@@ -48,7 +48,7 @@
       &lt;li&gt;Constructor now optionally takes a path&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-  &lt;li&gt;Add colors to logging.h&lt;/li&gt;
+  &lt;li&gt;Add colors to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;logging.h&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&quot;plugins&quot;&gt;Plugins&lt;/h2&gt;
