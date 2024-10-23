@@ -16,17 +16,16 @@
   &lt;li&gt;
     &lt;p&gt;Actually make use of telemetry and send enabled plugins and activated extensions.&lt;/p&gt;
   &lt;/li&gt;
-  &lt;li&gt;Add context menu to the plugin list
+  &lt;li&gt;Add context menu to the plugin list:
     &lt;ul&gt;
       &lt;li&gt;En/disable plugin&lt;/li&gt;
       &lt;li&gt;Un/load plugin&lt;/li&gt;
       &lt;li&gt;Option to sort list by checked state&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-  &lt;li&gt;Improve testing
+  &lt;li&gt;Improved testing:
     &lt;ul&gt;
       &lt;li&gt;Drop doctest. Use QTest.&lt;/li&gt;
-      &lt;li&gt;Drop doctest and use QTest&lt;/li&gt;
       &lt;li&gt;Enable CTest for better CI&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
