@@ -8,7 +8,7 @@
   },"1": {
     "doc": "Concepts",
     "title": "Concepts",
-    "content": ". | TOC | . A list of core concepts that help you to grasp things faster. ",
+    "content": ". | Concepts . | Plugins | Extensions | Queries | TODO | . | . A list of core concepts that help you to grasp things faster. ",
     "url": "/gettingstarted/concepts/",
     
     "relUrl": "/gettingstarted/concepts/"
