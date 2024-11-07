@@ -190,7 +190,7 @@
   },"27": {
     "doc": "Install",
     "title": "Install",
-    "content": ". | Install | . Windows is not supported yet. ",
+    "content": "Windows is not supported yet. ",
     "url": "/gettingstarted/install/",
     
     "relUrl": "/gettingstarted/install/"
