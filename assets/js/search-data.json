@@ -188,111 +188,153 @@
     
     "relUrl": "/gettingstarted/extension/"
   },"27": {
+    "doc": "Install",
+    "title": "Official packages",
+    "content": "Windows is not supported yet. ",
+    "url": "/gettingstarted/install/#official-packages",
+    
+    "relUrl": "/gettingstarted/install/#official-packages"
+  },"28": {
+    "doc": "Install",
+    "title": "Install",
+    "content": " ",
+    "url": "/gettingstarted/install/",
+    
+    "relUrl": "/gettingstarted/install/"
+  },"29": {
     "doc": "Getting started",
     "title": "Getting started",
     "content": " ",
     "url": "/gettingstarted/",
     
     "relUrl": "/gettingstarted/"
-  },"28": {
+  },"30": {
     "doc": "Home",
     "title": "Focus on the essence",
     "content": "And let Albert take care of the noise. Get started View it on GitHub Donate Albert is a blazing-fast, plugin-based keyboard launcher written in C++/Qt. ",
     "url": "/#focus-on-the-essence",
     
     "relUrl": "/#focus-on-the-essence"
-  },"29": {
+  },"31": {
     "doc": "Home",
     "title": "Home",
     "content": " ",
     "url": "/",
     
     "relUrl": "/"
-  },"30": {
+  },"32": {
     "doc": "Installation",
     "title": "Installation",
-    "content": ". | Official packages . | Freedesktop (Linux, BSD, …) . | Unofficial packages | . | macOS | Windows | . | From source | . ",
-    "url": "/gettingstarted/installation/",
+    "content": " ",
+    "url": "/gettingstarted/installation/#installation",
     
-    "relUrl": "/gettingstarted/installation/"
-  },"31": {
+    "relUrl": "/gettingstarted/installation/#installation"
+  },"33": {
     "doc": "Installation",
     "title": "Official packages",
-    "content": "Unofficial packages may contain malicious code! Please make sure to use official or trusted repositories. Freedesktop (Linux, BSD, …) . Supported distributions, downloads and installation instructions for the base distributions can be found in the Open Build Service software center. Visit OBS software center . Several other distributions are supported when used with the correct package base: . | Distribution | Package base | . | Elementary OS 7 | Ubuntu 22.04 ℹ️ | . | Elementary OS 6 | Ubuntu 20.04 ℹ️ | . | Linux Mint 22 | Ubuntu 24.04 ℹ️ | . | Linux Mint 21 | Ubuntu 22.04 ℹ️ | . | Linux Mint 20 | Ubuntu 20.04 ℹ️ | . | Linux Mint DE 6 | Debian 12.0 ℹ️ | . | Manjaro | Arch Linux | . | PopOS! 22.04 | Ubuntu 22.04 ℹ️ | . | PopOS! 20.04 | Ubuntu 20.04 ℹ️ | . Feel free to add missing mappings to this table. The packages are built and hosted at Open Build Service. Official Linux packages are built and hosted at Open Build Service. Unofficial packages . | ArchLinux AUR | nixOS | . Feel free to add repositories to this list. macOS . Albert is available via homebrew tap. The package is built and hosted on GitHub. The homebrew tap provides a cask for Albert. To install Albert via homebrew run the following commands: . brew tap albertlauncher/albert brew update brew install albert . brew update and brew upgrade will keep the app up to date. Windows . Windows is not supported. ",
+    "content": ". | Installation . | Official packages | . | . # . ",
     "url": "/gettingstarted/installation/#official-packages",
     
     "relUrl": "/gettingstarted/installation/#official-packages"
-  },"32": {
+  },"34": {
     "doc": "Installation",
-    "title": "From source",
-    "content": "Building and installing from sources is the least convenient, but most flexible way. This way is usually for developers only. The build process is trivial, but you have to manage the dependencies on your own. See the OBS package specs for up to date build and runtime dependencies. git clone --recursive https://github.com/albertlauncher/albert.git cmake -B build -S albert -DCMAKE_INSTALL_PREFIX=/usr -DCMAKE_BUILD_TYPE=Debug cmake --build build cmake --install build . ",
-    "url": "/gettingstarted/installation/#from-source",
+    "title": "Installation",
+    "content": "macos.md . ",
+    "url": "/gettingstarted/installation/",
     
-    "relUrl": "/gettingstarted/installation/#from-source"
-  },"33": {
+    "relUrl": "/gettingstarted/installation/"
+  },"35": {
+    "doc": "Linux",
+    "title": "Linux",
+    "content": "Supported distributions, downloads and installation instructions for the base distributions can be found in the Open Build Service software center. Visit OBS software center . Several other distributions are supported when used with the correct package base: . | Distribution | Package base | . | Elementary OS 7 | Ubuntu 22.04 ℹ️ | . | Elementary OS 6 | Ubuntu 20.04 ℹ️ | . | Linux Mint 22 | Ubuntu 24.04 ℹ️ | . | Linux Mint 21 | Ubuntu 22.04 ℹ️ | . | Linux Mint 20 | Ubuntu 20.04 ℹ️ | . | Linux Mint DE 6 | Debian 12.0 ℹ️ | . | Manjaro | Arch Linux | . | PopOS! 22.04 | Ubuntu 22.04 ℹ️ | . | PopOS! 20.04 | Ubuntu 20.04 ℹ️ | . Feel free to add missing mappings to this table. The packages are built and hosted at Open Build Service. ",
+    "url": "/gettingstarted/install/linux/",
+    
+    "relUrl": "/gettingstarted/install/linux/"
+  },"36": {
+    "doc": "Linux",
+    "title": "Unofficial packages",
+    "content": "Feel free to add repositories to this list. | ArchLinux AUR | nixOS | . ",
+    "url": "/gettingstarted/install/linux/#unofficial-packages",
+    
+    "relUrl": "/gettingstarted/install/linux/#unofficial-packages"
+  },"37": {
+    "doc": "macOS",
+    "title": "macOS",
+    "content": "Albert is available via homebrew tap. The package is built and hosted on GitHub. The homebrew tap provides a cask for Albert. To install Albert via homebrew run the following commands: . brew tap albertlauncher/albert brew update brew install albert . brew update and brew upgrade will keep the app up to date. ",
+    "url": "/gettingstarted/install/macos/",
+    
+    "relUrl": "/gettingstarted/install/macos/"
+  },"38": {
     "doc": "News",
     "title": "News",
     "content": ". | 07 November 2024 Albert v0.26.7 released | 22 October 2024 Albert v0.26.6 released | 16 October 2024 Albert v0.26.5 released | 24 September 2024 Albert v0.26.4 released | 07 September 2024 Albert v0.26.3 released | 21 August 2024 Albert v0.26.2 released | 20 August 2024 Albert v0.26.1 released | 16 August 2024 Albert v0.26.0 released | 02 August 2024 Albert v0.25.0 released | 09 July 2024 Albert v0.24.3 released | 02 July 2024 Albert v0.24.2 released | 28 June 2024 Albert v0.24.1 released | 28 June 2024 Albert v0.24.0 released | 02 May 2024 GPG error: Signatures invalid: EXPKEYSIG | 03 March 2024 Albert v0.23.0 released | 26 November 2023 Albert v0.22.17 released | 18 November 2023 Albert v0.22.16 released | 08 November 2023 Albert v0.22.15 released | 06 October 2023 Albert v0.22.14 released | 05 October 2023 Albert v0.22.13 released | 03 October 2023 Albert v0.22.12 released | 03 October 2023 Albert v0.22.11 released | 03 October 2023 Albert v0.22.10 released | 28 September 2023 Albert v0.22.9 released | 28 September 2023 Albert v0.22.8 released | 27 September 2023 Albert v0.22.7 released | 26 September 2023 Albert v0.22.6 released | 22 September 2023 Albert v0.22.5 released | 30 August 2023 Albert v0.22.4 released | 17 August 2023 Albert v0.22.3 released | 14 August 2023 Albert v0.22.2 released | 14 August 2023 Albert v0.22.1 released | 12 August 2023 Albert v0.22.0 released | 27 June 2023 Albert v0.21.1 released | 23 June 2023 Albert v0.21.0 released | 19 June 2023 Prebuilt master branch packages available | 01 May 2023 Albert v0.20.14 released | 30 March 2023 Albert v0.20.13 released | 29 March 2023 Albert v0.20.12 released | 27 March 2023 Albert v0.20.11 released | 20 March 2023 Albert v0.20.10 released | 13 March 2023 Albert v0.20.9 released | 11 February 2023 Albert v0.20.8 released | 10 February 2023 Albert v0.20.7 released | 08 February 2023 Albert v0.20.6 released | 01 February 2023 Albert v0.20.5 released | 31 January 2023 Albert v0.20.4 released | 27 January 2023 Albert v0.20.3 released | 25 January 2023 Albert v0.20.2 released | 25 January 2023 Albert v0.20.1 released | 24 January 2023 Albert v0.20.0 released | 22 January 2023 Albert v0.19.4 released | 22 January 2023 Albert v0.19.3 released | 18 January 2023 Albert v0.19.2 released | 18 January 2023 Albert v0.19.1 released | 18 January 2023 Albert v0.19.0 released | 13 January 2023 Albert v0.18.13 released | 13 January 2023 Albert v0.18.12 released | 11 January 2023 Albert v0.18.11 released | 09 January 2023 Albert v0.18.10 released | 07 January 2023 Albert v0.18.9 released | 07 January 2023 Albert v0.18.8 released | 05 January 2023 Albert v0.18.7 released | 05 January 2023 Albert v0.18.6 released | 04 January 2023 Albert v0.18.5 released | 03 January 2023 Albert v0.18.4 released | 02 January 2023 Albert v0.18.3 released | 02 January 2023 Albert v0.18.2 released | 01 January 2023 Albert v0.18.1 released | 31 December 2022 Albert v0.18.0 released | 04 October 2022 Albert v0.17.4 released | 05 July 2022 Albert v0.17.3 released | 24 December 2020 Albert v0.17.2 released | 21 December 2020 Albert v0.17.1 released | 17 December 2020 Albert v0.17.0 released | 10 December 2020 Albert v0.16.4 released | 03 December 2020 Albert v0.16.3 released | 25 November 2020 Albert v0.16.2 released | 31 December 2018 Albert v0.16.1 released | 28 December 2018 Albert v0.16.0 released | 16 December 2018 Albert v0.15.0 released | 21 September 2018 Albert v0.14.22 released | 08 June 2018 Albert v0.14.21 released | 04 June 2018 Albert v0.14.20 released | 15 May 2018 Albert v0.14.19 released | 23 March 2018 Albert v0.14.18 released | 23 March 2018 Albert v0.14.17 released | 09 March 2018 Albert v0.14.16 released | 26 January 2018 Albert v0.14.15 released | 06 December 2017 Albert v0.14.14 released | 25 November 2017 Albert v0.14.13 released | 23 November 2017 Albert v0.14.12 released | 18 November 2017 Albert v0.14.11 released | 16 November 2017 Albert v0.14.10 released | 15 November 2017 Albert v0.14.9 released | 13 November 2017 Albert v0.14.8 released | 03 November 2017 Albert v0.14.7 released | 02 November 2017 Official repositories at openSUSE Build Service | 31 October 2017 Albert v0.14.6 released | 30 October 2017 Albert v0.14.5 released | 25 October 2017 Albert v0.14.4 released | 21 October 2017 Albert v0.14.3 released | 20 October 2017 Albert v0.14.2 released | 19 October 2017 Albert v0.14.1 released | 18 October 2017 Albert v0.14.0 released | 30 September 2017 Albert v0.13.1 released | 28 September 2017 Albert v0.13.0 released | 09 June 2017 Albert v0.12.0 released | 28 May 2017 Albert v0.11.3 released | 13 May 2017 Albert v0.11.2 released | 16 April 2017 Albert v0.11.1 released | 15 April 2017 Albert v0.11.0 released | 14 April 2017 Albert v0.10.4 released | 02 April 2017 Albert v0.10.3 released | 24 March 2017 Albert v0.10.2 released | 20 March 2017 Albert v0.10.1 released | 19 March 2017 Albert v0.10 released | 13 March 2017 Albert v0.9.5 released | 01 March 2017 Albert v0.9.4 released | 05 February 2017 Albert v0.9.3 released | 30 January 2017 Albert v0.9.2 released | 23 January 2017 Albert v0.9.1 released | 17 January 2017 Albert v0.9 released | 11 January 2017 Repository moved to organization page | 09 January 2017 Albert finally has a website | . Be up to date with the &lt;a href=/feed.xml&gt;RSS feed&lt;/a&gt; . ",
     "url": "/news/",
     
     "relUrl": "/news/"
-  },"34": {
+  },"39": {
     "doc": "Python",
     "title": "Writing Python plugins",
     "content": "A Python plugin is a Python module with an interface specified in the Python stub file of the embedded albert module. A minimal working example of a Python plugin: . import albert md_iid = '2.4' md_version = '1.0' md_name = 'My Plugin' md_description = 'Does fancy things' class Plugin(albert.PluginInstance): pass . Due to the different type systems, multiple inheritance of extension interfaces is not supported. However, multiple extensions can be added using albert.PluginInstance.(de)registerExtension. ",
     "url": "/gettingstarted/extension/python/#writing-python-plugins",
     
     "relUrl": "/gettingstarted/extension/python/#writing-python-plugins"
-  },"35": {
+  },"40": {
     "doc": "Python",
     "title": "What’s next?",
     "content": "From here on it depends on the interface you want to implement. | Read the Python stub file. | See the official Python plugins for reference. | In case of questions see the C++ API. | Join the community chats. | Build something cool and share it. | . ",
     "url": "/gettingstarted/extension/python/#whats-next",
     
     "relUrl": "/gettingstarted/extension/python/#whats-next"
-  },"36": {
+  },"41": {
     "doc": "Python",
     "title": "Python",
     "content": " ",
     "url": "/gettingstarted/extension/python/",
     
     "relUrl": "/gettingstarted/extension/python/"
-  },"37": {
+  },"42": {
+    "doc": "From source",
+    "title": "From source",
+    "content": "Building and installing from sources is the least convenient, but most flexible way. This way is usually for developers only. The build process is trivial, but you have to manage the dependencies on your own. See the OBS package specs for up to date build and runtime dependencies. git clone --recursive https://github.com/albertlauncher/albert.git cmake -B build -S albert -DCMAKE_INSTALL_PREFIX=/usr -DCMAKE_BUILD_TYPE=Debug cmake --build build cmake --install build . ",
+    "url": "/gettingstarted/install/source/",
+    
+    "relUrl": "/gettingstarted/install/source/"
+  },"43": {
     "doc": "Usage",
     "title": "Usage",
     "content": ". | Input line | Input history search | Results list | Key map | . There are currently two official interfaces: The ‘Widgets Box Modeland the ‘QML Box Model’. The former uses the Qt Widgets Toolkit, prioritizing resource efficiency and low-latency UIs but has limitations considering customization. The latter, built on QML, provides rich customization features, but suffers glitches on some systems. Since both interfaces have the same design concept this guide applies to both of them (Please report a bug if not). ",
     "url": "/gettingstarted/usage/",
     
     "relUrl": "/gettingstarted/usage/"
-  },"38": {
+  },"44": {
     "doc": "Usage",
     "title": "Input line",
     "content": "Besides its primary function, the input line provides an input hint and contains the settings button. The input hint, displayed after the entered text, varies based on the context. For empty triggered queries, it shows the query handler’s synopsis, if available, otherwhise it shows the input action text of the selected item, if available, or is empty. The settings button, located in the top right corner, appears on hover or when the current query is processing. ",
     "url": "/gettingstarted/usage/#input-line",
     
     "relUrl": "/gettingstarted/usage/#input-line"
-  },"39": {
+  },"45": {
     "doc": "Usage",
     "title": "Input history search",
     "content": "The content entered into the input line is stored in the input history when the window is hidden. This input history can be used to search former queries. When the input has been manually altered, it functions as a pattern for substring matching within the history entries. The empty pattern matches any entry (browsing instead of search). When the results list is hidden or the first item is selected ⬆ searches the input history. When holding Shift this condition is not required and ⬇ can be used too for bidirectional iteration. ",
     "url": "/gettingstarted/usage/#input-history-search",
     
     "relUrl": "/gettingstarted/usage/#input-history-search"
-  },"40": {
+  },"46": {
     "doc": "Usage",
     "title": "Results list",
     "content": "The results list displays results of a query. Each item has an icon, a title and a description. Almost all items have at least one action associated, which can be directly activated. Most items provide several actions that can be activated using the action list. Items may also provide an input action text that can be used to replace the input text. Its semantic is loosely defined. It may be a completion but also an evaluation or something else. The results list has three states: Hidden, show matches and show fallbacks. If a query yields matches it shows the matches. If a global query yields no matches it shows the fallbacks. If a triggered query yields no matches it stays hidden. The fallbacks state can also be activated explicitly. ",
     "url": "/gettingstarted/usage/#results-list",
     
     "relUrl": "/gettingstarted/usage/#results-list"
-  },"41": {
+  },"47": {
     "doc": "Usage",
     "title": "Key map",
     "content": "As a reference the following table lists the keys you can use to control Albert: . | Key | Action | . | Esc | Hide Albert. | . | Hold Alt/⌥Ctrl/⌘+⏎ | Activate action mode. | . | Hold Meta/⌃ | Activate Fallback mode. | . | Hold Shift | Activate history search mode. | . | Tab | Activate input action of the selected item (evaluation, completion, etc). | . | ⏎Enter⌘+O | Activate item. | . | Ctrl/⌘+, | Open settings window. | . | ⬆,⬇,PgUp,PgDn | Navigation in item lists. | . | ⌘+QAlt+F4 | Quit Albert (Depends on settings). | . | Ctrl/⌘+HCtrl/⌘+JCtrl/⌘+KCtrl/⌘+L | Vim bindings. Synthesize to arrows. | . | Ctrl/⌘+NCtrl/⌘+P | Emacs bindings. Synthesize to arrows. | . ",
     "url": "/gettingstarted/usage/#key-map",
     
     "relUrl": "/gettingstarted/usage/#key-map"
-  },"42": {
+  },"48": {
     "doc": "Usage",
     "title": "TODO",
     "content": ". | Input action (completion, evaluation, …) | Items and actions | Fallbacks | . ",
