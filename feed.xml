@@ -7,6 +7,27 @@
     
       
         <item>
+          <title>Albert Homebrew Tap</title>
+          <description>&lt;h1 id=&quot;albert-homebrew-tap&quot;&gt;Albert Homebrew Tap&lt;/h1&gt;
+
+&lt;p&gt;Albert for macOS is now available via homebrew tap.
+To install Albert on macOS run the following commands:&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;brew tap albertlauncher/albert  &lt;span class=&quot;c&quot;&gt;# Add the tap&lt;/span&gt;
+brew update                     &lt;span class=&quot;c&quot;&gt;# Update the formulas &lt;/span&gt;
+brew &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;albert             &lt;span class=&quot;c&quot;&gt;# Install Albert&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;For more details see the install section.&lt;/p&gt;
+</description>
+          <pubDate>2024-11-08T12:00:00+00:00</pubDate>
+          <link>https://albertlauncher.github.io/2024/11/08/homebrew-tap/</link>
+          <guid isPermaLink="true">https://albertlauncher.github.io/2024/11/08/homebrew-tap/</guid>
+        </item>
+      
+    
+      
+        <item>
           <title>Albert v0.26.7 released</title>
           <description>&lt;h1 id=&quot;albert-v0267-released&quot;&gt;Albert v0.26.7 released&lt;/h1&gt;
 
