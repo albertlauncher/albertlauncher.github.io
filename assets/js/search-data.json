@@ -6,270 +6,263 @@
     
     "relUrl": "/404/"
   },"1": {
-    "doc": "Concepts",
-    "title": "Concepts",
-    "content": ". | Plugins and extensions | Queries | . A list of core concepts that help you to grasp things faster. ",
-    "url": "/gettingstarted/concepts/",
-    
-    "relUrl": "/gettingstarted/concepts/"
-  },"2": {
-    "doc": "Concepts",
-    "title": "Plugins and extensions",
-    "content": "A plugin is a physical module that can be loaded/unloaded while the launcher is running. They could be native or provided by plugin providers plugin. Nested plugins are only accessible when their provider is loaded. Users can enable/disable or load/unload plugins via the plugins tab in settings or using the built-in plugin query handler. Enabled plugins load automatically at launch. Plugins with graphical interfaces for configuration can be accessed via the Plugins tab. Some plugins offer more detailed usage information there. Each plugin can provide various extensions, like frontends, plugin providers, fallback providers or query handlers. While frontends and plugin providers are advanced topics, fallback providers, global- and triggered query handlers are central to the app’s functionality. ",
-    "url": "/gettingstarted/concepts/#plugins-and-extensions",
-    
-    "relUrl": "/gettingstarted/concepts/#plugins-and-extensions"
-  },"3": {
-    "doc": "Concepts",
-    "title": "Queries",
-    "content": "The core of the app is the query engine which parses user input and determines the mode of a query. If the input starts with a trigger of a trigger query handler, the query engine instantiates a trigger query execution that is exclusively handled by the corresponding query handler. This allows the handler to asynchronously add matches and as such define their order. If the user input does not start with a trigger of a trigger query handler, the query engine instantiates a global query execution that executes the enabled global query handlers in parallel and eventually gathers and sorts their results. The fallback handlers of a query provide a separate set of result items which can handle any string. They are displayed when no matches were found or when the user explicitly requests them. ",
-    "url": "/gettingstarted/concepts/#queries",
-    
-    "relUrl": "/gettingstarted/concepts/#queries"
-  },"4": {
     "doc": "Contributing",
     "title": "Contributing",
     "content": "There are several ways to support this project . | Spread the word and leave a star | Join the community and help other users. | Create and/or maintain official plugins. | Use the application and report issues. | Check the issues and try to help debugging. | Add translations. | Improve this documentation. | Support me as a creator by becoming a sponsor or donating some bucks. | . ",
     "url": "/contributing/",
     
     "relUrl": "/contributing/"
-  },"5": {
+  },"2": {
     "doc": "C++",
     "title": "Writing native C++/Qt plugins",
     "content": ". | CMake | C++ | What’s next? | . A native plugin is a Qt Plugin, i.e. a shared library providing a particular interface. ",
     "url": "/gettingstarted/extension/cplusplus/#writing-native-cqt-plugins",
     
     "relUrl": "/gettingstarted/extension/cplusplus/#writing-native-cqt-plugins"
-  },"6": {
+  },"3": {
     "doc": "C++",
     "title": "CMake",
     "content": "Having a standardized plugin project structure the albert_plugin macro takes care of most of the CMake boilerplate code. Read its documentation in the header of the CMake module before you proceed. This is the standard plugin directory structure of a plugin: . ─┬─ my_plugin ├── CMakeLists.txt ├── metadata.json ├─┬─ src │ └── … └─┬─ i18n └── … . A basic metadata file looks like this (See also the metadata.json files of the official plugins): . { \"name\": \"My Plugin\", \"description\": \"Do useful stuff\", \"authors\": [\"@myname\"], \"license\": \"MIT\", \"url\": \"https://github.com/myusername/my-albert-plugin\", } . A minimal working CMakeLists.txt (See also the CMakeLists.txt files of the official plugins): . cmake_minimum_required(VERSION 3.16) project(my_plugin VERSION 1.0) find_package(Albert REQUIRED) albert_plugin() . ",
     "url": "/gettingstarted/extension/cplusplus/#cmake",
     
     "relUrl": "/gettingstarted/extension/cplusplus/#cmake"
-  },"7": {
+  },"4": {
     "doc": "C++",
     "title": "C++",
     "content": "A Qt plugin class has to inherit QObject, contain the Q_OBJECT macro, specify an interface identifier and the metadata file path. The relevant base classes and the ALBERT_PLUGIN macro takes care of this. Albert plugins have to inherit the PluginInstance class. Usually you dont want to subclass PluginInstance directly but rather ExtensionPlugin which implements the Extension interface using the metadata of the plugin instance. A basic plugin looks like this (See also the plugin header files of the official plugins): . #pragma once #include &lt;albert/extensionplugin.h&gt; class Plugin : public albert::ExtensionPlugin { ALBERT_PLUGIN }; . ",
     "url": "/gettingstarted/extension/cplusplus/",
     
     "relUrl": "/gettingstarted/extension/cplusplus/"
-  },"8": {
+  },"5": {
     "doc": "C++",
     "title": "What’s next?",
     "content": "From here on it depends on the interface you want to implement. | See the core interfaces in the extension inheritance diagram. | Read/Skim through the albert namespace reference. | See the official native plugins as a reference. | Join the community chats. | Build something cool and share it. | . ",
     "url": "/gettingstarted/extension/cplusplus/#whats-next",
     
     "relUrl": "/gettingstarted/extension/cplusplus/#whats-next"
-  },"9": {
+  },"6": {
     "doc": "Donating",
     "title": "Donating",
     "content": "If you found here, you are probably thinking about donating some bucks for the development of your favorite keyboard launcher 😉. That’s great! It makes me happy to know that people are grateful for what I do and I highly appreciate that you are thinking about a donation. Thank you ❤️ . | GitHub | Become a sponsor | . | Liberapay | Become a patron | . | SEPA | Please leave a mail to receive the IBAN. | . | Crypto | BTC: bc1qr4jl6jwwhuv6gtu5e0lg2r5wq45y75ulw2sfr3 ETH: 0xb4c2ed5ee122341a7f271342c5c2a61263d37357 Please leave a mail for others. | . | Binance Pay | Pay ID: 182308541 ℹ️ | . | PayPal | ⛔️ High fixed fees make small transactions relatively expensive.Donate | . | Patreon | ⛔️ High relative fee. (&gt;15%)Become a patron | . ",
     "url": "/donation/",
     
     "relUrl": "/donation/"
-  },"10": {
+  },"7": {
     "doc": "FAQ",
     "title": "Frequently asked questions",
     "content": ". | Where are cache, config and data files stored? | How to make hotkeys work on Wayland? | How to open with a particular text? | How to avoid Wayland and use XCB platform? | How to get GNOME platform integration (auto dark mode)? | How to get debug logs? | How’s it going? | . ",
     "url": "/gettingstarted/faq/#frequently-asked-questions",
     
     "relUrl": "/gettingstarted/faq/#frequently-asked-questions"
-  },"11": {
+  },"8": {
     "doc": "FAQ",
     "title": "Where are cache, config and data files stored?",
     "content": "According to QStandardPaths base directories are: . |   | Linux/BSD | MacOS | . | Cache | 👨🏼‍💻 ~/.cache/albert | 👨🏼‍💻 ~/Library/Caches/albert💻 /Library/Caches/albert | . | Config | 👨🏼‍💻 ~/.config/albert💻 /etc/xdg/albert | 👨🏼‍💻 ~/Library/Preferences/albert | . | Data | 👨🏼‍💻 ~/.local/share/albert💻 /usr/local/share/albert💻 /usr/share/albert | 👨🏼‍💻 ~/Library/Application Support/albert💻 /Library/Application Support/albert💻 &lt;APPDIR&gt;/../Resources | . Albert places its data in the base directories root. Plugins use subdirectories named by their identifier. In case of multiple directories the directories are considered in the given order. Users may change the contents of the user 👨🏼‍💻 directories (manually or by using the app). Do not touch app/vendor 💻 directories! . Note that environment variables may change these base directories on XDG platforms. See XDG Base Directory Specification for more information. ",
     "url": "/gettingstarted/faq/#where-are-cache-config-and-data-files-stored",
     
     "relUrl": "/gettingstarted/faq/#where-are-cache-config-and-data-files-stored"
-  },"12": {
+  },"9": {
     "doc": "FAQ",
     "title": "How to make hotkeys work on Wayland?",
     "content": "Wayland hotkey adoption is still in its infancy. A general solution is to let your desktop environment handle the hotkey registration. Bind the hotkey to the command you want it to run, e.g. albert toggle . | Gnome help | KDE documentation | You are welcome to improve this list. | . The above runs a new app instance, which is relatively heavy. Another approach is to pipe the command you want to send directly into the albert IPC socket. # Using netcat-openbsd echo -n toggle | nc -U ~/.cache/albert/ipc_socket # Using socat echo -n toggle | socat - ~/.cache/albert/ipc_socket . Gnome does not invoke a shell for bindings. Use sh -c \"&lt;command line&gt;\". ",
     "url": "/gettingstarted/faq/#how-to-make-hotkeys-work-on-wayland",
     
     "relUrl": "/gettingstarted/faq/#how-to-make-hotkeys-work-on-wayland"
-  },"13": {
+  },"10": {
     "doc": "FAQ",
     "title": "How to open with a particular text?",
     "content": "albert show \"trigger \" . ",
     "url": "/gettingstarted/faq/#how-to-open-with-a-particular-text",
     
     "relUrl": "/gettingstarted/faq/#how-to-open-with-a-particular-text"
-  },"14": {
+  },"11": {
     "doc": "FAQ",
     "title": "How to avoid Wayland and use XCB platform?",
     "content": "# Do not set QT_QPA_PLATFORM as it will propagate to launched apps albert --platform xcb . Currently the shipped desktop entry does this for you. ",
     "url": "/gettingstarted/faq/#how-to-avoid-wayland-and-use-xcb-platform",
     
     "relUrl": "/gettingstarted/faq/#how-to-avoid-wayland-and-use-xcb-platform"
-  },"15": {
+  },"12": {
     "doc": "FAQ",
     "title": "How to get GNOME platform integration (auto dark mode)?",
     "content": "Install QGnomePlatform. QGnomePlatform project is unmaintained and no longer actively developed, however there is nothing else providing that good integration (afaik). Note that QGnomePlatform sets styles and such (read more). So using QT_STYLE_OVERRIDE/--style may not work as expected. Run Albert using: . # Do not set QT_QPA_PLATFORMTHEME as it will propagate to launched apps albert --platformtheme gnome . ",
     "url": "/gettingstarted/faq/#how-to-get-gnome-platform-integration-auto-dark-mode",
     
     "relUrl": "/gettingstarted/faq/#how-to-get-gnome-platform-integration-auto-dark-mode"
-  },"16": {
+  },"13": {
     "doc": "FAQ",
     "title": "How to get debug logs?",
     "content": "# Enable _all_ albert logs QT_LOGGING_RULES='albert*=true' albert # Enable all albert logs of a particular plugin QT_LOGGING_RULES='albert.python*=true' albert # Enable _all_ logs (albert + qt) QT_LOGGING_RULES='*=true' albert # Enable _all_ logs (albert + qt) with additional plugin debug info QT_LOGGING_RULES='*=true' QT_DEBUG_PLUGINS=1 albert # Debug DBus QT_LOGGING_RULES='default*=true' QDBUS_DEBUG=1 . ",
     "url": "/gettingstarted/faq/#how-to-get-debug-logs",
     
     "relUrl": "/gettingstarted/faq/#how-to-get-debug-logs"
-  },"17": {
+  },"14": {
     "doc": "FAQ",
     "title": "How’s it going?",
     "content": ". | Star history compared | GitHub Release Stats | . ",
     "url": "/gettingstarted/faq/#hows-it-going",
     
     "relUrl": "/gettingstarted/faq/#hows-it-going"
-  },"18": {
+  },"15": {
     "doc": "FAQ",
     "title": "FAQ",
     "content": " ",
     "url": "/gettingstarted/faq/",
     
     "relUrl": "/gettingstarted/faq/"
-  },"19": {
+  },"16": {
     "doc": "Help",
     "title": "Getting help",
     "content": "If you have questions or problems the community is there to help. However to be fair we expect you to do your own research first. | Make sure your issue is in the scope of this project. | Google your issue. | Ask AI for help (e.g. chatgpt.com). | Search for similar existing issues. | If you need support ask for it in the community chats. | If you think you found a bug post an issue. | . ",
     "url": "/help/#getting-help",
     
     "relUrl": "/help/#getting-help"
-  },"20": {
+  },"17": {
     "doc": "Help",
     "title": "Community chat",
     "content": ". | Chat on Telegram | Chat on Discord | . The chats are bridged using matterbridge. ",
     "url": "/help/#community-chat",
     
     "relUrl": "/help/#community-chat"
-  },"21": {
+  },"18": {
     "doc": "Help",
     "title": "Help",
     "content": " ",
     "url": "/help/",
     
     "relUrl": "/help/"
-  },"22": {
+  },"19": {
     "doc": "Extension",
     "title": "Writing extensions",
     "content": "Albert can be extended by writing native C++/Qt plugins or Python plugins. A quick comparison: . | Native plugins: . | Performance and power of C++. | Access to Qt and its eventloop. | Dynamic config widgets. | . | Python plugins: . | Simplicity of Python. | Rapid prototyping. | Easy to distribute/share. | Only a subset of the internal API. | . | . ",
     "url": "/gettingstarted/extension/#writing-extensions",
     
     "relUrl": "/gettingstarted/extension/#writing-extensions"
-  },"23": {
+  },"20": {
     "doc": "Extension",
     "title": "General considerations and best practices",
-    "content": "How to version plugins . If it has a public API major.minor.patch else minor.patch. Increase major if the API breaks. Increase minor if the API got some backward compatible additions or the user experiences noticeable changes. In all other cases increase patch. Avoiding name conflicts of extension identifiers . If your plugin provides multiple extensions it’s a good idea to prepend the plugin id to the extension id to avoid name conflicts of extensions, e.g. files.root_browser. The root extension is fine to match the plugin id. ",
+    "content": "Semantic versioning . If it has a public API major.minor.patch else minor.patch. Increase major if the API breaks. Increase minor if the API got some backward compatible additions or the user experiences noticeable changes. In all other cases increase patch. Avoid extension identifier conflicts . If your plugin provides multiple extensions it’s a good idea to prepend the plugin id to the extension id to avoid name conflicts of extensions, e.g. files.root_browser. The root extension is fine to match the plugin id. ",
     "url": "/gettingstarted/extension/#general-considerations-and-best-practices",
     
     "relUrl": "/gettingstarted/extension/#general-considerations-and-best-practices"
-  },"24": {
+  },"21": {
     "doc": "Extension",
     "title": "Extension",
     "content": " ",
     "url": "/gettingstarted/extension/",
     
     "relUrl": "/gettingstarted/extension/"
-  },"25": {
+  },"22": {
     "doc": "Install",
     "title": "Install",
     "content": "Prebuilt packages are available for Linux and macOS. Windows is not supported yet. ",
     "url": "/gettingstarted/install/",
     
     "relUrl": "/gettingstarted/install/"
-  },"26": {
+  },"23": {
     "doc": "Getting started",
     "title": "Getting started",
     "content": " ",
     "url": "/gettingstarted/",
     
     "relUrl": "/gettingstarted/"
-  },"27": {
+  },"24": {
     "doc": "Home",
     "title": "Focus on the essence",
     "content": "And let Albert take care of the noise. Get started View on GitHub Donate Albert is a blazing-fast, plugin-based keyboard launcher written in C++/Qt. ",
     "url": "/#focus-on-the-essence",
     
     "relUrl": "/#focus-on-the-essence"
-  },"28": {
+  },"25": {
     "doc": "Home",
     "title": "Home",
     "content": " ",
     "url": "/",
     
     "relUrl": "/"
-  },"29": {
+  },"26": {
     "doc": "Linux",
     "title": "Linux",
     "content": "Supported distributions, downloads and installation instructions for the base distributions can be found in the Open Build Service software center. Visit OBS software center . Several other distributions are supported when used with the correct package base: . | Distribution | Package base | . | Elementary OS 7 | Ubuntu 22.04 ℹ️ | . | Elementary OS 6 | Ubuntu 20.04 ℹ️ | . | Linux Mint 22 | Ubuntu 24.04 ℹ️ | . | Linux Mint 21 | Ubuntu 22.04 ℹ️ | . | Linux Mint 20 | Ubuntu 20.04 ℹ️ | . | Linux Mint DE 6 | Debian 12.0 ℹ️ | . | Manjaro | Arch Linux | . | PopOS! 22.04 | Ubuntu 22.04 ℹ️ | . | PopOS! 20.04 | Ubuntu 20.04 ℹ️ | . Feel free to add missing mappings to this table. The packages are built and hosted at Open Build Service. ",
     "url": "/gettingstarted/install/linux/",
     
     "relUrl": "/gettingstarted/install/linux/"
-  },"30": {
+  },"27": {
     "doc": "Linux",
     "title": "Unofficial packages",
     "content": "Feel free to add repositories to this list. | ArchLinux AUR | nixOS | . ",
     "url": "/gettingstarted/install/linux/#unofficial-packages",
     
     "relUrl": "/gettingstarted/install/linux/#unofficial-packages"
-  },"31": {
+  },"28": {
     "doc": "macOS",
     "title": "macOS",
-    "content": "Albert is available via homebrew tap. The package is built and hosted on GitHub. The homebrew tap provides a cask for Albert. To install Albert via homebrew run the following commands: . brew tap albertlauncher/albert brew update brew install albert . brew update and brew upgrade will keep the app up to date. Note that the packaged app is not signed. Read the caveats section of brew install. For convenience the cask creates an ad-hoc signature and disables Gatekeeper for the app. See the postflight section of the cask. ",
+    "content": "The macOS version is experimental 🚧 . Albert is available via homebrew tap. The package is built and hosted on GitHub. The homebrew tap provides a cask for Albert. To install Albert via homebrew run the following commands: . brew tap albertlauncher/albert brew update brew install albert . brew update and brew upgrade will keep the app up to date. Note that the packaged app is not signed. Read the caveats section of brew install. For convenience the cask creates an ad-hoc signature and disables Gatekeeper for the app. See the postflight section of the cask. ",
     "url": "/gettingstarted/install/macos/",
     
     "relUrl": "/gettingstarted/install/macos/"
-  },"32": {
+  },"29": {
     "doc": "News",
     "title": "News",
     "content": ". | 07 November 2024 Albert v0.26.7 released | 22 October 2024 Albert v0.26.6 released | 16 October 2024 Albert v0.26.5 released | 24 September 2024 Albert v0.26.4 released | 07 September 2024 Albert v0.26.3 released | 21 August 2024 Albert v0.26.2 released | 20 August 2024 Albert v0.26.1 released | 16 August 2024 Albert v0.26.0 released | 02 August 2024 Albert v0.25.0 released | 09 July 2024 Albert v0.24.3 released | 02 July 2024 Albert v0.24.2 released | 28 June 2024 Albert v0.24.1 released | 28 June 2024 Albert v0.24.0 released | 02 May 2024 GPG error: Signatures invalid: EXPKEYSIG | 03 March 2024 Albert v0.23.0 released | 26 November 2023 Albert v0.22.17 released | 18 November 2023 Albert v0.22.16 released | 08 November 2023 Albert v0.22.15 released | 06 October 2023 Albert v0.22.14 released | 05 October 2023 Albert v0.22.13 released | 03 October 2023 Albert v0.22.12 released | 03 October 2023 Albert v0.22.11 released | 03 October 2023 Albert v0.22.10 released | 28 September 2023 Albert v0.22.9 released | 28 September 2023 Albert v0.22.8 released | 27 September 2023 Albert v0.22.7 released | 26 September 2023 Albert v0.22.6 released | 22 September 2023 Albert v0.22.5 released | 30 August 2023 Albert v0.22.4 released | 17 August 2023 Albert v0.22.3 released | 14 August 2023 Albert v0.22.2 released | 14 August 2023 Albert v0.22.1 released | 12 August 2023 Albert v0.22.0 released | 27 June 2023 Albert v0.21.1 released | 23 June 2023 Albert v0.21.0 released | 19 June 2023 Prebuilt master branch packages available | 01 May 2023 Albert v0.20.14 released | 30 March 2023 Albert v0.20.13 released | 29 March 2023 Albert v0.20.12 released | 27 March 2023 Albert v0.20.11 released | 20 March 2023 Albert v0.20.10 released | 13 March 2023 Albert v0.20.9 released | 11 February 2023 Albert v0.20.8 released | 10 February 2023 Albert v0.20.7 released | 08 February 2023 Albert v0.20.6 released | 01 February 2023 Albert v0.20.5 released | 31 January 2023 Albert v0.20.4 released | 27 January 2023 Albert v0.20.3 released | 25 January 2023 Albert v0.20.2 released | 25 January 2023 Albert v0.20.1 released | 24 January 2023 Albert v0.20.0 released | 22 January 2023 Albert v0.19.4 released | 22 January 2023 Albert v0.19.3 released | 18 January 2023 Albert v0.19.2 released | 18 January 2023 Albert v0.19.1 released | 18 January 2023 Albert v0.19.0 released | 13 January 2023 Albert v0.18.13 released | 13 January 2023 Albert v0.18.12 released | 11 January 2023 Albert v0.18.11 released | 09 January 2023 Albert v0.18.10 released | 07 January 2023 Albert v0.18.9 released | 07 January 2023 Albert v0.18.8 released | 05 January 2023 Albert v0.18.7 released | 05 January 2023 Albert v0.18.6 released | 04 January 2023 Albert v0.18.5 released | 03 January 2023 Albert v0.18.4 released | 02 January 2023 Albert v0.18.3 released | 02 January 2023 Albert v0.18.2 released | 01 January 2023 Albert v0.18.1 released | 31 December 2022 Albert v0.18.0 released | 04 October 2022 Albert v0.17.4 released | 05 July 2022 Albert v0.17.3 released | 24 December 2020 Albert v0.17.2 released | 21 December 2020 Albert v0.17.1 released | 17 December 2020 Albert v0.17.0 released | 10 December 2020 Albert v0.16.4 released | 03 December 2020 Albert v0.16.3 released | 25 November 2020 Albert v0.16.2 released | 31 December 2018 Albert v0.16.1 released | 28 December 2018 Albert v0.16.0 released | 16 December 2018 Albert v0.15.0 released | 21 September 2018 Albert v0.14.22 released | 08 June 2018 Albert v0.14.21 released | 04 June 2018 Albert v0.14.20 released | 15 May 2018 Albert v0.14.19 released | 23 March 2018 Albert v0.14.18 released | 23 March 2018 Albert v0.14.17 released | 09 March 2018 Albert v0.14.16 released | 26 January 2018 Albert v0.14.15 released | 06 December 2017 Albert v0.14.14 released | 25 November 2017 Albert v0.14.13 released | 23 November 2017 Albert v0.14.12 released | 18 November 2017 Albert v0.14.11 released | 16 November 2017 Albert v0.14.10 released | 15 November 2017 Albert v0.14.9 released | 13 November 2017 Albert v0.14.8 released | 03 November 2017 Albert v0.14.7 released | 02 November 2017 Official repositories at openSUSE Build Service | 31 October 2017 Albert v0.14.6 released | 30 October 2017 Albert v0.14.5 released | 25 October 2017 Albert v0.14.4 released | 21 October 2017 Albert v0.14.3 released | 20 October 2017 Albert v0.14.2 released | 19 October 2017 Albert v0.14.1 released | 18 October 2017 Albert v0.14.0 released | 30 September 2017 Albert v0.13.1 released | 28 September 2017 Albert v0.13.0 released | 09 June 2017 Albert v0.12.0 released | 28 May 2017 Albert v0.11.3 released | 13 May 2017 Albert v0.11.2 released | 16 April 2017 Albert v0.11.1 released | 15 April 2017 Albert v0.11.0 released | 14 April 2017 Albert v0.10.4 released | 02 April 2017 Albert v0.10.3 released | 24 March 2017 Albert v0.10.2 released | 20 March 2017 Albert v0.10.1 released | 19 March 2017 Albert v0.10 released | 13 March 2017 Albert v0.9.5 released | 01 March 2017 Albert v0.9.4 released | 05 February 2017 Albert v0.9.3 released | 30 January 2017 Albert v0.9.2 released | 23 January 2017 Albert v0.9.1 released | 17 January 2017 Albert v0.9 released | 11 January 2017 Repository moved to organization page | 09 January 2017 Albert finally has a website | . Be up to date with the &lt;a href=/feed.xml&gt;RSS feed&lt;/a&gt; . ",
     "url": "/news/",
     
     "relUrl": "/news/"
-  },"33": {
+  },"30": {
     "doc": "Python",
     "title": "Writing Python plugins",
     "content": "A Python plugin is a Python module with an interface specified in the Python stub file of the embedded albert module. A minimal working example of a Python plugin: . import albert md_iid = '2.4' md_version = '1.0' md_name = 'My Plugin' md_description = 'Does fancy things' class Plugin(albert.PluginInstance): pass . Due to the different type systems, multiple inheritance of extension interfaces is not supported. However, multiple extensions can be added using albert.PluginInstance.(de)registerExtension. ",
     "url": "/gettingstarted/extension/python/#writing-python-plugins",
     
     "relUrl": "/gettingstarted/extension/python/#writing-python-plugins"
-  },"34": {
+  },"31": {
     "doc": "Python",
     "title": "What’s next?",
     "content": "From here on it depends on the interface you want to implement. | Read the Python stub file. | See the official Python plugins for reference. | In case of questions see the C++ API. | Join the community chats. | Build something cool and share it. | . ",
     "url": "/gettingstarted/extension/python/#whats-next",
     
     "relUrl": "/gettingstarted/extension/python/#whats-next"
-  },"35": {
+  },"32": {
     "doc": "Python",
     "title": "Python",
     "content": " ",
     "url": "/gettingstarted/extension/python/",
     
     "relUrl": "/gettingstarted/extension/python/"
-  },"36": {
+  },"33": {
     "doc": "From source",
     "title": "From source",
     "content": "Building and installing from sources is the least convenient, but most flexible way. This way is usually for developers only. The build process is trivial, but you have to manage the dependencies on your own. See the OBS package specs for up to date build and runtime dependencies. git clone --recursive https://github.com/albertlauncher/albert.git cmake -B build -S albert -DCMAKE_INSTALL_PREFIX=/usr -DCMAKE_BUILD_TYPE=Debug cmake --build build cmake --install build . ",
     "url": "/gettingstarted/install/source/",
     
     "relUrl": "/gettingstarted/install/source/"
-  },"37": {
+  },"34": {
     "doc": "Usage",
     "title": "Usage",
-    "content": ". | User interface . | Input line | Results list | Actions list | Key map | . | . ",
+    "content": ". | User interface . | Input line | Results list | Actions list | Key map | . | Plugins and extensions | Queries | . ",
     "url": "/gettingstarted/usage/",
     
     "relUrl": "/gettingstarted/usage/"
-  },"38": {
+  },"35": {
     "doc": "Usage",
     "title": "User interface",
-    "content": "Input line . Besides its primary function, the input line provides an input hint and contains the settings button. The input hint, displayed after the entered text, varies based on the context. For empty triggered queries, it shows the query handler’s synopsis, if available, otherwise it shows the input action text of the selected item, if available, or is empty. The settings button is located in the top right corner of the input line. It appears on mouse hover and also serves as busy indicator e.g. when the current query is processing. On click it opens the settings window. The manually entered text of the input line is stored in the input history when the window is hidden. This input history can be used to search and browse your past input. When the results list is hidden or the first item is selected ⬆ iterates the input history in reverse order. Holding Shift enables the input history navigation mode. In this mode the mentioned conditions for ⬆ to iterate the history are not required. and ⬇ can be used for bidirectional iteration as well. If enabled, the (manually set) input text is used for input history search. Input history navigation then only shows input history entries matching the input text. Results list . The results list displays results items of a query. Hold and release Meta/⌃ to switch between match items and fallback items. Items can provide an input action text which is used to replace the input text on pressing Tab. Its semantic is loosely defined. It may be a completion but also an evaluation or something else. Actions list . Result items can have multiple associated actions. The default action of an item is activated by pressing ⏎ or Enter. To display and navigate the list of alternative actions of an item hold Alt/⌥ . Key map . As a reference the following table lists the keys you can use to control Albert: . | Key | Action | . | Esc | Hide Albert. | . | Hold Alt/⌥Ctrl/⌘+⏎ | Activate action mode. | . | Hold Meta/⌃ | Activate Fallback mode. | . | Hold Shift | Activate history search mode. | . | Tab | Activate input action of the selected item (evaluation, completion, etc). | . | ⏎Enter⌘+O | Activate item. | . | Ctrl/⌘+, | Open settings window. | . | ⬆,⬇,PgUp,PgDn | Navigation in item lists. | . | ⌘+QAlt+F4 | Quit Albert (Depends on settings). | . | Ctrl/⌘+HCtrl/⌘+JCtrl/⌘+KCtrl/⌘+L | Vim bindings. Synthesize to arrows. | . | Ctrl/⌘+NCtrl/⌘+P | Emacs bindings. Synthesize to arrows. | . ",
+    "content": "Note: The following uses Qt terminology for modifier key names. The following table shows the mapping of modifier keys on different keyboards: . | Qt | Linux/Win | MacOS | . | Ctrl | Ctrl | command /⌘ | . | Meta | Win | control /⌃ | . | Alt | Alt | option /⌥ | . Input line . Besides its primary function, the input line provides an input hint and contains the settings button. The input hint, displayed after the entered text, varies based on the context. For empty triggered queries, it shows the query handler’s synopsis, if available, otherwise it shows the input action text of the selected item, if available, or is empty. The settings button is located in the top right corner of the input line. It appears on mouse hover and also serves as busy indicator e.g. when the current query is processing. On click it opens the settings window. The manually entered text of the input line is stored in the input history when the window is hidden. This input history can be used to search and browse your past input. When the results list is hidden or the first item is selected ⬆ iterates the input history in reverse order. Holding Shift enables the input history navigation mode. In this mode the mentioned conditions for ⬆ to iterate the history are not required. and ⬇ can be used for bidirectional iteration as well. If enabled, the (manually set) input text is used for input history search. Input history navigation then only shows input history entries matching the input text. Results list . The results list displays results items of a query. Hold and release Meta to switch between match items and fallback items. Items can provide an input action text which is used to replace the input text on pressing Tab. Its semantic is loosely defined. It may be a completion but also an evaluation or something else. Actions list . Result items can have multiple associated actions. The default action of an item is activated by pressing Return or Enter. To display and navigate the list of alternative actions of an item hold Alt . Key map . As a reference the following table lists the keys you can use to control Albert: . | Key | Action | . | Esc | Hide Albert. | . | Alt (Hold) | Activate action mode. | . | Meta (Hold) | Activate fallback mode. | . | Shift (Hold) | Activate history search mode. | . | Tab | Activate input action of the selected item (evaluation, completion, etc). | . | Return,Enter | Activate item. | . | Ctrl+, | Open settings window. | . | ⬆,⬇,PgUp,PgDn | Navigation in item lists. | . | Alt+F4,⌘+Q | Quit Albert (Depends on settings). | . | Ctrl+H/J/K/L | Vim bindings. Synthesize to arrows. | . | Ctrl+N/P | Emacs bindings. Synthesize to arrows. | . ",
     "url": "/gettingstarted/usage/#user-interface",
     
     "relUrl": "/gettingstarted/usage/#user-interface"
+  },"36": {
+    "doc": "Usage",
+    "title": "Plugins and extensions",
+    "content": "A plugin is a physical module that can be loaded/unloaded at runtime. It could be native or provided by plugin provider plugins. Nested plugins are accessible when their provider is loaded. Users can enable/disable or load/unload plugins via the plugins tab in the settings or using the built-in plugin query handler. Enabled plugins load automatically at launch. Plugins with graphical interfaces for configuration can be accessed via the plugins tab in the settings. An extensions is a logical module that can be provided by a plugin to add functionality. Each plugin can provide multiple extensions. While query and fallback handlers are central to the app’s functionality, there are other extension interfaces that plugins can provide. More on this topic can be found in the Extension section. ",
+    "url": "/gettingstarted/usage/#plugins-and-extensions",
+    
+    "relUrl": "/gettingstarted/usage/#plugins-and-extensions"
+  },"37": {
+    "doc": "Usage",
+    "title": "Queries",
+    "content": "The core of the app is the query engine which parses user input and determines the mode of a query. If the input starts with a trigger of a trigger query handler, the query engine instantiates a trigger query execution that is exclusively handled by the corresponding handler. This allows the handler to asynchronously add matches and as such define their order. If the user input does not start with a trigger of a trigger query handler, the query engine instantiates a global query execution that executes the enabled global query handlers in parallel and eventually gathers and sorts their matches. Both query executions eventually yield a set of query matches which may be empty. The fallback handlers of a query provide a separate set of result items, the query fallbacks, which can handle any string. They are displayed when no matches were found or when the user explicitly requests them. ",
+    "url": "/gettingstarted/usage/#queries",
+    
+    "relUrl": "/gettingstarted/usage/#queries"
   }
 }
