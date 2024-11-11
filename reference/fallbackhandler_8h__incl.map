@@ -1,0 +1,27 @@
+<map id="workspace/albert/include/albert/fallbackhandler.h" name="workspace/albert/include/albert/fallbackhandler.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="355,5,520,46"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="52,241,117,267"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="355,30,270,39,223,48,175,61,129,79,85,103,46,132,13,169,9,185,15,201,30,217,49,231,46,235,27,221,11,204,3,186,9,166,42,129,82,98,126,74,173,56,222,43,269,33,354,25"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="257,241,359,267"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="464,45,496,75,525,113,535,133,540,154,539,175,529,195,505,212,466,227,375,246,374,241,465,222,502,208,525,192,534,174,535,155,530,135,520,115,492,78,461,49"/>
+<area shape="rect" id="Node000004" href="$extension_8h.html" title=" " alt="" coords="23,168,145,193"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="393,49,127,164,125,159,391,44"/>
+<area shape="rect" id="Node000005" href="$item_8h.html" title=" " alt="" coords="343,94,436,120"/>
+<area shape="poly" id="edge6_Node000001_Node000005" title=" " alt="" coords="428,48,407,82,403,79,424,45"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="457,168,514,193"/>
+<area shape="poly" id="edge15_Node000001_Node000009" title=" " alt="" coords="446,45,480,152,475,154,441,47"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="589,94,657,120"/>
+<area shape="poly" id="edge14_Node000001_Node000010" title=" " alt="" coords="485,44,582,85,580,90,483,49"/>
+<area shape="poly" id="edge4_Node000004_Node000002" title=" " alt="" coords="87,194,87,226,82,226,82,194"/>
+<area shape="poly" id="edge5_Node000004_Node000003" title=" " alt="" coords="123,191,257,234,255,239,122,196"/>
+<area shape="poly" id="edge12_Node000005_Node000003" title=" " alt="" coords="377,122,356,143,336,169,323,198,315,227,310,226,318,196,331,166,352,139,373,118"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="346,168,433,193"/>
+<area shape="poly" id="edge7_Node000005_Node000006" title=" " alt="" coords="392,120,392,152,387,152,387,120"/>
+<area shape="rect" id="Node000007" href="$action_8h.html" title=" " alt="" coords="169,168,271,193"/>
+<area shape="poly" id="edge8_Node000005_Node000007" title=" " alt="" coords="362,123,264,164,262,159,360,118"/>
+<area shape="poly" id="edge13_Node000005_Node000009" title=" " alt="" coords="408,118,459,156,456,161,404,122"/>
+<area shape="poly" id="edge9_Node000007_Node000002" title=" " alt="" coords="198,196,122,236,120,231,196,192"/>
+<area shape="poly" id="edge10_Node000007_Node000003" title=" " alt="" coords="237,192,283,229,280,234,234,196"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="156,241,234,267"/>
+<area shape="poly" id="edge11_Node000007_Node000008" title=" " alt="" coords="219,194,207,228,202,226,214,193"/>
+</map>

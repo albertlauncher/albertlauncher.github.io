@@ -1,0 +1,21 @@
+<map id="workspace/albert/include/albert/rankitem.h" name="workspace/albert/include/albert/rankitem.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="55,5,221,46"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,241,108,267"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="118,48,98,70,82,95,69,129,62,164,58,226,53,226,57,163,64,127,77,93,94,66,114,45"/>
+<area shape="rect" id="Node000003" href="$item_8h.html" title=" " alt="" coords="92,94,184,120"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="141,46,141,78,135,78,135,46"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="208,94,276,120"/>
+<area shape="poly" id="edge10_Node000001_Node000009" title=" " alt="" coords="165,44,215,82,212,86,162,49"/>
+<area shape="poly" id="edge8_Node000003_Node000002" title=" " alt="" coords="125,122,104,143,84,169,71,198,64,227,58,226,66,196,80,166,100,139,122,118"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="94,168,182,193"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="141,120,141,152,135,152,135,120"/>
+<area shape="rect" id="Node000005" href="$action_8h.html" title=" " alt="" coords="205,168,308,193"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="159,118,225,157,222,162,157,122"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="332,168,389,193"/>
+<area shape="poly" id="edge9_Node000003_Node000008" title=" " alt="" coords="176,118,318,163,316,168,175,123"/>
+<area shape="poly" id="edge6_Node000005_Node000002" title=" " alt="" coords="223,196,106,238,104,233,222,191"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="177,241,243,267"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="251,195,228,230,224,227,247,192"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="267,241,345,267"/>
+<area shape="poly" id="edge7_Node000005_Node000007" title=" " alt="" coords="267,192,291,227,287,230,262,195"/>
+</map>

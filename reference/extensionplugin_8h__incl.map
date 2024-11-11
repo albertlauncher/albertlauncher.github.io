@@ -1,0 +1,21 @@
+<map id="workspace/albert/include/albert/extensionplugin.h" name="workspace/albert/include/albert/extensionplugin.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="77,5,243,46"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,94,75,120"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="132,49,72,88,69,83,129,44"/>
+<area shape="rect" id="Node000003" href="$extension_8h.html" title=" " alt="" coords="99,94,221,120"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="163,46,163,78,157,78,157,46"/>
+<area shape="rect" id="Node000006" href="$plugininstance_8h.html" title=" " alt="" coords="245,94,395,120"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="201,44,283,84,281,89,199,49"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="207,168,273,193"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="175,118,217,155,214,159,172,122"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="81,168,183,193"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="158,121,145,154,140,152,153,119"/>
+<area shape="poly" id="edge7_Node000006_Node000004" title=" " alt="" coords="308,122,266,159,263,155,305,118"/>
+<area shape="poly" id="edge9_Node000006_Node000005" title=" " alt="" coords="289,123,179,164,177,159,287,118"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="296,168,344,193"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="323,120,323,152,317,152,317,120"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="368,168,469,193"/>
+<area shape="poly" id="edge8_Node000006_Node000008" title=" " alt="" coords="338,118,392,156,388,161,335,122"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="493,168,560,193"/>
+<area shape="poly" id="edge10_Node000006_Node000009" title=" " alt="" coords="356,118,479,160,477,165,354,123"/>
+</map>

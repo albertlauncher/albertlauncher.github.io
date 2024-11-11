@@ -1,0 +1,15 @@
+<map id="workspace/albert/include/albert/backgroundexecutor.h" name="workspace/albert/include/albert/backgroundexecutor.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="230,5,417,46"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,94,122,120"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="259,49,119,92,117,86,258,44"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="146,94,245,120"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="293,49,229,88,226,83,290,44"/>
+<area shape="rect" id="Node000004" href="$logging_8h.html" title=" " alt="" coords="269,94,378,120"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="326,46,326,78,321,78,321,46"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="401,94,462,120"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="352,44,404,82,401,87,349,49"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="486,94,564,120"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="375,44,481,85,479,90,373,49"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="259,168,388,193"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="326,120,326,152,321,152,321,120"/>
+</map>
