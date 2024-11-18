@@ -516,11 +516,6 @@
                 <Anchor>a5b158fdbe6e3f4380a5b0736bb1bf17f</Anchor>
                </Node>
                <Node>
-                <Name>Match</Name>
-                <Path>classalbert_1_1Match.html</Path>
-                <Anchor>a3407facbc41286e2d2542618f3bb2997</Anchor>
-               </Node>
-               <Node>
                 <Name>isEmptyMatch</Name>
                 <Path>classalbert_1_1Match.html</Path>
                 <Anchor>a48fa9fb3c1b4b03f6bc525de785a75f0</Anchor>
@@ -551,14 +546,40 @@
                 <Anchor>a801232665c20ed90a18861040208c463</Anchor>
                </Node>
                <Node>
-                <Name>operator=</Name>
-                <Path>classalbert_1_1Match.html</Path>
-                <Anchor>a1c042e21efeaba4e03e39516dc654334</Anchor>
-               </Node>
-               <Node>
                 <Name>score</Name>
                 <Path>classalbert_1_1Match.html</Path>
                 <Anchor>aeb2d797f1718d841391125437236e412</Anchor>
+               </Node>
+              </Subnodes>
+             </Node>
+             <Node>
+              <Name>MatchConfig</Name>
+              <Path>classalbert_1_1MatchConfig.html</Path>
+            <Subnodes>
+               <Node>
+                <Name>fuzzy</Name>
+                <Path>classalbert_1_1MatchConfig.html</Path>
+                <Anchor>aa1833dae4bbbc846e9d1d6d13f23689e</Anchor>
+               </Node>
+               <Node>
+                <Name>ignore_case</Name>
+                <Path>classalbert_1_1MatchConfig.html</Path>
+                <Anchor>a2eb12d5eba0e78ff36a2b73c11a5c516</Anchor>
+               </Node>
+               <Node>
+                <Name>ignore_diacritics</Name>
+                <Path>classalbert_1_1MatchConfig.html</Path>
+                <Anchor>aba17291c8e157177a030a2b0342e77c9</Anchor>
+               </Node>
+               <Node>
+                <Name>ignore_word_order</Name>
+                <Path>classalbert_1_1MatchConfig.html</Path>
+                <Anchor>ad147ba681f17fe175112f60bbe06f33e</Anchor>
+               </Node>
+               <Node>
+                <Name>separator_regex</Name>
+                <Path>classalbert_1_1MatchConfig.html</Path>
+                <Anchor>a0151800775b765f4a15566e5097d1e5f</Anchor>
                </Node>
               </Subnodes>
              </Node>
@@ -569,7 +590,7 @@
                <Node>
                 <Name>Matcher</Name>
                 <Path>classalbert_1_1Matcher.html</Path>
-                <Anchor>adbd264acd880f546b0bf7fb7ae6863d2</Anchor>
+                <Anchor>a2bd5d32d44aee83c29e5eac72474fb64</Anchor>
                </Node>
                <Node>
                 <Name>Matcher</Name>
@@ -584,17 +605,27 @@
                <Node>
                 <Name>match</Name>
                 <Path>classalbert_1_1Matcher.html</Path>
-                <Anchor>a7cbd3523b60cce8def65ed1815c9c7e6</Anchor>
+                <Anchor>a8c865339f789c18f15ad62a4d57593c7</Anchor>
                </Node>
                <Node>
                 <Name>match</Name>
                 <Path>classalbert_1_1Matcher.html</Path>
-                <Anchor>a8c865339f789c18f15ad62a4d57593c7</Anchor>
+                <Anchor>aeafe5316ed43cf30ada0b55c6f47e39c</Anchor>
+               </Node>
+               <Node>
+                <Name>match</Name>
+                <Path>classalbert_1_1Matcher.html</Path>
+                <Anchor>a4277087b8bd59a6e69f32417a941f430</Anchor>
                </Node>
                <Node>
                 <Name>operator=</Name>
                 <Path>classalbert_1_1Matcher.html</Path>
                 <Anchor>aee90a94470ec39b2fe541d9def8cf3ba</Anchor>
+               </Node>
+               <Node>
+                <Name>string</Name>
+                <Path>classalbert_1_1Matcher.html</Path>
+                <Anchor>a47f41d3f5675c8ebee8d8cab38b504f7</Anchor>
                </Node>
               </Subnodes>
              </Node>
@@ -1899,11 +1930,6 @@
                 <Anchor>a5b158fdbe6e3f4380a5b0736bb1bf17f</Anchor>
                </Node>
                <Node>
-                <Name>Match</Name>
-                <Path>classalbert_1_1Match.html</Path>
-                <Anchor>a3407facbc41286e2d2542618f3bb2997</Anchor>
-               </Node>
-               <Node>
                 <Name>isEmptyMatch</Name>
                 <Path>classalbert_1_1Match.html</Path>
                 <Anchor>a48fa9fb3c1b4b03f6bc525de785a75f0</Anchor>
@@ -1934,14 +1960,40 @@
                 <Anchor>a801232665c20ed90a18861040208c463</Anchor>
                </Node>
                <Node>
-                <Name>operator=</Name>
-                <Path>classalbert_1_1Match.html</Path>
-                <Anchor>a1c042e21efeaba4e03e39516dc654334</Anchor>
-               </Node>
-               <Node>
                 <Name>score</Name>
                 <Path>classalbert_1_1Match.html</Path>
                 <Anchor>aeb2d797f1718d841391125437236e412</Anchor>
+               </Node>
+              </Subnodes>
+             </Node>
+             <Node>
+              <Name>MatchConfig</Name>
+              <Path>classalbert_1_1MatchConfig.html</Path>
+            <Subnodes>
+               <Node>
+                <Name>fuzzy</Name>
+                <Path>classalbert_1_1MatchConfig.html</Path>
+                <Anchor>aa1833dae4bbbc846e9d1d6d13f23689e</Anchor>
+               </Node>
+               <Node>
+                <Name>ignore_case</Name>
+                <Path>classalbert_1_1MatchConfig.html</Path>
+                <Anchor>a2eb12d5eba0e78ff36a2b73c11a5c516</Anchor>
+               </Node>
+               <Node>
+                <Name>ignore_diacritics</Name>
+                <Path>classalbert_1_1MatchConfig.html</Path>
+                <Anchor>aba17291c8e157177a030a2b0342e77c9</Anchor>
+               </Node>
+               <Node>
+                <Name>ignore_word_order</Name>
+                <Path>classalbert_1_1MatchConfig.html</Path>
+                <Anchor>ad147ba681f17fe175112f60bbe06f33e</Anchor>
+               </Node>
+               <Node>
+                <Name>separator_regex</Name>
+                <Path>classalbert_1_1MatchConfig.html</Path>
+                <Anchor>a0151800775b765f4a15566e5097d1e5f</Anchor>
                </Node>
               </Subnodes>
              </Node>
@@ -1952,7 +2004,7 @@
                <Node>
                 <Name>Matcher</Name>
                 <Path>classalbert_1_1Matcher.html</Path>
-                <Anchor>adbd264acd880f546b0bf7fb7ae6863d2</Anchor>
+                <Anchor>a2bd5d32d44aee83c29e5eac72474fb64</Anchor>
                </Node>
                <Node>
                 <Name>Matcher</Name>
@@ -1967,17 +2019,27 @@
                <Node>
                 <Name>match</Name>
                 <Path>classalbert_1_1Matcher.html</Path>
-                <Anchor>a7cbd3523b60cce8def65ed1815c9c7e6</Anchor>
+                <Anchor>a8c865339f789c18f15ad62a4d57593c7</Anchor>
                </Node>
                <Node>
                 <Name>match</Name>
                 <Path>classalbert_1_1Matcher.html</Path>
-                <Anchor>a8c865339f789c18f15ad62a4d57593c7</Anchor>
+                <Anchor>aeafe5316ed43cf30ada0b55c6f47e39c</Anchor>
+               </Node>
+               <Node>
+                <Name>match</Name>
+                <Path>classalbert_1_1Matcher.html</Path>
+                <Anchor>a4277087b8bd59a6e69f32417a941f430</Anchor>
                </Node>
                <Node>
                 <Name>operator=</Name>
                 <Path>classalbert_1_1Matcher.html</Path>
                 <Anchor>aee90a94470ec39b2fe541d9def8cf3ba</Anchor>
+               </Node>
+               <Node>
+                <Name>string</Name>
+                <Path>classalbert_1_1Matcher.html</Path>
+                <Anchor>a47f41d3f5675c8ebee8d8cab38b504f7</Anchor>
                </Node>
               </Subnodes>
              </Node>
@@ -2704,6 +2766,10 @@
            <Node>
             <Name>albert::Match</Name>
             <Path>classalbert_1_1Match.html</Path>
+           </Node>
+           <Node>
+            <Name>albert::MatchConfig</Name>
+            <Path>classalbert_1_1MatchConfig.html</Path>
            </Node>
            <Node>
             <Name>albert::Matcher</Name>
@@ -3561,6 +3627,39 @@
                    <Node>
                     <Name>matchconfig.h</Name>
                     <Path>matchconfig_8h.html</Path>
+                  <Subnodes>
+                     <Node>
+                      <Name>albert::MatchConfig</Name>
+                      <Path>classalbert_1_1MatchConfig.html</Path>
+                    <Subnodes>
+                       <Node>
+                        <Name>fuzzy</Name>
+                        <Path>classalbert_1_1MatchConfig.html</Path>
+                        <Anchor>aa1833dae4bbbc846e9d1d6d13f23689e</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>ignore_case</Name>
+                        <Path>classalbert_1_1MatchConfig.html</Path>
+                        <Anchor>a2eb12d5eba0e78ff36a2b73c11a5c516</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>ignore_diacritics</Name>
+                        <Path>classalbert_1_1MatchConfig.html</Path>
+                        <Anchor>aba17291c8e157177a030a2b0342e77c9</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>ignore_word_order</Name>
+                        <Path>classalbert_1_1MatchConfig.html</Path>
+                        <Anchor>ad147ba681f17fe175112f60bbe06f33e</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>separator_regex</Name>
+                        <Path>classalbert_1_1MatchConfig.html</Path>
+                        <Anchor>a0151800775b765f4a15566e5097d1e5f</Anchor>
+                       </Node>
+                      </Subnodes>
+                     </Node>
+                    </Subnodes>
                    </Node>
                    <Node>
                     <Name>matcher.h</Name>
@@ -3589,11 +3688,6 @@
                         <Name>Match</Name>
                         <Path>classalbert_1_1Match.html</Path>
                         <Anchor>a5b158fdbe6e3f4380a5b0736bb1bf17f</Anchor>
-                       </Node>
-                       <Node>
-                        <Name>Match</Name>
-                        <Path>classalbert_1_1Match.html</Path>
-                        <Anchor>a3407facbc41286e2d2542618f3bb2997</Anchor>
                        </Node>
                        <Node>
                         <Name>isEmptyMatch</Name>
@@ -3626,11 +3720,6 @@
                         <Anchor>a801232665c20ed90a18861040208c463</Anchor>
                        </Node>
                        <Node>
-                        <Name>operator=</Name>
-                        <Path>classalbert_1_1Match.html</Path>
-                        <Anchor>a1c042e21efeaba4e03e39516dc654334</Anchor>
-                       </Node>
-                       <Node>
                         <Name>score</Name>
                         <Path>classalbert_1_1Match.html</Path>
                         <Anchor>aeb2d797f1718d841391125437236e412</Anchor>
@@ -3644,7 +3733,7 @@
                        <Node>
                         <Name>Matcher</Name>
                         <Path>classalbert_1_1Matcher.html</Path>
-                        <Anchor>adbd264acd880f546b0bf7fb7ae6863d2</Anchor>
+                        <Anchor>a2bd5d32d44aee83c29e5eac72474fb64</Anchor>
                        </Node>
                        <Node>
                         <Name>Matcher</Name>
@@ -3659,17 +3748,27 @@
                        <Node>
                         <Name>match</Name>
                         <Path>classalbert_1_1Matcher.html</Path>
-                        <Anchor>a7cbd3523b60cce8def65ed1815c9c7e6</Anchor>
+                        <Anchor>a8c865339f789c18f15ad62a4d57593c7</Anchor>
                        </Node>
                        <Node>
                         <Name>match</Name>
                         <Path>classalbert_1_1Matcher.html</Path>
-                        <Anchor>a8c865339f789c18f15ad62a4d57593c7</Anchor>
+                        <Anchor>aeafe5316ed43cf30ada0b55c6f47e39c</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>match</Name>
+                        <Path>classalbert_1_1Matcher.html</Path>
+                        <Anchor>a4277087b8bd59a6e69f32417a941f430</Anchor>
                        </Node>
                        <Node>
                         <Name>operator=</Name>
                         <Path>classalbert_1_1Matcher.html</Path>
                         <Anchor>aee90a94470ec39b2fe541d9def8cf3ba</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>string</Name>
+                        <Path>classalbert_1_1Matcher.html</Path>
+                        <Anchor>a47f41d3f5675c8ebee8d8cab38b504f7</Anchor>
                        </Node>
                       </Subnodes>
                      </Node>

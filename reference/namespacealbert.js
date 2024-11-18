@@ -15,6 +15,7 @@ var namespacealbert =
     [ "InputHistory", "classalbert_1_1InputHistory.html", "classalbert_1_1InputHistory" ],
     [ "Item", "classalbert_1_1Item.html", "classalbert_1_1Item" ],
     [ "Match", "classalbert_1_1Match.html", "classalbert_1_1Match" ],
+    [ "MatchConfig", "classalbert_1_1MatchConfig.html", "classalbert_1_1MatchConfig" ],
     [ "Matcher", "classalbert_1_1Matcher.html", "classalbert_1_1Matcher" ],
     [ "Notification", "classalbert_1_1Notification.html", "classalbert_1_1Notification" ],
     [ "PluginInstance", "classalbert_1_1PluginInstance.html", "classalbert_1_1PluginInstance" ],

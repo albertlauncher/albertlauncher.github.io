@@ -1,7 +1,8 @@
 var searchData=
 [
-  ['text_0',['text',['../classalbert_1_1Action.html#a1bfc14743e18269a07ef3ff9eb8798dc',1,'albert::Action']]],
-  ['text_5f_1',['text_',['../classalbert_1_1StandardItem.html#a277d77f4c599d91187820f849e9a9c52',1,'albert::StandardItem']]],
-  ['third_5fparty_5fcredits_2',['third_party_credits',['../classalbert_1_1PluginMetaData.html#a98a024db32e7452f078ae7685b20a9cb',1,'albert::PluginMetaData']]],
-  ['translations_3',['translations',['../classalbert_1_1PluginMetaData.html#a5da5859ac1f0ecea79526c03a054b305',1,'albert::PluginMetaData']]]
+  ['score_0',['score',['../classalbert_1_1RankItem.html#a582ca543e0f6db3319cb201470d5437a',1,'albert::RankItem']]],
+  ['separator_5fregex_1',['separator_regex',['../classalbert_1_1MatchConfig.html#a0151800775b765f4a15566e5097d1e5f',1,'albert::MatchConfig']]],
+  ['start_2',['start',['../structTimeIt.html#a5b4fef8507cf2707ee693bfbcc3935f3',1,'TimeIt']]],
+  ['string_3',['string',['../classalbert_1_1IndexItem.html#ae09f09fb44d713487a40f1e416172cd2',1,'albert::IndexItem']]],
+  ['subtext_5f_4',['subtext_',['../classalbert_1_1StandardItem.html#a8e276ffbab6c0c02dcdd4f8647d63869',1,'albert::StandardItem']]]
 ];

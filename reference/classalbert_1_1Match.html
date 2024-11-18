@@ -103,12 +103,12 @@ $(document).ready(function(){initNavTree('classalbert_1_1Match.html',''); initRe
 
 <p><code>#include &lt;<a class="el" href="matcher_8h_source.html">albert/matcher.h</a>&gt;</code></p>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>The <a class="el" href="classalbert_1_1Match.html" title="The Match class.">Match</a> class. </p>
-<p>Utility class encapsulating and augmenting the match score.</p>
+<div class="textblock"><p>Augmented match score. </p>
 <p>Some nifty features:</p><ul>
 <li>The bool type conversion evaluates to <a class="el" href="classalbert_1_1Match.html#a5fbbd4ce36917598a1cc5534f596c857">isMatch()</a></li>
-<li>The Score/double type conversion seamlessly uses the score </li>
+<li>The Score/double type conversion seamlessly uses the <a class="el" href="classalbert_1_1Match.html#aeb2d797f1718d841391125437236e412">score()</a></li>
 </ul>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="classalbert_1_1Matcher.html">Matcher</a> </dd></dl>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
@@ -118,29 +118,35 @@ Public Types</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a240aed4fc86419851dad0817a838a119" id="r_a240aed4fc86419851dad0817a838a119"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1Match.html#a240aed4fc86419851dad0817a838a119">Match</a> ()</td></tr>
+<tr class="memdesc:a240aed4fc86419851dad0817a838a119"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs an invalid match.  <br /></td></tr>
 <tr class="separator:a240aed4fc86419851dad0817a838a119"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:add8282de219db9c48034ed5de2349ea3" id="r_add8282de219db9c48034ed5de2349ea3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1Match.html#add8282de219db9c48034ed5de2349ea3">Match</a> (const <a class="el" href="classalbert_1_1Match.html#af864b64c9d79b1408ed97893d896c982">Score</a> <a class="el" href="classalbert_1_1Match.html#aeb2d797f1718d841391125437236e412">score</a>)</td></tr>
+<tr class="memdesc:add8282de219db9c48034ed5de2349ea3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a match with the given <code>score</code>.  <br /></td></tr>
 <tr class="separator:add8282de219db9c48034ed5de2349ea3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5b158fdbe6e3f4380a5b0736bb1bf17f" id="r_a5b158fdbe6e3f4380a5b0736bb1bf17f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1Match.html#a5b158fdbe6e3f4380a5b0736bb1bf17f">Match</a> (const <a class="el" href="classalbert_1_1Match.html">Match</a> &amp;o)=default</td></tr>
+<tr class="memdesc:a5b158fdbe6e3f4380a5b0736bb1bf17f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a <a class="el" href="classalbert_1_1Match.html#a240aed4fc86419851dad0817a838a119" title="Constructs an invalid match.">Match</a> with the score of <code>other</code>.  <br /></td></tr>
 <tr class="separator:a5b158fdbe6e3f4380a5b0736bb1bf17f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3407facbc41286e2d2542618f3bb2997" id="r_a3407facbc41286e2d2542618f3bb2997"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1Match.html#a3407facbc41286e2d2542618f3bb2997">Match</a> (<a class="el" href="classalbert_1_1Match.html">Match</a> &amp;&amp;o)=default</td></tr>
-<tr class="separator:a3407facbc41286e2d2542618f3bb2997"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a801232665c20ed90a18861040208c463" id="r_a801232665c20ed90a18861040208c463"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classalbert_1_1Match.html">Match</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1Match.html#a801232665c20ed90a18861040208c463">operator=</a> (const <a class="el" href="classalbert_1_1Match.html">Match</a> &amp;o)=default</td></tr>
+<tr class="memdesc:a801232665c20ed90a18861040208c463"><td class="mdescLeft">&#160;</td><td class="mdescRight">Replaces the score with that of <code>other</code>.  <br /></td></tr>
 <tr class="separator:a801232665c20ed90a18861040208c463"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1c042e21efeaba4e03e39516dc654334" id="r_a1c042e21efeaba4e03e39516dc654334"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classalbert_1_1Match.html">Match</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1Match.html#a1c042e21efeaba4e03e39516dc654334">operator=</a> (<a class="el" href="classalbert_1_1Match.html">Match</a> &amp;&amp;o)=default</td></tr>
-<tr class="separator:a1c042e21efeaba4e03e39516dc654334"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a04dd8e332e6c21086dcaab2478bdb1ba" id="r_a04dd8e332e6c21086dcaab2478bdb1ba"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1Match.html#a04dd8e332e6c21086dcaab2478bdb1ba">operator bool</a> () const</td></tr>
-<tr class="separator:a04dd8e332e6c21086dcaab2478bdb1ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af3279cb5b45f333c8d7eb28bb75d4053" id="r_af3279cb5b45f333c8d7eb28bb75d4053"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1Match.html#af3279cb5b45f333c8d7eb28bb75d4053">operator Score</a> () const</td></tr>
-<tr class="separator:af3279cb5b45f333c8d7eb28bb75d4053"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5fbbd4ce36917598a1cc5534f596c857" id="r_a5fbbd4ce36917598a1cc5534f596c857"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1Match.html#a5fbbd4ce36917598a1cc5534f596c857">isMatch</a> () const</td></tr>
+<tr class="memdesc:a5fbbd4ce36917598a1cc5534f596c857"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns <code>true</code> if this is a match, otherwise returns <code>false</code>.  <br /></td></tr>
 <tr class="separator:a5fbbd4ce36917598a1cc5534f596c857"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a48fa9fb3c1b4b03f6bc525de785a75f0" id="r_a48fa9fb3c1b4b03f6bc525de785a75f0"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1Match.html#a48fa9fb3c1b4b03f6bc525de785a75f0">isEmptyMatch</a> () const</td></tr>
+<tr class="memdesc:a48fa9fb3c1b4b03f6bc525de785a75f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns <code>true</code> if this is a zero score match, otherwise returns <code>false</code>.  <br /></td></tr>
 <tr class="separator:a48fa9fb3c1b4b03f6bc525de785a75f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ada8b57297ddee9300997e81aa4f1bd75" id="r_ada8b57297ddee9300997e81aa4f1bd75"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1Match.html#ada8b57297ddee9300997e81aa4f1bd75">isExactMatch</a> () const</td></tr>
+<tr class="memdesc:ada8b57297ddee9300997e81aa4f1bd75"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns <code>true</code> if this is a perfect match, otherwise returns <code>false</code>.  <br /></td></tr>
 <tr class="separator:ada8b57297ddee9300997e81aa4f1bd75"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeb2d797f1718d841391125437236e412" id="r_aeb2d797f1718d841391125437236e412"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classalbert_1_1Match.html#af864b64c9d79b1408ed97893d896c982">Score</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1Match.html#aeb2d797f1718d841391125437236e412">score</a> () const</td></tr>
+<tr class="memdesc:aeb2d797f1718d841391125437236e412"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the score.  <br /></td></tr>
 <tr class="separator:aeb2d797f1718d841391125437236e412"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a04dd8e332e6c21086dcaab2478bdb1ba" id="r_a04dd8e332e6c21086dcaab2478bdb1ba"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1Match.html#a04dd8e332e6c21086dcaab2478bdb1ba">operator bool</a> () const</td></tr>
+<tr class="memdesc:a04dd8e332e6c21086dcaab2478bdb1ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns <code>true</code> if this is a match, otherwise returns <code>false</code>.  <br /></td></tr>
+<tr class="separator:a04dd8e332e6c21086dcaab2478bdb1ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af3279cb5b45f333c8d7eb28bb75d4053" id="r_af3279cb5b45f333c8d7eb28bb75d4053"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1Match.html#af3279cb5b45f333c8d7eb28bb75d4053">operator Score</a> () const</td></tr>
+<tr class="memdesc:af3279cb5b45f333c8d7eb28bb75d4053"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the score.  <br /></td></tr>
+<tr class="separator:af3279cb5b45f333c8d7eb28bb75d4053"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Typedef Documentation</h2>
 <a id="af864b64c9d79b1408ed97893d896c982" name="af864b64c9d79b1408ed97893d896c982"></a>
@@ -159,7 +165,7 @@ Public Member Functions</h2></td></tr>
 </div>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a240aed4fc86419851dad0817a838a119" name="a240aed4fc86419851dad0817a838a119"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a240aed4fc86419851dad0817a838a119">&#9670;&#160;</a></span>Match() <span class="overload">[1/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a240aed4fc86419851dad0817a838a119">&#9670;&#160;</a></span>Match() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -181,10 +187,12 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Constructs an invalid match. </p>
+
 </div>
 </div>
 <a id="add8282de219db9c48034ed5de2349ea3" name="add8282de219db9c48034ed5de2349ea3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#add8282de219db9c48034ed5de2349ea3">&#9670;&#160;</a></span>Match() <span class="overload">[2/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#add8282de219db9c48034ed5de2349ea3">&#9670;&#160;</a></span>Match() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -207,10 +215,12 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Constructs a match with the given <code>score</code>. </p>
+
 </div>
 </div>
 <a id="a5b158fdbe6e3f4380a5b0736bb1bf17f" name="a5b158fdbe6e3f4380a5b0736bb1bf17f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5b158fdbe6e3f4380a5b0736bb1bf17f">&#9670;&#160;</a></span>Match() <span class="overload">[3/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a5b158fdbe6e3f4380a5b0736bb1bf17f">&#9670;&#160;</a></span>Match() <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -233,31 +243,7 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-</div>
-</div>
-<a id="a3407facbc41286e2d2542618f3bb2997" name="a3407facbc41286e2d2542618f3bb2997"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3407facbc41286e2d2542618f3bb2997">&#9670;&#160;</a></span>Match() <span class="overload">[4/4]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">albert::Match::Match </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="classalbert_1_1Match.html">Match</a> &amp;&amp;&#160;</td>
-          <td class="paramname"><em>o</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">default</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
+<p>Constructs a <a class="el" href="classalbert_1_1Match.html#a240aed4fc86419851dad0817a838a119" title="Constructs an invalid match.">Match</a> with the score of <code>other</code>. </p>
 
 </div>
 </div>
@@ -285,6 +271,8 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Returns <code>true</code> if this is a zero score match, otherwise returns <code>false</code>. </p>
+
 </div>
 </div>
 <a id="ada8b57297ddee9300997e81aa4f1bd75" name="ada8b57297ddee9300997e81aa4f1bd75"></a>
@@ -309,6 +297,8 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Returns <code>true</code> if this is a perfect match, otherwise returns <code>false</code>. </p>
 
 </div>
 </div>
@@ -335,6 +325,8 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Returns <code>true</code> if this is a match, otherwise returns <code>false</code>. </p>
+
 </div>
 </div>
 <a id="a04dd8e332e6c21086dcaab2478bdb1ba" name="a04dd8e332e6c21086dcaab2478bdb1ba"></a>
@@ -359,6 +351,8 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Returns <code>true</code> if this is a match, otherwise returns <code>false</code>. </p>
 
 </div>
 </div>
@@ -385,10 +379,12 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Returns the score. </p>
+
 </div>
 </div>
 <a id="a801232665c20ed90a18861040208c463" name="a801232665c20ed90a18861040208c463"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a801232665c20ed90a18861040208c463">&#9670;&#160;</a></span>operator=() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a801232665c20ed90a18861040208c463">&#9670;&#160;</a></span>operator=()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -411,31 +407,7 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-</div>
-</div>
-<a id="a1c042e21efeaba4e03e39516dc654334" name="a1c042e21efeaba4e03e39516dc654334"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1c042e21efeaba4e03e39516dc654334">&#9670;&#160;</a></span>operator=() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classalbert_1_1Match.html">Match</a> &amp; albert::Match::operator= </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="classalbert_1_1Match.html">Match</a> &amp;&amp;&#160;</td>
-          <td class="paramname"><em>o</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">default</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
+<p>Replaces the score with that of <code>other</code>. </p>
 
 </div>
 </div>
@@ -461,6 +433,8 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Returns the score. </p>
 
 </div>
 </div>

@@ -23,6 +23,7 @@ var hierarchy =
       [ "albert::StandardItem", "classalbert_1_1StandardItem.html", null ]
     ] ],
     [ "albert::Match", "classalbert_1_1Match.html", null ],
+    [ "albert::MatchConfig", "classalbert_1_1MatchConfig.html", null ],
     [ "albert::Matcher", "classalbert_1_1Matcher.html", null ],
     [ "albert::PluginInstance", "classalbert_1_1PluginInstance.html", [
       [ "albert::ExtensionPlugin", "classalbert_1_1ExtensionPlugin.html", null ]

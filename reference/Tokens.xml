@@ -152,6 +152,16 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>albert::MatchConfig</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+      <Scope>albert::MatchConfig</Scope>
+    </TokenIdentifier>
+    <Path>classalbert_1_1MatchConfig.html</Path>
+    <DeclaredIn>albert/matchconfig.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>albert::Matcher</Name>
       <APILanguage>c</APILanguage>
       <Type>cl</Type>
@@ -669,6 +679,16 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>error_tolerance_divisor</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>albert::MatchConfig</Scope>
+    </TokenIdentifier>
+    <Path>classalbert_1_1MatchConfig.html</Path>
+    <Anchor>ad011dc755845d386f8b47ddac9881438</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>extension</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
@@ -773,6 +793,16 @@
     </TokenIdentifier>
     <Path>classalbert_1_1Action.html</Path>
     <Anchor>a3b51b223188440df06f813fc06f2b6ed</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>fuzzy</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>albert::MatchConfig</Scope>
+    </TokenIdentifier>
+    <Path>classalbert_1_1MatchConfig.html</Path>
+    <Anchor>aa1833dae4bbbc846e9d1d6d13f23689e</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -956,6 +986,36 @@
     </TokenIdentifier>
     <Path>classalbert_1_1StandardItem.html</Path>
     <Anchor>a580b213d38ef4e7f5e2e05669b5ee750</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ignore_case</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>albert::MatchConfig</Scope>
+    </TokenIdentifier>
+    <Path>classalbert_1_1MatchConfig.html</Path>
+    <Anchor>a2eb12d5eba0e78ff36a2b73c11a5c516</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ignore_diacritics</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>albert::MatchConfig</Scope>
+    </TokenIdentifier>
+    <Path>classalbert_1_1MatchConfig.html</Path>
+    <Anchor>aba17291c8e157177a030a2b0342e77c9</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ignore_word_order</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>albert::MatchConfig</Scope>
+    </TokenIdentifier>
+    <Path>classalbert_1_1MatchConfig.html</Path>
+    <Anchor>ad147ba681f17fe175112f60bbe06f33e</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -1258,6 +1318,39 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>match</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>albert::Matcher</Scope>
+    </TokenIdentifier>
+    <Path>classalbert_1_1Matcher.html</Path>
+    <Anchor>a8c865339f789c18f15ad62a4d57593c7</Anchor>
+    <DeclaredIn>matcher.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>match</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>albert::Matcher</Scope>
+    </TokenIdentifier>
+    <Path>classalbert_1_1Matcher.html</Path>
+    <Anchor>aeafe5316ed43cf30ada0b55c6f47e39c</Anchor>
+    <DeclaredIn>matcher.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>match</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>albert::Matcher</Scope>
+    </TokenIdentifier>
+    <Path>classalbert_1_1Matcher.html</Path>
+    <Anchor>a4277087b8bd59a6e69f32417a941f430</Anchor>
+    <DeclaredIn>matcher.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>Match</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
@@ -1291,46 +1384,13 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>Match</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>albert::Match</Scope>
-    </TokenIdentifier>
-    <Path>classalbert_1_1Match.html</Path>
-    <Anchor>a3407facbc41286e2d2542618f3bb2997</Anchor>
-    <DeclaredIn>matcher.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>match</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>albert::Matcher</Scope>
-    </TokenIdentifier>
-    <Path>classalbert_1_1Matcher.html</Path>
-    <Anchor>a7cbd3523b60cce8def65ed1815c9c7e6</Anchor>
-    <DeclaredIn>matcher.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>match</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>albert::Matcher</Scope>
-    </TokenIdentifier>
-    <Path>classalbert_1_1Matcher.html</Path>
-    <Anchor>a8c865339f789c18f15ad62a4d57593c7</Anchor>
-    <DeclaredIn>matcher.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
       <Name>Matcher</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
       <Scope>albert::Matcher</Scope>
     </TokenIdentifier>
     <Path>classalbert_1_1Matcher.html</Path>
-    <Anchor>adbd264acd880f546b0bf7fb7ae6863d2</Anchor>
+    <Anchor>a2bd5d32d44aee83c29e5eac72474fb64</Anchor>
     <DeclaredIn>matcher.h</DeclaredIn>
   </Token>
   <Token>
@@ -1549,17 +1609,6 @@
     </TokenIdentifier>
     <Path>classalbert_1_1Match.html</Path>
     <Anchor>a801232665c20ed90a18861040208c463</Anchor>
-    <DeclaredIn>matcher.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>operator=</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>albert::Match</Scope>
-    </TokenIdentifier>
-    <Path>classalbert_1_1Match.html</Path>
-    <Anchor>a1c042e21efeaba4e03e39516dc654334</Anchor>
     <DeclaredIn>matcher.h</DeclaredIn>
   </Token>
   <Token>
@@ -1831,6 +1880,16 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>separator_regex</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>albert::MatchConfig</Scope>
+    </TokenIdentifier>
+    <Path>classalbert_1_1MatchConfig.html</Path>
+    <Anchor>a0151800775b765f4a15566e5097d1e5f</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>setActions</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
@@ -2079,6 +2138,17 @@
     </TokenIdentifier>
     <Path>classalbert_1_1IndexItem.html</Path>
     <Anchor>ae09f09fb44d713487a40f1e416172cd2</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>string</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>albert::Matcher</Scope>
+    </TokenIdentifier>
+    <Path>classalbert_1_1Matcher.html</Path>
+    <Anchor>a47f41d3f5675c8ebee8d8cab38b504f7</Anchor>
+    <DeclaredIn>matcher.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>

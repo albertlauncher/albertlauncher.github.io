@@ -8,5 +8,6 @@ var searchData=
   ['finished_5',['finished',['../classalbert_1_1Query.html#abf7bfc65b2ecf0f4f24d3f082ece7224',1,'albert::Query']]],
   ['frontend_6',['frontend',['../classalbert_1_1Frontend.html',1,'albert::Frontend'],['../classalbert_1_1PluginMetaData.html#a1f334952cd39eeb45fe4401a919f950fad97ba66b283564339628b71975a6e68d',1,'albert::PluginMetaData::Frontend']]],
   ['frontend_2eh_7',['frontend.h',['../frontend_8h.html',1,'']]],
-  ['function_8',['function',['../classalbert_1_1Action.html#a3b51b223188440df06f813fc06f2b6ed',1,'albert::Action']]]
+  ['function_8',['function',['../classalbert_1_1Action.html#a3b51b223188440df06f813fc06f2b6ed',1,'albert::Action']]],
+  ['fuzzy_9',['fuzzy',['../classalbert_1_1MatchConfig.html#aa1833dae4bbbc846e9d1d6d13f23689e',1,'albert::MatchConfig']]]
 ];

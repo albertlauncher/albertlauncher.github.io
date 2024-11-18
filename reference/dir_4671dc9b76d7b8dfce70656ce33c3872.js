@@ -15,7 +15,7 @@ var dir_4671dc9b76d7b8dfce70656ce33c3872 =
     [ "inputhistory.h", "inputhistory_8h.html", "inputhistory_8h" ],
     [ "item.h", "item_8h.html", "item_8h" ],
     [ "logging.h", "logging_8h.html", "logging_8h" ],
-    [ "matchconfig.h", "matchconfig_8h.html", null ],
+    [ "matchconfig.h", "matchconfig_8h.html", "matchconfig_8h" ],
     [ "matcher.h", "matcher_8h.html", "matcher_8h" ],
     [ "notification.h", "notification_8h.html", "notification_8h" ],
     [ "plugindependency.h", "plugindependency_8h.html", "plugindependency_8h" ],

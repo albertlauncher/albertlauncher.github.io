@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['name_0',['name',['../classalbert_1_1PluginMetaData.html#adb66212725fe3ea81fc11ba522f9655b',1,'albert::PluginMetaData::name'],['../structTimeIt.html#a46dd347f3de91477d39b14eda882ec8a',1,'TimeIt::name']]]
+  ['license_0',['license',['../classalbert_1_1PluginMetaData.html#a6b2c517aba6610546d858f8ebdc017f3',1,'albert::PluginMetaData']]],
+  ['load_5ftype_1',['load_type',['../classalbert_1_1PluginMetaData.html#a467edd48fa6968f4e664ad4b4b39928c',1,'albert::PluginMetaData']]]
 ];
