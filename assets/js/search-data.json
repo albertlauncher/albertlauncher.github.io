@@ -183,7 +183,7 @@
   },"26": {
     "doc": "Linux",
     "title": "Linux",
-    "content": "Supported distributions, downloads and installation instructions for the base distributions can be found in the Open Build Service software center. Visit OBS software center . Several other distributions are supported when used with the correct package base: . | Distribution | Package base | . | Elementary OS 7 | Ubuntu 22.04 ℹ️ | . | Elementary OS 6 | Ubuntu 20.04 ℹ️ | . | Linux Mint 22 | Ubuntu 24.04 ℹ️ | . | Linux Mint 21 | Ubuntu 22.04 ℹ️ | . | Linux Mint 20 | Ubuntu 20.04 ℹ️ | . | Linux Mint DE 6 | Debian 12.0 ℹ️ | . | Manjaro | Arch Linux | . | PopOS! 22.04 | Ubuntu 22.04 ℹ️ | . | PopOS! 20.04 | Ubuntu 20.04 ℹ️ | . Feel free to add missing mappings to this table. The packages are built and hosted at Open Build Service. ",
+    "content": "Supported distributions, downloads and installation instructions for the base distributions can be found in the Open Build Service software center. Visit OBS software center . The packages are built and hosted at Open Build Service. Several other distributions are supported when used with the correct package base: . | Distribution | Package base | . | Elementary OS 7 | Ubuntu 22.04 ℹ️ | . | Elementary OS 6 | Ubuntu 20.04 ℹ️ | . | Linux Mint 22 | Ubuntu 24.04 ℹ️ | . | Linux Mint 21 | Ubuntu 22.04 ℹ️ | . | Linux Mint 20 | Ubuntu 20.04 ℹ️ | . | Linux Mint DE 6 | Debian 12.0 ℹ️ | . | Manjaro | Arch Linux | . | PopOS! 22.04 | Ubuntu 22.04 ℹ️ | . | PopOS! 20.04 | Ubuntu 20.04 ℹ️ | . Feel free to add missing mappings to this table. ",
     "url": "/gettingstarted/install/linux/",
     
     "relUrl": "/gettingstarted/install/linux/"
