@@ -434,6 +434,11 @@
                 <Anchor>a52beb209e78d2f8abb9c1337575b9a72</Anchor>
                </Node>
                <Node>
+                <Name>clear</Name>
+                <Path>classalbert_1_1InputHistory.html</Path>
+                <Anchor>a1be2c9881eded67c18cc422517b8f852</Anchor>
+               </Node>
+               <Node>
                 <Name>next</Name>
                 <Path>classalbert_1_1InputHistory.html</Path>
                 <Anchor>a94069cc0b72b867eb8eb56da51ac8dc8</Anchor>
@@ -1846,6 +1851,11 @@
                 <Name>add</Name>
                 <Path>classalbert_1_1InputHistory.html</Path>
                 <Anchor>a52beb209e78d2f8abb9c1337575b9a72</Anchor>
+               </Node>
+               <Node>
+                <Name>clear</Name>
+                <Path>classalbert_1_1InputHistory.html</Path>
+                <Anchor>a1be2c9881eded67c18cc422517b8f852</Anchor>
                </Node>
                <Node>
                 <Name>next</Name>
@@ -3491,6 +3501,11 @@
                         <Name>add</Name>
                         <Path>classalbert_1_1InputHistory.html</Path>
                         <Anchor>a52beb209e78d2f8abb9c1337575b9a72</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>clear</Name>
+                        <Path>classalbert_1_1InputHistory.html</Path>
+                        <Anchor>a1be2c9881eded67c18cc422517b8f852</Anchor>
                        </Node>
                        <Node>
                         <Name>next</Name>

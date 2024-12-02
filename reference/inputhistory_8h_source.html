@@ -131,21 +131,24 @@ $(document).ready(function(){initNavTree('inputhistory_8h_source.html',''); init
 <div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span> </div>
 <div class="line"><a id="l00055" name="l00055"></a><span class="lineno"><a class="line" href="classalbert_1_1InputHistory.html#a776b827eaba727833d58e42a1cf00ca8">   55</a></span>    Q_INVOKABLE <span class="keywordtype">void</span> <a class="code hl_function" href="classalbert_1_1InputHistory.html#a776b827eaba727833d58e42a1cf00ca8">resetIterator</a>();</div>
 <div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span> </div>
-<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span><span class="keyword">private</span>:</div>
-<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span> </div>
-<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>    <span class="keyword">class </span>Private;</div>
-<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>    std::unique_ptr&lt;Private&gt; d;</div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno"><a class="line" href="classalbert_1_1InputHistory.html#a1be2c9881eded67c18cc422517b8f852">   60</a></span>    Q_INVOKABLE <span class="keywordtype">void</span> <a class="code hl_function" href="classalbert_1_1InputHistory.html#a1be2c9881eded67c18cc422517b8f852">clear</a>();</div>
 <div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span> </div>
-<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>};</div>
-</div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span><span class="keyword">private</span>:</div>
 <div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span> </div>
-<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>}</div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>    <span class="keyword">class </span>Private;</div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>    std::unique_ptr&lt;Private&gt; d;</div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span> </div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>};</div>
+</div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span> </div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>}</div>
 <div class="ttc" id="aclassalbert_1_1InputHistory_html"><div class="ttname"><a href="classalbert_1_1InputHistory.html">albert::InputHistory</a></div><div class="ttdoc">Input history class.</div><div class="ttdef"><b>Definition</b> inputhistory.h:19</div></div>
-<div class="ttc" id="aclassalbert_1_1InputHistory_html_a1e9ef6e9eab4f6738914ae9077d8fb0d"><div class="ttname"><a href="classalbert_1_1InputHistory.html#a1e9ef6e9eab4f6738914ae9077d8fb0d">albert::InputHistory::prev</a></div><div class="ttdeci">Q_INVOKABLE QString prev(const QString &amp;pattern=QString{})</div><div class="ttdoc">Get previous history item matching the pattern.</div></div>
+<div class="ttc" id="aclassalbert_1_1InputHistory_html_a1be2c9881eded67c18cc422517b8f852"><div class="ttname"><a href="classalbert_1_1InputHistory.html#a1be2c9881eded67c18cc422517b8f852">albert::InputHistory::clear</a></div><div class="ttdeci">Q_INVOKABLE void clear()</div><div class="ttdoc">Clears the history.</div></div>
+<div class="ttc" id="aclassalbert_1_1InputHistory_html_a1e9ef6e9eab4f6738914ae9077d8fb0d"><div class="ttname"><a href="classalbert_1_1InputHistory.html#a1e9ef6e9eab4f6738914ae9077d8fb0d">albert::InputHistory::prev</a></div><div class="ttdeci">Q_INVOKABLE QString prev(const QString &amp;pattern=QString{})</div><div class="ttdoc">Gets previous history item matching the pattern.</div></div>
 <div class="ttc" id="aclassalbert_1_1InputHistory_html_a4f0fbb944ffdeb950f7458e0df794ecc"><div class="ttname"><a href="classalbert_1_1InputHistory.html#a4f0fbb944ffdeb950f7458e0df794ecc">albert::InputHistory::~InputHistory</a></div><div class="ttdeci">~InputHistory() override</div></div>
-<div class="ttc" id="aclassalbert_1_1InputHistory_html_a52beb209e78d2f8abb9c1337575b9a72"><div class="ttname"><a href="classalbert_1_1InputHistory.html#a52beb209e78d2f8abb9c1337575b9a72">albert::InputHistory::add</a></div><div class="ttdeci">Q_INVOKABLE void add(const QString &amp;str)</div><div class="ttdoc">Add text to history search.</div></div>
-<div class="ttc" id="aclassalbert_1_1InputHistory_html_a776b827eaba727833d58e42a1cf00ca8"><div class="ttname"><a href="classalbert_1_1InputHistory.html#a776b827eaba727833d58e42a1cf00ca8">albert::InputHistory::resetIterator</a></div><div class="ttdeci">Q_INVOKABLE void resetIterator()</div><div class="ttdoc">Reset history search.</div></div>
-<div class="ttc" id="aclassalbert_1_1InputHistory_html_a94069cc0b72b867eb8eb56da51ac8dc8"><div class="ttname"><a href="classalbert_1_1InputHistory.html#a94069cc0b72b867eb8eb56da51ac8dc8">albert::InputHistory::next</a></div><div class="ttdeci">Q_INVOKABLE QString next(const QString &amp;pattern=QString{})</div><div class="ttdoc">Get next history item matching the pattern.</div></div>
+<div class="ttc" id="aclassalbert_1_1InputHistory_html_a52beb209e78d2f8abb9c1337575b9a72"><div class="ttname"><a href="classalbert_1_1InputHistory.html#a52beb209e78d2f8abb9c1337575b9a72">albert::InputHistory::add</a></div><div class="ttdeci">Q_INVOKABLE void add(const QString &amp;str)</div><div class="ttdoc">Adds text to history search.</div></div>
+<div class="ttc" id="aclassalbert_1_1InputHistory_html_a776b827eaba727833d58e42a1cf00ca8"><div class="ttname"><a href="classalbert_1_1InputHistory.html#a776b827eaba727833d58e42a1cf00ca8">albert::InputHistory::resetIterator</a></div><div class="ttdeci">Q_INVOKABLE void resetIterator()</div><div class="ttdoc">Resets history search.</div></div>
+<div class="ttc" id="aclassalbert_1_1InputHistory_html_a94069cc0b72b867eb8eb56da51ac8dc8"><div class="ttname"><a href="classalbert_1_1InputHistory.html#a94069cc0b72b867eb8eb56da51ac8dc8">albert::InputHistory::next</a></div><div class="ttdeci">Q_INVOKABLE QString next(const QString &amp;pattern=QString{})</div><div class="ttdoc">Gets next history item matching the pattern.</div></div>
 <div class="ttc" id="aclassalbert_1_1InputHistory_html_ab950b4e8cf8e7d825e34abe31ab929ad"><div class="ttname"><a href="classalbert_1_1InputHistory.html#ab950b4e8cf8e7d825e34abe31ab929ad">albert::InputHistory::InputHistory</a></div><div class="ttdeci">InputHistory(const QString &amp;path={})</div></div>
 <div class="ttc" id="anamespacealbert_html"><div class="ttname"><a href="namespacealbert.html">albert</a></div><div class="ttdef"><b>Definition</b> action.h:10</div></div>
 </div><!-- fragment --></div><!-- contents -->

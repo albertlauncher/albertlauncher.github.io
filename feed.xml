@@ -7,6 +7,29 @@
     
       
         <item>
+          <title>Albert v0.26.9 released</title>
+          <description>&lt;h1 id=&quot;albert-v0269-released&quot;&gt;Albert v0.26.9 released&lt;/h1&gt;
+
+&lt;p&gt;This release contains the latest bug fixes.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;widgetsboxmodel&lt;/strong&gt; Fix broken input history behavior&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;applications&lt;/strong&gt; Set ignore_show_in_keys default to true&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;clipboard&lt;/strong&gt; Fix typo&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;path&lt;/strong&gt; Show PATH in settings and tr synopsis&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;docs&lt;/strong&gt; “Fix” mac builds&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Check the &lt;a href=&quot;https://github.com/albertlauncher/albert/commits/v0.26.9&quot;&gt;GitHub repositories&lt;/a&gt; for details.&lt;/p&gt;
+</description>
+          <pubDate>2024-12-02T13:15:00+00:00</pubDate>
+          <link>https://albertlauncher.github.io/2024/12/02/albert-v0.26.9-released/</link>
+          <guid isPermaLink="true">https://albertlauncher.github.io/2024/12/02/albert-v0.26.9-released/</guid>
+        </item>
+      
+    
+      
+        <item>
           <title>Albert v0.26.8 released</title>
           <description>&lt;h1 id=&quot;albert-v0268-released&quot;&gt;Albert v0.26.8 released&lt;/h1&gt;
 
