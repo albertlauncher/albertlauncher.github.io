@@ -7,6 +7,42 @@
     
       
         <item>
+          <title>Albert v0.26.10 released</title>
+          <description>&lt;h1 id=&quot;albert-v02610-released&quot;&gt;Albert v0.26.10 released&lt;/h1&gt;
+
+&lt;h2 id=&quot;albert&quot;&gt;Albert&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Add some more precise Match tests&lt;/li&gt;
+  &lt;li&gt;Hardcode /usr/local/bin into PATH on macos&lt;/li&gt;
+  &lt;li&gt;Fix Matcher type conversion&lt;/li&gt;
+  &lt;li&gt;Precompile headers&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;plugins&quot;&gt;Plugins&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;chromium&lt;/strong&gt; Avoid warnings on emtpy paths&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;menubar&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Properly display glyphs&lt;/li&gt;
+      &lt;li&gt;Fix modifier conversion&lt;/li&gt;
+      &lt;li&gt;Minor improvements and fixes&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;bluetooth&lt;/strong&gt; Add open settings action&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Check the &lt;a href=&quot;https://github.com/albertlauncher/albert/commits/v0.26.10&quot;&gt;GitHub repositories&lt;/a&gt; for details.&lt;/p&gt;
+</description>
+          <pubDate>2024-12-06T20:53:00+00:00</pubDate>
+          <link>https://albertlauncher.github.io/2024/12/06/albert-v0.26.10-released/</link>
+          <guid isPermaLink="true">https://albertlauncher.github.io/2024/12/06/albert-v0.26.10-released/</guid>
+        </item>
+      
+    
+      
+        <item>
           <title>Albert v0.26.9 released</title>
           <description>&lt;h1 id=&quot;albert-v0269-released&quot;&gt;Albert v0.26.9 released&lt;/h1&gt;
 
