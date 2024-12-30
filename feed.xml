@@ -7,6 +7,49 @@
     
       
         <item>
+          <title>Albert v0.26.11 released</title>
+          <description>&lt;h1 id=&quot;albert-v02611-released&quot;&gt;Albert v0.26.11 released&lt;/h1&gt;
+
+&lt;h2 id=&quot;albert&quot;&gt;Albert&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Add a motivating text in the plugin settings placeholder page&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;plugins&quot;&gt;Plugins&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;timer&lt;/strong&gt; Allow h, m, s durations
+    &lt;ul&gt;
+      &lt;li&gt;Clean obsolete translations&lt;/li&gt;
+      &lt;li&gt;User timer emoji icon&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;caffeine&lt;/strong&gt; Fix non-persistent default interval&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;menubar&lt;/strong&gt; Do not retain NSRunningApplication forever
+Rather keep its PID for comparison.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;widgetsboxmodel&lt;/strong&gt; Update icon handling
+    &lt;ul&gt;
+      &lt;li&gt;Do not upscale icons that are smaller than requested&lt;/li&gt;
+      &lt;li&gt;Draw the icon such that it is centered in the icon area&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;chromium&lt;/strong&gt; Update bookmark icon
+Also avoid usage of xdg: schemes on other than linux platforms&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;websearch&lt;/strong&gt; Change icon sizes which lead to blurry output&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;applications&lt;/strong&gt; Change missing terminal link to issues choice&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Check the &lt;a href=&quot;https://github.com/albertlauncher/albert/commits/v0.26.11&quot;&gt;GitHub repositories&lt;/a&gt; for details.&lt;/p&gt;
+</description>
+          <pubDate>2024-12-30T08:32:00+00:00</pubDate>
+          <link>https://albertlauncher.github.io/2024/12/30/albert-v0.26.11-released/</link>
+          <guid isPermaLink="true">https://albertlauncher.github.io/2024/12/30/albert-v0.26.11-released/</guid>
+        </item>
+      
+    
+      
+        <item>
           <title>Albert v0.26.10 released</title>
           <description>&lt;h1 id=&quot;albert-v02610-released&quot;&gt;Albert v0.26.10 released&lt;/h1&gt;
 
