@@ -7,6 +7,32 @@
     
       
         <item>
+          <title>Albert v0.26.12 released</title>
+          <description>&lt;h1 id=&quot;albert-v02612-released&quot;&gt;Albert v0.26.12 released&lt;/h1&gt;
+
+&lt;h2 id=&quot;albert&quot;&gt;Albert&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Fix device dependent pixmap creation&lt;/li&gt;
+  &lt;li&gt;Avoid usage of deprecated QStyle::standardPixmap&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;plugins&quot;&gt;Plugins&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;applications&lt;/strong&gt; Add ghostty&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Check the &lt;a href=&quot;https://github.com/albertlauncher/albert/commits/v0.26.12&quot;&gt;GitHub repositories&lt;/a&gt; for details.&lt;/p&gt;
+</description>
+          <pubDate>2025-01-06T21:14:00+00:00</pubDate>
+          <link>https://albertlauncher.github.io/2025/01/06/albert-v0.26.12-released/</link>
+          <guid isPermaLink="true">https://albertlauncher.github.io/2025/01/06/albert-v0.26.12-released/</guid>
+        </item>
+      
+    
+      
+        <item>
           <title>Albert v0.26.11 released</title>
           <description>&lt;h1 id=&quot;albert-v02611-released&quot;&gt;Albert v0.26.11 released&lt;/h1&gt;
 
