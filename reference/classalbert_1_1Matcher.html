@@ -123,14 +123,13 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a47f41d3f5675c8ebee8d8cab38b504f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the string matched against.  <br /></td></tr>
 <tr class="separator:a47f41d3f5675c8ebee8d8cab38b504f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8c865339f789c18f15ad62a4d57593c7" id="r_a8c865339f789c18f15ad62a4d57593c7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classalbert_1_1Match.html">Match</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1Matcher.html#a8c865339f789c18f15ad62a4d57593c7">match</a> (const QString &amp;<a class="el" href="classalbert_1_1Matcher.html#a47f41d3f5675c8ebee8d8cab38b504f7">string</a>) const</td></tr>
-<tr class="memdesc:a8c865339f789c18f15ad62a4d57593c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a <a class="el" href="classalbert_1_1Match.html" title="Augmented match score.">Match</a> for <code>string</code>.  <br /></td></tr>
+<tr class="memdesc:a8c865339f789c18f15ad62a4d57593c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a <a class="el" href="classalbert_1_1Match.html">Match</a> for <code>string</code>.  <br /></td></tr>
 <tr class="separator:a8c865339f789c18f15ad62a4d57593c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeafe5316ed43cf30ada0b55c6f47e39c" id="r_aeafe5316ed43cf30ada0b55c6f47e39c"><td class="memTemplParams" colspan="2">template&lt;typename... Args&gt; </td></tr>
-<tr class="memitem:aeafe5316ed43cf30ada0b55c6f47e39c"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="classalbert_1_1Match.html">Match</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classalbert_1_1Matcher.html#aeafe5316ed43cf30ada0b55c6f47e39c">match</a> (QString first, Args... args) const</td></tr>
-<tr class="memdesc:aeafe5316ed43cf30ada0b55c6f47e39c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a <a class="el" href="classalbert_1_1Match.html" title="Augmented match score.">Match</a> for the given strings.  <br /></td></tr>
-<tr class="separator:aeafe5316ed43cf30ada0b55c6f47e39c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a84876d6bab394c0ae65f068cc04065cc" id="r_a84876d6bab394c0ae65f068cc04065cc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classalbert_1_1Match.html">Match</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1Matcher.html#a84876d6bab394c0ae65f068cc04065cc">match</a> (QString first, auto... args) const</td></tr>
+<tr class="memdesc:a84876d6bab394c0ae65f068cc04065cc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the max <a class="el" href="classalbert_1_1Match.html">Match</a> for the given strings.  <br /></td></tr>
+<tr class="separator:a84876d6bab394c0ae65f068cc04065cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4277087b8bd59a6e69f32417a941f430" id="r_a4277087b8bd59a6e69f32417a941f430"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classalbert_1_1Match.html">Match</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1Matcher.html#a4277087b8bd59a6e69f32417a941f430">match</a> (std::ranges::range auto &amp;&amp;strings) const</td></tr>
-<tr class="memdesc:a4277087b8bd59a6e69f32417a941f430"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the max match for <code>strings</code>.  <br /></td></tr>
+<tr class="memdesc:a4277087b8bd59a6e69f32417a941f430"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the max <a class="el" href="classalbert_1_1Match.html">Match</a> in the range of <code>strings</code>.  <br /></td></tr>
 <tr class="separator:a4277087b8bd59a6e69f32417a941f430"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
@@ -221,17 +220,15 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Returns a <a class="el" href="classalbert_1_1Match.html" title="Augmented match score.">Match</a> for <code>string</code>. </p>
+<p>Returns a <a class="el" href="classalbert_1_1Match.html">Match</a> for <code>string</code>. </p>
 
 </div>
 </div>
-<a id="aeafe5316ed43cf30ada0b55c6f47e39c" name="aeafe5316ed43cf30ada0b55c6f47e39c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aeafe5316ed43cf30ada0b55c6f47e39c">&#9670;&#160;</a></span>match() <span class="overload">[2/3]</span></h2>
+<a id="a84876d6bab394c0ae65f068cc04065cc" name="a84876d6bab394c0ae65f068cc04065cc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a84876d6bab394c0ae65f068cc04065cc">&#9670;&#160;</a></span>match() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
-<div class="memtemplate">
-template&lt;typename... Args&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -245,7 +242,7 @@ template&lt;typename... Args&gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">Args...&#160;</td>
+          <td class="paramtype">auto...&#160;</td>
           <td class="paramname"><em>args</em>&#160;</td>
         </tr>
         <tr>
@@ -261,7 +258,7 @@ template&lt;typename... Args&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Returns a <a class="el" href="classalbert_1_1Match.html" title="Augmented match score.">Match</a> for the given strings. </p>
+<p>Returns the max <a class="el" href="classalbert_1_1Match.html">Match</a> for the given strings. </p>
 
 </div>
 </div>
@@ -289,7 +286,7 @@ template&lt;typename... Args&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Returns the max match for <code>strings</code>. </p>
+<p>Returns the max <a class="el" href="classalbert_1_1Match.html">Match</a> in the range of <code>strings</code>. </p>
 
 </div>
 </div>

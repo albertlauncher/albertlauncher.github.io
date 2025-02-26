@@ -132,33 +132,33 @@
     
     "relUrl": "/help/"
   },"19": {
-    "doc": "Extension",
-    "title": "Writing extensions",
-    "content": "Albert can be extended by writing native C++/Qt plugins or Python plugins. A quick comparison: . | Native plugins: . | Performance and power of C++. | Access to Qt and its eventloop. | Dynamic config widgets. | . | Python plugins: . | Simplicity of Python. | Rapid prototyping. | Easy to distribute/share. | Only a subset of the internal API. | . | . ",
-    "url": "/gettingstarted/extension/#writing-extensions",
-    
-    "relUrl": "/gettingstarted/extension/#writing-extensions"
-  },"20": {
-    "doc": "Extension",
-    "title": "General considerations and best practices",
-    "content": "Semantic versioning . If it has a public API major.minor.patch else minor.patch. Increase major if the API breaks. Increase minor if the API got some backward compatible additions or the user experiences noticeable changes. In all other cases increase patch. Avoid extension identifier conflicts . If your plugin provides multiple extensions it’s a good idea to prepend the plugin id to the extension id to avoid name conflicts of extensions, e.g. files.root_browser. The root extension is fine to match the plugin id. ",
-    "url": "/gettingstarted/extension/#general-considerations-and-best-practices",
-    
-    "relUrl": "/gettingstarted/extension/#general-considerations-and-best-practices"
-  },"21": {
-    "doc": "Extension",
-    "title": "Extension",
-    "content": " ",
-    "url": "/gettingstarted/extension/",
-    
-    "relUrl": "/gettingstarted/extension/"
-  },"22": {
     "doc": "Install",
     "title": "Install",
     "content": "Prebuilt packages are available for Linux and macOS. Windows is not supported yet. ",
     "url": "/gettingstarted/install/",
     
     "relUrl": "/gettingstarted/install/"
+  },"20": {
+    "doc": "Extension",
+    "title": "Writing extensions",
+    "content": "Albert can be extended by writing native C++/Qt plugins or Python plugins. A quick comparison: . | Native plugins: . | Performance and power of C++. | Access to Qt and its eventloop. | Dynamic config widgets. | . | Python plugins: . | Simplicity of Python. | Rapid prototyping. | Easy to distribute/share. | Only a subset of the internal API. | . | . ",
+    "url": "/gettingstarted/extension/#writing-extensions",
+    
+    "relUrl": "/gettingstarted/extension/#writing-extensions"
+  },"21": {
+    "doc": "Extension",
+    "title": "General considerations and best practices",
+    "content": "Semantic versioning . If it has a public API major.minor.patch else minor.patch. Increase major if the API breaks. Increase minor if the API got some backward compatible additions or the user experiences noticeable changes. In all other cases increase patch. Avoid extension identifier conflicts . If your plugin provides multiple extensions it’s a good idea to prepend the plugin id to the extension id to avoid name conflicts of extensions, e.g. files.root_browser. The root extension is fine to match the plugin id. ",
+    "url": "/gettingstarted/extension/#general-considerations-and-best-practices",
+    
+    "relUrl": "/gettingstarted/extension/#general-considerations-and-best-practices"
+  },"22": {
+    "doc": "Extension",
+    "title": "Extension",
+    "content": " ",
+    "url": "/gettingstarted/extension/",
+    
+    "relUrl": "/gettingstarted/extension/"
   },"23": {
     "doc": "Getting started",
     "title": "Getting started",
@@ -210,54 +210,68 @@
     "relUrl": "/news/"
   },"30": {
     "doc": "Python",
+    "title": "Extending Albert using Python plugins",
+    "content": ". | The Python interface | Writing Python plugins | What’s next? | . ",
+    "url": "/gettingstarted/extension/python/#extending-albert-using-python-plugins",
+    
+    "relUrl": "/gettingstarted/extension/python/#extending-albert-using-python-plugins"
+  },"31": {
+    "doc": "Python",
+    "title": "The Python interface",
+    "content": "The Python interface is defined in the Albert Python stub file. This file serves as documentation for the embedded albert module, and its module docstring describes the interface that makes a Python module an Albert Python plugin. The stub file is written to your user Python plugin directory (more on that below). This is also where you are supposed to put your personal plugins. There the stub file serves as inline documention and coding assistance in your IDE while developing plugins. Python plugin directories are the subdirectories python/plugins in the app data directories. For more information on app data directories, especially their precedence order, see this table. When loaded, the Python plugins plugin (the native plugin that provides the Python interface) scans the Python plugin directories for available Python plugins. Since identifiers have to be unique, duplicate plugins with the same identifier (module name) are skipped. ",
+    "url": "/gettingstarted/extension/python/#the-python-interface",
+    
+    "relUrl": "/gettingstarted/extension/python/#the-python-interface"
+  },"32": {
+    "doc": "Python",
     "title": "Writing Python plugins",
-    "content": "A Python plugin is a Python module with an interface specified in the Python stub file of the embedded albert module. A minimal working example of a Python plugin: . import albert md_iid = '2.4' md_version = '1.0' md_name = 'My Plugin' md_description = 'Does fancy things' class Plugin(albert.PluginInstance): pass . Due to the different type systems, multiple inheritance of extension interfaces is not supported. However, multiple extensions can be added using albert.PluginInstance.(de)registerExtension. ",
+    "content": "A minimal working example of a Python plugin according to the interface specification looks like this: . import albert md_iid = '3.0' md_version = '1.0' md_name = 'Fancy Plugin' md_description = 'Do fancy things' class Plugin(albert.PluginInstance): pass . Due to the different type systems, multiple inheritance of extension interfaces is not supported. However, multiple extensions can be added using albert.PluginInstance.(de)registerExtension. ",
     "url": "/gettingstarted/extension/python/#writing-python-plugins",
     
     "relUrl": "/gettingstarted/extension/python/#writing-python-plugins"
-  },"31": {
+  },"33": {
     "doc": "Python",
     "title": "What’s next?",
     "content": "From here on it depends on the interface you want to implement. | Read the Python stub file. | See the official Python plugins for reference. | In case of questions see the C++ API. | Join the community chats. | Build something cool and share it. | . ",
     "url": "/gettingstarted/extension/python/#whats-next",
     
     "relUrl": "/gettingstarted/extension/python/#whats-next"
-  },"32": {
+  },"34": {
     "doc": "Python",
     "title": "Python",
     "content": " ",
     "url": "/gettingstarted/extension/python/",
     
     "relUrl": "/gettingstarted/extension/python/"
-  },"33": {
+  },"35": {
     "doc": "From source",
     "title": "From source",
     "content": "Building and installing from sources is the least convenient, but most flexible way. This way is usually for developers only. The build process is trivial, but you have to manage the dependencies on your own. See the OBS package specs for up to date build and runtime dependencies. git clone --recursive https://github.com/albertlauncher/albert.git cmake -B build -S albert -DCMAKE_INSTALL_PREFIX=/usr -DCMAKE_BUILD_TYPE=Debug cmake --build build cmake --install build . ",
     "url": "/gettingstarted/install/source/",
     
     "relUrl": "/gettingstarted/install/source/"
-  },"34": {
+  },"36": {
     "doc": "Usage",
     "title": "Usage",
     "content": ". | User interface . | Input line | Results list | Actions list | Key map | . | Plugins and extensions | Queries | . ",
     "url": "/gettingstarted/usage/",
     
     "relUrl": "/gettingstarted/usage/"
-  },"35": {
+  },"37": {
     "doc": "Usage",
     "title": "User interface",
     "content": "Note: The following uses Qt terminology for modifier key names. The following table shows the mapping of modifier keys on different keyboards: . | Qt | Linux/Win | MacOS | . | Ctrl | Ctrl | command /⌘ | . | Meta | Win | control /⌃ | . | Alt | Alt | option /⌥ | . Input line . Besides its primary function, the input line provides an input hint and contains the settings button. The input hint, displayed after the entered text, varies based on the context. For empty triggered queries, it shows the query handler’s synopsis, if available, otherwise it shows the input action text of the selected item, if available, or is empty. The settings button is located in the top right corner of the input line. It appears on mouse hover and also serves as busy indicator e.g. when the current query is processing. On click it opens the settings window. The manually entered text of the input line is stored in the input history when the window is hidden. This input history can be used to search and browse your past input. When the results list is hidden or the first item is selected ⬆ iterates the input history in reverse order. Holding Shift enables the input history navigation mode. In this mode the mentioned conditions for ⬆ to iterate the history are not required and ⬇ can be used for bidirectional iteration as well. If enabled, the (manually set) input text is used for input history search. Input history navigation then only shows input history entries matching the input text. Results list . The results list displays results items of a query. Hold and release Meta to switch between match items and fallback items. Items can provide an input action text which is used to replace the input text on pressing Tab. Its semantic is loosely defined. It may be a completion but also an evaluation or something else. Actions list . Result items can have multiple associated actions. The default action of an item is activated by pressing Return or Enter. To display and navigate the list of alternative actions of an item hold Alt . Key map . As a reference the following table lists the keys you can use to control Albert: . | Key | Action | . | Esc | Hide Albert. | . | Alt (Hold) | Activate action mode. | . | Meta (Hold) | Activate fallback mode. | . | Shift (Hold) | Activate history search mode. | . | Tab | Activate input action of the selected item (evaluation, completion, etc). | . | Return,Enter | Activate item. | . | Ctrl+, | Open settings window. | . | ⬆,⬇,PgUp,PgDn | Navigation in item lists. | . | Alt+F4,⌘+Q | Quit Albert (Depends on settings). | . | Ctrl+H/J/K/L | Vim bindings. Synthesize to arrows. | . | Ctrl+N/P | Emacs bindings. Synthesize to arrows. | . ",
     "url": "/gettingstarted/usage/#user-interface",
     
     "relUrl": "/gettingstarted/usage/#user-interface"
-  },"36": {
+  },"38": {
     "doc": "Usage",
     "title": "Plugins and extensions",
     "content": "A plugin is a physical module that can be loaded/unloaded at runtime. It could be native or provided by plugin provider plugins. Nested plugins are accessible when their provider is loaded. Users can enable/disable or load/unload plugins via the plugins tab in the settings or using the built-in plugin query handler. Enabled plugins load automatically at launch. Plugins with graphical interfaces for configuration can be accessed via the plugins tab in the settings. An extension is a logical module that can be used to add functionality to the app. Each plugin can provide multiple extension implementations or even expose its own extension interfaces. More on this topic can be found in the Extension section . ",
     "url": "/gettingstarted/usage/#plugins-and-extensions",
     
     "relUrl": "/gettingstarted/usage/#plugins-and-extensions"
-  },"37": {
+  },"39": {
     "doc": "Usage",
     "title": "Queries",
     "content": "The core of the app is the query engine which parses user input and determines the mode of a query. If the input starts with a trigger of a trigger query handler, the query engine instantiates a trigger query execution that is exclusively handled by the corresponding handler. This allows the handler to asynchronously add matches and as such define their order. If the user input does not start with a trigger of a trigger query handler, the query engine instantiates a global query execution that executes the enabled global query handlers in parallel and eventually gathers and sorts their matches. Both query executions eventually yield a set of query matches which may be empty. The fallback handlers of a query provide a separate set of result items, the query fallbacks, which can handle any string. They are displayed when no matches were found or when the user explicitly requests them. ",
