@@ -95,7 +95,6 @@ $(document).ready(function(){initNavTree('classalbert_1_1PluginInstance.html',''
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="classalbert_1_1PluginInstance-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">albert::PluginInstance Class Reference</div></div>
@@ -114,36 +113,30 @@ Inheritance diagram for albert::PluginInstance:</div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a050d248da29f0a6106f83b53036fcaac" id="r_a050d248da29f0a6106f83b53036fcaac"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classalbert_1_1PluginLoader.html">PluginLoader</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1PluginInstance.html#a050d248da29f0a6106f83b53036fcaac">loader</a> () const</td></tr>
-<tr class="memdesc:a050d248da29f0a6106f83b53036fcaac"><td class="mdescLeft">&#160;</td><td class="mdescRight">The <a class="el" href="classalbert_1_1PluginLoader.html" title="Plugin loader interface class.">PluginLoader</a> of this instance.  <br /></td></tr>
-<tr class="separator:a050d248da29f0a6106f83b53036fcaac"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad44b5ab9de2d43a03071d642cedf0806" id="r_ad44b5ab9de2d43a03071d642cedf0806"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classalbert_1_1ExtensionRegistry.html">albert::ExtensionRegistry</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1PluginInstance.html#ad44b5ab9de2d43a03071d642cedf0806">registry</a> ()</td></tr>
-<tr class="memdesc:ad44b5ab9de2d43a03071d642cedf0806"><td class="mdescLeft">&#160;</td><td class="mdescRight">The associated <a class="el" href="classalbert_1_1ExtensionRegistry.html" title="The common extension pool.">ExtensionRegistry</a>.  <br /></td></tr>
-<tr class="separator:ad44b5ab9de2d43a03071d642cedf0806"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab1376d91889acab63531e780b3ffdef8" id="r_ab1376d91889acab63531e780b3ffdef8"><td class="memItemLeft" align="right" valign="top">virtual QWidget *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1PluginInstance.html#ab1376d91889acab63531e780b3ffdef8">buildConfigWidget</a> ()</td></tr>
 <tr class="memdesc:ab1376d91889acab63531e780b3ffdef8"><td class="mdescLeft">&#160;</td><td class="mdescRight">The widget used to configure the plugin in the settings.  <br /></td></tr>
 <tr class="separator:ab1376d91889acab63531e780b3ffdef8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8e08b7eee0b66112e81ebfb127581c2a" id="r_a8e08b7eee0b66112e81ebfb127581c2a"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1PluginInstance.html#a8e08b7eee0b66112e81ebfb127581c2a">cacheLocation</a> () const</td></tr>
-<tr class="memdesc:a8e08b7eee0b66112e81ebfb127581c2a"><td class="mdescLeft">&#160;</td><td class="mdescRight">The recommended cache location.  <br /></td></tr>
-<tr class="separator:a8e08b7eee0b66112e81ebfb127581c2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae95e1c231bab7cdc29094f0b5b756b8f" id="r_ae95e1c231bab7cdc29094f0b5b756b8f"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1PluginInstance.html#ae95e1c231bab7cdc29094f0b5b756b8f">configLocation</a> () const</td></tr>
-<tr class="memdesc:ae95e1c231bab7cdc29094f0b5b756b8f"><td class="mdescLeft">&#160;</td><td class="mdescRight">The recommended config location.  <br /></td></tr>
-<tr class="separator:ae95e1c231bab7cdc29094f0b5b756b8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2fc2ec2e992b2adeefb066ecf381a76e" id="r_a2fc2ec2e992b2adeefb066ecf381a76e"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1PluginInstance.html#a2fc2ec2e992b2adeefb066ecf381a76e">dataLocation</a> () const</td></tr>
-<tr class="memdesc:a2fc2ec2e992b2adeefb066ecf381a76e"><td class="mdescLeft">&#160;</td><td class="mdescRight">The recommended data location.  <br /></td></tr>
-<tr class="separator:a2fc2ec2e992b2adeefb066ecf381a76e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae1c91829360d9e5d4d08033d7d155a85" id="r_ae1c91829360d9e5d4d08033d7d155a85"><td class="memItemLeft" align="right" valign="top">virtual std::vector&lt; <a class="el" href="classalbert_1_1Extension.html">albert::Extension</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1PluginInstance.html#ae1c91829360d9e5d4d08033d7d155a85">extensions</a> ()</td></tr>
+<tr class="memdesc:ae1c91829360d9e5d4d08033d7d155a85"><td class="mdescLeft">&#160;</td><td class="mdescRight">The extensions provided by this plugin.  <br /></td></tr>
+<tr class="separator:ae1c91829360d9e5d4d08033d7d155a85"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a050d248da29f0a6106f83b53036fcaac" id="r_a050d248da29f0a6106f83b53036fcaac"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classalbert_1_1PluginLoader.html">PluginLoader</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1PluginInstance.html#a050d248da29f0a6106f83b53036fcaac">loader</a> () const</td></tr>
+<tr class="memdesc:a050d248da29f0a6106f83b53036fcaac"><td class="mdescLeft">&#160;</td><td class="mdescRight">The <a class="el" href="classalbert_1_1PluginLoader.html" title="Plugin loader interface class.">PluginLoader</a> of this instance.  <br /></td></tr>
+<tr class="separator:a050d248da29f0a6106f83b53036fcaac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a986c378aec3a83830d5815116330d3c2" id="r_a986c378aec3a83830d5815116330d3c2"><td class="memItemLeft" align="right" valign="top">std::filesystem::path&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1PluginInstance.html#a986c378aec3a83830d5815116330d3c2">cacheLocation</a> () const</td></tr>
+<tr class="memdesc:a986c378aec3a83830d5815116330d3c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">The recommended cache location.  <br /></td></tr>
+<tr class="separator:a986c378aec3a83830d5815116330d3c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:accbf6639db1db1996b7dfaa4c3134a92" id="r_accbf6639db1db1996b7dfaa4c3134a92"><td class="memItemLeft" align="right" valign="top">std::filesystem::path&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1PluginInstance.html#accbf6639db1db1996b7dfaa4c3134a92">configLocation</a> () const</td></tr>
+<tr class="memdesc:accbf6639db1db1996b7dfaa4c3134a92"><td class="mdescLeft">&#160;</td><td class="mdescRight">The recommended config location.  <br /></td></tr>
+<tr class="separator:accbf6639db1db1996b7dfaa4c3134a92"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6307064a7be1af3ebaeaeb1782dc923b" id="r_a6307064a7be1af3ebaeaeb1782dc923b"><td class="memItemLeft" align="right" valign="top">std::filesystem::path&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1PluginInstance.html#a6307064a7be1af3ebaeaeb1782dc923b">dataLocation</a> () const</td></tr>
+<tr class="memdesc:a6307064a7be1af3ebaeaeb1782dc923b"><td class="mdescLeft">&#160;</td><td class="mdescRight">The recommended data location.  <br /></td></tr>
+<tr class="separator:a6307064a7be1af3ebaeaeb1782dc923b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9413862a66464d1bdeb940e1d7971593" id="r_a9413862a66464d1bdeb940e1d7971593"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; QSettings &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1PluginInstance.html#a9413862a66464d1bdeb940e1d7971593">settings</a> () const</td></tr>
 <tr class="memdesc:a9413862a66464d1bdeb940e1d7971593"><td class="mdescLeft">&#160;</td><td class="mdescRight">Persistent plugin settings.  <br /></td></tr>
 <tr class="separator:a9413862a66464d1bdeb940e1d7971593"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5a9678437750233481ca162744bdb93f" id="r_a5a9678437750233481ca162744bdb93f"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; QSettings &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1PluginInstance.html#a5a9678437750233481ca162744bdb93f">state</a> () const</td></tr>
 <tr class="memdesc:a5a9678437750233481ca162744bdb93f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Persistent plugin state.  <br /></td></tr>
 <tr class="separator:a5a9678437750233481ca162744bdb93f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
-Static Public Member Functions</h2></td></tr>
-<tr class="memitem:ad262b2a88da925d51a2aa6dfd399b6a8" id="r_ad262b2a88da925d51a2aa6dfd399b6a8"><td class="memItemLeft" align="right" valign="top">static QDir&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1PluginInstance.html#ad262b2a88da925d51a2aa6dfd399b6a8">createOrThrow</a> (const QString &amp;path)</td></tr>
-<tr class="memdesc:ad262b2a88da925d51a2aa6dfd399b6a8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a directory, throws an exception if it fails.  <br /></td></tr>
-<tr class="separator:ad262b2a88da925d51a2aa6dfd399b6a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
@@ -232,14 +225,14 @@ Protected Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a8e08b7eee0b66112e81ebfb127581c2a" name="a8e08b7eee0b66112e81ebfb127581c2a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8e08b7eee0b66112e81ebfb127581c2a">&#9670;&#160;</a></span>cacheLocation()</h2>
+<a id="a986c378aec3a83830d5815116330d3c2" name="a986c378aec3a83830d5815116330d3c2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a986c378aec3a83830d5815116330d3c2">&#9670;&#160;</a></span>cacheLocation()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">QString albert::PluginInstance::cacheLocation </td>
+          <td class="memname">std::filesystem::path albert::PluginInstance::cacheLocation </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -249,18 +242,18 @@ Protected Member Functions</h2></td></tr>
 
 <p>The recommended cache location. </p>
 <dl class="section return"><dt>Returns</dt><dd>The recommended cache location.   </dd></dl>
-<dl class="section since"><dt>Since</dt><dd>0.24 </dd></dl>
+<dl class="section since"><dt>Since</dt><dd>0.27 </dd></dl>
 
 </div>
 </div>
-<a id="ae95e1c231bab7cdc29094f0b5b756b8f" name="ae95e1c231bab7cdc29094f0b5b756b8f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae95e1c231bab7cdc29094f0b5b756b8f">&#9670;&#160;</a></span>configLocation()</h2>
+<a id="accbf6639db1db1996b7dfaa4c3134a92" name="accbf6639db1db1996b7dfaa4c3134a92"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#accbf6639db1db1996b7dfaa4c3134a92">&#9670;&#160;</a></span>configLocation()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">QString albert::PluginInstance::configLocation </td>
+          <td class="memname">std::filesystem::path albert::PluginInstance::configLocation </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -270,48 +263,18 @@ Protected Member Functions</h2></td></tr>
 
 <p>The recommended config location. </p>
 <dl class="section return"><dt>Returns</dt><dd>The recommended config location.   </dd></dl>
-<dl class="section since"><dt>Since</dt><dd>0.24 </dd></dl>
+<dl class="section since"><dt>Since</dt><dd>0.27 </dd></dl>
 
 </div>
 </div>
-<a id="ad262b2a88da925d51a2aa6dfd399b6a8" name="ad262b2a88da925d51a2aa6dfd399b6a8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad262b2a88da925d51a2aa6dfd399b6a8">&#9670;&#160;</a></span>createOrThrow()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static QDir albert::PluginInstance::createOrThrow </td>
-          <td>(</td>
-          <td class="paramtype">const QString &amp;&#160;</td>
-          <td class="paramname"><em>path</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Creates a directory, throws an exception if it fails. </p>
-<p>This is a utility function for use with the *Location functions. </p><dl class="section return"><dt>Returns</dt><dd>The directory. </dd></dl>
-<dl class="section since"><dt>Since</dt><dd>0.24 </dd></dl>
-
-</div>
-</div>
-<a id="a2fc2ec2e992b2adeefb066ecf381a76e" name="a2fc2ec2e992b2adeefb066ecf381a76e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2fc2ec2e992b2adeefb066ecf381a76e">&#9670;&#160;</a></span>dataLocation()</h2>
+<a id="a6307064a7be1af3ebaeaeb1782dc923b" name="a6307064a7be1af3ebaeaeb1782dc923b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6307064a7be1af3ebaeaeb1782dc923b">&#9670;&#160;</a></span>dataLocation()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">QString albert::PluginInstance::dataLocation </td>
+          <td class="memname">std::filesystem::path albert::PluginInstance::dataLocation </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -321,7 +284,38 @@ Protected Member Functions</h2></td></tr>
 
 <p>The recommended data location. </p>
 <dl class="section return"><dt>Returns</dt><dd>The recommended data location.   </dd></dl>
-<dl class="section since"><dt>Since</dt><dd>0.24 </dd></dl>
+<dl class="section since"><dt>Since</dt><dd>0.27 </dd></dl>
+
+</div>
+</div>
+<a id="ae1c91829360d9e5d4d08033d7d155a85" name="ae1c91829360d9e5d4d08033d7d155a85"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae1c91829360d9e5d4d08033d7d155a85">&#9670;&#160;</a></span>extensions()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual std::vector&lt; <a class="el" href="classalbert_1_1Extension.html">albert::Extension</a> * &gt; albert::PluginInstance::extensions </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The extensions provided by this plugin. </p>
+<dl class="section return"><dt>Returns</dt><dd>Weak references to the extensions. </dd></dl>
+<dl class="section since"><dt>Since</dt><dd>0.27 </dd></dl>
+
+<p>Reimplemented in <a class="el" href="classalbert_1_1ExtensionPlugin.html#a2b66c777a6ec17e567c41cfe70218e5e">albert::ExtensionPlugin</a>.</p>
 
 </div>
 </div>
@@ -342,27 +336,6 @@ Protected Member Functions</h2></td></tr>
 
 <p>The <a class="el" href="classalbert_1_1PluginLoader.html" title="Plugin loader interface class.">PluginLoader</a> of this instance. </p>
 <dl class="section return"><dt>Returns</dt><dd>The <a class="el" href="classalbert_1_1PluginLoader.html" title="Plugin loader interface class.">PluginLoader</a> of this instance.   </dd></dl>
-<dl class="section since"><dt>Since</dt><dd>0.24 </dd></dl>
-
-</div>
-</div>
-<a id="ad44b5ab9de2d43a03071d642cedf0806" name="ad44b5ab9de2d43a03071d642cedf0806"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad44b5ab9de2d43a03071d642cedf0806">&#9670;&#160;</a></span>registry()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classalbert_1_1ExtensionRegistry.html">albert::ExtensionRegistry</a> &amp; albert::PluginInstance::registry </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>The associated <a class="el" href="classalbert_1_1ExtensionRegistry.html" title="The common extension pool.">ExtensionRegistry</a>. </p>
-<dl class="section return"><dt>Returns</dt><dd>The associated <a class="el" href="classalbert_1_1ExtensionRegistry.html" title="The common extension pool.">ExtensionRegistry</a>.   </dd></dl>
 <dl class="section since"><dt>Since</dt><dd>0.24 </dd></dl>
 
 </div>

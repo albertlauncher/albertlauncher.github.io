@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Albert: workspace/albert/include/albert/util.h File Reference</title>
+<title>Albert: workspace/albert/include/albert/albert.h File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -67,7 +67,7 @@ $(function() {
 </div>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(document).ready(function(){initNavTree('util_8h.html',''); initResizable(); });
+$(document).ready(function(){initNavTree('albert_8h.html',''); initResizable(); });
 /* @license-end */
 </script>
 <div id="doc-content">
@@ -96,18 +96,24 @@ $(document).ready(function(){initNavTree('util_8h.html',''); initResizable(); })
   <div class="summary">
 <a href="#namespaces">Namespaces</a> &#124;
 <a href="#func-members">Functions</a>  </div>
-  <div class="headertitle"><div class="title">util.h File Reference</div></div>
+  <div class="headertitle"><div class="title">albert.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &lt;QString&gt;</code><br />
 <code>#include &lt;albert/export.h&gt;</code><br />
+<code>#include &lt;filesystem&gt;</code><br />
 </div><div class="textblock"><div class="dynheader">
-Include dependency graph for util.h:</div>
+Include dependency graph for albert.h:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="util_8h__incl.svg" width="203" height="126"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="albert_8h__incl.svg" width="306" height="126"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div><div class="textblock"><div class="dynheader">
+This graph shows which files directly or indirectly include this file:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="albert_8h__dep__incl.svg" width="186" height="140"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
-<p><a href="util_8h_source.html">Go to the source code of this file.</a></p>
+<p><a href="albert_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
 Namespaces</h2></td></tr>
@@ -122,21 +128,21 @@ Functions</h2></td></tr>
 <tr class="memitem:ab3146bc3f5c4199dcf3c67c2ce399dd9" id="r_ab3146bc3f5c4199dcf3c67c2ce399dd9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacealbert.html#ab3146bc3f5c4199dcf3c67c2ce399dd9">albert::quit</a> ()</td></tr>
 <tr class="memdesc:ab3146bc3f5c4199dcf3c67c2ce399dd9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Quit the application.  <br /></td></tr>
 <tr class="separator:ab3146bc3f5c4199dcf3c67c2ce399dd9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a08ab9e8cfd61e6227d6606d24b6141b4" id="r_a08ab9e8cfd61e6227d6606d24b6141b4"><td class="memItemLeft" align="right" valign="top">QNetworkAccessManager *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacealbert.html#a08ab9e8cfd61e6227d6606d24b6141b4">albert::network</a> ()</td></tr>
-<tr class="memdesc:a08ab9e8cfd61e6227d6606d24b6141b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">The global QNetworkAccessManager.  <br /></td></tr>
-<tr class="separator:a08ab9e8cfd61e6227d6606d24b6141b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a71d7e8bfc3b0e691e3e1e85a55b842e7" id="r_a71d7e8bfc3b0e691e3e1e85a55b842e7"><td class="memItemLeft" align="right" valign="top">QNetworkAccessManager &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacealbert.html#a71d7e8bfc3b0e691e3e1e85a55b842e7">albert::network</a> ()</td></tr>
+<tr class="memdesc:a71d7e8bfc3b0e691e3e1e85a55b842e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">The threadlocal, global QNetworkAccessManager.  <br /></td></tr>
+<tr class="separator:a71d7e8bfc3b0e691e3e1e85a55b842e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa58d49c3ab5bd7282b0ee46a5e9db8fd" id="r_aa58d49c3ab5bd7282b0ee46a5e9db8fd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacealbert.html#aa58d49c3ab5bd7282b0ee46a5e9db8fd">albert::showSettings</a> (QString plugin_id={})</td></tr>
 <tr class="memdesc:aa58d49c3ab5bd7282b0ee46a5e9db8fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Open/Show the settings window (of plugin).  <br /></td></tr>
 <tr class="separator:aa58d49c3ab5bd7282b0ee46a5e9db8fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a836de7f2ce4bc577be6b879187ba2c7c" id="r_a836de7f2ce4bc577be6b879187ba2c7c"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacealbert.html#a836de7f2ce4bc577be6b879187ba2c7c">albert::configLocation</a> ()</td></tr>
-<tr class="memdesc:a836de7f2ce4bc577be6b879187ba2c7c"><td class="mdescLeft">&#160;</td><td class="mdescRight">The app config location.  <br /></td></tr>
-<tr class="separator:a836de7f2ce4bc577be6b879187ba2c7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a682f2d878f6f8cf7bb09f0cf0364489b" id="r_a682f2d878f6f8cf7bb09f0cf0364489b"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacealbert.html#a682f2d878f6f8cf7bb09f0cf0364489b">albert::cacheLocation</a> ()</td></tr>
-<tr class="memdesc:a682f2d878f6f8cf7bb09f0cf0364489b"><td class="mdescLeft">&#160;</td><td class="mdescRight">The app cache location.  <br /></td></tr>
-<tr class="separator:a682f2d878f6f8cf7bb09f0cf0364489b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a22e8ee8b9ae24be045acd447756c5c1c" id="r_a22e8ee8b9ae24be045acd447756c5c1c"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacealbert.html#a22e8ee8b9ae24be045acd447756c5c1c">albert::dataLocation</a> ()</td></tr>
-<tr class="memdesc:a22e8ee8b9ae24be045acd447756c5c1c"><td class="mdescLeft">&#160;</td><td class="mdescRight">The app data location.  <br /></td></tr>
-<tr class="separator:a22e8ee8b9ae24be045acd447756c5c1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9e4a5e745c6c8d4dc7dc0827caac1def" id="r_a9e4a5e745c6c8d4dc7dc0827caac1def"><td class="memItemLeft" align="right" valign="top">std::filesystem::path&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacealbert.html#a9e4a5e745c6c8d4dc7dc0827caac1def">albert::configLocation</a> ()</td></tr>
+<tr class="memdesc:a9e4a5e745c6c8d4dc7dc0827caac1def"><td class="mdescLeft">&#160;</td><td class="mdescRight">The app config location.  <br /></td></tr>
+<tr class="separator:a9e4a5e745c6c8d4dc7dc0827caac1def"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9815442f0654991511ecd0f0d7d7e959" id="r_a9815442f0654991511ecd0f0d7d7e959"><td class="memItemLeft" align="right" valign="top">std::filesystem::path&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacealbert.html#a9815442f0654991511ecd0f0d7d7e959">albert::cacheLocation</a> ()</td></tr>
+<tr class="memdesc:a9815442f0654991511ecd0f0d7d7e959"><td class="mdescLeft">&#160;</td><td class="mdescRight">The app cache location.  <br /></td></tr>
+<tr class="separator:a9815442f0654991511ecd0f0d7d7e959"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7f6fbbcaf1a50138c135a5831eeb5c6a" id="r_a7f6fbbcaf1a50138c135a5831eeb5c6a"><td class="memItemLeft" align="right" valign="top">std::filesystem::path&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacealbert.html#a7f6fbbcaf1a50138c135a5831eeb5c6a">albert::dataLocation</a> ()</td></tr>
+<tr class="memdesc:a7f6fbbcaf1a50138c135a5831eeb5c6a"><td class="mdescLeft">&#160;</td><td class="mdescRight">The app data location.  <br /></td></tr>
+<tr class="separator:a7f6fbbcaf1a50138c135a5831eeb5c6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a09085231379cd9843cd3064606bc0766" id="r_a09085231379cd9843cd3064606bc0766"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; QSettings &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacealbert.html#a09085231379cd9843cd3064606bc0766">albert::settings</a> ()</td></tr>
 <tr class="memdesc:a09085231379cd9843cd3064606bc0766"><td class="mdescLeft">&#160;</td><td class="mdescRight">Persistent app settings storage.  <br /></td></tr>
 <tr class="separator:a09085231379cd9843cd3064606bc0766"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -146,9 +152,6 @@ Functions</h2></td></tr>
 <tr class="memitem:af0b45312c9f17345d1842b20947c4431" id="r_af0b45312c9f17345d1842b20947c4431"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacealbert.html#af0b45312c9f17345d1842b20947c4431">albert::openWebsite</a> ()</td></tr>
 <tr class="memdesc:af0b45312c9f17345d1842b20947c4431"><td class="mdescLeft">&#160;</td><td class="mdescRight">Open the albert website in default browser.  <br /></td></tr>
 <tr class="separator:af0b45312c9f17345d1842b20947c4431"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adc57b8ecd808d5bb582b322fc7399362" id="r_adc57b8ecd808d5bb582b322fc7399362"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacealbert.html#adc57b8ecd808d5bb582b322fc7399362">albert::openUrl</a> (const QUrl &amp;url)</td></tr>
-<tr class="memdesc:adc57b8ecd808d5bb582b322fc7399362"><td class="mdescLeft">&#160;</td><td class="mdescRight">Open the specified url in default browser.  <br /></td></tr>
-<tr class="separator:adc57b8ecd808d5bb582b322fc7399362"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac4d2ecaadddf8dc533510cadbb4e951c" id="r_ac4d2ecaadddf8dc533510cadbb4e951c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacealbert.html#ac4d2ecaadddf8dc533510cadbb4e951c">albert::openUrl</a> (const QString &amp;url)</td></tr>
 <tr class="memdesc:ac4d2ecaadddf8dc533510cadbb4e951c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Open the specified url in default browser.  <br /></td></tr>
 <tr class="separator:ac4d2ecaadddf8dc533510cadbb4e951c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -173,13 +176,19 @@ Functions</h2></td></tr>
 <tr class="memitem:ac25c5fcfeda5555c277a34a3cb9dcea1" id="r_ac25c5fcfeda5555c277a34a3cb9dcea1"><td class="memItemLeft" align="right" valign="top">long long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacealbert.html#ac25c5fcfeda5555c277a34a3cb9dcea1">albert::runDetachedProcess</a> (const QStringList &amp;commandline, const QString &amp;working_dir={})</td></tr>
 <tr class="memdesc:ac25c5fcfeda5555c277a34a3cb9dcea1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Run a detached process.  <br /></td></tr>
 <tr class="separator:ac25c5fcfeda5555c277a34a3cb9dcea1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad686c346ceb5a0fa99659e5c3a627bb1" id="r_ad686c346ceb5a0fa99659e5c3a627bb1"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classalbert_1_1ExtensionRegistry.html">ExtensionRegistry</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacealbert.html#ad686c346ceb5a0fa99659e5c3a627bb1">albert::extensionRegistry</a> ()</td></tr>
+<tr class="memdesc:ad686c346ceb5a0fa99659e5c3a627bb1"><td class="mdescLeft">&#160;</td><td class="mdescRight">The extension registry.  <br /></td></tr>
+<tr class="separator:ad686c346ceb5a0fa99659e5c3a627bb1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af0d32f3bc9359b5374b2e3ba1d171ceb" id="r_af0d32f3bc9359b5374b2e3ba1d171ceb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacealbert.html#af0d32f3bc9359b5374b2e3ba1d171ceb">albert::tryCreateDirectory</a> (const std::filesystem::path &amp;path)</td></tr>
+<tr class="memdesc:af0d32f3bc9359b5374b2e3ba1d171ceb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a directory if it does not exist yet.  <br /></td></tr>
+<tr class="separator:af0d32f3bc9359b5374b2e3ba1d171ceb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_a5be7bbed3ff2f129951759fe96bf5d5.html">workspace</a></li><li class="navelem"><a class="el" href="dir_50d953f824505da2f2ff039791aa8c84.html">albert</a></li><li class="navelem"><a class="el" href="dir_d2263c6ebc7191e42e4ff07405fc7c52.html">include</a></li><li class="navelem"><a class="el" href="dir_4671dc9b76d7b8dfce70656ce33c3872.html">albert</a></li><li class="navelem"><a class="el" href="util_8h.html">util.h</a></li>
+    <li class="navelem"><a class="el" href="dir_a5be7bbed3ff2f129951759fe96bf5d5.html">workspace</a></li><li class="navelem"><a class="el" href="dir_50d953f824505da2f2ff039791aa8c84.html">albert</a></li><li class="navelem"><a class="el" href="dir_d2263c6ebc7191e42e4ff07405fc7c52.html">include</a></li><li class="navelem"><a class="el" href="dir_4671dc9b76d7b8dfce70656ce33c3872.html">albert</a></li><li class="navelem"><a class="el" href="albert_8h.html">albert.h</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
   </ul>
 </div>

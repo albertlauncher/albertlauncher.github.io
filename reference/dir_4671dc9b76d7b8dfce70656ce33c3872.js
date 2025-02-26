@@ -1,11 +1,11 @@
 var dir_4671dc9b76d7b8dfce70656ce33c3872 =
 [
     [ "action.h", "action_8h.html", "action_8h" ],
+    [ "albert.h", "albert_8h.html", "albert_8h" ],
     [ "backgroundexecutor.h", "backgroundexecutor_8h.html", "backgroundexecutor_8h" ],
     [ "extension.h", "extension_8h.html", "extension_8h" ],
     [ "extensionplugin.h", "extensionplugin_8h.html", "extensionplugin_8h" ],
     [ "extensionregistry.h", "extensionregistry_8h.html", "extensionregistry_8h" ],
-    [ "extensionwatcher.h", "extensionwatcher_8h.html", "extensionwatcher_8h" ],
     [ "fallbackhandler.h", "fallbackhandler_8h.html", "fallbackhandler_8h" ],
     [ "frontend.h", "frontend_8h.html", "frontend_8h" ],
     [ "globalqueryhandler.h", "globalqueryhandler_8h.html", "globalqueryhandler_8h" ],
@@ -29,6 +29,5 @@ var dir_4671dc9b76d7b8dfce70656ce33c3872 =
     [ "standarditem.h", "standarditem_8h.html", "standarditem_8h" ],
     [ "telemetryprovider.h", "telemetryprovider_8h.html", "telemetryprovider_8h" ],
     [ "timeit.h", "timeit_8h.html", "timeit_8h" ],
-    [ "triggerqueryhandler.h", "triggerqueryhandler_8h.html", "triggerqueryhandler_8h" ],
-    [ "util.h", "util_8h.html", "util_8h" ]
+    [ "triggerqueryhandler.h", "triggerqueryhandler_8h.html", "triggerqueryhandler_8h" ]
 ];

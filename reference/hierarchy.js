@@ -17,7 +17,6 @@ var hierarchy =
         ] ]
       ] ]
     ] ],
-    [ "albert::ExtensionWatcher< T >", "classalbert_1_1ExtensionWatcher.html", null ],
     [ "albert::IndexItem", "classalbert_1_1IndexItem.html", null ],
     [ "albert::Item", "classalbert_1_1Item.html", [
       [ "albert::StandardItem", "classalbert_1_1StandardItem.html", null ]
@@ -39,5 +38,6 @@ var hierarchy =
       [ "albert::Query", "classalbert_1_1Query.html", null ]
     ] ],
     [ "albert::RankItem", "classalbert_1_1RankItem.html", null ],
+    [ "albert::ResultItem", "classalbert_1_1ResultItem.html", null ],
     [ "TimeIt", "structTimeIt.html", null ]
 ];

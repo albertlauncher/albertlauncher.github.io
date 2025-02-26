@@ -106,7 +106,7 @@ $(document).ready(function(){initNavTree('classalbert_1_1ExtensionRegistry.html'
 <p>Inherits QObject.</p>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>The common extension pool. </p>
-<p>Clients can add their extensions, while services can track extensions by listening to the signals added/removed or any particular extension interface using <a class="el" href="classalbert_1_1ExtensionWatcher.html" title="Non-QObject extension registry observer.">ExtensionWatcher</a>.</p>
+<p>Clients can add their extensions, while services can track extensions by listening to the signals added/removed or any particular extension interface using ExtensionWatcher.</p>
 <p>Use in the main thread only! </p>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="signals" name="signals"></a>
@@ -126,13 +126,13 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a7b08618d085bafac2399641c4dc32a62" id="r_a7b08618d085bafac2399641c4dc32a62"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1ExtensionRegistry.html#a7b08618d085bafac2399641c4dc32a62">deregisterExtension</a> (<a class="el" href="classalbert_1_1Extension.html">Extension</a> *)</td></tr>
 <tr class="memdesc:a7b08618d085bafac2399641c4dc32a62"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove extension from the registry.  <br /></td></tr>
 <tr class="separator:a7b08618d085bafac2399641c4dc32a62"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:addd09e90a5ce026ce8c8a491affe68a7" id="r_addd09e90a5ce026ce8c8a491affe68a7"><td class="memItemLeft" align="right" valign="top">const std::map&lt; QString, <a class="el" href="classalbert_1_1Extension.html">Extension</a> * &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1ExtensionRegistry.html#addd09e90a5ce026ce8c8a491affe68a7">extensions</a> ()</td></tr>
-<tr class="memdesc:addd09e90a5ce026ce8c8a491affe68a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get map of all registered extensions.  <br /></td></tr>
-<tr class="separator:addd09e90a5ce026ce8c8a491affe68a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aec42b55ef9a0fa5876f3f88dbac9b19d" id="r_aec42b55ef9a0fa5876f3f88dbac9b19d"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:aec42b55ef9a0fa5876f3f88dbac9b19d"><td class="memTemplItemLeft" align="right" valign="top">std::map&lt; QString, T * &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classalbert_1_1ExtensionRegistry.html#aec42b55ef9a0fa5876f3f88dbac9b19d">extensions</a> ()</td></tr>
-<tr class="memdesc:aec42b55ef9a0fa5876f3f88dbac9b19d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get map of all extensions of type T.  <br /></td></tr>
-<tr class="separator:aec42b55ef9a0fa5876f3f88dbac9b19d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7dbd33a3cce2b17ff073b5c521165e95" id="r_a7dbd33a3cce2b17ff073b5c521165e95"><td class="memItemLeft" align="right" valign="top">const std::map&lt; QString, <a class="el" href="classalbert_1_1Extension.html">Extension</a> * &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1ExtensionRegistry.html#a7dbd33a3cce2b17ff073b5c521165e95">extensions</a> () const</td></tr>
+<tr class="memdesc:a7dbd33a3cce2b17ff073b5c521165e95"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get map of all registered extensions.  <br /></td></tr>
+<tr class="separator:a7dbd33a3cce2b17ff073b5c521165e95"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0223f64212021bf220b36e14a7d8119c" id="r_a0223f64212021bf220b36e14a7d8119c"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a0223f64212021bf220b36e14a7d8119c"><td class="memTemplItemLeft" align="right" valign="top">std::map&lt; QString, T * &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classalbert_1_1ExtensionRegistry.html#a0223f64212021bf220b36e14a7d8119c">extensions</a> () const</td></tr>
+<tr class="memdesc:a0223f64212021bf220b36e14a7d8119c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get map of all extensions of type T.  <br /></td></tr>
+<tr class="separator:a0223f64212021bf220b36e14a7d8119c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a99839edb159935ec09401b74c8e00428" id="r_a99839edb159935ec09401b74c8e00428"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:a99839edb159935ec09401b74c8e00428"><td class="memTemplItemLeft" align="right" valign="top">T *&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classalbert_1_1ExtensionRegistry.html#a99839edb159935ec09401b74c8e00428">extension</a> (const QString &amp;id)</td></tr>
 <tr class="memdesc:a99839edb159935ec09401b74c8e00428"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get extension by id implicitly dynamic_cast'ed to type T.  <br /></td></tr>
@@ -217,8 +217,8 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a id="addd09e90a5ce026ce8c8a491affe68a7" name="addd09e90a5ce026ce8c8a491affe68a7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#addd09e90a5ce026ce8c8a491affe68a7">&#9670;&#160;</a></span>extensions() <span class="overload">[1/2]</span></h2>
+<a id="a7dbd33a3cce2b17ff073b5c521165e95" name="a7dbd33a3cce2b17ff073b5c521165e95"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7dbd33a3cce2b17ff073b5c521165e95">&#9670;&#160;</a></span>extensions() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -227,7 +227,7 @@ template&lt;typename T &gt; </div>
           <td class="memname">const std::map&lt; QString, <a class="el" href="classalbert_1_1Extension.html">Extension</a> * &gt; &amp; albert::ExtensionRegistry::extensions </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -236,8 +236,8 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a id="aec42b55ef9a0fa5876f3f88dbac9b19d" name="aec42b55ef9a0fa5876f3f88dbac9b19d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aec42b55ef9a0fa5876f3f88dbac9b19d">&#9670;&#160;</a></span>extensions() <span class="overload">[2/2]</span></h2>
+<a id="a0223f64212021bf220b36e14a7d8119c" name="a0223f64212021bf220b36e14a7d8119c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0223f64212021bf220b36e14a7d8119c">&#9670;&#160;</a></span>extensions() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -251,7 +251,7 @@ template&lt;typename T &gt; </div>
           <td class="memname">std::map&lt; QString, T * &gt; albert::ExtensionRegistry::extensions </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td> const</td>
         </tr>
       </table>
   </td>

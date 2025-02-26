@@ -104,25 +104,26 @@ $(document).ready(function(){initNavTree('classalbert_1_1MatchConfig.html',''); 
 <p><code>#include &lt;<a class="el" href="matchconfig_8h_source.html">albert/matchconfig.h</a>&gt;</code></p>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Configuration for string matching. </p>
+<p>Initialize with designated initializers to avoid hard to find bugs on future changes.</p>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="classalbert_1_1Matcher.html">Matcher</a>, <a class="el" href="classalbert_1_1IndexQueryHandler.html">IndexQueryHandler</a> </dd></dl>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a0151800775b765f4a15566e5097d1e5f" id="r_a0151800775b765f4a15566e5097d1e5f"><td class="memItemLeft" align="right" valign="top">QRegularExpression&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1MatchConfig.html#a0151800775b765f4a15566e5097d1e5f">separator_regex</a></td></tr>
-<tr class="memdesc:a0151800775b765f4a15566e5097d1e5f"><td class="mdescLeft">&#160;</td><td class="mdescRight">The separator regex used to split the compared strings.  <br /></td></tr>
-<tr class="separator:a0151800775b765f4a15566e5097d1e5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2eb12d5eba0e78ff36a2b73c11a5c516" id="r_a2eb12d5eba0e78ff36a2b73c11a5c516"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1MatchConfig.html#a2eb12d5eba0e78ff36a2b73c11a5c516">ignore_case</a> = true</td></tr>
-<tr class="memdesc:a2eb12d5eba0e78ff36a2b73c11a5c516"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classalbert_1_1Match.html" title="Augmented match score.">Match</a> strings case insensitive.  <br /></td></tr>
-<tr class="separator:a2eb12d5eba0e78ff36a2b73c11a5c516"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aba17291c8e157177a030a2b0342e77c9" id="r_aba17291c8e157177a030a2b0342e77c9"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1MatchConfig.html#aba17291c8e157177a030a2b0342e77c9">ignore_diacritics</a> = true</td></tr>
-<tr class="memdesc:aba17291c8e157177a030a2b0342e77c9"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classalbert_1_1Match.html" title="Augmented match score.">Match</a> strings normalized.  <br /></td></tr>
-<tr class="separator:aba17291c8e157177a030a2b0342e77c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad147ba681f17fe175112f60bbe06f33e" id="r_ad147ba681f17fe175112f60bbe06f33e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1MatchConfig.html#ad147ba681f17fe175112f60bbe06f33e">ignore_word_order</a> = true</td></tr>
-<tr class="memdesc:ad147ba681f17fe175112f60bbe06f33e"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classalbert_1_1Match.html" title="Augmented match score.">Match</a> strings independent of their order.  <br /></td></tr>
-<tr class="separator:ad147ba681f17fe175112f60bbe06f33e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa1833dae4bbbc846e9d1d6d13f23689e" id="r_aa1833dae4bbbc846e9d1d6d13f23689e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1MatchConfig.html#aa1833dae4bbbc846e9d1d6d13f23689e">fuzzy</a> = false</td></tr>
 <tr class="memdesc:aa1833dae4bbbc846e9d1d6d13f23689e"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classalbert_1_1Match.html" title="Augmented match score.">Match</a> strings error tolerant.  <br /></td></tr>
 <tr class="separator:aa1833dae4bbbc846e9d1d6d13f23689e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2eb12d5eba0e78ff36a2b73c11a5c516" id="r_a2eb12d5eba0e78ff36a2b73c11a5c516"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1MatchConfig.html#a2eb12d5eba0e78ff36a2b73c11a5c516">ignore_case</a> = true</td></tr>
+<tr class="memdesc:a2eb12d5eba0e78ff36a2b73c11a5c516"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classalbert_1_1Match.html" title="Augmented match score.">Match</a> strings case insensitive.  <br /></td></tr>
+<tr class="separator:a2eb12d5eba0e78ff36a2b73c11a5c516"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad147ba681f17fe175112f60bbe06f33e" id="r_ad147ba681f17fe175112f60bbe06f33e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1MatchConfig.html#ad147ba681f17fe175112f60bbe06f33e">ignore_word_order</a> = true</td></tr>
+<tr class="memdesc:ad147ba681f17fe175112f60bbe06f33e"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classalbert_1_1Match.html" title="Augmented match score.">Match</a> strings independent of their order.  <br /></td></tr>
+<tr class="separator:ad147ba681f17fe175112f60bbe06f33e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba17291c8e157177a030a2b0342e77c9" id="r_aba17291c8e157177a030a2b0342e77c9"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1MatchConfig.html#aba17291c8e157177a030a2b0342e77c9">ignore_diacritics</a> = true</td></tr>
+<tr class="memdesc:aba17291c8e157177a030a2b0342e77c9"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classalbert_1_1Match.html" title="Augmented match score.">Match</a> strings normalized.  <br /></td></tr>
+<tr class="separator:aba17291c8e157177a030a2b0342e77c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0151800775b765f4a15566e5097d1e5f" id="r_a0151800775b765f4a15566e5097d1e5f"><td class="memItemLeft" align="right" valign="top">QRegularExpression&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1MatchConfig.html#a0151800775b765f4a15566e5097d1e5f">separator_regex</a> = <a class="el" href="namespacealbert.html#a2616468f8389c07e72362f7c89d73e7e">default_separator_regex</a></td></tr>
+<tr class="memdesc:a0151800775b765f4a15566e5097d1e5f"><td class="mdescLeft">&#160;</td><td class="mdescRight">The separator regex used to split the compared strings.  <br /></td></tr>
+<tr class="separator:a0151800775b765f4a15566e5097d1e5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
@@ -227,15 +228,11 @@ Static Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">QRegularExpression albert::MatchConfig::separator_regex</td>
+          <td class="memname">QRegularExpression albert::MatchConfig::separator_regex = <a class="el" href="namespacealbert.html#a2616468f8389c07e72362f7c89d73e7e">default_separator_regex</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">=</div>
-<div class="line">        </div>
-<div class="line">        </div>
-<div class="line">        QRegularExpression(<span class="stringliteral">&quot;([\\s\\\\/\\-\\[\\](){}#!?&lt;&gt;\&quot;&#39;=+*.:,;_]+)&quot;</span>)</div>
-</div><!-- fragment -->
+
 <p>The separator regex used to split the compared strings. </p>
 
 </div>

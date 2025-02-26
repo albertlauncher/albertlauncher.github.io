@@ -114,12 +114,14 @@ Collaboration diagram for albert::StrongDependency&lt; T &gt;:</div>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><div class="compoundTemplParams">template&lt;class T&gt;<br />
 class albert::StrongDependency&lt; T &gt;</div><p>Convenience holder class for plugin hard dependencies. </p>
-<p>Fetches and holds the weak pointer to the dependecy. If the dependency is not available, an exception is thrown. This class is intended to be initialized in plugin constructors. </p><dl class="section note"><dt>Note</dt><dd>Hard dependencies have to be listed in the plugin metadata, such that the plugin loader is able to manage the loading order. </dd></dl>
+<p>Fetches and holds a weak pointer an extension <code>id</code> of type <code>T</code>. This class is intended to be initialized on plugin constuction without a try-catch block.</p>
+<dl class="section note"><dt>Note</dt><dd>Hard dependencies have to be listed in the plugin metadata, such that the plugin loader is able to manage the loading order. </dd></dl>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:acfd24569bcf15aedf3bf048f34f99f92" id="r_acfd24569bcf15aedf3bf048f34f99f92"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1StrongDependency.html#acfd24569bcf15aedf3bf048f34f99f92">StrongDependency</a> (<a class="el" href="classalbert_1_1ExtensionRegistry.html">ExtensionRegistry</a> &amp;registry, const QString &amp;id)</td></tr>
-<tr class="separator:acfd24569bcf15aedf3bf048f34f99f92"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7e32e6842ba5b5b2b5e27a0cae225d2f" id="r_a7e32e6842ba5b5b2b5e27a0cae225d2f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1StrongDependency.html#a7e32e6842ba5b5b2b5e27a0cae225d2f">StrongDependency</a> (QString id)</td></tr>
+<tr class="memdesc:a7e32e6842ba5b5b2b5e27a0cae225d2f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a <a class="el" href="classalbert_1_1StrongDependency.html" title="Convenience holder class for plugin hard dependencies.">StrongDependency</a> with <code>id</code>.  <br /></td></tr>
+<tr class="separator:a7e32e6842ba5b5b2b5e27a0cae225d2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classalbert_1_1Dependency"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classalbert_1_1Dependency')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classalbert_1_1Dependency.html">albert::Dependency&lt; T &gt;</a></td></tr>
 <tr class="memitem:aab6c97f622d6bb12eb6eee228e742972 inherit pub_methods_classalbert_1_1Dependency" id="r_aab6c97f622d6bb12eb6eee228e742972"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1Dependency.html#aab6c97f622d6bb12eb6eee228e742972">operator T</a> () const</td></tr>
 <tr class="separator:aab6c97f622d6bb12eb6eee228e742972 inherit pub_methods_classalbert_1_1Dependency"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -136,16 +138,13 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
-<tr class="inherit_header pro_methods_classalbert_1_1Dependency"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classalbert_1_1Dependency')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="classalbert_1_1Dependency.html">albert::Dependency&lt; T &gt;</a></td></tr>
-<tr class="memitem:ab06b1e043a7f3e7ccbfc33521750c84e inherit pro_methods_classalbert_1_1Dependency" id="r_ab06b1e043a7f3e7ccbfc33521750c84e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1Dependency.html#ab06b1e043a7f3e7ccbfc33521750c84e">Dependency</a> (<a class="el" href="classalbert_1_1ExtensionRegistry.html">ExtensionRegistry</a> &amp;registry, const QString &amp;id)</td></tr>
-<tr class="separator:ab06b1e043a7f3e7ccbfc33521750c84e inherit pro_methods_classalbert_1_1Dependency"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_attribs_classalbert_1_1Dependency"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classalbert_1_1Dependency')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classalbert_1_1Dependency.html">albert::Dependency&lt; T &gt;</a></td></tr>
-<tr class="memitem:a3452f355bd4b9108ee466cc69f9c390e inherit pro_attribs_classalbert_1_1Dependency" id="r_a3452f355bd4b9108ee466cc69f9c390e"><td class="memItemLeft" align="right" valign="top">T *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1Dependency.html#a3452f355bd4b9108ee466cc69f9c390e">dependency</a> = nullptr</td></tr>
-<tr class="separator:a3452f355bd4b9108ee466cc69f9c390e inherit pro_attribs_classalbert_1_1Dependency"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a109a6af2580a96254e006b3fbf155263 inherit pro_attribs_classalbert_1_1Dependency" id="r_a109a6af2580a96254e006b3fbf155263"><td class="memItemLeft" align="right" valign="top">T *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1Dependency.html#a109a6af2580a96254e006b3fbf155263">dependency_</a> = nullptr</td></tr>
+<tr class="separator:a109a6af2580a96254e006b3fbf155263 inherit pro_attribs_classalbert_1_1Dependency"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="acfd24569bcf15aedf3bf048f34f99f92" name="acfd24569bcf15aedf3bf048f34f99f92"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acfd24569bcf15aedf3bf048f34f99f92">&#9670;&#160;</a></span>StrongDependency()</h2>
+<a id="a7e32e6842ba5b5b2b5e27a0cae225d2f" name="a7e32e6842ba5b5b2b5e27a0cae225d2f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7e32e6842ba5b5b2b5e27a0cae225d2f">&#9670;&#160;</a></span>StrongDependency()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -158,27 +157,25 @@ template&lt;class T &gt; </div>
         <tr>
           <td class="memname"><a class="el" href="classalbert_1_1StrongDependency.html">albert::StrongDependency</a>&lt; T &gt;::StrongDependency </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classalbert_1_1ExtensionRegistry.html">ExtensionRegistry</a> &amp;&#160;</td>
-          <td class="paramname"><em>registry</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramtype">QString&#160;</td>
+          <td class="paramname"><em>id</em></td><td>)</td>
           <td></td>
-          <td class="paramtype">const QString &amp;&#160;</td>
-          <td class="paramname"><em>id</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">explicit</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Constructs a <a class="el" href="classalbert_1_1StrongDependency.html" title="Convenience holder class for plugin hard dependencies.">StrongDependency</a> with <code>id</code>. </p>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">std::runtime_error</td><td>if the dependency is not available or not of type <code>T</code>. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>

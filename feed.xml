@@ -7,6 +7,99 @@
     
       
         <item>
+          <title>Albert v0.27.0 released</title>
+          <description>&lt;h1 id=&quot;albert-v0270-released&quot;&gt;Albert v0.27.0 released&lt;/h1&gt;
+
+&lt;p&gt;This is primarily an intermediate release that reverts bad design decisions that make progress difficult.&lt;/p&gt;
+
+&lt;h2 id=&quot;api&quot;&gt;API&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;albert&lt;/code&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Remove class &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ItemsModel&lt;/code&gt;&lt;/li&gt;
+      &lt;li&gt;Remove enum &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ItemRoles&lt;/code&gt;&lt;/li&gt;
+      &lt;li&gt;Remove &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;openUrl(const QUrl &amp;amp;url)&lt;/code&gt;&lt;/li&gt;
+      &lt;li&gt;Remove &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ExtensionWatcher&amp;lt;T&amp;gt;&lt;/code&gt;&lt;/li&gt;
+      &lt;li&gt;Add class &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ResultItem&lt;/code&gt;&lt;/li&gt;
+      &lt;li&gt;Add &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;const ExtensionRegistry &amp;amp;extensionRegistry();&lt;/code&gt;&lt;/li&gt;
+      &lt;li&gt;Add &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;tryCreateDirectory(const filesystem::path&amp;amp;)&lt;/code&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;network()&lt;/code&gt;: Return reference&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;albert::ExtensionRegistry&lt;/code&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Remove &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;T* extension&amp;lt;T&amp;gt;(const QString &amp;amp;id)&lt;/code&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;albert::PluginInstance&lt;/code&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Remove &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ExtensionRegistry &amp;amp;registry();&lt;/code&gt;&lt;/li&gt;
+      &lt;li&gt;Remove &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;createOrThrow(const QString &amp;amp;path)&lt;/code&gt;&lt;/li&gt;
+      &lt;li&gt;Make &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;cache/config/dataLocation&lt;/code&gt; return filesystem::path&lt;/li&gt;
+      &lt;li&gt;Add &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;extensions()&lt;/code&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ExtensionPlugin&lt;/code&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Add &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ExtensionPlugin::extensions()&lt;/code&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;albert::MatchConfig&lt;/code&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Avoid recurring default separator regex instatiation&lt;/li&gt;
+      &lt;li&gt;Change field order&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;albert::Query&lt;/code&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Add isActive()&lt;/li&gt;
+      &lt;li&gt;Return &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;vector&amp;lt;ResultItem&amp;gt;&lt;/code&gt; in &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;matches&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;fallbacks&lt;/code&gt;&lt;/li&gt;
+      &lt;li&gt;Return &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;bool&lt;/code&gt; in &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;activate*&lt;/code&gt;&lt;/li&gt;
+      &lt;li&gt;Remove signal &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;finished&lt;/code&gt;&lt;/li&gt;
+      &lt;li&gt;Add signal &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;matchesAboutToBeAdded&lt;/code&gt;&lt;/li&gt;
+      &lt;li&gt;Add signal &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;matchesAdded&lt;/code&gt;&lt;/li&gt;
+      &lt;li&gt;Add signal &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;invalidated&lt;/code&gt;&lt;/li&gt;
+      &lt;li&gt;Add signal &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;activeChanged&lt;/code&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;albert::TriggerQueryHandler&lt;/code&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Pass queries as reference&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;synopsis()&lt;/code&gt; &amp;gt; &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;synopsis(const QString &amp;amp;query)&lt;/code&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;albert::GlobalQueryHandler&lt;/code&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Pass queries as reference&lt;/li&gt;
+      &lt;li&gt;Remove param of &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;handleEmptyQuery&lt;/code&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Rename albert/util.h to albert/albert.h&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;plugins&quot;&gt;Plugins&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;python&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Add tests.&lt;/li&gt;
+      &lt;li&gt;Google Docstring format stub file.&lt;/li&gt;
+      &lt;li&gt;Python API v3.0. See changelog in stub file for details.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Check the &lt;a href=&quot;https://github.com/albertlauncher/albert/commits/v0.27.0&quot;&gt;GitHub repositories&lt;/a&gt; for details.&lt;/p&gt;
+</description>
+          <pubDate>2025-02-27T00:00:00+00:00</pubDate>
+          <link>https://albertlauncher.github.io/2025/02/27/albert-v0.27.0-released/</link>
+          <guid isPermaLink="true">https://albertlauncher.github.io/2025/02/27/albert-v0.27.0-released/</guid>
+        </item>
+      
+    
+      
+        <item>
           <title>Albert v0.26.13 released</title>
           <description>&lt;h1 id=&quot;albert-v02613-released&quot;&gt;Albert v0.26.13 released&lt;/h1&gt;
 

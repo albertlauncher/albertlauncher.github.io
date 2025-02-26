@@ -62,16 +62,6 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>albert::ExtensionWatcher</Name>
-      <APILanguage>c</APILanguage>
-      <Type>tmplt</Type>
-      <Scope>albert::ExtensionWatcher</Scope>
-    </TokenIdentifier>
-    <Path>classalbert_1_1ExtensionWatcher.html</Path>
-    <DeclaredIn>albert/extensionwatcher.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
       <Name>albert::FallbackHandler</Name>
       <APILanguage>c</APILanguage>
       <Type>cl</Type>
@@ -242,6 +232,16 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>albert::ResultItem</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+      <Scope>albert::ResultItem</Scope>
+    </TokenIdentifier>
+    <Path>classalbert_1_1ResultItem.html</Path>
+    <DeclaredIn>albert/query.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>albert::StandardItem</Name>
       <APILanguage>c</APILanguage>
       <Type>cl</Type>
@@ -371,7 +371,7 @@
       <Scope>albert::Query</Scope>
     </TokenIdentifier>
     <Path>classalbert_1_1Query.html</Path>
-    <Anchor>ac6ddb0ff1c822795a5e2412e1a659c8d</Anchor>
+    <Anchor>a71856fb1ae38a8d7d8e540465ecb6300</Anchor>
     <DeclaredIn>query.h</DeclaredIn>
   </Token>
   <Token>
@@ -382,7 +382,18 @@
       <Scope>albert::Query</Scope>
     </TokenIdentifier>
     <Path>classalbert_1_1Query.html</Path>
-    <Anchor>a3c3e2d3e57bbd61df7717771bc2af735</Anchor>
+    <Anchor>ab7377fc2b7f8f3c98a0290a26f98839f</Anchor>
+    <DeclaredIn>query.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>activeChanged</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>signal</Type>
+      <Scope>albert::Query</Scope>
+    </TokenIdentifier>
+    <Path>classalbert_1_1Query.html</Path>
+    <Anchor>ac81feac24915e901b9660f0760905cbb</Anchor>
     <DeclaredIn>query.h</DeclaredIn>
   </Token>
   <Token>
@@ -523,7 +534,7 @@
       <Scope>albert::PluginInstance</Scope>
     </TokenIdentifier>
     <Path>classalbert_1_1PluginInstance.html</Path>
-    <Anchor>a8e08b7eee0b66112e81ebfb127581c2a</Anchor>
+    <Anchor>a986c378aec3a83830d5815116330d3c2</Anchor>
     <DeclaredIn>plugininstance.h</DeclaredIn>
   </Token>
   <Token>
@@ -555,7 +566,7 @@
       <Scope>albert::PluginInstance</Scope>
     </TokenIdentifier>
     <Path>classalbert_1_1PluginInstance.html</Path>
-    <Anchor>ae95e1c231bab7cdc29094f0b5b756b8f</Anchor>
+    <Anchor>accbf6639db1db1996b7dfaa4c3134a92</Anchor>
     <DeclaredIn>plugininstance.h</DeclaredIn>
   </Token>
   <Token>
@@ -582,24 +593,13 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>createOrThrow</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>clm</Type>
-      <Scope>albert::PluginInstance</Scope>
-    </TokenIdentifier>
-    <Path>classalbert_1_1PluginInstance.html</Path>
-    <Anchor>ad262b2a88da925d51a2aa6dfd399b6a8</Anchor>
-    <DeclaredIn>plugininstance.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
       <Name>dataLocation</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
       <Scope>albert::PluginInstance</Scope>
     </TokenIdentifier>
     <Path>classalbert_1_1PluginInstance.html</Path>
-    <Anchor>a2fc2ec2e992b2adeefb066ecf381a76e</Anchor>
+    <Anchor>a6307064a7be1af3ebaeaeb1782dc923b</Anchor>
     <DeclaredIn>plugininstance.h</DeclaredIn>
   </Token>
   <Token>
@@ -615,24 +615,13 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>dependency</Name>
+      <Name>dependency_</Name>
       <APILanguage>cpp</APILanguage>
       <Type>data</Type>
       <Scope>albert::Dependency</Scope>
     </TokenIdentifier>
     <Path>classalbert_1_1Dependency.html</Path>
-    <Anchor>a3452f355bd4b9108ee466cc69f9c390e</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>Dependency</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>albert::Dependency</Scope>
-    </TokenIdentifier>
-    <Path>classalbert_1_1Dependency.html</Path>
-    <Anchor>ab06b1e043a7f3e7ccbfc33521750c84e</Anchor>
-    <DeclaredIn>plugindependency.h</DeclaredIn>
+    <Anchor>a109a6af2580a96254e006b3fbf155263</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -702,6 +691,16 @@
     <TokenIdentifier>
       <Name>extension</Name>
       <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>albert::ResultItem</Scope>
+    </TokenIdentifier>
+    <Path>classalbert_1_1ResultItem.html</Path>
+    <Anchor>aba468adef554696d9f40731ab9152a70</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>extension</Name>
+      <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
       <Scope>albert::ExtensionRegistry</Scope>
     </TokenIdentifier>
@@ -714,10 +713,21 @@
       <Name>extensions</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
+      <Scope>albert::ExtensionPlugin</Scope>
+    </TokenIdentifier>
+    <Path>classalbert_1_1ExtensionPlugin.html</Path>
+    <Anchor>a2b66c777a6ec17e567c41cfe70218e5e</Anchor>
+    <DeclaredIn>extensionplugin.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>extensions</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
       <Scope>albert::ExtensionRegistry</Scope>
     </TokenIdentifier>
     <Path>classalbert_1_1ExtensionRegistry.html</Path>
-    <Anchor>addd09e90a5ce026ce8c8a491affe68a7</Anchor>
+    <Anchor>a7dbd33a3cce2b17ff073b5c521165e95</Anchor>
     <DeclaredIn>extensionregistry.h</DeclaredIn>
   </Token>
   <Token>
@@ -728,19 +738,19 @@
       <Scope>albert::ExtensionRegistry</Scope>
     </TokenIdentifier>
     <Path>classalbert_1_1ExtensionRegistry.html</Path>
-    <Anchor>aec42b55ef9a0fa5876f3f88dbac9b19d</Anchor>
+    <Anchor>a0223f64212021bf220b36e14a7d8119c</Anchor>
     <DeclaredIn>extensionregistry.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>ExtensionWatcher</Name>
+      <Name>extensions</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
-      <Scope>albert::ExtensionWatcher</Scope>
+      <Scope>albert::PluginInstance</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1ExtensionWatcher.html</Path>
-    <Anchor>a57a54853c36f1ae178c2ad16761fc1db</Anchor>
-    <DeclaredIn>extensionwatcher.h</DeclaredIn>
+    <Path>classalbert_1_1PluginInstance.html</Path>
+    <Anchor>ae1c91829360d9e5d4d08033d7d155a85</Anchor>
+    <DeclaredIn>plugininstance.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -761,7 +771,7 @@
       <Scope>albert::Query</Scope>
     </TokenIdentifier>
     <Path>classalbert_1_1Query.html</Path>
-    <Anchor>a62762f8c9d77992e376d778d17b4b612</Anchor>
+    <Anchor>a06f037b0abf075722f418e6c25396728</Anchor>
     <DeclaredIn>query.h</DeclaredIn>
   </Token>
   <Token>
@@ -773,17 +783,6 @@
     </TokenIdentifier>
     <Path>classalbert_1_1BackgroundExecutor.html</Path>
     <Anchor>a65295b14b0d2476b5118f7922b4c11b9</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>finished</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>signal</Type>
-      <Scope>albert::Query</Scope>
-    </TokenIdentifier>
-    <Path>classalbert_1_1Query.html</Path>
-    <Anchor>abf7bfc65b2ecf0f4f24d3f082ece7224</Anchor>
-    <DeclaredIn>query.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -845,7 +844,7 @@
       <Scope>albert::GlobalQueryHandler</Scope>
     </TokenIdentifier>
     <Path>classalbert_1_1GlobalQueryHandler.html</Path>
-    <Anchor>ab57e4ba6b176a330d434bc186b1fccd7</Anchor>
+    <Anchor>a237f970f2410c8a88ee488937346fa19</Anchor>
     <DeclaredIn>globalqueryhandler.h</DeclaredIn>
   </Token>
   <Token>
@@ -856,7 +855,7 @@
       <Scope>albert::GlobalQueryHandler</Scope>
     </TokenIdentifier>
     <Path>classalbert_1_1GlobalQueryHandler.html</Path>
-    <Anchor>aa16857cb26d70da7130c240589426a8c</Anchor>
+    <Anchor>a1b1236c8c33187205963fc8e00bc25e2</Anchor>
     <DeclaredIn>globalqueryhandler.h</DeclaredIn>
   </Token>
   <Token>
@@ -867,7 +866,7 @@
       <Scope>albert::IndexQueryHandler</Scope>
     </TokenIdentifier>
     <Path>classalbert_1_1IndexQueryHandler.html</Path>
-    <Anchor>a502ef8ed814827456b16f9b3aeed899a</Anchor>
+    <Anchor>a2817bc1743699460fa9227a80b21bbf8</Anchor>
     <DeclaredIn>indexqueryhandler.h</DeclaredIn>
   </Token>
   <Token>
@@ -878,7 +877,7 @@
       <Scope>albert::GlobalQueryHandler</Scope>
     </TokenIdentifier>
     <Path>classalbert_1_1GlobalQueryHandler.html</Path>
-    <Anchor>a885ba537f879975790300ea22fe57cbd</Anchor>
+    <Anchor>a55ea5b23789f82ab09d961dc6b3e5c40</Anchor>
     <DeclaredIn>globalqueryhandler.h</DeclaredIn>
   </Token>
   <Token>
@@ -889,7 +888,7 @@
       <Scope>albert::TriggerQueryHandler</Scope>
     </TokenIdentifier>
     <Path>classalbert_1_1TriggerQueryHandler.html</Path>
-    <Anchor>a034750ccd35de2ef59f79447c423bcfb</Anchor>
+    <Anchor>a14e770979eb2456826cf954d80b86a36</Anchor>
     <DeclaredIn>triggerqueryhandler.h</DeclaredIn>
   </Token>
   <Token>
@@ -1127,6 +1126,28 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>invalidated</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>signal</Type>
+      <Scope>albert::Query</Scope>
+    </TokenIdentifier>
+    <Path>classalbert_1_1Query.html</Path>
+    <Anchor>aedcac1b526d23828765effde7d7103c8</Anchor>
+    <DeclaredIn>query.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>isActive</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>albert::Query</Scope>
+    </TokenIdentifier>
+    <Path>classalbert_1_1Query.html</Path>
+    <Anchor>a0c146187b2692ee17330d8a80a49e642</Anchor>
+    <DeclaredIn>query.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>isEmptyMatch</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
@@ -1222,6 +1243,16 @@
     </TokenIdentifier>
     <Path>classalbert_1_1IndexItem.html</Path>
     <Anchor>a627e86379552accd1c25d4d12c67399e</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>item</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>albert::ResultItem</Scope>
+    </TokenIdentifier>
+    <Path>classalbert_1_1ResultItem.html</Path>
+    <Anchor>a1b8da4d2b01a0a06907e1031040b2ef7</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -1329,39 +1360,6 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>Match</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>albert::Match</Scope>
-    </TokenIdentifier>
-    <Path>classalbert_1_1Match.html</Path>
-    <Anchor>a240aed4fc86419851dad0817a838a119</Anchor>
-    <DeclaredIn>matcher.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>Match</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>albert::Match</Scope>
-    </TokenIdentifier>
-    <Path>classalbert_1_1Match.html</Path>
-    <Anchor>add8282de219db9c48034ed5de2349ea3</Anchor>
-    <DeclaredIn>matcher.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>Match</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>albert::Match</Scope>
-    </TokenIdentifier>
-    <Path>classalbert_1_1Match.html</Path>
-    <Anchor>a5b158fdbe6e3f4380a5b0736bb1bf17f</Anchor>
-    <DeclaredIn>matcher.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
       <Name>match</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
@@ -1395,6 +1393,39 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>Match</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>albert::Match</Scope>
+    </TokenIdentifier>
+    <Path>classalbert_1_1Match.html</Path>
+    <Anchor>a240aed4fc86419851dad0817a838a119</Anchor>
+    <DeclaredIn>matcher.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Match</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>albert::Match</Scope>
+    </TokenIdentifier>
+    <Path>classalbert_1_1Match.html</Path>
+    <Anchor>add8282de219db9c48034ed5de2349ea3</Anchor>
+    <DeclaredIn>matcher.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Match</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>albert::Match</Scope>
+    </TokenIdentifier>
+    <Path>classalbert_1_1Match.html</Path>
+    <Anchor>a5b158fdbe6e3f4380a5b0736bb1bf17f</Anchor>
+    <DeclaredIn>matcher.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>Matcher</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
@@ -1423,7 +1454,29 @@
       <Scope>albert::Query</Scope>
     </TokenIdentifier>
     <Path>classalbert_1_1Query.html</Path>
-    <Anchor>a81bdb8ac1532341640af4aab33fd0008</Anchor>
+    <Anchor>a717e2dcde269cb53b82e4ec2ed94bce1</Anchor>
+    <DeclaredIn>query.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>matchesAboutToBeAdded</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>signal</Type>
+      <Scope>albert::Query</Scope>
+    </TokenIdentifier>
+    <Path>classalbert_1_1Query.html</Path>
+    <Anchor>ac32312884c459e886da098ad941459bd</Anchor>
+    <DeclaredIn>query.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>matchesAdded</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>signal</Type>
+      <Scope>albert::Query</Scope>
+    </TokenIdentifier>
+    <Path>classalbert_1_1Query.html</Path>
+    <Anchor>a63a77c2c9d83014f0b077a816c04e9ee</Anchor>
     <DeclaredIn>query.h</DeclaredIn>
   </Token>
   <Token>
@@ -1500,28 +1553,6 @@
     <Path>classalbert_1_1Notification.html</Path>
     <Anchor>a1a20993aa237412e194bb8f3d393a7da</Anchor>
     <DeclaredIn>notification.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>onAdd</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>albert::ExtensionWatcher</Scope>
-    </TokenIdentifier>
-    <Path>classalbert_1_1ExtensionWatcher.html</Path>
-    <Anchor>acbd16bc3d28cf3934819c5bc3d8d7aa7</Anchor>
-    <DeclaredIn>extensionwatcher.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>onRem</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>albert::ExtensionWatcher</Scope>
-    </TokenIdentifier>
-    <Path>classalbert_1_1ExtensionWatcher.html</Path>
-    <Anchor>abbff93ba70d0f828f0345ee0b65ab74c</Anchor>
-    <DeclaredIn>extensionwatcher.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -1785,17 +1816,6 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>registry</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>albert::PluginInstance</Scope>
-    </TokenIdentifier>
-    <Path>classalbert_1_1PluginInstance.html</Path>
-    <Anchor>ad44b5ab9de2d43a03071d642cedf0806</Anchor>
-    <DeclaredIn>plugininstance.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
       <Name>removed</Name>
       <APILanguage>cpp</APILanguage>
       <Type>signal</Type>
@@ -1909,17 +1929,6 @@
     <Path>classalbert_1_1StandardItem.html</Path>
     <Anchor>af285d6a81a83b640bde98abe223ed05f</Anchor>
     <DeclaredIn>standarditem.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>setExtensionRegistry</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>albert::ExtensionWatcher</Scope>
-    </TokenIdentifier>
-    <Path>classalbert_1_1ExtensionWatcher.html</Path>
-    <Anchor>a8c749a8b8f76c7e6c19b9dcdd8e8d765</Anchor>
-    <DeclaredIn>extensionwatcher.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -2180,7 +2189,7 @@
       <Scope>albert::StrongDependency</Scope>
     </TokenIdentifier>
     <Path>classalbert_1_1StrongDependency.html</Path>
-    <Anchor>acfd24569bcf15aedf3bf048f34f99f92</Anchor>
+    <Anchor>a7e32e6842ba5b5b2b5e27a0cae225d2f</Anchor>
     <DeclaredIn>plugindependency.h</DeclaredIn>
   </Token>
   <Token>
@@ -2256,7 +2265,7 @@
       <Scope>albert::TriggerQueryHandler</Scope>
     </TokenIdentifier>
     <Path>classalbert_1_1TriggerQueryHandler.html</Path>
-    <Anchor>a9853785b6798df4ef4b18ab715bb8608</Anchor>
+    <Anchor>a37594f3c99dff8f91f6b80e77dcf9ce4</Anchor>
     <DeclaredIn>triggerqueryhandler.h</DeclaredIn>
   </Token>
   <Token>
@@ -2447,7 +2456,7 @@
       <Scope>albert::WeakDependency</Scope>
     </TokenIdentifier>
     <Path>classalbert_1_1WeakDependency.html</Path>
-    <Anchor>a4512fca527016cd4e9a9746fa39afed2</Anchor>
+    <Anchor>aa7134ad13996b4bbe26d7dd13d1d05c4</Anchor>
     <DeclaredIn>plugindependency.h</DeclaredIn>
   </Token>
   <Token>
@@ -2482,17 +2491,6 @@
     <Path>classalbert_1_1Extension.html</Path>
     <Anchor>a75ca8e53d296b0fa89467469f2200b5f</Anchor>
     <DeclaredIn>extension.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>~ExtensionWatcher</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>albert::ExtensionWatcher</Scope>
-    </TokenIdentifier>
-    <Path>classalbert_1_1ExtensionWatcher.html</Path>
-    <Anchor>a9b9f213fe24d184534616d3a4f2e7fe2</Anchor>
-    <DeclaredIn>extensionwatcher.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -2672,16 +2670,6 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>ActionsListRole</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>econst</Type>
-      <Scope>albert</Scope>
-    </TokenIdentifier>
-    <Path>namespacealbert.html</Path>
-    <Anchor>a2c9bc002c072a7be9c445ada4820ab4aac6e16edcd9469556af3cbb23b1acd41d</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
       <Name>ALBERT_LOGGING_CATEGORY</Name>
       <APILanguage>unknown</APILanguage>
       <Type>macro</Type>
@@ -2808,8 +2796,8 @@
       <Scope>albert</Scope>
     </TokenIdentifier>
     <Path>namespacealbert.html</Path>
-    <Anchor>a682f2d878f6f8cf7bb09f0cf0364489b</Anchor>
-    <DeclaredIn>util.h</DeclaredIn>
+    <Anchor>a9815442f0654991511ecd0f0d7d7e959</Anchor>
+    <DeclaredIn>albert.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -2859,8 +2847,8 @@
       <Scope>albert</Scope>
     </TokenIdentifier>
     <Path>namespacealbert.html</Path>
-    <Anchor>a836de7f2ce4bc577be6b879187ba2c7c</Anchor>
-    <DeclaredIn>util.h</DeclaredIn>
+    <Anchor>a9e4a5e745c6c8d4dc7dc0827caac1def</Anchor>
+    <DeclaredIn>albert.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -2910,8 +2898,8 @@
       <Scope>albert</Scope>
     </TokenIdentifier>
     <Path>namespacealbert.html</Path>
-    <Anchor>a22e8ee8b9ae24be045acd447756c5c1c</Anchor>
-    <DeclaredIn>util.h</DeclaredIn>
+    <Anchor>a7f6fbbcaf1a50138c135a5831eeb5c6a</Anchor>
+    <DeclaredIn>albert.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -2925,6 +2913,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>default_separator_regex</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a2616468f8389c07e72362f7c89d73e7e</Anchor>
+    <DeclaredIn>matchconfig.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>EXPAND_STRINGIZE</Name>
       <APILanguage>unknown</APILanguage>
       <Type>macro</Type>
@@ -2932,6 +2931,17 @@
     <Path>property_8h.html</Path>
     <Anchor>afa5f33475901a9746f14f6975b7deaab</Anchor>
     <DeclaredIn>property.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>extensionRegistry</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>ad686c346ceb5a0fa99659e5c3a627bb1</Anchor>
+    <DeclaredIn>albert.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -2975,7 +2985,7 @@
     </TokenIdentifier>
     <Path>namespacealbert.html</Path>
     <Anchor>a0f190f5266c9ee4d4c44ee3b21af9876</Anchor>
-    <DeclaredIn>util.h</DeclaredIn>
+    <DeclaredIn>albert.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -3001,16 +3011,6 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>IconUrlsRole</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>econst</Type>
-      <Scope>albert</Scope>
-    </TokenIdentifier>
-    <Path>namespacealbert.html</Path>
-    <Anchor>a2c9bc002c072a7be9c445ada4820ab4aa4e0d375fcfc86629390e8716f0fc5286</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
       <Name>INFO</Name>
       <APILanguage>unknown</APILanguage>
       <Type>macro</Type>
@@ -3021,85 +3021,14 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>InputActionRole</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>econst</Type>
-      <Scope>albert</Scope>
-    </TokenIdentifier>
-    <Path>namespacealbert.html</Path>
-    <Anchor>a2c9bc002c072a7be9c445ada4820ab4aa53c068784eb4804d94f89da8133fae9c</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>ItemRoles</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>enum</Type>
-      <Scope>albert</Scope>
-    </TokenIdentifier>
-    <Path>namespacealbert.html</Path>
-    <Anchor>a2c9bc002c072a7be9c445ada4820ab4a</Anchor>
-    <DeclaredIn>frontend.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>TextRole</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>econst</Type>
-      <Scope>albert</Scope>
-    </TokenIdentifier>
-    <Path>namespacealbert.html</Path>
-    <Anchor>a2c9bc002c072a7be9c445ada4820ab4aa2db1189d71f70f05201a3aa5be17de0a</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>SubTextRole</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>econst</Type>
-      <Scope>albert</Scope>
-    </TokenIdentifier>
-    <Path>namespacealbert.html</Path>
-    <Anchor>a2c9bc002c072a7be9c445ada4820ab4aa445e9f0d236e48d6f1aa68bc17cb5ee6</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>InputActionRole</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>econst</Type>
-      <Scope>albert</Scope>
-    </TokenIdentifier>
-    <Path>namespacealbert.html</Path>
-    <Anchor>a2c9bc002c072a7be9c445ada4820ab4aa53c068784eb4804d94f89da8133fae9c</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>IconUrlsRole</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>econst</Type>
-      <Scope>albert</Scope>
-    </TokenIdentifier>
-    <Path>namespacealbert.html</Path>
-    <Anchor>a2c9bc002c072a7be9c445ada4820ab4aa4e0d375fcfc86629390e8716f0fc5286</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>ActionsListRole</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>econst</Type>
-      <Scope>albert</Scope>
-    </TokenIdentifier>
-    <Path>namespacealbert.html</Path>
-    <Anchor>a2c9bc002c072a7be9c445ada4820ab4aac6e16edcd9469556af3cbb23b1acd41d</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
       <Name>network</Name>
       <APILanguage>cpp</APILanguage>
       <Type>func</Type>
       <Scope>albert</Scope>
     </TokenIdentifier>
     <Path>namespacealbert.html</Path>
-    <Anchor>a08ab9e8cfd61e6227d6606d24b6141b4</Anchor>
-    <DeclaredIn>util.h</DeclaredIn>
+    <Anchor>a71d7e8bfc3b0e691e3e1e85a55b842e7</Anchor>
+    <DeclaredIn>albert.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -3110,7 +3039,7 @@
     </TokenIdentifier>
     <Path>namespacealbert.html</Path>
     <Anchor>a56d0cac0a667c060104c52af32c59cd5</Anchor>
-    <DeclaredIn>util.h</DeclaredIn>
+    <DeclaredIn>albert.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -3121,7 +3050,7 @@
     </TokenIdentifier>
     <Path>namespacealbert.html</Path>
     <Anchor>a337794d224c1b8022a4b2d51bcd91547</Anchor>
-    <DeclaredIn>util.h</DeclaredIn>
+    <DeclaredIn>albert.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -3132,18 +3061,7 @@
     </TokenIdentifier>
     <Path>namespacealbert.html</Path>
     <Anchor>a35d5dd6fe66efb83c37681991fb8dcbe</Anchor>
-    <DeclaredIn>util.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>openUrl</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>func</Type>
-      <Scope>albert</Scope>
-    </TokenIdentifier>
-    <Path>namespacealbert.html</Path>
-    <Anchor>adc57b8ecd808d5bb582b322fc7399362</Anchor>
-    <DeclaredIn>util.h</DeclaredIn>
+    <DeclaredIn>albert.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -3154,7 +3072,7 @@
     </TokenIdentifier>
     <Path>namespacealbert.html</Path>
     <Anchor>ac4d2ecaadddf8dc533510cadbb4e951c</Anchor>
-    <DeclaredIn>util.h</DeclaredIn>
+    <DeclaredIn>albert.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -3165,7 +3083,7 @@
     </TokenIdentifier>
     <Path>namespacealbert.html</Path>
     <Anchor>af0b45312c9f17345d1842b20947c4431</Anchor>
-    <DeclaredIn>util.h</DeclaredIn>
+    <DeclaredIn>albert.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -3198,7 +3116,7 @@
     </TokenIdentifier>
     <Path>namespacealbert.html</Path>
     <Anchor>ab3146bc3f5c4199dcf3c67c2ce399dd9</Anchor>
-    <DeclaredIn>util.h</DeclaredIn>
+    <DeclaredIn>albert.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -3209,7 +3127,7 @@
     </TokenIdentifier>
     <Path>namespacealbert.html</Path>
     <Anchor>a7c912d042d2e07024785b691c1121647</Anchor>
-    <DeclaredIn>util.h</DeclaredIn>
+    <DeclaredIn>albert.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -3220,7 +3138,7 @@
     </TokenIdentifier>
     <Path>namespacealbert.html</Path>
     <Anchor>ac25c5fcfeda5555c277a34a3cb9dcea1</Anchor>
-    <DeclaredIn>util.h</DeclaredIn>
+    <DeclaredIn>albert.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -3231,7 +3149,7 @@
     </TokenIdentifier>
     <Path>namespacealbert.html</Path>
     <Anchor>a406cb6824847d1f0cbd3ec7a7176dce8</Anchor>
-    <DeclaredIn>util.h</DeclaredIn>
+    <DeclaredIn>albert.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -3242,7 +3160,7 @@
     </TokenIdentifier>
     <Path>namespacealbert.html</Path>
     <Anchor>a88cb18f19f7c6fed45b25fba5e6bf9b5</Anchor>
-    <DeclaredIn>util.h</DeclaredIn>
+    <DeclaredIn>albert.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -3253,7 +3171,7 @@
     </TokenIdentifier>
     <Path>namespacealbert.html</Path>
     <Anchor>a09085231379cd9843cd3064606bc0766</Anchor>
-    <DeclaredIn>util.h</DeclaredIn>
+    <DeclaredIn>albert.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -3264,7 +3182,7 @@
     </TokenIdentifier>
     <Path>namespacealbert.html</Path>
     <Anchor>aa58d49c3ab5bd7282b0ee46a5e9db8fd</Anchor>
-    <DeclaredIn>util.h</DeclaredIn>
+    <DeclaredIn>albert.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -3275,7 +3193,7 @@
     </TokenIdentifier>
     <Path>namespacealbert.html</Path>
     <Anchor>a1998f7413d7a26e994fc3a8ff17df336</Anchor>
-    <DeclaredIn>util.h</DeclaredIn>
+    <DeclaredIn>albert.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -3289,23 +3207,14 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>SubTextRole</Name>
+      <Name>tryCreateDirectory</Name>
       <APILanguage>cpp</APILanguage>
-      <Type>econst</Type>
+      <Type>func</Type>
       <Scope>albert</Scope>
     </TokenIdentifier>
     <Path>namespacealbert.html</Path>
-    <Anchor>a2c9bc002c072a7be9c445ada4820ab4aa445e9f0d236e48d6f1aa68bc17cb5ee6</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>TextRole</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>econst</Type>
-      <Scope>albert</Scope>
-    </TokenIdentifier>
-    <Path>namespacealbert.html</Path>
-    <Anchor>a2c9bc002c072a7be9c445ada4820ab4aa2db1189d71f70f05201a3aa5be17de0a</Anchor>
+    <Anchor>af0d32f3bc9359b5374b2e3ba1d171ceb</Anchor>
+    <DeclaredIn>albert.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>

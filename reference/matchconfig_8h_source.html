@@ -111,30 +111,33 @@ $(document).ready(function(){initNavTree('matchconfig_8h_source.html',''); initR
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespacealbert.html">albert</a></div>
 <div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span>{</div>
 <div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span> </div>
-<div class="foldopen" id="foldopen00016" data-start="{" data-end="};">
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno"><a class="line" href="classalbert_1_1MatchConfig.html">   16</a></span><span class="keyword">class </span>ALBERT_EXPORT <a class="code hl_class" href="classalbert_1_1MatchConfig.html">MatchConfig</a></div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>{</div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span><span class="keyword">public</span>:</div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno"><a class="line" href="classalbert_1_1MatchConfig.html#a0151800775b765f4a15566e5097d1e5f">   22</a></span>    QRegularExpression separator_regex =</div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>        <span class="comment">//    QRegularExpression(R&quot;([\s\\\/\-\[\](){}#!?&lt;&gt;&quot;&#39;=+*.:,;_]+)&quot;);</span></div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>        <span class="comment">// make doxygen happy</span></div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>        QRegularExpression(<span class="stringliteral">&quot;([\\s\\\\/\\-\\[\\](){}#!?&lt;&gt;\&quot;&#39;=+*.:,;_]+)&quot;</span>);</div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span> </div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno"><a class="line" href="classalbert_1_1MatchConfig.html#a2eb12d5eba0e78ff36a2b73c11a5c516">   30</a></span>    <span class="keywordtype">bool</span> ignore_case = <span class="keyword">true</span>;</div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span> </div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno"><a class="line" href="classalbert_1_1MatchConfig.html#aba17291c8e157177a030a2b0342e77c9">   35</a></span>    <span class="keywordtype">bool</span> ignore_diacritics = <span class="keyword">true</span>;</div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span> </div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno"><a class="line" href="classalbert_1_1MatchConfig.html#ad147ba681f17fe175112f60bbe06f33e">   40</a></span>    <span class="keywordtype">bool</span> ignore_word_order = <span class="keyword">true</span>;</div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span> </div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno"><a class="line" href="classalbert_1_1MatchConfig.html#aa1833dae4bbbc846e9d1d6d13f23689e">   45</a></span>    <span class="keywordtype">bool</span> fuzzy = <span class="keyword">false</span>;</div>
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span> </div>
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno"><a class="line" href="classalbert_1_1MatchConfig.html#ad011dc755845d386f8b47ddac9881438">   52</a></span>    <span class="keyword">static</span> <span class="keyword">const</span> uint error_tolerance_divisor = 4;</div>
-<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>};</div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="comment">// Doxygen does not like raw strings</span></div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="comment">// QRegularExpression(R&quot;([\s\\\/\-\[\](){}#!?&lt;&gt;&quot;&#39;=+*.:,;_]+)&quot;);</span></div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno"><a class="line" href="namespacealbert.html#a2616468f8389c07e72362f7c89d73e7e">   13</a></span><span class="keyword">const</span> QRegularExpression <a class="code hl_function" href="namespacealbert.html#a2616468f8389c07e72362f7c89d73e7e">default_separator_regex</a>(<span class="stringliteral">&quot;([\\s\\\\/\\-\\[\\](){}#!?&lt;&gt;\&quot;&#39;=+*.:,;_]+)&quot;</span>);</div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span> </div>
+<div class="foldopen" id="foldopen00022" data-start="{" data-end="};">
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno"><a class="line" href="classalbert_1_1MatchConfig.html">   22</a></span><span class="keyword">class </span>ALBERT_EXPORT <a class="code hl_class" href="classalbert_1_1MatchConfig.html">MatchConfig</a></div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>{</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span> </div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno"><a class="line" href="classalbert_1_1MatchConfig.html#aa1833dae4bbbc846e9d1d6d13f23689e">   29</a></span>    <span class="keywordtype">bool</span> fuzzy = <span class="keyword">false</span>;</div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span> </div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno"><a class="line" href="classalbert_1_1MatchConfig.html#a2eb12d5eba0e78ff36a2b73c11a5c516">   34</a></span>    <span class="keywordtype">bool</span> ignore_case = <span class="keyword">true</span>;</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span> </div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno"><a class="line" href="classalbert_1_1MatchConfig.html#ad147ba681f17fe175112f60bbe06f33e">   39</a></span>    <span class="keywordtype">bool</span> ignore_word_order = <span class="keyword">true</span>;</div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span> </div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno"><a class="line" href="classalbert_1_1MatchConfig.html#aba17291c8e157177a030a2b0342e77c9">   44</a></span>    <span class="keywordtype">bool</span> ignore_diacritics = <span class="keyword">true</span>;</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span> </div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno"><a class="line" href="classalbert_1_1MatchConfig.html#a0151800775b765f4a15566e5097d1e5f">   49</a></span>    QRegularExpression separator_regex = <a class="code hl_function" href="namespacealbert.html#a2616468f8389c07e72362f7c89d73e7e">default_separator_regex</a>;</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span> </div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno"><a class="line" href="classalbert_1_1MatchConfig.html#ad011dc755845d386f8b47ddac9881438">   56</a></span>    <span class="keyword">static</span> <span class="keyword">const</span> uint error_tolerance_divisor = 4;</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>};</div>
 </div>
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span> </div>
-<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>}</div>
-<div class="ttc" id="aclassalbert_1_1MatchConfig_html"><div class="ttname"><a href="classalbert_1_1MatchConfig.html">albert::MatchConfig</a></div><div class="ttdoc">Configuration for string matching.</div><div class="ttdef"><b>Definition</b> matchconfig.h:17</div></div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span> </div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>} <span class="comment">// namespace albert</span></div>
+<div class="ttc" id="aclassalbert_1_1MatchConfig_html"><div class="ttname"><a href="classalbert_1_1MatchConfig.html">albert::MatchConfig</a></div><div class="ttdoc">Configuration for string matching.</div><div class="ttdef"><b>Definition</b> matchconfig.h:23</div></div>
 <div class="ttc" id="anamespacealbert_html"><div class="ttname"><a href="namespacealbert.html">albert</a></div><div class="ttdef"><b>Definition</b> action.h:10</div></div>
+<div class="ttc" id="anamespacealbert_html_a2616468f8389c07e72362f7c89d73e7e"><div class="ttname"><a href="namespacealbert.html#a2616468f8389c07e72362f7c89d73e7e">albert::default_separator_regex</a></div><div class="ttdeci">const QRegularExpression default_separator_regex(&quot;([\\s\\\\/\\-\\[\\](){}#!?&lt;&gt;\&quot;'=+*.:,;_]+)&quot;)</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

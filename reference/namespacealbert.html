@@ -95,7 +95,6 @@ $(document).ready(function(){initNavTree('namespacealbert.html',''); initResizab
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#enum-members">Enumerations</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle"><div class="title">albert Namespace Reference</div></div>
 </div><!--header-->
@@ -120,9 +119,6 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1ExtensionRegistry.html">ExtensionRegistry</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The common extension pool.  <a href="classalbert_1_1ExtensionRegistry.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1ExtensionWatcher.html">ExtensionWatcher</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Non-QObject extension registry observer.  <a href="classalbert_1_1ExtensionWatcher.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1FallbackHandler.html">FallbackHandler</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Abstract fallback provider.  <a href="classalbert_1_1FallbackHandler.html#details">More...</a><br /></td></tr>
@@ -175,6 +171,8 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1RankItem.html">RankItem</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">An <a class="el" href="classalbert_1_1Item.html" title="Result items displayed in the query results list.">Item</a> with a score.  <a href="classalbert_1_1RankItem.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1ResultItem.html">ResultItem</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1StandardItem.html">StandardItem</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">General purpose value type <a class="el" href="classalbert_1_1Item.html" title="Result items displayed in the query results list.">Item</a> implememtation.  <a href="classalbert_1_1StandardItem.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -190,64 +188,29 @@ Classes</h2></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convenience holder class for plugin soft dependencies.  <a href="classalbert_1_1WeakDependency.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
-Enumerations</h2></td></tr>
-<tr class="memitem:a2c9bc002c072a7be9c445ada4820ab4a" id="r_a2c9bc002c072a7be9c445ada4820ab4a"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacealbert.html#a2c9bc002c072a7be9c445ada4820ab4a">ItemRoles</a> { <br />
-&#160;&#160;<a class="el" href="namespacealbert.html#a2c9bc002c072a7be9c445ada4820ab4aa2db1189d71f70f05201a3aa5be17de0a">TextRole</a> = Qt::DisplayRole
-, <a class="el" href="namespacealbert.html#a2c9bc002c072a7be9c445ada4820ab4aa445e9f0d236e48d6f1aa68bc17cb5ee6">SubTextRole</a> = Qt::UserRole
-, <a class="el" href="namespacealbert.html#a2c9bc002c072a7be9c445ada4820ab4aa53c068784eb4804d94f89da8133fae9c">InputActionRole</a>
-, <a class="el" href="namespacealbert.html#a2c9bc002c072a7be9c445ada4820ab4aa4e0d375fcfc86629390e8716f0fc5286">IconUrlsRole</a>
-, <br />
-&#160;&#160;<a class="el" href="namespacealbert.html#a2c9bc002c072a7be9c445ada4820ab4aac6e16edcd9469556af3cbb23b1acd41d">ActionsListRole</a>
-<br />
- }</td></tr>
-<tr class="memdesc:a2c9bc002c072a7be9c445ada4820ab4a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convention on the item roles passed around.  <a href="namespacealbert.html#a2c9bc002c072a7be9c445ada4820ab4a">More...</a><br /></td></tr>
-<tr class="separator:a2c9bc002c072a7be9c445ada4820ab4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ab33e1e7fab94ddf6b1b7f4683577602c" id="r_ab33e1e7fab94ddf6b1b7f4683577602c"><td class="memItemLeft" align="right" valign="top">QPixmap&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacealbert.html#ab33e1e7fab94ddf6b1b7f4683577602c">pixmapFromUrl</a> (const QString &amp;url, const QSize &amp;requestedSize)</td></tr>
-<tr class="memdesc:ab33e1e7fab94ddf6b1b7f4683577602c"><td class="mdescLeft">&#160;</td><td class="mdescRight">URL based icon factory.  <br /></td></tr>
-<tr class="separator:ab33e1e7fab94ddf6b1b7f4683577602c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae7092daac20c0592ee94181a8aef3a78" id="r_ae7092daac20c0592ee94181a8aef3a78"><td class="memItemLeft" align="right" valign="top">QPixmap&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacealbert.html#ae7092daac20c0592ee94181a8aef3a78">pixmapFromUrls</a> (const QStringList &amp;urls, const QSize &amp;requestedSize)</td></tr>
-<tr class="memdesc:ae7092daac20c0592ee94181a8aef3a78"><td class="mdescLeft">&#160;</td><td class="mdescRight">URL list based icon factory.  <br /></td></tr>
-<tr class="separator:ae7092daac20c0592ee94181a8aef3a78"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6537c363a21351ad4d28f91b8b3caa98" id="r_a6537c363a21351ad4d28f91b8b3caa98"><td class="memItemLeft" align="right" valign="top">QIcon&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacealbert.html#a6537c363a21351ad4d28f91b8b3caa98">iconFromUrl</a> (const QString &amp;url)</td></tr>
-<tr class="memdesc:a6537c363a21351ad4d28f91b8b3caa98"><td class="mdescLeft">&#160;</td><td class="mdescRight">URL based icon factory.  <br /></td></tr>
-<tr class="separator:a6537c363a21351ad4d28f91b8b3caa98"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a522e69ea942094a01c577ffb88b4ce2d" id="r_a522e69ea942094a01c577ffb88b4ce2d"><td class="memItemLeft" align="right" valign="top">QIcon&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacealbert.html#a522e69ea942094a01c577ffb88b4ce2d">iconFromUrls</a> (const QStringList &amp;urls)</td></tr>
-<tr class="memdesc:a522e69ea942094a01c577ffb88b4ce2d"><td class="mdescLeft">&#160;</td><td class="mdescRight">URL list based icon factory.  <br /></td></tr>
-<tr class="separator:a522e69ea942094a01c577ffb88b4ce2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aba368381a4c42912d5b2847df8f8ee32" id="r_aba368381a4c42912d5b2847df8f8ee32"><td class="memItemLeft" align="right" valign="top">QPixmap&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacealbert.html#aba368381a4c42912d5b2847df8f8ee32">genericPixmap</a> (int size, const QColor &amp;bgcolor={}, const QColor &amp;fgcolor=Qt::black, const QString &amp;text={}, float scalar=1.)</td></tr>
-<tr class="memdesc:aba368381a4c42912d5b2847df8f8ee32"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generic pixmap factory.  <br /></td></tr>
-<tr class="separator:aba368381a4c42912d5b2847df8f8ee32"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a96919472e1f0bf15f9e5501a3780e76d" id="r_a96919472e1f0bf15f9e5501a3780e76d"><td class="memItemLeft" align="right" valign="top">QIcon&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacealbert.html#a96919472e1f0bf15f9e5501a3780e76d">genericIcon</a> (int size, const QColor &amp;bgcolor={}, const QColor &amp;fgcolor=Qt::black, const QString &amp;text={}, float scalar=1.)</td></tr>
-<tr class="memdesc:a96919472e1f0bf15f9e5501a3780e76d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generic icon factory.  <br /></td></tr>
-<tr class="separator:a96919472e1f0bf15f9e5501a3780e76d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7e8cbf8b9cb180d7b1817d102c63d981" id="r_a7e8cbf8b9cb180d7b1817d102c63d981"><td class="memItemLeft" align="right" valign="top">QIcon&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacealbert.html#a7e8cbf8b9cb180d7b1817d102c63d981">fileIcon</a> (const QString &amp;path)</td></tr>
-<tr class="memdesc:a7e8cbf8b9cb180d7b1817d102c63d981"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create an icon for a file using <a href="https://doc.qt.io/qt/qfileiconprovider.html">QFileIconProvider</a>.  <br /></td></tr>
-<tr class="separator:a7e8cbf8b9cb180d7b1817d102c63d981"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7c912d042d2e07024785b691c1121647" id="r_a7c912d042d2e07024785b691c1121647"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacealbert.html#a7c912d042d2e07024785b691c1121647">restart</a> ()</td></tr>
 <tr class="memdesc:a7c912d042d2e07024785b691c1121647"><td class="mdescLeft">&#160;</td><td class="mdescRight">Restart the application.  <br /></td></tr>
 <tr class="separator:a7c912d042d2e07024785b691c1121647"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab3146bc3f5c4199dcf3c67c2ce399dd9" id="r_ab3146bc3f5c4199dcf3c67c2ce399dd9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacealbert.html#ab3146bc3f5c4199dcf3c67c2ce399dd9">quit</a> ()</td></tr>
 <tr class="memdesc:ab3146bc3f5c4199dcf3c67c2ce399dd9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Quit the application.  <br /></td></tr>
 <tr class="separator:ab3146bc3f5c4199dcf3c67c2ce399dd9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a08ab9e8cfd61e6227d6606d24b6141b4" id="r_a08ab9e8cfd61e6227d6606d24b6141b4"><td class="memItemLeft" align="right" valign="top">QNetworkAccessManager *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacealbert.html#a08ab9e8cfd61e6227d6606d24b6141b4">network</a> ()</td></tr>
-<tr class="memdesc:a08ab9e8cfd61e6227d6606d24b6141b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">The global QNetworkAccessManager.  <br /></td></tr>
-<tr class="separator:a08ab9e8cfd61e6227d6606d24b6141b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a71d7e8bfc3b0e691e3e1e85a55b842e7" id="r_a71d7e8bfc3b0e691e3e1e85a55b842e7"><td class="memItemLeft" align="right" valign="top">QNetworkAccessManager &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacealbert.html#a71d7e8bfc3b0e691e3e1e85a55b842e7">network</a> ()</td></tr>
+<tr class="memdesc:a71d7e8bfc3b0e691e3e1e85a55b842e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">The threadlocal, global QNetworkAccessManager.  <br /></td></tr>
+<tr class="separator:a71d7e8bfc3b0e691e3e1e85a55b842e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa58d49c3ab5bd7282b0ee46a5e9db8fd" id="r_aa58d49c3ab5bd7282b0ee46a5e9db8fd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacealbert.html#aa58d49c3ab5bd7282b0ee46a5e9db8fd">showSettings</a> (QString plugin_id={})</td></tr>
 <tr class="memdesc:aa58d49c3ab5bd7282b0ee46a5e9db8fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Open/Show the settings window (of plugin).  <br /></td></tr>
 <tr class="separator:aa58d49c3ab5bd7282b0ee46a5e9db8fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a836de7f2ce4bc577be6b879187ba2c7c" id="r_a836de7f2ce4bc577be6b879187ba2c7c"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacealbert.html#a836de7f2ce4bc577be6b879187ba2c7c">configLocation</a> ()</td></tr>
-<tr class="memdesc:a836de7f2ce4bc577be6b879187ba2c7c"><td class="mdescLeft">&#160;</td><td class="mdescRight">The app config location.  <br /></td></tr>
-<tr class="separator:a836de7f2ce4bc577be6b879187ba2c7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a682f2d878f6f8cf7bb09f0cf0364489b" id="r_a682f2d878f6f8cf7bb09f0cf0364489b"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacealbert.html#a682f2d878f6f8cf7bb09f0cf0364489b">cacheLocation</a> ()</td></tr>
-<tr class="memdesc:a682f2d878f6f8cf7bb09f0cf0364489b"><td class="mdescLeft">&#160;</td><td class="mdescRight">The app cache location.  <br /></td></tr>
-<tr class="separator:a682f2d878f6f8cf7bb09f0cf0364489b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a22e8ee8b9ae24be045acd447756c5c1c" id="r_a22e8ee8b9ae24be045acd447756c5c1c"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacealbert.html#a22e8ee8b9ae24be045acd447756c5c1c">dataLocation</a> ()</td></tr>
-<tr class="memdesc:a22e8ee8b9ae24be045acd447756c5c1c"><td class="mdescLeft">&#160;</td><td class="mdescRight">The app data location.  <br /></td></tr>
-<tr class="separator:a22e8ee8b9ae24be045acd447756c5c1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9e4a5e745c6c8d4dc7dc0827caac1def" id="r_a9e4a5e745c6c8d4dc7dc0827caac1def"><td class="memItemLeft" align="right" valign="top">std::filesystem::path&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacealbert.html#a9e4a5e745c6c8d4dc7dc0827caac1def">configLocation</a> ()</td></tr>
+<tr class="memdesc:a9e4a5e745c6c8d4dc7dc0827caac1def"><td class="mdescLeft">&#160;</td><td class="mdescRight">The app config location.  <br /></td></tr>
+<tr class="separator:a9e4a5e745c6c8d4dc7dc0827caac1def"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9815442f0654991511ecd0f0d7d7e959" id="r_a9815442f0654991511ecd0f0d7d7e959"><td class="memItemLeft" align="right" valign="top">std::filesystem::path&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacealbert.html#a9815442f0654991511ecd0f0d7d7e959">cacheLocation</a> ()</td></tr>
+<tr class="memdesc:a9815442f0654991511ecd0f0d7d7e959"><td class="mdescLeft">&#160;</td><td class="mdescRight">The app cache location.  <br /></td></tr>
+<tr class="separator:a9815442f0654991511ecd0f0d7d7e959"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7f6fbbcaf1a50138c135a5831eeb5c6a" id="r_a7f6fbbcaf1a50138c135a5831eeb5c6a"><td class="memItemLeft" align="right" valign="top">std::filesystem::path&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacealbert.html#a7f6fbbcaf1a50138c135a5831eeb5c6a">dataLocation</a> ()</td></tr>
+<tr class="memdesc:a7f6fbbcaf1a50138c135a5831eeb5c6a"><td class="mdescLeft">&#160;</td><td class="mdescRight">The app data location.  <br /></td></tr>
+<tr class="separator:a7f6fbbcaf1a50138c135a5831eeb5c6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a09085231379cd9843cd3064606bc0766" id="r_a09085231379cd9843cd3064606bc0766"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; QSettings &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacealbert.html#a09085231379cd9843cd3064606bc0766">settings</a> ()</td></tr>
 <tr class="memdesc:a09085231379cd9843cd3064606bc0766"><td class="mdescLeft">&#160;</td><td class="mdescRight">Persistent app settings storage.  <br /></td></tr>
 <tr class="separator:a09085231379cd9843cd3064606bc0766"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -257,9 +220,6 @@ Functions</h2></td></tr>
 <tr class="memitem:af0b45312c9f17345d1842b20947c4431" id="r_af0b45312c9f17345d1842b20947c4431"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacealbert.html#af0b45312c9f17345d1842b20947c4431">openWebsite</a> ()</td></tr>
 <tr class="memdesc:af0b45312c9f17345d1842b20947c4431"><td class="mdescLeft">&#160;</td><td class="mdescRight">Open the albert website in default browser.  <br /></td></tr>
 <tr class="separator:af0b45312c9f17345d1842b20947c4431"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adc57b8ecd808d5bb582b322fc7399362" id="r_adc57b8ecd808d5bb582b322fc7399362"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacealbert.html#adc57b8ecd808d5bb582b322fc7399362">openUrl</a> (const QUrl &amp;url)</td></tr>
-<tr class="memdesc:adc57b8ecd808d5bb582b322fc7399362"><td class="mdescLeft">&#160;</td><td class="mdescRight">Open the specified url in default browser.  <br /></td></tr>
-<tr class="separator:adc57b8ecd808d5bb582b322fc7399362"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac4d2ecaadddf8dc533510cadbb4e951c" id="r_ac4d2ecaadddf8dc533510cadbb4e951c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacealbert.html#ac4d2ecaadddf8dc533510cadbb4e951c">openUrl</a> (const QString &amp;url)</td></tr>
 <tr class="memdesc:ac4d2ecaadddf8dc533510cadbb4e951c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Open the specified url in default browser.  <br /></td></tr>
 <tr class="separator:ac4d2ecaadddf8dc533510cadbb4e951c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -284,53 +244,45 @@ Functions</h2></td></tr>
 <tr class="memitem:ac25c5fcfeda5555c277a34a3cb9dcea1" id="r_ac25c5fcfeda5555c277a34a3cb9dcea1"><td class="memItemLeft" align="right" valign="top">long long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacealbert.html#ac25c5fcfeda5555c277a34a3cb9dcea1">runDetachedProcess</a> (const QStringList &amp;commandline, const QString &amp;working_dir={})</td></tr>
 <tr class="memdesc:ac25c5fcfeda5555c277a34a3cb9dcea1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Run a detached process.  <br /></td></tr>
 <tr class="separator:ac25c5fcfeda5555c277a34a3cb9dcea1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad686c346ceb5a0fa99659e5c3a627bb1" id="r_ad686c346ceb5a0fa99659e5c3a627bb1"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classalbert_1_1ExtensionRegistry.html">ExtensionRegistry</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacealbert.html#ad686c346ceb5a0fa99659e5c3a627bb1">extensionRegistry</a> ()</td></tr>
+<tr class="memdesc:ad686c346ceb5a0fa99659e5c3a627bb1"><td class="mdescLeft">&#160;</td><td class="mdescRight">The extension registry.  <br /></td></tr>
+<tr class="separator:ad686c346ceb5a0fa99659e5c3a627bb1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af0d32f3bc9359b5374b2e3ba1d171ceb" id="r_af0d32f3bc9359b5374b2e3ba1d171ceb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacealbert.html#af0d32f3bc9359b5374b2e3ba1d171ceb">tryCreateDirectory</a> (const std::filesystem::path &amp;path)</td></tr>
+<tr class="memdesc:af0d32f3bc9359b5374b2e3ba1d171ceb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a directory if it does not exist yet.  <br /></td></tr>
+<tr class="separator:af0d32f3bc9359b5374b2e3ba1d171ceb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab33e1e7fab94ddf6b1b7f4683577602c" id="r_ab33e1e7fab94ddf6b1b7f4683577602c"><td class="memItemLeft" align="right" valign="top">QPixmap&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacealbert.html#ab33e1e7fab94ddf6b1b7f4683577602c">pixmapFromUrl</a> (const QString &amp;url, const QSize &amp;requestedSize)</td></tr>
+<tr class="memdesc:ab33e1e7fab94ddf6b1b7f4683577602c"><td class="mdescLeft">&#160;</td><td class="mdescRight">URL based icon factory.  <br /></td></tr>
+<tr class="separator:ab33e1e7fab94ddf6b1b7f4683577602c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae7092daac20c0592ee94181a8aef3a78" id="r_ae7092daac20c0592ee94181a8aef3a78"><td class="memItemLeft" align="right" valign="top">QPixmap&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacealbert.html#ae7092daac20c0592ee94181a8aef3a78">pixmapFromUrls</a> (const QStringList &amp;urls, const QSize &amp;requestedSize)</td></tr>
+<tr class="memdesc:ae7092daac20c0592ee94181a8aef3a78"><td class="mdescLeft">&#160;</td><td class="mdescRight">URL list based icon factory.  <br /></td></tr>
+<tr class="separator:ae7092daac20c0592ee94181a8aef3a78"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6537c363a21351ad4d28f91b8b3caa98" id="r_a6537c363a21351ad4d28f91b8b3caa98"><td class="memItemLeft" align="right" valign="top">QIcon&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacealbert.html#a6537c363a21351ad4d28f91b8b3caa98">iconFromUrl</a> (const QString &amp;url)</td></tr>
+<tr class="memdesc:a6537c363a21351ad4d28f91b8b3caa98"><td class="mdescLeft">&#160;</td><td class="mdescRight">URL based icon factory.  <br /></td></tr>
+<tr class="separator:a6537c363a21351ad4d28f91b8b3caa98"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a522e69ea942094a01c577ffb88b4ce2d" id="r_a522e69ea942094a01c577ffb88b4ce2d"><td class="memItemLeft" align="right" valign="top">QIcon&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacealbert.html#a522e69ea942094a01c577ffb88b4ce2d">iconFromUrls</a> (const QStringList &amp;urls)</td></tr>
+<tr class="memdesc:a522e69ea942094a01c577ffb88b4ce2d"><td class="mdescLeft">&#160;</td><td class="mdescRight">URL list based icon factory.  <br /></td></tr>
+<tr class="separator:a522e69ea942094a01c577ffb88b4ce2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba368381a4c42912d5b2847df8f8ee32" id="r_aba368381a4c42912d5b2847df8f8ee32"><td class="memItemLeft" align="right" valign="top">QPixmap&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacealbert.html#aba368381a4c42912d5b2847df8f8ee32">genericPixmap</a> (int size, const QColor &amp;bgcolor={}, const QColor &amp;fgcolor=Qt::black, const QString &amp;text={}, float scalar=1.)</td></tr>
+<tr class="memdesc:aba368381a4c42912d5b2847df8f8ee32"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generic pixmap factory.  <br /></td></tr>
+<tr class="separator:aba368381a4c42912d5b2847df8f8ee32"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a96919472e1f0bf15f9e5501a3780e76d" id="r_a96919472e1f0bf15f9e5501a3780e76d"><td class="memItemLeft" align="right" valign="top">QIcon&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacealbert.html#a96919472e1f0bf15f9e5501a3780e76d">genericIcon</a> (int size, const QColor &amp;bgcolor={}, const QColor &amp;fgcolor=Qt::black, const QString &amp;text={}, float scalar=1.)</td></tr>
+<tr class="memdesc:a96919472e1f0bf15f9e5501a3780e76d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generic icon factory.  <br /></td></tr>
+<tr class="separator:a96919472e1f0bf15f9e5501a3780e76d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7e8cbf8b9cb180d7b1817d102c63d981" id="r_a7e8cbf8b9cb180d7b1817d102c63d981"><td class="memItemLeft" align="right" valign="top">QIcon&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacealbert.html#a7e8cbf8b9cb180d7b1817d102c63d981">fileIcon</a> (const QString &amp;path)</td></tr>
+<tr class="memdesc:a7e8cbf8b9cb180d7b1817d102c63d981"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create an icon for a file using <a href="https://doc.qt.io/qt/qfileiconprovider.html">QFileIconProvider</a>.  <br /></td></tr>
+<tr class="separator:a7e8cbf8b9cb180d7b1817d102c63d981"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2616468f8389c07e72362f7c89d73e7e" id="r_a2616468f8389c07e72362f7c89d73e7e"><td class="memItemLeft" align="right" valign="top">const QRegularExpression&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacealbert.html#a2616468f8389c07e72362f7c89d73e7e">default_separator_regex</a> (&quot;([\\s\\\\/\\-\\[\\](){}#!?&lt;&gt;\&quot;'=+*.:,;_]+)&quot;)</td></tr>
+<tr class="separator:a2616468f8389c07e72362f7c89d73e7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Enumeration Type Documentation</h2>
-<a id="a2c9bc002c072a7be9c445ada4820ab4a" name="a2c9bc002c072a7be9c445ada4820ab4a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2c9bc002c072a7be9c445ada4820ab4a">&#9670;&#160;</a></span>ItemRoles</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum class <a class="el" href="namespacealbert.html#a2c9bc002c072a7be9c445ada4820ab4a">albert::ItemRoles</a></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Convention on the item roles passed around. </p>
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a2c9bc002c072a7be9c445ada4820ab4aa2db1189d71f70f05201a3aa5be17de0a" name="a2c9bc002c072a7be9c445ada4820ab4aa2db1189d71f70f05201a3aa5be17de0a"></a>TextRole&#160;</td><td class="fielddoc"><p>QString, The text. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="a2c9bc002c072a7be9c445ada4820ab4aa445e9f0d236e48d6f1aa68bc17cb5ee6" name="a2c9bc002c072a7be9c445ada4820ab4aa445e9f0d236e48d6f1aa68bc17cb5ee6"></a>SubTextRole&#160;</td><td class="fielddoc"><p>QString, The subtext. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="a2c9bc002c072a7be9c445ada4820ab4aa53c068784eb4804d94f89da8133fae9c" name="a2c9bc002c072a7be9c445ada4820ab4aa53c068784eb4804d94f89da8133fae9c"></a>InputActionRole&#160;</td><td class="fielddoc"><p>QString, The tab action text. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="a2c9bc002c072a7be9c445ada4820ab4aa4e0d375fcfc86629390e8716f0fc5286" name="a2c9bc002c072a7be9c445ada4820ab4aa4e0d375fcfc86629390e8716f0fc5286"></a>IconUrlsRole&#160;</td><td class="fielddoc"><p>QStringList, Urls for icon lookup. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="a2c9bc002c072a7be9c445ada4820ab4aac6e16edcd9469556af3cbb23b1acd41d" name="a2c9bc002c072a7be9c445ada4820ab4aac6e16edcd9469556af3cbb23b1acd41d"></a>ActionsListRole&#160;</td><td class="fielddoc"><p>QStringList, List of action names. </p>
-</td></tr>
-</table>
-
-</div>
-</div>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="a682f2d878f6f8cf7bb09f0cf0364489b" name="a682f2d878f6f8cf7bb09f0cf0364489b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a682f2d878f6f8cf7bb09f0cf0364489b">&#9670;&#160;</a></span>cacheLocation()</h2>
+<a id="a9815442f0654991511ecd0f0d7d7e959" name="a9815442f0654991511ecd0f0d7d7e959"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9815442f0654991511ecd0f0d7d7e959">&#9670;&#160;</a></span>cacheLocation()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">QString albert::cacheLocation </td>
+          <td class="memname">std::filesystem::path albert::cacheLocation </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -343,14 +295,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a836de7f2ce4bc577be6b879187ba2c7c" name="a836de7f2ce4bc577be6b879187ba2c7c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a836de7f2ce4bc577be6b879187ba2c7c">&#9670;&#160;</a></span>configLocation()</h2>
+<a id="a9e4a5e745c6c8d4dc7dc0827caac1def" name="a9e4a5e745c6c8d4dc7dc0827caac1def"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9e4a5e745c6c8d4dc7dc0827caac1def">&#9670;&#160;</a></span>configLocation()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">QString albert::configLocation </td>
+          <td class="memname">std::filesystem::path albert::configLocation </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -363,14 +315,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a22e8ee8b9ae24be045acd447756c5c1c" name="a22e8ee8b9ae24be045acd447756c5c1c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a22e8ee8b9ae24be045acd447756c5c1c">&#9670;&#160;</a></span>dataLocation()</h2>
+<a id="a7f6fbbcaf1a50138c135a5831eeb5c6a" name="a7f6fbbcaf1a50138c135a5831eeb5c6a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7f6fbbcaf1a50138c135a5831eeb5c6a">&#9670;&#160;</a></span>dataLocation()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">QString albert::dataLocation </td>
+          <td class="memname">std::filesystem::path albert::dataLocation </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -380,6 +332,47 @@ Functions</h2></td></tr>
 
 <p>The app data location. </p>
 <p>The path to the directory where data files should be stored. </p><dl class="section return"><dt>Returns</dt><dd>The app data location. </dd></dl>
+
+</div>
+</div>
+<a id="a2616468f8389c07e72362f7c89d73e7e" name="a2616468f8389c07e72362f7c89d73e7e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2616468f8389c07e72362f7c89d73e7e">&#9670;&#160;</a></span>default_separator_regex()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const QRegularExpression albert::default_separator_regex </td>
+          <td>(</td>
+          <td class="paramtype">&quot;([\\s\\\\/\\-\\[\\](){}#!?&lt;&gt;\&quot;'=+*.:,;_]+)&quot;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad686c346ceb5a0fa99659e5c3a627bb1" name="ad686c346ceb5a0fa99659e5c3a627bb1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad686c346ceb5a0fa99659e5c3a627bb1">&#9670;&#160;</a></span>extensionRegistry()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="classalbert_1_1ExtensionRegistry.html">ExtensionRegistry</a> &amp; albert::extensionRegistry </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The extension registry. </p>
+<p>Utilze to look up extensions or watch for changes. Const because registering plugins via this registry is not allowed. Use <a class="el" href="classalbert_1_1PluginInstance.html#ae1c91829360d9e5d4d08033d7d155a85" title="The extensions provided by this plugin.">PluginInstance::extensions()</a>.</p>
+<p>See also <a class="el" href="classalbert_1_1WeakDependency.html" title="Convenience holder class for plugin soft dependencies.">WeakDependency</a> and <a class="el" href="classalbert_1_1StrongDependency.html" title="Convenience holder class for plugin hard dependencies.">StrongDependency</a>.</p>
+<dl class="section since"><dt>Since</dt><dd>0.27 </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>A const reference to the extension registry. </dd></dl>
 
 </div>
 </div>
@@ -604,14 +597,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a08ab9e8cfd61e6227d6606d24b6141b4" name="a08ab9e8cfd61e6227d6606d24b6141b4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a08ab9e8cfd61e6227d6606d24b6141b4">&#9670;&#160;</a></span>network()</h2>
+<a id="a71d7e8bfc3b0e691e3e1e85a55b842e7" name="a71d7e8bfc3b0e691e3e1e85a55b842e7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a71d7e8bfc3b0e691e3e1e85a55b842e7">&#9670;&#160;</a></span>network()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">QNetworkAccessManager * albert::network </td>
+          <td class="memname">QNetworkAccessManager &amp; albert::network </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -619,8 +612,9 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>The global QNetworkAccessManager. </p>
-<dl class="section return"><dt>Returns</dt><dd>The global QNetworkAccessManager. </dd></dl>
+<p>The threadlocal, global QNetworkAccessManager. </p>
+<dl class="section return"><dt>Returns</dt><dd>A reference to the QNetworkAccessManager object. </dd></dl>
+<dl class="section since"><dt>Since</dt><dd>0.27 </dd></dl>
 
 </div>
 </div>
@@ -707,7 +701,7 @@ Functions</h2></td></tr>
 </div>
 </div>
 <a id="ac4d2ecaadddf8dc533510cadbb4e951c" name="ac4d2ecaadddf8dc533510cadbb4e951c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac4d2ecaadddf8dc533510cadbb4e951c">&#9670;&#160;</a></span>openUrl() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ac4d2ecaadddf8dc533510cadbb4e951c">&#9670;&#160;</a></span>openUrl()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -716,32 +710,6 @@ Functions</h2></td></tr>
           <td class="memname">void albert::openUrl </td>
           <td>(</td>
           <td class="paramtype">const QString &amp;&#160;</td>
-          <td class="paramname"><em>url</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Open the specified url in default browser. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">url</td><td>The url to open </td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
-<a id="adc57b8ecd808d5bb582b322fc7399362" name="adc57b8ecd808d5bb582b322fc7399362"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adc57b8ecd808d5bb582b322fc7399362">&#9670;&#160;</a></span>openUrl() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void albert::openUrl </td>
-          <td>(</td>
-          <td class="paramtype">const QUrl &amp;&#160;</td>
           <td class="paramname"><em>url</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1066,6 +1034,41 @@ gen:?background=blue&amp;foreground=red&amp;text=Hi&amp;fontscalar=0.5
 
 <p>The persistent app state storage. </p>
 <dl class="section return"><dt>Returns</dt><dd>Preconfigured QSettings object for state storage. </dd></dl>
+
+</div>
+</div>
+<a id="af0d32f3bc9359b5374b2e3ba1d171ceb" name="af0d32f3bc9359b5374b2e3ba1d171ceb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af0d32f3bc9359b5374b2e3ba1d171ceb">&#9670;&#160;</a></span>tryCreateDirectory()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void albert::tryCreateDirectory </td>
+          <td>(</td>
+          <td class="paramtype">const std::filesystem::path &amp;&#160;</td>
+          <td class="paramname"><em>path</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Create a directory if it does not exist yet. </p>
+<p>This is a utility function for use with the *Location functions.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">path</td><td>The path to the directory to create. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The existing directory. </dd></dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">std::runtime_error</td><td>if the directory could not be created. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section since"><dt>Since</dt><dd>0.27 </dd></dl>
 
 </div>
 </div>

@@ -110,9 +110,18 @@ $(document).ready(function(){initNavTree('classalbert_1_1Query.html',''); initRe
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="signals" name="signals"></a>
 Signals</h2></td></tr>
-<tr class="memitem:abf7bfc65b2ecf0f4f24d3f082ece7224" id="r_abf7bfc65b2ecf0f4f24d3f082ece7224"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1Query.html#abf7bfc65b2ecf0f4f24d3f082ece7224">finished</a> ()</td></tr>
-<tr class="memdesc:abf7bfc65b2ecf0f4f24d3f082ece7224"><td class="mdescLeft">&#160;</td><td class="mdescRight">Emitted when the query finished processing.  <br /></td></tr>
-<tr class="separator:abf7bfc65b2ecf0f4f24d3f082ece7224"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac32312884c459e886da098ad941459bd" id="r_ac32312884c459e886da098ad941459bd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1Query.html#ac32312884c459e886da098ad941459bd">matchesAboutToBeAdded</a> (uint count)</td></tr>
+<tr class="memdesc:ac32312884c459e886da098ad941459bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Emitted before <code>count</code> matches are added to the matches.  <br /></td></tr>
+<tr class="separator:ac32312884c459e886da098ad941459bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a63a77c2c9d83014f0b077a816c04e9ee" id="r_a63a77c2c9d83014f0b077a816c04e9ee"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1Query.html#a63a77c2c9d83014f0b077a816c04e9ee">matchesAdded</a> ()</td></tr>
+<tr class="memdesc:a63a77c2c9d83014f0b077a816c04e9ee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Emitted after matches have been added to the matches.  <br /></td></tr>
+<tr class="separator:a63a77c2c9d83014f0b077a816c04e9ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aedcac1b526d23828765effde7d7103c8" id="r_aedcac1b526d23828765effde7d7103c8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1Query.html#aedcac1b526d23828765effde7d7103c8">invalidated</a> ()</td></tr>
+<tr class="memdesc:aedcac1b526d23828765effde7d7103c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Emitted when the query has been invalidated.  <br /></td></tr>
+<tr class="separator:aedcac1b526d23828765effde7d7103c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac81feac24915e901b9660f0760905cbb" id="r_ac81feac24915e901b9660f0760905cbb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1Query.html#ac81feac24915e901b9660f0760905cbb">activeChanged</a> (bool active)</td></tr>
+<tr class="memdesc:ac81feac24915e901b9660f0760905cbb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Emitted when query processing started or finished.  <br /></td></tr>
+<tr class="separator:ac81feac24915e901b9660f0760905cbb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -125,6 +134,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ae967c24f8c35a866235eecdc83b36fb6" id="r_ae967c24f8c35a866235eecdc83b36fb6"><td class="memItemLeft" align="right" valign="top">virtual Q_INVOKABLE QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1Query.html#ae967c24f8c35a866235eecdc83b36fb6">string</a> () const =0</td></tr>
 <tr class="memdesc:ae967c24f8c35a866235eecdc83b36fb6"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classalbert_1_1Query.html" title="Common query object.">Query</a> string <em>excluding</em> the trigger.  <br /></td></tr>
 <tr class="separator:ae967c24f8c35a866235eecdc83b36fb6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0c146187b2692ee17330d8a80a49e642" id="r_a0c146187b2692ee17330d8a80a49e642"><td class="memItemLeft" align="right" valign="top">virtual Q_INVOKABLE bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1Query.html#a0c146187b2692ee17330d8a80a49e642">isActive</a> () const =0</td></tr>
+<tr class="memdesc:a0c146187b2692ee17330d8a80a49e642"><td class="mdescLeft">&#160;</td><td class="mdescRight">True if the query is currently being processed.  <br /></td></tr>
+<tr class="separator:a0c146187b2692ee17330d8a80a49e642"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a74d697e5bdc98ed0abeac06be4e84897" id="r_a74d697e5bdc98ed0abeac06be4e84897"><td class="memItemLeft" align="right" valign="top">virtual Q_INVOKABLE bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1Query.html#a74d697e5bdc98ed0abeac06be4e84897">isFinished</a> () const =0</td></tr>
 <tr class="memdesc:a74d697e5bdc98ed0abeac06be4e84897"><td class="mdescLeft">&#160;</td><td class="mdescRight">True if the query thread stopped.  <br /></td></tr>
 <tr class="separator:a74d697e5bdc98ed0abeac06be4e84897"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -134,18 +146,18 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ab292530bd0031b69d0dc96e053ea2950" id="r_ab292530bd0031b69d0dc96e053ea2950"><td class="memItemLeft" align="right" valign="top">virtual Q_INVOKABLE bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1Query.html#ab292530bd0031b69d0dc96e053ea2950">isTriggered</a> () const =0</td></tr>
 <tr class="memdesc:ab292530bd0031b69d0dc96e053ea2950"><td class="mdescLeft">&#160;</td><td class="mdescRight">True if this query has a trigger.  <br /></td></tr>
 <tr class="separator:ab292530bd0031b69d0dc96e053ea2950"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a81bdb8ac1532341640af4aab33fd0008" id="r_a81bdb8ac1532341640af4aab33fd0008"><td class="memItemLeft" align="right" valign="top">virtual Q_INVOKABLE QAbstractListModel *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1Query.html#a81bdb8ac1532341640af4aab33fd0008">matches</a> ()=0</td></tr>
-<tr class="memdesc:a81bdb8ac1532341640af4aab33fd0008"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the matches.  <br /></td></tr>
-<tr class="separator:a81bdb8ac1532341640af4aab33fd0008"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a62762f8c9d77992e376d778d17b4b612" id="r_a62762f8c9d77992e376d778d17b4b612"><td class="memItemLeft" align="right" valign="top">virtual Q_INVOKABLE QAbstractListModel *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1Query.html#a62762f8c9d77992e376d778d17b4b612">fallbacks</a> ()=0</td></tr>
-<tr class="memdesc:a62762f8c9d77992e376d778d17b4b612"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the fallbacks.  <br /></td></tr>
-<tr class="separator:a62762f8c9d77992e376d778d17b4b612"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3c3e2d3e57bbd61df7717771bc2af735" id="r_a3c3e2d3e57bbd61df7717771bc2af735"><td class="memItemLeft" align="right" valign="top">virtual Q_INVOKABLE void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1Query.html#a3c3e2d3e57bbd61df7717771bc2af735">activateMatch</a> (uint item, uint action=0)=0</td></tr>
-<tr class="memdesc:a3c3e2d3e57bbd61df7717771bc2af735"><td class="mdescLeft">&#160;</td><td class="mdescRight">Executes match a match action.  <br /></td></tr>
-<tr class="separator:a3c3e2d3e57bbd61df7717771bc2af735"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac6ddb0ff1c822795a5e2412e1a659c8d" id="r_ac6ddb0ff1c822795a5e2412e1a659c8d"><td class="memItemLeft" align="right" valign="top">virtual Q_INVOKABLE void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1Query.html#ac6ddb0ff1c822795a5e2412e1a659c8d">activateFallback</a> (uint item, uint action=0)=0</td></tr>
-<tr class="memdesc:ac6ddb0ff1c822795a5e2412e1a659c8d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Executes match a fallback action.  <br /></td></tr>
-<tr class="separator:ac6ddb0ff1c822795a5e2412e1a659c8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a717e2dcde269cb53b82e4ec2ed94bce1" id="r_a717e2dcde269cb53b82e4ec2ed94bce1"><td class="memItemLeft" align="right" valign="top">virtual Q_INVOKABLE const std::vector&lt; <a class="el" href="classalbert_1_1ResultItem.html">ResultItem</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1Query.html#a717e2dcde269cb53b82e4ec2ed94bce1">matches</a> ()=0</td></tr>
+<tr class="memdesc:a717e2dcde269cb53b82e4ec2ed94bce1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the matches.  <br /></td></tr>
+<tr class="separator:a717e2dcde269cb53b82e4ec2ed94bce1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a06f037b0abf075722f418e6c25396728" id="r_a06f037b0abf075722f418e6c25396728"><td class="memItemLeft" align="right" valign="top">virtual Q_INVOKABLE const std::vector&lt; <a class="el" href="classalbert_1_1ResultItem.html">ResultItem</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1Query.html#a06f037b0abf075722f418e6c25396728">fallbacks</a> ()=0</td></tr>
+<tr class="memdesc:a06f037b0abf075722f418e6c25396728"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the fallbacks.  <br /></td></tr>
+<tr class="separator:a06f037b0abf075722f418e6c25396728"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab7377fc2b7f8f3c98a0290a26f98839f" id="r_ab7377fc2b7f8f3c98a0290a26f98839f"><td class="memItemLeft" align="right" valign="top">virtual Q_INVOKABLE bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1Query.html#ab7377fc2b7f8f3c98a0290a26f98839f">activateMatch</a> (uint item, uint action=0)=0</td></tr>
+<tr class="memdesc:ab7377fc2b7f8f3c98a0290a26f98839f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Executes match a match action.  <br /></td></tr>
+<tr class="separator:ab7377fc2b7f8f3c98a0290a26f98839f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a71856fb1ae38a8d7d8e540465ecb6300" id="r_a71856fb1ae38a8d7d8e540465ecb6300"><td class="memItemLeft" align="right" valign="top">virtual Q_INVOKABLE bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1Query.html#a71856fb1ae38a8d7d8e540465ecb6300">activateFallback</a> (uint item, uint action=0)=0</td></tr>
+<tr class="memdesc:a71856fb1ae38a8d7d8e540465ecb6300"><td class="mdescLeft">&#160;</td><td class="mdescRight">Executes match a fallback action.  <br /></td></tr>
+<tr class="separator:a71856fb1ae38a8d7d8e540465ecb6300"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acbe18ec059a5391ae104753b6318e80d" id="r_acbe18ec059a5391ae104753b6318e80d"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1Query.html#acbe18ec059a5391ae104753b6318e80d">add</a> (const std::shared_ptr&lt; <a class="el" href="classalbert_1_1Item.html">Item</a> &gt; &amp;item)=0</td></tr>
 <tr class="memdesc:acbe18ec059a5391ae104753b6318e80d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy add single item.  <br /></td></tr>
 <tr class="separator:acbe18ec059a5391ae104753b6318e80d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -194,8 +206,8 @@ Protected Member Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="ac6ddb0ff1c822795a5e2412e1a659c8d" name="ac6ddb0ff1c822795a5e2412e1a659c8d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac6ddb0ff1c822795a5e2412e1a659c8d">&#9670;&#160;</a></span>activateFallback()</h2>
+<a id="a71856fb1ae38a8d7d8e540465ecb6300" name="a71856fb1ae38a8d7d8e540465ecb6300"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a71856fb1ae38a8d7d8e540465ecb6300">&#9670;&#160;</a></span>activateFallback()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -204,7 +216,7 @@ Protected Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual Q_INVOKABLE void albert::Query::activateFallback </td>
+          <td class="memname">virtual Q_INVOKABLE bool albert::Query::activateFallback </td>
           <td>(</td>
           <td class="paramtype">uint&#160;</td>
           <td class="paramname"><em>item</em>, </td>
@@ -232,8 +244,8 @@ Protected Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a3c3e2d3e57bbd61df7717771bc2af735" name="a3c3e2d3e57bbd61df7717771bc2af735"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3c3e2d3e57bbd61df7717771bc2af735">&#9670;&#160;</a></span>activateMatch()</h2>
+<a id="ab7377fc2b7f8f3c98a0290a26f98839f" name="ab7377fc2b7f8f3c98a0290a26f98839f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab7377fc2b7f8f3c98a0290a26f98839f">&#9670;&#160;</a></span>activateMatch()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -242,7 +254,7 @@ Protected Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual Q_INVOKABLE void albert::Query::activateMatch </td>
+          <td class="memname">virtual Q_INVOKABLE bool albert::Query::activateMatch </td>
           <td>(</td>
           <td class="paramtype">uint&#160;</td>
           <td class="paramname"><em>item</em>, </td>
@@ -267,6 +279,34 @@ Protected Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Executes match a match action. </p>
+
+</div>
+</div>
+<a id="ac81feac24915e901b9660f0760905cbb" name="ac81feac24915e901b9660f0760905cbb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac81feac24915e901b9660f0760905cbb">&#9670;&#160;</a></span>activeChanged</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void albert::Query::activeChanged </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>active</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">signal</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Emitted when query processing started or finished. </p>
 
 </div>
 </div>
@@ -386,8 +426,8 @@ Protected Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a62762f8c9d77992e376d778d17b4b612" name="a62762f8c9d77992e376d778d17b4b612"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a62762f8c9d77992e376d778d17b4b612">&#9670;&#160;</a></span>fallbacks()</h2>
+<a id="a06f037b0abf075722f418e6c25396728" name="a06f037b0abf075722f418e6c25396728"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a06f037b0abf075722f418e6c25396728">&#9670;&#160;</a></span>fallbacks()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -396,7 +436,7 @@ Protected Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual Q_INVOKABLE QAbstractListModel * albert::Query::fallbacks </td>
+          <td class="memname">virtual Q_INVOKABLE const std::vector&lt; <a class="el" href="classalbert_1_1ResultItem.html">ResultItem</a> &gt; &amp; albert::Query::fallbacks </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -413,8 +453,8 @@ Protected Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="abf7bfc65b2ecf0f4f24d3f082ece7224" name="abf7bfc65b2ecf0f4f24d3f082ece7224"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abf7bfc65b2ecf0f4f24d3f082ece7224">&#9670;&#160;</a></span>finished</h2>
+<a id="aedcac1b526d23828765effde7d7103c8" name="aedcac1b526d23828765effde7d7103c8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aedcac1b526d23828765effde7d7103c8">&#9670;&#160;</a></span>invalidated</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -423,7 +463,7 @@ Protected Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void albert::Query::finished </td>
+          <td class="memname">void albert::Query::invalidated </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -436,7 +476,34 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Emitted when the query finished processing. </p>
+<p>Emitted when the query has been invalidated. </p>
+
+</div>
+</div>
+<a id="a0c146187b2692ee17330d8a80a49e642" name="a0c146187b2692ee17330d8a80a49e642"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0c146187b2692ee17330d8a80a49e642">&#9670;&#160;</a></span>isActive()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual Q_INVOKABLE bool albert::Query::isActive </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>True if the query is currently being processed. </p>
 
 </div>
 </div>
@@ -521,8 +588,8 @@ Protected Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a81bdb8ac1532341640af4aab33fd0008" name="a81bdb8ac1532341640af4aab33fd0008"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a81bdb8ac1532341640af4aab33fd0008">&#9670;&#160;</a></span>matches()</h2>
+<a id="a717e2dcde269cb53b82e4ec2ed94bce1" name="a717e2dcde269cb53b82e4ec2ed94bce1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a717e2dcde269cb53b82e4ec2ed94bce1">&#9670;&#160;</a></span>matches()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -531,7 +598,7 @@ Protected Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual Q_INVOKABLE QAbstractListModel * albert::Query::matches </td>
+          <td class="memname">virtual Q_INVOKABLE const std::vector&lt; <a class="el" href="classalbert_1_1ResultItem.html">ResultItem</a> &gt; &amp; albert::Query::matches </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -545,6 +612,61 @@ Protected Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Returns the matches. </p>
+
+</div>
+</div>
+<a id="ac32312884c459e886da098ad941459bd" name="ac32312884c459e886da098ad941459bd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac32312884c459e886da098ad941459bd">&#9670;&#160;</a></span>matchesAboutToBeAdded</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void albert::Query::matchesAboutToBeAdded </td>
+          <td>(</td>
+          <td class="paramtype">uint&#160;</td>
+          <td class="paramname"><em>count</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">signal</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Emitted before <code>count</code> matches are added to the matches. </p>
+
+</div>
+</div>
+<a id="a63a77c2c9d83014f0b077a816c04e9ee" name="a63a77c2c9d83014f0b077a816c04e9ee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a63a77c2c9d83014f0b077a816c04e9ee">&#9670;&#160;</a></span>matchesAdded</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void albert::Query::matchesAdded </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">signal</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Emitted after matches have been added to the matches. </p>
 
 </div>
 </div>
