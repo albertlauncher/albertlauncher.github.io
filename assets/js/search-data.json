@@ -225,7 +225,7 @@
   },"32": {
     "doc": "Python",
     "title": "Writing Python plugins",
-    "content": "A minimal working example of a Python plugin according to the interface specification looks like this: . import albert md_iid = '3.0' md_version = '1.0' md_name = 'Fancy Plugin' md_description = 'Do fancy things' class Plugin(albert.PluginInstance): pass . Due to the different type systems, multiple inheritance of extension interfaces is not supported. However, multiple extensions can be added using albert.PluginInstance.(de)registerExtension. ",
+    "content": "A minimal working example of a Python plugin according to the interface specification looks like this: . import albert md_iid = '3.0' md_version = '1.0' md_name = 'Fancy Plugin' md_description = 'Do fancy things' class Plugin(albert.PluginInstance): pass . Due to the different type systems, multiple inheritance of extension interfaces is not supported. However, multiple extensions can be added by reimplementing albert.PluginInstance.extensions() . ",
     "url": "/gettingstarted/extension/python/#writing-python-plugins",
     
     "relUrl": "/gettingstarted/extension/python/#writing-python-plugins"
