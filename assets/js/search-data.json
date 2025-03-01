@@ -197,7 +197,7 @@
   },"28": {
     "doc": "macOS",
     "title": "macOS",
-    "content": "The macOS version is experimental 🚧 . Albert is available via homebrew tap. The package is built and hosted on GitHub. The homebrew tap provides a cask for Albert. To install Albert via homebrew run the following commands: . brew tap albertlauncher/albert brew update brew install albert . brew update and brew upgrade will keep the app up to date. Note that the packaged app is not signed. Read the caveats section of brew install. For convenience the cask creates an ad-hoc signature and disables Gatekeeper for the app. See the postflight section of the cask. ",
+    "content": "Albert is available via homebrew tap. The package is built and hosted on GitHub. The homebrew tap provides a cask for Albert. To install Albert via homebrew run the following commands: . brew tap albertlauncher/albert brew update brew install albert . brew update and brew upgrade will keep the app up to date. Note that the packaged app is not signed. Read the caveats section of brew install. For convenience the cask creates an ad-hoc signature and disables Gatekeeper for the app. See the postflight section of the cask. ",
     "url": "/gettingstarted/install/macos/",
     
     "relUrl": "/gettingstarted/install/macos/"
