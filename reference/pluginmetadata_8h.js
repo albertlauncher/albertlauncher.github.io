@@ -1,4 +1,4 @@
 var pluginmetadata_8h =
 [
-    [ "albert::PluginMetaData", "classalbert_1_1_plugin_meta_data.html", "classalbert_1_1_plugin_meta_data" ]
+    [ "albert::PluginMetaData", "classalbert_1_1PluginMetaData.html", "classalbert_1_1PluginMetaData" ]
 ];

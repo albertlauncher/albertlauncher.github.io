@@ -11,7 +11,7 @@
 <!-- Node0 -->
 <g id="Node000000" class="node">
 <title>Node0</title>
-<g id="a_Node000000"><a xlink:href="classalbert_1_1_extension.html" target="_top" xlink:title="Abstract extension class.">
+<g id="a_Node000000"><a xlink:href="classalbert_1_1Extension.html" target="_top" xlink:title="Abstract extension class.">
 <polygon fill="white" stroke="#666666" points="97.75,-93.25 11.25,-93.25 11.25,-74 97.75,-74 97.75,-93.25"/>
 <text text-anchor="middle" x="54.5" y="-79.75" font-family="Helvetica,sans-Serif" font-size="10.00">albert::Extension</text>
 </a>
@@ -20,7 +20,7 @@
 <!-- Node1 -->
 <g id="Node000001" class="node">
 <title>Node1</title>
-<g id="a_Node000001"><a xlink:href="classalbert_1_1_extension_plugin.html" target="_top" xlink:title="Convenience base class for extension plugins.">
+<g id="a_Node000001"><a xlink:href="classalbert_1_1ExtensionPlugin.html" target="_top" xlink:title="Convenience base class for extension plugins.">
 <polygon fill="white" stroke="#666666" points="268.62,-167.25 155.12,-167.25 155.12,-148 268.62,-148 268.62,-167.25"/>
 <text text-anchor="middle" x="211.88" y="-153.75" font-family="Helvetica,sans-Serif" font-size="10.00">albert::ExtensionPlugin</text>
 </a>
@@ -38,7 +38,7 @@
 <!-- Node9 -->
 <g id="Node000009" class="node">
 <title>Node9</title>
-<g id="a_Node000009"><a xlink:href="classalbert_1_1_fallback_handler.html" target="_top" xlink:title="Abstract fallback provider.">
+<g id="a_Node000009"><a xlink:href="classalbert_1_1FallbackHandler.html" target="_top" xlink:title="Abstract fallback provider.">
 <polygon fill="white" stroke="#666666" points="269.38,-56.25 154.38,-56.25 154.38,-37 269.38,-37 269.38,-56.25"/>
 <text text-anchor="middle" x="211.88" y="-42.75" font-family="Helvetica,sans-Serif" font-size="10.00">albert::FallbackHandler</text>
 </a>
@@ -56,7 +56,7 @@
 <!-- Node10 -->
 <g id="Node000010" class="node">
 <title>Node10</title>
-<g id="a_Node000010"><a xlink:href="classalbert_1_1_plugin_provider.html" target="_top" xlink:title="Plugin provider interface class.">
+<g id="a_Node000010"><a xlink:href="classalbert_1_1PluginProvider.html" target="_top" xlink:title="Plugin provider interface class.">
 <polygon fill="white" stroke="#666666" points="265.62,-19.25 158.12,-19.25 158.12,0 265.62,0 265.62,-19.25"/>
 <text text-anchor="middle" x="211.88" y="-5.75" font-family="Helvetica,sans-Serif" font-size="10.00">albert::PluginProvider</text>
 </a>
@@ -74,7 +74,7 @@
 <!-- Node11 -->
 <g id="Node000011" class="node">
 <title>Node11</title>
-<g id="a_Node000011"><a xlink:href="classalbert_1_1_telemetry_provider.html" target="_top" xlink:title=" ">
+<g id="a_Node000011"><a xlink:href="classalbert_1_1TelemetryProvider.html" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="#666666" points="273.5,-130.25 150.25,-130.25 150.25,-111 273.5,-111 273.5,-130.25"/>
 <text text-anchor="middle" x="211.88" y="-116.75" font-family="Helvetica,sans-Serif" font-size="10.00">albert::TelemetryProvider</text>
 </a>
@@ -92,7 +92,7 @@
 <!-- Node12 -->
 <g id="Node000012" class="node">
 <title>Node12</title>
-<g id="a_Node000012"><a xlink:href="classalbert_1_1_trigger_query_handler.html" target="_top" xlink:title="Abstract trigger query handler.">
+<g id="a_Node000012"><a xlink:href="classalbert_1_1TriggerQueryHandler.html" target="_top" xlink:title="Abstract trigger query handler.">
 <polygon fill="white" stroke="#666666" points="278.75,-93.25 145,-93.25 145,-74 278.75,-74 278.75,-93.25"/>
 <text text-anchor="middle" x="211.88" y="-79.75" font-family="Helvetica,sans-Serif" font-size="10.00">albert::TriggerQueryHandler</text>
 </a>
@@ -110,7 +110,7 @@
 <!-- Node13 -->
 <g id="Node000013" class="node">
 <title>Node13</title>
-<g id="a_Node000013"><a xlink:href="classalbert_1_1_global_query_handler.html" target="_top" xlink:title="Abstract global query handler.">
+<g id="a_Node000013"><a xlink:href="classalbert_1_1GlobalQueryHandler.html" target="_top" xlink:title="Abstract global query handler.">
 <polygon fill="white" stroke="#666666" points="446.25,-93.25 314.75,-93.25 314.75,-74 446.25,-74 446.25,-93.25"/>
 <text text-anchor="middle" x="380.5" y="-79.75" font-family="Helvetica,sans-Serif" font-size="10.00">albert::GlobalQueryHandler</text>
 </a>
@@ -128,7 +128,7 @@
 <!-- Node14 -->
 <g id="Node000014" class="node">
 <title>Node14</title>
-<g id="a_Node000014"><a xlink:href="classalbert_1_1_index_query_handler.html" target="_top" xlink:title="Index query handler class.">
+<g id="a_Node000014"><a xlink:href="classalbert_1_1IndexQueryHandler.html" target="_top" xlink:title="Index query handler class.">
 <polygon fill="white" stroke="#666666" points="609.25,-93.25 482.25,-93.25 482.25,-74 609.25,-74 609.25,-93.25"/>
 <text text-anchor="middle" x="545.75" y="-79.75" font-family="Helvetica,sans-Serif" font-size="10.00">albert::IndexQueryHandler</text>
 </a>
@@ -146,7 +146,7 @@
 <!-- Node2 -->
 <g id="Node000002" class="node">
 <title>Node2</title>
-<g id="a_Node000002"><a xlink:href="classalbert_1_1_plugin_instance.html" target="_top" xlink:title="Abstract plugin instance class.">
+<g id="a_Node000002"><a xlink:href="classalbert_1_1PluginInstance.html" target="_top" xlink:title="Abstract plugin instance class.">
 <polygon fill="white" stroke="#666666" points="109,-167.25 0,-167.25 0,-148 109,-148 109,-167.25"/>
 <text text-anchor="middle" x="54.5" y="-153.75" font-family="Helvetica,sans-Serif" font-size="10.00">albert::PluginInstance</text>
 </a>
@@ -182,7 +182,7 @@
 <!-- Node4 -->
 <g id="Node000004" class="node">
 <title>Node4</title>
-<g id="a_Node000004"><a xlink:href="classalbert_1_1_extension_registry.html" target="_top" xlink:title="The common extension pool.">
+<g id="a_Node000004"><a xlink:href="classalbert_1_1ExtensionRegistry.html" target="_top" xlink:title="The common extension pool.">
 <polygon fill="white" stroke="#666666" points="272.75,-204.25 151,-204.25 151,-185 272.75,-185 272.75,-204.25"/>
 <text text-anchor="middle" x="211.88" y="-190.75" font-family="Helvetica,sans-Serif" font-size="10.00">albert::ExtensionRegistry</text>
 </a>
@@ -200,7 +200,7 @@
 <!-- Node5 -->
 <g id="Node000005" class="node">
 <title>Node5</title>
-<g id="a_Node000005"><a xlink:href="classalbert_1_1_frontend.html" target="_top" xlink:title="The interface for albert frontends.">
+<g id="a_Node000005"><a xlink:href="classalbert_1_1Frontend.html" target="_top" xlink:title="The interface for albert frontends.">
 <polygon fill="white" stroke="#666666" points="253.25,-352.25 170.5,-352.25 170.5,-333 253.25,-333 253.25,-352.25"/>
 <text text-anchor="middle" x="211.88" y="-338.75" font-family="Helvetica,sans-Serif" font-size="10.00">albert::Frontend</text>
 </a>
@@ -218,7 +218,7 @@
 <!-- Node6 -->
 <g id="Node000006" class="node">
 <title>Node6</title>
-<g id="a_Node000006"><a xlink:href="classalbert_1_1_input_history.html" target="_top" xlink:title="Input history class.">
+<g id="a_Node000006"><a xlink:href="classalbert_1_1InputHistory.html" target="_top" xlink:title="Input history class.">
 <polygon fill="white" stroke="#666666" points="260.38,-315.25 163.38,-315.25 163.38,-296 260.38,-296 260.38,-315.25"/>
 <text text-anchor="middle" x="211.88" y="-301.75" font-family="Helvetica,sans-Serif" font-size="10.00">albert::InputHistory</text>
 </a>
@@ -236,7 +236,7 @@
 <!-- Node7 -->
 <g id="Node000007" class="node">
 <title>Node7</title>
-<g id="a_Node000007"><a xlink:href="classalbert_1_1_notification.html" target="_top" xlink:title="The notification class.">
+<g id="a_Node000007"><a xlink:href="classalbert_1_1Notification.html" target="_top" xlink:title="The notification class.">
 <polygon fill="white" stroke="#666666" points="258.5,-278.25 165.25,-278.25 165.25,-259 258.5,-259 258.5,-278.25"/>
 <text text-anchor="middle" x="211.88" y="-264.75" font-family="Helvetica,sans-Serif" font-size="10.00">albert::Notification</text>
 </a>
@@ -254,7 +254,7 @@
 <!-- Node8 -->
 <g id="Node000008" class="node">
 <title>Node8</title>
-<g id="a_Node000008"><a xlink:href="classalbert_1_1_query.html" target="_top" xlink:title="Common query object.">
+<g id="a_Node000008"><a xlink:href="classalbert_1_1Query.html" target="_top" xlink:title="Common query object.">
 <polygon fill="white" stroke="#666666" points="246.88,-241.25 176.88,-241.25 176.88,-222 246.88,-222 246.88,-241.25"/>
 <text text-anchor="middle" x="211.88" y="-227.75" font-family="Helvetica,sans-Serif" font-size="10.00">albert::Query</text>
 </a>

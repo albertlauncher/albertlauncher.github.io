@@ -11,7 +11,7 @@
 <!-- Node0 -->
 <g id="Node000000" class="node">
 <title>Node0</title>
-<g id="a_Node000000"><a xlink:href="classalbert_1_1_dependency.html" target="_top" xlink:title="Base class for StrongDependency and WeakDependency.">
+<g id="a_Node000000"><a xlink:href="classalbert_1_1Dependency.html" target="_top" xlink:title="Base class for StrongDependency and WeakDependency.">
 <polygon fill="white" stroke="#666666" points="120.25,-37.25 0,-37.25 0,-18 120.25,-18 120.25,-37.25"/>
 <text text-anchor="middle" x="60.12" y="-23.75" font-family="Helvetica,sans-Serif" font-size="10.00">albert::Dependency&lt; T &gt;</text>
 </a>
@@ -20,7 +20,7 @@
 <!-- Node1 -->
 <g id="Node000001" class="node">
 <title>Node1</title>
-<g id="a_Node000001"><a xlink:href="classalbert_1_1_strong_dependency.html" target="_top" xlink:title="Convenience holder class for plugin hard dependencies.">
+<g id="a_Node000001"><a xlink:href="classalbert_1_1StrongDependency.html" target="_top" xlink:title="Convenience holder class for plugin hard dependencies.">
 <polygon fill="white" stroke="#666666" points="305,-56.25 156.25,-56.25 156.25,-37 305,-37 305,-56.25"/>
 <text text-anchor="middle" x="230.62" y="-42.75" font-family="Helvetica,sans-Serif" font-size="10.00">albert::StrongDependency&lt; T &gt;</text>
 </a>
@@ -38,7 +38,7 @@
 <!-- Node2 -->
 <g id="Node000002" class="node">
 <title>Node2</title>
-<g id="a_Node000002"><a xlink:href="classalbert_1_1_weak_dependency.html" target="_top" xlink:title="Convenience holder class for plugin soft dependencies.">
+<g id="a_Node000002"><a xlink:href="classalbert_1_1WeakDependency.html" target="_top" xlink:title="Convenience holder class for plugin soft dependencies.">
 <polygon fill="white" stroke="#666666" points="303.12,-19.25 158.12,-19.25 158.12,0 303.12,0 303.12,-19.25"/>
 <text text-anchor="middle" x="230.62" y="-5.75" font-family="Helvetica,sans-Serif" font-size="10.00">albert::WeakDependency&lt; T &gt;</text>
 </a>

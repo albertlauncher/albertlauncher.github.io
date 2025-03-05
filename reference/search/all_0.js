@@ -1,15 +1,15 @@
 var searchData=
 [
-  ['action_0',['action',['../classalbert_1_1_action.html',1,'albert::Action'],['../classalbert_1_1_action.html#a2d506e83fd6719f6d7aa9051c5520d70',1,'albert::Action::Action()']]],
+  ['action_0',['action',['../classalbert_1_1Action.html',1,'albert::Action'],['../classalbert_1_1Action.html#a2d506e83fd6719f6d7aa9051c5520d70',1,'albert::Action::Action()']]],
   ['action_2eh_1',['action.h',['../action_8h.html',1,'']]],
-  ['actions_2',['actions',['../classalbert_1_1_item.html#ad8423cbb1d705f5f3837478c120fc2c0',1,'albert::Item::actions()'],['../classalbert_1_1_standard_item.html#a397e19018275ddd82cdfa5c1f07bc459',1,'albert::StandardItem::actions() const override']]],
-  ['actions_5f_3',['actions_',['../classalbert_1_1_standard_item.html#ac6f077b942850287a4ebfc2f704808da',1,'albert::StandardItem']]],
-  ['activated_4',['activated',['../classalbert_1_1_notification.html#a3d27e241e29e076d715a4bf8deb20396',1,'albert::Notification']]],
-  ['activatefallback_5',['activateFallback',['../classalbert_1_1_query.html#a71856fb1ae38a8d7d8e540465ecb6300',1,'albert::Query']]],
-  ['activatematch_6',['activateMatch',['../classalbert_1_1_query.html#ab7377fc2b7f8f3c98a0290a26f98839f',1,'albert::Query']]],
-  ['activechanged_7',['activeChanged',['../classalbert_1_1_query.html#ac81feac24915e901b9660f0760905cbb',1,'albert::Query']]],
-  ['add_8',['add',['../classalbert_1_1_input_history.html#a52beb209e78d2f8abb9c1337575b9a72',1,'albert::InputHistory::add()'],['../classalbert_1_1_query.html#acbe18ec059a5391ae104753b6318e80d',1,'albert::Query::add(const std::shared_ptr&lt; Item &gt; &amp;item)=0'],['../classalbert_1_1_query.html#a53de5d09e79c36004d3cbd3e4e114da9',1,'albert::Query::add(std::shared_ptr&lt; Item &gt; &amp;&amp;item)=0'],['../classalbert_1_1_query.html#a6aaba4eda4b07b68b069358ee1d3905b',1,'albert::Query::add(const std::vector&lt; std::shared_ptr&lt; Item &gt; &gt; &amp;items)=0'],['../classalbert_1_1_query.html#a3be4724c664cf3c2d9e8093b0fb9960b',1,'albert::Query::add(std::vector&lt; std::shared_ptr&lt; Item &gt; &gt; &amp;&amp;items)=0']]],
-  ['added_9',['added',['../classalbert_1_1_extension_registry.html#a845f61794954dc73bb9b2722f459c1d4',1,'albert::ExtensionRegistry']]],
+  ['actions_2',['actions',['../classalbert_1_1Item.html#ad8423cbb1d705f5f3837478c120fc2c0',1,'albert::Item::actions()'],['../classalbert_1_1StandardItem.html#a397e19018275ddd82cdfa5c1f07bc459',1,'albert::StandardItem::actions() const override']]],
+  ['actions_5f_3',['actions_',['../classalbert_1_1StandardItem.html#ac6f077b942850287a4ebfc2f704808da',1,'albert::StandardItem']]],
+  ['activated_4',['activated',['../classalbert_1_1Notification.html#a3d27e241e29e076d715a4bf8deb20396',1,'albert::Notification']]],
+  ['activatefallback_5',['activateFallback',['../classalbert_1_1Query.html#a71856fb1ae38a8d7d8e540465ecb6300',1,'albert::Query']]],
+  ['activatematch_6',['activateMatch',['../classalbert_1_1Query.html#ab7377fc2b7f8f3c98a0290a26f98839f',1,'albert::Query']]],
+  ['activechanged_7',['activeChanged',['../classalbert_1_1Query.html#ac81feac24915e901b9660f0760905cbb',1,'albert::Query']]],
+  ['add_8',['add',['../classalbert_1_1InputHistory.html#a52beb209e78d2f8abb9c1337575b9a72',1,'albert::InputHistory::add()'],['../classalbert_1_1Query.html#acbe18ec059a5391ae104753b6318e80d',1,'albert::Query::add(const std::shared_ptr&lt; Item &gt; &amp;item)=0'],['../classalbert_1_1Query.html#a53de5d09e79c36004d3cbd3e4e114da9',1,'albert::Query::add(std::shared_ptr&lt; Item &gt; &amp;&amp;item)=0'],['../classalbert_1_1Query.html#a6aaba4eda4b07b68b069358ee1d3905b',1,'albert::Query::add(const std::vector&lt; std::shared_ptr&lt; Item &gt; &gt; &amp;items)=0'],['../classalbert_1_1Query.html#a3be4724c664cf3c2d9e8093b0fb9960b',1,'albert::Query::add(std::vector&lt; std::shared_ptr&lt; Item &gt; &gt; &amp;&amp;items)=0']]],
+  ['added_9',['added',['../classalbert_1_1ExtensionRegistry.html#a845f61794954dc73bb9b2722f459c1d4',1,'albert::ExtensionRegistry']]],
   ['albert_10',['albert',['../namespacealbert.html',1,'']]],
   ['albert_2eh_11',['albert.h',['../albert_8h.html',1,'']]],
   ['albert_5flogging_5fcategory_12',['ALBERT_LOGGING_CATEGORY',['../logging_8h.html#addad4c9bbb31f10c906b4c150304ac71',1,'logging.h']]],
@@ -24,7 +24,7 @@ var searchData=
   ['albert_5fproperty_5fconnect_5fspinbox_21',['ALBERT_PROPERTY_CONNECT_SPINBOX',['../property_8h.html#a18301fedc5894bbb2b294c46edbe6f1f',1,'property.h']]],
   ['albert_5fproperty_5fgetset_22',['ALBERT_PROPERTY_GETSET',['../property_8h.html#a676ef7567c3e50c1d23798d6ab140a61',1,'property.h']]],
   ['albert_5fproperty_5fmember_23',['ALBERT_PROPERTY_MEMBER',['../property_8h.html#a3e3e2661f264e96ea7c515fe8800e1f7',1,'property.h']]],
-  ['allowtriggerremap_24',['allowTriggerRemap',['../classalbert_1_1_trigger_query_handler.html#a565b2220701d672e00c54b71f4e9cb94',1,'albert::TriggerQueryHandler']]],
-  ['applyusagescore_25',['applyUsageScore',['../classalbert_1_1_global_query_handler.html#a656d92e3b99137024993f7721e02e676',1,'albert::GlobalQueryHandler']]],
-  ['authors_26',['authors',['../classalbert_1_1_plugin_meta_data.html#abf2c32f8c629f57dd5850f967c29d458',1,'albert::PluginMetaData']]]
+  ['allowtriggerremap_24',['allowTriggerRemap',['../classalbert_1_1TriggerQueryHandler.html#a565b2220701d672e00c54b71f4e9cb94',1,'albert::TriggerQueryHandler']]],
+  ['applyusagescore_25',['applyUsageScore',['../classalbert_1_1GlobalQueryHandler.html#a656d92e3b99137024993f7721e02e676',1,'albert::GlobalQueryHandler']]],
+  ['authors_26',['authors',['../classalbert_1_1PluginMetaData.html#abf2c32f8c629f57dd5850f967c29d458',1,'albert::PluginMetaData']]]
 ];

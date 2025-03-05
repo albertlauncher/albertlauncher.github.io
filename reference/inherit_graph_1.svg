@@ -11,7 +11,7 @@
 <!-- Node0 -->
 <g id="Node000000" class="node">
 <title>Node0</title>
-<g id="a_Node000000"><a xlink:href="classalbert_1_1_background_executor.html" target="_top" xlink:title="Provides a lean interface for recurring indexing tasks.">
+<g id="a_Node000000"><a xlink:href="classalbert_1_1BackgroundExecutor.html" target="_top" xlink:title="Provides a lean interface for recurring indexing tasks.">
 <polygon fill="white" stroke="#666666" points="156.25,-19.25 0,-19.25 0,0 156.25,0 156.25,-19.25"/>
 <text text-anchor="middle" x="78.12" y="-5.75" font-family="Helvetica,sans-Serif" font-size="10.00">albert::BackgroundExecutor&lt; T &gt;</text>
 </a>

@@ -1,5 +1,5 @@
 var query_8h =
 [
-    [ "albert::ResultItem", "classalbert_1_1_result_item.html", "classalbert_1_1_result_item" ],
-    [ "albert::Query", "classalbert_1_1_query.html", "classalbert_1_1_query" ]
+    [ "albert::ResultItem", "classalbert_1_1ResultItem.html", "classalbert_1_1ResultItem" ],
+    [ "albert::Query", "classalbert_1_1Query.html", "classalbert_1_1Query" ]
 ];
