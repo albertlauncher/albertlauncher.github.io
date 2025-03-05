@@ -107,14 +107,9 @@ Inheritance diagram for albert::IndexQueryHandler:</div>
 <div class="dyncontent">
 <div class="center"><iframe scrolling="no" frameborder="0" src="classalbert_1_1IndexQueryHandler__inherit__graph.svg" width="190" height="258"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
-<div class="dynheader">
-Collaboration diagram for albert::IndexQueryHandler:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classalbert_1_1IndexQueryHandler__coll__graph.svg" width="190" height="258"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Index query handler class. </p>
-<p>A <a class="el" href="classalbert_1_1GlobalQueryHandler.html" title="Abstract global query handler.">GlobalQueryHandler</a> providing implicit indexing and matching. You just have to provide your items with lookup strings. </p>
+<p>A GlobalQueryHandler providing implicit indexing and matching. You just have to provide your items with lookup strings. </p>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -127,7 +122,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a8b8017d998ad997a46be3aaedb6a0ae5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the fuzzy mode of the internal index.  <br /></td></tr>
 <tr class="separator:a8b8017d998ad997a46be3aaedb6a0ae5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2817bc1743699460fa9227a80b21bbf8" id="r_a2817bc1743699460fa9227a80b21bbf8"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classalbert_1_1RankItem.html">RankItem</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1IndexQueryHandler.html#a2817bc1743699460fa9227a80b21bbf8">handleGlobalQuery</a> (const <a class="el" href="classalbert_1_1Query.html">Query</a> &amp;) override</td></tr>
-<tr class="memdesc:a2817bc1743699460fa9227a80b21bbf8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Uses the index to override <a class="el" href="classalbert_1_1GlobalQueryHandler.html#a1b1236c8c33187205963fc8e00bc25e2" title="The query handling function.">GlobalQueryHandler::handleGlobalQuery</a>.  <br /></td></tr>
+<tr class="memdesc:a2817bc1743699460fa9227a80b21bbf8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Uses the index to override GlobalQueryHandler::handleGlobalQuery.  <br /></td></tr>
 <tr class="separator:a2817bc1743699460fa9227a80b21bbf8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad49fb19ea3f3aa4361416069d5462c5f" id="r_ad49fb19ea3f3aa4361416069d5462c5f"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1IndexQueryHandler.html#ad49fb19ea3f3aa4361416069d5462c5f">updateIndexItems</a> ()=0</td></tr>
 <tr class="memdesc:ad49fb19ea3f3aa4361416069d5462c5f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update the index.  <br /></td></tr>
@@ -251,7 +246,7 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Uses the index to override <a class="el" href="classalbert_1_1GlobalQueryHandler.html#a1b1236c8c33187205963fc8e00bc25e2" title="The query handling function.">GlobalQueryHandler::handleGlobalQuery</a>. </p>
+<p>Uses the index to override GlobalQueryHandler::handleGlobalQuery. </p>
 
 <p>Implements <a class="el" href="classalbert_1_1GlobalQueryHandler.html#a1b1236c8c33187205963fc8e00bc25e2">albert::GlobalQueryHandler</a>.</p>
 
@@ -305,7 +300,7 @@ Protected Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Set the items of the index. </p>
-<p>Call this in <a class="el" href="classalbert_1_1IndexQueryHandler.html#ad49fb19ea3f3aa4361416069d5462c5f" title="Update the index.">updateIndexItems()</a>. @threadsafe </p>
+<p>Call this in updateIndexItems(). @threadsafe </p>
 
 </div>
 </div>
@@ -362,7 +357,7 @@ Protected Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Update the index. </p>
-<p>Called when the index needs to be updated, i.e. for initialization and on user changes to the index config (fuzzy, etc…) and probably by the client itself if the items changed. This function should call <a class="el" href="classalbert_1_1IndexQueryHandler.html#ae9ac32494f3f85fe5af6a13085e6c1ec" title="Set the items of the index.">setIndexItems(std::vector&lt;IndexItem&gt;&amp;&amp;)</a> to update the index. </p><dl class="section note"><dt>Note</dt><dd>Don't call this method in the constructor. It will be called on plugin initialization. </dd></dl>
+<p>Called when the index needs to be updated, i.e. for initialization and on user changes to the index config (fuzzy, etc…) and probably by the client itself if the items changed. This function should call setIndexItems(std::vector&lt;IndexItem&gt;&amp;&amp;) to update the index. </p><dl class="section note"><dt>Note</dt><dd>Don't call this method in the constructor. It will be called on plugin initialization. </dd></dl>
 
 </div>
 </div>

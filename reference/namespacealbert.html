@@ -103,13 +103,13 @@ $(document).ready(function(){initNavTree('namespacealbert.html',''); initResizab
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1Action.html">Action</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classalbert_1_1Action.html" title="Action used by result items (Item).">Action</a> used by result items (<a class="el" href="classalbert_1_1Item.html" title="Result items displayed in the query results list.">Item</a>).  <a href="classalbert_1_1Action.html#details">More...</a><br /></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Action used by result items (Item).  <a href="classalbert_1_1Action.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1BackgroundExecutor.html">BackgroundExecutor</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Provides a lean interface for recurring indexing tasks.  <a href="classalbert_1_1BackgroundExecutor.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1Dependency.html">Dependency</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Base class for <a class="el" href="classalbert_1_1StrongDependency.html" title="Convenience holder class for plugin hard dependencies.">StrongDependency</a> and <a class="el" href="classalbert_1_1WeakDependency.html" title="Convenience holder class for plugin soft dependencies.">WeakDependency</a>.  <a href="classalbert_1_1Dependency.html#details">More...</a><br /></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Base class for StrongDependency and WeakDependency.  <a href="classalbert_1_1Dependency.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1Extension.html">Extension</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Abstract extension class.  <a href="classalbert_1_1Extension.html#details">More...</a><br /></td></tr>
@@ -169,12 +169,12 @@ Classes</h2></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Common query object.  <a href="classalbert_1_1Query.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1RankItem.html">RankItem</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">An <a class="el" href="classalbert_1_1Item.html" title="Result items displayed in the query results list.">Item</a> with a score.  <a href="classalbert_1_1RankItem.html#details">More...</a><br /></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">An Item with a score.  <a href="classalbert_1_1RankItem.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1ResultItem.html">ResultItem</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1StandardItem.html">StandardItem</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">General purpose value type <a class="el" href="classalbert_1_1Item.html" title="Result items displayed in the query results list.">Item</a> implememtation.  <a href="classalbert_1_1StandardItem.html#details">More...</a><br /></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">General purpose value type Item implememtation.  <a href="classalbert_1_1StandardItem.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1StrongDependency.html">StrongDependency</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convenience holder class for plugin hard dependencies.  <a href="classalbert_1_1StrongDependency.html#details">More...</a><br /></td></tr>
@@ -369,8 +369,8 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>The extension registry. </p>
-<p>Utilze to look up extensions or watch for changes. Const because registering plugins via this registry is not allowed. Use <a class="el" href="classalbert_1_1PluginInstance.html#ae1c91829360d9e5d4d08033d7d155a85" title="The extensions provided by this plugin.">PluginInstance::extensions()</a>.</p>
-<p>See also <a class="el" href="classalbert_1_1WeakDependency.html" title="Convenience holder class for plugin soft dependencies.">WeakDependency</a> and <a class="el" href="classalbert_1_1StrongDependency.html" title="Convenience holder class for plugin hard dependencies.">StrongDependency</a>.</p>
+<p>Utilze to look up extensions or watch for changes. Const because registering plugins via this registry is not allowed. Use PluginInstance::extensions().</p>
+<p>See also WeakDependency and StrongDependency.</p>
 <dl class="section since"><dt>Since</dt><dd>0.27 </dd></dl>
 <dl class="section return"><dt>Returns</dt><dd>A const reference to the extension registry. </dd></dl>
 
@@ -586,7 +586,7 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>URL list based icon factory. </p>
-<p>See <a class="el" href="namespacealbert.html#a6537c363a21351ad4d28f91b8b3caa98" title="URL based icon factory.">iconFromUrl(const QString &amp;url)</a>.</p>
+<p>See iconFromUrl(const QString &amp;url).</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">urls</td><td>The icon URLs. </td></tr>
@@ -778,7 +778,7 @@ Functions</h2></td></tr>
 <li><code>file:&lt;path&gt;</code> Use the file at path as icon.</li>
 <li><code>:&lt;path&gt;</code> or</li>
 <li><code>qrc:&lt;path&gt;</code> Use the file at path in the <a href="https://doc.qt.io/qt-6/resources.html">resource collection</a> as icon.</li>
-<li><code>qfip:&lt;path&gt;</code> Uses <a class="el" href="namespacealbert.html#a7e8cbf8b9cb180d7b1817d102c63d981" title="Create an icon for a file using QFileIconProvider.">fileIcon(const QString &amp;path)</a></li>
+<li><code>qfip:&lt;path&gt;</code> Uses fileIcon(const QString &amp;path)</li>
 <li><code>qsp:&lt;pixmap enumerator&gt;</code> Get an icon from <a href="https://doc.qt.io/qt-6/qstyle.html#StandardPixmap-enum">QStyle::StandardPixmap</a> enum.</li>
 <li><code>xdg:&lt;icon name&gt;</code> Uses xdgIconLookup(const QString &amp;name);</li>
 <li><code>gen:&lt;&gt;</code> Uses genericPixmapFactory. See also <a href="https://doc.qt.io/qt/qcolor.html#fromString">QColor::fromString</a>.</li>
@@ -962,7 +962,7 @@ gen:?background=blue&amp;foreground=red&amp;text=Hi&amp;fontscalar=0.5
 </div><div class="memdoc">
 
 <p>Set the system clipboard and paste the content to the front-most window. </p>
-<p>Check <a class="el" href="namespacealbert.html#a0f190f5266c9ee4d4c44ee3b21af9876" title="Check paste support of the platform.">albert::havePasteSupport</a> before using this function. </p><dl class="params"><dt>Parameters</dt><dd>
+<p>Check albert::havePasteSupport before using this function. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">text</td><td>The text to set and paste </td></tr>
   </table>
