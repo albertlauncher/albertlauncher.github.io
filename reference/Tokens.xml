@@ -7,7 +7,7 @@
       <Type>cl</Type>
       <Scope>albert::Action</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1Action.html</Path>
+    <Path>classalbert_1_1_action.html</Path>
     <DeclaredIn>albert/action.h</DeclaredIn>
   </Token>
   <Token>
@@ -17,7 +17,7 @@
       <Type>tmplt</Type>
       <Scope>albert::BackgroundExecutor</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1BackgroundExecutor.html</Path>
+    <Path>classalbert_1_1_background_executor.html</Path>
     <DeclaredIn>albert/backgroundexecutor.h</DeclaredIn>
   </Token>
   <Token>
@@ -27,7 +27,7 @@
       <Type>tmplt</Type>
       <Scope>albert::Dependency</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1Dependency.html</Path>
+    <Path>classalbert_1_1_dependency.html</Path>
     <DeclaredIn>albert/plugindependency.h</DeclaredIn>
   </Token>
   <Token>
@@ -37,7 +37,7 @@
       <Type>cl</Type>
       <Scope>albert::Extension</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1Extension.html</Path>
+    <Path>classalbert_1_1_extension.html</Path>
     <DeclaredIn>albert/extension.h</DeclaredIn>
   </Token>
   <Token>
@@ -47,7 +47,7 @@
       <Type>cl</Type>
       <Scope>albert::ExtensionPlugin</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1ExtensionPlugin.html</Path>
+    <Path>classalbert_1_1_extension_plugin.html</Path>
     <DeclaredIn>albert/extensionplugin.h</DeclaredIn>
   </Token>
   <Token>
@@ -57,7 +57,7 @@
       <Type>cl</Type>
       <Scope>albert::ExtensionRegistry</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1ExtensionRegistry.html</Path>
+    <Path>classalbert_1_1_extension_registry.html</Path>
     <DeclaredIn>albert/extensionregistry.h</DeclaredIn>
   </Token>
   <Token>
@@ -67,7 +67,7 @@
       <Type>cl</Type>
       <Scope>albert::FallbackHandler</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1FallbackHandler.html</Path>
+    <Path>classalbert_1_1_fallback_handler.html</Path>
     <DeclaredIn>albert/fallbackhandler.h</DeclaredIn>
   </Token>
   <Token>
@@ -77,7 +77,7 @@
       <Type>cl</Type>
       <Scope>albert::Frontend</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1Frontend.html</Path>
+    <Path>classalbert_1_1_frontend.html</Path>
     <DeclaredIn>albert/frontend.h</DeclaredIn>
   </Token>
   <Token>
@@ -87,7 +87,7 @@
       <Type>cl</Type>
       <Scope>albert::GlobalQueryHandler</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1GlobalQueryHandler.html</Path>
+    <Path>classalbert_1_1_global_query_handler.html</Path>
     <DeclaredIn>albert/globalqueryhandler.h</DeclaredIn>
   </Token>
   <Token>
@@ -97,7 +97,7 @@
       <Type>cl</Type>
       <Scope>albert::IndexItem</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1IndexItem.html</Path>
+    <Path>classalbert_1_1_index_item.html</Path>
     <DeclaredIn>albert/indexitem.h</DeclaredIn>
   </Token>
   <Token>
@@ -107,7 +107,7 @@
       <Type>cl</Type>
       <Scope>albert::IndexQueryHandler</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1IndexQueryHandler.html</Path>
+    <Path>classalbert_1_1_index_query_handler.html</Path>
     <DeclaredIn>albert/indexqueryhandler.h</DeclaredIn>
   </Token>
   <Token>
@@ -117,7 +117,7 @@
       <Type>cl</Type>
       <Scope>albert::InputHistory</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1InputHistory.html</Path>
+    <Path>classalbert_1_1_input_history.html</Path>
     <DeclaredIn>albert/inputhistory.h</DeclaredIn>
   </Token>
   <Token>
@@ -127,7 +127,7 @@
       <Type>cl</Type>
       <Scope>albert::Item</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1Item.html</Path>
+    <Path>classalbert_1_1_item.html</Path>
     <DeclaredIn>albert/item.h</DeclaredIn>
   </Token>
   <Token>
@@ -137,7 +137,7 @@
       <Type>cl</Type>
       <Scope>albert::Match</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1Match.html</Path>
+    <Path>classalbert_1_1_match.html</Path>
     <DeclaredIn>albert/matcher.h</DeclaredIn>
   </Token>
   <Token>
@@ -147,7 +147,7 @@
       <Type>cl</Type>
       <Scope>albert::MatchConfig</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1MatchConfig.html</Path>
+    <Path>classalbert_1_1_match_config.html</Path>
     <DeclaredIn>albert/matchconfig.h</DeclaredIn>
   </Token>
   <Token>
@@ -157,7 +157,7 @@
       <Type>cl</Type>
       <Scope>albert::Matcher</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1Matcher.html</Path>
+    <Path>classalbert_1_1_matcher.html</Path>
     <DeclaredIn>albert/matcher.h</DeclaredIn>
   </Token>
   <Token>
@@ -167,7 +167,7 @@
       <Type>cl</Type>
       <Scope>albert::Notification</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1Notification.html</Path>
+    <Path>classalbert_1_1_notification.html</Path>
     <DeclaredIn>albert/notification.h</DeclaredIn>
   </Token>
   <Token>
@@ -177,7 +177,7 @@
       <Type>cl</Type>
       <Scope>albert::PluginInstance</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1PluginInstance.html</Path>
+    <Path>classalbert_1_1_plugin_instance.html</Path>
     <DeclaredIn>albert/plugininstance.h</DeclaredIn>
   </Token>
   <Token>
@@ -187,7 +187,7 @@
       <Type>cl</Type>
       <Scope>albert::PluginLoader</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1PluginLoader.html</Path>
+    <Path>classalbert_1_1_plugin_loader.html</Path>
     <DeclaredIn>albert/pluginloader.h</DeclaredIn>
   </Token>
   <Token>
@@ -197,7 +197,7 @@
       <Type>cl</Type>
       <Scope>albert::PluginMetaData</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1PluginMetaData.html</Path>
+    <Path>classalbert_1_1_plugin_meta_data.html</Path>
     <DeclaredIn>albert/pluginmetadata.h</DeclaredIn>
   </Token>
   <Token>
@@ -207,7 +207,7 @@
       <Type>cl</Type>
       <Scope>albert::PluginProvider</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1PluginProvider.html</Path>
+    <Path>classalbert_1_1_plugin_provider.html</Path>
     <DeclaredIn>albert/pluginprovider.h</DeclaredIn>
   </Token>
   <Token>
@@ -217,7 +217,7 @@
       <Type>cl</Type>
       <Scope>albert::Query</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1Query.html</Path>
+    <Path>classalbert_1_1_query.html</Path>
     <DeclaredIn>albert/query.h</DeclaredIn>
   </Token>
   <Token>
@@ -227,7 +227,7 @@
       <Type>cl</Type>
       <Scope>albert::RankItem</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1RankItem.html</Path>
+    <Path>classalbert_1_1_rank_item.html</Path>
     <DeclaredIn>albert/rankitem.h</DeclaredIn>
   </Token>
   <Token>
@@ -237,7 +237,7 @@
       <Type>cl</Type>
       <Scope>albert::ResultItem</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1ResultItem.html</Path>
+    <Path>classalbert_1_1_result_item.html</Path>
     <DeclaredIn>albert/query.h</DeclaredIn>
   </Token>
   <Token>
@@ -247,7 +247,7 @@
       <Type>cl</Type>
       <Scope>albert::StandardItem</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1StandardItem.html</Path>
+    <Path>classalbert_1_1_standard_item.html</Path>
     <DeclaredIn>albert/standarditem.h</DeclaredIn>
   </Token>
   <Token>
@@ -257,7 +257,7 @@
       <Type>tmplt</Type>
       <Scope>albert::StrongDependency</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1StrongDependency.html</Path>
+    <Path>classalbert_1_1_strong_dependency.html</Path>
     <DeclaredIn>albert/plugindependency.h</DeclaredIn>
   </Token>
   <Token>
@@ -267,7 +267,7 @@
       <Type>cl</Type>
       <Scope>albert::TelemetryProvider</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1TelemetryProvider.html</Path>
+    <Path>classalbert_1_1_telemetry_provider.html</Path>
     <DeclaredIn>albert/telemetryprovider.h</DeclaredIn>
   </Token>
   <Token>
@@ -277,7 +277,7 @@
       <Type>cl</Type>
       <Scope>TimeIt</Scope>
     </TokenIdentifier>
-    <Path>structTimeIt.html</Path>
+    <Path>struct_time_it.html</Path>
     <DeclaredIn>albert/timeit.h</DeclaredIn>
   </Token>
   <Token>
@@ -287,7 +287,7 @@
       <Type>cl</Type>
       <Scope>albert::TriggerQueryHandler</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1TriggerQueryHandler.html</Path>
+    <Path>classalbert_1_1_trigger_query_handler.html</Path>
     <DeclaredIn>albert/triggerqueryhandler.h</DeclaredIn>
   </Token>
   <Token>
@@ -297,7 +297,7 @@
       <Type>tmplt</Type>
       <Scope>albert::WeakDependency</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1WeakDependency.html</Path>
+    <Path>classalbert_1_1_weak_dependency.html</Path>
     <DeclaredIn>albert/plugindependency.h</DeclaredIn>
   </Token>
   <Token>
@@ -316,7 +316,7 @@
       <Type>instm</Type>
       <Scope>albert::Action</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1Action.html</Path>
+    <Path>classalbert_1_1_action.html</Path>
     <Anchor>a2d506e83fd6719f6d7aa9051c5520d70</Anchor>
     <DeclaredIn>action.h</DeclaredIn>
   </Token>
@@ -327,7 +327,7 @@
       <Type>instm</Type>
       <Scope>albert::Item</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1Item.html</Path>
+    <Path>classalbert_1_1_item.html</Path>
     <Anchor>ad8423cbb1d705f5f3837478c120fc2c0</Anchor>
     <DeclaredIn>item.h</DeclaredIn>
   </Token>
@@ -338,7 +338,7 @@
       <Type>instm</Type>
       <Scope>albert::StandardItem</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1StandardItem.html</Path>
+    <Path>classalbert_1_1_standard_item.html</Path>
     <Anchor>a397e19018275ddd82cdfa5c1f07bc459</Anchor>
     <DeclaredIn>standarditem.h</DeclaredIn>
   </Token>
@@ -349,7 +349,7 @@
       <Type>data</Type>
       <Scope>albert::StandardItem</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1StandardItem.html</Path>
+    <Path>classalbert_1_1_standard_item.html</Path>
     <Anchor>ac6f077b942850287a4ebfc2f704808da</Anchor>
   </Token>
   <Token>
@@ -359,7 +359,7 @@
       <Type>signal</Type>
       <Scope>albert::Notification</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1Notification.html</Path>
+    <Path>classalbert_1_1_notification.html</Path>
     <Anchor>a3d27e241e29e076d715a4bf8deb20396</Anchor>
     <DeclaredIn>notification.h</DeclaredIn>
   </Token>
@@ -370,7 +370,7 @@
       <Type>instm</Type>
       <Scope>albert::Query</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1Query.html</Path>
+    <Path>classalbert_1_1_query.html</Path>
     <Anchor>a71856fb1ae38a8d7d8e540465ecb6300</Anchor>
     <DeclaredIn>query.h</DeclaredIn>
   </Token>
@@ -381,7 +381,7 @@
       <Type>instm</Type>
       <Scope>albert::Query</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1Query.html</Path>
+    <Path>classalbert_1_1_query.html</Path>
     <Anchor>ab7377fc2b7f8f3c98a0290a26f98839f</Anchor>
     <DeclaredIn>query.h</DeclaredIn>
   </Token>
@@ -392,7 +392,7 @@
       <Type>signal</Type>
       <Scope>albert::Query</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1Query.html</Path>
+    <Path>classalbert_1_1_query.html</Path>
     <Anchor>ac81feac24915e901b9660f0760905cbb</Anchor>
     <DeclaredIn>query.h</DeclaredIn>
   </Token>
@@ -403,7 +403,7 @@
       <Type>instm</Type>
       <Scope>albert::InputHistory</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1InputHistory.html</Path>
+    <Path>classalbert_1_1_input_history.html</Path>
     <Anchor>a52beb209e78d2f8abb9c1337575b9a72</Anchor>
     <DeclaredIn>inputhistory.h</DeclaredIn>
   </Token>
@@ -414,7 +414,7 @@
       <Type>instm</Type>
       <Scope>albert::Query</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1Query.html</Path>
+    <Path>classalbert_1_1_query.html</Path>
     <Anchor>acbe18ec059a5391ae104753b6318e80d</Anchor>
     <DeclaredIn>query.h</DeclaredIn>
   </Token>
@@ -425,7 +425,7 @@
       <Type>instm</Type>
       <Scope>albert::Query</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1Query.html</Path>
+    <Path>classalbert_1_1_query.html</Path>
     <Anchor>a53de5d09e79c36004d3cbd3e4e114da9</Anchor>
     <DeclaredIn>query.h</DeclaredIn>
   </Token>
@@ -436,7 +436,7 @@
       <Type>instm</Type>
       <Scope>albert::Query</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1Query.html</Path>
+    <Path>classalbert_1_1_query.html</Path>
     <Anchor>a6aaba4eda4b07b68b069358ee1d3905b</Anchor>
     <DeclaredIn>query.h</DeclaredIn>
   </Token>
@@ -447,7 +447,7 @@
       <Type>instm</Type>
       <Scope>albert::Query</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1Query.html</Path>
+    <Path>classalbert_1_1_query.html</Path>
     <Anchor>a3be4724c664cf3c2d9e8093b0fb9960b</Anchor>
     <DeclaredIn>query.h</DeclaredIn>
   </Token>
@@ -458,7 +458,7 @@
       <Type>signal</Type>
       <Scope>albert::ExtensionRegistry</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1ExtensionRegistry.html</Path>
+    <Path>classalbert_1_1_extension_registry.html</Path>
     <Anchor>a845f61794954dc73bb9b2722f459c1d4</Anchor>
     <DeclaredIn>extensionregistry.h</DeclaredIn>
   </Token>
@@ -469,7 +469,7 @@
       <Type>instm</Type>
       <Scope>albert::TriggerQueryHandler</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1TriggerQueryHandler.html</Path>
+    <Path>classalbert_1_1_trigger_query_handler.html</Path>
     <Anchor>a565b2220701d672e00c54b71f4e9cb94</Anchor>
     <DeclaredIn>triggerqueryhandler.h</DeclaredIn>
   </Token>
@@ -480,7 +480,7 @@
       <Type>instm</Type>
       <Scope>albert::GlobalQueryHandler</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1GlobalQueryHandler.html</Path>
+    <Path>classalbert_1_1_global_query_handler.html</Path>
     <Anchor>a656d92e3b99137024993f7721e02e676</Anchor>
     <DeclaredIn>globalqueryhandler.h</DeclaredIn>
   </Token>
@@ -491,7 +491,7 @@
       <Type>data</Type>
       <Scope>albert::PluginMetaData</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1PluginMetaData.html</Path>
+    <Path>classalbert_1_1_plugin_meta_data.html</Path>
     <Anchor>abf2c32f8c629f57dd5850f967c29d458</Anchor>
   </Token>
   <Token>
@@ -501,7 +501,7 @@
       <Type>instm</Type>
       <Scope>albert::BackgroundExecutor</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1BackgroundExecutor.html</Path>
+    <Path>classalbert_1_1_background_executor.html</Path>
     <Anchor>aabd715da822b3d7563504694bb6f7f30</Anchor>
     <DeclaredIn>backgroundexecutor.h</DeclaredIn>
   </Token>
@@ -512,7 +512,7 @@
       <Type>data</Type>
       <Scope>albert::PluginMetaData</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1PluginMetaData.html</Path>
+    <Path>classalbert_1_1_plugin_meta_data.html</Path>
     <Anchor>a736d5a0c0ecae325d86d2486bb2b5635</Anchor>
   </Token>
   <Token>
@@ -522,7 +522,7 @@
       <Type>instm</Type>
       <Scope>albert::PluginInstance</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1PluginInstance.html</Path>
+    <Path>classalbert_1_1_plugin_instance.html</Path>
     <Anchor>ab1376d91889acab63531e780b3ffdef8</Anchor>
     <DeclaredIn>plugininstance.h</DeclaredIn>
   </Token>
@@ -533,7 +533,7 @@
       <Type>instm</Type>
       <Scope>albert::PluginInstance</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1PluginInstance.html</Path>
+    <Path>classalbert_1_1_plugin_instance.html</Path>
     <Anchor>a986c378aec3a83830d5815116330d3c2</Anchor>
     <DeclaredIn>plugininstance.h</DeclaredIn>
   </Token>
@@ -544,7 +544,7 @@
       <Type>data</Type>
       <Scope>albert::WeakDependency</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1WeakDependency.html</Path>
+    <Path>classalbert_1_1_weak_dependency.html</Path>
     <Anchor>ab77ad469adf86428a859203742d07ac0</Anchor>
   </Token>
   <Token>
@@ -554,7 +554,7 @@
       <Type>instm</Type>
       <Scope>albert::InputHistory</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1InputHistory.html</Path>
+    <Path>classalbert_1_1_input_history.html</Path>
     <Anchor>a1be2c9881eded67c18cc422517b8f852</Anchor>
     <DeclaredIn>inputhistory.h</DeclaredIn>
   </Token>
@@ -565,7 +565,7 @@
       <Type>instm</Type>
       <Scope>albert::PluginInstance</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1PluginInstance.html</Path>
+    <Path>classalbert_1_1_plugin_instance.html</Path>
     <Anchor>accbf6639db1db1996b7dfaa4c3134a92</Anchor>
     <DeclaredIn>plugininstance.h</DeclaredIn>
   </Token>
@@ -576,7 +576,7 @@
       <Type>instm</Type>
       <Scope>albert::Frontend</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1Frontend.html</Path>
+    <Path>classalbert_1_1_frontend.html</Path>
     <Anchor>aef8cf9086d6ecaf22af974c499f3e0b4</Anchor>
     <DeclaredIn>frontend.h</DeclaredIn>
   </Token>
@@ -587,7 +587,7 @@
       <Type>instm</Type>
       <Scope>albert::PluginLoader</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1PluginLoader.html</Path>
+    <Path>classalbert_1_1_plugin_loader.html</Path>
     <Anchor>a2ad482ff0d0a797fcb391f55882952b3</Anchor>
     <DeclaredIn>pluginloader.h</DeclaredIn>
   </Token>
@@ -598,7 +598,7 @@
       <Type>instm</Type>
       <Scope>albert::PluginInstance</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1PluginInstance.html</Path>
+    <Path>classalbert_1_1_plugin_instance.html</Path>
     <Anchor>a6307064a7be1af3ebaeaeb1782dc923b</Anchor>
     <DeclaredIn>plugininstance.h</DeclaredIn>
   </Token>
@@ -609,7 +609,7 @@
       <Type>instm</Type>
       <Scope>albert::TriggerQueryHandler</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1TriggerQueryHandler.html</Path>
+    <Path>classalbert_1_1_trigger_query_handler.html</Path>
     <Anchor>afb3f05c5d7c91025dfe12ecb0065d6da</Anchor>
     <DeclaredIn>triggerqueryhandler.h</DeclaredIn>
   </Token>
@@ -620,7 +620,7 @@
       <Type>data</Type>
       <Scope>albert::Dependency</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1Dependency.html</Path>
+    <Path>classalbert_1_1_dependency.html</Path>
     <Anchor>a109a6af2580a96254e006b3fbf155263</Anchor>
   </Token>
   <Token>
@@ -630,7 +630,7 @@
       <Type>instm</Type>
       <Scope>albert::ExtensionRegistry</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1ExtensionRegistry.html</Path>
+    <Path>classalbert_1_1_extension_registry.html</Path>
     <Anchor>a7b08618d085bafac2399641c4dc32a62</Anchor>
     <DeclaredIn>extensionregistry.h</DeclaredIn>
   </Token>
@@ -641,7 +641,7 @@
       <Type>data</Type>
       <Scope>albert::PluginMetaData</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1PluginMetaData.html</Path>
+    <Path>classalbert_1_1_plugin_meta_data.html</Path>
     <Anchor>ada4bf624b1d2aa2ba02088c34a25c8b5</Anchor>
   </Token>
   <Token>
@@ -651,7 +651,7 @@
       <Type>instm</Type>
       <Scope>albert::Extension</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1Extension.html</Path>
+    <Path>classalbert_1_1_extension.html</Path>
     <Anchor>a9f18ca0cf14e367e3826cdcdaa35f1c3</Anchor>
     <DeclaredIn>extension.h</DeclaredIn>
   </Token>
@@ -662,7 +662,7 @@
       <Type>instm</Type>
       <Scope>albert::ExtensionPlugin</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1ExtensionPlugin.html</Path>
+    <Path>classalbert_1_1_extension_plugin.html</Path>
     <Anchor>a563311ca5d2143f4987702b0729fa903</Anchor>
     <DeclaredIn>extensionplugin.h</DeclaredIn>
   </Token>
@@ -673,7 +673,7 @@
       <Type>instm</Type>
       <Scope>albert::Notification</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1Notification.html</Path>
+    <Path>classalbert_1_1_notification.html</Path>
     <Anchor>a890d401ed2e3f5d2efa6c6b47e44b312</Anchor>
     <DeclaredIn>notification.h</DeclaredIn>
   </Token>
@@ -684,7 +684,7 @@
       <Type>data</Type>
       <Scope>albert::MatchConfig</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1MatchConfig.html</Path>
+    <Path>classalbert_1_1_match_config.html</Path>
     <Anchor>ad011dc755845d386f8b47ddac9881438</Anchor>
   </Token>
   <Token>
@@ -694,7 +694,7 @@
       <Type>data</Type>
       <Scope>albert::ResultItem</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1ResultItem.html</Path>
+    <Path>classalbert_1_1_result_item.html</Path>
     <Anchor>aba468adef554696d9f40731ab9152a70</Anchor>
   </Token>
   <Token>
@@ -704,7 +704,7 @@
       <Type>instm</Type>
       <Scope>albert::ExtensionRegistry</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1ExtensionRegistry.html</Path>
+    <Path>classalbert_1_1_extension_registry.html</Path>
     <Anchor>a99839edb159935ec09401b74c8e00428</Anchor>
     <DeclaredIn>extensionregistry.h</DeclaredIn>
   </Token>
@@ -715,7 +715,7 @@
       <Type>instm</Type>
       <Scope>albert::ExtensionPlugin</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1ExtensionPlugin.html</Path>
+    <Path>classalbert_1_1_extension_plugin.html</Path>
     <Anchor>a2b66c777a6ec17e567c41cfe70218e5e</Anchor>
     <DeclaredIn>extensionplugin.h</DeclaredIn>
   </Token>
@@ -726,7 +726,7 @@
       <Type>instm</Type>
       <Scope>albert::ExtensionRegistry</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1ExtensionRegistry.html</Path>
+    <Path>classalbert_1_1_extension_registry.html</Path>
     <Anchor>a7dbd33a3cce2b17ff073b5c521165e95</Anchor>
     <DeclaredIn>extensionregistry.h</DeclaredIn>
   </Token>
@@ -737,7 +737,7 @@
       <Type>instm</Type>
       <Scope>albert::ExtensionRegistry</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1ExtensionRegistry.html</Path>
+    <Path>classalbert_1_1_extension_registry.html</Path>
     <Anchor>a0223f64212021bf220b36e14a7d8119c</Anchor>
     <DeclaredIn>extensionregistry.h</DeclaredIn>
   </Token>
@@ -748,7 +748,7 @@
       <Type>instm</Type>
       <Scope>albert::PluginInstance</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1PluginInstance.html</Path>
+    <Path>classalbert_1_1_plugin_instance.html</Path>
     <Anchor>ae1c91829360d9e5d4d08033d7d155a85</Anchor>
     <DeclaredIn>plugininstance.h</DeclaredIn>
   </Token>
@@ -759,7 +759,7 @@
       <Type>instm</Type>
       <Scope>albert::FallbackHandler</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1FallbackHandler.html</Path>
+    <Path>classalbert_1_1_fallback_handler.html</Path>
     <Anchor>a131fd6896a43672eac646f29da7222ed</Anchor>
     <DeclaredIn>fallbackhandler.h</DeclaredIn>
   </Token>
@@ -770,7 +770,7 @@
       <Type>instm</Type>
       <Scope>albert::Query</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1Query.html</Path>
+    <Path>classalbert_1_1_query.html</Path>
     <Anchor>a06f037b0abf075722f418e6c25396728</Anchor>
     <DeclaredIn>query.h</DeclaredIn>
   </Token>
@@ -781,7 +781,7 @@
       <Type>data</Type>
       <Scope>albert::BackgroundExecutor</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1BackgroundExecutor.html</Path>
+    <Path>classalbert_1_1_background_executor.html</Path>
     <Anchor>a65295b14b0d2476b5118f7922b4c11b9</Anchor>
   </Token>
   <Token>
@@ -791,7 +791,7 @@
       <Type>econst</Type>
       <Scope>albert::PluginMetaData</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1PluginMetaData.html</Path>
+    <Path>classalbert_1_1_plugin_meta_data.html</Path>
     <Anchor>a1f334952cd39eeb45fe4401a919f950fad97ba66b283564339628b71975a6e68d</Anchor>
   </Token>
   <Token>
@@ -801,7 +801,7 @@
       <Type>data</Type>
       <Scope>albert::Action</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1Action.html</Path>
+    <Path>classalbert_1_1_action.html</Path>
     <Anchor>a3b51b223188440df06f813fc06f2b6ed</Anchor>
   </Token>
   <Token>
@@ -811,7 +811,7 @@
       <Type>data</Type>
       <Scope>albert::MatchConfig</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1MatchConfig.html</Path>
+    <Path>classalbert_1_1_match_config.html</Path>
     <Anchor>aa1833dae4bbbc846e9d1d6d13f23689e</Anchor>
   </Token>
   <Token>
@@ -821,7 +821,7 @@
       <Type>instm</Type>
       <Scope>albert::Dependency</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1Dependency.html</Path>
+    <Path>classalbert_1_1_dependency.html</Path>
     <Anchor>a65f7a091bdbdfff51afe1dccf87f1d4a</Anchor>
     <DeclaredIn>plugindependency.h</DeclaredIn>
   </Token>
@@ -832,7 +832,7 @@
       <Type>instm</Type>
       <Scope>albert::Dependency</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1Dependency.html</Path>
+    <Path>classalbert_1_1_dependency.html</Path>
     <Anchor>aa9faeed47b6d3f2770c6392366cfd365</Anchor>
     <DeclaredIn>plugindependency.h</DeclaredIn>
   </Token>
@@ -843,7 +843,7 @@
       <Type>instm</Type>
       <Scope>albert::GlobalQueryHandler</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1GlobalQueryHandler.html</Path>
+    <Path>classalbert_1_1_global_query_handler.html</Path>
     <Anchor>a237f970f2410c8a88ee488937346fa19</Anchor>
     <DeclaredIn>globalqueryhandler.h</DeclaredIn>
   </Token>
@@ -854,7 +854,7 @@
       <Type>instm</Type>
       <Scope>albert::GlobalQueryHandler</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1GlobalQueryHandler.html</Path>
+    <Path>classalbert_1_1_global_query_handler.html</Path>
     <Anchor>a1b1236c8c33187205963fc8e00bc25e2</Anchor>
     <DeclaredIn>globalqueryhandler.h</DeclaredIn>
   </Token>
@@ -865,7 +865,7 @@
       <Type>instm</Type>
       <Scope>albert::IndexQueryHandler</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1IndexQueryHandler.html</Path>
+    <Path>classalbert_1_1_index_query_handler.html</Path>
     <Anchor>a2817bc1743699460fa9227a80b21bbf8</Anchor>
     <DeclaredIn>indexqueryhandler.h</DeclaredIn>
   </Token>
@@ -876,7 +876,7 @@
       <Type>instm</Type>
       <Scope>albert::GlobalQueryHandler</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1GlobalQueryHandler.html</Path>
+    <Path>classalbert_1_1_global_query_handler.html</Path>
     <Anchor>a55ea5b23789f82ab09d961dc6b3e5c40</Anchor>
     <DeclaredIn>globalqueryhandler.h</DeclaredIn>
   </Token>
@@ -887,7 +887,7 @@
       <Type>instm</Type>
       <Scope>albert::TriggerQueryHandler</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1TriggerQueryHandler.html</Path>
+    <Path>classalbert_1_1_trigger_query_handler.html</Path>
     <Anchor>a14e770979eb2456826cf954d80b86a36</Anchor>
     <DeclaredIn>triggerqueryhandler.h</DeclaredIn>
   </Token>
@@ -898,7 +898,7 @@
       <Type>data</Type>
       <Scope>albert::StandardItem</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1StandardItem.html</Path>
+    <Path>classalbert_1_1_standard_item.html</Path>
     <Anchor>a4e3501c3da1050cb320f0fdd4f19591b</Anchor>
   </Token>
   <Token>
@@ -908,7 +908,7 @@
       <Type>instm</Type>
       <Scope>albert::Item</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1Item.html</Path>
+    <Path>classalbert_1_1_item.html</Path>
     <Anchor>af24bba87910db269e79df47622e1bdd5</Anchor>
     <DeclaredIn>item.h</DeclaredIn>
   </Token>
@@ -919,7 +919,7 @@
       <Type>instm</Type>
       <Scope>albert::StandardItem</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1StandardItem.html</Path>
+    <Path>classalbert_1_1_standard_item.html</Path>
     <Anchor>a100e251755fc3b89a8eaef7dbb6a8dd9</Anchor>
     <DeclaredIn>standarditem.h</DeclaredIn>
   </Token>
@@ -930,7 +930,7 @@
       <Type>data</Type>
       <Scope>albert::Action</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1Action.html</Path>
+    <Path>classalbert_1_1_action.html</Path>
     <Anchor>a4a9974e46952a6f4852b9a34f4e546ff</Anchor>
   </Token>
   <Token>
@@ -940,7 +940,7 @@
       <Type>data</Type>
       <Scope>albert::PluginMetaData</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1PluginMetaData.html</Path>
+    <Path>classalbert_1_1_plugin_meta_data.html</Path>
     <Anchor>a95d4a8faa21db1b53b0b960f5948997b</Anchor>
   </Token>
   <Token>
@@ -950,7 +950,7 @@
       <Type>instm</Type>
       <Scope>albert::Extension</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1Extension.html</Path>
+    <Path>classalbert_1_1_extension.html</Path>
     <Anchor>aba79b0b7a42a03addbb4223462362b06</Anchor>
     <DeclaredIn>extension.h</DeclaredIn>
   </Token>
@@ -961,7 +961,7 @@
       <Type>instm</Type>
       <Scope>albert::ExtensionPlugin</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1ExtensionPlugin.html</Path>
+    <Path>classalbert_1_1_extension_plugin.html</Path>
     <Anchor>aeee425d0fa1174a25ce3ae562ecda5c0</Anchor>
     <DeclaredIn>extensionplugin.h</DeclaredIn>
   </Token>
@@ -972,7 +972,7 @@
       <Type>instm</Type>
       <Scope>albert::Item</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1Item.html</Path>
+    <Path>classalbert_1_1_item.html</Path>
     <Anchor>a79a57458532eb980b93834ff8546d22f</Anchor>
     <DeclaredIn>item.h</DeclaredIn>
   </Token>
@@ -983,7 +983,7 @@
       <Type>instm</Type>
       <Scope>albert::StandardItem</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1StandardItem.html</Path>
+    <Path>classalbert_1_1_standard_item.html</Path>
     <Anchor>aa7eaf721cdb29dac01f965b912c001be</Anchor>
     <DeclaredIn>standarditem.h</DeclaredIn>
   </Token>
@@ -994,7 +994,7 @@
       <Type>data</Type>
       <Scope>albert::StandardItem</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1StandardItem.html</Path>
+    <Path>classalbert_1_1_standard_item.html</Path>
     <Anchor>a580b213d38ef4e7f5e2e05669b5ee750</Anchor>
   </Token>
   <Token>
@@ -1004,7 +1004,7 @@
       <Type>data</Type>
       <Scope>albert::MatchConfig</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1MatchConfig.html</Path>
+    <Path>classalbert_1_1_match_config.html</Path>
     <Anchor>a2eb12d5eba0e78ff36a2b73c11a5c516</Anchor>
   </Token>
   <Token>
@@ -1014,7 +1014,7 @@
       <Type>data</Type>
       <Scope>albert::MatchConfig</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1MatchConfig.html</Path>
+    <Path>classalbert_1_1_match_config.html</Path>
     <Anchor>aba17291c8e157177a030a2b0342e77c9</Anchor>
   </Token>
   <Token>
@@ -1024,7 +1024,7 @@
       <Type>data</Type>
       <Scope>albert::MatchConfig</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1MatchConfig.html</Path>
+    <Path>classalbert_1_1_match_config.html</Path>
     <Anchor>ad147ba681f17fe175112f60bbe06f33e</Anchor>
   </Token>
   <Token>
@@ -1034,7 +1034,7 @@
       <Type>data</Type>
       <Scope>albert::PluginMetaData</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1PluginMetaData.html</Path>
+    <Path>classalbert_1_1_plugin_meta_data.html</Path>
     <Anchor>a481699b0a5b2d99164631ba92610292e</Anchor>
   </Token>
   <Token>
@@ -1044,7 +1044,7 @@
       <Type>instm</Type>
       <Scope>albert::IndexItem</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1IndexItem.html</Path>
+    <Path>classalbert_1_1_index_item.html</Path>
     <Anchor>af4fcc3f09f8f612437fb81d215216954</Anchor>
     <DeclaredIn>indexitem.h</DeclaredIn>
   </Token>
@@ -1055,7 +1055,7 @@
       <Type>instm</Type>
       <Scope>albert::IndexQueryHandler</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1IndexQueryHandler.html</Path>
+    <Path>classalbert_1_1_index_query_handler.html</Path>
     <Anchor>a5eb404658ee263fd33bb44b7e6ce615b</Anchor>
     <DeclaredIn>indexqueryhandler.h</DeclaredIn>
   </Token>
@@ -1066,7 +1066,7 @@
       <Type>instm</Type>
       <Scope>albert::Frontend</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1Frontend.html</Path>
+    <Path>classalbert_1_1_frontend.html</Path>
     <Anchor>a79f9cfdf9e46cdf5cacb10a87e675d2c</Anchor>
     <DeclaredIn>frontend.h</DeclaredIn>
   </Token>
@@ -1077,7 +1077,7 @@
       <Type>data</Type>
       <Scope>albert::StandardItem</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1StandardItem.html</Path>
+    <Path>classalbert_1_1_standard_item.html</Path>
     <Anchor>ace0e1c5710b75656df13f53a2588be66</Anchor>
   </Token>
   <Token>
@@ -1087,7 +1087,7 @@
       <Type>instm</Type>
       <Scope>albert::Item</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1Item.html</Path>
+    <Path>classalbert_1_1_item.html</Path>
     <Anchor>a895b7ffa23356556ef72d4ba33633306</Anchor>
     <DeclaredIn>item.h</DeclaredIn>
   </Token>
@@ -1098,7 +1098,7 @@
       <Type>instm</Type>
       <Scope>albert::StandardItem</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1StandardItem.html</Path>
+    <Path>classalbert_1_1_standard_item.html</Path>
     <Anchor>a9930511eb0a37648cdd1fae7fa7e1e98</Anchor>
     <DeclaredIn>standarditem.h</DeclaredIn>
   </Token>
@@ -1109,7 +1109,7 @@
       <Type>signal</Type>
       <Scope>albert::Frontend</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1Frontend.html</Path>
+    <Path>classalbert_1_1_frontend.html</Path>
     <Anchor>a063fafe9030dd792bdb79cf2a9bcef84</Anchor>
     <DeclaredIn>frontend.h</DeclaredIn>
   </Token>
@@ -1120,7 +1120,7 @@
       <Type>instm</Type>
       <Scope>albert::InputHistory</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1InputHistory.html</Path>
+    <Path>classalbert_1_1_input_history.html</Path>
     <Anchor>ab950b4e8cf8e7d825e34abe31ab929ad</Anchor>
     <DeclaredIn>inputhistory.h</DeclaredIn>
   </Token>
@@ -1131,7 +1131,7 @@
       <Type>signal</Type>
       <Scope>albert::Query</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1Query.html</Path>
+    <Path>classalbert_1_1_query.html</Path>
     <Anchor>aedcac1b526d23828765effde7d7103c8</Anchor>
     <DeclaredIn>query.h</DeclaredIn>
   </Token>
@@ -1142,7 +1142,7 @@
       <Type>instm</Type>
       <Scope>albert::Query</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1Query.html</Path>
+    <Path>classalbert_1_1_query.html</Path>
     <Anchor>a0c146187b2692ee17330d8a80a49e642</Anchor>
     <DeclaredIn>query.h</DeclaredIn>
   </Token>
@@ -1153,7 +1153,7 @@
       <Type>instm</Type>
       <Scope>albert::Match</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1Match.html</Path>
+    <Path>classalbert_1_1_match.html</Path>
     <Anchor>a48fa9fb3c1b4b03f6bc525de785a75f0</Anchor>
     <DeclaredIn>matcher.h</DeclaredIn>
   </Token>
@@ -1164,7 +1164,7 @@
       <Type>instm</Type>
       <Scope>albert::Match</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1Match.html</Path>
+    <Path>classalbert_1_1_match.html</Path>
     <Anchor>ada8b57297ddee9300997e81aa4f1bd75</Anchor>
     <DeclaredIn>matcher.h</DeclaredIn>
   </Token>
@@ -1175,7 +1175,7 @@
       <Type>instm</Type>
       <Scope>albert::Query</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1Query.html</Path>
+    <Path>classalbert_1_1_query.html</Path>
     <Anchor>a74d697e5bdc98ed0abeac06be4e84897</Anchor>
     <DeclaredIn>query.h</DeclaredIn>
   </Token>
@@ -1186,7 +1186,7 @@
       <Type>instm</Type>
       <Scope>albert::Match</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1Match.html</Path>
+    <Path>classalbert_1_1_match.html</Path>
     <Anchor>a5fbbd4ce36917598a1cc5534f596c857</Anchor>
     <DeclaredIn>matcher.h</DeclaredIn>
   </Token>
@@ -1197,7 +1197,7 @@
       <Type>instm</Type>
       <Scope>albert::BackgroundExecutor</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1BackgroundExecutor.html</Path>
+    <Path>classalbert_1_1_background_executor.html</Path>
     <Anchor>a2d798a9bb8decb19d6ad55570b7efaae</Anchor>
     <DeclaredIn>backgroundexecutor.h</DeclaredIn>
   </Token>
@@ -1208,7 +1208,7 @@
       <Type>instm</Type>
       <Scope>albert::Query</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1Query.html</Path>
+    <Path>classalbert_1_1_query.html</Path>
     <Anchor>ab292530bd0031b69d0dc96e053ea2950</Anchor>
     <DeclaredIn>query.h</DeclaredIn>
   </Token>
@@ -1219,7 +1219,7 @@
       <Type>instm</Type>
       <Scope>albert::Query</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1Query.html</Path>
+    <Path>classalbert_1_1_query.html</Path>
     <Anchor>acc1d5475f190ca21ca914c6408910078</Anchor>
     <DeclaredIn>query.h</DeclaredIn>
   </Token>
@@ -1230,7 +1230,7 @@
       <Type>instm</Type>
       <Scope>albert::Frontend</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1Frontend.html</Path>
+    <Path>classalbert_1_1_frontend.html</Path>
     <Anchor>af6c0a0806b24fb6d7be13853f504f79f</Anchor>
     <DeclaredIn>frontend.h</DeclaredIn>
   </Token>
@@ -1241,7 +1241,7 @@
       <Type>data</Type>
       <Scope>albert::IndexItem</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1IndexItem.html</Path>
+    <Path>classalbert_1_1_index_item.html</Path>
     <Anchor>a627e86379552accd1c25d4d12c67399e</Anchor>
   </Token>
   <Token>
@@ -1251,7 +1251,7 @@
       <Type>data</Type>
       <Scope>albert::ResultItem</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1ResultItem.html</Path>
+    <Path>classalbert_1_1_result_item.html</Path>
     <Anchor>a1b8da4d2b01a0a06907e1031040b2ef7</Anchor>
   </Token>
   <Token>
@@ -1261,7 +1261,7 @@
       <Type>data</Type>
       <Scope>albert::RankItem</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1RankItem.html</Path>
+    <Path>classalbert_1_1_rank_item.html</Path>
     <Anchor>a632f30a524f44fa1b8b87a6b567d8c8f</Anchor>
   </Token>
   <Token>
@@ -1271,7 +1271,7 @@
       <Type>data</Type>
       <Scope>albert::PluginMetaData</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1PluginMetaData.html</Path>
+    <Path>classalbert_1_1_plugin_meta_data.html</Path>
     <Anchor>a6b2c517aba6610546d858f8ebdc017f3</Anchor>
   </Token>
   <Token>
@@ -1281,7 +1281,7 @@
       <Type>instm</Type>
       <Scope>albert::PluginLoader</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1PluginLoader.html</Path>
+    <Path>classalbert_1_1_plugin_loader.html</Path>
     <Anchor>a25c920721215388c3936e4173a2dcbe4</Anchor>
     <DeclaredIn>pluginloader.h</DeclaredIn>
   </Token>
@@ -1292,7 +1292,7 @@
       <Type>data</Type>
       <Scope>albert::PluginMetaData</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1PluginMetaData.html</Path>
+    <Path>classalbert_1_1_plugin_meta_data.html</Path>
     <Anchor>a467edd48fa6968f4e664ad4b4b39928c</Anchor>
   </Token>
   <Token>
@@ -1302,7 +1302,7 @@
       <Type>instm</Type>
       <Scope>albert::PluginInstance</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1PluginInstance.html</Path>
+    <Path>classalbert_1_1_plugin_instance.html</Path>
     <Anchor>a050d248da29f0a6106f83b53036fcaac</Anchor>
     <DeclaredIn>plugininstance.h</DeclaredIn>
   </Token>
@@ -1313,7 +1313,7 @@
       <Type>enum</Type>
       <Scope>albert::PluginMetaData</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1PluginMetaData.html</Path>
+    <Path>classalbert_1_1_plugin_meta_data.html</Path>
     <Anchor>a1f334952cd39eeb45fe4401a919f950f</Anchor>
   </Token>
   <Token>
@@ -1323,7 +1323,7 @@
       <Type>econst</Type>
       <Scope>albert::PluginMetaData</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1PluginMetaData.html</Path>
+    <Path>classalbert_1_1_plugin_meta_data.html</Path>
     <Anchor>a1f334952cd39eeb45fe4401a919f950fa8f9bfe9d1345237cb3b2b205864da075</Anchor>
   </Token>
   <Token>
@@ -1333,7 +1333,7 @@
       <Type>econst</Type>
       <Scope>albert::PluginMetaData</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1PluginMetaData.html</Path>
+    <Path>classalbert_1_1_plugin_meta_data.html</Path>
     <Anchor>a1f334952cd39eeb45fe4401a919f950fad97ba66b283564339628b71975a6e68d</Anchor>
   </Token>
   <Token>
@@ -1343,7 +1343,7 @@
       <Type>clm</Type>
       <Scope>albert::StandardItem</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1StandardItem.html</Path>
+    <Path>classalbert_1_1_standard_item.html</Path>
     <Anchor>a7051dd70babb92fd038c09f744f9065e</Anchor>
     <DeclaredIn>standarditem.h</DeclaredIn>
   </Token>
@@ -1354,7 +1354,7 @@
       <Type>clm</Type>
       <Scope>albert::StandardItem</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1StandardItem.html</Path>
+    <Path>classalbert_1_1_standard_item.html</Path>
     <Anchor>a0331ad26d56afe1643185f51dbebf2be</Anchor>
     <DeclaredIn>standarditem.h</DeclaredIn>
   </Token>
@@ -1365,7 +1365,7 @@
       <Type>instm</Type>
       <Scope>albert::Matcher</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1Matcher.html</Path>
+    <Path>classalbert_1_1_matcher.html</Path>
     <Anchor>a8c865339f789c18f15ad62a4d57593c7</Anchor>
     <DeclaredIn>matcher.h</DeclaredIn>
   </Token>
@@ -1376,7 +1376,7 @@
       <Type>instm</Type>
       <Scope>albert::Matcher</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1Matcher.html</Path>
+    <Path>classalbert_1_1_matcher.html</Path>
     <Anchor>a84876d6bab394c0ae65f068cc04065cc</Anchor>
     <DeclaredIn>matcher.h</DeclaredIn>
   </Token>
@@ -1387,7 +1387,7 @@
       <Type>instm</Type>
       <Scope>albert::Matcher</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1Matcher.html</Path>
+    <Path>classalbert_1_1_matcher.html</Path>
     <Anchor>a4277087b8bd59a6e69f32417a941f430</Anchor>
     <DeclaredIn>matcher.h</DeclaredIn>
   </Token>
@@ -1398,7 +1398,7 @@
       <Type>instm</Type>
       <Scope>albert::Match</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1Match.html</Path>
+    <Path>classalbert_1_1_match.html</Path>
     <Anchor>a240aed4fc86419851dad0817a838a119</Anchor>
     <DeclaredIn>matcher.h</DeclaredIn>
   </Token>
@@ -1409,7 +1409,7 @@
       <Type>instm</Type>
       <Scope>albert::Match</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1Match.html</Path>
+    <Path>classalbert_1_1_match.html</Path>
     <Anchor>add8282de219db9c48034ed5de2349ea3</Anchor>
     <DeclaredIn>matcher.h</DeclaredIn>
   </Token>
@@ -1420,7 +1420,7 @@
       <Type>instm</Type>
       <Scope>albert::Match</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1Match.html</Path>
+    <Path>classalbert_1_1_match.html</Path>
     <Anchor>a5b158fdbe6e3f4380a5b0736bb1bf17f</Anchor>
     <DeclaredIn>matcher.h</DeclaredIn>
   </Token>
@@ -1431,7 +1431,7 @@
       <Type>instm</Type>
       <Scope>albert::Matcher</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1Matcher.html</Path>
+    <Path>classalbert_1_1_matcher.html</Path>
     <Anchor>a2bd5d32d44aee83c29e5eac72474fb64</Anchor>
     <DeclaredIn>matcher.h</DeclaredIn>
   </Token>
@@ -1442,7 +1442,7 @@
       <Type>instm</Type>
       <Scope>albert::Matcher</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1Matcher.html</Path>
+    <Path>classalbert_1_1_matcher.html</Path>
     <Anchor>a91187f5c522cc0a28ffc83a80f72ad3c</Anchor>
     <DeclaredIn>matcher.h</DeclaredIn>
   </Token>
@@ -1453,7 +1453,7 @@
       <Type>instm</Type>
       <Scope>albert::Query</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1Query.html</Path>
+    <Path>classalbert_1_1_query.html</Path>
     <Anchor>a717e2dcde269cb53b82e4ec2ed94bce1</Anchor>
     <DeclaredIn>query.h</DeclaredIn>
   </Token>
@@ -1464,7 +1464,7 @@
       <Type>signal</Type>
       <Scope>albert::Query</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1Query.html</Path>
+    <Path>classalbert_1_1_query.html</Path>
     <Anchor>ac32312884c459e886da098ad941459bd</Anchor>
     <DeclaredIn>query.h</DeclaredIn>
   </Token>
@@ -1475,7 +1475,7 @@
       <Type>signal</Type>
       <Scope>albert::Query</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1Query.html</Path>
+    <Path>classalbert_1_1_query.html</Path>
     <Anchor>a63a77c2c9d83014f0b077a816c04e9ee</Anchor>
     <DeclaredIn>query.h</DeclaredIn>
   </Token>
@@ -1486,7 +1486,7 @@
       <Type>instm</Type>
       <Scope>albert::PluginLoader</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1PluginLoader.html</Path>
+    <Path>classalbert_1_1_plugin_loader.html</Path>
     <Anchor>a5bbbb62f0a52690cfa7e793e100ddd34</Anchor>
     <DeclaredIn>pluginloader.h</DeclaredIn>
   </Token>
@@ -1497,7 +1497,7 @@
       <Type>data</Type>
       <Scope>albert::PluginMetaData</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1PluginMetaData.html</Path>
+    <Path>classalbert_1_1_plugin_meta_data.html</Path>
     <Anchor>adb66212725fe3ea81fc11ba522f9655b</Anchor>
   </Token>
   <Token>
@@ -1507,7 +1507,7 @@
       <Type>data</Type>
       <Scope>TimeIt</Scope>
     </TokenIdentifier>
-    <Path>structTimeIt.html</Path>
+    <Path>struct_time_it.html</Path>
     <Anchor>a46dd347f3de91477d39b14eda882ec8a</Anchor>
   </Token>
   <Token>
@@ -1517,7 +1517,7 @@
       <Type>instm</Type>
       <Scope>albert::Extension</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1Extension.html</Path>
+    <Path>classalbert_1_1_extension.html</Path>
     <Anchor>a632e2c0b2818d985d5a18f966c37e56a</Anchor>
     <DeclaredIn>extension.h</DeclaredIn>
   </Token>
@@ -1528,7 +1528,7 @@
       <Type>instm</Type>
       <Scope>albert::ExtensionPlugin</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1ExtensionPlugin.html</Path>
+    <Path>classalbert_1_1_extension_plugin.html</Path>
     <Anchor>a40df7fc2ddfef25631c2a56a882e3395</Anchor>
     <DeclaredIn>extensionplugin.h</DeclaredIn>
   </Token>
@@ -1539,7 +1539,7 @@
       <Type>instm</Type>
       <Scope>albert::InputHistory</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1InputHistory.html</Path>
+    <Path>classalbert_1_1_input_history.html</Path>
     <Anchor>a94069cc0b72b867eb8eb56da51ac8dc8</Anchor>
     <DeclaredIn>inputhistory.h</DeclaredIn>
   </Token>
@@ -1550,7 +1550,7 @@
       <Type>instm</Type>
       <Scope>albert::Notification</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1Notification.html</Path>
+    <Path>classalbert_1_1_notification.html</Path>
     <Anchor>a1a20993aa237412e194bb8f3d393a7da</Anchor>
     <DeclaredIn>notification.h</DeclaredIn>
   </Token>
@@ -1561,7 +1561,7 @@
       <Type>instm</Type>
       <Scope>albert::Match</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1Match.html</Path>
+    <Path>classalbert_1_1_match.html</Path>
     <Anchor>a04dd8e332e6c21086dcaab2478bdb1ba</Anchor>
     <DeclaredIn>matcher.h</DeclaredIn>
   </Token>
@@ -1572,7 +1572,7 @@
       <Type>instm</Type>
       <Scope>albert::Dependency</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1Dependency.html</Path>
+    <Path>classalbert_1_1_dependency.html</Path>
     <Anchor>a6a51686f7121d1477263d8da539e0518</Anchor>
     <DeclaredIn>plugindependency.h</DeclaredIn>
   </Token>
@@ -1583,7 +1583,7 @@
       <Type>instm</Type>
       <Scope>albert::Query</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1Query.html</Path>
+    <Path>classalbert_1_1_query.html</Path>
     <Anchor>a1423441a85884fa48f5f0d6334042eef</Anchor>
     <DeclaredIn>query.h</DeclaredIn>
   </Token>
@@ -1594,7 +1594,7 @@
       <Type>instm</Type>
       <Scope>albert::Match</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1Match.html</Path>
+    <Path>classalbert_1_1_match.html</Path>
     <Anchor>af3279cb5b45f333c8d7eb28bb75d4053</Anchor>
     <DeclaredIn>matcher.h</DeclaredIn>
   </Token>
@@ -1605,7 +1605,7 @@
       <Type>instm</Type>
       <Scope>albert::Dependency</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1Dependency.html</Path>
+    <Path>classalbert_1_1_dependency.html</Path>
     <Anchor>aab6c97f622d6bb12eb6eee228e742972</Anchor>
     <DeclaredIn>plugindependency.h</DeclaredIn>
   </Token>
@@ -1616,7 +1616,7 @@
       <Type>instm</Type>
       <Scope>albert::Dependency</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1Dependency.html</Path>
+    <Path>classalbert_1_1_dependency.html</Path>
     <Anchor>a89f1daf171c28298f715c33cf1a8266b</Anchor>
     <DeclaredIn>plugindependency.h</DeclaredIn>
   </Token>
@@ -1627,7 +1627,7 @@
       <Type>instm</Type>
       <Scope>albert::Dependency</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1Dependency.html</Path>
+    <Path>classalbert_1_1_dependency.html</Path>
     <Anchor>ade45ba657f89efcc353b596d858ef431</Anchor>
     <DeclaredIn>plugindependency.h</DeclaredIn>
   </Token>
@@ -1638,7 +1638,7 @@
       <Type>instm</Type>
       <Scope>albert::RankItem</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1RankItem.html</Path>
+    <Path>classalbert_1_1_rank_item.html</Path>
     <Anchor>ab16848f5e3bde1b9410c63d4b20a3aa4</Anchor>
     <DeclaredIn>rankitem.h</DeclaredIn>
   </Token>
@@ -1649,7 +1649,7 @@
       <Type>instm</Type>
       <Scope>albert::Match</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1Match.html</Path>
+    <Path>classalbert_1_1_match.html</Path>
     <Anchor>a801232665c20ed90a18861040208c463</Anchor>
     <DeclaredIn>matcher.h</DeclaredIn>
   </Token>
@@ -1660,7 +1660,7 @@
       <Type>instm</Type>
       <Scope>albert::Matcher</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1Matcher.html</Path>
+    <Path>classalbert_1_1_matcher.html</Path>
     <Anchor>aee90a94470ec39b2fe541d9def8cf3ba</Anchor>
     <DeclaredIn>matcher.h</DeclaredIn>
   </Token>
@@ -1671,7 +1671,7 @@
       <Type>instm</Type>
       <Scope>albert::StandardItem</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1StandardItem.html</Path>
+    <Path>classalbert_1_1_standard_item.html</Path>
     <Anchor>ab099fb8d9964defec643468f1a3b90dd</Anchor>
     <DeclaredIn>standarditem.h</DeclaredIn>
   </Token>
@@ -1682,7 +1682,7 @@
       <Type>instm</Type>
       <Scope>albert::StandardItem</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1StandardItem.html</Path>
+    <Path>classalbert_1_1_standard_item.html</Path>
     <Anchor>aa7789c4d1633fe7df14c96f561bca20f</Anchor>
     <DeclaredIn>standarditem.h</DeclaredIn>
   </Token>
@@ -1693,7 +1693,7 @@
       <Type>instm</Type>
       <Scope>albert::RankItem</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1RankItem.html</Path>
+    <Path>classalbert_1_1_rank_item.html</Path>
     <Anchor>a42bf9befeb255bb33a52a0d8cd1113a7</Anchor>
     <DeclaredIn>rankitem.h</DeclaredIn>
   </Token>
@@ -1704,7 +1704,7 @@
       <Type>data</Type>
       <Scope>albert::BackgroundExecutor</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1BackgroundExecutor.html</Path>
+    <Path>classalbert_1_1_background_executor.html</Path>
     <Anchor>a6866d11ec2d2ecca149318a4b6a3f97c</Anchor>
   </Token>
   <Token>
@@ -1714,7 +1714,7 @@
       <Type>instm</Type>
       <Scope>albert::PluginLoader</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1PluginLoader.html</Path>
+    <Path>classalbert_1_1_plugin_loader.html</Path>
     <Anchor>adaeee71bdc38be3a98fa6f471b6a8f0a</Anchor>
     <DeclaredIn>pluginloader.h</DeclaredIn>
   </Token>
@@ -1725,7 +1725,7 @@
       <Type>data</Type>
       <Scope>albert::PluginMetaData</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1PluginMetaData.html</Path>
+    <Path>classalbert_1_1_plugin_meta_data.html</Path>
     <Anchor>af20d9960d822f37578c1404544665df3</Anchor>
   </Token>
   <Token>
@@ -1735,7 +1735,7 @@
       <Type>data</Type>
       <Scope>albert::PluginMetaData</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1PluginMetaData.html</Path>
+    <Path>classalbert_1_1_plugin_meta_data.html</Path>
     <Anchor>a24873aa4ff8073ba3e03a5b47d818d8d</Anchor>
   </Token>
   <Token>
@@ -1745,7 +1745,7 @@
       <Type>instm</Type>
       <Scope>albert::PluginInstance</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1PluginInstance.html</Path>
+    <Path>classalbert_1_1_plugin_instance.html</Path>
     <Anchor>a97268fde3a98b3ea1857a5effd01e277</Anchor>
     <DeclaredIn>plugininstance.h</DeclaredIn>
   </Token>
@@ -1756,7 +1756,7 @@
       <Type>instm</Type>
       <Scope>albert::PluginProvider</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1PluginProvider.html</Path>
+    <Path>classalbert_1_1_plugin_provider.html</Path>
     <Anchor>a7976388d5144d9a0a0e34156afaabf32</Anchor>
     <DeclaredIn>pluginprovider.h</DeclaredIn>
   </Token>
@@ -1767,7 +1767,7 @@
       <Type>instm</Type>
       <Scope>albert::InputHistory</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1InputHistory.html</Path>
+    <Path>classalbert_1_1_input_history.html</Path>
     <Anchor>a1e9ef6e9eab4f6738914ae9077d8fb0d</Anchor>
     <DeclaredIn>inputhistory.h</DeclaredIn>
   </Token>
@@ -1778,7 +1778,7 @@
       <Type>ffunc</Type>
       <Scope>albert::Notification</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1Notification.html</Path>
+    <Path>classalbert_1_1_notification.html</Path>
     <Anchor>acc2d18d42d9545c5fbc49bb29a7ec5fb</Anchor>
   </Token>
   <Token>
@@ -1788,7 +1788,7 @@
       <Type>instm</Type>
       <Scope>albert::RankItem</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1RankItem.html</Path>
+    <Path>classalbert_1_1_rank_item.html</Path>
     <Anchor>a4bb2be7cf29ddaf1d9ba35491afa0891</Anchor>
     <DeclaredIn>rankitem.h</DeclaredIn>
   </Token>
@@ -1799,7 +1799,7 @@
       <Type>instm</Type>
       <Scope>albert::RankItem</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1RankItem.html</Path>
+    <Path>classalbert_1_1_rank_item.html</Path>
     <Anchor>afbb2ce53c59f134107481ae1332c0772</Anchor>
     <DeclaredIn>rankitem.h</DeclaredIn>
   </Token>
@@ -1810,7 +1810,7 @@
       <Type>instm</Type>
       <Scope>albert::ExtensionRegistry</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1ExtensionRegistry.html</Path>
+    <Path>classalbert_1_1_extension_registry.html</Path>
     <Anchor>a680310c5eb7bfe2c5716a623bfdc206f</Anchor>
     <DeclaredIn>extensionregistry.h</DeclaredIn>
   </Token>
@@ -1821,7 +1821,7 @@
       <Type>signal</Type>
       <Scope>albert::ExtensionRegistry</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1ExtensionRegistry.html</Path>
+    <Path>classalbert_1_1_extension_registry.html</Path>
     <Anchor>a5ed04eff2f2f6230a6bd54ca0ab12e32</Anchor>
     <DeclaredIn>extensionregistry.h</DeclaredIn>
   </Token>
@@ -1832,7 +1832,7 @@
       <Type>instm</Type>
       <Scope>albert::InputHistory</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1InputHistory.html</Path>
+    <Path>classalbert_1_1_input_history.html</Path>
     <Anchor>a776b827eaba727833d58e42a1cf00ca8</Anchor>
     <DeclaredIn>inputhistory.h</DeclaredIn>
   </Token>
@@ -1843,7 +1843,7 @@
       <Type>instm</Type>
       <Scope>albert::BackgroundExecutor</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1BackgroundExecutor.html</Path>
+    <Path>classalbert_1_1_background_executor.html</Path>
     <Anchor>a95b0814f3637d231dad8e56b351fc795</Anchor>
     <DeclaredIn>backgroundexecutor.h</DeclaredIn>
   </Token>
@@ -1854,7 +1854,7 @@
       <Type>data</Type>
       <Scope>albert::BackgroundExecutor</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1BackgroundExecutor.html</Path>
+    <Path>classalbert_1_1_background_executor.html</Path>
     <Anchor>a4204c4469b35e000426cebf3dc42b78b</Anchor>
   </Token>
   <Token>
@@ -1864,7 +1864,7 @@
       <Type>data</Type>
       <Scope>albert::PluginMetaData</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1PluginMetaData.html</Path>
+    <Path>classalbert_1_1_plugin_meta_data.html</Path>
     <Anchor>a8ad66978975fca1ba45838b07dfd7989</Anchor>
   </Token>
   <Token>
@@ -1874,7 +1874,7 @@
       <Type>tdef</Type>
       <Scope>albert::Match</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1Match.html</Path>
+    <Path>classalbert_1_1_match.html</Path>
     <Anchor>af864b64c9d79b1408ed97893d896c982</Anchor>
   </Token>
   <Token>
@@ -1884,7 +1884,7 @@
       <Type>data</Type>
       <Scope>albert::RankItem</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1RankItem.html</Path>
+    <Path>classalbert_1_1_rank_item.html</Path>
     <Anchor>a582ca543e0f6db3319cb201470d5437a</Anchor>
   </Token>
   <Token>
@@ -1894,7 +1894,7 @@
       <Type>instm</Type>
       <Scope>albert::Match</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1Match.html</Path>
+    <Path>classalbert_1_1_match.html</Path>
     <Anchor>aeb2d797f1718d841391125437236e412</Anchor>
     <DeclaredIn>matcher.h</DeclaredIn>
   </Token>
@@ -1905,7 +1905,7 @@
       <Type>instm</Type>
       <Scope>albert::Notification</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1Notification.html</Path>
+    <Path>classalbert_1_1_notification.html</Path>
     <Anchor>a3a3296f14a43f842a8a4c6f3786e986e</Anchor>
     <DeclaredIn>notification.h</DeclaredIn>
   </Token>
@@ -1916,7 +1916,7 @@
       <Type>data</Type>
       <Scope>albert::MatchConfig</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1MatchConfig.html</Path>
+    <Path>classalbert_1_1_match_config.html</Path>
     <Anchor>a0151800775b765f4a15566e5097d1e5f</Anchor>
   </Token>
   <Token>
@@ -1926,7 +1926,7 @@
       <Type>instm</Type>
       <Scope>albert::StandardItem</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1StandardItem.html</Path>
+    <Path>classalbert_1_1_standard_item.html</Path>
     <Anchor>af285d6a81a83b640bde98abe223ed05f</Anchor>
     <DeclaredIn>standarditem.h</DeclaredIn>
   </Token>
@@ -1937,7 +1937,7 @@
       <Type>instm</Type>
       <Scope>albert::IndexQueryHandler</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1IndexQueryHandler.html</Path>
+    <Path>classalbert_1_1_index_query_handler.html</Path>
     <Anchor>a8b8017d998ad997a46be3aaedb6a0ae5</Anchor>
     <DeclaredIn>indexqueryhandler.h</DeclaredIn>
   </Token>
@@ -1948,7 +1948,7 @@
       <Type>instm</Type>
       <Scope>albert::TriggerQueryHandler</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1TriggerQueryHandler.html</Path>
+    <Path>classalbert_1_1_trigger_query_handler.html</Path>
     <Anchor>a4004638b15c55c526b0088e12d20b7f2</Anchor>
     <DeclaredIn>triggerqueryhandler.h</DeclaredIn>
   </Token>
@@ -1959,7 +1959,7 @@
       <Type>instm</Type>
       <Scope>albert::StandardItem</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1StandardItem.html</Path>
+    <Path>classalbert_1_1_standard_item.html</Path>
     <Anchor>ad3032ab3b5b60ea2883cae581a897413</Anchor>
     <DeclaredIn>standarditem.h</DeclaredIn>
   </Token>
@@ -1970,7 +1970,7 @@
       <Type>instm</Type>
       <Scope>albert::StandardItem</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1StandardItem.html</Path>
+    <Path>classalbert_1_1_standard_item.html</Path>
     <Anchor>a482b09f80aaec878a9cb3cfded27ecdf</Anchor>
     <DeclaredIn>standarditem.h</DeclaredIn>
   </Token>
@@ -1981,7 +1981,7 @@
       <Type>instm</Type>
       <Scope>albert::IndexQueryHandler</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1IndexQueryHandler.html</Path>
+    <Path>classalbert_1_1_index_query_handler.html</Path>
     <Anchor>ae9ac32494f3f85fe5af6a13085e6c1ec</Anchor>
     <DeclaredIn>indexqueryhandler.h</DeclaredIn>
   </Token>
@@ -1992,7 +1992,7 @@
       <Type>instm</Type>
       <Scope>albert::Frontend</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1Frontend.html</Path>
+    <Path>classalbert_1_1_frontend.html</Path>
     <Anchor>a08349cc72ea7d21aa6bd989e1cf84991</Anchor>
     <DeclaredIn>frontend.h</DeclaredIn>
   </Token>
@@ -2003,7 +2003,7 @@
       <Type>instm</Type>
       <Scope>albert::StandardItem</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1StandardItem.html</Path>
+    <Path>classalbert_1_1_standard_item.html</Path>
     <Anchor>a82d895992441cca83a444a6b3133e9d7</Anchor>
     <DeclaredIn>standarditem.h</DeclaredIn>
   </Token>
@@ -2014,7 +2014,7 @@
       <Type>instm</Type>
       <Scope>albert::Frontend</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1Frontend.html</Path>
+    <Path>classalbert_1_1_frontend.html</Path>
     <Anchor>a2f5d98e3b6ed7f9a2b9f1604581f2395</Anchor>
     <DeclaredIn>frontend.h</DeclaredIn>
   </Token>
@@ -2025,7 +2025,7 @@
       <Type>instm</Type>
       <Scope>albert::StandardItem</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1StandardItem.html</Path>
+    <Path>classalbert_1_1_standard_item.html</Path>
     <Anchor>a99a7e0aa6350d0f6e74815904fc7778e</Anchor>
     <DeclaredIn>standarditem.h</DeclaredIn>
   </Token>
@@ -2036,7 +2036,7 @@
       <Type>instm</Type>
       <Scope>albert::Notification</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1Notification.html</Path>
+    <Path>classalbert_1_1_notification.html</Path>
     <Anchor>affcc3842e28acf040d6d48a369d6498d</Anchor>
     <DeclaredIn>notification.h</DeclaredIn>
   </Token>
@@ -2047,7 +2047,7 @@
       <Type>instm</Type>
       <Scope>albert::StandardItem</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1StandardItem.html</Path>
+    <Path>classalbert_1_1_standard_item.html</Path>
     <Anchor>aa6a79337acbbe55d810307ee12b3299b</Anchor>
     <DeclaredIn>standarditem.h</DeclaredIn>
   </Token>
@@ -2058,7 +2058,7 @@
       <Type>instm</Type>
       <Scope>albert::PluginInstance</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1PluginInstance.html</Path>
+    <Path>classalbert_1_1_plugin_instance.html</Path>
     <Anchor>a9413862a66464d1bdeb940e1d7971593</Anchor>
     <DeclaredIn>plugininstance.h</DeclaredIn>
   </Token>
@@ -2069,7 +2069,7 @@
       <Type>instm</Type>
       <Scope>albert::Notification</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1Notification.html</Path>
+    <Path>classalbert_1_1_notification.html</Path>
     <Anchor>a5d083c323e3c5803a82dd1debde6623c</Anchor>
     <DeclaredIn>notification.h</DeclaredIn>
   </Token>
@@ -2080,7 +2080,7 @@
       <Type>instm</Type>
       <Scope>albert::TriggerQueryHandler</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1TriggerQueryHandler.html</Path>
+    <Path>classalbert_1_1_trigger_query_handler.html</Path>
     <Anchor>ae04d3a2e067b6d0e3e151d4a6f880afc</Anchor>
     <DeclaredIn>triggerqueryhandler.h</DeclaredIn>
   </Token>
@@ -2091,7 +2091,7 @@
       <Type>instm</Type>
       <Scope>albert::Frontend</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1Frontend.html</Path>
+    <Path>classalbert_1_1_frontend.html</Path>
     <Anchor>a18af1da7411cb5ca3a9e90471f8f70a0</Anchor>
     <DeclaredIn>frontend.h</DeclaredIn>
   </Token>
@@ -2102,7 +2102,7 @@
       <Type>instm</Type>
       <Scope>albert::StandardItem</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1StandardItem.html</Path>
+    <Path>classalbert_1_1_standard_item.html</Path>
     <Anchor>a5caf2cf24678152d7072cef913c14adb</Anchor>
     <DeclaredIn>standarditem.h</DeclaredIn>
   </Token>
@@ -2113,7 +2113,7 @@
       <Type>instm</Type>
       <Scope>albert::StandardItem</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1StandardItem.html</Path>
+    <Path>classalbert_1_1_standard_item.html</Path>
     <Anchor>a4fc74616cb7bb8b4c4fc28d66781b910</Anchor>
     <DeclaredIn>standarditem.h</DeclaredIn>
   </Token>
@@ -2124,7 +2124,7 @@
       <Type>instm</Type>
       <Scope>albert::StandardItem</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1StandardItem.html</Path>
+    <Path>classalbert_1_1_standard_item.html</Path>
     <Anchor>a948b95998a87543c2240050a4022b6a5</Anchor>
     <DeclaredIn>standarditem.h</DeclaredIn>
   </Token>
@@ -2135,7 +2135,7 @@
       <Type>data</Type>
       <Scope>TimeIt</Scope>
     </TokenIdentifier>
-    <Path>structTimeIt.html</Path>
+    <Path>struct_time_it.html</Path>
     <Anchor>a5b4fef8507cf2707ee693bfbcc3935f3</Anchor>
   </Token>
   <Token>
@@ -2145,7 +2145,7 @@
       <Type>instm</Type>
       <Scope>albert::PluginInstance</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1PluginInstance.html</Path>
+    <Path>classalbert_1_1_plugin_instance.html</Path>
     <Anchor>a5a9678437750233481ca162744bdb93f</Anchor>
     <DeclaredIn>plugininstance.h</DeclaredIn>
   </Token>
@@ -2156,7 +2156,7 @@
       <Type>data</Type>
       <Scope>albert::IndexItem</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1IndexItem.html</Path>
+    <Path>classalbert_1_1_index_item.html</Path>
     <Anchor>ae09f09fb44d713487a40f1e416172cd2</Anchor>
   </Token>
   <Token>
@@ -2166,7 +2166,7 @@
       <Type>instm</Type>
       <Scope>albert::Matcher</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1Matcher.html</Path>
+    <Path>classalbert_1_1_matcher.html</Path>
     <Anchor>a47f41d3f5675c8ebee8d8cab38b504f7</Anchor>
     <DeclaredIn>matcher.h</DeclaredIn>
   </Token>
@@ -2177,7 +2177,7 @@
       <Type>instm</Type>
       <Scope>albert::Query</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1Query.html</Path>
+    <Path>classalbert_1_1_query.html</Path>
     <Anchor>ae967c24f8c35a866235eecdc83b36fb6</Anchor>
     <DeclaredIn>query.h</DeclaredIn>
   </Token>
@@ -2188,7 +2188,7 @@
       <Type>instm</Type>
       <Scope>albert::StrongDependency</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1StrongDependency.html</Path>
+    <Path>classalbert_1_1_strong_dependency.html</Path>
     <Anchor>a7e32e6842ba5b5b2b5e27a0cae225d2f</Anchor>
     <DeclaredIn>plugindependency.h</DeclaredIn>
   </Token>
@@ -2199,7 +2199,7 @@
       <Type>instm</Type>
       <Scope>albert::Item</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1Item.html</Path>
+    <Path>classalbert_1_1_item.html</Path>
     <Anchor>a510423487b0ae6c2fb800521718a831d</Anchor>
     <DeclaredIn>item.h</DeclaredIn>
   </Token>
@@ -2210,7 +2210,7 @@
       <Type>instm</Type>
       <Scope>albert::StandardItem</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1StandardItem.html</Path>
+    <Path>classalbert_1_1_standard_item.html</Path>
     <Anchor>a1ab1c6f42fe6e919db5e7f44b4424672</Anchor>
     <DeclaredIn>standarditem.h</DeclaredIn>
   </Token>
@@ -2221,7 +2221,7 @@
       <Type>data</Type>
       <Scope>albert::StandardItem</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1StandardItem.html</Path>
+    <Path>classalbert_1_1_standard_item.html</Path>
     <Anchor>a8e276ffbab6c0c02dcdd4f8647d63869</Anchor>
   </Token>
   <Token>
@@ -2231,7 +2231,7 @@
       <Type>instm</Type>
       <Scope>albert::IndexQueryHandler</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1IndexQueryHandler.html</Path>
+    <Path>classalbert_1_1_index_query_handler.html</Path>
     <Anchor>a4918cddcd95dafedddbe6b2b4fbe9149</Anchor>
     <DeclaredIn>indexqueryhandler.h</DeclaredIn>
   </Token>
@@ -2242,7 +2242,7 @@
       <Type>instm</Type>
       <Scope>albert::TriggerQueryHandler</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1TriggerQueryHandler.html</Path>
+    <Path>classalbert_1_1_trigger_query_handler.html</Path>
     <Anchor>a82133091f339ec43665604501dc562ea</Anchor>
     <DeclaredIn>triggerqueryhandler.h</DeclaredIn>
   </Token>
@@ -2253,7 +2253,7 @@
       <Type>instm</Type>
       <Scope>albert::Query</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1Query.html</Path>
+    <Path>classalbert_1_1_query.html</Path>
     <Anchor>a055e6e2dc39d1bc8c5df67ead0adbf14</Anchor>
     <DeclaredIn>query.h</DeclaredIn>
   </Token>
@@ -2264,7 +2264,7 @@
       <Type>instm</Type>
       <Scope>albert::TriggerQueryHandler</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1TriggerQueryHandler.html</Path>
+    <Path>classalbert_1_1_trigger_query_handler.html</Path>
     <Anchor>a37594f3c99dff8f91f6b80e77dcf9ce4</Anchor>
     <DeclaredIn>triggerqueryhandler.h</DeclaredIn>
   </Token>
@@ -2275,7 +2275,7 @@
       <Type>instm</Type>
       <Scope>albert::TelemetryProvider</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1TelemetryProvider.html</Path>
+    <Path>classalbert_1_1_telemetry_provider.html</Path>
     <Anchor>a3ca01f90e39c6d0d55623a35c5aab8d0</Anchor>
     <DeclaredIn>telemetryprovider.h</DeclaredIn>
   </Token>
@@ -2286,7 +2286,7 @@
       <Type>data</Type>
       <Scope>albert::Action</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1Action.html</Path>
+    <Path>classalbert_1_1_action.html</Path>
     <Anchor>a1bfc14743e18269a07ef3ff9eb8798dc</Anchor>
   </Token>
   <Token>
@@ -2296,7 +2296,7 @@
       <Type>instm</Type>
       <Scope>albert::Item</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1Item.html</Path>
+    <Path>classalbert_1_1_item.html</Path>
     <Anchor>acf06be44b0d88db1941325b06c5d671d</Anchor>
     <DeclaredIn>item.h</DeclaredIn>
   </Token>
@@ -2307,7 +2307,7 @@
       <Type>instm</Type>
       <Scope>albert::Notification</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1Notification.html</Path>
+    <Path>classalbert_1_1_notification.html</Path>
     <Anchor>a74b9bf1549629ae78cda072136aeb7a0</Anchor>
     <DeclaredIn>notification.h</DeclaredIn>
   </Token>
@@ -2318,7 +2318,7 @@
       <Type>instm</Type>
       <Scope>albert::StandardItem</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1StandardItem.html</Path>
+    <Path>classalbert_1_1_standard_item.html</Path>
     <Anchor>adfd90bae2b852c8233cb4b7f464de316</Anchor>
     <DeclaredIn>standarditem.h</DeclaredIn>
   </Token>
@@ -2329,7 +2329,7 @@
       <Type>data</Type>
       <Scope>albert::StandardItem</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1StandardItem.html</Path>
+    <Path>classalbert_1_1_standard_item.html</Path>
     <Anchor>a277d77f4c599d91187820f849e9a9c52</Anchor>
   </Token>
   <Token>
@@ -2339,7 +2339,7 @@
       <Type>data</Type>
       <Scope>albert::PluginMetaData</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1PluginMetaData.html</Path>
+    <Path>classalbert_1_1_plugin_meta_data.html</Path>
     <Anchor>a98a024db32e7452f078ae7685b20a9cb</Anchor>
   </Token>
   <Token>
@@ -2349,7 +2349,7 @@
       <Type>func</Type>
       <Scope>TimeIt</Scope>
     </TokenIdentifier>
-    <Path>structTimeIt.html</Path>
+    <Path>struct_time_it.html</Path>
     <Anchor>a788a4b35a4c0f53e636d31e0c4da08c7</Anchor>
     <DeclaredIn>timeit.h</DeclaredIn>
   </Token>
@@ -2360,7 +2360,7 @@
       <Type>instm</Type>
       <Scope>albert::Notification</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1Notification.html</Path>
+    <Path>classalbert_1_1_notification.html</Path>
     <Anchor>a89254761b3387909595fad368ed1cd16</Anchor>
     <DeclaredIn>notification.h</DeclaredIn>
   </Token>
@@ -2371,7 +2371,7 @@
       <Type>data</Type>
       <Scope>albert::PluginMetaData</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1PluginMetaData.html</Path>
+    <Path>classalbert_1_1_plugin_meta_data.html</Path>
     <Anchor>a5da5859ac1f0ecea79526c03a054b305</Anchor>
   </Token>
   <Token>
@@ -2381,7 +2381,7 @@
       <Type>instm</Type>
       <Scope>albert::Query</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1Query.html</Path>
+    <Path>classalbert_1_1_query.html</Path>
     <Anchor>a9a6cf0301a8fbae3cbb9cb77c7be3454</Anchor>
     <DeclaredIn>query.h</DeclaredIn>
   </Token>
@@ -2392,7 +2392,7 @@
       <Type>instm</Type>
       <Scope>albert::PluginLoader</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1PluginLoader.html</Path>
+    <Path>classalbert_1_1_plugin_loader.html</Path>
     <Anchor>a2472c9d9ab4076c697e1b8cc2256f6a1</Anchor>
     <DeclaredIn>pluginloader.h</DeclaredIn>
   </Token>
@@ -2403,7 +2403,7 @@
       <Type>instm</Type>
       <Scope>albert::IndexQueryHandler</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1IndexQueryHandler.html</Path>
+    <Path>classalbert_1_1_index_query_handler.html</Path>
     <Anchor>ad49fb19ea3f3aa4361416069d5462c5f</Anchor>
     <DeclaredIn>indexqueryhandler.h</DeclaredIn>
   </Token>
@@ -2414,7 +2414,7 @@
       <Type>data</Type>
       <Scope>albert::PluginMetaData</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1PluginMetaData.html</Path>
+    <Path>classalbert_1_1_plugin_meta_data.html</Path>
     <Anchor>aa8cdf068f6e7277ea33dab4a30b809c8</Anchor>
   </Token>
   <Token>
@@ -2424,7 +2424,7 @@
       <Type>econst</Type>
       <Scope>albert::PluginMetaData</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1PluginMetaData.html</Path>
+    <Path>classalbert_1_1_plugin_meta_data.html</Path>
     <Anchor>a1f334952cd39eeb45fe4401a919f950fa8f9bfe9d1345237cb3b2b205864da075</Anchor>
   </Token>
   <Token>
@@ -2434,7 +2434,7 @@
       <Type>data</Type>
       <Scope>albert::PluginMetaData</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1PluginMetaData.html</Path>
+    <Path>classalbert_1_1_plugin_meta_data.html</Path>
     <Anchor>a9ea434d693b7a92928bd7a39b03e1821</Anchor>
   </Token>
   <Token>
@@ -2444,7 +2444,7 @@
       <Type>signal</Type>
       <Scope>albert::Frontend</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1Frontend.html</Path>
+    <Path>classalbert_1_1_frontend.html</Path>
     <Anchor>ab79083fefe87e8507531c895af9a30f0</Anchor>
     <DeclaredIn>frontend.h</DeclaredIn>
   </Token>
@@ -2455,7 +2455,7 @@
       <Type>instm</Type>
       <Scope>albert::WeakDependency</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1WeakDependency.html</Path>
+    <Path>classalbert_1_1_weak_dependency.html</Path>
     <Anchor>aa7134ad13996b4bbe26d7dd13d1d05c4</Anchor>
     <DeclaredIn>plugindependency.h</DeclaredIn>
   </Token>
@@ -2466,7 +2466,7 @@
       <Type>instm</Type>
       <Scope>albert::Frontend</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1Frontend.html</Path>
+    <Path>classalbert_1_1_frontend.html</Path>
     <Anchor>a7c6eaea8a9f97ce48ee0c227760b4557</Anchor>
     <DeclaredIn>frontend.h</DeclaredIn>
   </Token>
@@ -2477,7 +2477,7 @@
       <Type>instm</Type>
       <Scope>albert::BackgroundExecutor</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1BackgroundExecutor.html</Path>
+    <Path>classalbert_1_1_background_executor.html</Path>
     <Anchor>a373e414af23f1ff1f389194b42fc2d81</Anchor>
     <DeclaredIn>backgroundexecutor.h</DeclaredIn>
   </Token>
@@ -2488,7 +2488,7 @@
       <Type>instm</Type>
       <Scope>albert::Extension</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1Extension.html</Path>
+    <Path>classalbert_1_1_extension.html</Path>
     <Anchor>a75ca8e53d296b0fa89467469f2200b5f</Anchor>
     <DeclaredIn>extension.h</DeclaredIn>
   </Token>
@@ -2499,7 +2499,7 @@
       <Type>instm</Type>
       <Scope>albert::FallbackHandler</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1FallbackHandler.html</Path>
+    <Path>classalbert_1_1_fallback_handler.html</Path>
     <Anchor>a071609d784d84ddab90dba76b87dfd84</Anchor>
     <DeclaredIn>fallbackhandler.h</DeclaredIn>
   </Token>
@@ -2510,7 +2510,7 @@
       <Type>instm</Type>
       <Scope>albert::Frontend</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1Frontend.html</Path>
+    <Path>classalbert_1_1_frontend.html</Path>
     <Anchor>a4207d43477c7f5ee670d920003271022</Anchor>
     <DeclaredIn>frontend.h</DeclaredIn>
   </Token>
@@ -2521,7 +2521,7 @@
       <Type>instm</Type>
       <Scope>albert::GlobalQueryHandler</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1GlobalQueryHandler.html</Path>
+    <Path>classalbert_1_1_global_query_handler.html</Path>
     <Anchor>a3e4cba0351c0d47953476559db4b9b3a</Anchor>
     <DeclaredIn>globalqueryhandler.h</DeclaredIn>
   </Token>
@@ -2532,7 +2532,7 @@
       <Type>instm</Type>
       <Scope>albert::IndexQueryHandler</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1IndexQueryHandler.html</Path>
+    <Path>classalbert_1_1_index_query_handler.html</Path>
     <Anchor>abaa098cb27e17c6d185d29f53083ce7d</Anchor>
     <DeclaredIn>indexqueryhandler.h</DeclaredIn>
   </Token>
@@ -2543,7 +2543,7 @@
       <Type>instm</Type>
       <Scope>albert::InputHistory</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1InputHistory.html</Path>
+    <Path>classalbert_1_1_input_history.html</Path>
     <Anchor>a4f0fbb944ffdeb950f7458e0df794ecc</Anchor>
     <DeclaredIn>inputhistory.h</DeclaredIn>
   </Token>
@@ -2554,7 +2554,7 @@
       <Type>instm</Type>
       <Scope>albert::Item</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1Item.html</Path>
+    <Path>classalbert_1_1_item.html</Path>
     <Anchor>a12e5b15918eac6708436805ea544b343</Anchor>
     <DeclaredIn>item.h</DeclaredIn>
   </Token>
@@ -2565,7 +2565,7 @@
       <Type>instm</Type>
       <Scope>albert::Matcher</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1Matcher.html</Path>
+    <Path>classalbert_1_1_matcher.html</Path>
     <Anchor>a6ad9d7d9338cbd36efa0b61127f70781</Anchor>
     <DeclaredIn>matcher.h</DeclaredIn>
   </Token>
@@ -2576,7 +2576,7 @@
       <Type>instm</Type>
       <Scope>albert::Notification</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1Notification.html</Path>
+    <Path>classalbert_1_1_notification.html</Path>
     <Anchor>aa1d3a2a9695f2c76f4f90dc9abeeff0f</Anchor>
     <DeclaredIn>notification.h</DeclaredIn>
   </Token>
@@ -2587,7 +2587,7 @@
       <Type>instm</Type>
       <Scope>albert::PluginInstance</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1PluginInstance.html</Path>
+    <Path>classalbert_1_1_plugin_instance.html</Path>
     <Anchor>a5f45a55c5eb5712294adc15b889942fa</Anchor>
     <DeclaredIn>plugininstance.h</DeclaredIn>
   </Token>
@@ -2598,7 +2598,7 @@
       <Type>instm</Type>
       <Scope>albert::PluginLoader</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1PluginLoader.html</Path>
+    <Path>classalbert_1_1_plugin_loader.html</Path>
     <Anchor>aed12605269105560dfa0130957d8b403</Anchor>
     <DeclaredIn>pluginloader.h</DeclaredIn>
   </Token>
@@ -2609,7 +2609,7 @@
       <Type>instm</Type>
       <Scope>albert::PluginProvider</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1PluginProvider.html</Path>
+    <Path>classalbert_1_1_plugin_provider.html</Path>
     <Anchor>a1d3172a2832639a55d0fcf30905b9fec</Anchor>
     <DeclaredIn>pluginprovider.h</DeclaredIn>
   </Token>
@@ -2620,7 +2620,7 @@
       <Type>instm</Type>
       <Scope>albert::Query</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1Query.html</Path>
+    <Path>classalbert_1_1_query.html</Path>
     <Anchor>a8f6a1727abc202c50bf6bd1606cd976d</Anchor>
     <DeclaredIn>query.h</DeclaredIn>
   </Token>
@@ -2631,7 +2631,7 @@
       <Type>instm</Type>
       <Scope>albert::TelemetryProvider</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1TelemetryProvider.html</Path>
+    <Path>classalbert_1_1_telemetry_provider.html</Path>
     <Anchor>ad741b3ba56404d042bd9b7375fa20a7d</Anchor>
     <DeclaredIn>telemetryprovider.h</DeclaredIn>
   </Token>
@@ -2642,7 +2642,7 @@
       <Type>func</Type>
       <Scope>TimeIt</Scope>
     </TokenIdentifier>
-    <Path>structTimeIt.html</Path>
+    <Path>struct_time_it.html</Path>
     <Anchor>a71ea27923f652367945be22cb3be553d</Anchor>
     <DeclaredIn>timeit.h</DeclaredIn>
   </Token>
@@ -2653,7 +2653,7 @@
       <Type>instm</Type>
       <Scope>albert::TriggerQueryHandler</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1TriggerQueryHandler.html</Path>
+    <Path>classalbert_1_1_trigger_query_handler.html</Path>
     <Anchor>af5a7811af0fdf807b26826c277776505</Anchor>
     <DeclaredIn>triggerqueryhandler.h</DeclaredIn>
   </Token>
@@ -2664,7 +2664,7 @@
       <Type>instm</Type>
       <Scope>albert::WeakDependency</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1WeakDependency.html</Path>
+    <Path>classalbert_1_1_weak_dependency.html</Path>
     <Anchor>a58e2c966cb28fa2a6593f2fd20bf80d9</Anchor>
     <DeclaredIn>plugindependency.h</DeclaredIn>
   </Token>

@@ -1,6 +1,6 @@
 var plugindependency_8h =
 [
-    [ "albert::Dependency< T >", "classalbert_1_1Dependency.html", "classalbert_1_1Dependency" ],
-    [ "albert::StrongDependency< T >", "classalbert_1_1StrongDependency.html", "classalbert_1_1StrongDependency" ],
-    [ "albert::WeakDependency< T >", "classalbert_1_1WeakDependency.html", "classalbert_1_1WeakDependency" ]
+    [ "albert::Dependency< T >", "classalbert_1_1_dependency.html", "classalbert_1_1_dependency" ],
+    [ "albert::StrongDependency< T >", "classalbert_1_1_strong_dependency.html", "classalbert_1_1_strong_dependency" ],
+    [ "albert::WeakDependency< T >", "classalbert_1_1_weak_dependency.html", "classalbert_1_1_weak_dependency" ]
 ];

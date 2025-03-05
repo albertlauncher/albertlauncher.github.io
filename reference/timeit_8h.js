@@ -1,4 +1,4 @@
 var timeit_8h =
 [
-    [ "TimeIt", "structTimeIt.html", "structTimeIt" ]
+    [ "TimeIt", "struct_time_it.html", "struct_time_it" ]
 ];

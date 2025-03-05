@@ -11,7 +11,7 @@
 <!-- Node0 -->
 <g id="Node000000" class="node">
 <title>Node0</title>
-<g id="a_Node000000"><a xlink:href="classalbert_1_1Item.html" target="_top" xlink:title="Result items displayed in the query results list.">
+<g id="a_Node000000"><a xlink:href="classalbert_1_1_item.html" target="_top" xlink:title="Result items displayed in the query results list.">
 <polygon fill="white" stroke="#666666" points="64,-19.25 0,-19.25 0,0 64,0 64,-19.25"/>
 <text text-anchor="middle" x="32" y="-5.75" font-family="Helvetica,sans-Serif" font-size="10.00">albert::Item</text>
 </a>
@@ -20,7 +20,7 @@
 <!-- Node1 -->
 <g id="Node000001" class="node">
 <title>Node1</title>
-<g id="a_Node000001"><a xlink:href="classalbert_1_1StandardItem.html" target="_top" xlink:title="General purpose value type Item implememtation.">
+<g id="a_Node000001"><a xlink:href="classalbert_1_1_standard_item.html" target="_top" xlink:title="General purpose value type Item implememtation.">
 <polygon fill="white" stroke="#666666" points="203,-19.25 100,-19.25 100,0 203,0 203,-19.25"/>
 <text text-anchor="middle" x="151.5" y="-5.75" font-family="Helvetica,sans-Serif" font-size="10.00">albert::StandardItem</text>
 </a>

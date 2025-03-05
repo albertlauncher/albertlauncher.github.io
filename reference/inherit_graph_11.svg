@@ -11,7 +11,7 @@
 <!-- Node0 -->
 <g id="Node000000" class="node">
 <title>Node0</title>
-<g id="a_Node000000"><a xlink:href="classalbert_1_1RankItem.html" target="_top" xlink:title="An Item with a score.">
+<g id="a_Node000000"><a xlink:href="classalbert_1_1_rank_item.html" target="_top" xlink:title="An Item with a score.">
 <polygon fill="white" stroke="#666666" points="86.5,-19.25 0,-19.25 0,0 86.5,0 86.5,-19.25"/>
 <text text-anchor="middle" x="43.25" y="-5.75" font-family="Helvetica,sans-Serif" font-size="10.00">albert::RankItem</text>
 </a>
