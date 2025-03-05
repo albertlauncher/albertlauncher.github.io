@@ -7,6 +7,43 @@
     
       
         <item>
+          <title>Albert v0.27.4 released</title>
+          <description>&lt;h1 id=&quot;albert-v0274-released&quot;&gt;Albert v0.27.4 released&lt;/h1&gt;
+
+&lt;h2 id=&quot;albert&quot;&gt;Albert&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Fix translation file lookup&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;plugins&quot;&gt;Plugins&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;vpn&lt;/strong&gt; 5.0
+    &lt;ul&gt;
+      &lt;li&gt;Add xdg platform (network manager)&lt;/li&gt;
+      &lt;li&gt;Listen to state changes&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Append _en to the plural files&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;python&quot;&gt;Python&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;vpn&lt;/strong&gt; Archive&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Check the &lt;a href=&quot;https://github.com/albertlauncher/albert/commits/v0.27.4&quot;&gt;GitHub repositories&lt;/a&gt; for details.&lt;/p&gt;
+</description>
+          <pubDate>2025-03-05T13:44:00+00:00</pubDate>
+          <link>https://albertlauncher.github.io/2025/03/05/albert-v0.27.4-released/</link>
+          <guid isPermaLink="true">https://albertlauncher.github.io/2025/03/05/albert-v0.27.4-released/</guid>
+        </item>
+      
+    
+      
+        <item>
           <title>Albert v0.27.3 released</title>
           <description>&lt;h1 id=&quot;albert-v0273-released&quot;&gt;Albert v0.27.3 released&lt;/h1&gt;
 
