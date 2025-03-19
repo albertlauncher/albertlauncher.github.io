@@ -203,8 +203,8 @@
     "relUrl": "/gettingstarted/"
   },"29": {
     "doc": "Home",
-    "title": "Focus on the essence",
-    "content": "And let Albert take care of the noise. Get started View on GitHub Donate Albert is a blazing-fast, plugin-based keyboard launcher written in C++/Qt. ",
+    "title": "Focus on the essence.",
+    "content": "Albert is a lightning-fast, plugin-based keyboard launcher written in C++. Get started View on GitHub Donate . ",
     "url": "/#focus-on-the-essence",
     
     "relUrl": "/#focus-on-the-essence"
