@@ -24,12 +24,17 @@
                <Node>
                 <Name>Action</Name>
                 <Path>classalbert_1_1Action.html</Path>
-                <Anchor>a2d506e83fd6719f6d7aa9051c5520d70</Anchor>
+                <Anchor>aa4e4130a3666df11988dce9217cfd167</Anchor>
                </Node>
                <Node>
                 <Name>function</Name>
                 <Path>classalbert_1_1Action.html</Path>
                 <Anchor>a3b51b223188440df06f813fc06f2b6ed</Anchor>
+               </Node>
+               <Node>
+                <Name>hide_on_activation</Name>
+                <Path>classalbert_1_1Action.html</Path>
+                <Anchor>a09b8c3f503b01112e675ce0516ce264a</Anchor>
                </Node>
                <Node>
                 <Name>id</Name>
@@ -692,6 +697,11 @@
                 <Name>dataLocation</Name>
                 <Path>classalbert_1_1PluginInstance.html</Path>
                 <Anchor>a6307064a7be1af3ebaeaeb1782dc923b</Anchor>
+               </Node>
+               <Node>
+                <Name>dataLocations</Name>
+                <Path>classalbert_1_1PluginInstance.html</Path>
+                <Anchor>a19e5d6a978082662efb288626f568841</Anchor>
                </Node>
                <Node>
                 <Name>extensions</Name>
@@ -1369,6 +1379,11 @@
               <Anchor>a09085231379cd9843cd3064606bc0766</Anchor>
              </Node>
              <Node>
+              <Name>show</Name>
+              <Path>namespacealbert.html</Path>
+              <Anchor>a40c3dac8ce8b95348a840eaa9051a4a7</Anchor>
+             </Node>
+             <Node>
               <Name>showSettings</Name>
               <Path>namespacealbert.html</Path>
               <Anchor>aa58d49c3ab5bd7282b0ee46a5e9db8fd</Anchor>
@@ -1422,12 +1437,17 @@
                <Node>
                 <Name>Action</Name>
                 <Path>classalbert_1_1Action.html</Path>
-                <Anchor>a2d506e83fd6719f6d7aa9051c5520d70</Anchor>
+                <Anchor>aa4e4130a3666df11988dce9217cfd167</Anchor>
                </Node>
                <Node>
                 <Name>function</Name>
                 <Path>classalbert_1_1Action.html</Path>
                 <Anchor>a3b51b223188440df06f813fc06f2b6ed</Anchor>
+               </Node>
+               <Node>
+                <Name>hide_on_activation</Name>
+                <Path>classalbert_1_1Action.html</Path>
+                <Anchor>a09b8c3f503b01112e675ce0516ce264a</Anchor>
                </Node>
                <Node>
                 <Name>id</Name>
@@ -2090,6 +2110,11 @@
                 <Name>dataLocation</Name>
                 <Path>classalbert_1_1PluginInstance.html</Path>
                 <Anchor>a6307064a7be1af3ebaeaeb1782dc923b</Anchor>
+               </Node>
+               <Node>
+                <Name>dataLocations</Name>
+                <Path>classalbert_1_1PluginInstance.html</Path>
+                <Anchor>a19e5d6a978082662efb288626f568841</Anchor>
                </Node>
                <Node>
                 <Name>extensions</Name>
@@ -2984,12 +3009,17 @@
                        <Node>
                         <Name>Action</Name>
                         <Path>classalbert_1_1Action.html</Path>
-                        <Anchor>a2d506e83fd6719f6d7aa9051c5520d70</Anchor>
+                        <Anchor>aa4e4130a3666df11988dce9217cfd167</Anchor>
                        </Node>
                        <Node>
                         <Name>function</Name>
                         <Path>classalbert_1_1Action.html</Path>
                         <Anchor>a3b51b223188440df06f813fc06f2b6ed</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>hide_on_activation</Name>
+                        <Path>classalbert_1_1Action.html</Path>
+                        <Anchor>a09b8c3f503b01112e675ce0516ce264a</Anchor>
                        </Node>
                        <Node>
                         <Name>id</Name>
@@ -3093,6 +3123,11 @@
                       <Name>settings</Name>
                       <Path>albert_8h.html</Path>
                       <Anchor>a09085231379cd9843cd3064606bc0766</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>show</Name>
+                      <Path>albert_8h.html</Path>
+                      <Anchor>a40c3dac8ce8b95348a840eaa9051a4a7</Anchor>
                      </Node>
                      <Node>
                       <Name>showSettings</Name>
@@ -3998,6 +4033,11 @@
                         <Name>dataLocation</Name>
                         <Path>classalbert_1_1PluginInstance.html</Path>
                         <Anchor>a6307064a7be1af3ebaeaeb1782dc923b</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>dataLocations</Name>
+                        <Path>classalbert_1_1PluginInstance.html</Path>
+                        <Anchor>a19e5d6a978082662efb288626f568841</Anchor>
                        </Node>
                        <Node>
                         <Name>extensions</Name>

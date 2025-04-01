@@ -317,7 +317,7 @@
       <Scope>albert::Action</Scope>
     </TokenIdentifier>
     <Path>classalbert_1_1Action.html</Path>
-    <Anchor>a2d506e83fd6719f6d7aa9051c5520d70</Anchor>
+    <Anchor>aa4e4130a3666df11988dce9217cfd167</Anchor>
     <DeclaredIn>action.h</DeclaredIn>
   </Token>
   <Token>
@@ -600,6 +600,17 @@
     </TokenIdentifier>
     <Path>classalbert_1_1PluginInstance.html</Path>
     <Anchor>a6307064a7be1af3ebaeaeb1782dc923b</Anchor>
+    <DeclaredIn>plugininstance.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>dataLocations</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>albert::PluginInstance</Scope>
+    </TokenIdentifier>
+    <Path>classalbert_1_1PluginInstance.html</Path>
+    <Anchor>a19e5d6a978082662efb288626f568841</Anchor>
     <DeclaredIn>plugininstance.h</DeclaredIn>
   </Token>
   <Token>
@@ -890,6 +901,16 @@
     <Path>classalbert_1_1TriggerQueryHandler.html</Path>
     <Anchor>a14e770979eb2456826cf954d80b86a36</Anchor>
     <DeclaredIn>triggerqueryhandler.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>hide_on_activation</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>albert::Action</Scope>
+    </TokenIdentifier>
+    <Path>classalbert_1_1Action.html</Path>
+    <Anchor>a09b8c3f503b01112e675ce0516ce264a</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -3171,6 +3192,17 @@
     </TokenIdentifier>
     <Path>namespacealbert.html</Path>
     <Anchor>a09085231379cd9843cd3064606bc0766</Anchor>
+    <DeclaredIn>albert.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>show</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a40c3dac8ce8b95348a840eaa9051a4a7</Anchor>
     <DeclaredIn>albert.h</DeclaredIn>
   </Token>
   <Token>

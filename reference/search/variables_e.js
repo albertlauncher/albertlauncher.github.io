@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['version_0',['version',['../classalbert_1_1PluginMetaData.html#a9ea434d693b7a92928bd7a39b03e1821',1,'albert::PluginMetaData']]]
+  ['url_0',['url',['../classalbert_1_1PluginMetaData.html#aa8cdf068f6e7277ea33dab4a30b809c8',1,'albert::PluginMetaData']]]
 ];

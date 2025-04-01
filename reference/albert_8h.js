@@ -17,6 +17,7 @@ var albert_8h =
     [ "setClipboardText", "albert_8h.html#a406cb6824847d1f0cbd3ec7a7176dce8", null ],
     [ "setClipboardTextAndPaste", "albert_8h.html#a88cb18f19f7c6fed45b25fba5e6bf9b5", null ],
     [ "settings", "albert_8h.html#a09085231379cd9843cd3064606bc0766", null ],
+    [ "show", "albert_8h.html#a40c3dac8ce8b95348a840eaa9051a4a7", null ],
     [ "showSettings", "albert_8h.html#aa58d49c3ab5bd7282b0ee46a5e9db8fd", null ],
     [ "state", "albert_8h.html#a1998f7413d7a26e994fc3a8ff17df336", null ],
     [ "tryCreateDirectory", "albert_8h.html#af0d32f3bc9359b5374b2e3ba1d171ceb", null ]

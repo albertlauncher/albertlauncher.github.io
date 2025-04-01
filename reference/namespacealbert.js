@@ -54,6 +54,7 @@ var namespacealbert =
     [ "setClipboardText", "namespacealbert.html#a406cb6824847d1f0cbd3ec7a7176dce8", null ],
     [ "setClipboardTextAndPaste", "namespacealbert.html#a88cb18f19f7c6fed45b25fba5e6bf9b5", null ],
     [ "settings", "namespacealbert.html#a09085231379cd9843cd3064606bc0766", null ],
+    [ "show", "namespacealbert.html#a40c3dac8ce8b95348a840eaa9051a4a7", null ],
     [ "showSettings", "namespacealbert.html#aa58d49c3ab5bd7282b0ee46a5e9db8fd", null ],
     [ "state", "namespacealbert.html#a1998f7413d7a26e994fc3a8ff17df336", null ],
     [ "tryCreateDirectory", "namespacealbert.html#af0d32f3bc9359b5374b2e3ba1d171ceb", null ]

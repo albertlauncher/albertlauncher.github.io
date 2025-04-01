@@ -7,6 +7,121 @@
     
       
         <item>
+          <title>Albert v0.27.6 released</title>
+          <description>&lt;h1 id=&quot;albert-v0276-released&quot;&gt;Albert v0.27.6 released&lt;/h1&gt;
+
+&lt;p&gt;The plugins are now organized in &lt;a href=&quot;https://github.com/albertlauncher/albert/tree/main/plugins&quot;&gt;submodules&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;albert&quot;&gt;Albert&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Run the empty query on &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;*&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Add &lt;em&gt;‘Open in terminal’&lt;/em&gt; action to AppQueryHandler&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;api&quot;&gt;API&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Add &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;albert::Action::hide_on_activation&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Add &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;albert::PluginInstance::dataLocations&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Add &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;albert::show(const QString&amp;amp;)&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Add standard message box functions modal to the main window.
+    &lt;ul&gt;
+      &lt;li&gt;Add &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;albert::question(…)&lt;/code&gt;&lt;/li&gt;
+      &lt;li&gt;Add &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;albert::information(…)&lt;/code&gt;&lt;/li&gt;
+      &lt;li&gt;Add &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;albert::warning(…)&lt;/code&gt;&lt;/li&gt;
+      &lt;li&gt;Add &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;albert::critical(…)&lt;/code&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;plugins&quot;&gt;Plugins&lt;/h2&gt;
+
+&lt;h3 id=&quot;bluetooth&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;bluetooth&lt;/code&gt;&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Add icons for (in)active/(dis)connected items.&lt;/li&gt;
+  &lt;li&gt;Add completions.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;caffeine&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;caffeine&lt;/code&gt;&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Polish translations of durations.&lt;/li&gt;
+  &lt;li&gt;Add natural duration spec (eg 1h1m).&lt;/li&gt;
+  &lt;li&gt;Fix weird trigger completions.&lt;/li&gt;
+  &lt;li&gt;Fix default trigger matching.&lt;/li&gt;
+  &lt;li&gt;Add deactivation notification.&lt;/li&gt;
+  &lt;li&gt;Use special text ∞ in settings.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;clipboard&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;clipboard&lt;/code&gt;&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Avoid flicker by using batch add.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;system&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;system&lt;/code&gt;&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;New icon set.&lt;/li&gt;
+  &lt;li&gt;Update macOS logout command.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;timer&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;timer&lt;/code&gt;&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Remove timers from empty query without hiding the window.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;vpn&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;vpn&lt;/code&gt;&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Add icons clearly indicating the state.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;websearch&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;websearch&lt;/code&gt;&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;New default icon.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;widgetsboxmodel-and-widgetsboxmodel-qss&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;widgetsboxmodel&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;widgetsboxmodel-qss&lt;/code&gt;&lt;/h3&gt;
+
+&lt;p&gt;QStyleSheetStyle and its style sheets are a mess to work with and pretty limited.
+They may be suitable to style dedicated widgets but not for entire UIs.
+This release lays the foundation for a frontend that is not a pain to work with.
+The widgetsboxmodel as you know it has been forked to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;widgetsboxmodel-qss&lt;/code&gt;.
+But for now it still has the id &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;widgetsboxmodel&lt;/code&gt; id until the prototype is polished enough.
+The id of the new widgetsboxmodel frontend without style sheets is widgetsboxmodel-ng.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Theme files support.&lt;/li&gt;
+  &lt;li&gt;Allow multiline input. Shift enter inserts a newline.&lt;/li&gt;
+  &lt;li&gt;Empahsize the trigger.&lt;/li&gt;
+  &lt;li&gt;Add context menu to button&lt;/li&gt;
+  &lt;li&gt;Allow non hiding actions.&lt;/li&gt;
+  &lt;li&gt;Add a handcrafted, buffered windowframe. Drop glitchy Qt shadow.&lt;/li&gt;
+  &lt;li&gt;Add option ‘Disable input method’.&lt;/li&gt;
+  &lt;li&gt;Completion and synopsis side by side.&lt;/li&gt;
+  &lt;li&gt;Handcrafted rounded rects that support gradients.&lt;/li&gt;
+  &lt;li&gt;Ads settable window properties like colors, margins, sizes and such.&lt;/li&gt;
+  &lt;li&gt;Put settingsbutton into the input layout. No overlay anymore.&lt;/li&gt;
+  &lt;li&gt;Always show action to set the &lt;em&gt;current&lt;/em&gt; mode first (dark, light).&lt;/li&gt;
+  &lt;li&gt;Add debug overlay option&lt;/li&gt;
+  &lt;li&gt;Loads of fixes and mini improvements.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Check the &lt;a href=&quot;https://github.com/albertlauncher/albert/commits/v0.27.6&quot;&gt;GitHub repositories&lt;/a&gt; for details.&lt;/p&gt;
+</description>
+          <pubDate>2025-04-02T01:27:00+00:00</pubDate>
+          <link>https://albertlauncher.github.io/2025/04/02/albert-v0.27.6-released/</link>
+          <guid isPermaLink="true">https://albertlauncher.github.io/2025/04/02/albert-v0.27.6-released/</guid>
+        </item>
+      
+    
+      
+        <item>
           <title>Albert v0.27.5 released</title>
           <description>&lt;h1 id=&quot;albert-v0275-released&quot;&gt;Albert v0.27.5 released&lt;/h1&gt;
 
