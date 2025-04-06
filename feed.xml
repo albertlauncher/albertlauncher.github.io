@@ -7,6 +7,37 @@
     
       
         <item>
+          <title>Albert v0.27.8 released</title>
+          <description>&lt;h1 id=&quot;albert-v0278-released&quot;&gt;Albert v0.27.8 released&lt;/h1&gt;
+
+&lt;p&gt;Hotfix release for the frontends.&lt;/p&gt;
+
+&lt;h2 id=&quot;native-plugins&quot;&gt;Native plugins&lt;/h2&gt;
+
+&lt;h3 id=&quot;widgetsboxmodel&quot;&gt;widgetsboxmodel&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Fix uninitialized trigger length causing crashes&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;widgetsboxmodel-qss&quot;&gt;widgetsboxmodel-qss&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Adopt completion bahavior&lt;/li&gt;
+  &lt;li&gt;Non hiding action support.&lt;/li&gt;
+  &lt;li&gt;Themesqueryhandler behavior from wbm&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Check the &lt;a href=&quot;https://github.com/albertlauncher/albert/commits/v0.27.8&quot;&gt;GitHub repositories&lt;/a&gt; for details.&lt;/p&gt;
+</description>
+          <pubDate>2025-04-06T19:45:00+00:00</pubDate>
+          <link>https://albertlauncher.github.io/2025/04/06/albert-v0.27.8-released/</link>
+          <guid isPermaLink="true">https://albertlauncher.github.io/2025/04/06/albert-v0.27.8-released/</guid>
+        </item>
+      
+    
+      
+        <item>
           <title>Albert v0.27.7 released</title>
           <description>&lt;h1 id=&quot;albert-v0277-released&quot;&gt;Albert v0.27.7 released&lt;/h1&gt;
 
