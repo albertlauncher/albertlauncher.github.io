@@ -204,7 +204,7 @@
   },"29": {
     "doc": "Home",
     "title": "Focus on the essence.",
-    "content": "Albert is a lightning-fast, plugin-based keyboard launcher written in C++. …and an egoistic-altruistic project worth sponsoring❤️. Get started View on GitHub Donate . ",
+    "content": "Albert is a lightning-fast, plugin-based keyboard launcher written in C++. Get started View on GitHub Donate 💛 . ",
     "url": "/#focus-on-the-essence",
     
     "relUrl": "/#focus-on-the-essence"
@@ -244,55 +244,62 @@
     
     "relUrl": "/news/"
   },"35": {
+    "doc": "Albert Privacy Notice",
+    "title": "Albert Privacy Notice",
+    "content": "Version 1.0-beta, last updated: 24 April, 2025 . tl;dr . | No personal data is collected. | No profiling, tracking, or commercial use takes place. | No data shared with third parties. | All data serves the purpose of improving the app. | . Who is responsible? . This application (“Albert”) is developed and maintained by Manuel Schneider (@manuelschneid3r). For inquiries, post an issue on Github. What data is processed? . When the app sends a report, the following data is processed: . | Hashed device ID (Pseudonym) | Local time (To properly map a report to a “human date”) | . Depending on the users choice to send telemetry data, the following data is processed: . | Country code (derived from the IP address, the IP address itself is not stored) | App and Qt version | Operation system type and version | Platform type (macOS, Wayland, etc.) | Enabled plugins | Activated extensions | . Why is this data used? . Basic data is used exclusively for: . | Computing aggregated users counts. | . Optional data is used exclusively for: . | Understanding the distribution of releases. | Triaging issues. | Prioritizing plugin development efforts. | Prioritizing localization efforts. | Determine when to increase the minimum required versions of dependencies. | . Legal basis . Processing is based on legitimate interest under Article 6(1)(f) GDPR. Retention period . 180 days. ",
+    "url": "/privacy/",
+    
+    "relUrl": "/privacy/"
+  },"36": {
     "doc": "Python",
     "title": "Extending Albert using Python",
     "content": "This page focuses on the practical aspects of extending Albert using Python and its peculiarities. To get a high level overview of common concepts of the API refer to the general section. | The Albert stub file | Python plugin directories | Writing Python plugins | Technical notes and limitations | Contributing Python plugins | . ",
     "url": "/gettingstarted/extension/python/#extending-albert-using-python",
     
     "relUrl": "/gettingstarted/extension/python/#extending-albert-using-python"
-  },"36": {
+  },"37": {
     "doc": "Python",
     "title": "The Albert stub file",
     "content": "The Albert Python interface is defined in the Albert Python stub file. This file serves as documentation for the embedded albert module, and its module docstring describes the interface that makes a Python module an Albert Python plugin. The stub file is written to your user Python plugin directory. This is also where you are supposed to put your personal plugins. There the stub file serves as inline documention and coding assistance in your IDE while developing plugins. ",
     "url": "/gettingstarted/extension/python/#the-albert-stub-file",
     
     "relUrl": "/gettingstarted/extension/python/#the-albert-stub-file"
-  },"37": {
+  },"38": {
     "doc": "Python",
     "title": "Python plugin directories",
     "content": "Python plugin directories are the subdirectories python/plugins in the app data directories. For more information on app data directories, especially their precedence order, see this table. When loaded, the Python plugins plugin (the native plugin that provides the Python interface) scans the Python plugin directories for available Python plugins. Since identifiers have to be unique, duplicate plugins with the same identifier (module name) are skipped. ",
     "url": "/gettingstarted/extension/python/#python-plugin-directories",
     
     "relUrl": "/gettingstarted/extension/python/#python-plugin-directories"
-  },"38": {
+  },"39": {
     "doc": "Python",
     "title": "Writing Python plugins",
     "content": "A minimal working example of a Python plugin according to the interface specification looks like this: . import albert md_iid = '3.0' md_version = '1.0' md_name = 'Fancy Plugin' md_description = 'Do fancy things' class Plugin(albert.PluginInstance): pass . From here on it depends on the interface you want to implement. Read the Python stub file. In case of questions see the C++ API. See the official Python plugins for reference. The color plugin is a concise example to start with. ",
     "url": "/gettingstarted/extension/python/#writing-python-plugins",
     
     "relUrl": "/gettingstarted/extension/python/#writing-python-plugins"
-  },"39": {
+  },"40": {
     "doc": "Python",
     "title": "Technical notes and limitations",
     "content": ". | Due to the different type systems, multiple virtual inheritance of extension interfaces is not supported. However, multiple extensions can be added by reimplementing albert.PluginInstance.extensions(). | Python plugin execution is subject to the Python Global Interpreter Lock (GIL). This means that only one thread can execute Python code at a time. This can become a problem for parallelization of queries or multithreaded global queries. Long running handlers will introduce noticeable lags. Do not block execution in your query handlers, especially not in handleGlobalQuery. If you can, use IndexQueryHandler instead, which performs the handling in C++ space. | PyBind11 method resolution does not support mixin behavior. Usually this should not be much of a problem, but there is one prevalent use case: Reusing id, name and description of the PluginInstance class for your Extension. For the sake of minimal boilerplate the mixin behavior is emulated for these methods. I.e. if you inherit PluginInstance and any Extension, you do not have to reimplement these methods. | . ",
     "url": "/gettingstarted/extension/python/#technical-notes-and-limitations",
     
     "relUrl": "/gettingstarted/extension/python/#technical-notes-and-limitations"
-  },"40": {
+  },"41": {
     "doc": "Python",
     "title": "Contributing Python plugins",
     "content": ". | Fork the Python plugins repository. | Clone your fork into your Python user plugin location. git clone https://github.com/&lt;your_username&gt;/python.git \"${USER_DATA_DIR}/python/plugins\" . You can find the ${USER_DATA_DIR} for your platform in this table. | Open the directory in your favorite IDE (PyCharmCE is a good choice). | Write your plugin. | Make sure it is polished (No bugs, few to no warnings, efficient, readable, maintainable, …). | Commit, push, send a PR. | . ",
     "url": "/gettingstarted/extension/python/#contributing-python-plugins",
     
     "relUrl": "/gettingstarted/extension/python/#contributing-python-plugins"
-  },"41": {
+  },"42": {
     "doc": "Python",
     "title": "Python",
     "content": " ",
     "url": "/gettingstarted/extension/python/",
     
     "relUrl": "/gettingstarted/extension/python/"
-  },"42": {
+  },"43": {
     "doc": "From source",
     "title": "From source",
     "content": "Building and installing from sources is the least convenient, but most flexible way. This way is usually for developers only. The build process is trivial, but you have to manage the dependencies on your own. See the OBS package specs for up to date build and runtime dependencies. git clone --recursive https://github.com/albertlauncher/albert.git cmake -B build -S albert -DCMAKE_INSTALL_PREFIX=/usr -DCMAKE_BUILD_TYPE=Debug cmake --build build cmake --install build . ",
