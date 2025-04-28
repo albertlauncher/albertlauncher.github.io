@@ -218,14 +218,14 @@
   },"31": {
     "doc": "Linux",
     "title": "Linux",
-    "content": "Supported distributions, downloads and installation instructions for the base distributions can be found in the Open Build Service software center. Visit OBS software center . The packages are built and hosted at Open Build Service. Several other distributions are supported when used with the correct package base: . | Distribution | Package base | . | Elementary OS 7 | Ubuntu 22.04 ℹ️ | . | Elementary OS 6 | Ubuntu 20.04 ℹ️ | . | Linux Mint 22 | Ubuntu 24.04 ℹ️ | . | Linux Mint 21 | Ubuntu 22.04 ℹ️ | . | Linux Mint 20 | Ubuntu 20.04 ℹ️ | . | Linux Mint DE 6 | Debian 12.0 ℹ️ | . | Manjaro | Arch Linux | . | PopOS! 22.04 | Ubuntu 22.04 ℹ️ | . | PopOS! 20.04 | Ubuntu 20.04 ℹ️ | . Feel free to add missing mappings to this table. ",
+    "content": "Base packages for Arch, Debian, Fedora, openSUSE, Raspbian and Ubuntu are built and hosted at Open Build Service. Installation instructions for each distribution can be found under “Add repository and install manually” in the OBS software center. This is the recommended way, because you will not get updates if you “Grab binary packages directly” instead. Visit OBS software center . Several other distributions are supported when used with the correct package base: . | Package base | Distribution | . | Ubuntu 24.04 | Elementary OS 8Linux Mint 22PopOS! 24.04 | . | Ubuntu 22.04 | Elementary OS 7Linux Mint 21PopOS! 22.04 | . | Ubuntu 20.04 | Elementary OS 6Linux Mint 20PopOS! 20.04 | . | Debian 12.0 | Linux Mint DE 6 | . | Arch Linux | CachyOSEndeavourOSGarudaManjaro | . ",
     "url": "/gettingstarted/install/linux/",
     
     "relUrl": "/gettingstarted/install/linux/"
   },"32": {
     "doc": "Linux",
     "title": "Unofficial packages",
-    "content": "Feel free to add repositories to this list. | ArchLinux AUR | nixOS | . ",
+    "content": ". | ArchLinux AUR | Gentoo | nixOS | . ",
     "url": "/gettingstarted/install/linux/#unofficial-packages",
     
     "relUrl": "/gettingstarted/install/linux/#unofficial-packages"
