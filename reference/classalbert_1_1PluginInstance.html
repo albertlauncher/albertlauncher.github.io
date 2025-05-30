@@ -140,6 +140,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a5a9678437750233481ca162744bdb93f" id="r_a5a9678437750233481ca162744bdb93f"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; QSettings &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1PluginInstance.html#a5a9678437750233481ca162744bdb93f">state</a> () const</td></tr>
 <tr class="memdesc:a5a9678437750233481ca162744bdb93f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Persistent plugin state.  <br /></td></tr>
 <tr class="separator:a5a9678437750233481ca162744bdb93f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac9051b125051feb0833d2f30bd917506" id="r_ac9051b125051feb0833d2f30bd917506"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1PluginInstance.html#ac9051b125051feb0833d2f30bd917506">readKeychain</a> (const QString &amp;key) const</td></tr>
+<tr class="memdesc:ac9051b125051feb0833d2f30bd917506"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reads the keychain value for <code>key</code>.  <br /></td></tr>
+<tr class="separator:ac9051b125051feb0833d2f30bd917506"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7e23a9b754d0c725e5897cd9d6d98ee9" id="r_a7e23a9b754d0c725e5897cd9d6d98ee9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1PluginInstance.html#a7e23a9b754d0c725e5897cd9d6d98ee9">writeKeychain</a> (const QString &amp;key, const QString &amp;value) const</td></tr>
+<tr class="memdesc:a7e23a9b754d0c725e5897cd9d6d98ee9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the keychain value of <code>key</code> to <code>value</code>.  <br /></td></tr>
+<tr class="separator:a7e23a9b754d0c725e5897cd9d6d98ee9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
@@ -364,6 +370,27 @@ Protected Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="ac9051b125051feb0833d2f30bd917506" name="ac9051b125051feb0833d2f30bd917506"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac9051b125051feb0833d2f30bd917506">&#9670;&#160;</a></span>readKeychain()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString albert::PluginInstance::readKeychain </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>key</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Reads the keychain value for <code>key</code>. </p>
+<p>Convenience function avoiding name conflicts. </p>
+
+</div>
+</div>
 <a id="a9413862a66464d1bdeb940e1d7971593" name="a9413862a66464d1bdeb940e1d7971593"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9413862a66464d1bdeb940e1d7971593">&#9670;&#160;</a></span>settings()</h2>
 
@@ -402,6 +429,37 @@ Protected Member Functions</h2></td></tr>
 <p>Persistent plugin state. </p>
 <p>Preconfigured according to albert conventions, i.e. using albert::state() configured to write to a section titled &lt;plugin-id&gt;. </p><dl class="section since"><dt>Since</dt><dd>0.23 </dd></dl>
 <dl class="section return"><dt>Returns</dt><dd>Preconfigured QSettings object for state storage. </dd></dl>
+
+</div>
+</div>
+<a id="a7e23a9b754d0c725e5897cd9d6d98ee9" name="a7e23a9b754d0c725e5897cd9d6d98ee9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7e23a9b754d0c725e5897cd9d6d98ee9">&#9670;&#160;</a></span>writeKeychain()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void albert::PluginInstance::writeKeychain </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>key</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>value</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Sets the keychain value of <code>key</code> to <code>value</code>. </p>
+<p>Convenience function avoiding name conflicts. </p>
 
 </div>
 </div>

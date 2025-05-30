@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['telemetryprovider_0',['TelemetryProvider',['../classalbert_1_1TelemetryProvider.html',1,'albert']]],
-  ['timeit_1',['TimeIt',['../structTimeIt.html',1,'']]],
-  ['triggerqueryhandler_2',['TriggerQueryHandler',['../classalbert_1_1TriggerQueryHandler.html',1,'albert']]]
+  ['standarditem_0',['StandardItem',['../classalbert_1_1util_1_1StandardItem.html',1,'albert::util']]],
+  ['strongdependency_1',['StrongDependency',['../classalbert_1_1StrongDependency.html',1,'albert']]]
 ];

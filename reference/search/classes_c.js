@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['standarditem_0',['StandardItem',['../classalbert_1_1StandardItem.html',1,'albert']]],
-  ['strongdependency_1',['StrongDependency',['../classalbert_1_1StrongDependency.html',1,'albert']]]
+  ['rankitem_0',['RankItem',['../classalbert_1_1RankItem.html',1,'albert']]],
+  ['resultitem_1',['ResultItem',['../classalbert_1_1ResultItem.html',1,'albert']]]
 ];

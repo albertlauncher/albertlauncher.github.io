@@ -1,9 +1,9 @@
 <map id="workspace/albert/include/albert/albert.h" name="workspace/albert/include/albert/albert.h">
-<area shape="rect" id="Node000001" title=" " alt="" coords="63,5,229,46"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="51,5,217,46"/>
 <area shape="rect" id="Node000002" title=" " alt="" coords="5,94,71,120"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="121,49,68,87,65,82,118,44"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="95,94,197,120"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="149,46,149,78,143,78,143,46"/>
-<area shape="rect" id="Node000004" title=" " alt="" coords="221,94,300,120"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="176,44,232,83,229,87,173,49"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="112,48,66,86,63,82,109,44"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="94,94,174,120"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="137,46,137,78,131,78,131,46"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="198,94,300,120"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="164,44,220,83,217,87,161,49"/>
 </map>

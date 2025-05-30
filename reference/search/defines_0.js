@@ -8,8 +8,6 @@ var searchData=
   ['albert_5fplugin_5fproperty_5fmember_5',['ALBERT_PLUGIN_PROPERTY_MEMBER',['../property_8h.html#a08058f7358683544c03e4d14bd71a031',1,'property.h']]],
   ['albert_5fproperty_6',['ALBERT_PROPERTY',['../property_8h.html#a19e664a0b38678487ade172aa8c61d5d',1,'property.h']]],
   ['albert_5fproperty_5fbase_7',['ALBERT_PROPERTY_BASE',['../property_8h.html#a69d43d35887c6a7bcdf961743bfcde2e',1,'property.h']]],
-  ['albert_5fproperty_5fconnect_5fcheckbox_8',['ALBERT_PROPERTY_CONNECT_CHECKBOX',['../property_8h.html#a2b7d7199366ae57309396a419cf39421',1,'property.h']]],
-  ['albert_5fproperty_5fconnect_5fspinbox_9',['ALBERT_PROPERTY_CONNECT_SPINBOX',['../property_8h.html#a18301fedc5894bbb2b294c46edbe6f1f',1,'property.h']]],
-  ['albert_5fproperty_5fgetset_10',['ALBERT_PROPERTY_GETSET',['../property_8h.html#a676ef7567c3e50c1d23798d6ab140a61',1,'property.h']]],
-  ['albert_5fproperty_5fmember_11',['ALBERT_PROPERTY_MEMBER',['../property_8h.html#a3e3e2661f264e96ea7c515fe8800e1f7',1,'property.h']]]
+  ['albert_5fproperty_5fgetset_8',['ALBERT_PROPERTY_GETSET',['../property_8h.html#a676ef7567c3e50c1d23798d6ab140a61',1,'property.h']]],
+  ['albert_5fproperty_5fmember_9',['ALBERT_PROPERTY_MEMBER',['../property_8h.html#a3e3e2661f264e96ea7c515fe8800e1f7',1,'property.h']]]
 ];

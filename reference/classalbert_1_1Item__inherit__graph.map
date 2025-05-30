@@ -1,5 +1,5 @@
 <map id="albert::Item" name="albert::Item">
-<area shape="rect" id="Node000001" title="Result items displayed in the query results list." alt="" coords="31,5,117,31"/>
-<area shape="rect" id="Node000002" href="$classalbert_1_1StandardItem.html" title="General purpose value type Item implememtation." alt="" coords="5,79,143,105"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="77,46,77,79,71,79,71,46"/>
+<area shape="rect" id="Node000001" title="Result items displayed in the query results list." alt="" coords="43,5,128,31"/>
+<area shape="rect" id="Node000002" href="$classalbert_1_1util_1_1StandardItem.html" title="General purpose value type Item implememtation." alt="" coords="5,79,166,105"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="88,46,88,79,83,79,83,46"/>
 </map>

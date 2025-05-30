@@ -122,6 +122,9 @@ Signals</h2></td></tr>
 <tr class="memitem:ac81feac24915e901b9660f0760905cbb" id="r_ac81feac24915e901b9660f0760905cbb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1Query.html#ac81feac24915e901b9660f0760905cbb">activeChanged</a> (bool active)</td></tr>
 <tr class="memdesc:ac81feac24915e901b9660f0760905cbb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Emitted when query processing started or finished.  <br /></td></tr>
 <tr class="separator:ac81feac24915e901b9660f0760905cbb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0939f30e55d7a4137a87fcee48fd311a" id="r_a0939f30e55d7a4137a87fcee48fd311a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1Query.html#a0939f30e55d7a4137a87fcee48fd311a">dataChanged</a> (uint i)</td></tr>
+<tr class="memdesc:a0939f30e55d7a4137a87fcee48fd311a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Emitted when a match item changed any of its fields.  <br /></td></tr>
+<tr class="separator:a0939f30e55d7a4137a87fcee48fd311a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -137,9 +140,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a0c146187b2692ee17330d8a80a49e642" id="r_a0c146187b2692ee17330d8a80a49e642"><td class="memItemLeft" align="right" valign="top">virtual Q_INVOKABLE bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1Query.html#a0c146187b2692ee17330d8a80a49e642">isActive</a> () const =0</td></tr>
 <tr class="memdesc:a0c146187b2692ee17330d8a80a49e642"><td class="mdescLeft">&#160;</td><td class="mdescRight">True if the query is currently being processed.  <br /></td></tr>
 <tr class="separator:a0c146187b2692ee17330d8a80a49e642"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a74d697e5bdc98ed0abeac06be4e84897" id="r_a74d697e5bdc98ed0abeac06be4e84897"><td class="memItemLeft" align="right" valign="top">virtual Q_INVOKABLE bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1Query.html#a74d697e5bdc98ed0abeac06be4e84897">isFinished</a> () const =0</td></tr>
-<tr class="memdesc:a74d697e5bdc98ed0abeac06be4e84897"><td class="mdescLeft">&#160;</td><td class="mdescRight">True if the query thread stopped.  <br /></td></tr>
-<tr class="separator:a74d697e5bdc98ed0abeac06be4e84897"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acc1d5475f190ca21ca914c6408910078" id="r_acc1d5475f190ca21ca914c6408910078"><td class="memItemLeft" align="right" valign="top">virtual Q_INVOKABLE const bool &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1Query.html#acc1d5475f190ca21ca914c6408910078">isValid</a> () const =0</td></tr>
 <tr class="memdesc:acc1d5475f190ca21ca914c6408910078"><td class="mdescLeft">&#160;</td><td class="mdescRight">True if query has not been cancelled.  <br /></td></tr>
 <tr class="separator:acc1d5475f190ca21ca914c6408910078"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -426,6 +426,34 @@ Protected Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a0939f30e55d7a4137a87fcee48fd311a" name="a0939f30e55d7a4137a87fcee48fd311a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0939f30e55d7a4137a87fcee48fd311a">&#9670;&#160;</a></span>dataChanged</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void albert::Query::dataChanged </td>
+          <td>(</td>
+          <td class="paramtype">uint&#160;</td>
+          <td class="paramname"><em>i</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">signal</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Emitted when a match item changed any of its fields. </p>
+
+</div>
+</div>
 <a id="a06f037b0abf075722f418e6c25396728" name="a06f037b0abf075722f418e6c25396728"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a06f037b0abf075722f418e6c25396728">&#9670;&#160;</a></span>fallbacks()</h2>
 
@@ -504,33 +532,6 @@ Protected Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>True if the query is currently being processed. </p>
-
-</div>
-</div>
-<a id="a74d697e5bdc98ed0abeac06be4e84897" name="a74d697e5bdc98ed0abeac06be4e84897"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a74d697e5bdc98ed0abeac06be4e84897">&#9670;&#160;</a></span>isFinished()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual Q_INVOKABLE bool albert::Query::isFinished </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>True if the query thread stopped. </p>
 
 </div>
 </div>

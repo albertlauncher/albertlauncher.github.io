@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['rankitem_0',['RankItem',['../classalbert_1_1RankItem.html',1,'albert']]],
-  ['resultitem_1',['ResultItem',['../classalbert_1_1ResultItem.html',1,'albert']]]
+  ['qlist_0',['QList',['../classQList.html',1,'']]],
+  ['qlist_3c_20qstring_20_3e_1',['QList&lt; QString &gt;',['../classQList.html',1,'']]],
+  ['query_2',['Query',['../classalbert_1_1Query.html',1,'albert']]]
 ];

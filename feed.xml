@@ -7,6 +7,188 @@
     
       
         <item>
+          <title>Albert v0.28.0 released</title>
+          <description>&lt;h1 id=&quot;albert-v0280-released&quot;&gt;Albert v0.28.0 released&lt;/h1&gt;
+
+&lt;h3 id=&quot;albert&quot;&gt;Albert&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Make global and triggered triggersqueryhandler behave the same&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;api&quot;&gt;API&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Force plugins to not convert from ascii.&lt;/li&gt;
+  &lt;li&gt;Move system related functions into &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;systemutil.h&lt;/code&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Remove &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;void open(const std::string &amp;amp;path);&lt;/code&gt;&lt;/li&gt;
+      &lt;li&gt;Remove default param workdir in &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;runDetachedProcess&lt;/code&gt;&lt;/li&gt;
+      &lt;li&gt;Add `long long runDetachedProcess(const QStringList&amp;amp;);&lt;/li&gt;
+      &lt;li&gt;Remove &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;open(const std::string &amp;amp;path);&lt;/code&gt;&lt;/li&gt;
+      &lt;li&gt;Add &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;open(const std::filesystem::path &amp;amp;path);&lt;/code&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Remove &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Query::isFinished()&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Changes to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;albert::util::InputHistory&lt;/code&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Add &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;uint limit() const;&lt;/code&gt;&lt;/li&gt;
+      &lt;li&gt;Add &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;void setLimit(uint);&lt;/code&gt;&lt;/li&gt;
+      &lt;li&gt;Support multiline entries (store in JSON format)&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Add keychain support
+    &lt;ul&gt;
+      &lt;li&gt;Add &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;QString PluginInstance::readKeychain(const QString &amp;amp; key) const;&lt;/code&gt;&lt;/li&gt;
+      &lt;li&gt;Add &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;void writeKeychain(const QString &amp;amp; key, const QString &amp;amp; value);&lt;/code&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Iconprovider add &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;mask:&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;comp:&lt;/code&gt; schemes
+    &lt;ul&gt;
+      &lt;li&gt;mask: Mask a given icon given a radius divisor.&lt;/li&gt;
+      &lt;li&gt;comp: Composes two given icons.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Move messagebox utils to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;messagebox.h&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Move utility symbols into &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;albert::util&lt;/code&gt; namespace&lt;/li&gt;
+  &lt;li&gt;Add class &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;albert::util::FileDownLoader&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Add class &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;albert::util::OAuthConfigWidget&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Add class &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;albert::util::OAuth&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Add &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;widgetsutil.h&lt;/code&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Add &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;bind&lt;/code&gt; function for QCheckBox&lt;/li&gt;
+      &lt;li&gt;Add &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;bind&lt;/code&gt; function for QLineEdit&lt;/li&gt;
+      &lt;li&gt;Add &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;bind&lt;/code&gt; function for QSpinBox&lt;/li&gt;
+      &lt;li&gt;Add &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;bind&lt;/code&gt; function for QDoubleSpinBox&lt;/li&gt;
+      &lt;li&gt;Remove &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ALBERT_PROPERTY_CONNECT_*&lt;/code&gt; macros&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Add &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;networkutil.h&lt;/code&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Move &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;albert::network()&lt;/code&gt; to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;albert::util::network&lt;/code&gt;&lt;/li&gt;
+      &lt;li&gt;Add &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;waitForFinished(QNetworkReply *reply)&lt;/code&gt;&lt;/li&gt;
+      &lt;li&gt;Add &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;QNetworkRequest makeRestRequest(…)&lt;/code&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Add CMake macros
+    &lt;ul&gt;
+      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;albert_plugin_link_qt&lt;/code&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;albert_plugin_dbus_interface&lt;/code&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;albert_plugin_sources&lt;/code&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;albert_plugin_link&lt;/code&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;albert_plugin_include_directories&lt;/code&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;albert_plugin_i18n&lt;/code&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;albert_plugin_generate_metadata&lt;/code&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;albert_plugin_compile_options&lt;/code&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Add dynamic items feature
+    &lt;ul&gt;
+      &lt;li&gt;Add interface class &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;albert::Item::Observer&lt;/code&gt;&lt;/li&gt;
+      &lt;li&gt;Add &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;void albert::Item::addObserver(Observer *observer);&lt;/code&gt;&lt;/li&gt;
+      &lt;li&gt;Add &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;void albert::Item::removeObserver(Observer *observer);&lt;/code&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Add &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;albert:&lt;/code&gt; scheme handling support
+    &lt;ul&gt;
+      &lt;li&gt;Add &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;albert::UrlHandler&lt;/code&gt; extension&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;plugins&quot;&gt;Plugins&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;chromium&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Show the full folder path&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;datetime&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Add paste action&lt;/li&gt;
+      &lt;li&gt;Dynamic item support&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;docs&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Compose icon with the books emoji to compensate for its 32x32 size&lt;/li&gt;
+      &lt;li&gt;Fix missing cache location initialization&lt;/li&gt;
+      &lt;li&gt;Fix directory init mismatch&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;mpris&lt;/strong&gt; → &lt;strong&gt;mediaremote&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;v6 macOS implementation&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;path&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Fix trigger behavior&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;snippets&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Fix https://github.com/albertlauncher/albert-plugin-snippets/issues/1&lt;/li&gt;
+      &lt;li&gt;Use query dependent synopsis&lt;/li&gt;
+      &lt;li&gt;Allow putting text directly into inputline&lt;/li&gt;
+      &lt;li&gt;Add input validation in snippet name input dialog&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;ssh&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Avoid empty match in global query.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;timer&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Use dynamic item feature&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;timezones&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Fix icon and translations&lt;/li&gt;
+      &lt;li&gt;Use batch add to avoid flicker&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;vpn&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Use dynamic item feature&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;websearch&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Fix 6.9 breaking tableview behavior&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;widgetsboxmodel&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Make use of Query::dataChanged for dynamic items&lt;/li&gt;
+      &lt;li&gt;Disable window properties for now&lt;/li&gt;
+      &lt;li&gt;Add input edit mode&lt;/li&gt;
+      &lt;li&gt;Change animation durations to a more calm behavior&lt;/li&gt;
+      &lt;li&gt;Drop redundant history text equality check&lt;/li&gt;
+      &lt;li&gt;Properly reset input history search on hide.&lt;/li&gt;
+      &lt;li&gt;Restore user input on backward history iteration end&lt;/li&gt;
+      &lt;li&gt;Fix macOS cmd+backspace behavior in multiline editing&lt;/li&gt;
+      &lt;li&gt;Fix weird selection glitch&lt;/li&gt;
+      &lt;li&gt;Fix out of bounds crashes. Trigger length is set async and may exceed the text length.&lt;/li&gt;
+      &lt;li&gt;Fix null query segfaults&lt;/li&gt;
+      &lt;li&gt;Fix comboboxes not showing system theme&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Check the &lt;a href=&quot;https://github.com/albertlauncher/albert/commits/v0.28.0&quot;&gt;GitHub repositories&lt;/a&gt; for details.&lt;/p&gt;
+</description>
+          <pubDate>2025-05-30T17:22:00+00:00</pubDate>
+          <link>https://albertlauncher.github.io/2025/05/30/albert-v0.28.0-released/</link>
+          <guid isPermaLink="true">https://albertlauncher.github.io/2025/05/30/albert-v0.28.0-released/</guid>
+        </item>
+      
+    
+      
+        <item>
           <title>Albert v0.27.8 released</title>
           <description>&lt;h1 id=&quot;albert-v0278-released&quot;&gt;Albert v0.27.8 released&lt;/h1&gt;
 
