@@ -24,7 +24,7 @@
     &lt;ul&gt;
       &lt;li&gt;Remove &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;void open(const std::string &amp;amp;path);&lt;/code&gt;&lt;/li&gt;
       &lt;li&gt;Remove default param workdir in &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;runDetachedProcess&lt;/code&gt;&lt;/li&gt;
-      &lt;li&gt;Add `long long runDetachedProcess(const QStringList&amp;amp;);&lt;/li&gt;
+      &lt;li&gt;Add &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;long long runDetachedProcess(const QStringList&amp;amp;);&lt;/code&gt;&lt;/li&gt;
       &lt;li&gt;Remove &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;open(const std::string &amp;amp;path);&lt;/code&gt;&lt;/li&gt;
       &lt;li&gt;Add &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;open(const std::filesystem::path &amp;amp;path);&lt;/code&gt;&lt;/li&gt;
     &lt;/ul&gt;
