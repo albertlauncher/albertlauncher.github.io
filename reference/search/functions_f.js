@@ -7,7 +7,7 @@ var searchData=
   ['refreshtoken_4',['refreshToken',['../classalbert_1_1util_1_1OAuth2.html#aa9dd4c8d927f47e898e69b26ac38f460',1,'albert::util::OAuth2']]],
   ['registerextension_5',['registerExtension',['../classalbert_1_1ExtensionRegistry.html#a680310c5eb7bfe2c5716a623bfdc206f',1,'albert::ExtensionRegistry']]],
   ['removed_6',['removed',['../classalbert_1_1ExtensionRegistry.html#a5ed04eff2f2f6230a6bd54ca0ab12e32',1,'albert::ExtensionRegistry']]],
-  ['removeobserver_7',['removeObserver',['../classalbert_1_1Item.html#a4791d25d38f298d79bfa6889c14f02b9',1,'albert::Item']]],
+  ['removeobserver_7',['removeobserver',['../classalbert_1_1Item.html#a4791d25d38f298d79bfa6889c14f02b9',1,'albert::Item::removeObserver()'],['../classalbert_1_1detail_1_1DynamicItem.html#a434afe1804af248c0a74bab64ea95671',1,'albert::detail::DynamicItem::removeObserver()']]],
   ['requestaccess_8',['requestAccess',['../classalbert_1_1util_1_1OAuth2.html#a67c22a2b3bf36170d30f73bf5d8036b3',1,'albert::util::OAuth2']]],
   ['resetiterator_9',['resetIterator',['../classalbert_1_1util_1_1InputHistory.html#a6bc94b69574ad4033c106e79cee18b67',1,'albert::util::InputHistory']]],
   ['restart_10',['restart',['../namespacealbert.html#a7c912d042d2e07024785b691c1121647',1,'albert']]],

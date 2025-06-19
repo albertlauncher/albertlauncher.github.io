@@ -115,64 +115,81 @@ $(document).ready(function(){initNavTree('widgetsutil_8h_source.html',''); initR
 <div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span>{</div>
 <div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span> </div>
 <div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span><span class="keyword">template</span>&lt;<span class="keyword">typename</span> T, <span class="keyword">typename</span> GET, <span class="keyword">typename</span> SET&gt;</div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span><span class="keyword">static</span> <span class="keywordtype">void</span> bind(QCheckBox *checkbox, T *<span class="keywordtype">object</span>, GET get, SET set)</div>
+<div class="foldopen" id="foldopen00020" data-start="{" data-end="}">
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno"><a class="line" href="namespacealbert_1_1util.html#a4e00218486eb9c6a4ef949ae41cd886e">   20</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="namespacealbert_1_1util.html#a4e00218486eb9c6a4ef949ae41cd886e">bind</a>(QCheckBox *checkbox, T *<span class="keywordtype">object</span>, GET get, SET set)</div>
 <div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>{</div>
 <div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>    checkbox-&gt;setChecked((object-&gt;*get)());</div>
 <div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>    QObject::connect(checkbox, &amp;QCheckBox::toggled, <span class="keywordtype">object</span>, set);</div>
 <div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>}</div>
+</div>
 <div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span> </div>
 <div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span><span class="keyword">template</span>&lt;<span class="keyword">typename</span> T, <span class="keyword">typename</span> GET, <span class="keyword">typename</span> SET, <span class="keyword">typename</span> SIG&gt;</div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span><span class="keyword">static</span> <span class="keywordtype">void</span> bind(QCheckBox *checkbox, T *<span class="keywordtype">object</span>, GET get, SET set, SIG sig)</div>
+<div class="foldopen" id="foldopen00034" data-start="{" data-end="}">
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno"><a class="line" href="namespacealbert_1_1util.html#a1e7975abc059efdd55e296dfab970036">   34</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="namespacealbert_1_1util.html#a4e00218486eb9c6a4ef949ae41cd886e">bind</a>(QCheckBox *checkbox, T *<span class="keywordtype">object</span>, GET get, SET set, SIG sig)</div>
 <div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>{</div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>    bind(checkbox, <span class="keywordtype">object</span>, get, set);</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>    <a class="code hl_function" href="namespacealbert_1_1util.html#a4e00218486eb9c6a4ef949ae41cd886e">bind</a>(checkbox, <span class="keywordtype">object</span>, get, set);</div>
 <div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>    QObject::connect(<span class="keywordtype">object</span>, sig, checkbox, &amp;QCheckBox::setChecked);</div>
 <div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>}</div>
+</div>
 <div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span> </div>
 <div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span><span class="keyword">template</span>&lt;<span class="keyword">typename</span> T, <span class="keyword">typename</span> GET, <span class="keyword">typename</span> SET&gt;</div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span><span class="keyword">static</span> <span class="keywordtype">void</span> bind(QLineEdit *lineedit, T *<span class="keywordtype">object</span>, GET get, SET set)</div>
+<div class="foldopen" id="foldopen00047" data-start="{" data-end="}">
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno"><a class="line" href="namespacealbert_1_1util.html#a9eb07f9766217b1ee52eaea1c03d0978">   47</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="namespacealbert_1_1util.html#a4e00218486eb9c6a4ef949ae41cd886e">bind</a>(QLineEdit *lineedit, T *<span class="keywordtype">object</span>, GET get, SET set)</div>
 <div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>{</div>
 <div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>    lineedit-&gt;setText((object-&gt;*get)());</div>
 <div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>    QObject::connect(lineedit, &amp;QLineEdit::editingFinished,</div>
 <div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>                     <span class="keywordtype">object</span>, [lineedit, <span class="keywordtype">object</span>, set] { (<span class="keywordtype">object</span>-&gt;*set)(lineedit-&gt;text()); });</div>
 <div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>}</div>
+</div>
 <div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span> </div>
 <div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span><span class="keyword">template</span>&lt;<span class="keyword">typename</span> T, <span class="keyword">typename</span> GET, <span class="keyword">typename</span> SET, <span class="keyword">typename</span> SIG&gt;</div>
-<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span><span class="keyword">static</span> <span class="keywordtype">void</span> bind(QLineEdit *lineedit, T *<span class="keywordtype">object</span>, GET get, SET set, SIG sig)</div>
+<div class="foldopen" id="foldopen00062" data-start="{" data-end="}">
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno"><a class="line" href="namespacealbert_1_1util.html#a298096c0059bea3aae2712431ca302b9">   62</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="namespacealbert_1_1util.html#a4e00218486eb9c6a4ef949ae41cd886e">bind</a>(QLineEdit *lineedit, T *<span class="keywordtype">object</span>, GET get, SET set, SIG sig)</div>
 <div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>{</div>
-<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>    bind(lineedit, <span class="keywordtype">object</span>, get, set);</div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>    <a class="code hl_function" href="namespacealbert_1_1util.html#a4e00218486eb9c6a4ef949ae41cd886e">bind</a>(lineedit, <span class="keywordtype">object</span>, get, set);</div>
 <div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>    QObject::connect(<span class="keywordtype">object</span>, sig, lineedit, &amp;QLineEdit::setText);</div>
 <div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>}</div>
+</div>
 <div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span> </div>
 <div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span><span class="keyword">template</span>&lt;<span class="keyword">typename</span> T, <span class="keyword">typename</span> GET, <span class="keyword">typename</span> SET&gt;</div>
-<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span><span class="keyword">static</span> <span class="keywordtype">void</span> bind(QSpinBox *spinbox, T *<span class="keywordtype">object</span>, GET get, SET set)</div>
+<div class="foldopen" id="foldopen00075" data-start="{" data-end="}">
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno"><a class="line" href="namespacealbert_1_1util.html#a0ec55a5e635d3e3dc6b014f94774eba4">   75</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="namespacealbert_1_1util.html#a4e00218486eb9c6a4ef949ae41cd886e">bind</a>(QSpinBox *spinbox, T *<span class="keywordtype">object</span>, GET get, SET set)</div>
 <div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>{</div>
 <div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>    spinbox-&gt;setValue((object-&gt;*get)());</div>
 <div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>    QObject::connect(spinbox, QOverload&lt;int&gt;::of(&amp;QSpinBox::valueChanged), <span class="keywordtype">object</span>, set);</div>
 <div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>}</div>
+</div>
 <div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span> </div>
 <div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span><span class="keyword">template</span>&lt;<span class="keyword">typename</span> T, <span class="keyword">typename</span> GET, <span class="keyword">typename</span> SET, <span class="keyword">typename</span> SIG&gt;</div>
-<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span><span class="keyword">static</span> <span class="keywordtype">void</span> bind(QSpinBox *spinbox, T *<span class="keywordtype">object</span>, GET get, SET set, SIG sig)</div>
+<div class="foldopen" id="foldopen00089" data-start="{" data-end="}">
+<div class="line"><a id="l00089" name="l00089"></a><span class="lineno"><a class="line" href="namespacealbert_1_1util.html#a2482acf0b3505629375273bd3837ff3a">   89</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="namespacealbert_1_1util.html#a4e00218486eb9c6a4ef949ae41cd886e">bind</a>(QSpinBox *spinbox, T *<span class="keywordtype">object</span>, GET get, SET set, SIG sig)</div>
 <div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span>{</div>
-<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span>    bind(spinbox, <span class="keywordtype">object</span>, get, set);</div>
+<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span>    <a class="code hl_function" href="namespacealbert_1_1util.html#a4e00218486eb9c6a4ef949ae41cd886e">bind</a>(spinbox, <span class="keywordtype">object</span>, get, set);</div>
 <div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span>    QObject::connect(<span class="keywordtype">object</span>, sig, spinbox, &amp;QSpinBox::setValue);</div>
 <div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span>}</div>
+</div>
 <div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span> </div>
 <div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span><span class="keyword">template</span>&lt;<span class="keyword">typename</span> T, <span class="keyword">typename</span> GET, <span class="keyword">typename</span> SET&gt;</div>
-<div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span><span class="keyword">static</span> <span class="keywordtype">void</span> bind(QDoubleSpinBox *spinbox, T *<span class="keywordtype">object</span>, GET get, SET set)</div>
+<div class="foldopen" id="foldopen00102" data-start="{" data-end="}">
+<div class="line"><a id="l00102" name="l00102"></a><span class="lineno"><a class="line" href="namespacealbert_1_1util.html#ab11fbc4225f888d8ac40722334e28f0c">  102</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="namespacealbert_1_1util.html#a4e00218486eb9c6a4ef949ae41cd886e">bind</a>(QDoubleSpinBox *spinbox, T *<span class="keywordtype">object</span>, GET get, SET set)</div>
 <div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span>{</div>
 <div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span>    spinbox-&gt;setValue((object-&gt;*get)());</div>
 <div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span>    QObject::connect(spinbox, QOverload&lt;double&gt;::of(&amp;QDoubleSpinBox::valueChanged), <span class="keywordtype">object</span>, set);</div>
 <div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span>}</div>
+</div>
 <div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span> </div>
 <div class="line"><a id="l00115" name="l00115"></a><span class="lineno">  115</span><span class="keyword">template</span>&lt;<span class="keyword">typename</span> T, <span class="keyword">typename</span> GET, <span class="keyword">typename</span> SET, <span class="keyword">typename</span> SIG&gt;</div>
-<div class="line"><a id="l00116" name="l00116"></a><span class="lineno">  116</span><span class="keyword">static</span> <span class="keywordtype">void</span> bind(QDoubleSpinBox *spinbox, T *<span class="keywordtype">object</span>, GET get, SET set, SIG sig)</div>
+<div class="foldopen" id="foldopen00116" data-start="{" data-end="}">
+<div class="line"><a id="l00116" name="l00116"></a><span class="lineno"><a class="line" href="namespacealbert_1_1util.html#a0cb86a1de76802b2ea831995edee7622">  116</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="namespacealbert_1_1util.html#a4e00218486eb9c6a4ef949ae41cd886e">bind</a>(QDoubleSpinBox *spinbox, T *<span class="keywordtype">object</span>, GET get, SET set, SIG sig)</div>
 <div class="line"><a id="l00117" name="l00117"></a><span class="lineno">  117</span>{</div>
-<div class="line"><a id="l00118" name="l00118"></a><span class="lineno">  118</span>    bind(spinbox, <span class="keywordtype">object</span>, get, set);</div>
+<div class="line"><a id="l00118" name="l00118"></a><span class="lineno">  118</span>    <a class="code hl_function" href="namespacealbert_1_1util.html#a4e00218486eb9c6a4ef949ae41cd886e">bind</a>(spinbox, <span class="keywordtype">object</span>, get, set);</div>
 <div class="line"><a id="l00119" name="l00119"></a><span class="lineno">  119</span>    QObject::connect(<span class="keywordtype">object</span>, sig, spinbox, &amp;QDoubleSpinBox::setValue);</div>
 <div class="line"><a id="l00120" name="l00120"></a><span class="lineno">  120</span>}</div>
+</div>
 <div class="line"><a id="l00121" name="l00121"></a><span class="lineno">  121</span> </div>
 <div class="line"><a id="l00122" name="l00122"></a><span class="lineno">  122</span>}</div>
 <div class="ttc" id="anamespacealbert_1_1util_html"><div class="ttname"><a href="namespacealbert_1_1util.html">albert::util</a></div><div class="ttdef"><b>Definition</b> backgroundexecutor.h:12</div></div>
+<div class="ttc" id="anamespacealbert_1_1util_html_a4e00218486eb9c6a4ef949ae41cd886e"><div class="ttname"><a href="namespacealbert_1_1util.html#a4e00218486eb9c6a4ef949ae41cd886e">albert::util::bind</a></div><div class="ttdeci">void bind(QCheckBox *checkbox, T *object, GET get, SET set)</div><div class="ttdoc">Binds a property of type bool of object to checkbox.</div><div class="ttdef"><b>Definition</b> widgetsutil.h:20</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

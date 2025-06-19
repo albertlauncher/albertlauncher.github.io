@@ -1,5 +1,6 @@
 var namespacealbert =
 [
+    [ "detail", "namespacealbert_1_1detail.html", "namespacealbert_1_1detail" ],
     [ "experimental", "namespacealbert_1_1experimental.html", "namespacealbert_1_1experimental" ],
     [ "util", "namespacealbert_1_1util.html", "namespacealbert_1_1util" ],
     [ "Action", "classalbert_1_1Action.html", "classalbert_1_1Action" ],

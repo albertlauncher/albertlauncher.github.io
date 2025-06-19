@@ -107,11 +107,15 @@ Inheritance diagram for albert::UrlHandler:</div>
 <div class="dyncontent">
 <div class="center"><iframe scrolling="no" frameborder="0" src="classalbert_1_1UrlHandler__inherit__graph.svg" width="132" height="111"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
-<table class="memberdecls">
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Albert scheme URL handler interface. </p>
+<p>Use this interface to register <code>albert:</code> URL handlers based on <a class="el" href="classalbert_1_1Extension.html#aba79b0b7a42a03addbb4223462362b06">Extension::id</a>. URLs with the host matching this extension's id are passed to the <a class="el" href="classalbert_1_1UrlHandler.html#a0ade4bde85fd917067c0163d60beffd6">handle()</a> method. E.g. the URL <code>albert://github/?…</code> will be redirected to the GitHub extension. </p>
+</div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:aab418f5dd235f7395467a4d921c6558d" id="r_aab418f5dd235f7395467a4d921c6558d"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1UrlHandler.html#aab418f5dd235f7395467a4d921c6558d">handle</a> (const QUrl &amp;)=0</td></tr>
-<tr class="separator:aab418f5dd235f7395467a4d921c6558d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0ade4bde85fd917067c0163d60beffd6" id="r_a0ade4bde85fd917067c0163d60beffd6"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1UrlHandler.html#a0ade4bde85fd917067c0163d60beffd6">handle</a> (const QUrl &amp;url)=0</td></tr>
+<tr class="memdesc:a0ade4bde85fd917067c0163d60beffd6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handles the <em>url</em> received.  <br /></td></tr>
+<tr class="separator:a0ade4bde85fd917067c0163d60beffd6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classalbert_1_1Extension"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classalbert_1_1Extension')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classalbert_1_1Extension.html">albert::Extension</a></td></tr>
 <tr class="memitem:aba79b0b7a42a03addbb4223462362b06 inherit pub_methods_classalbert_1_1Extension" id="r_aba79b0b7a42a03addbb4223462362b06"><td class="memItemLeft" align="right" valign="top">virtual QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1Extension.html#aba79b0b7a42a03addbb4223462362b06">id</a> () const =0</td></tr>
 <tr class="memdesc:aba79b0b7a42a03addbb4223462362b06 inherit pub_methods_classalbert_1_1Extension"><td class="mdescLeft">&#160;</td><td class="mdescRight">The identifier of this extension.  <br /></td></tr>
@@ -158,8 +162,8 @@ Protected Member Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="aab418f5dd235f7395467a4d921c6558d" name="aab418f5dd235f7395467a4d921c6558d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aab418f5dd235f7395467a4d921c6558d">&#9670;&#160;</a></span>handle()</h2>
+<a id="a0ade4bde85fd917067c0163d60beffd6" name="a0ade4bde85fd917067c0163d60beffd6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0ade4bde85fd917067c0163d60beffd6">&#9670;&#160;</a></span>handle()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -171,7 +175,7 @@ Protected Member Functions</h2></td></tr>
           <td class="memname">virtual void albert::UrlHandler::handle </td>
           <td>(</td>
           <td class="paramtype">const QUrl &amp;&#160;</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramname"><em>url</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -181,6 +185,8 @@ Protected Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Handles the <em>url</em> received. </p>
 
 </div>
 </div>

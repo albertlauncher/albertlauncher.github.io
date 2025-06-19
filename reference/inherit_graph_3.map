@@ -10,7 +10,7 @@
 <area shape="poly" id="edge6_Node000000_Node000013" title=" " alt="" coords="121,465,198,434,232,424,234,429,200,439,123,470"/>
 <area shape="rect" id="Node000014" href="$classalbert_1_1TriggerQueryHandler.html" title="Abstract trigger query handler." alt="" coords="199,449,377,475"/>
 <area shape="poly" id="edge7_Node000000_Node000014" title=" " alt="" coords="150,476,198,470,198,476,151,481"/>
-<area shape="rect" id="Node000017" href="$classalbert_1_1UrlHandler.html" title=" " alt="" coords="227,499,349,524"/>
+<area shape="rect" id="Node000017" href="$classalbert_1_1UrlHandler.html" title="Albert scheme URL handler interface." alt="" coords="227,499,349,524"/>
 <area shape="poly" id="edge10_Node000000_Node000017" title=" " alt="" coords="151,493,227,502,226,507,151,498"/>
 <area shape="rect" id="Node000015" href="$classalbert_1_1GlobalQueryHandler.html" title="Abstract global query handler." alt="" coords="425,449,600,475"/>
 <area shape="poly" id="edge8_Node000014_Node000015" title=" " alt="" coords="393,460,425,460,425,465,393,465"/>

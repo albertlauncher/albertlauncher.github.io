@@ -18,6 +18,43 @@
             <Path>namespacealbert.html</Path>
           <Subnodes>
              <Node>
+              <Name>detail</Name>
+              <Path>namespacealbert_1_1detail.html</Path>
+            <Subnodes>
+               <Node>
+                <Name>DynamicItem</Name>
+                <Path>classalbert_1_1detail_1_1DynamicItem.html</Path>
+              <Subnodes>
+                 <Node>
+                  <Name>DynamicItem</Name>
+                  <Path>classalbert_1_1detail_1_1DynamicItem.html</Path>
+                  <Anchor>a82c34fe0ccce788091fc6efedb26843e</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>~DynamicItem</Name>
+                  <Path>classalbert_1_1detail_1_1DynamicItem.html</Path>
+                  <Anchor>adedaa130fb33fcc3966aa930c8e16632</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>addObserver</Name>
+                  <Path>classalbert_1_1detail_1_1DynamicItem.html</Path>
+                  <Anchor>aceee7c9a782bb6618d7ef82967e05955</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>dataChanged</Name>
+                  <Path>classalbert_1_1detail_1_1DynamicItem.html</Path>
+                  <Anchor>a2766382acc73aff205b39624d45e9e2f</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>removeObserver</Name>
+                  <Path>classalbert_1_1detail_1_1DynamicItem.html</Path>
+                  <Anchor>a434afe1804af248c0a74bab64ea95671</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+              </Subnodes>
+             </Node>
+             <Node>
               <Name>experimental</Name>
               <Path>namespacealbert_1_1experimental.html</Path>
             <Subnodes>
@@ -551,32 +588,32 @@
                  <Node>
                   <Name>setAuthUrl</Name>
                   <Path>classalbert_1_1util_1_1OAuth2.html</Path>
-                  <Anchor>a8e241e2ceac909248da233b9a83bae93</Anchor>
+                  <Anchor>aae86239f3cce337f33c072bef91297f9</Anchor>
                  </Node>
                  <Node>
                   <Name>setClientId</Name>
                   <Path>classalbert_1_1util_1_1OAuth2.html</Path>
-                  <Anchor>ac73a9fe7114f42291b7ba8abb16d9a46</Anchor>
+                  <Anchor>ab09d126e2dcc9d5434c5a28d618b5409</Anchor>
                  </Node>
                  <Node>
                   <Name>setClientSecret</Name>
                   <Path>classalbert_1_1util_1_1OAuth2.html</Path>
-                  <Anchor>a681ec6e9dea30d6e108a0f100be3776c</Anchor>
+                  <Anchor>accd7998bae3fafb9d7b719098a4569ee</Anchor>
                  </Node>
                  <Node>
                   <Name>setPkceEnabled</Name>
                   <Path>classalbert_1_1util_1_1OAuth2.html</Path>
-                  <Anchor>a89f5f8ffaede5e5cc605606c24cde622</Anchor>
+                  <Anchor>aca164c192d4ad655712fdfb66ddc3ebc</Anchor>
                  </Node>
                  <Node>
                   <Name>setRedirectUri</Name>
                   <Path>classalbert_1_1util_1_1OAuth2.html</Path>
-                  <Anchor>acb268e6099cba2b4f0be3cf4e7b39a59</Anchor>
+                  <Anchor>acf21ca7688361fb8c27a93856cc3454d</Anchor>
                  </Node>
                  <Node>
                   <Name>setScope</Name>
                   <Path>classalbert_1_1util_1_1OAuth2.html</Path>
-                  <Anchor>a041a5b28878d71cfdeff2f996ef632b5</Anchor>
+                  <Anchor>a25724a1abbbaad2a5a73693b58fd60b8</Anchor>
                  </Node>
                  <Node>
                   <Name>setTokens</Name>
@@ -586,7 +623,7 @@
                  <Node>
                   <Name>setTokenUrl</Name>
                   <Path>classalbert_1_1util_1_1OAuth2.html</Path>
-                  <Anchor>a1d4cb25dd3e43e550064783eead8869f</Anchor>
+                  <Anchor>a63557cefcbfdd57c6f9532722bc9eb21</Anchor>
                  </Node>
                  <Node>
                   <Name>state</Name>
@@ -766,6 +803,46 @@
                 <Name>await</Name>
                 <Path>namespacealbert_1_1util.html</Path>
                 <Anchor>ad42cff176730ced1bd908a1437c20029</Anchor>
+               </Node>
+               <Node>
+                <Name>bind</Name>
+                <Path>namespacealbert_1_1util.html</Path>
+                <Anchor>a4e00218486eb9c6a4ef949ae41cd886e</Anchor>
+               </Node>
+               <Node>
+                <Name>bind</Name>
+                <Path>namespacealbert_1_1util.html</Path>
+                <Anchor>a1e7975abc059efdd55e296dfab970036</Anchor>
+               </Node>
+               <Node>
+                <Name>bind</Name>
+                <Path>namespacealbert_1_1util.html</Path>
+                <Anchor>ab11fbc4225f888d8ac40722334e28f0c</Anchor>
+               </Node>
+               <Node>
+                <Name>bind</Name>
+                <Path>namespacealbert_1_1util.html</Path>
+                <Anchor>a0cb86a1de76802b2ea831995edee7622</Anchor>
+               </Node>
+               <Node>
+                <Name>bind</Name>
+                <Path>namespacealbert_1_1util.html</Path>
+                <Anchor>a9eb07f9766217b1ee52eaea1c03d0978</Anchor>
+               </Node>
+               <Node>
+                <Name>bind</Name>
+                <Path>namespacealbert_1_1util.html</Path>
+                <Anchor>a298096c0059bea3aae2712431ca302b9</Anchor>
+               </Node>
+               <Node>
+                <Name>bind</Name>
+                <Path>namespacealbert_1_1util.html</Path>
+                <Anchor>a0ec55a5e635d3e3dc6b014f94774eba4</Anchor>
+               </Node>
+               <Node>
+                <Name>bind</Name>
+                <Path>namespacealbert_1_1util.html</Path>
+                <Anchor>a2482acf0b3505629375273bd3837ff3a</Anchor>
                </Node>
                <Node>
                 <Name>critical</Name>
@@ -1693,7 +1770,7 @@
                <Node>
                 <Name>handle</Name>
                 <Path>classalbert_1_1UrlHandler.html</Path>
-                <Anchor>aab418f5dd235f7395467a4d921c6558d</Anchor>
+                <Anchor>a0ade4bde85fd917067c0163d60beffd6</Anchor>
                </Node>
               </Subnodes>
              </Node>
@@ -1800,6 +1877,43 @@
             <Name>albert</Name>
             <Path>namespacealbert.html</Path>
           <Subnodes>
+             <Node>
+              <Name>detail</Name>
+              <Path>namespacealbert_1_1detail.html</Path>
+            <Subnodes>
+               <Node>
+                <Name>DynamicItem</Name>
+                <Path>classalbert_1_1detail_1_1DynamicItem.html</Path>
+              <Subnodes>
+                 <Node>
+                  <Name>DynamicItem</Name>
+                  <Path>classalbert_1_1detail_1_1DynamicItem.html</Path>
+                  <Anchor>a82c34fe0ccce788091fc6efedb26843e</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>~DynamicItem</Name>
+                  <Path>classalbert_1_1detail_1_1DynamicItem.html</Path>
+                  <Anchor>adedaa130fb33fcc3966aa930c8e16632</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>addObserver</Name>
+                  <Path>classalbert_1_1detail_1_1DynamicItem.html</Path>
+                  <Anchor>aceee7c9a782bb6618d7ef82967e05955</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>dataChanged</Name>
+                  <Path>classalbert_1_1detail_1_1DynamicItem.html</Path>
+                  <Anchor>a2766382acc73aff205b39624d45e9e2f</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>removeObserver</Name>
+                  <Path>classalbert_1_1detail_1_1DynamicItem.html</Path>
+                  <Anchor>a434afe1804af248c0a74bab64ea95671</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+              </Subnodes>
+             </Node>
              <Node>
               <Name>experimental</Name>
               <Path>namespacealbert_1_1experimental.html</Path>
@@ -2334,32 +2448,32 @@
                  <Node>
                   <Name>setAuthUrl</Name>
                   <Path>classalbert_1_1util_1_1OAuth2.html</Path>
-                  <Anchor>a8e241e2ceac909248da233b9a83bae93</Anchor>
+                  <Anchor>aae86239f3cce337f33c072bef91297f9</Anchor>
                  </Node>
                  <Node>
                   <Name>setClientId</Name>
                   <Path>classalbert_1_1util_1_1OAuth2.html</Path>
-                  <Anchor>ac73a9fe7114f42291b7ba8abb16d9a46</Anchor>
+                  <Anchor>ab09d126e2dcc9d5434c5a28d618b5409</Anchor>
                  </Node>
                  <Node>
                   <Name>setClientSecret</Name>
                   <Path>classalbert_1_1util_1_1OAuth2.html</Path>
-                  <Anchor>a681ec6e9dea30d6e108a0f100be3776c</Anchor>
+                  <Anchor>accd7998bae3fafb9d7b719098a4569ee</Anchor>
                  </Node>
                  <Node>
                   <Name>setPkceEnabled</Name>
                   <Path>classalbert_1_1util_1_1OAuth2.html</Path>
-                  <Anchor>a89f5f8ffaede5e5cc605606c24cde622</Anchor>
+                  <Anchor>aca164c192d4ad655712fdfb66ddc3ebc</Anchor>
                  </Node>
                  <Node>
                   <Name>setRedirectUri</Name>
                   <Path>classalbert_1_1util_1_1OAuth2.html</Path>
-                  <Anchor>acb268e6099cba2b4f0be3cf4e7b39a59</Anchor>
+                  <Anchor>acf21ca7688361fb8c27a93856cc3454d</Anchor>
                  </Node>
                  <Node>
                   <Name>setScope</Name>
                   <Path>classalbert_1_1util_1_1OAuth2.html</Path>
-                  <Anchor>a041a5b28878d71cfdeff2f996ef632b5</Anchor>
+                  <Anchor>a25724a1abbbaad2a5a73693b58fd60b8</Anchor>
                  </Node>
                  <Node>
                   <Name>setTokens</Name>
@@ -2369,7 +2483,7 @@
                  <Node>
                   <Name>setTokenUrl</Name>
                   <Path>classalbert_1_1util_1_1OAuth2.html</Path>
-                  <Anchor>a1d4cb25dd3e43e550064783eead8869f</Anchor>
+                  <Anchor>a63557cefcbfdd57c6f9532722bc9eb21</Anchor>
                  </Node>
                  <Node>
                   <Name>state</Name>
@@ -3351,7 +3465,7 @@
                <Node>
                 <Name>handle</Name>
                 <Path>classalbert_1_1UrlHandler.html</Path>
-                <Anchor>aab418f5dd235f7395467a4d921c6558d</Anchor>
+                <Anchor>a0ade4bde85fd917067c0163d60beffd6</Anchor>
                </Node>
               </Subnodes>
              </Node>
@@ -3464,6 +3578,10 @@
             <Name>albert::Item</Name>
             <Path>classalbert_1_1Item.html</Path>
           <Subnodes>
+             <Node>
+              <Name>albert::detail::DynamicItem</Name>
+              <Path>classalbert_1_1detail_1_1DynamicItem.html</Path>
+             </Node>
              <Node>
               <Name>albert::util::StandardItem</Name>
               <Path>classalbert_1_1util_1_1StandardItem.html</Path>
@@ -4478,6 +4596,37 @@
                        </Node>
                       </Subnodes>
                      </Node>
+                     <Node>
+                      <Name>albert::detail::DynamicItem</Name>
+                      <Path>classalbert_1_1detail_1_1DynamicItem.html</Path>
+                    <Subnodes>
+                       <Node>
+                        <Name>DynamicItem</Name>
+                        <Path>classalbert_1_1detail_1_1DynamicItem.html</Path>
+                        <Anchor>a82c34fe0ccce788091fc6efedb26843e</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>~DynamicItem</Name>
+                        <Path>classalbert_1_1detail_1_1DynamicItem.html</Path>
+                        <Anchor>adedaa130fb33fcc3966aa930c8e16632</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>addObserver</Name>
+                        <Path>classalbert_1_1detail_1_1DynamicItem.html</Path>
+                        <Anchor>aceee7c9a782bb6618d7ef82967e05955</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>dataChanged</Name>
+                        <Path>classalbert_1_1detail_1_1DynamicItem.html</Path>
+                        <Anchor>a2766382acc73aff205b39624d45e9e2f</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>removeObserver</Name>
+                        <Path>classalbert_1_1detail_1_1DynamicItem.html</Path>
+                        <Anchor>a434afe1804af248c0a74bab64ea95671</Anchor>
+                       </Node>
+                      </Subnodes>
+                     </Node>
                     </Subnodes>
                    </Node>
                    <Node>
@@ -4933,32 +5082,32 @@
                        <Node>
                         <Name>setAuthUrl</Name>
                         <Path>classalbert_1_1util_1_1OAuth2.html</Path>
-                        <Anchor>a8e241e2ceac909248da233b9a83bae93</Anchor>
+                        <Anchor>aae86239f3cce337f33c072bef91297f9</Anchor>
                        </Node>
                        <Node>
                         <Name>setClientId</Name>
                         <Path>classalbert_1_1util_1_1OAuth2.html</Path>
-                        <Anchor>ac73a9fe7114f42291b7ba8abb16d9a46</Anchor>
+                        <Anchor>ab09d126e2dcc9d5434c5a28d618b5409</Anchor>
                        </Node>
                        <Node>
                         <Name>setClientSecret</Name>
                         <Path>classalbert_1_1util_1_1OAuth2.html</Path>
-                        <Anchor>a681ec6e9dea30d6e108a0f100be3776c</Anchor>
+                        <Anchor>accd7998bae3fafb9d7b719098a4569ee</Anchor>
                        </Node>
                        <Node>
                         <Name>setPkceEnabled</Name>
                         <Path>classalbert_1_1util_1_1OAuth2.html</Path>
-                        <Anchor>a89f5f8ffaede5e5cc605606c24cde622</Anchor>
+                        <Anchor>aca164c192d4ad655712fdfb66ddc3ebc</Anchor>
                        </Node>
                        <Node>
                         <Name>setRedirectUri</Name>
                         <Path>classalbert_1_1util_1_1OAuth2.html</Path>
-                        <Anchor>acb268e6099cba2b4f0be3cf4e7b39a59</Anchor>
+                        <Anchor>acf21ca7688361fb8c27a93856cc3454d</Anchor>
                        </Node>
                        <Node>
                         <Name>setScope</Name>
                         <Path>classalbert_1_1util_1_1OAuth2.html</Path>
-                        <Anchor>a041a5b28878d71cfdeff2f996ef632b5</Anchor>
+                        <Anchor>a25724a1abbbaad2a5a73693b58fd60b8</Anchor>
                        </Node>
                        <Node>
                         <Name>setTokens</Name>
@@ -4968,7 +5117,7 @@
                        <Node>
                         <Name>setTokenUrl</Name>
                         <Path>classalbert_1_1util_1_1OAuth2.html</Path>
-                        <Anchor>a1d4cb25dd3e43e550064783eead8869f</Anchor>
+                        <Anchor>a63557cefcbfdd57c6f9532722bc9eb21</Anchor>
                        </Node>
                        <Node>
                         <Name>state</Name>
@@ -5901,7 +6050,7 @@
                        <Node>
                         <Name>handle</Name>
                         <Path>classalbert_1_1UrlHandler.html</Path>
-                        <Anchor>aab418f5dd235f7395467a4d921c6558d</Anchor>
+                        <Anchor>a0ade4bde85fd917067c0163d60beffd6</Anchor>
                        </Node>
                       </Subnodes>
                      </Node>
@@ -5911,6 +6060,46 @@
                     <Name>widgetsutil.h</Name>
                     <Path>widgetsutil_8h.html</Path>
                   <Subnodes>
+                     <Node>
+                      <Name>bind</Name>
+                      <Path>widgetsutil_8h.html</Path>
+                      <Anchor>a4e00218486eb9c6a4ef949ae41cd886e</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>bind</Name>
+                      <Path>widgetsutil_8h.html</Path>
+                      <Anchor>a1e7975abc059efdd55e296dfab970036</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>bind</Name>
+                      <Path>widgetsutil_8h.html</Path>
+                      <Anchor>ab11fbc4225f888d8ac40722334e28f0c</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>bind</Name>
+                      <Path>widgetsutil_8h.html</Path>
+                      <Anchor>a0cb86a1de76802b2ea831995edee7622</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>bind</Name>
+                      <Path>widgetsutil_8h.html</Path>
+                      <Anchor>a9eb07f9766217b1ee52eaea1c03d0978</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>bind</Name>
+                      <Path>widgetsutil_8h.html</Path>
+                      <Anchor>a298096c0059bea3aae2712431ca302b9</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>bind</Name>
+                      <Path>widgetsutil_8h.html</Path>
+                      <Anchor>a0ec55a5e635d3e3dc6b014f94774eba4</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>bind</Name>
+                      <Path>widgetsutil_8h.html</Path>
+                      <Anchor>a2482acf0b3505629375273bd3837ff3a</Anchor>
+                     </Node>
                     </Subnodes>
                    </Node>
                   </Subnodes>

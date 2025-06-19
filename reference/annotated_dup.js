@@ -1,6 +1,9 @@
 var annotated_dup =
 [
     [ "albert", "namespacealbert.html", [
+      [ "detail", "namespacealbert_1_1detail.html", [
+        [ "DynamicItem", "classalbert_1_1detail_1_1DynamicItem.html", "classalbert_1_1detail_1_1DynamicItem" ]
+      ] ],
       [ "experimental", "namespacealbert_1_1experimental.html", [
         [ "TimeIt", "structalbert_1_1experimental_1_1TimeIt.html", "structalbert_1_1experimental_1_1TimeIt" ]
       ] ],

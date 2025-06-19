@@ -60,8 +60,8 @@ var NAVTREEINDEX =
 [
 "action_8h.html",
 "classalbert_1_1Query.html#a63a77c2c9d83014f0b077a816c04e9ee",
-"classalbert_1_1util_1_1OAuth2.html#a13896d90592bb69fe98562e54b77c915",
-"namespacealbert_1_1util.html#a0a5f213a5d2ec4d73d39714b4896852c"
+"classalbert_1_1util_1_1OAuth2.html",
+"namespacealbert.html#a1998f7413d7a26e994fc3a8ff17df336"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

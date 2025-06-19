@@ -20,6 +20,7 @@ var hierarchy =
     ] ],
     [ "albert::util::IndexItem", "classalbert_1_1util_1_1IndexItem.html", null ],
     [ "albert::Item", "classalbert_1_1Item.html", [
+      [ "albert::detail::DynamicItem", "classalbert_1_1detail_1_1DynamicItem.html", null ],
       [ "albert::util::StandardItem", "classalbert_1_1util_1_1StandardItem.html", null ]
     ] ],
     [ "albert::util::Match", "classalbert_1_1util_1_1Match.html", null ],

@@ -38,5 +38,5 @@ var dir_4671dc9b76d7b8dfce70656ce33c3872 =
     [ "timeit.h", "timeit_8h.html", "timeit_8h" ],
     [ "triggerqueryhandler.h", "triggerqueryhandler_8h.html", "triggerqueryhandler_8h" ],
     [ "urlhandler.h", "urlhandler_8h.html", "urlhandler_8h" ],
-    [ "widgetsutil.h", "widgetsutil_8h.html", null ]
+    [ "widgetsutil.h", "widgetsutil_8h.html", "widgetsutil_8h" ]
 ];
