@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['version_0',['version',['../classalbert_1_1PluginMetaData.html#a9ea434d693b7a92928bd7a39b03e1821',1,'albert::PluginMetaData']]],
-  ['visiblechanged_1',['visibleChanged',['../classalbert_1_1Frontend.html#ab79083fefe87e8507531c895af9a30f0',1,'albert::Frontend']]]
+  ['version_0',['version',['../classalbert_1_1PluginMetadata.html#afede84c02c330e304d2203300cfef7c4',1,'albert::PluginMetadata']]],
+  ['visiblechanged_1',['visibleChanged',['../classalbert_1_1detail_1_1Frontend.html#a8b0a59627e2b56311ee309928a748ced',1,'albert::detail::Frontend']]]
 ];

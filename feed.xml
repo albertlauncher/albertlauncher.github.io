@@ -7,6 +7,107 @@
     
       
         <item>
+          <title>Albert v0.29.0 released</title>
+          <description>&lt;h1 id=&quot;albert-v0290-released&quot;&gt;Albert v0.29.0 released&lt;/h1&gt;
+
+&lt;h2 id=&quot;v0290-2025-06-24&quot;&gt;v0.29.0 (2025-06-24)&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;New GitHub plugin&lt;/li&gt;
+  &lt;li&gt;Next step in making the API more developer friendly&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;albert&quot;&gt;Albert&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Move AppQueryHandler into plugin&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;api&quot;&gt;API&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;c++23 👋&lt;/li&gt;
+  &lt;li&gt;Make &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;PluginLoader&lt;/code&gt; asynchronous&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;StandardItem&lt;/code&gt; changes
+    &lt;ul&gt;
+      &lt;li&gt;Make &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;input_action_text&lt;/code&gt; the last constructor argument&lt;/li&gt;
+      &lt;li&gt;Apply perfect forwarding in constructor and shared_ptr factory.&lt;/li&gt;
+      &lt;li&gt;The default behavior of &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;inputActionText()&lt;/code&gt; is to return &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;name()&lt;/code&gt; if
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;input_action_text&lt;/code&gt; is the null string. Set &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;input_action_text&lt;/code&gt; explicitly to
+the empty string to get no input action text at all.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Return &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;text()&lt;/code&gt; in &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Item::inputActionText&lt;/code&gt; base implementation&lt;/li&gt;
+  &lt;li&gt;Remove frontend related classes from public API&lt;/li&gt;
+  &lt;li&gt;Add &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;albert::util::toQString(const std::filesystem::path&amp;amp;)&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Simplify messagebox functions&lt;/li&gt;
+  &lt;li&gt;Add modal parent parameter to messagbox utils&lt;/li&gt;
+  &lt;li&gt;Drop &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;makeRestRequest&lt;/code&gt; from &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;networkutil.h&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Move &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ExtensionPlugin&lt;/code&gt; into &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;util&lt;/code&gt; namespace&lt;/li&gt;
+  &lt;li&gt;Move &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;TelemetryProvider&lt;/code&gt; into private namespace&lt;/li&gt;
+  &lt;li&gt;Rename &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;albert::util::FileDownloader&lt;/code&gt; to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;albert::util::Download&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Add &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;shared_ptr&amp;lt;Download&amp;gt; albert::util::Download::unique(const QUrl &amp;amp;url, const QString &amp;amp;path)&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Move plugin dependecies into &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;albert::util&lt;/code&gt; namespace&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;plugins&quot;&gt;Plugins&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;application&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Moved from core to plugin&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;applications&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Read env variable &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ALBERT_APPLICATIONS_COMMAND_PREFIX&lt;/code&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;bluetooth&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Fix MRU order&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;caffeine&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Fix completion behavior&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;docs&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Index docsets in background thread&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;github&lt;/strong&gt; 🆕&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;python&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Check and install missing dependencies &lt;em&gt;before&lt;/em&gt; loading plugins&lt;/li&gt;
+      &lt;li&gt;Add button that opens terminal in activated venv&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;ssh&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Fix missing sort in triggered handler&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;widgetsboxmodel&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Remove deprecated theme info&lt;/li&gt;
+      &lt;li&gt;Support F/B bindings for pgdown/pgup&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Check the &lt;a href=&quot;https://github.com/albertlauncher/albert/commits/v0.29.0&quot;&gt;GitHub repositories&lt;/a&gt; for details.&lt;/p&gt;
+</description>
+          <pubDate>2025-06-24T01:40:00+00:00</pubDate>
+          <link>https://albertlauncher.github.io/2025/06/24/albert-v0.29.0-released/</link>
+          <guid isPermaLink="true">https://albertlauncher.github.io/2025/06/24/albert-v0.29.0-released/</guid>
+        </item>
+      
+    
+      
+        <item>
           <title>Albert v0.28.2 released</title>
           <description>&lt;h1 id=&quot;albert-v0282-released&quot;&gt;Albert v0.28.2 released&lt;/h1&gt;
 

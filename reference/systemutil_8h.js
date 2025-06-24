@@ -10,5 +10,6 @@ var systemutil_8h =
     [ "runDetachedProcess", "systemutil_8h.html#a9e4734513e4be631e2e68390fa56aa64", null ],
     [ "setClipboardText", "systemutil_8h.html#abf4cba7652345a77281e6a1a8e2e3682", null ],
     [ "setClipboardTextAndPaste", "systemutil_8h.html#a1ad8cecaba343bb4d93dfbdc55191ee8", null ],
+    [ "toQString", "systemutil_8h.html#a3ecb8fdac2f680261fba23b044943e8b", null ],
     [ "tryCreateDirectory", "systemutil_8h.html#abcee75bbe9f068b924a3b8c2f3a9b8bd", null ]
 ];

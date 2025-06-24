@@ -1,7 +1,5 @@
 <map id="workspace/albert/include/albert/messagebox.h" name="workspace/albert/include/albert/messagebox.h">
-<area shape="rect" id="Node000001" title=" " alt="" coords="40,5,205,46"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="5,94,112,120"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="109,48,80,83,76,80,105,45"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="135,94,238,120"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="140,45,169,80,165,83,136,48"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,171,46"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="37,94,139,120"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="91,46,91,78,85,78,85,46"/>
 </map>

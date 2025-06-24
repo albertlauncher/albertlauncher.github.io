@@ -99,13 +99,22 @@ $(document).ready(function(){initNavTree('namespacealbert_1_1util.html',''); ini
   <div class="headertitle"><div class="title">albert::util Namespace Reference</div></div>
 </div><!--header-->
 <div class="contents">
+
+<p>Albert utility namespace.  
+<a href="namespacealbert_1_1util.html#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1util_1_1BackgroundExecutor.html">BackgroundExecutor</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Provides a lean interface for recurring indexing tasks.  <a href="classalbert_1_1util_1_1BackgroundExecutor.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1util_1_1FileDownloader.html">FileDownloader</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1util_1_1Dependency.html">Dependency</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1util_1_1Download.html">Download</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Downloads a file from the given URL to the given path.  <a href="classalbert_1_1util_1_1Download.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1util_1_1ExtensionPlugin.html">ExtensionPlugin</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convenience base class for extension plugins.  <a href="classalbert_1_1util_1_1ExtensionPlugin.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1util_1_1IndexItem.html">IndexItem</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">An item utlized by ItemIndex.  <a href="classalbert_1_1util_1_1IndexItem.html#details">More...</a><br /></td></tr>
@@ -134,54 +143,37 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1util_1_1OAuthConfigWidget.html">OAuthConfigWidget</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1util_1_1StandardItem.html">StandardItem</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">General purpose value type Item implememtation.  <a href="classalbert_1_1util_1_1StandardItem.html#details">More...</a><br /></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">General purpose <a class="el" href="classalbert_1_1Item.html">Item</a> implementation.  <a href="classalbert_1_1util_1_1StandardItem.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1util_1_1StrongDependency.html">StrongDependency</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convenience holder class for plugin hard dependencies.  <a href="classalbert_1_1util_1_1StrongDependency.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1util_1_1WeakDependency.html">WeakDependency</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convenience holder class for plugin soft dependencies.  <a href="classalbert_1_1util_1_1WeakDependency.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a81236ee0855b1024c4d97db9d3d54250" id="r_a81236ee0855b1024c4d97db9d3d54250"><td class="memItemLeft" align="right" valign="top">QPixmap&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacealbert_1_1util.html#a81236ee0855b1024c4d97db9d3d54250">pixmapFromUrl</a> (const QString &amp;url, const QSize &amp;requestedSize)</td></tr>
-<tr class="memdesc:a81236ee0855b1024c4d97db9d3d54250"><td class="mdescLeft">&#160;</td><td class="mdescRight">URL based icon factory.  <br /></td></tr>
-<tr class="separator:a81236ee0855b1024c4d97db9d3d54250"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a18b05bb035188dbaefc02f15550888a3" id="r_a18b05bb035188dbaefc02f15550888a3"><td class="memItemLeft" align="right" valign="top">QPixmap&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacealbert_1_1util.html#a18b05bb035188dbaefc02f15550888a3">pixmapFromUrls</a> (const <a class="el" href="systemutil_8h.html#a10f4ad2af6f15f47c0bf236178ae0105">QStringList</a> &amp;urls, const QSize &amp;requestedSize)</td></tr>
-<tr class="memdesc:a18b05bb035188dbaefc02f15550888a3"><td class="mdescLeft">&#160;</td><td class="mdescRight">URL list based icon factory.  <br /></td></tr>
-<tr class="separator:a18b05bb035188dbaefc02f15550888a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aee0475070a2ef27ceacf7ff581aa1dcb" id="r_aee0475070a2ef27ceacf7ff581aa1dcb"><td class="memItemLeft" align="right" valign="top">QIcon&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacealbert_1_1util.html#aee0475070a2ef27ceacf7ff581aa1dcb">iconFromUrl</a> (const QString &amp;url)</td></tr>
-<tr class="memdesc:aee0475070a2ef27ceacf7ff581aa1dcb"><td class="mdescLeft">&#160;</td><td class="mdescRight">URL based icon factory.  <br /></td></tr>
-<tr class="separator:aee0475070a2ef27ceacf7ff581aa1dcb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac61a5b3def2bde052771d4023c24d47c" id="r_ac61a5b3def2bde052771d4023c24d47c"><td class="memItemLeft" align="right" valign="top">QIcon&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacealbert_1_1util.html#ac61a5b3def2bde052771d4023c24d47c">iconFromUrls</a> (const <a class="el" href="systemutil_8h.html#a10f4ad2af6f15f47c0bf236178ae0105">QStringList</a> &amp;urls)</td></tr>
-<tr class="memdesc:ac61a5b3def2bde052771d4023c24d47c"><td class="mdescLeft">&#160;</td><td class="mdescRight">URL list based icon factory.  <br /></td></tr>
-<tr class="separator:ac61a5b3def2bde052771d4023c24d47c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6d5932d7739520ffbce51aa8679cba70" id="r_a6d5932d7739520ffbce51aa8679cba70"><td class="memItemLeft" align="right" valign="top">QPixmap&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacealbert_1_1util.html#a6d5932d7739520ffbce51aa8679cba70">genericPixmap</a> (int size, const QColor &amp;bgcolor={}, const QColor &amp;fgcolor=Qt::black, const QString &amp;text={}, float scalar=1.)</td></tr>
-<tr class="memdesc:a6d5932d7739520ffbce51aa8679cba70"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generic pixmap factory.  <br /></td></tr>
-<tr class="separator:a6d5932d7739520ffbce51aa8679cba70"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acb8e496153900bafec073fbb2399ea7c" id="r_acb8e496153900bafec073fbb2399ea7c"><td class="memItemLeft" align="right" valign="top">QIcon&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacealbert_1_1util.html#acb8e496153900bafec073fbb2399ea7c">genericIcon</a> (const QColor &amp;bgcolor={}, const QColor &amp;fgcolor=Qt::black, const QString &amp;text={}, float scalar=1.)</td></tr>
-<tr class="memdesc:acb8e496153900bafec073fbb2399ea7c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generic icon factory.  <br /></td></tr>
-<tr class="separator:acb8e496153900bafec073fbb2399ea7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abeb18148b6707265b58b1dde1535eeec" id="r_abeb18148b6707265b58b1dde1535eeec"><td class="memItemLeft" align="right" valign="top">QIcon&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacealbert_1_1util.html#abeb18148b6707265b58b1dde1535eeec">fileIcon</a> (const QString &amp;path)</td></tr>
-<tr class="memdesc:abeb18148b6707265b58b1dde1535eeec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create an icon for a file using <a href="https://doc.qt.io/qt/qfileiconprovider.html">QFileIconProvider</a>.  <br /></td></tr>
-<tr class="separator:abeb18148b6707265b58b1dde1535eeec"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad95b11d04529e273e83d7ccf21880049" id="r_ad95b11d04529e273e83d7ccf21880049"><td class="memItemLeft" align="right" valign="top">const QRegularExpression&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacealbert_1_1util.html#ad95b11d04529e273e83d7ccf21880049">default_separator_regex</a> (QStringLiteral(&quot;([\\s\\\\/\\-\\[\\](){}#!?&lt;&gt;\&quot;'=+*.:,;_]+)&quot;))</td></tr>
 <tr class="separator:ad95b11d04529e273e83d7ccf21880049"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a251233ec103b28751d10852f273d5798" id="r_a251233ec103b28751d10852f273d5798"><td class="memItemLeft" align="right" valign="top">QMessageBox::StandardButton&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacealbert_1_1util.html#a251233ec103b28751d10852f273d5798">question</a> (const QString &amp;text, QMessageBox::StandardButtons buttons=QMessageBox::StandardButtons(QMessageBox::Yes|QMessageBox::No), QMessageBox::StandardButton default_button=QMessageBox::NoButton)</td></tr>
-<tr class="memdesc:a251233ec103b28751d10852f273d5798"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shows a question message box containing <em>text</em> with the given <em>buttons</em> and <em>default_button</em>.  <br /></td></tr>
-<tr class="separator:a251233ec103b28751d10852f273d5798"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a53d9796f16ef5e40224ef48d47ae5004" id="r_a53d9796f16ef5e40224ef48d47ae5004"><td class="memItemLeft" align="right" valign="top">QMessageBox::StandardButton&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacealbert_1_1util.html#a53d9796f16ef5e40224ef48d47ae5004">information</a> (const QString &amp;text, QMessageBox::StandardButtons buttons=QMessageBox::Ok, QMessageBox::StandardButton default_button=QMessageBox::NoButton)</td></tr>
-<tr class="memdesc:a53d9796f16ef5e40224ef48d47ae5004"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shows an information message box containing <em>text</em> with the given <em>buttons</em> and <em>default_button</em>.  <br /></td></tr>
-<tr class="separator:a53d9796f16ef5e40224ef48d47ae5004"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae0c0bdae8656cdde1e192346c547ae18" id="r_ae0c0bdae8656cdde1e192346c547ae18"><td class="memItemLeft" align="right" valign="top">QMessageBox::StandardButton&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacealbert_1_1util.html#ae0c0bdae8656cdde1e192346c547ae18">warning</a> (const QString &amp;text, QMessageBox::StandardButtons buttons=QMessageBox::Ok, QMessageBox::StandardButton default_button=QMessageBox::NoButton)</td></tr>
-<tr class="memdesc:ae0c0bdae8656cdde1e192346c547ae18"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shows a warning message box containing <em>text</em> with the given <em>buttons</em> and <em>default_button</em>.  <br /></td></tr>
-<tr class="separator:ae0c0bdae8656cdde1e192346c547ae18"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0a5f213a5d2ec4d73d39714b4896852c" id="r_a0a5f213a5d2ec4d73d39714b4896852c"><td class="memItemLeft" align="right" valign="top">QMessageBox::StandardButton&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacealbert_1_1util.html#a0a5f213a5d2ec4d73d39714b4896852c">critical</a> (const QString &amp;text, QMessageBox::StandardButtons buttons=QMessageBox::Ok, QMessageBox::StandardButton default_button=QMessageBox::NoButton)</td></tr>
-<tr class="memdesc:a0a5f213a5d2ec4d73d39714b4896852c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shows a critical message box containing <em>text</em> with the given <em>buttons</em> and <em>default_button</em>.  <br /></td></tr>
-<tr class="separator:a0a5f213a5d2ec4d73d39714b4896852c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a269d93ec607848a13e93d9e2d47b5762" id="r_a269d93ec607848a13e93d9e2d47b5762"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacealbert_1_1util.html#a269d93ec607848a13e93d9e2d47b5762">question</a> (const QString &amp;text, QWidget *parent=nullptr)</td></tr>
+<tr class="memdesc:a269d93ec607848a13e93d9e2d47b5762"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shows a question message box with Yes and No buttons.  <br /></td></tr>
+<tr class="separator:a269d93ec607848a13e93d9e2d47b5762"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba684528627f3372c432cbd0a6eff899" id="r_aba684528627f3372c432cbd0a6eff899"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacealbert_1_1util.html#aba684528627f3372c432cbd0a6eff899">information</a> (const QString &amp;text, QWidget *parent=nullptr)</td></tr>
+<tr class="memdesc:aba684528627f3372c432cbd0a6eff899"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shows an information message box with a single Ok button.  <br /></td></tr>
+<tr class="separator:aba684528627f3372c432cbd0a6eff899"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4688a13cb126f47c7def9f58d030b68e" id="r_a4688a13cb126f47c7def9f58d030b68e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacealbert_1_1util.html#a4688a13cb126f47c7def9f58d030b68e">warning</a> (const QString &amp;text, QWidget *parent=nullptr)</td></tr>
+<tr class="memdesc:a4688a13cb126f47c7def9f58d030b68e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shows a warning message box with a single Ok button.  <br /></td></tr>
+<tr class="separator:a4688a13cb126f47c7def9f58d030b68e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aee7437df90752fea81920c276cf34762" id="r_aee7437df90752fea81920c276cf34762"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacealbert_1_1util.html#aee7437df90752fea81920c276cf34762">critical</a> (const QString &amp;text, QWidget *parent=nullptr)</td></tr>
+<tr class="memdesc:aee7437df90752fea81920c276cf34762"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shows a critical message box with a single Ok button.  <br /></td></tr>
+<tr class="separator:aee7437df90752fea81920c276cf34762"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4eb04697695099b3039b1aba8dd7508b" id="r_a4eb04697695099b3039b1aba8dd7508b"><td class="memItemLeft" align="right" valign="top">QNetworkAccessManager &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacealbert_1_1util.html#a4eb04697695099b3039b1aba8dd7508b">network</a> ()</td></tr>
 <tr class="memdesc:a4eb04697695099b3039b1aba8dd7508b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a global, threadlocal QNetworkAccessManager.  <br /></td></tr>
 <tr class="separator:a4eb04697695099b3039b1aba8dd7508b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad42cff176730ced1bd908a1437c20029" id="r_ad42cff176730ced1bd908a1437c20029"><td class="memItemLeft" align="right" valign="top">QNetworkReply *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacealbert_1_1util.html#ad42cff176730ced1bd908a1437c20029">await</a> (QNetworkReply *reply)</td></tr>
 <tr class="memdesc:ad42cff176730ced1bd908a1437c20029"><td class="mdescLeft">&#160;</td><td class="mdescRight">Blocks until <code>reply</code> is finished.  <br /></td></tr>
 <tr class="separator:ad42cff176730ced1bd908a1437c20029"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9399d033cc28d5a9c7428600041377b9" id="r_a9399d033cc28d5a9c7428600041377b9"><td class="memItemLeft" align="right" valign="top">QNetworkRequest&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacealbert_1_1util.html#a9399d033cc28d5a9c7428600041377b9">makeRestRequest</a> (const QString &amp;base_url, const QString &amp;path, const QUrlQuery &amp;query, const QByteArray &amp;authorization_header)</td></tr>
-<tr class="separator:a9399d033cc28d5a9c7428600041377b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa7dfede720bb3bdfb4e3cdff4cad4e46" id="r_aa7dfede720bb3bdfb4e3cdff4cad4e46"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacealbert_1_1util.html#aa7dfede720bb3bdfb4e3cdff4cad4e46">openUrl</a> (const QString &amp;url)</td></tr>
 <tr class="memdesc:aa7dfede720bb3bdfb4e3cdff4cad4e46"><td class="mdescLeft">&#160;</td><td class="mdescRight">Opens <code>url</code> with the default handler for the scheme.  <br /></td></tr>
 <tr class="separator:aa7dfede720bb3bdfb4e3cdff4cad4e46"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -212,6 +204,9 @@ Functions</h2></td></tr>
 <tr class="memitem:abcee75bbe9f068b924a3b8c2f3a9b8bd" id="r_abcee75bbe9f068b924a3b8c2f3a9b8bd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacealbert_1_1util.html#abcee75bbe9f068b924a3b8c2f3a9b8bd">tryCreateDirectory</a> (const std::filesystem::path &amp;path)</td></tr>
 <tr class="memdesc:abcee75bbe9f068b924a3b8c2f3a9b8bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tries to create a directory at <code>path</code>.  <br /></td></tr>
 <tr class="separator:abcee75bbe9f068b924a3b8c2f3a9b8bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3ecb8fdac2f680261fba23b044943e8b" id="r_a3ecb8fdac2f680261fba23b044943e8b"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacealbert_1_1util.html#a3ecb8fdac2f680261fba23b044943e8b">toQString</a> (const std::filesystem::path &amp;path)</td></tr>
+<tr class="memdesc:a3ecb8fdac2f680261fba23b044943e8b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a QString representation of <code>path</code>.  <br /></td></tr>
+<tr class="separator:a3ecb8fdac2f680261fba23b044943e8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4e00218486eb9c6a4ef949ae41cd886e" id="r_a4e00218486eb9c6a4ef949ae41cd886e"><td class="memTemplParams" colspan="2">template&lt;typename T , typename GET , typename SET &gt; </td></tr>
 <tr class="memitem:a4e00218486eb9c6a4ef949ae41cd886e"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacealbert_1_1util.html#a4e00218486eb9c6a4ef949ae41cd886e">bind</a> (QCheckBox *checkbox, T *object, GET get, SET set)</td></tr>
 <tr class="memdesc:a4e00218486eb9c6a4ef949ae41cd886e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Binds a property of type <code>bool</code> of <em>object</em> to <em>checkbox</em>.  <br /></td></tr>
@@ -245,7 +240,9 @@ Functions</h2></td></tr>
 <tr class="memdesc:a0cb86a1de76802b2ea831995edee7622"><td class="mdescLeft">&#160;</td><td class="mdescRight">Binds a property of type <code>double</code> of <em>object</em> to <em>spinbox</em>.  <br /></td></tr>
 <tr class="separator:a0cb86a1de76802b2ea831995edee7622"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Albert utility namespace. </p>
+</div><h2 class="groupheader">Function Documentation</h2>
 <a id="ad42cff176730ced1bd908a1437c20029" name="ad42cff176730ced1bd908a1437c20029"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad42cff176730ced1bd908a1437c20029">&#9670;&#160;</a></span>await()</h2>
 
@@ -650,14 +647,14 @@ template&lt;typename T , typename GET , typename SET , typename SIG &gt; </div>
 
 </div>
 </div>
-<a id="a0a5f213a5d2ec4d73d39714b4896852c" name="a0a5f213a5d2ec4d73d39714b4896852c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0a5f213a5d2ec4d73d39714b4896852c">&#9670;&#160;</a></span>critical()</h2>
+<a id="aee7437df90752fea81920c276cf34762" name="aee7437df90752fea81920c276cf34762"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aee7437df90752fea81920c276cf34762">&#9670;&#160;</a></span>critical()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">QMessageBox::StandardButton albert::util::critical </td>
+          <td class="memname">void albert::util::critical </td>
           <td>(</td>
           <td class="paramtype">const QString &amp;&#160;</td>
           <td class="paramname"><em>text</em>, </td>
@@ -665,14 +662,8 @@ template&lt;typename T , typename GET , typename SET , typename SIG &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">QMessageBox::StandardButtons&#160;</td>
-          <td class="paramname"><em>buttons</em> = <code>QMessageBox::Ok</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">QMessageBox::StandardButton&#160;</td>
-          <td class="paramname"><em>default_button</em> = <code>QMessageBox::NoButton</code>&#160;</td>
+          <td class="paramtype">QWidget *&#160;</td>
+          <td class="paramname"><em>parent</em> = <code>nullptr</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -682,9 +673,8 @@ template&lt;typename T , typename GET , typename SET , typename SIG &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>Shows a critical message box containing <em>text</em> with the given <em>buttons</em> and <em>default_button</em>. </p>
-<p>The message box modal will appear modal to the main window and have the app name as title.</p>
-<p>Returns the button pressed by the user. </p>
+<p>Shows a critical message box with a single Ok button. </p>
+<p>The title of the message box is set to the application name and the message to <em>text</em>. The message box will appear modal to <em>parent</em> or the main window if undefined. </p>
 
 </div>
 </div>
@@ -703,145 +693,6 @@ template&lt;typename T , typename GET , typename SET , typename SIG &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
-
-</div>
-</div>
-<a id="abeb18148b6707265b58b1dde1535eeec" name="abeb18148b6707265b58b1dde1535eeec"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abeb18148b6707265b58b1dde1535eeec">&#9670;&#160;</a></span>fileIcon()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">QIcon albert::util::fileIcon </td>
-          <td>(</td>
-          <td class="paramtype">const QString &amp;&#160;</td>
-          <td class="paramname"><em>path</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Create an icon for a file using <a href="https://doc.qt.io/qt/qfileiconprovider.html">QFileIconProvider</a>. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">path</td><td>The path to the file. </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>The file icon. </dd></dl>
-
-</div>
-</div>
-<a id="acb8e496153900bafec073fbb2399ea7c" name="acb8e496153900bafec073fbb2399ea7c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acb8e496153900bafec073fbb2399ea7c">&#9670;&#160;</a></span>genericIcon()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">QIcon albert::util::genericIcon </td>
-          <td>(</td>
-          <td class="paramtype">const QColor &amp;&#160;</td>
-          <td class="paramname"><em>bgcolor</em> = <code>{}</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const QColor &amp;&#160;</td>
-          <td class="paramname"><em>fgcolor</em> = <code>Qt::black</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const QString &amp;&#160;</td>
-          <td class="paramname"><em>text</em> = <code>{}</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>scalar</em> = <code>1.</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Generic icon factory. </p>
-<p>Supports drawing a background circle with some text on it.</p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">bgcolor</td><td>The background color. Default: none. </td></tr>
-    <tr><td class="paramname">fgcolor</td><td>The text color. Default: black. </td></tr>
-    <tr><td class="paramname">text</td><td>The text to display. Default: empty. </td></tr>
-    <tr><td class="paramname">scalar</td><td>Scalar for the default font size which is the pixmap height. Default: 1. </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>The generic pixmap. </dd></dl>
-
-</div>
-</div>
-<a id="a6d5932d7739520ffbce51aa8679cba70" name="a6d5932d7739520ffbce51aa8679cba70"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6d5932d7739520ffbce51aa8679cba70">&#9670;&#160;</a></span>genericPixmap()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">QPixmap albert::util::genericPixmap </td>
-          <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>size</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const QColor &amp;&#160;</td>
-          <td class="paramname"><em>bgcolor</em> = <code>{}</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const QColor &amp;&#160;</td>
-          <td class="paramname"><em>fgcolor</em> = <code>Qt::black</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const QString &amp;&#160;</td>
-          <td class="paramname"><em>text</em> = <code>{}</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>scalar</em> = <code>1.</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Generic pixmap factory. </p>
-<p>Supports drawing a background circle with some text on it.</p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">bgcolor</td><td>The background color. Default: none. </td></tr>
-    <tr><td class="paramname">fgcolor</td><td>The text color. Default: black. </td></tr>
-    <tr><td class="paramname">text</td><td>The text to display. Default: empty. </td></tr>
-    <tr><td class="paramname">scalar</td><td>Scalar for the default font size which is the pixmap height. Default: 1. </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>The generic icon. </dd></dl>
 
 </div>
 </div>
@@ -864,69 +715,14 @@ template&lt;typename T , typename GET , typename SET , typename SIG &gt; </div>
 
 </div>
 </div>
-<a id="aee0475070a2ef27ceacf7ff581aa1dcb" name="aee0475070a2ef27ceacf7ff581aa1dcb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aee0475070a2ef27ceacf7ff581aa1dcb">&#9670;&#160;</a></span>iconFromUrl()</h2>
+<a id="aba684528627f3372c432cbd0a6eff899" name="aba684528627f3372c432cbd0a6eff899"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aba684528627f3372c432cbd0a6eff899">&#9670;&#160;</a></span>information()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">QIcon albert::util::iconFromUrl </td>
-          <td>(</td>
-          <td class="paramtype">const QString &amp;&#160;</td>
-          <td class="paramname"><em>url</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>URL based icon factory. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">url</td><td>The icon URL. </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>The icon, if available, null icon otherwise. </dd></dl>
-
-</div>
-</div>
-<a id="ac61a5b3def2bde052771d4023c24d47c" name="ac61a5b3def2bde052771d4023c24d47c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac61a5b3def2bde052771d4023c24d47c">&#9670;&#160;</a></span>iconFromUrls()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">QIcon albert::util::iconFromUrls </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="systemutil_8h.html#a10f4ad2af6f15f47c0bf236178ae0105">QStringList</a> &amp;&#160;</td>
-          <td class="paramname"><em>urls</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>URL list based icon factory. </p>
-<p>See iconFromUrl(const QString &amp;url).</p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">urls</td><td>The icon URLs. </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>The first icon available in the urls list. Null icon otherwise. </dd></dl>
-
-</div>
-</div>
-<a id="a53d9796f16ef5e40224ef48d47ae5004" name="a53d9796f16ef5e40224ef48d47ae5004"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a53d9796f16ef5e40224ef48d47ae5004">&#9670;&#160;</a></span>information()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">QMessageBox::StandardButton albert::util::information </td>
+          <td class="memname">void albert::util::information </td>
           <td>(</td>
           <td class="paramtype">const QString &amp;&#160;</td>
           <td class="paramname"><em>text</em>, </td>
@@ -934,14 +730,8 @@ template&lt;typename T , typename GET , typename SET , typename SIG &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">QMessageBox::StandardButtons&#160;</td>
-          <td class="paramname"><em>buttons</em> = <code>QMessageBox::Ok</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">QMessageBox::StandardButton&#160;</td>
-          <td class="paramname"><em>default_button</em> = <code>QMessageBox::NoButton</code>&#160;</td>
+          <td class="paramtype">QWidget *&#160;</td>
+          <td class="paramname"><em>parent</em> = <code>nullptr</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -951,49 +741,8 @@ template&lt;typename T , typename GET , typename SET , typename SIG &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>Shows an information message box containing <em>text</em> with the given <em>buttons</em> and <em>default_button</em>. </p>
-<p>The message box modal will appear modal to the main window and have the app name as title.</p>
-<p>Returns the button pressed by the user. </p>
-
-</div>
-</div>
-<a id="a9399d033cc28d5a9c7428600041377b9" name="a9399d033cc28d5a9c7428600041377b9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9399d033cc28d5a9c7428600041377b9">&#9670;&#160;</a></span>makeRestRequest()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">QNetworkRequest albert::util::makeRestRequest </td>
-          <td>(</td>
-          <td class="paramtype">const QString &amp;&#160;</td>
-          <td class="paramname"><em>base_url</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const QString &amp;&#160;</td>
-          <td class="paramname"><em>path</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const QUrlQuery &amp;&#160;</td>
-          <td class="paramname"><em>query</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const QByteArray &amp;&#160;</td>
-          <td class="paramname"><em>authorization_header</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
+<p>Shows an information message box with a single Ok button. </p>
+<p>The title of the message box is set to the application name and the message to <em>text</em>. The message box will appear modal to <em>parent</em> or the main window if undefined. </p>
 
 </div>
 </div>
@@ -1097,112 +846,14 @@ template&lt;typename T , typename GET , typename SET , typename SIG &gt; </div>
 
 </div>
 </div>
-<a id="a81236ee0855b1024c4d97db9d3d54250" name="a81236ee0855b1024c4d97db9d3d54250"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a81236ee0855b1024c4d97db9d3d54250">&#9670;&#160;</a></span>pixmapFromUrl()</h2>
+<a id="a269d93ec607848a13e93d9e2d47b5762" name="a269d93ec607848a13e93d9e2d47b5762"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a269d93ec607848a13e93d9e2d47b5762">&#9670;&#160;</a></span>question()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">QPixmap albert::util::pixmapFromUrl </td>
-          <td>(</td>
-          <td class="paramtype">const QString &amp;&#160;</td>
-          <td class="paramname"><em>url</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const QSize &amp;&#160;</td>
-          <td class="paramname"><em>requestedSize</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>URL based icon factory. </p>
-<p>Supported URL schemes:</p>
-<ul>
-<li><code>&lt;path&gt;</code> or</li>
-<li><code>file:&lt;path&gt;</code> Use the file at path as icon.</li>
-<li><code>:&lt;path&gt;</code> or</li>
-<li><code>qrc:&lt;path&gt;</code> Use the file at path in the <a href="https://doc.qt.io/qt-6/resources.html">resource collection</a> as icon.</li>
-<li><code>qfip:&lt;path&gt;</code> Uses fileIcon(const QString &amp;path)</li>
-<li><code>qsp:&lt;pixmap enumerator&gt;</code> Get an icon from <a href="https://doc.qt.io/qt-6/qstyle.html#StandardPixmap-enum">QStyle::StandardPixmap</a> enum.</li>
-<li><code>xdg:&lt;icon name&gt;</code> Uses xdgIconLookup(const QString &amp;name);</li>
-<li><code>gen:&lt;&gt;</code> Uses genericPixmapFactory. See also <a href="https://doc.qt.io/qt/qcolor.html#fromString">QColor::fromString</a>.</li>
-<li><code>mask:?src=&amp;radius=</code> Masks a given icon url.</li>
-<li><code>comp:?src1=&lt;&gt;&amp;src2=&lt;&gt;</code> Composes two given icons.</li>
-</ul>
-<p>Examples </p><pre class="fragment">/absolute/path/to/a/local/image/file.png
-file:/absolute/path/to/a/local/image/file.png
-:path-to-a-qresource-file
-qrc:path-to-a-qresource-file
-qfip:/path/to/any/file/for/example/a.pdf
-qsp:SP_TrashIcon
-xdg:some-themed-icon-name
-gen:?background=blue&amp;foreground=red&amp;text=Hi&amp;fontscalar=0.5
-</pre> <dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">url</td><td>The icon URL. </td></tr>
-    <tr><td class="paramname">requestedSize</td><td>The size the pixmap should have if possible. </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>The pixmap, if available, null pixmap otherwise. The size can be smaller than requestedSize, but is never larger. </dd></dl>
-
-</div>
-</div>
-<a id="a18b05bb035188dbaefc02f15550888a3" name="a18b05bb035188dbaefc02f15550888a3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a18b05bb035188dbaefc02f15550888a3">&#9670;&#160;</a></span>pixmapFromUrls()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">QPixmap albert::util::pixmapFromUrls </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="systemutil_8h.html#a10f4ad2af6f15f47c0bf236178ae0105">QStringList</a> &amp;&#160;</td>
-          <td class="paramname"><em>urls</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const QSize &amp;&#160;</td>
-          <td class="paramname"><em>requestedSize</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>URL list based icon factory. </p>
-<p>See pixmapFromUrl(const QString &amp;url, QSize *size, const QSize &amp;requestedSize).</p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">urls</td><td>The icon URLs. </td></tr>
-    <tr><td class="paramname">requestedSize</td><td>The size the pixmap should have if possible. </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>The first pixmap available in the urls list. Null pixmap otherwise. </dd></dl>
-
-</div>
-</div>
-<a id="a251233ec103b28751d10852f273d5798" name="a251233ec103b28751d10852f273d5798"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a251233ec103b28751d10852f273d5798">&#9670;&#160;</a></span>question()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">QMessageBox::StandardButton albert::util::question </td>
+          <td class="memname">bool albert::util::question </td>
           <td>(</td>
           <td class="paramtype">const QString &amp;&#160;</td>
           <td class="paramname"><em>text</em>, </td>
@@ -1210,14 +861,8 @@ gen:?background=blue&amp;foreground=red&amp;text=Hi&amp;fontscalar=0.5
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">QMessageBox::StandardButtons&#160;</td>
-          <td class="paramname"><em>buttons</em> = <code>QMessageBox::StandardButtons(QMessageBox::Yes|QMessageBox::No)</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">QMessageBox::StandardButton&#160;</td>
-          <td class="paramname"><em>default_button</em> = <code>QMessageBox::NoButton</code>&#160;</td>
+          <td class="paramtype">QWidget *&#160;</td>
+          <td class="paramname"><em>parent</em> = <code>nullptr</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -1227,9 +872,8 @@ gen:?background=blue&amp;foreground=red&amp;text=Hi&amp;fontscalar=0.5
       </table>
 </div><div class="memdoc">
 
-<p>Shows a question message box containing <em>text</em> with the given <em>buttons</em> and <em>default_button</em>. </p>
-<p>The message box modal will appear modal to the main window and have the app name as title.</p>
-<p>Returns the button pressed by the user. </p>
+<p>Shows a question message box with Yes and No buttons. </p>
+<p>The title of the message box is set to the application name and the message to <em>text</em>. The message box will appear modal to <em>parent</em> or the main window if undefined. Returns <code>true</code> if the user pressed yes, <code>false</code> otherwise. </p>
 
 </div>
 </div>
@@ -1324,6 +968,26 @@ gen:?background=blue&amp;foreground=red&amp;text=Hi&amp;fontscalar=0.5
 
 </div>
 </div>
+<a id="a3ecb8fdac2f680261fba23b044943e8b" name="a3ecb8fdac2f680261fba23b044943e8b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3ecb8fdac2f680261fba23b044943e8b">&#9670;&#160;</a></span>toQString()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString albert::util::toQString </td>
+          <td>(</td>
+          <td class="paramtype">const std::filesystem::path &amp;&#160;</td>
+          <td class="paramname"><em>path</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns a QString representation of <code>path</code>. </p>
+
+</div>
+</div>
 <a id="abcee75bbe9f068b924a3b8c2f3a9b8bd" name="abcee75bbe9f068b924a3b8c2f3a9b8bd"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#abcee75bbe9f068b924a3b8c2f3a9b8bd">&#9670;&#160;</a></span>tryCreateDirectory()</h2>
 
@@ -1345,14 +1009,14 @@ gen:?background=blue&amp;foreground=red&amp;text=Hi&amp;fontscalar=0.5
 
 </div>
 </div>
-<a id="ae0c0bdae8656cdde1e192346c547ae18" name="ae0c0bdae8656cdde1e192346c547ae18"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae0c0bdae8656cdde1e192346c547ae18">&#9670;&#160;</a></span>warning()</h2>
+<a id="a4688a13cb126f47c7def9f58d030b68e" name="a4688a13cb126f47c7def9f58d030b68e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4688a13cb126f47c7def9f58d030b68e">&#9670;&#160;</a></span>warning()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">QMessageBox::StandardButton albert::util::warning </td>
+          <td class="memname">void albert::util::warning </td>
           <td>(</td>
           <td class="paramtype">const QString &amp;&#160;</td>
           <td class="paramname"><em>text</em>, </td>
@@ -1360,14 +1024,8 @@ gen:?background=blue&amp;foreground=red&amp;text=Hi&amp;fontscalar=0.5
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">QMessageBox::StandardButtons&#160;</td>
-          <td class="paramname"><em>buttons</em> = <code>QMessageBox::Ok</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">QMessageBox::StandardButton&#160;</td>
-          <td class="paramname"><em>default_button</em> = <code>QMessageBox::NoButton</code>&#160;</td>
+          <td class="paramtype">QWidget *&#160;</td>
+          <td class="paramname"><em>parent</em> = <code>nullptr</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -1377,9 +1035,8 @@ gen:?background=blue&amp;foreground=red&amp;text=Hi&amp;fontscalar=0.5
       </table>
 </div><div class="memdoc">
 
-<p>Shows a warning message box containing <em>text</em> with the given <em>buttons</em> and <em>default_button</em>. </p>
-<p>The message box modal will appear modal to the main window and have the app name as title.</p>
-<p>Returns the button pressed by the user. </p>
+<p>Shows a warning message box with a single Ok button. </p>
+<p>The title of the message box is set to the application name and the message to <em>text</em>. The message box will appear modal to <em>parent</em> or the main window if undefined. </p>
 
 </div>
 </div>

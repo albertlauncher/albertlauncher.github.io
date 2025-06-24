@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['cachelocation_0',['cachelocation',['../classalbert_1_1PluginInstance.html#a986c378aec3a83830d5815116330d3c2',1,'albert::PluginInstance::cacheLocation()'],['../namespacealbert.html#a9815442f0654991511ecd0f0d7d7e959',1,'albert::cacheLocation()']]],
-  ['callback_1',['callback',['../classalbert_1_1WeakDependency.html#ab77ad469adf86428a859203742d07ac0',1,'albert::WeakDependency']]],
+  ['cachelocation_0',['cachelocation',['../classalbert_1_1PluginInstance.html#a986c378aec3a83830d5815116330d3c2',1,'albert::PluginInstance::cacheLocation()'],['../namespacealbert.html#a0e2c257e0f05bc73b7559d69595d9bf2',1,'albert::cacheLocation()']]],
+  ['callback_1',['callback',['../classalbert_1_1util_1_1WeakDependency.html#adcc126ea4397dbc0f3f1264867a31e1c',1,'albert::util::WeakDependency']]],
   ['cblue_2',['cblue',['../logging_8h.html#ac7fad6a00d65c39d2f4273e5b7d58daf',1,'logging.h']]],
   ['ccyan_3',['ccyan',['../logging_8h.html#ae67269d27f5c6e8e9f4a9cebf0879f3b',1,'logging.h']]],
   ['cgreen_4',['cgreen',['../logging_8h.html#abb15a6bdfa4873af8b46ffeb9c4caf85',1,'logging.h']]],
@@ -11,12 +11,12 @@ var searchData=
   ['clientsecret_8',['clientSecret',['../classalbert_1_1util_1_1OAuth2.html#a4146bfb6d7421dc52598e6ac13d5c937',1,'albert::util::OAuth2']]],
   ['clientsecretchanged_9',['clientSecretChanged',['../classalbert_1_1util_1_1OAuth2.html#a85ec2e638ac6ee049c3e1b6f18b01ef2',1,'albert::util::OAuth2']]],
   ['cmagenta_10',['cmagenta',['../logging_8h.html#af475890bcf50f518e8390e156ddd217b',1,'logging.h']]],
-  ['configlocation_11',['configlocation',['../classalbert_1_1PluginInstance.html#accbf6639db1db1996b7dfaa4c3134a92',1,'albert::PluginInstance::configLocation()'],['../namespacealbert.html#a9e4a5e745c6c8d4dc7dc0827caac1def',1,'albert::configLocation()']]],
-  ['createfrontendconfigwidget_12',['createFrontendConfigWidget',['../classalbert_1_1Frontend.html#aef8cf9086d6ecaf22af974c499f3e0b4',1,'albert::Frontend']]],
-  ['createinstance_13',['createInstance',['../classalbert_1_1PluginLoader.html#a2ad482ff0d0a797fcb391f55882952b3',1,'albert::PluginLoader']]],
-  ['cred_14',['cred',['../logging_8h.html#a94017308e89fbc5d37e6a00633e448e8',1,'logging.h']]],
-  ['creset_15',['creset',['../logging_8h.html#af51a932fc8503fefff9da6cb3076cbb7',1,'logging.h']]],
-  ['crit_16',['CRIT',['../logging_8h.html#a44ad7a1cce3ba64ff004aa697be1a079',1,'logging.h']]],
-  ['critical_17',['critical',['../namespacealbert_1_1util.html#a0a5f213a5d2ec4d73d39714b4896852c',1,'albert::util']]],
+  ['configlocation_11',['configlocation',['../classalbert_1_1PluginInstance.html#accbf6639db1db1996b7dfaa4c3134a92',1,'albert::PluginInstance::configLocation()'],['../namespacealbert.html#a937e01e829944189d76f3058e05e0f9f',1,'albert::configLocation()']]],
+  ['createfrontendconfigwidget_12',['createFrontendConfigWidget',['../classalbert_1_1detail_1_1Frontend.html#a7b584cc824eb8b9eea1611b679064b1a',1,'albert::detail::Frontend']]],
+  ['cred_13',['cred',['../logging_8h.html#a94017308e89fbc5d37e6a00633e448e8',1,'logging.h']]],
+  ['creset_14',['creset',['../logging_8h.html#af51a932fc8503fefff9da6cb3076cbb7',1,'logging.h']]],
+  ['crit_15',['CRIT',['../logging_8h.html#a44ad7a1cce3ba64ff004aa697be1a079',1,'logging.h']]],
+  ['critical_16',['critical',['../namespacealbert_1_1util.html#aee7437df90752fea81920c276cf34762',1,'albert::util']]],
+  ['current_5floader_17',['current_loader',['../classalbert_1_1PluginLoader.html#a2a330d50938bc0f3c8f9ffe82defc788',1,'albert::PluginLoader']]],
   ['cyellow_18',['cyellow',['../logging_8h.html#ab052819ad979f7e5258403b53f92963b',1,'logging.h']]]
 ];

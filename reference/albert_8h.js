@@ -1,8 +1,8 @@
 var albert_8h =
 [
-    [ "cacheLocation", "albert_8h.html#a9815442f0654991511ecd0f0d7d7e959", null ],
-    [ "configLocation", "albert_8h.html#a9e4a5e745c6c8d4dc7dc0827caac1def", null ],
-    [ "dataLocation", "albert_8h.html#a7f6fbbcaf1a50138c135a5831eeb5c6a", null ],
+    [ "cacheLocation", "albert_8h.html#a0e2c257e0f05bc73b7559d69595d9bf2", null ],
+    [ "configLocation", "albert_8h.html#a937e01e829944189d76f3058e05e0f9f", null ],
+    [ "dataLocation", "albert_8h.html#a58c16e067e92b77017bd9be3676669df", null ],
     [ "extensionRegistry", "albert_8h.html#ad686c346ceb5a0fa99659e5c3a627bb1", null ],
     [ "quit", "albert_8h.html#ab3146bc3f5c4199dcf3c67c2ce399dd9", null ],
     [ "restart", "albert_8h.html#a7c912d042d2e07024785b691c1121647", null ],

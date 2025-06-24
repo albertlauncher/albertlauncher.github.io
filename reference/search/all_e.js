@@ -6,6 +6,6 @@ var searchData=
   ['qstringlist_3',['QStringList',['../systemutil_8h.html#a10f4ad2af6f15f47c0bf236178ae0105',1,'systemutil.h']]],
   ['query_4',['Query',['../classalbert_1_1Query.html',1,'albert']]],
   ['query_2eh_5',['query.h',['../query_8h.html',1,'']]],
-  ['question_6',['question',['../namespacealbert_1_1util.html#a251233ec103b28751d10852f273d5798',1,'albert::util']]],
+  ['question_6',['question',['../namespacealbert_1_1util.html#a269d93ec607848a13e93d9e2d47b5762',1,'albert::util']]],
   ['quit_7',['quit',['../namespacealbert.html#ab3146bc3f5c4199dcf3c67c2ce399dd9',1,'albert']]]
 ];

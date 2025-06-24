@@ -1,0 +1,7 @@
+<map id="albert::util::Dependency&lt; T &gt;" name="albert::util::Dependency&lt; T &gt;">
+<area shape="rect" id="Node000001" title=" " alt="" coords="146,5,329,31"/>
+<area shape="rect" id="Node000002" href="$classalbert_1_1util_1_1StrongDependency.html" title="Convenience holder class for plugin hard dependencies." alt="" coords="5,79,227,105"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="205,42,138,81,135,76,202,37"/>
+<area shape="rect" id="Node000003" href="$classalbert_1_1util_1_1WeakDependency.html" title="Convenience holder class for plugin soft dependencies." alt="" coords="251,79,467,105"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="272,37,339,76,337,81,270,42"/>
+</map>

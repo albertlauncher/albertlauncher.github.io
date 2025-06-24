@@ -1,37 +1,39 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="Node000000" href="$classalbert_1_1Extension.html" title="Abstract extension class." alt="" coords="20,475,136,500"/>
-<area shape="rect" id="Node000001" href="$classalbert_1_1ExtensionPlugin.html" title="Convenience base class for extension plugins." alt="" coords="212,351,364,376"/>
-<area shape="poly" id="edge3_Node000000_Node000001" title=" " alt="" coords="100,461,143,422,197,385,223,374,225,379,200,390,146,426,104,465"/>
-<area shape="rect" id="Node000011" href="$classalbert_1_1FallbackHandler.html" title="Abstract fallback provider." alt="" coords="211,548,365,574"/>
-<area shape="poly" id="edge4_Node000000_Node000011" title=" " alt="" coords="124,504,200,534,234,545,232,550,198,539,122,509"/>
-<area shape="rect" id="Node000012" href="$classalbert_1_1PluginProvider.html" title="Plugin provider interface class." alt="" coords="216,597,360,623"/>
-<area shape="poly" id="edge5_Node000000_Node000012" title=" " alt="" coords="104,509,146,548,200,584,225,594,223,599,197,589,143,552,100,513"/>
-<area shape="rect" id="Node000013" href="$classalbert_1_1TelemetryProvider.html" title=" " alt="" coords="206,400,370,426"/>
-<area shape="poly" id="edge6_Node000000_Node000013" title=" " alt="" coords="121,465,198,434,232,424,234,429,200,439,123,470"/>
-<area shape="rect" id="Node000014" href="$classalbert_1_1TriggerQueryHandler.html" title="Abstract trigger query handler." alt="" coords="199,449,377,475"/>
-<area shape="poly" id="edge7_Node000000_Node000014" title=" " alt="" coords="150,476,198,470,198,476,151,481"/>
-<area shape="rect" id="Node000017" href="$classalbert_1_1UrlHandler.html" title="Albert scheme URL handler interface." alt="" coords="227,499,349,524"/>
-<area shape="poly" id="edge10_Node000000_Node000017" title=" " alt="" coords="151,493,227,502,226,507,151,498"/>
-<area shape="rect" id="Node000015" href="$classalbert_1_1GlobalQueryHandler.html" title="Abstract global query handler." alt="" coords="425,449,600,475"/>
-<area shape="poly" id="edge8_Node000014_Node000015" title=" " alt="" coords="393,460,425,460,425,465,393,465"/>
-<area shape="rect" id="Node000016" href="$classalbert_1_1util_1_1IndexQueryHandler.html" title="Index query handler class." alt="" coords="648,442,796,483"/>
-<area shape="poly" id="edge9_Node000015_Node000016" title=" " alt="" coords="616,460,648,460,648,465,616,465"/>
-<area shape="rect" id="Node000002" href="$classalbert_1_1PluginInstance.html" title="Abstract plugin instance class." alt="" coords="5,351,151,376"/>
-<area shape="poly" id="edge11_Node000002_Node000001" title=" " alt="" coords="166,361,212,361,212,366,166,366"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="43,179,113,204"/>
-<area shape="poly" id="edge12_Node000003_Node000001" title=" " alt="" coords="96,217,138,278,167,310,200,337,221,348,219,353,197,342,163,314,133,281,91,220"/>
-<area shape="rect" id="Node000004" href="$classalbert_1_1ExtensionRegistry.html" title="The common extension pool." alt="" coords="207,252,369,278"/>
-<area shape="poly" id="edge13_Node000003_Node000004" title=" " alt="" coords="124,208,200,238,234,249,232,254,198,243,122,213"/>
-<area shape="rect" id="Node000005" href="$classalbert_1_1Frontend.html" title="The interface for albert frontends." alt="" coords="233,301,343,327"/>
-<area shape="poly" id="edge14_Node000003_Node000005" title=" " alt="" coords="104,213,146,252,200,288,233,301,231,306,197,293,143,256,100,217"/>
-<area shape="rect" id="Node000006" href="$classalbert_1_1Query.html" title="Common query object." alt="" coords="241,5,335,31"/>
-<area shape="poly" id="edge15_Node000003_Node000006" title=" " alt="" coords="91,164,133,101,163,68,197,40,218,29,240,22,242,27,220,34,200,44,166,72,137,105,96,167"/>
-<area shape="rect" id="Node000007" href="$classalbert_1_1util_1_1FileDownloader.html" title=" " alt="" coords="202,55,374,80"/>
-<area shape="poly" id="edge16_Node000003_Node000007" title=" " alt="" coords="100,165,143,126,197,89,223,78,225,83,200,94,146,130,104,169"/>
-<area shape="rect" id="Node000008" href="$classalbert_1_1util_1_1InputHistory.html" title="Input history class." alt="" coords="212,104,364,130"/>
-<area shape="poly" id="edge17_Node000003_Node000008" title=" " alt="" coords="121,169,198,138,232,128,234,133,200,143,123,174"/>
-<area shape="rect" id="Node000009" href="$classalbert_1_1util_1_1Notification.html" title="The notification class." alt="" coords="214,153,362,179"/>
-<area shape="poly" id="edge18_Node000003_Node000009" title=" " alt="" coords="128,183,213,172,214,178,128,188"/>
-<area shape="rect" id="Node000010" href="$classalbert_1_1util_1_1OAuth2.html" title="Provides OAuth2 authentication with support for the Authorization Code Flow with PKCE and refresh tok..." alt="" coords="225,203,351,228"/>
-<area shape="poly" id="edge19_Node000003_Node000010" title=" " alt="" coords="128,195,225,206,224,211,128,200"/>
+<area shape="rect" id="Node000000" href="$classalbert_1_1Extension.html" title="Abstract extension class." alt="" coords="20,129,136,155"/>
+<area shape="rect" id="Node000001" href="$classalbert_1_1FallbackHandler.html" title="Abstract fallback provider." alt="" coords="211,5,365,31"/>
+<area shape="poly" id="edge1_Node000000_Node000001" title=" " alt="" coords="100,116,143,77,197,40,223,29,225,34,200,45,146,81,104,120"/>
+<area shape="rect" id="Node000002" href="$classalbert_1_1PluginProvider.html" title="Plugin provider interface class." alt="" coords="216,55,360,80"/>
+<area shape="poly" id="edge2_Node000000_Node000002" title=" " alt="" coords="121,120,198,89,232,78,234,84,200,94,123,125"/>
+<area shape="rect" id="Node000003" href="$classalbert_1_1TriggerQueryHandler.html" title="Abstract trigger query handler." alt="" coords="199,104,377,130"/>
+<area shape="poly" id="edge3_Node000000_Node000003" title=" " alt="" coords="150,131,198,125,198,130,151,136"/>
+<area shape="rect" id="Node000006" href="$classalbert_1_1UrlHandler.html" title="Albert scheme URL handler interface." alt="" coords="227,153,349,179"/>
+<area shape="poly" id="edge6_Node000000_Node000006" title=" " alt="" coords="151,148,227,157,226,162,151,153"/>
+<area shape="rect" id="Node000007" href="$classalbert_1_1detail_1_1TelemetryProvider.html" title=" " alt="" coords="211,203,365,244"/>
+<area shape="poly" id="edge7_Node000000_Node000007" title=" " alt="" coords="125,159,200,189,229,200,227,205,198,194,123,164"/>
+<area shape="rect" id="Node000008" href="$classalbert_1_1util_1_1ExtensionPlugin.html" title="Convenience base class for extension plugins." alt="" coords="201,268,375,294"/>
+<area shape="poly" id="edge8_Node000000_Node000008" title=" " alt="" coords="101,165,144,210,171,233,200,253,226,265,224,270,197,258,168,238,140,214,97,169"/>
+<area shape="rect" id="Node000004" href="$classalbert_1_1GlobalQueryHandler.html" title="Abstract global query handler." alt="" coords="425,104,600,130"/>
+<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="393,114,425,114,425,120,393,120"/>
+<area shape="rect" id="Node000005" href="$classalbert_1_1util_1_1IndexQueryHandler.html" title="Index query handler class." alt="" coords="648,97,796,137"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="616,114,648,114,648,120,616,120"/>
+<area shape="rect" id="Node000009" href="$classalbert_1_1PluginInstance.html" title="Abstract plugin instance class." alt="" coords="5,268,151,294"/>
+<area shape="poly" id="edge9_Node000009_Node000008" title=" " alt="" coords="166,278,200,278,200,284,166,284"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="43,465,113,491"/>
+<area shape="poly" id="edge15_Node000010_Node000008" title=" " alt="" coords="88,450,105,416,129,376,160,336,197,303,217,292,219,297,200,307,164,340,133,379,110,419,93,452"/>
+<area shape="rect" id="Node000011" href="$classalbert_1_1ExtensionRegistry.html" title="The common extension pool." alt="" coords="207,317,369,343"/>
+<area shape="poly" id="edge10_Node000010_Node000011" title=" " alt="" coords="95,451,138,400,166,374,197,352,220,341,223,346,200,356,170,378,142,404,99,454"/>
+<area shape="rect" id="Node000012" href="$classalbert_1_1PluginLoader.html" title="Asynchronous plugin loader turning a physical plugin into a logical PluginInstance." alt="" coords="220,367,356,392"/>
+<area shape="poly" id="edge11_Node000010_Node000012" title=" " alt="" coords="108,454,149,427,198,401,227,390,229,395,200,406,152,431,111,458"/>
+<area shape="rect" id="Node000013" href="$classalbert_1_1Query.html" title="Common query object." alt="" coords="241,416,335,442"/>
+<area shape="poly" id="edge12_Node000010_Node000013" title=" " alt="" coords="127,464,240,437,241,442,128,469"/>
+<area shape="rect" id="Node000014" href="$classalbert_1_1detail_1_1Frontend.html" title="The interface for albert frontends." alt="" coords="214,465,362,491"/>
+<area shape="poly" id="edge13_Node000010_Node000014" title=" " alt="" coords="128,476,214,476,214,481,128,481"/>
+<area shape="rect" id="Node000015" href="$classalbert_1_1util_1_1Download.html" title="Downloads a file from the given URL to the given path." alt="" coords="218,515,358,540"/>
+<area shape="poly" id="edge14_Node000010_Node000015" title=" " alt="" coords="128,487,231,511,229,517,127,492"/>
+<area shape="rect" id="Node000016" href="$classalbert_1_1util_1_1InputHistory.html" title="Input history class." alt="" coords="212,564,364,590"/>
+<area shape="poly" id="edge16_Node000010_Node000016" title=" " alt="" coords="111,498,152,525,200,550,229,561,227,566,198,555,149,530,108,503"/>
+<area shape="rect" id="Node000017" href="$classalbert_1_1util_1_1Notification.html" title="The notification class." alt="" coords="214,613,362,639"/>
+<area shape="poly" id="edge17_Node000010_Node000017" title=" " alt="" coords="99,502,142,552,170,578,200,600,223,610,220,615,197,604,166,582,138,556,95,506"/>
+<area shape="rect" id="Node000018" href="$classalbert_1_1util_1_1OAuth2.html" title="Provides OAuth2 authentication with support for the Authorization Code Flow with PKCE and refresh tok..." alt="" coords="225,663,351,688"/>
+<area shape="poly" id="edge18_Node000010_Node000018" title=" " alt="" coords="93,504,110,538,133,577,164,616,200,649,225,662,223,667,197,654,160,620,129,580,105,540,88,506"/>
 </map>

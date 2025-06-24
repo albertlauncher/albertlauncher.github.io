@@ -52,37 +52,159 @@
                  </Node>
                 </Subnodes>
                </Node>
-              </Subnodes>
-             </Node>
-             <Node>
-              <Name>experimental</Name>
-              <Path>namespacealbert_1_1experimental.html</Path>
-            <Subnodes>
+               <Node>
+                <Name>Frontend</Name>
+                <Path>classalbert_1_1detail_1_1Frontend.html</Path>
+              <Subnodes>
+                 <Node>
+                  <Name>~Frontend</Name>
+                  <Path>classalbert_1_1detail_1_1Frontend.html</Path>
+                  <Anchor>a88f2e34efba6b8c9af40c4507058ae31</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>createFrontendConfigWidget</Name>
+                  <Path>classalbert_1_1detail_1_1Frontend.html</Path>
+                  <Anchor>a7b584cc824eb8b9eea1611b679064b1a</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>input</Name>
+                  <Path>classalbert_1_1detail_1_1Frontend.html</Path>
+                  <Anchor>aac182f987b48340a3f3d55427d4042b9</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>inputChanged</Name>
+                  <Path>classalbert_1_1detail_1_1Frontend.html</Path>
+                  <Anchor>ad7c4e55c99a073ceed51c8c2d6f6687b</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>isVisible</Name>
+                  <Path>classalbert_1_1detail_1_1Frontend.html</Path>
+                  <Anchor>a9bde4ec8e4772955d94d6dfb6185a1c9</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>setInput</Name>
+                  <Path>classalbert_1_1detail_1_1Frontend.html</Path>
+                  <Anchor>ac7fd1745c47dcbeed2c4f82bc2a5da41</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>setQuery</Name>
+                  <Path>classalbert_1_1detail_1_1Frontend.html</Path>
+                  <Anchor>af562460625902cbab28da91c443103ef</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>setVisible</Name>
+                  <Path>classalbert_1_1detail_1_1Frontend.html</Path>
+                  <Anchor>a3a9077908b8406c0a1e95acb8f96ab8f</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>visibleChanged</Name>
+                  <Path>classalbert_1_1detail_1_1Frontend.html</Path>
+                  <Anchor>a8b0a59627e2b56311ee309928a748ced</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>winId</Name>
+                  <Path>classalbert_1_1detail_1_1Frontend.html</Path>
+                  <Anchor>ac46b0e5afe7a3c4429d6d7a31b2b2f4b</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
+                <Name>RateLimiter</Name>
+                <Path>classalbert_1_1detail_1_1RateLimiter.html</Path>
+              <Subnodes>
+                 <Node>
+                  <Name>RateLimiter</Name>
+                  <Path>classalbert_1_1detail_1_1RateLimiter.html</Path>
+                  <Anchor>a46cb5c019a5ce7bf112f0e05515fa9eb</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>~RateLimiter</Name>
+                  <Path>classalbert_1_1detail_1_1RateLimiter.html</Path>
+                  <Anchor>a5174fb931e7b188eb824f0947debdcfa</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>debounce</Name>
+                  <Path>classalbert_1_1detail_1_1RateLimiter.html</Path>
+                  <Anchor>a5bb051dd93a2a5683c4bb274cd6a888d</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
+                <Name>TelemetryProvider</Name>
+                <Path>classalbert_1_1detail_1_1TelemetryProvider.html</Path>
+              <Subnodes>
+                 <Node>
+                  <Name>~TelemetryProvider</Name>
+                  <Path>classalbert_1_1detail_1_1TelemetryProvider.html</Path>
+                  <Anchor>afb01fcf3a26daa2d61a4d1bd620537cf</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>telemetryData</Name>
+                  <Path>classalbert_1_1detail_1_1TelemetryProvider.html</Path>
+                  <Anchor>a26206ed4f6d5ebaad34a409d7dd0345b</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
                <Node>
                 <Name>TimeIt</Name>
-                <Path>structalbert_1_1experimental_1_1TimeIt.html</Path>
+                <Path>structalbert_1_1detail_1_1TimeIt.html</Path>
               <Subnodes>
                  <Node>
                   <Name>TimeIt</Name>
-                  <Path>structalbert_1_1experimental_1_1TimeIt.html</Path>
-                  <Anchor>a06335f119f19b07eea1bd4a674eea364</Anchor>
+                  <Path>structalbert_1_1detail_1_1TimeIt.html</Path>
+                  <Anchor>ad16687a1c6a3ab3f9db53b328e8cfd3c</Anchor>
                  </Node>
                  <Node>
                   <Name>~TimeIt</Name>
-                  <Path>structalbert_1_1experimental_1_1TimeIt.html</Path>
-                  <Anchor>a35108b703716ac201fe5b95bc60339da</Anchor>
+                  <Path>structalbert_1_1detail_1_1TimeIt.html</Path>
+                  <Anchor>a2fb1366365419f0c5e48b6fb0ab93795</Anchor>
                  </Node>
                  <Node>
                   <Name>name</Name>
-                  <Path>structalbert_1_1experimental_1_1TimeIt.html</Path>
-                  <Anchor>a5d9196af90f05d0754b3f32a6fbccfdb</Anchor>
+                  <Path>structalbert_1_1detail_1_1TimeIt.html</Path>
+                  <Anchor>a06ce08d6243e37b764481f5011dffdeb</Anchor>
                  </Node>
                  <Node>
                   <Name>start</Name>
-                  <Path>structalbert_1_1experimental_1_1TimeIt.html</Path>
-                  <Anchor>a3c868a6f19fb77710e9a198117c49476</Anchor>
+                  <Path>structalbert_1_1detail_1_1TimeIt.html</Path>
+                  <Anchor>a184220bca8322fb1d7a6082eb34c94c6</Anchor>
                  </Node>
                 </Subnodes>
+               </Node>
+               <Node>
+                <Name>fileIcon</Name>
+                <Path>namespacealbert_1_1detail.html</Path>
+                <Anchor>ae1984e30a529c8c436195a0ed3ec525d</Anchor>
+               </Node>
+               <Node>
+                <Name>genericIcon</Name>
+                <Path>namespacealbert_1_1detail.html</Path>
+                <Anchor>a07f1b551718f8e7be2f5974219c96e3f</Anchor>
+               </Node>
+               <Node>
+                <Name>genericPixmap</Name>
+                <Path>namespacealbert_1_1detail.html</Path>
+                <Anchor>a5fd9f85a1c27697a1294e0326f4bdee3</Anchor>
+               </Node>
+               <Node>
+                <Name>iconFromUrl</Name>
+                <Path>namespacealbert_1_1detail.html</Path>
+                <Anchor>ad4261f15028c9c6414f974413ec1ae32</Anchor>
+               </Node>
+               <Node>
+                <Name>iconFromUrls</Name>
+                <Path>namespacealbert_1_1detail.html</Path>
+                <Anchor>a9316fa929748922feda9b358e913b1e7</Anchor>
+               </Node>
+               <Node>
+                <Name>pixmapFromUrl</Name>
+                <Path>namespacealbert_1_1detail.html</Path>
+                <Anchor>a716d7dbb9b2d69177a1d25de20876e5c</Anchor>
+               </Node>
+               <Node>
+                <Name>pixmapFromUrls</Name>
+                <Path>namespacealbert_1_1detail.html</Path>
+                <Anchor>af7c9d3fa079b53b69d6dd268c1fa19fa</Anchor>
                </Node>
               </Subnodes>
              </Node>
@@ -132,33 +254,125 @@
                 </Subnodes>
                </Node>
                <Node>
-                <Name>FileDownloader</Name>
-                <Path>classalbert_1_1util_1_1FileDownloader.html</Path>
+                <Name>Dependency</Name>
+                <Path>classalbert_1_1util_1_1Dependency.html</Path>
               <Subnodes>
                  <Node>
-                  <Name>FileDownloader</Name>
-                  <Path>classalbert_1_1util_1_1FileDownloader.html</Path>
-                  <Anchor>aa260d9a9c7fe2479c2c4f71688e0a784</Anchor>
+                  <Name>Dependency</Name>
+                  <Path>classalbert_1_1util_1_1Dependency.html</Path>
+                  <Anchor>a24bca8ff0e29290fc881e837cd8ee339</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>~Dependency</Name>
+                  <Path>classalbert_1_1util_1_1Dependency.html</Path>
+                  <Anchor>ab37ebc77c2fe282c846b70a91b288c61</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>get</Name>
+                  <Path>classalbert_1_1util_1_1Dependency.html</Path>
+                  <Anchor>a4c93621dbb74e2e21af45714c69a4826</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>get</Name>
+                  <Path>classalbert_1_1util_1_1Dependency.html</Path>
+                  <Anchor>a7a7cf881033d5eb85a5b4fef4311a9b0</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>operator bool</Name>
+                  <Path>classalbert_1_1util_1_1Dependency.html</Path>
+                  <Anchor>a3667411a603bb6d7a15a07150436486f</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>operator T</Name>
+                  <Path>classalbert_1_1util_1_1Dependency.html</Path>
+                  <Anchor>ad17773cac6e729040d45e9c60a3c18de</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>operator-&gt;</Name>
+                  <Path>classalbert_1_1util_1_1Dependency.html</Path>
+                  <Anchor>a7736986bb5701a5fd87e494e836b1dd0</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>operator-&gt;</Name>
+                  <Path>classalbert_1_1util_1_1Dependency.html</Path>
+                  <Anchor>a06a5d01c4eac871226260df43929ca82</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>dependency_</Name>
+                  <Path>classalbert_1_1util_1_1Dependency.html</Path>
+                  <Anchor>a9810928a8ba04c1868f752c594995058</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
+                <Name>Download</Name>
+                <Path>classalbert_1_1util_1_1Download.html</Path>
+              <Subnodes>
+                 <Node>
+                  <Name>Download</Name>
+                  <Path>classalbert_1_1util_1_1Download.html</Path>
+                  <Anchor>a740bbb43415e048d5a92e7342e830ead</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>~Download</Name>
+                  <Path>classalbert_1_1util_1_1Download.html</Path>
+                  <Anchor>aa114090b9d0173b1ab939415b0427e0f</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>error</Name>
+                  <Path>classalbert_1_1util_1_1Download.html</Path>
+                  <Anchor>a3c5f2514d02c2facf826a30e6cc99611</Anchor>
                  </Node>
                  <Node>
                   <Name>finished</Name>
-                  <Path>classalbert_1_1util_1_1FileDownloader.html</Path>
-                  <Anchor>aae7360507073730ffb1d2c4f404c34db</Anchor>
+                  <Path>classalbert_1_1util_1_1Download.html</Path>
+                  <Anchor>a9e5971a42ebe554a2c63ee309a1e67f0</Anchor>
                  </Node>
                  <Node>
-                  <Name>start</Name>
-                  <Path>classalbert_1_1util_1_1FileDownloader.html</Path>
-                  <Anchor>a45e33d736801fb6376bd6280caaaa4c7</Anchor>
+                  <Name>isActive</Name>
+                  <Path>classalbert_1_1util_1_1Download.html</Path>
+                  <Anchor>aeccf6c9822aa69d8844c832670e52b6e</Anchor>
                  </Node>
                  <Node>
                   <Name>path</Name>
-                  <Path>classalbert_1_1util_1_1FileDownloader.html</Path>
-                  <Anchor>a276ffbc701b34ef182b4c6efc90f3c7c</Anchor>
+                  <Path>classalbert_1_1util_1_1Download.html</Path>
+                  <Anchor>a76eefe05a66198a014386cff8425e8cf</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>start</Name>
+                  <Path>classalbert_1_1util_1_1Download.html</Path>
+                  <Anchor>a634bf54c0f963f8870cd0756fe1e10e9</Anchor>
                  </Node>
                  <Node>
                   <Name>url</Name>
-                  <Path>classalbert_1_1util_1_1FileDownloader.html</Path>
-                  <Anchor>a8c782e6accb4b15c5637e820fa165551</Anchor>
+                  <Path>classalbert_1_1util_1_1Download.html</Path>
+                  <Anchor>a149b3ff694ae030562b4525a13b4abbc</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
+                <Name>ExtensionPlugin</Name>
+                <Path>classalbert_1_1util_1_1ExtensionPlugin.html</Path>
+              <Subnodes>
+                 <Node>
+                  <Name>description</Name>
+                  <Path>classalbert_1_1util_1_1ExtensionPlugin.html</Path>
+                  <Anchor>aee5afc1dc4a0cdb4b442800371476010</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>extensions</Name>
+                  <Path>classalbert_1_1util_1_1ExtensionPlugin.html</Path>
+                  <Anchor>a74ec8b1a7046d0ca3102209efc06e50e</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>id</Name>
+                  <Path>classalbert_1_1util_1_1ExtensionPlugin.html</Path>
+                  <Anchor>a292da241bc76665ae029144c643d8e93</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>name</Name>
+                  <Path>classalbert_1_1util_1_1ExtensionPlugin.html</Path>
+                  <Anchor>aca94b06e94b494f1b2e9ec9f05e44b2e</Anchor>
                  </Node>
                 </Subnodes>
                </Node>
@@ -685,7 +899,7 @@
                  <Node>
                   <Name>StandardItem</Name>
                   <Path>classalbert_1_1util_1_1StandardItem.html</Path>
-                  <Anchor>aba699191df3f25bf51600ef79c39ecad</Anchor>
+                  <Anchor>af3b6692eaf865147879b19f9ac224da9</Anchor>
                  </Node>
                  <Node>
                   <Name>StandardItem</Name>
@@ -800,6 +1014,38 @@
                 </Subnodes>
                </Node>
                <Node>
+                <Name>StrongDependency</Name>
+                <Path>classalbert_1_1util_1_1StrongDependency.html</Path>
+              <Subnodes>
+                 <Node>
+                  <Name>StrongDependency</Name>
+                  <Path>classalbert_1_1util_1_1StrongDependency.html</Path>
+                  <Anchor>a940bbb171809fa353c5bf71ab842cb50</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
+                <Name>WeakDependency</Name>
+                <Path>classalbert_1_1util_1_1WeakDependency.html</Path>
+              <Subnodes>
+                 <Node>
+                  <Name>WeakDependency</Name>
+                  <Path>classalbert_1_1util_1_1WeakDependency.html</Path>
+                  <Anchor>a5a28e99265b8b639c0c87f16eed80360</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>~WeakDependency</Name>
+                  <Path>classalbert_1_1util_1_1WeakDependency.html</Path>
+                  <Anchor>a7ca99a8564f47d8fe74f08874feaf742</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>callback</Name>
+                  <Path>classalbert_1_1util_1_1WeakDependency.html</Path>
+                  <Anchor>adcc126ea4397dbc0f3f1264867a31e1c</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
                 <Name>await</Name>
                 <Path>namespacealbert_1_1util.html</Path>
                 <Anchor>ad42cff176730ced1bd908a1437c20029</Anchor>
@@ -847,7 +1093,7 @@
                <Node>
                 <Name>critical</Name>
                 <Path>namespacealbert_1_1util.html</Path>
-                <Anchor>a0a5f213a5d2ec4d73d39714b4896852c</Anchor>
+                <Anchor>aee7437df90752fea81920c276cf34762</Anchor>
                </Node>
                <Node>
                 <Name>default_separator_regex</Name>
@@ -855,44 +1101,14 @@
                 <Anchor>ad95b11d04529e273e83d7ccf21880049</Anchor>
                </Node>
                <Node>
-                <Name>fileIcon</Name>
-                <Path>namespacealbert_1_1util.html</Path>
-                <Anchor>abeb18148b6707265b58b1dde1535eeec</Anchor>
-               </Node>
-               <Node>
-                <Name>genericIcon</Name>
-                <Path>namespacealbert_1_1util.html</Path>
-                <Anchor>acb8e496153900bafec073fbb2399ea7c</Anchor>
-               </Node>
-               <Node>
-                <Name>genericPixmap</Name>
-                <Path>namespacealbert_1_1util.html</Path>
-                <Anchor>a6d5932d7739520ffbce51aa8679cba70</Anchor>
-               </Node>
-               <Node>
                 <Name>havePasteSupport</Name>
                 <Path>namespacealbert_1_1util.html</Path>
                 <Anchor>a017ca773af9592bc3d0cc096af49ffdf</Anchor>
                </Node>
                <Node>
-                <Name>iconFromUrl</Name>
-                <Path>namespacealbert_1_1util.html</Path>
-                <Anchor>aee0475070a2ef27ceacf7ff581aa1dcb</Anchor>
-               </Node>
-               <Node>
-                <Name>iconFromUrls</Name>
-                <Path>namespacealbert_1_1util.html</Path>
-                <Anchor>ac61a5b3def2bde052771d4023c24d47c</Anchor>
-               </Node>
-               <Node>
                 <Name>information</Name>
                 <Path>namespacealbert_1_1util.html</Path>
-                <Anchor>a53d9796f16ef5e40224ef48d47ae5004</Anchor>
-               </Node>
-               <Node>
-                <Name>makeRestRequest</Name>
-                <Path>namespacealbert_1_1util.html</Path>
-                <Anchor>a9399d033cc28d5a9c7428600041377b9</Anchor>
+                <Anchor>aba684528627f3372c432cbd0a6eff899</Anchor>
                </Node>
                <Node>
                 <Name>network</Name>
@@ -920,19 +1136,9 @@
                 <Anchor>aa7dfede720bb3bdfb4e3cdff4cad4e46</Anchor>
                </Node>
                <Node>
-                <Name>pixmapFromUrl</Name>
-                <Path>namespacealbert_1_1util.html</Path>
-                <Anchor>a81236ee0855b1024c4d97db9d3d54250</Anchor>
-               </Node>
-               <Node>
-                <Name>pixmapFromUrls</Name>
-                <Path>namespacealbert_1_1util.html</Path>
-                <Anchor>a18b05bb035188dbaefc02f15550888a3</Anchor>
-               </Node>
-               <Node>
                 <Name>question</Name>
                 <Path>namespacealbert_1_1util.html</Path>
-                <Anchor>a251233ec103b28751d10852f273d5798</Anchor>
+                <Anchor>a269d93ec607848a13e93d9e2d47b5762</Anchor>
                </Node>
                <Node>
                 <Name>runDetachedProcess</Name>
@@ -955,6 +1161,11 @@
                 <Anchor>a1ad8cecaba343bb4d93dfbdc55191ee8</Anchor>
                </Node>
                <Node>
+                <Name>toQString</Name>
+                <Path>namespacealbert_1_1util.html</Path>
+                <Anchor>a3ecb8fdac2f680261fba23b044943e8b</Anchor>
+               </Node>
+               <Node>
                 <Name>tryCreateDirectory</Name>
                 <Path>namespacealbert_1_1util.html</Path>
                 <Anchor>abcee75bbe9f068b924a3b8c2f3a9b8bd</Anchor>
@@ -962,7 +1173,7 @@
                <Node>
                 <Name>warning</Name>
                 <Path>namespacealbert_1_1util.html</Path>
-                <Anchor>ae0c0bdae8656cdde1e192346c547ae18</Anchor>
+                <Anchor>a4688a13cb126f47c7def9f58d030b68e</Anchor>
                </Node>
               </Subnodes>
              </Node>
@@ -998,47 +1209,6 @@
               </Subnodes>
              </Node>
              <Node>
-              <Name>Dependency</Name>
-              <Path>classalbert_1_1Dependency.html</Path>
-            <Subnodes>
-               <Node>
-                <Name>get</Name>
-                <Path>classalbert_1_1Dependency.html</Path>
-                <Anchor>aa9faeed47b6d3f2770c6392366cfd365</Anchor>
-               </Node>
-               <Node>
-                <Name>get</Name>
-                <Path>classalbert_1_1Dependency.html</Path>
-                <Anchor>a65f7a091bdbdfff51afe1dccf87f1d4a</Anchor>
-               </Node>
-               <Node>
-                <Name>operator bool</Name>
-                <Path>classalbert_1_1Dependency.html</Path>
-                <Anchor>a6a51686f7121d1477263d8da539e0518</Anchor>
-               </Node>
-               <Node>
-                <Name>operator T</Name>
-                <Path>classalbert_1_1Dependency.html</Path>
-                <Anchor>aab6c97f622d6bb12eb6eee228e742972</Anchor>
-               </Node>
-               <Node>
-                <Name>operator-&gt;</Name>
-                <Path>classalbert_1_1Dependency.html</Path>
-                <Anchor>ade45ba657f89efcc353b596d858ef431</Anchor>
-               </Node>
-               <Node>
-                <Name>operator-&gt;</Name>
-                <Path>classalbert_1_1Dependency.html</Path>
-                <Anchor>a89f1daf171c28298f715c33cf1a8266b</Anchor>
-               </Node>
-               <Node>
-                <Name>dependency_</Name>
-                <Path>classalbert_1_1Dependency.html</Path>
-                <Anchor>a109a6af2580a96254e006b3fbf155263</Anchor>
-               </Node>
-              </Subnodes>
-             </Node>
-             <Node>
               <Name>Extension</Name>
               <Path>classalbert_1_1Extension.html</Path>
             <Subnodes>
@@ -1061,32 +1231,6 @@
                 <Name>name</Name>
                 <Path>classalbert_1_1Extension.html</Path>
                 <Anchor>a632e2c0b2818d985d5a18f966c37e56a</Anchor>
-               </Node>
-              </Subnodes>
-             </Node>
-             <Node>
-              <Name>ExtensionPlugin</Name>
-              <Path>classalbert_1_1ExtensionPlugin.html</Path>
-            <Subnodes>
-               <Node>
-                <Name>description</Name>
-                <Path>classalbert_1_1ExtensionPlugin.html</Path>
-                <Anchor>a563311ca5d2143f4987702b0729fa903</Anchor>
-               </Node>
-               <Node>
-                <Name>extensions</Name>
-                <Path>classalbert_1_1ExtensionPlugin.html</Path>
-                <Anchor>a2b66c777a6ec17e567c41cfe70218e5e</Anchor>
-               </Node>
-               <Node>
-                <Name>id</Name>
-                <Path>classalbert_1_1ExtensionPlugin.html</Path>
-                <Anchor>aeee425d0fa1174a25ce3ae562ecda5c0</Anchor>
-               </Node>
-               <Node>
-                <Name>name</Name>
-                <Path>classalbert_1_1ExtensionPlugin.html</Path>
-                <Anchor>a40df7fc2ddfef25631c2a56a882e3395</Anchor>
                </Node>
               </Subnodes>
              </Node>
@@ -1144,62 +1288,6 @@
                 <Name>fallbacks</Name>
                 <Path>classalbert_1_1FallbackHandler.html</Path>
                 <Anchor>a131fd6896a43672eac646f29da7222ed</Anchor>
-               </Node>
-              </Subnodes>
-             </Node>
-             <Node>
-              <Name>Frontend</Name>
-              <Path>classalbert_1_1Frontend.html</Path>
-            <Subnodes>
-               <Node>
-                <Name>~Frontend</Name>
-                <Path>classalbert_1_1Frontend.html</Path>
-                <Anchor>a4207d43477c7f5ee670d920003271022</Anchor>
-               </Node>
-               <Node>
-                <Name>createFrontendConfigWidget</Name>
-                <Path>classalbert_1_1Frontend.html</Path>
-                <Anchor>aef8cf9086d6ecaf22af974c499f3e0b4</Anchor>
-               </Node>
-               <Node>
-                <Name>input</Name>
-                <Path>classalbert_1_1Frontend.html</Path>
-                <Anchor>a79f9cfdf9e46cdf5cacb10a87e675d2c</Anchor>
-               </Node>
-               <Node>
-                <Name>inputChanged</Name>
-                <Path>classalbert_1_1Frontend.html</Path>
-                <Anchor>a063fafe9030dd792bdb79cf2a9bcef84</Anchor>
-               </Node>
-               <Node>
-                <Name>isVisible</Name>
-                <Path>classalbert_1_1Frontend.html</Path>
-                <Anchor>af6c0a0806b24fb6d7be13853f504f79f</Anchor>
-               </Node>
-               <Node>
-                <Name>setInput</Name>
-                <Path>classalbert_1_1Frontend.html</Path>
-                <Anchor>a08349cc72ea7d21aa6bd989e1cf84991</Anchor>
-               </Node>
-               <Node>
-                <Name>setQuery</Name>
-                <Path>classalbert_1_1Frontend.html</Path>
-                <Anchor>a2f5d98e3b6ed7f9a2b9f1604581f2395</Anchor>
-               </Node>
-               <Node>
-                <Name>setVisible</Name>
-                <Path>classalbert_1_1Frontend.html</Path>
-                <Anchor>a18af1da7411cb5ca3a9e90471f8f70a0</Anchor>
-               </Node>
-               <Node>
-                <Name>visibleChanged</Name>
-                <Path>classalbert_1_1Frontend.html</Path>
-                <Anchor>ab79083fefe87e8507531c895af9a30f0</Anchor>
-               </Node>
-               <Node>
-                <Name>winId</Name>
-                <Path>classalbert_1_1Frontend.html</Path>
-                <Anchor>a7c6eaea8a9f97ce48ee0c227760b4557</Anchor>
                </Node>
               </Subnodes>
              </Node>
@@ -1382,9 +1470,14 @@
                 <Anchor>aed12605269105560dfa0130957d8b403</Anchor>
                </Node>
                <Node>
-                <Name>createInstance</Name>
+                <Name>finished</Name>
                 <Path>classalbert_1_1PluginLoader.html</Path>
-                <Anchor>a2ad482ff0d0a797fcb391f55882952b3</Anchor>
+                <Anchor>ac75e3b9e0a8f0bfbafd270f68f87ebdf</Anchor>
+               </Node>
+               <Node>
+                <Name>instance</Name>
+                <Path>classalbert_1_1PluginLoader.html</Path>
+                <Anchor>a152ac767c6e132b5607716e3d7b4ac15</Anchor>
                </Node>
                <Node>
                 <Name>load</Name>
@@ -1392,9 +1485,9 @@
                 <Anchor>a25c920721215388c3936e4173a2dcbe4</Anchor>
                </Node>
                <Node>
-                <Name>metaData</Name>
+                <Name>metadata</Name>
                 <Path>classalbert_1_1PluginLoader.html</Path>
-                <Anchor>a5bbbb62f0a52690cfa7e793e100ddd34</Anchor>
+                <Anchor>a06a4cc4334005183076e2879a197c3a7</Anchor>
                </Node>
                <Node>
                 <Name>path</Name>
@@ -1409,100 +1502,100 @@
               </Subnodes>
              </Node>
              <Node>
-              <Name>PluginMetaData</Name>
-              <Path>classalbert_1_1PluginMetaData.html</Path>
+              <Name>PluginMetadata</Name>
+              <Path>classalbert_1_1PluginMetadata.html</Path>
             <Subnodes>
                <Node>
                 <Name>LoadType</Name>
-                <Path>classalbert_1_1PluginMetaData.html</Path>
-                <Anchor>a1f334952cd39eeb45fe4401a919f950f</Anchor>
+                <Path>classalbert_1_1PluginMetadata.html</Path>
+                <Anchor>a430d528ce1f7c9602941815f30ed3ff7</Anchor>
               <Subnodes>
                  <Node>
                   <Name>User</Name>
-                  <Path>classalbert_1_1PluginMetaData.html</Path>
-                  <Anchor>a1f334952cd39eeb45fe4401a919f950fa8f9bfe9d1345237cb3b2b205864da075</Anchor>
+                  <Path>classalbert_1_1PluginMetadata.html</Path>
+                  <Anchor>a430d528ce1f7c9602941815f30ed3ff7a8f9bfe9d1345237cb3b2b205864da075</Anchor>
                  </Node>
                  <Node>
                   <Name>Frontend</Name>
-                  <Path>classalbert_1_1PluginMetaData.html</Path>
-                  <Anchor>a1f334952cd39eeb45fe4401a919f950fad97ba66b283564339628b71975a6e68d</Anchor>
+                  <Path>classalbert_1_1PluginMetadata.html</Path>
+                  <Anchor>a430d528ce1f7c9602941815f30ed3ff7ad97ba66b283564339628b71975a6e68d</Anchor>
                  </Node>
                 </Subnodes>
                </Node>
                <Node>
                 <Name>authors</Name>
-                <Path>classalbert_1_1PluginMetaData.html</Path>
-                <Anchor>abf2c32f8c629f57dd5850f967c29d458</Anchor>
+                <Path>classalbert_1_1PluginMetadata.html</Path>
+                <Anchor>a7b65565721dc7326d516990b20d15018</Anchor>
                </Node>
                <Node>
                 <Name>binary_dependencies</Name>
-                <Path>classalbert_1_1PluginMetaData.html</Path>
-                <Anchor>a736d5a0c0ecae325d86d2486bb2b5635</Anchor>
+                <Path>classalbert_1_1PluginMetadata.html</Path>
+                <Anchor>a41c8b867432faf4ddaf968a819a62dd1</Anchor>
                </Node>
                <Node>
                 <Name>description</Name>
-                <Path>classalbert_1_1PluginMetaData.html</Path>
-                <Anchor>ada4bf624b1d2aa2ba02088c34a25c8b5</Anchor>
+                <Path>classalbert_1_1PluginMetadata.html</Path>
+                <Anchor>a03d17f37eff5d9328ea75ccc50ec6fc9</Anchor>
                </Node>
                <Node>
                 <Name>id</Name>
-                <Path>classalbert_1_1PluginMetaData.html</Path>
-                <Anchor>a95d4a8faa21db1b53b0b960f5948997b</Anchor>
+                <Path>classalbert_1_1PluginMetadata.html</Path>
+                <Anchor>ae455e3626e396950fae4bc87e2a310ff</Anchor>
                </Node>
                <Node>
                 <Name>iid</Name>
-                <Path>classalbert_1_1PluginMetaData.html</Path>
-                <Anchor>a481699b0a5b2d99164631ba92610292e</Anchor>
+                <Path>classalbert_1_1PluginMetadata.html</Path>
+                <Anchor>a6fa0db8a6a7e422b4c1147cee2348969</Anchor>
                </Node>
                <Node>
                 <Name>license</Name>
-                <Path>classalbert_1_1PluginMetaData.html</Path>
-                <Anchor>a6b2c517aba6610546d858f8ebdc017f3</Anchor>
+                <Path>classalbert_1_1PluginMetadata.html</Path>
+                <Anchor>af30a551f03a85bf2ae04e97dba96e735</Anchor>
                </Node>
                <Node>
                 <Name>load_type</Name>
-                <Path>classalbert_1_1PluginMetaData.html</Path>
-                <Anchor>a467edd48fa6968f4e664ad4b4b39928c</Anchor>
+                <Path>classalbert_1_1PluginMetadata.html</Path>
+                <Anchor>ae29ae4b809993bdcbc6f25b2ba838577</Anchor>
                </Node>
                <Node>
                 <Name>name</Name>
-                <Path>classalbert_1_1PluginMetaData.html</Path>
-                <Anchor>adb66212725fe3ea81fc11ba522f9655b</Anchor>
+                <Path>classalbert_1_1PluginMetadata.html</Path>
+                <Anchor>a0d7d49ddba3c6024eef05970a35917f2</Anchor>
                </Node>
                <Node>
                 <Name>platforms</Name>
-                <Path>classalbert_1_1PluginMetaData.html</Path>
-                <Anchor>af20d9960d822f37578c1404544665df3</Anchor>
+                <Path>classalbert_1_1PluginMetadata.html</Path>
+                <Anchor>a51761863ffd522fc7a6ca6dd0b94cf43</Anchor>
                </Node>
                <Node>
                 <Name>plugin_dependencies</Name>
-                <Path>classalbert_1_1PluginMetaData.html</Path>
-                <Anchor>a24873aa4ff8073ba3e03a5b47d818d8d</Anchor>
+                <Path>classalbert_1_1PluginMetadata.html</Path>
+                <Anchor>a0bbac3f934b5f20f3723835ddcfb8264</Anchor>
                </Node>
                <Node>
                 <Name>runtime_dependencies</Name>
-                <Path>classalbert_1_1PluginMetaData.html</Path>
-                <Anchor>a8ad66978975fca1ba45838b07dfd7989</Anchor>
+                <Path>classalbert_1_1PluginMetadata.html</Path>
+                <Anchor>a4285f9e6ad514b5d198e35f29d79b490</Anchor>
                </Node>
                <Node>
                 <Name>third_party_credits</Name>
-                <Path>classalbert_1_1PluginMetaData.html</Path>
-                <Anchor>a98a024db32e7452f078ae7685b20a9cb</Anchor>
+                <Path>classalbert_1_1PluginMetadata.html</Path>
+                <Anchor>a273c5f87754ff87da2136b65819cff86</Anchor>
                </Node>
                <Node>
                 <Name>translations</Name>
-                <Path>classalbert_1_1PluginMetaData.html</Path>
-                <Anchor>a5da5859ac1f0ecea79526c03a054b305</Anchor>
+                <Path>classalbert_1_1PluginMetadata.html</Path>
+                <Anchor>a8524f868b8ff6b0b817a9f39679ec412</Anchor>
                </Node>
                <Node>
                 <Name>url</Name>
-                <Path>classalbert_1_1PluginMetaData.html</Path>
-                <Anchor>aa8cdf068f6e7277ea33dab4a30b809c8</Anchor>
+                <Path>classalbert_1_1PluginMetadata.html</Path>
+                <Anchor>a93839245e5ab0d539d3279fe5ff977bd</Anchor>
                </Node>
                <Node>
                 <Name>version</Name>
-                <Path>classalbert_1_1PluginMetaData.html</Path>
-                <Anchor>a9ea434d693b7a92928bd7a39b03e1821</Anchor>
+                <Path>classalbert_1_1PluginMetadata.html</Path>
+                <Anchor>afede84c02c330e304d2203300cfef7c4</Anchor>
                </Node>
               </Subnodes>
              </Node>
@@ -1686,33 +1779,6 @@
               </Subnodes>
              </Node>
              <Node>
-              <Name>StrongDependency</Name>
-              <Path>classalbert_1_1StrongDependency.html</Path>
-            <Subnodes>
-               <Node>
-                <Name>StrongDependency</Name>
-                <Path>classalbert_1_1StrongDependency.html</Path>
-                <Anchor>a7e32e6842ba5b5b2b5e27a0cae225d2f</Anchor>
-               </Node>
-              </Subnodes>
-             </Node>
-             <Node>
-              <Name>TelemetryProvider</Name>
-              <Path>classalbert_1_1TelemetryProvider.html</Path>
-            <Subnodes>
-               <Node>
-                <Name>~TelemetryProvider</Name>
-                <Path>classalbert_1_1TelemetryProvider.html</Path>
-                <Anchor>ad741b3ba56404d042bd9b7375fa20a7d</Anchor>
-               </Node>
-               <Node>
-                <Name>telemetryData</Name>
-                <Path>classalbert_1_1TelemetryProvider.html</Path>
-                <Anchor>a3ca01f90e39c6d0d55623a35c5aab8d0</Anchor>
-               </Node>
-              </Subnodes>
-             </Node>
-             <Node>
               <Name>TriggerQueryHandler</Name>
               <Path>classalbert_1_1TriggerQueryHandler.html</Path>
             <Subnodes>
@@ -1775,40 +1841,19 @@
               </Subnodes>
              </Node>
              <Node>
-              <Name>WeakDependency</Name>
-              <Path>classalbert_1_1WeakDependency.html</Path>
-            <Subnodes>
-               <Node>
-                <Name>WeakDependency</Name>
-                <Path>classalbert_1_1WeakDependency.html</Path>
-                <Anchor>aa7134ad13996b4bbe26d7dd13d1d05c4</Anchor>
-               </Node>
-               <Node>
-                <Name>~WeakDependency</Name>
-                <Path>classalbert_1_1WeakDependency.html</Path>
-                <Anchor>a58e2c966cb28fa2a6593f2fd20bf80d9</Anchor>
-               </Node>
-               <Node>
-                <Name>callback</Name>
-                <Path>classalbert_1_1WeakDependency.html</Path>
-                <Anchor>ab77ad469adf86428a859203742d07ac0</Anchor>
-               </Node>
-              </Subnodes>
-             </Node>
-             <Node>
               <Name>cacheLocation</Name>
               <Path>namespacealbert.html</Path>
-              <Anchor>a9815442f0654991511ecd0f0d7d7e959</Anchor>
+              <Anchor>a0e2c257e0f05bc73b7559d69595d9bf2</Anchor>
              </Node>
              <Node>
               <Name>configLocation</Name>
               <Path>namespacealbert.html</Path>
-              <Anchor>a9e4a5e745c6c8d4dc7dc0827caac1def</Anchor>
+              <Anchor>a937e01e829944189d76f3058e05e0f9f</Anchor>
              </Node>
              <Node>
               <Name>dataLocation</Name>
               <Path>namespacealbert.html</Path>
-              <Anchor>a7f6fbbcaf1a50138c135a5831eeb5c6a</Anchor>
+              <Anchor>a58c16e067e92b77017bd9be3676669df</Anchor>
              </Node>
              <Node>
               <Name>extensionRegistry</Name>
@@ -1912,35 +1957,122 @@
                  </Node>
                 </Subnodes>
                </Node>
-              </Subnodes>
-             </Node>
-             <Node>
-              <Name>experimental</Name>
-              <Path>namespacealbert_1_1experimental.html</Path>
-            <Subnodes>
+               <Node>
+                <Name>Frontend</Name>
+                <Path>classalbert_1_1detail_1_1Frontend.html</Path>
+              <Subnodes>
+                 <Node>
+                  <Name>~Frontend</Name>
+                  <Path>classalbert_1_1detail_1_1Frontend.html</Path>
+                  <Anchor>a88f2e34efba6b8c9af40c4507058ae31</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>createFrontendConfigWidget</Name>
+                  <Path>classalbert_1_1detail_1_1Frontend.html</Path>
+                  <Anchor>a7b584cc824eb8b9eea1611b679064b1a</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>input</Name>
+                  <Path>classalbert_1_1detail_1_1Frontend.html</Path>
+                  <Anchor>aac182f987b48340a3f3d55427d4042b9</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>inputChanged</Name>
+                  <Path>classalbert_1_1detail_1_1Frontend.html</Path>
+                  <Anchor>ad7c4e55c99a073ceed51c8c2d6f6687b</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>isVisible</Name>
+                  <Path>classalbert_1_1detail_1_1Frontend.html</Path>
+                  <Anchor>a9bde4ec8e4772955d94d6dfb6185a1c9</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>setInput</Name>
+                  <Path>classalbert_1_1detail_1_1Frontend.html</Path>
+                  <Anchor>ac7fd1745c47dcbeed2c4f82bc2a5da41</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>setQuery</Name>
+                  <Path>classalbert_1_1detail_1_1Frontend.html</Path>
+                  <Anchor>af562460625902cbab28da91c443103ef</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>setVisible</Name>
+                  <Path>classalbert_1_1detail_1_1Frontend.html</Path>
+                  <Anchor>a3a9077908b8406c0a1e95acb8f96ab8f</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>visibleChanged</Name>
+                  <Path>classalbert_1_1detail_1_1Frontend.html</Path>
+                  <Anchor>a8b0a59627e2b56311ee309928a748ced</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>winId</Name>
+                  <Path>classalbert_1_1detail_1_1Frontend.html</Path>
+                  <Anchor>ac46b0e5afe7a3c4429d6d7a31b2b2f4b</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
+                <Name>RateLimiter</Name>
+                <Path>classalbert_1_1detail_1_1RateLimiter.html</Path>
+              <Subnodes>
+                 <Node>
+                  <Name>RateLimiter</Name>
+                  <Path>classalbert_1_1detail_1_1RateLimiter.html</Path>
+                  <Anchor>a46cb5c019a5ce7bf112f0e05515fa9eb</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>~RateLimiter</Name>
+                  <Path>classalbert_1_1detail_1_1RateLimiter.html</Path>
+                  <Anchor>a5174fb931e7b188eb824f0947debdcfa</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>debounce</Name>
+                  <Path>classalbert_1_1detail_1_1RateLimiter.html</Path>
+                  <Anchor>a5bb051dd93a2a5683c4bb274cd6a888d</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
+                <Name>TelemetryProvider</Name>
+                <Path>classalbert_1_1detail_1_1TelemetryProvider.html</Path>
+              <Subnodes>
+                 <Node>
+                  <Name>~TelemetryProvider</Name>
+                  <Path>classalbert_1_1detail_1_1TelemetryProvider.html</Path>
+                  <Anchor>afb01fcf3a26daa2d61a4d1bd620537cf</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>telemetryData</Name>
+                  <Path>classalbert_1_1detail_1_1TelemetryProvider.html</Path>
+                  <Anchor>a26206ed4f6d5ebaad34a409d7dd0345b</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
                <Node>
                 <Name>TimeIt</Name>
-                <Path>structalbert_1_1experimental_1_1TimeIt.html</Path>
+                <Path>structalbert_1_1detail_1_1TimeIt.html</Path>
               <Subnodes>
                  <Node>
                   <Name>TimeIt</Name>
-                  <Path>structalbert_1_1experimental_1_1TimeIt.html</Path>
-                  <Anchor>a06335f119f19b07eea1bd4a674eea364</Anchor>
+                  <Path>structalbert_1_1detail_1_1TimeIt.html</Path>
+                  <Anchor>ad16687a1c6a3ab3f9db53b328e8cfd3c</Anchor>
                  </Node>
                  <Node>
                   <Name>~TimeIt</Name>
-                  <Path>structalbert_1_1experimental_1_1TimeIt.html</Path>
-                  <Anchor>a35108b703716ac201fe5b95bc60339da</Anchor>
+                  <Path>structalbert_1_1detail_1_1TimeIt.html</Path>
+                  <Anchor>a2fb1366365419f0c5e48b6fb0ab93795</Anchor>
                  </Node>
                  <Node>
                   <Name>name</Name>
-                  <Path>structalbert_1_1experimental_1_1TimeIt.html</Path>
-                  <Anchor>a5d9196af90f05d0754b3f32a6fbccfdb</Anchor>
+                  <Path>structalbert_1_1detail_1_1TimeIt.html</Path>
+                  <Anchor>a06ce08d6243e37b764481f5011dffdeb</Anchor>
                  </Node>
                  <Node>
                   <Name>start</Name>
-                  <Path>structalbert_1_1experimental_1_1TimeIt.html</Path>
-                  <Anchor>a3c868a6f19fb77710e9a198117c49476</Anchor>
+                  <Path>structalbert_1_1detail_1_1TimeIt.html</Path>
+                  <Anchor>a184220bca8322fb1d7a6082eb34c94c6</Anchor>
                  </Node>
                 </Subnodes>
                </Node>
@@ -1992,33 +2124,125 @@
                 </Subnodes>
                </Node>
                <Node>
-                <Name>FileDownloader</Name>
-                <Path>classalbert_1_1util_1_1FileDownloader.html</Path>
+                <Name>Dependency</Name>
+                <Path>classalbert_1_1util_1_1Dependency.html</Path>
               <Subnodes>
                  <Node>
-                  <Name>FileDownloader</Name>
-                  <Path>classalbert_1_1util_1_1FileDownloader.html</Path>
-                  <Anchor>aa260d9a9c7fe2479c2c4f71688e0a784</Anchor>
+                  <Name>Dependency</Name>
+                  <Path>classalbert_1_1util_1_1Dependency.html</Path>
+                  <Anchor>a24bca8ff0e29290fc881e837cd8ee339</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>~Dependency</Name>
+                  <Path>classalbert_1_1util_1_1Dependency.html</Path>
+                  <Anchor>ab37ebc77c2fe282c846b70a91b288c61</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>get</Name>
+                  <Path>classalbert_1_1util_1_1Dependency.html</Path>
+                  <Anchor>a4c93621dbb74e2e21af45714c69a4826</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>get</Name>
+                  <Path>classalbert_1_1util_1_1Dependency.html</Path>
+                  <Anchor>a7a7cf881033d5eb85a5b4fef4311a9b0</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>operator bool</Name>
+                  <Path>classalbert_1_1util_1_1Dependency.html</Path>
+                  <Anchor>a3667411a603bb6d7a15a07150436486f</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>operator T</Name>
+                  <Path>classalbert_1_1util_1_1Dependency.html</Path>
+                  <Anchor>ad17773cac6e729040d45e9c60a3c18de</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>operator-&gt;</Name>
+                  <Path>classalbert_1_1util_1_1Dependency.html</Path>
+                  <Anchor>a7736986bb5701a5fd87e494e836b1dd0</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>operator-&gt;</Name>
+                  <Path>classalbert_1_1util_1_1Dependency.html</Path>
+                  <Anchor>a06a5d01c4eac871226260df43929ca82</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>dependency_</Name>
+                  <Path>classalbert_1_1util_1_1Dependency.html</Path>
+                  <Anchor>a9810928a8ba04c1868f752c594995058</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
+                <Name>Download</Name>
+                <Path>classalbert_1_1util_1_1Download.html</Path>
+              <Subnodes>
+                 <Node>
+                  <Name>Download</Name>
+                  <Path>classalbert_1_1util_1_1Download.html</Path>
+                  <Anchor>a740bbb43415e048d5a92e7342e830ead</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>~Download</Name>
+                  <Path>classalbert_1_1util_1_1Download.html</Path>
+                  <Anchor>aa114090b9d0173b1ab939415b0427e0f</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>error</Name>
+                  <Path>classalbert_1_1util_1_1Download.html</Path>
+                  <Anchor>a3c5f2514d02c2facf826a30e6cc99611</Anchor>
                  </Node>
                  <Node>
                   <Name>finished</Name>
-                  <Path>classalbert_1_1util_1_1FileDownloader.html</Path>
-                  <Anchor>aae7360507073730ffb1d2c4f404c34db</Anchor>
+                  <Path>classalbert_1_1util_1_1Download.html</Path>
+                  <Anchor>a9e5971a42ebe554a2c63ee309a1e67f0</Anchor>
                  </Node>
                  <Node>
-                  <Name>start</Name>
-                  <Path>classalbert_1_1util_1_1FileDownloader.html</Path>
-                  <Anchor>a45e33d736801fb6376bd6280caaaa4c7</Anchor>
+                  <Name>isActive</Name>
+                  <Path>classalbert_1_1util_1_1Download.html</Path>
+                  <Anchor>aeccf6c9822aa69d8844c832670e52b6e</Anchor>
                  </Node>
                  <Node>
                   <Name>path</Name>
-                  <Path>classalbert_1_1util_1_1FileDownloader.html</Path>
-                  <Anchor>a276ffbc701b34ef182b4c6efc90f3c7c</Anchor>
+                  <Path>classalbert_1_1util_1_1Download.html</Path>
+                  <Anchor>a76eefe05a66198a014386cff8425e8cf</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>start</Name>
+                  <Path>classalbert_1_1util_1_1Download.html</Path>
+                  <Anchor>a634bf54c0f963f8870cd0756fe1e10e9</Anchor>
                  </Node>
                  <Node>
                   <Name>url</Name>
-                  <Path>classalbert_1_1util_1_1FileDownloader.html</Path>
-                  <Anchor>a8c782e6accb4b15c5637e820fa165551</Anchor>
+                  <Path>classalbert_1_1util_1_1Download.html</Path>
+                  <Anchor>a149b3ff694ae030562b4525a13b4abbc</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
+                <Name>ExtensionPlugin</Name>
+                <Path>classalbert_1_1util_1_1ExtensionPlugin.html</Path>
+              <Subnodes>
+                 <Node>
+                  <Name>description</Name>
+                  <Path>classalbert_1_1util_1_1ExtensionPlugin.html</Path>
+                  <Anchor>aee5afc1dc4a0cdb4b442800371476010</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>extensions</Name>
+                  <Path>classalbert_1_1util_1_1ExtensionPlugin.html</Path>
+                  <Anchor>a74ec8b1a7046d0ca3102209efc06e50e</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>id</Name>
+                  <Path>classalbert_1_1util_1_1ExtensionPlugin.html</Path>
+                  <Anchor>a292da241bc76665ae029144c643d8e93</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>name</Name>
+                  <Path>classalbert_1_1util_1_1ExtensionPlugin.html</Path>
+                  <Anchor>aca94b06e94b494f1b2e9ec9f05e44b2e</Anchor>
                  </Node>
                 </Subnodes>
                </Node>
@@ -2545,7 +2769,7 @@
                  <Node>
                   <Name>StandardItem</Name>
                   <Path>classalbert_1_1util_1_1StandardItem.html</Path>
-                  <Anchor>aba699191df3f25bf51600ef79c39ecad</Anchor>
+                  <Anchor>af3b6692eaf865147879b19f9ac224da9</Anchor>
                  </Node>
                  <Node>
                   <Name>StandardItem</Name>
@@ -2659,6 +2883,38 @@
                  </Node>
                 </Subnodes>
                </Node>
+               <Node>
+                <Name>StrongDependency</Name>
+                <Path>classalbert_1_1util_1_1StrongDependency.html</Path>
+              <Subnodes>
+                 <Node>
+                  <Name>StrongDependency</Name>
+                  <Path>classalbert_1_1util_1_1StrongDependency.html</Path>
+                  <Anchor>a940bbb171809fa353c5bf71ab842cb50</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
+                <Name>WeakDependency</Name>
+                <Path>classalbert_1_1util_1_1WeakDependency.html</Path>
+              <Subnodes>
+                 <Node>
+                  <Name>WeakDependency</Name>
+                  <Path>classalbert_1_1util_1_1WeakDependency.html</Path>
+                  <Anchor>a5a28e99265b8b639c0c87f16eed80360</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>~WeakDependency</Name>
+                  <Path>classalbert_1_1util_1_1WeakDependency.html</Path>
+                  <Anchor>a7ca99a8564f47d8fe74f08874feaf742</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>callback</Name>
+                  <Path>classalbert_1_1util_1_1WeakDependency.html</Path>
+                  <Anchor>adcc126ea4397dbc0f3f1264867a31e1c</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
               </Subnodes>
              </Node>
              <Node>
@@ -2693,47 +2949,6 @@
               </Subnodes>
              </Node>
              <Node>
-              <Name>Dependency</Name>
-              <Path>classalbert_1_1Dependency.html</Path>
-            <Subnodes>
-               <Node>
-                <Name>get</Name>
-                <Path>classalbert_1_1Dependency.html</Path>
-                <Anchor>aa9faeed47b6d3f2770c6392366cfd365</Anchor>
-               </Node>
-               <Node>
-                <Name>get</Name>
-                <Path>classalbert_1_1Dependency.html</Path>
-                <Anchor>a65f7a091bdbdfff51afe1dccf87f1d4a</Anchor>
-               </Node>
-               <Node>
-                <Name>operator bool</Name>
-                <Path>classalbert_1_1Dependency.html</Path>
-                <Anchor>a6a51686f7121d1477263d8da539e0518</Anchor>
-               </Node>
-               <Node>
-                <Name>operator T</Name>
-                <Path>classalbert_1_1Dependency.html</Path>
-                <Anchor>aab6c97f622d6bb12eb6eee228e742972</Anchor>
-               </Node>
-               <Node>
-                <Name>operator-&gt;</Name>
-                <Path>classalbert_1_1Dependency.html</Path>
-                <Anchor>ade45ba657f89efcc353b596d858ef431</Anchor>
-               </Node>
-               <Node>
-                <Name>operator-&gt;</Name>
-                <Path>classalbert_1_1Dependency.html</Path>
-                <Anchor>a89f1daf171c28298f715c33cf1a8266b</Anchor>
-               </Node>
-               <Node>
-                <Name>dependency_</Name>
-                <Path>classalbert_1_1Dependency.html</Path>
-                <Anchor>a109a6af2580a96254e006b3fbf155263</Anchor>
-               </Node>
-              </Subnodes>
-             </Node>
-             <Node>
               <Name>Extension</Name>
               <Path>classalbert_1_1Extension.html</Path>
             <Subnodes>
@@ -2756,32 +2971,6 @@
                 <Name>name</Name>
                 <Path>classalbert_1_1Extension.html</Path>
                 <Anchor>a632e2c0b2818d985d5a18f966c37e56a</Anchor>
-               </Node>
-              </Subnodes>
-             </Node>
-             <Node>
-              <Name>ExtensionPlugin</Name>
-              <Path>classalbert_1_1ExtensionPlugin.html</Path>
-            <Subnodes>
-               <Node>
-                <Name>description</Name>
-                <Path>classalbert_1_1ExtensionPlugin.html</Path>
-                <Anchor>a563311ca5d2143f4987702b0729fa903</Anchor>
-               </Node>
-               <Node>
-                <Name>extensions</Name>
-                <Path>classalbert_1_1ExtensionPlugin.html</Path>
-                <Anchor>a2b66c777a6ec17e567c41cfe70218e5e</Anchor>
-               </Node>
-               <Node>
-                <Name>id</Name>
-                <Path>classalbert_1_1ExtensionPlugin.html</Path>
-                <Anchor>aeee425d0fa1174a25ce3ae562ecda5c0</Anchor>
-               </Node>
-               <Node>
-                <Name>name</Name>
-                <Path>classalbert_1_1ExtensionPlugin.html</Path>
-                <Anchor>a40df7fc2ddfef25631c2a56a882e3395</Anchor>
                </Node>
               </Subnodes>
              </Node>
@@ -2839,62 +3028,6 @@
                 <Name>fallbacks</Name>
                 <Path>classalbert_1_1FallbackHandler.html</Path>
                 <Anchor>a131fd6896a43672eac646f29da7222ed</Anchor>
-               </Node>
-              </Subnodes>
-             </Node>
-             <Node>
-              <Name>Frontend</Name>
-              <Path>classalbert_1_1Frontend.html</Path>
-            <Subnodes>
-               <Node>
-                <Name>~Frontend</Name>
-                <Path>classalbert_1_1Frontend.html</Path>
-                <Anchor>a4207d43477c7f5ee670d920003271022</Anchor>
-               </Node>
-               <Node>
-                <Name>createFrontendConfigWidget</Name>
-                <Path>classalbert_1_1Frontend.html</Path>
-                <Anchor>aef8cf9086d6ecaf22af974c499f3e0b4</Anchor>
-               </Node>
-               <Node>
-                <Name>input</Name>
-                <Path>classalbert_1_1Frontend.html</Path>
-                <Anchor>a79f9cfdf9e46cdf5cacb10a87e675d2c</Anchor>
-               </Node>
-               <Node>
-                <Name>inputChanged</Name>
-                <Path>classalbert_1_1Frontend.html</Path>
-                <Anchor>a063fafe9030dd792bdb79cf2a9bcef84</Anchor>
-               </Node>
-               <Node>
-                <Name>isVisible</Name>
-                <Path>classalbert_1_1Frontend.html</Path>
-                <Anchor>af6c0a0806b24fb6d7be13853f504f79f</Anchor>
-               </Node>
-               <Node>
-                <Name>setInput</Name>
-                <Path>classalbert_1_1Frontend.html</Path>
-                <Anchor>a08349cc72ea7d21aa6bd989e1cf84991</Anchor>
-               </Node>
-               <Node>
-                <Name>setQuery</Name>
-                <Path>classalbert_1_1Frontend.html</Path>
-                <Anchor>a2f5d98e3b6ed7f9a2b9f1604581f2395</Anchor>
-               </Node>
-               <Node>
-                <Name>setVisible</Name>
-                <Path>classalbert_1_1Frontend.html</Path>
-                <Anchor>a18af1da7411cb5ca3a9e90471f8f70a0</Anchor>
-               </Node>
-               <Node>
-                <Name>visibleChanged</Name>
-                <Path>classalbert_1_1Frontend.html</Path>
-                <Anchor>ab79083fefe87e8507531c895af9a30f0</Anchor>
-               </Node>
-               <Node>
-                <Name>winId</Name>
-                <Path>classalbert_1_1Frontend.html</Path>
-                <Anchor>a7c6eaea8a9f97ce48ee0c227760b4557</Anchor>
                </Node>
               </Subnodes>
              </Node>
@@ -3077,9 +3210,14 @@
                 <Anchor>aed12605269105560dfa0130957d8b403</Anchor>
                </Node>
                <Node>
-                <Name>createInstance</Name>
+                <Name>finished</Name>
                 <Path>classalbert_1_1PluginLoader.html</Path>
-                <Anchor>a2ad482ff0d0a797fcb391f55882952b3</Anchor>
+                <Anchor>ac75e3b9e0a8f0bfbafd270f68f87ebdf</Anchor>
+               </Node>
+               <Node>
+                <Name>instance</Name>
+                <Path>classalbert_1_1PluginLoader.html</Path>
+                <Anchor>a152ac767c6e132b5607716e3d7b4ac15</Anchor>
                </Node>
                <Node>
                 <Name>load</Name>
@@ -3087,9 +3225,9 @@
                 <Anchor>a25c920721215388c3936e4173a2dcbe4</Anchor>
                </Node>
                <Node>
-                <Name>metaData</Name>
+                <Name>metadata</Name>
                 <Path>classalbert_1_1PluginLoader.html</Path>
-                <Anchor>a5bbbb62f0a52690cfa7e793e100ddd34</Anchor>
+                <Anchor>a06a4cc4334005183076e2879a197c3a7</Anchor>
                </Node>
                <Node>
                 <Name>path</Name>
@@ -3104,100 +3242,100 @@
               </Subnodes>
              </Node>
              <Node>
-              <Name>PluginMetaData</Name>
-              <Path>classalbert_1_1PluginMetaData.html</Path>
+              <Name>PluginMetadata</Name>
+              <Path>classalbert_1_1PluginMetadata.html</Path>
             <Subnodes>
                <Node>
                 <Name>LoadType</Name>
-                <Path>classalbert_1_1PluginMetaData.html</Path>
-                <Anchor>a1f334952cd39eeb45fe4401a919f950f</Anchor>
+                <Path>classalbert_1_1PluginMetadata.html</Path>
+                <Anchor>a430d528ce1f7c9602941815f30ed3ff7</Anchor>
               <Subnodes>
                  <Node>
                   <Name>User</Name>
-                  <Path>classalbert_1_1PluginMetaData.html</Path>
-                  <Anchor>a1f334952cd39eeb45fe4401a919f950fa8f9bfe9d1345237cb3b2b205864da075</Anchor>
+                  <Path>classalbert_1_1PluginMetadata.html</Path>
+                  <Anchor>a430d528ce1f7c9602941815f30ed3ff7a8f9bfe9d1345237cb3b2b205864da075</Anchor>
                  </Node>
                  <Node>
                   <Name>Frontend</Name>
-                  <Path>classalbert_1_1PluginMetaData.html</Path>
-                  <Anchor>a1f334952cd39eeb45fe4401a919f950fad97ba66b283564339628b71975a6e68d</Anchor>
+                  <Path>classalbert_1_1PluginMetadata.html</Path>
+                  <Anchor>a430d528ce1f7c9602941815f30ed3ff7ad97ba66b283564339628b71975a6e68d</Anchor>
                  </Node>
                 </Subnodes>
                </Node>
                <Node>
                 <Name>authors</Name>
-                <Path>classalbert_1_1PluginMetaData.html</Path>
-                <Anchor>abf2c32f8c629f57dd5850f967c29d458</Anchor>
+                <Path>classalbert_1_1PluginMetadata.html</Path>
+                <Anchor>a7b65565721dc7326d516990b20d15018</Anchor>
                </Node>
                <Node>
                 <Name>binary_dependencies</Name>
-                <Path>classalbert_1_1PluginMetaData.html</Path>
-                <Anchor>a736d5a0c0ecae325d86d2486bb2b5635</Anchor>
+                <Path>classalbert_1_1PluginMetadata.html</Path>
+                <Anchor>a41c8b867432faf4ddaf968a819a62dd1</Anchor>
                </Node>
                <Node>
                 <Name>description</Name>
-                <Path>classalbert_1_1PluginMetaData.html</Path>
-                <Anchor>ada4bf624b1d2aa2ba02088c34a25c8b5</Anchor>
+                <Path>classalbert_1_1PluginMetadata.html</Path>
+                <Anchor>a03d17f37eff5d9328ea75ccc50ec6fc9</Anchor>
                </Node>
                <Node>
                 <Name>id</Name>
-                <Path>classalbert_1_1PluginMetaData.html</Path>
-                <Anchor>a95d4a8faa21db1b53b0b960f5948997b</Anchor>
+                <Path>classalbert_1_1PluginMetadata.html</Path>
+                <Anchor>ae455e3626e396950fae4bc87e2a310ff</Anchor>
                </Node>
                <Node>
                 <Name>iid</Name>
-                <Path>classalbert_1_1PluginMetaData.html</Path>
-                <Anchor>a481699b0a5b2d99164631ba92610292e</Anchor>
+                <Path>classalbert_1_1PluginMetadata.html</Path>
+                <Anchor>a6fa0db8a6a7e422b4c1147cee2348969</Anchor>
                </Node>
                <Node>
                 <Name>license</Name>
-                <Path>classalbert_1_1PluginMetaData.html</Path>
-                <Anchor>a6b2c517aba6610546d858f8ebdc017f3</Anchor>
+                <Path>classalbert_1_1PluginMetadata.html</Path>
+                <Anchor>af30a551f03a85bf2ae04e97dba96e735</Anchor>
                </Node>
                <Node>
                 <Name>load_type</Name>
-                <Path>classalbert_1_1PluginMetaData.html</Path>
-                <Anchor>a467edd48fa6968f4e664ad4b4b39928c</Anchor>
+                <Path>classalbert_1_1PluginMetadata.html</Path>
+                <Anchor>ae29ae4b809993bdcbc6f25b2ba838577</Anchor>
                </Node>
                <Node>
                 <Name>name</Name>
-                <Path>classalbert_1_1PluginMetaData.html</Path>
-                <Anchor>adb66212725fe3ea81fc11ba522f9655b</Anchor>
+                <Path>classalbert_1_1PluginMetadata.html</Path>
+                <Anchor>a0d7d49ddba3c6024eef05970a35917f2</Anchor>
                </Node>
                <Node>
                 <Name>platforms</Name>
-                <Path>classalbert_1_1PluginMetaData.html</Path>
-                <Anchor>af20d9960d822f37578c1404544665df3</Anchor>
+                <Path>classalbert_1_1PluginMetadata.html</Path>
+                <Anchor>a51761863ffd522fc7a6ca6dd0b94cf43</Anchor>
                </Node>
                <Node>
                 <Name>plugin_dependencies</Name>
-                <Path>classalbert_1_1PluginMetaData.html</Path>
-                <Anchor>a24873aa4ff8073ba3e03a5b47d818d8d</Anchor>
+                <Path>classalbert_1_1PluginMetadata.html</Path>
+                <Anchor>a0bbac3f934b5f20f3723835ddcfb8264</Anchor>
                </Node>
                <Node>
                 <Name>runtime_dependencies</Name>
-                <Path>classalbert_1_1PluginMetaData.html</Path>
-                <Anchor>a8ad66978975fca1ba45838b07dfd7989</Anchor>
+                <Path>classalbert_1_1PluginMetadata.html</Path>
+                <Anchor>a4285f9e6ad514b5d198e35f29d79b490</Anchor>
                </Node>
                <Node>
                 <Name>third_party_credits</Name>
-                <Path>classalbert_1_1PluginMetaData.html</Path>
-                <Anchor>a98a024db32e7452f078ae7685b20a9cb</Anchor>
+                <Path>classalbert_1_1PluginMetadata.html</Path>
+                <Anchor>a273c5f87754ff87da2136b65819cff86</Anchor>
                </Node>
                <Node>
                 <Name>translations</Name>
-                <Path>classalbert_1_1PluginMetaData.html</Path>
-                <Anchor>a5da5859ac1f0ecea79526c03a054b305</Anchor>
+                <Path>classalbert_1_1PluginMetadata.html</Path>
+                <Anchor>a8524f868b8ff6b0b817a9f39679ec412</Anchor>
                </Node>
                <Node>
                 <Name>url</Name>
-                <Path>classalbert_1_1PluginMetaData.html</Path>
-                <Anchor>aa8cdf068f6e7277ea33dab4a30b809c8</Anchor>
+                <Path>classalbert_1_1PluginMetadata.html</Path>
+                <Anchor>a93839245e5ab0d539d3279fe5ff977bd</Anchor>
                </Node>
                <Node>
                 <Name>version</Name>
-                <Path>classalbert_1_1PluginMetaData.html</Path>
-                <Anchor>a9ea434d693b7a92928bd7a39b03e1821</Anchor>
+                <Path>classalbert_1_1PluginMetadata.html</Path>
+                <Anchor>afede84c02c330e304d2203300cfef7c4</Anchor>
                </Node>
               </Subnodes>
              </Node>
@@ -3381,33 +3519,6 @@
               </Subnodes>
              </Node>
              <Node>
-              <Name>StrongDependency</Name>
-              <Path>classalbert_1_1StrongDependency.html</Path>
-            <Subnodes>
-               <Node>
-                <Name>StrongDependency</Name>
-                <Path>classalbert_1_1StrongDependency.html</Path>
-                <Anchor>a7e32e6842ba5b5b2b5e27a0cae225d2f</Anchor>
-               </Node>
-              </Subnodes>
-             </Node>
-             <Node>
-              <Name>TelemetryProvider</Name>
-              <Path>classalbert_1_1TelemetryProvider.html</Path>
-            <Subnodes>
-               <Node>
-                <Name>~TelemetryProvider</Name>
-                <Path>classalbert_1_1TelemetryProvider.html</Path>
-                <Anchor>ad741b3ba56404d042bd9b7375fa20a7d</Anchor>
-               </Node>
-               <Node>
-                <Name>telemetryData</Name>
-                <Path>classalbert_1_1TelemetryProvider.html</Path>
-                <Anchor>a3ca01f90e39c6d0d55623a35c5aab8d0</Anchor>
-               </Node>
-              </Subnodes>
-             </Node>
-             <Node>
               <Name>TriggerQueryHandler</Name>
               <Path>classalbert_1_1TriggerQueryHandler.html</Path>
             <Subnodes>
@@ -3469,27 +3580,6 @@
                </Node>
               </Subnodes>
              </Node>
-             <Node>
-              <Name>WeakDependency</Name>
-              <Path>classalbert_1_1WeakDependency.html</Path>
-            <Subnodes>
-               <Node>
-                <Name>WeakDependency</Name>
-                <Path>classalbert_1_1WeakDependency.html</Path>
-                <Anchor>aa7134ad13996b4bbe26d7dd13d1d05c4</Anchor>
-               </Node>
-               <Node>
-                <Name>~WeakDependency</Name>
-                <Path>classalbert_1_1WeakDependency.html</Path>
-                <Anchor>a58e2c966cb28fa2a6593f2fd20bf80d9</Anchor>
-               </Node>
-               <Node>
-                <Name>callback</Name>
-                <Path>classalbert_1_1WeakDependency.html</Path>
-                <Anchor>ab77ad469adf86428a859203742d07ac0</Anchor>
-               </Node>
-              </Subnodes>
-             </Node>
             </Subnodes>
            </Node>
            <Node>
@@ -3515,16 +3605,16 @@
             <Path>classalbert_1_1util_1_1BackgroundExecutor.html</Path>
            </Node>
            <Node>
-            <Name>albert::Dependency&lt; T &gt;</Name>
-            <Path>classalbert_1_1Dependency.html</Path>
+            <Name>albert::util::Dependency&lt; T &gt;</Name>
+            <Path>classalbert_1_1util_1_1Dependency.html</Path>
           <Subnodes>
              <Node>
-              <Name>albert::StrongDependency&lt; T &gt;</Name>
-              <Path>classalbert_1_1StrongDependency.html</Path>
+              <Name>albert::util::StrongDependency&lt; T &gt;</Name>
+              <Path>classalbert_1_1util_1_1StrongDependency.html</Path>
              </Node>
              <Node>
-              <Name>albert::WeakDependency&lt; T &gt;</Name>
-              <Path>classalbert_1_1WeakDependency.html</Path>
+              <Name>albert::util::WeakDependency&lt; T &gt;</Name>
+              <Path>classalbert_1_1util_1_1WeakDependency.html</Path>
              </Node>
             </Subnodes>
            </Node>
@@ -3533,20 +3623,12 @@
             <Path>classalbert_1_1Extension.html</Path>
           <Subnodes>
              <Node>
-              <Name>albert::ExtensionPlugin</Name>
-              <Path>classalbert_1_1ExtensionPlugin.html</Path>
-             </Node>
-             <Node>
               <Name>albert::FallbackHandler</Name>
               <Path>classalbert_1_1FallbackHandler.html</Path>
              </Node>
              <Node>
               <Name>albert::PluginProvider</Name>
               <Path>classalbert_1_1PluginProvider.html</Path>
-             </Node>
-             <Node>
-              <Name>albert::TelemetryProvider</Name>
-              <Path>classalbert_1_1TelemetryProvider.html</Path>
              </Node>
              <Node>
               <Name>albert::TriggerQueryHandler</Name>
@@ -3567,6 +3649,14 @@
              <Node>
               <Name>albert::UrlHandler</Name>
               <Path>classalbert_1_1UrlHandler.html</Path>
+             </Node>
+             <Node>
+              <Name>albert::detail::TelemetryProvider</Name>
+              <Path>classalbert_1_1detail_1_1TelemetryProvider.html</Path>
+             </Node>
+             <Node>
+              <Name>albert::util::ExtensionPlugin</Name>
+              <Path>classalbert_1_1util_1_1ExtensionPlugin.html</Path>
              </Node>
             </Subnodes>
            </Node>
@@ -3609,18 +3699,14 @@
             <Path>classalbert_1_1PluginInstance.html</Path>
           <Subnodes>
              <Node>
-              <Name>albert::ExtensionPlugin</Name>
-              <Path>classalbert_1_1ExtensionPlugin.html</Path>
+              <Name>albert::util::ExtensionPlugin</Name>
+              <Path>classalbert_1_1util_1_1ExtensionPlugin.html</Path>
              </Node>
             </Subnodes>
            </Node>
            <Node>
-            <Name>albert::PluginLoader</Name>
-            <Path>classalbert_1_1PluginLoader.html</Path>
-           </Node>
-           <Node>
-            <Name>albert::PluginMetaData</Name>
-            <Path>classalbert_1_1PluginMetaData.html</Path>
+            <Name>albert::PluginMetadata</Name>
+            <Path>classalbert_1_1PluginMetadata.html</Path>
            </Node>
            <Node>
             <Name>QList&lt; T &gt;</Name>
@@ -3635,24 +3721,28 @@
             <Path></Path>
           <Subnodes>
              <Node>
-              <Name>albert::ExtensionPlugin</Name>
-              <Path>classalbert_1_1ExtensionPlugin.html</Path>
-             </Node>
-             <Node>
               <Name>albert::ExtensionRegistry</Name>
               <Path>classalbert_1_1ExtensionRegistry.html</Path>
              </Node>
              <Node>
-              <Name>albert::Frontend</Name>
-              <Path>classalbert_1_1Frontend.html</Path>
+              <Name>albert::PluginLoader</Name>
+              <Path>classalbert_1_1PluginLoader.html</Path>
              </Node>
              <Node>
               <Name>albert::Query</Name>
               <Path>classalbert_1_1Query.html</Path>
              </Node>
              <Node>
-              <Name>albert::util::FileDownloader</Name>
-              <Path>classalbert_1_1util_1_1FileDownloader.html</Path>
+              <Name>albert::detail::Frontend</Name>
+              <Path>classalbert_1_1detail_1_1Frontend.html</Path>
+             </Node>
+             <Node>
+              <Name>albert::util::Download</Name>
+              <Path>classalbert_1_1util_1_1Download.html</Path>
+             </Node>
+             <Node>
+              <Name>albert::util::ExtensionPlugin</Name>
+              <Path>classalbert_1_1util_1_1ExtensionPlugin.html</Path>
              </Node>
              <Node>
               <Name>albert::util::InputHistory</Name>
@@ -3683,12 +3773,16 @@
             <Path>classalbert_1_1RankItem.html</Path>
            </Node>
            <Node>
+            <Name>albert::detail::RateLimiter</Name>
+            <Path>classalbert_1_1detail_1_1RateLimiter.html</Path>
+           </Node>
+           <Node>
             <Name>albert::ResultItem</Name>
             <Path>classalbert_1_1ResultItem.html</Path>
            </Node>
            <Node>
-            <Name>albert::experimental::TimeIt</Name>
-            <Path>structalbert_1_1experimental_1_1TimeIt.html</Path>
+            <Name>albert::detail::TimeIt</Name>
+            <Path>structalbert_1_1detail_1_1TimeIt.html</Path>
            </Node>
           </Subnodes>
          </Node>
@@ -3968,17 +4062,17 @@
                      <Node>
                       <Name>cacheLocation</Name>
                       <Path>albert_8h.html</Path>
-                      <Anchor>a9815442f0654991511ecd0f0d7d7e959</Anchor>
+                      <Anchor>a0e2c257e0f05bc73b7559d69595d9bf2</Anchor>
                      </Node>
                      <Node>
                       <Name>configLocation</Name>
                       <Path>albert_8h.html</Path>
-                      <Anchor>a9e4a5e745c6c8d4dc7dc0827caac1def</Anchor>
+                      <Anchor>a937e01e829944189d76f3058e05e0f9f</Anchor>
                      </Node>
                      <Node>
                       <Name>dataLocation</Name>
                       <Path>albert_8h.html</Path>
-                      <Anchor>a7f6fbbcaf1a50138c135a5831eeb5c6a</Anchor>
+                      <Anchor>a58c16e067e92b77017bd9be3676669df</Anchor>
                      </Node>
                      <Node>
                       <Name>extensionRegistry</Name>
@@ -4065,8 +4159,56 @@
                     </Subnodes>
                    </Node>
                    <Node>
-                    <Name>desktoputil.h</Name>
-                    <Path>desktoputil_8h.html</Path>
+                    <Name>download.h</Name>
+                    <Path>download_8h.html</Path>
+                  <Subnodes>
+                     <Node>
+                      <Name>albert::util::Download</Name>
+                      <Path>classalbert_1_1util_1_1Download.html</Path>
+                    <Subnodes>
+                       <Node>
+                        <Name>Download</Name>
+                        <Path>classalbert_1_1util_1_1Download.html</Path>
+                        <Anchor>a740bbb43415e048d5a92e7342e830ead</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>~Download</Name>
+                        <Path>classalbert_1_1util_1_1Download.html</Path>
+                        <Anchor>aa114090b9d0173b1ab939415b0427e0f</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>error</Name>
+                        <Path>classalbert_1_1util_1_1Download.html</Path>
+                        <Anchor>a3c5f2514d02c2facf826a30e6cc99611</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>finished</Name>
+                        <Path>classalbert_1_1util_1_1Download.html</Path>
+                        <Anchor>a9e5971a42ebe554a2c63ee309a1e67f0</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>isActive</Name>
+                        <Path>classalbert_1_1util_1_1Download.html</Path>
+                        <Anchor>aeccf6c9822aa69d8844c832670e52b6e</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>path</Name>
+                        <Path>classalbert_1_1util_1_1Download.html</Path>
+                        <Anchor>a76eefe05a66198a014386cff8425e8cf</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>start</Name>
+                        <Path>classalbert_1_1util_1_1Download.html</Path>
+                        <Anchor>a634bf54c0f963f8870cd0756fe1e10e9</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>url</Name>
+                        <Path>classalbert_1_1util_1_1Download.html</Path>
+                        <Anchor>a149b3ff694ae030562b4525a13b4abbc</Anchor>
+                       </Node>
+                      </Subnodes>
+                     </Node>
+                    </Subnodes>
                    </Node>
                    <Node>
                     <Name>extension.h</Name>
@@ -4105,28 +4247,28 @@
                     <Path>extensionplugin_8h.html</Path>
                   <Subnodes>
                      <Node>
-                      <Name>albert::ExtensionPlugin</Name>
-                      <Path>classalbert_1_1ExtensionPlugin.html</Path>
+                      <Name>albert::util::ExtensionPlugin</Name>
+                      <Path>classalbert_1_1util_1_1ExtensionPlugin.html</Path>
                     <Subnodes>
                        <Node>
                         <Name>description</Name>
-                        <Path>classalbert_1_1ExtensionPlugin.html</Path>
-                        <Anchor>a563311ca5d2143f4987702b0729fa903</Anchor>
+                        <Path>classalbert_1_1util_1_1ExtensionPlugin.html</Path>
+                        <Anchor>aee5afc1dc4a0cdb4b442800371476010</Anchor>
                        </Node>
                        <Node>
                         <Name>extensions</Name>
-                        <Path>classalbert_1_1ExtensionPlugin.html</Path>
-                        <Anchor>a2b66c777a6ec17e567c41cfe70218e5e</Anchor>
+                        <Path>classalbert_1_1util_1_1ExtensionPlugin.html</Path>
+                        <Anchor>a74ec8b1a7046d0ca3102209efc06e50e</Anchor>
                        </Node>
                        <Node>
                         <Name>id</Name>
-                        <Path>classalbert_1_1ExtensionPlugin.html</Path>
-                        <Anchor>aeee425d0fa1174a25ce3ae562ecda5c0</Anchor>
+                        <Path>classalbert_1_1util_1_1ExtensionPlugin.html</Path>
+                        <Anchor>a292da241bc76665ae029144c643d8e93</Anchor>
                        </Node>
                        <Node>
                         <Name>name</Name>
-                        <Path>classalbert_1_1ExtensionPlugin.html</Path>
-                        <Anchor>a40df7fc2ddfef25631c2a56a882e3395</Anchor>
+                        <Path>classalbert_1_1util_1_1ExtensionPlugin.html</Path>
+                        <Anchor>aca94b06e94b494f1b2e9ec9f05e44b2e</Anchor>
                        </Node>
                       </Subnodes>
                      </Node>
@@ -4202,99 +4344,62 @@
                     </Subnodes>
                    </Node>
                    <Node>
-                    <Name>filedownloader.h</Name>
-                    <Path>filedownloader_8h.html</Path>
-                  <Subnodes>
-                     <Node>
-                      <Name>albert::util::FileDownloader</Name>
-                      <Path>classalbert_1_1util_1_1FileDownloader.html</Path>
-                    <Subnodes>
-                       <Node>
-                        <Name>FileDownloader</Name>
-                        <Path>classalbert_1_1util_1_1FileDownloader.html</Path>
-                        <Anchor>aa260d9a9c7fe2479c2c4f71688e0a784</Anchor>
-                       </Node>
-                       <Node>
-                        <Name>finished</Name>
-                        <Path>classalbert_1_1util_1_1FileDownloader.html</Path>
-                        <Anchor>aae7360507073730ffb1d2c4f404c34db</Anchor>
-                       </Node>
-                       <Node>
-                        <Name>start</Name>
-                        <Path>classalbert_1_1util_1_1FileDownloader.html</Path>
-                        <Anchor>a45e33d736801fb6376bd6280caaaa4c7</Anchor>
-                       </Node>
-                       <Node>
-                        <Name>path</Name>
-                        <Path>classalbert_1_1util_1_1FileDownloader.html</Path>
-                        <Anchor>a276ffbc701b34ef182b4c6efc90f3c7c</Anchor>
-                       </Node>
-                       <Node>
-                        <Name>url</Name>
-                        <Path>classalbert_1_1util_1_1FileDownloader.html</Path>
-                        <Anchor>a8c782e6accb4b15c5637e820fa165551</Anchor>
-                       </Node>
-                      </Subnodes>
-                     </Node>
-                    </Subnodes>
-                   </Node>
-                   <Node>
                     <Name>frontend.h</Name>
                     <Path>frontend_8h.html</Path>
                   <Subnodes>
                      <Node>
-                      <Name>albert::Frontend</Name>
-                      <Path>classalbert_1_1Frontend.html</Path>
+                      <Name>albert::detail::Frontend</Name>
+                      <Path>classalbert_1_1detail_1_1Frontend.html</Path>
                     <Subnodes>
                        <Node>
                         <Name>~Frontend</Name>
-                        <Path>classalbert_1_1Frontend.html</Path>
-                        <Anchor>a4207d43477c7f5ee670d920003271022</Anchor>
+                        <Path>classalbert_1_1detail_1_1Frontend.html</Path>
+                        <Anchor>a88f2e34efba6b8c9af40c4507058ae31</Anchor>
                        </Node>
                        <Node>
                         <Name>createFrontendConfigWidget</Name>
-                        <Path>classalbert_1_1Frontend.html</Path>
-                        <Anchor>aef8cf9086d6ecaf22af974c499f3e0b4</Anchor>
+                        <Path>classalbert_1_1detail_1_1Frontend.html</Path>
+                        <Anchor>a7b584cc824eb8b9eea1611b679064b1a</Anchor>
                        </Node>
                        <Node>
                         <Name>input</Name>
-                        <Path>classalbert_1_1Frontend.html</Path>
-                        <Anchor>a79f9cfdf9e46cdf5cacb10a87e675d2c</Anchor>
+                        <Path>classalbert_1_1detail_1_1Frontend.html</Path>
+                        <Anchor>aac182f987b48340a3f3d55427d4042b9</Anchor>
                        </Node>
                        <Node>
                         <Name>inputChanged</Name>
-                        <Path>classalbert_1_1Frontend.html</Path>
-                        <Anchor>a063fafe9030dd792bdb79cf2a9bcef84</Anchor>
+                        <Path>classalbert_1_1detail_1_1Frontend.html</Path>
+                        <Anchor>ad7c4e55c99a073ceed51c8c2d6f6687b</Anchor>
                        </Node>
                        <Node>
                         <Name>isVisible</Name>
-                        <Path>classalbert_1_1Frontend.html</Path>
-                        <Anchor>af6c0a0806b24fb6d7be13853f504f79f</Anchor>
+                        <Path>classalbert_1_1detail_1_1Frontend.html</Path>
+                        <Anchor>a9bde4ec8e4772955d94d6dfb6185a1c9</Anchor>
                        </Node>
                        <Node>
                         <Name>setInput</Name>
-                        <Path>classalbert_1_1Frontend.html</Path>
-                        <Anchor>a08349cc72ea7d21aa6bd989e1cf84991</Anchor>
+                        <Path>classalbert_1_1detail_1_1Frontend.html</Path>
+                        <Anchor>ac7fd1745c47dcbeed2c4f82bc2a5da41</Anchor>
                        </Node>
                        <Node>
                         <Name>setQuery</Name>
-                        <Path>classalbert_1_1Frontend.html</Path>
-                        <Anchor>a2f5d98e3b6ed7f9a2b9f1604581f2395</Anchor>
+                        <Path>classalbert_1_1detail_1_1Frontend.html</Path>
+                        <Anchor>af562460625902cbab28da91c443103ef</Anchor>
                        </Node>
                        <Node>
                         <Name>setVisible</Name>
-                        <Path>classalbert_1_1Frontend.html</Path>
-                        <Anchor>a18af1da7411cb5ca3a9e90471f8f70a0</Anchor>
+                        <Path>classalbert_1_1detail_1_1Frontend.html</Path>
+                        <Anchor>a3a9077908b8406c0a1e95acb8f96ab8f</Anchor>
                        </Node>
                        <Node>
                         <Name>visibleChanged</Name>
-                        <Path>classalbert_1_1Frontend.html</Path>
-                        <Anchor>ab79083fefe87e8507531c895af9a30f0</Anchor>
+                        <Path>classalbert_1_1detail_1_1Frontend.html</Path>
+                        <Anchor>a8b0a59627e2b56311ee309928a748ced</Anchor>
                        </Node>
                        <Node>
                         <Name>winId</Name>
-                        <Path>classalbert_1_1Frontend.html</Path>
-                        <Anchor>a7c6eaea8a9f97ce48ee0c227760b4557</Anchor>
+                        <Path>classalbert_1_1detail_1_1Frontend.html</Path>
+                        <Anchor>ac46b0e5afe7a3c4429d6d7a31b2b2f4b</Anchor>
                        </Node>
                       </Subnodes>
                      </Node>
@@ -4344,37 +4449,37 @@
                      <Node>
                       <Name>fileIcon</Name>
                       <Path>iconprovider_8h.html</Path>
-                      <Anchor>abeb18148b6707265b58b1dde1535eeec</Anchor>
+                      <Anchor>ae1984e30a529c8c436195a0ed3ec525d</Anchor>
                      </Node>
                      <Node>
                       <Name>genericIcon</Name>
                       <Path>iconprovider_8h.html</Path>
-                      <Anchor>acb8e496153900bafec073fbb2399ea7c</Anchor>
+                      <Anchor>a07f1b551718f8e7be2f5974219c96e3f</Anchor>
                      </Node>
                      <Node>
                       <Name>genericPixmap</Name>
                       <Path>iconprovider_8h.html</Path>
-                      <Anchor>a6d5932d7739520ffbce51aa8679cba70</Anchor>
+                      <Anchor>a5fd9f85a1c27697a1294e0326f4bdee3</Anchor>
                      </Node>
                      <Node>
                       <Name>iconFromUrl</Name>
                       <Path>iconprovider_8h.html</Path>
-                      <Anchor>aee0475070a2ef27ceacf7ff581aa1dcb</Anchor>
+                      <Anchor>ad4261f15028c9c6414f974413ec1ae32</Anchor>
                      </Node>
                      <Node>
                       <Name>iconFromUrls</Name>
                       <Path>iconprovider_8h.html</Path>
-                      <Anchor>ac61a5b3def2bde052771d4023c24d47c</Anchor>
+                      <Anchor>a9316fa929748922feda9b358e913b1e7</Anchor>
                      </Node>
                      <Node>
                       <Name>pixmapFromUrl</Name>
                       <Path>iconprovider_8h.html</Path>
-                      <Anchor>a81236ee0855b1024c4d97db9d3d54250</Anchor>
+                      <Anchor>a716d7dbb9b2d69177a1d25de20876e5c</Anchor>
                      </Node>
                      <Node>
                       <Name>pixmapFromUrls</Name>
                       <Path>iconprovider_8h.html</Path>
-                      <Anchor>a18b05bb035188dbaefc02f15550888a3</Anchor>
+                      <Anchor>af7c9d3fa079b53b69d6dd268c1fa19fa</Anchor>
                      </Node>
                     </Subnodes>
                    </Node>
@@ -4857,22 +4962,22 @@
                      <Node>
                       <Name>critical</Name>
                       <Path>messagebox_8h.html</Path>
-                      <Anchor>a0a5f213a5d2ec4d73d39714b4896852c</Anchor>
+                      <Anchor>aee7437df90752fea81920c276cf34762</Anchor>
                      </Node>
                      <Node>
                       <Name>information</Name>
                       <Path>messagebox_8h.html</Path>
-                      <Anchor>a53d9796f16ef5e40224ef48d47ae5004</Anchor>
+                      <Anchor>aba684528627f3372c432cbd0a6eff899</Anchor>
                      </Node>
                      <Node>
                       <Name>question</Name>
                       <Path>messagebox_8h.html</Path>
-                      <Anchor>a251233ec103b28751d10852f273d5798</Anchor>
+                      <Anchor>a269d93ec607848a13e93d9e2d47b5762</Anchor>
                      </Node>
                      <Node>
                       <Name>warning</Name>
                       <Path>messagebox_8h.html</Path>
-                      <Anchor>ae0c0bdae8656cdde1e192346c547ae18</Anchor>
+                      <Anchor>a4688a13cb126f47c7def9f58d030b68e</Anchor>
                      </Node>
                     </Subnodes>
                    </Node>
@@ -4881,14 +4986,30 @@
                     <Path>networkutil_8h.html</Path>
                   <Subnodes>
                      <Node>
+                      <Name>albert::detail::RateLimiter</Name>
+                      <Path>classalbert_1_1detail_1_1RateLimiter.html</Path>
+                    <Subnodes>
+                       <Node>
+                        <Name>RateLimiter</Name>
+                        <Path>classalbert_1_1detail_1_1RateLimiter.html</Path>
+                        <Anchor>a46cb5c019a5ce7bf112f0e05515fa9eb</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>~RateLimiter</Name>
+                        <Path>classalbert_1_1detail_1_1RateLimiter.html</Path>
+                        <Anchor>a5174fb931e7b188eb824f0947debdcfa</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>debounce</Name>
+                        <Path>classalbert_1_1detail_1_1RateLimiter.html</Path>
+                        <Anchor>a5bb051dd93a2a5683c4bb274cd6a888d</Anchor>
+                       </Node>
+                      </Subnodes>
+                     </Node>
+                     <Node>
                       <Name>await</Name>
                       <Path>networkutil_8h.html</Path>
                       <Anchor>ad42cff176730ced1bd908a1437c20029</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>makeRestRequest</Name>
-                      <Path>networkutil_8h.html</Path>
-                      <Anchor>a9399d033cc28d5a9c7428600041377b9</Anchor>
                      </Node>
                      <Node>
                       <Name>network</Name>
@@ -5185,75 +5306,85 @@
                     <Path>plugindependency_8h.html</Path>
                   <Subnodes>
                      <Node>
-                      <Name>albert::Dependency&lt; T &gt;</Name>
-                      <Path>classalbert_1_1Dependency.html</Path>
+                      <Name>albert::util::Dependency&lt; T &gt;</Name>
+                      <Path>classalbert_1_1util_1_1Dependency.html</Path>
                     <Subnodes>
                        <Node>
-                        <Name>get</Name>
-                        <Path>classalbert_1_1Dependency.html</Path>
-                        <Anchor>aa9faeed47b6d3f2770c6392366cfd365</Anchor>
+                        <Name>Dependency</Name>
+                        <Path>classalbert_1_1util_1_1Dependency.html</Path>
+                        <Anchor>a24bca8ff0e29290fc881e837cd8ee339</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>~Dependency</Name>
+                        <Path>classalbert_1_1util_1_1Dependency.html</Path>
+                        <Anchor>ab37ebc77c2fe282c846b70a91b288c61</Anchor>
                        </Node>
                        <Node>
                         <Name>get</Name>
-                        <Path>classalbert_1_1Dependency.html</Path>
-                        <Anchor>a65f7a091bdbdfff51afe1dccf87f1d4a</Anchor>
+                        <Path>classalbert_1_1util_1_1Dependency.html</Path>
+                        <Anchor>a4c93621dbb74e2e21af45714c69a4826</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>get</Name>
+                        <Path>classalbert_1_1util_1_1Dependency.html</Path>
+                        <Anchor>a7a7cf881033d5eb85a5b4fef4311a9b0</Anchor>
                        </Node>
                        <Node>
                         <Name>operator bool</Name>
-                        <Path>classalbert_1_1Dependency.html</Path>
-                        <Anchor>a6a51686f7121d1477263d8da539e0518</Anchor>
+                        <Path>classalbert_1_1util_1_1Dependency.html</Path>
+                        <Anchor>a3667411a603bb6d7a15a07150436486f</Anchor>
                        </Node>
                        <Node>
                         <Name>operator T</Name>
-                        <Path>classalbert_1_1Dependency.html</Path>
-                        <Anchor>aab6c97f622d6bb12eb6eee228e742972</Anchor>
+                        <Path>classalbert_1_1util_1_1Dependency.html</Path>
+                        <Anchor>ad17773cac6e729040d45e9c60a3c18de</Anchor>
                        </Node>
                        <Node>
                         <Name>operator-&gt;</Name>
-                        <Path>classalbert_1_1Dependency.html</Path>
-                        <Anchor>ade45ba657f89efcc353b596d858ef431</Anchor>
+                        <Path>classalbert_1_1util_1_1Dependency.html</Path>
+                        <Anchor>a7736986bb5701a5fd87e494e836b1dd0</Anchor>
                        </Node>
                        <Node>
                         <Name>operator-&gt;</Name>
-                        <Path>classalbert_1_1Dependency.html</Path>
-                        <Anchor>a89f1daf171c28298f715c33cf1a8266b</Anchor>
+                        <Path>classalbert_1_1util_1_1Dependency.html</Path>
+                        <Anchor>a06a5d01c4eac871226260df43929ca82</Anchor>
                        </Node>
                        <Node>
                         <Name>dependency_</Name>
-                        <Path>classalbert_1_1Dependency.html</Path>
-                        <Anchor>a109a6af2580a96254e006b3fbf155263</Anchor>
+                        <Path>classalbert_1_1util_1_1Dependency.html</Path>
+                        <Anchor>a9810928a8ba04c1868f752c594995058</Anchor>
                        </Node>
                       </Subnodes>
                      </Node>
                      <Node>
-                      <Name>albert::StrongDependency&lt; T &gt;</Name>
-                      <Path>classalbert_1_1StrongDependency.html</Path>
+                      <Name>albert::util::StrongDependency&lt; T &gt;</Name>
+                      <Path>classalbert_1_1util_1_1StrongDependency.html</Path>
                     <Subnodes>
                        <Node>
                         <Name>StrongDependency</Name>
-                        <Path>classalbert_1_1StrongDependency.html</Path>
-                        <Anchor>a7e32e6842ba5b5b2b5e27a0cae225d2f</Anchor>
+                        <Path>classalbert_1_1util_1_1StrongDependency.html</Path>
+                        <Anchor>a940bbb171809fa353c5bf71ab842cb50</Anchor>
                        </Node>
                       </Subnodes>
                      </Node>
                      <Node>
-                      <Name>albert::WeakDependency&lt; T &gt;</Name>
-                      <Path>classalbert_1_1WeakDependency.html</Path>
+                      <Name>albert::util::WeakDependency&lt; T &gt;</Name>
+                      <Path>classalbert_1_1util_1_1WeakDependency.html</Path>
                     <Subnodes>
                        <Node>
                         <Name>WeakDependency</Name>
-                        <Path>classalbert_1_1WeakDependency.html</Path>
-                        <Anchor>aa7134ad13996b4bbe26d7dd13d1d05c4</Anchor>
+                        <Path>classalbert_1_1util_1_1WeakDependency.html</Path>
+                        <Anchor>a5a28e99265b8b639c0c87f16eed80360</Anchor>
                        </Node>
                        <Node>
                         <Name>~WeakDependency</Name>
-                        <Path>classalbert_1_1WeakDependency.html</Path>
-                        <Anchor>a58e2c966cb28fa2a6593f2fd20bf80d9</Anchor>
+                        <Path>classalbert_1_1util_1_1WeakDependency.html</Path>
+                        <Anchor>a7ca99a8564f47d8fe74f08874feaf742</Anchor>
                        </Node>
                        <Node>
                         <Name>callback</Name>
-                        <Path>classalbert_1_1WeakDependency.html</Path>
-                        <Anchor>ab77ad469adf86428a859203742d07ac0</Anchor>
+                        <Path>classalbert_1_1util_1_1WeakDependency.html</Path>
+                        <Anchor>adcc126ea4397dbc0f3f1264867a31e1c</Anchor>
                        </Node>
                       </Subnodes>
                      </Node>
@@ -5355,9 +5486,14 @@
                         <Anchor>aed12605269105560dfa0130957d8b403</Anchor>
                        </Node>
                        <Node>
-                        <Name>createInstance</Name>
+                        <Name>finished</Name>
                         <Path>classalbert_1_1PluginLoader.html</Path>
-                        <Anchor>a2ad482ff0d0a797fcb391f55882952b3</Anchor>
+                        <Anchor>ac75e3b9e0a8f0bfbafd270f68f87ebdf</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>instance</Name>
+                        <Path>classalbert_1_1PluginLoader.html</Path>
+                        <Anchor>a152ac767c6e132b5607716e3d7b4ac15</Anchor>
                        </Node>
                        <Node>
                         <Name>load</Name>
@@ -5365,9 +5501,9 @@
                         <Anchor>a25c920721215388c3936e4173a2dcbe4</Anchor>
                        </Node>
                        <Node>
-                        <Name>metaData</Name>
+                        <Name>metadata</Name>
                         <Path>classalbert_1_1PluginLoader.html</Path>
-                        <Anchor>a5bbbb62f0a52690cfa7e793e100ddd34</Anchor>
+                        <Anchor>a06a4cc4334005183076e2879a197c3a7</Anchor>
                        </Node>
                        <Node>
                         <Name>path</Name>
@@ -5388,100 +5524,100 @@
                     <Path>pluginmetadata_8h.html</Path>
                   <Subnodes>
                      <Node>
-                      <Name>albert::PluginMetaData</Name>
-                      <Path>classalbert_1_1PluginMetaData.html</Path>
+                      <Name>albert::PluginMetadata</Name>
+                      <Path>classalbert_1_1PluginMetadata.html</Path>
                     <Subnodes>
                        <Node>
                         <Name>LoadType</Name>
-                        <Path>classalbert_1_1PluginMetaData.html</Path>
-                        <Anchor>a1f334952cd39eeb45fe4401a919f950f</Anchor>
+                        <Path>classalbert_1_1PluginMetadata.html</Path>
+                        <Anchor>a430d528ce1f7c9602941815f30ed3ff7</Anchor>
                       <Subnodes>
                          <Node>
                           <Name>User</Name>
-                          <Path>classalbert_1_1PluginMetaData.html</Path>
-                          <Anchor>a1f334952cd39eeb45fe4401a919f950fa8f9bfe9d1345237cb3b2b205864da075</Anchor>
+                          <Path>classalbert_1_1PluginMetadata.html</Path>
+                          <Anchor>a430d528ce1f7c9602941815f30ed3ff7a8f9bfe9d1345237cb3b2b205864da075</Anchor>
                          </Node>
                          <Node>
                           <Name>Frontend</Name>
-                          <Path>classalbert_1_1PluginMetaData.html</Path>
-                          <Anchor>a1f334952cd39eeb45fe4401a919f950fad97ba66b283564339628b71975a6e68d</Anchor>
+                          <Path>classalbert_1_1PluginMetadata.html</Path>
+                          <Anchor>a430d528ce1f7c9602941815f30ed3ff7ad97ba66b283564339628b71975a6e68d</Anchor>
                          </Node>
                         </Subnodes>
                        </Node>
                        <Node>
                         <Name>authors</Name>
-                        <Path>classalbert_1_1PluginMetaData.html</Path>
-                        <Anchor>abf2c32f8c629f57dd5850f967c29d458</Anchor>
+                        <Path>classalbert_1_1PluginMetadata.html</Path>
+                        <Anchor>a7b65565721dc7326d516990b20d15018</Anchor>
                        </Node>
                        <Node>
                         <Name>binary_dependencies</Name>
-                        <Path>classalbert_1_1PluginMetaData.html</Path>
-                        <Anchor>a736d5a0c0ecae325d86d2486bb2b5635</Anchor>
+                        <Path>classalbert_1_1PluginMetadata.html</Path>
+                        <Anchor>a41c8b867432faf4ddaf968a819a62dd1</Anchor>
                        </Node>
                        <Node>
                         <Name>description</Name>
-                        <Path>classalbert_1_1PluginMetaData.html</Path>
-                        <Anchor>ada4bf624b1d2aa2ba02088c34a25c8b5</Anchor>
+                        <Path>classalbert_1_1PluginMetadata.html</Path>
+                        <Anchor>a03d17f37eff5d9328ea75ccc50ec6fc9</Anchor>
                        </Node>
                        <Node>
                         <Name>id</Name>
-                        <Path>classalbert_1_1PluginMetaData.html</Path>
-                        <Anchor>a95d4a8faa21db1b53b0b960f5948997b</Anchor>
+                        <Path>classalbert_1_1PluginMetadata.html</Path>
+                        <Anchor>ae455e3626e396950fae4bc87e2a310ff</Anchor>
                        </Node>
                        <Node>
                         <Name>iid</Name>
-                        <Path>classalbert_1_1PluginMetaData.html</Path>
-                        <Anchor>a481699b0a5b2d99164631ba92610292e</Anchor>
+                        <Path>classalbert_1_1PluginMetadata.html</Path>
+                        <Anchor>a6fa0db8a6a7e422b4c1147cee2348969</Anchor>
                        </Node>
                        <Node>
                         <Name>license</Name>
-                        <Path>classalbert_1_1PluginMetaData.html</Path>
-                        <Anchor>a6b2c517aba6610546d858f8ebdc017f3</Anchor>
+                        <Path>classalbert_1_1PluginMetadata.html</Path>
+                        <Anchor>af30a551f03a85bf2ae04e97dba96e735</Anchor>
                        </Node>
                        <Node>
                         <Name>load_type</Name>
-                        <Path>classalbert_1_1PluginMetaData.html</Path>
-                        <Anchor>a467edd48fa6968f4e664ad4b4b39928c</Anchor>
+                        <Path>classalbert_1_1PluginMetadata.html</Path>
+                        <Anchor>ae29ae4b809993bdcbc6f25b2ba838577</Anchor>
                        </Node>
                        <Node>
                         <Name>name</Name>
-                        <Path>classalbert_1_1PluginMetaData.html</Path>
-                        <Anchor>adb66212725fe3ea81fc11ba522f9655b</Anchor>
+                        <Path>classalbert_1_1PluginMetadata.html</Path>
+                        <Anchor>a0d7d49ddba3c6024eef05970a35917f2</Anchor>
                        </Node>
                        <Node>
                         <Name>platforms</Name>
-                        <Path>classalbert_1_1PluginMetaData.html</Path>
-                        <Anchor>af20d9960d822f37578c1404544665df3</Anchor>
+                        <Path>classalbert_1_1PluginMetadata.html</Path>
+                        <Anchor>a51761863ffd522fc7a6ca6dd0b94cf43</Anchor>
                        </Node>
                        <Node>
                         <Name>plugin_dependencies</Name>
-                        <Path>classalbert_1_1PluginMetaData.html</Path>
-                        <Anchor>a24873aa4ff8073ba3e03a5b47d818d8d</Anchor>
+                        <Path>classalbert_1_1PluginMetadata.html</Path>
+                        <Anchor>a0bbac3f934b5f20f3723835ddcfb8264</Anchor>
                        </Node>
                        <Node>
                         <Name>runtime_dependencies</Name>
-                        <Path>classalbert_1_1PluginMetaData.html</Path>
-                        <Anchor>a8ad66978975fca1ba45838b07dfd7989</Anchor>
+                        <Path>classalbert_1_1PluginMetadata.html</Path>
+                        <Anchor>a4285f9e6ad514b5d198e35f29d79b490</Anchor>
                        </Node>
                        <Node>
                         <Name>third_party_credits</Name>
-                        <Path>classalbert_1_1PluginMetaData.html</Path>
-                        <Anchor>a98a024db32e7452f078ae7685b20a9cb</Anchor>
+                        <Path>classalbert_1_1PluginMetadata.html</Path>
+                        <Anchor>a273c5f87754ff87da2136b65819cff86</Anchor>
                        </Node>
                        <Node>
                         <Name>translations</Name>
-                        <Path>classalbert_1_1PluginMetaData.html</Path>
-                        <Anchor>a5da5859ac1f0ecea79526c03a054b305</Anchor>
+                        <Path>classalbert_1_1PluginMetadata.html</Path>
+                        <Anchor>a8524f868b8ff6b0b817a9f39679ec412</Anchor>
                        </Node>
                        <Node>
                         <Name>url</Name>
-                        <Path>classalbert_1_1PluginMetaData.html</Path>
-                        <Anchor>aa8cdf068f6e7277ea33dab4a30b809c8</Anchor>
+                        <Path>classalbert_1_1PluginMetadata.html</Path>
+                        <Anchor>a93839245e5ab0d539d3279fe5ff977bd</Anchor>
                        </Node>
                        <Node>
                         <Name>version</Name>
-                        <Path>classalbert_1_1PluginMetaData.html</Path>
-                        <Anchor>a9ea434d693b7a92928bd7a39b03e1821</Anchor>
+                        <Path>classalbert_1_1PluginMetadata.html</Path>
+                        <Anchor>afede84c02c330e304d2203300cfef7c4</Anchor>
                        </Node>
                       </Subnodes>
                      </Node>
@@ -5751,7 +5887,7 @@
                        <Node>
                         <Name>StandardItem</Name>
                         <Path>classalbert_1_1util_1_1StandardItem.html</Path>
-                        <Anchor>aba699191df3f25bf51600ef79c39ecad</Anchor>
+                        <Anchor>af3b6692eaf865147879b19f9ac224da9</Anchor>
                        </Node>
                        <Node>
                         <Name>StandardItem</Name>
@@ -5922,6 +6058,11 @@
                       <Anchor>a1ad8cecaba343bb4d93dfbdc55191ee8</Anchor>
                      </Node>
                      <Node>
+                      <Name>toQString</Name>
+                      <Path>systemutil_8h.html</Path>
+                      <Anchor>a3ecb8fdac2f680261fba23b044943e8b</Anchor>
+                     </Node>
+                     <Node>
                       <Name>tryCreateDirectory</Name>
                       <Path>systemutil_8h.html</Path>
                       <Anchor>abcee75bbe9f068b924a3b8c2f3a9b8bd</Anchor>
@@ -5933,18 +6074,18 @@
                     <Path>telemetryprovider_8h.html</Path>
                   <Subnodes>
                      <Node>
-                      <Name>albert::TelemetryProvider</Name>
-                      <Path>classalbert_1_1TelemetryProvider.html</Path>
+                      <Name>albert::detail::TelemetryProvider</Name>
+                      <Path>classalbert_1_1detail_1_1TelemetryProvider.html</Path>
                     <Subnodes>
                        <Node>
                         <Name>~TelemetryProvider</Name>
-                        <Path>classalbert_1_1TelemetryProvider.html</Path>
-                        <Anchor>ad741b3ba56404d042bd9b7375fa20a7d</Anchor>
+                        <Path>classalbert_1_1detail_1_1TelemetryProvider.html</Path>
+                        <Anchor>afb01fcf3a26daa2d61a4d1bd620537cf</Anchor>
                        </Node>
                        <Node>
                         <Name>telemetryData</Name>
-                        <Path>classalbert_1_1TelemetryProvider.html</Path>
-                        <Anchor>a3ca01f90e39c6d0d55623a35c5aab8d0</Anchor>
+                        <Path>classalbert_1_1detail_1_1TelemetryProvider.html</Path>
+                        <Anchor>a26206ed4f6d5ebaad34a409d7dd0345b</Anchor>
                        </Node>
                       </Subnodes>
                      </Node>
@@ -5955,28 +6096,28 @@
                     <Path>timeit_8h.html</Path>
                   <Subnodes>
                      <Node>
-                      <Name>albert::experimental::TimeIt</Name>
-                      <Path>structalbert_1_1experimental_1_1TimeIt.html</Path>
+                      <Name>albert::detail::TimeIt</Name>
+                      <Path>structalbert_1_1detail_1_1TimeIt.html</Path>
                     <Subnodes>
                        <Node>
                         <Name>TimeIt</Name>
-                        <Path>structalbert_1_1experimental_1_1TimeIt.html</Path>
-                        <Anchor>a06335f119f19b07eea1bd4a674eea364</Anchor>
+                        <Path>structalbert_1_1detail_1_1TimeIt.html</Path>
+                        <Anchor>ad16687a1c6a3ab3f9db53b328e8cfd3c</Anchor>
                        </Node>
                        <Node>
                         <Name>~TimeIt</Name>
-                        <Path>structalbert_1_1experimental_1_1TimeIt.html</Path>
-                        <Anchor>a35108b703716ac201fe5b95bc60339da</Anchor>
+                        <Path>structalbert_1_1detail_1_1TimeIt.html</Path>
+                        <Anchor>a2fb1366365419f0c5e48b6fb0ab93795</Anchor>
                        </Node>
                        <Node>
                         <Name>name</Name>
-                        <Path>structalbert_1_1experimental_1_1TimeIt.html</Path>
-                        <Anchor>a5d9196af90f05d0754b3f32a6fbccfdb</Anchor>
+                        <Path>structalbert_1_1detail_1_1TimeIt.html</Path>
+                        <Anchor>a06ce08d6243e37b764481f5011dffdeb</Anchor>
                        </Node>
                        <Node>
                         <Name>start</Name>
-                        <Path>structalbert_1_1experimental_1_1TimeIt.html</Path>
-                        <Anchor>a3c868a6f19fb77710e9a198117c49476</Anchor>
+                        <Path>structalbert_1_1detail_1_1TimeIt.html</Path>
+                        <Anchor>a184220bca8322fb1d7a6082eb34c94c6</Anchor>
                        </Node>
                       </Subnodes>
                      </Node>

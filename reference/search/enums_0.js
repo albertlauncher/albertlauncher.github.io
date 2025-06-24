@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['loadtype_0',['LoadType',['../classalbert_1_1PluginMetaData.html#a1f334952cd39eeb45fe4401a919f950f',1,'albert::PluginMetaData']]]
+  ['loadtype_0',['LoadType',['../classalbert_1_1PluginMetadata.html#a430d528ce1f7c9602941815f30ed3ff7',1,'albert::PluginMetadata']]]
 ];
