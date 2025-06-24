@@ -26,14 +26,16 @@
           <description>&lt;h1 id=&quot;albert-v0290-released&quot;&gt;Albert v0.29.0 released&lt;/h1&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;New GitHub plugin&lt;/li&gt;
+  &lt;li&gt;Add GitHub plugin&lt;/li&gt;
   &lt;li&gt;Next step in making the API more developer friendly&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;albert&quot;&gt;Albert&lt;/h3&gt;
-
-&lt;ul&gt;
   &lt;li&gt;Move AppQueryHandler into plugin&lt;/li&gt;
+  &lt;li&gt;Asynchronous plugin loader interface
+    &lt;ul&gt;
+      &lt;li&gt;Native implementation loads multi threaded (may be serialized by platform linker though).
+Instantiation happens still in main thread because the existing code is not ready for it.&lt;/li&gt;
+      &lt;li&gt;Python implementation is threaded entirely (loading and instantiation) however effectively serialized by the GIL.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&quot;api&quot;&gt;API&lt;/h3&gt;
