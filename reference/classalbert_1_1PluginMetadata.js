@@ -14,6 +14,7 @@ var classalbert_1_1PluginMetadata =
     [ "name", "classalbert_1_1PluginMetadata.html#a0d7d49ddba3c6024eef05970a35917f2", null ],
     [ "platforms", "classalbert_1_1PluginMetadata.html#a51761863ffd522fc7a6ca6dd0b94cf43", null ],
     [ "plugin_dependencies", "classalbert_1_1PluginMetadata.html#a0bbac3f934b5f20f3723835ddcfb8264", null ],
+    [ "readme_url", "classalbert_1_1PluginMetadata.html#af5a8e9fc2fac3a1fa44235ea4c2b338c", null ],
     [ "runtime_dependencies", "classalbert_1_1PluginMetadata.html#a4285f9e6ad514b5d198e35f29d79b490", null ],
     [ "third_party_credits", "classalbert_1_1PluginMetadata.html#a273c5f87754ff87da2136b65819cff86", null ],
     [ "translations", "classalbert_1_1PluginMetadata.html#a8524f868b8ff6b0b817a9f39679ec412", null ],

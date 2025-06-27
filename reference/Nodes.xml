@@ -1573,6 +1573,11 @@
                 <Anchor>a0bbac3f934b5f20f3723835ddcfb8264</Anchor>
                </Node>
                <Node>
+                <Name>readme_url</Name>
+                <Path>classalbert_1_1PluginMetadata.html</Path>
+                <Anchor>af5a8e9fc2fac3a1fa44235ea4c2b338c</Anchor>
+               </Node>
+               <Node>
                 <Name>runtime_dependencies</Name>
                 <Path>classalbert_1_1PluginMetadata.html</Path>
                 <Anchor>a4285f9e6ad514b5d198e35f29d79b490</Anchor>
@@ -3311,6 +3316,11 @@
                 <Name>plugin_dependencies</Name>
                 <Path>classalbert_1_1PluginMetadata.html</Path>
                 <Anchor>a0bbac3f934b5f20f3723835ddcfb8264</Anchor>
+               </Node>
+               <Node>
+                <Name>readme_url</Name>
+                <Path>classalbert_1_1PluginMetadata.html</Path>
+                <Anchor>af5a8e9fc2fac3a1fa44235ea4c2b338c</Anchor>
                </Node>
                <Node>
                 <Name>runtime_dependencies</Name>
@@ -5593,6 +5603,11 @@
                         <Name>plugin_dependencies</Name>
                         <Path>classalbert_1_1PluginMetadata.html</Path>
                         <Anchor>a0bbac3f934b5f20f3723835ddcfb8264</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>readme_url</Name>
+                        <Path>classalbert_1_1PluginMetadata.html</Path>
+                        <Anchor>af5a8e9fc2fac3a1fa44235ea4c2b338c</Anchor>
                        </Node>
                        <Node>
                         <Name>runtime_dependencies</Name>

@@ -2,7 +2,7 @@ var searchData=
 [
   ['scope_0',['scope',['../classalbert_1_1util_1_1OAuth2.html#a13896d90592bb69fe98562e54b77c915',1,'albert::util::OAuth2']]],
   ['scopechanged_1',['scopeChanged',['../classalbert_1_1util_1_1OAuth2.html#a08d33883ac240a43a64dedab316f2459',1,'albert::util::OAuth2']]],
-  ['score_2',['score',['../classalbert_1_1util_1_1Match.html#a61d62e18cccad18c88b745a1eda55a80',1,'albert::util::Match::Score'],['../classalbert_1_1RankItem.html#a582ca543e0f6db3319cb201470d5437a',1,'albert::RankItem::score'],['../classalbert_1_1util_1_1Match.html#aabf8c5c973091004354b76b3cfcb1d15',1,'albert::util::Match::score()']]],
+  ['score_2',['score',['../classalbert_1_1RankItem.html#a582ca543e0f6db3319cb201470d5437a',1,'albert::RankItem::score'],['../classalbert_1_1util_1_1Match.html#aabf8c5c973091004354b76b3cfcb1d15',1,'albert::util::Match::score() const'],['../classalbert_1_1util_1_1Match.html#a61d62e18cccad18c88b745a1eda55a80',1,'albert::util::Match::Score']]],
   ['send_3',['send',['../classalbert_1_1util_1_1Notification.html#a39cd1ef62bb7ee9a36b05f167b7cc563',1,'albert::util::Notification']]],
   ['separator_5fregex_4',['separator_regex',['../classalbert_1_1util_1_1MatchConfig.html#aefc98b2752b0e8f00b464c9d6de575ff',1,'albert::util::MatchConfig']]],
   ['setactions_5',['setActions',['../classalbert_1_1util_1_1StandardItem.html#a05de714fd0198c525d0692e2dcc9aa3a',1,'albert::util::StandardItem']]],

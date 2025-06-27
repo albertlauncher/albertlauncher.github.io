@@ -2271,6 +2271,16 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>readme_url</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>albert::PluginMetadata</Scope>
+    </TokenIdentifier>
+    <Path>classalbert_1_1PluginMetadata.html</Path>
+    <Anchor>af5a8e9fc2fac3a1fa44235ea4c2b338c</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>redirectUri</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
@@ -2423,16 +2433,6 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>Score</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>tdef</Type>
-      <Scope>albert::util::Match</Scope>
-    </TokenIdentifier>
-    <Path>classalbert_1_1util_1_1Match.html</Path>
-    <Anchor>a61d62e18cccad18c88b745a1eda55a80</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
       <Name>score</Name>
       <APILanguage>cpp</APILanguage>
       <Type>data</Type>
@@ -2451,6 +2451,16 @@
     <Path>classalbert_1_1util_1_1Match.html</Path>
     <Anchor>aabf8c5c973091004354b76b3cfcb1d15</Anchor>
     <DeclaredIn>matcher.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Score</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>tdef</Type>
+      <Scope>albert::util::Match</Scope>
+    </TokenIdentifier>
+    <Path>classalbert_1_1util_1_1Match.html</Path>
+    <Anchor>a61d62e18cccad18c88b745a1eda55a80</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
