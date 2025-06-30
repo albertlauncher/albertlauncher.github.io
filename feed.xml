@@ -22,7 +22,7 @@
 
 &lt;ul&gt;
   &lt;li&gt;Move &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Action&lt;/code&gt; into &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;item.h&lt;/code&gt;. Apply perfect forwarding in ctor.&lt;/li&gt;
-  &lt;li&gt;API: Add &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;QString albert::util::runAppleScript(const QString &amp;amp;script)&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Add &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;QString albert::util::runAppleScript(const QString &amp;amp;script)&lt;/code&gt;&lt;/li&gt;
   &lt;li&gt;Move DesktopEntryParser from app plugin into private albert API&lt;/li&gt;
 &lt;/ul&gt;
 
