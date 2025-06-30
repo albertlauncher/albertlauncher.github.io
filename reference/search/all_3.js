@@ -11,8 +11,10 @@ var searchData=
   ['dependency_5f_8',['dependency_',['../classalbert_1_1util_1_1Dependency.html#a9810928a8ba04c1868f752c594995058',1,'albert::util::Dependency']]],
   ['deregisterextension_9',['deregisterExtension',['../classalbert_1_1ExtensionRegistry.html#a7b08618d085bafac2399641c4dc32a62',1,'albert::ExtensionRegistry']]],
   ['description_10',['description',['../classalbert_1_1PluginMetadata.html#a03d17f37eff5d9328ea75ccc50ec6fc9',1,'albert::PluginMetadata::description'],['../classalbert_1_1Extension.html#a9f18ca0cf14e367e3826cdcdaa35f1c3',1,'albert::Extension::description()'],['../classalbert_1_1util_1_1ExtensionPlugin.html#aee5afc1dc4a0cdb4b442800371476010',1,'albert::util::ExtensionPlugin::description()']]],
-  ['dismiss_11',['dismiss',['../classalbert_1_1util_1_1Notification.html#aff395d7be46e2d9a6687ea1bf5c1735b',1,'albert::util::Notification']]],
-  ['download_12',['download',['../classalbert_1_1util_1_1Download.html#a740bbb43415e048d5a92e7342e830ead',1,'albert::util::Download::Download()'],['../classalbert_1_1util_1_1Download.html',1,'albert::util::Download']]],
-  ['download_2eh_13',['download.h',['../download_8h.html',1,'']]],
-  ['dynamicitem_14',['dynamicitem',['../classalbert_1_1detail_1_1DynamicItem.html#a82c34fe0ccce788091fc6efedb26843e',1,'albert::detail::DynamicItem::DynamicItem()'],['../classalbert_1_1detail_1_1DynamicItem.html',1,'albert::detail::DynamicItem']]]
+  ['desktopentryparser_11',['desktopentryparser',['../classalbert_1_1detail_1_1DesktopEntryParser.html#a7c3621527518be1f87f70f16a8a0147f',1,'albert::detail::DesktopEntryParser::DesktopEntryParser()'],['../classalbert_1_1detail_1_1DesktopEntryParser.html',1,'albert::detail::DesktopEntryParser']]],
+  ['desktopentryparser_2eh_12',['desktopentryparser.h',['../desktopentryparser_8h.html',1,'']]],
+  ['dismiss_13',['dismiss',['../classalbert_1_1util_1_1Notification.html#aff395d7be46e2d9a6687ea1bf5c1735b',1,'albert::util::Notification']]],
+  ['download_14',['download',['../classalbert_1_1util_1_1Download.html#a740bbb43415e048d5a92e7342e830ead',1,'albert::util::Download::Download()'],['../classalbert_1_1util_1_1Download.html',1,'albert::util::Download']]],
+  ['download_2eh_15',['download.h',['../download_8h.html',1,'']]],
+  ['dynamicitem_16',['dynamicitem',['../classalbert_1_1detail_1_1DynamicItem.html#a82c34fe0ccce788091fc6efedb26843e',1,'albert::detail::DynamicItem::DynamicItem()'],['../classalbert_1_1detail_1_1DynamicItem.html',1,'albert::detail::DynamicItem']]]
 ];

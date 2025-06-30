@@ -6,6 +6,7 @@ var hierarchy =
       [ "albert::util::StrongDependency< T >", "classalbert_1_1util_1_1StrongDependency.html", null ],
       [ "albert::util::WeakDependency< T >", "classalbert_1_1util_1_1WeakDependency.html", null ]
     ] ],
+    [ "albert::detail::DesktopEntryParser", "classalbert_1_1detail_1_1DesktopEntryParser.html", null ],
     [ "albert::Extension", "classalbert_1_1Extension.html", [
       [ "albert::FallbackHandler", "classalbert_1_1FallbackHandler.html", null ],
       [ "albert::PluginProvider", "classalbert_1_1PluginProvider.html", null ],

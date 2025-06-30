@@ -8,7 +8,7 @@
       <Scope>albert::Action</Scope>
     </TokenIdentifier>
     <Path>classalbert_1_1Action.html</Path>
-    <DeclaredIn>albert/action.h</DeclaredIn>
+    <DeclaredIn>albert/item.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -29,6 +29,16 @@
     </TokenIdentifier>
     <Path>classalbert_1_1util_1_1Dependency.html</Path>
     <DeclaredIn>albert/plugindependency.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>albert::detail::DesktopEntryParser</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+      <Scope>albert::detail::DesktopEntryParser</Scope>
+    </TokenIdentifier>
+    <Path>classalbert_1_1detail_1_1DesktopEntryParser.html</Path>
+    <DeclaredIn>albert/desktopentryparser.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -425,8 +435,8 @@
       <Scope>albert::Action</Scope>
     </TokenIdentifier>
     <Path>classalbert_1_1Action.html</Path>
-    <Anchor>aa4e4130a3666df11988dce9217cfd167</Anchor>
-    <DeclaredIn>action.h</DeclaredIn>
+    <Anchor>a52e6338641d818423837645ab6df1a63</Anchor>
+    <DeclaredIn>item.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -928,6 +938,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>DesktopEntryParser</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>albert::detail::DesktopEntryParser</Scope>
+    </TokenIdentifier>
+    <Path>classalbert_1_1detail_1_1DesktopEntryParser.html</Path>
+    <Anchor>a7c3621527518be1f87f70f16a8a0147f</Anchor>
+    <DeclaredIn>desktopentryparser.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>dismiss</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
@@ -1161,6 +1182,61 @@
     <Path>classalbert_1_1util_1_1Dependency.html</Path>
     <Anchor>a4c93621dbb74e2e21af45714c69a4826</Anchor>
     <DeclaredIn>plugindependency.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>getBoolean</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>albert::detail::DesktopEntryParser</Scope>
+    </TokenIdentifier>
+    <Path>classalbert_1_1detail_1_1DesktopEntryParser.html</Path>
+    <Anchor>a4b982c59f3c50de9b1937af46f27c1ce</Anchor>
+    <DeclaredIn>desktopentryparser.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>getIconString</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>albert::detail::DesktopEntryParser</Scope>
+    </TokenIdentifier>
+    <Path>classalbert_1_1detail_1_1DesktopEntryParser.html</Path>
+    <Anchor>afaf6ae1034bbd8e4050ea1dd491d9561</Anchor>
+    <DeclaredIn>desktopentryparser.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>getLocaleString</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>albert::detail::DesktopEntryParser</Scope>
+    </TokenIdentifier>
+    <Path>classalbert_1_1detail_1_1DesktopEntryParser.html</Path>
+    <Anchor>a0b376db76071ff7f99ff25eea979af10</Anchor>
+    <DeclaredIn>desktopentryparser.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>getNumeric</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>albert::detail::DesktopEntryParser</Scope>
+    </TokenIdentifier>
+    <Path>classalbert_1_1detail_1_1DesktopEntryParser.html</Path>
+    <Anchor>a8504605cc9590b8394600a719e00d6f9</Anchor>
+    <DeclaredIn>desktopentryparser.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>getString</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>albert::detail::DesktopEntryParser</Scope>
+    </TokenIdentifier>
+    <Path>classalbert_1_1detail_1_1DesktopEntryParser.html</Path>
+    <Anchor>ae4a3523970140a7c66300cefe6f5b780</Anchor>
+    <DeclaredIn>desktopentryparser.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -1750,39 +1826,6 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>match</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>albert::util::Matcher</Scope>
-    </TokenIdentifier>
-    <Path>classalbert_1_1util_1_1Matcher.html</Path>
-    <Anchor>ae2060edf1baeabfe5f58375e8bc79ed6</Anchor>
-    <DeclaredIn>matcher.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>match</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>albert::util::Matcher</Scope>
-    </TokenIdentifier>
-    <Path>classalbert_1_1util_1_1Matcher.html</Path>
-    <Anchor>a0bb2608c9398c34b077e058971919854</Anchor>
-    <DeclaredIn>matcher.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>match</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>albert::util::Matcher</Scope>
-    </TokenIdentifier>
-    <Path>classalbert_1_1util_1_1Matcher.html</Path>
-    <Anchor>abc5e1a5fb08281f529489db72af37ee9</Anchor>
-    <DeclaredIn>matcher.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
       <Name>Match</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
@@ -1812,6 +1855,39 @@
     </TokenIdentifier>
     <Path>classalbert_1_1util_1_1Match.html</Path>
     <Anchor>ae56f20f47823ca3cb245bcc6f4c0ebff</Anchor>
+    <DeclaredIn>matcher.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>match</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>albert::util::Matcher</Scope>
+    </TokenIdentifier>
+    <Path>classalbert_1_1util_1_1Matcher.html</Path>
+    <Anchor>ae2060edf1baeabfe5f58375e8bc79ed6</Anchor>
+    <DeclaredIn>matcher.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>match</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>albert::util::Matcher</Scope>
+    </TokenIdentifier>
+    <Path>classalbert_1_1util_1_1Matcher.html</Path>
+    <Anchor>a0bb2608c9398c34b077e058971919854</Anchor>
+    <DeclaredIn>matcher.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>match</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>albert::util::Matcher</Scope>
+    </TokenIdentifier>
+    <Path>classalbert_1_1util_1_1Matcher.html</Path>
+    <Anchor>abc5e1a5fb08281f529489db72af37ee9</Anchor>
     <DeclaredIn>matcher.h</DeclaredIn>
   </Token>
   <Token>
@@ -2433,6 +2509,16 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>Score</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>tdef</Type>
+      <Scope>albert::util::Match</Scope>
+    </TokenIdentifier>
+    <Path>classalbert_1_1util_1_1Match.html</Path>
+    <Anchor>a61d62e18cccad18c88b745a1eda55a80</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>score</Name>
       <APILanguage>cpp</APILanguage>
       <Type>data</Type>
@@ -2451,16 +2537,6 @@
     <Path>classalbert_1_1util_1_1Match.html</Path>
     <Anchor>aabf8c5c973091004354b76b3cfcb1d15</Anchor>
     <DeclaredIn>matcher.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>Score</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>tdef</Type>
-      <Scope>albert::util::Match</Scope>
-    </TokenIdentifier>
-    <Path>classalbert_1_1util_1_1Match.html</Path>
-    <Anchor>a61d62e18cccad18c88b745a1eda55a80</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -2757,6 +2833,17 @@
     <Path>classalbert_1_1detail_1_1Frontend.html</Path>
     <Anchor>a3a9077908b8406c0a1e95acb8f96ab8f</Anchor>
     <DeclaredIn>frontend.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>splitExec</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>clm</Type>
+      <Scope>albert::detail::DesktopEntryParser</Scope>
+    </TokenIdentifier>
+    <Path>classalbert_1_1detail_1_1DesktopEntryParser.html</Path>
+    <Anchor>ab5a93980fbb4220eca2c2a5ba2c2f122</Anchor>
+    <DeclaredIn>desktopentryparser.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>

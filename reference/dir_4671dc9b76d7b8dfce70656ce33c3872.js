@@ -1,8 +1,8 @@
 var dir_4671dc9b76d7b8dfce70656ce33c3872 =
 [
-    [ "action.h", "action_8h.html", "action_8h" ],
     [ "albert.h", "albert_8h.html", "albert_8h" ],
     [ "backgroundexecutor.h", "backgroundexecutor_8h.html", "backgroundexecutor_8h" ],
+    [ "desktopentryparser.h", "desktopentryparser_8h.html", "desktopentryparser_8h" ],
     [ "download.h", "download_8h.html", "download_8h" ],
     [ "extension.h", "extension_8h.html", "extension_8h" ],
     [ "extensionplugin.h", "extensionplugin_8h.html", "extensionplugin_8h" ],

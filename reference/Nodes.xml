@@ -22,6 +22,42 @@
               <Path>namespacealbert_1_1detail.html</Path>
             <Subnodes>
                <Node>
+                <Name>DesktopEntryParser</Name>
+                <Path>classalbert_1_1detail_1_1DesktopEntryParser.html</Path>
+              <Subnodes>
+                 <Node>
+                  <Name>DesktopEntryParser</Name>
+                  <Path>classalbert_1_1detail_1_1DesktopEntryParser.html</Path>
+                  <Anchor>a7c3621527518be1f87f70f16a8a0147f</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>getBoolean</Name>
+                  <Path>classalbert_1_1detail_1_1DesktopEntryParser.html</Path>
+                  <Anchor>a4b982c59f3c50de9b1937af46f27c1ce</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>getIconString</Name>
+                  <Path>classalbert_1_1detail_1_1DesktopEntryParser.html</Path>
+                  <Anchor>afaf6ae1034bbd8e4050ea1dd491d9561</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>getLocaleString</Name>
+                  <Path>classalbert_1_1detail_1_1DesktopEntryParser.html</Path>
+                  <Anchor>a0b376db76071ff7f99ff25eea979af10</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>getNumeric</Name>
+                  <Path>classalbert_1_1detail_1_1DesktopEntryParser.html</Path>
+                  <Anchor>a8504605cc9590b8394600a719e00d6f9</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>getString</Name>
+                  <Path>classalbert_1_1detail_1_1DesktopEntryParser.html</Path>
+                  <Anchor>ae4a3523970140a7c66300cefe6f5b780</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
                 <Name>DynamicItem</Name>
                 <Path>classalbert_1_1detail_1_1DynamicItem.html</Path>
               <Subnodes>
@@ -1184,7 +1220,7 @@
                <Node>
                 <Name>Action</Name>
                 <Path>classalbert_1_1Action.html</Path>
-                <Anchor>aa4e4130a3666df11988dce9217cfd167</Anchor>
+                <Anchor>a52e6338641d818423837645ab6df1a63</Anchor>
                </Node>
                <Node>
                 <Name>function</Name>
@@ -1931,6 +1967,42 @@
               <Name>detail</Name>
               <Path>namespacealbert_1_1detail.html</Path>
             <Subnodes>
+               <Node>
+                <Name>DesktopEntryParser</Name>
+                <Path>classalbert_1_1detail_1_1DesktopEntryParser.html</Path>
+              <Subnodes>
+                 <Node>
+                  <Name>DesktopEntryParser</Name>
+                  <Path>classalbert_1_1detail_1_1DesktopEntryParser.html</Path>
+                  <Anchor>a7c3621527518be1f87f70f16a8a0147f</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>getBoolean</Name>
+                  <Path>classalbert_1_1detail_1_1DesktopEntryParser.html</Path>
+                  <Anchor>a4b982c59f3c50de9b1937af46f27c1ce</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>getIconString</Name>
+                  <Path>classalbert_1_1detail_1_1DesktopEntryParser.html</Path>
+                  <Anchor>afaf6ae1034bbd8e4050ea1dd491d9561</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>getLocaleString</Name>
+                  <Path>classalbert_1_1detail_1_1DesktopEntryParser.html</Path>
+                  <Anchor>a0b376db76071ff7f99ff25eea979af10</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>getNumeric</Name>
+                  <Path>classalbert_1_1detail_1_1DesktopEntryParser.html</Path>
+                  <Anchor>a8504605cc9590b8394600a719e00d6f9</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>getString</Name>
+                  <Path>classalbert_1_1detail_1_1DesktopEntryParser.html</Path>
+                  <Anchor>ae4a3523970140a7c66300cefe6f5b780</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
                <Node>
                 <Name>DynamicItem</Name>
                 <Path>classalbert_1_1detail_1_1DynamicItem.html</Path>
@@ -2929,7 +3001,7 @@
                <Node>
                 <Name>Action</Name>
                 <Path>classalbert_1_1Action.html</Path>
-                <Anchor>aa4e4130a3666df11988dce9217cfd167</Anchor>
+                <Anchor>a52e6338641d818423837645ab6df1a63</Anchor>
                </Node>
                <Node>
                 <Name>function</Name>
@@ -3629,6 +3701,10 @@
             </Subnodes>
            </Node>
            <Node>
+            <Name>albert::detail::DesktopEntryParser</Name>
+            <Path>classalbert_1_1detail_1_1DesktopEntryParser.html</Path>
+           </Node>
+           <Node>
             <Name>albert::Extension</Name>
             <Path>classalbert_1_1Extension.html</Path>
           <Subnodes>
@@ -4029,43 +4105,6 @@
                   <Path>dir_4671dc9b76d7b8dfce70656ce33c3872.html</Path>
                 <Subnodes>
                    <Node>
-                    <Name>action.h</Name>
-                    <Path>action_8h.html</Path>
-                  <Subnodes>
-                     <Node>
-                      <Name>albert::Action</Name>
-                      <Path>classalbert_1_1Action.html</Path>
-                    <Subnodes>
-                       <Node>
-                        <Name>Action</Name>
-                        <Path>classalbert_1_1Action.html</Path>
-                        <Anchor>aa4e4130a3666df11988dce9217cfd167</Anchor>
-                       </Node>
-                       <Node>
-                        <Name>function</Name>
-                        <Path>classalbert_1_1Action.html</Path>
-                        <Anchor>a3b51b223188440df06f813fc06f2b6ed</Anchor>
-                       </Node>
-                       <Node>
-                        <Name>hide_on_activation</Name>
-                        <Path>classalbert_1_1Action.html</Path>
-                        <Anchor>a09b8c3f503b01112e675ce0516ce264a</Anchor>
-                       </Node>
-                       <Node>
-                        <Name>id</Name>
-                        <Path>classalbert_1_1Action.html</Path>
-                        <Anchor>a4a9974e46952a6f4852b9a34f4e546ff</Anchor>
-                       </Node>
-                       <Node>
-                        <Name>text</Name>
-                        <Path>classalbert_1_1Action.html</Path>
-                        <Anchor>a1bfc14743e18269a07ef3ff9eb8798dc</Anchor>
-                       </Node>
-                      </Subnodes>
-                     </Node>
-                    </Subnodes>
-                   </Node>
-                   <Node>
                     <Name>albert.h</Name>
                     <Path>albert_8h.html</Path>
                   <Subnodes>
@@ -4163,6 +4202,48 @@
                         <Name>runtime</Name>
                         <Path>classalbert_1_1util_1_1BackgroundExecutor.html</Path>
                         <Anchor>adfa4565baddfb1e2d0cceaa35b76f365</Anchor>
+                       </Node>
+                      </Subnodes>
+                     </Node>
+                    </Subnodes>
+                   </Node>
+                   <Node>
+                    <Name>desktopentryparser.h</Name>
+                    <Path>desktopentryparser_8h.html</Path>
+                  <Subnodes>
+                     <Node>
+                      <Name>albert::detail::DesktopEntryParser</Name>
+                      <Path>classalbert_1_1detail_1_1DesktopEntryParser.html</Path>
+                    <Subnodes>
+                       <Node>
+                        <Name>DesktopEntryParser</Name>
+                        <Path>classalbert_1_1detail_1_1DesktopEntryParser.html</Path>
+                        <Anchor>a7c3621527518be1f87f70f16a8a0147f</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>getBoolean</Name>
+                        <Path>classalbert_1_1detail_1_1DesktopEntryParser.html</Path>
+                        <Anchor>a4b982c59f3c50de9b1937af46f27c1ce</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>getIconString</Name>
+                        <Path>classalbert_1_1detail_1_1DesktopEntryParser.html</Path>
+                        <Anchor>afaf6ae1034bbd8e4050ea1dd491d9561</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>getLocaleString</Name>
+                        <Path>classalbert_1_1detail_1_1DesktopEntryParser.html</Path>
+                        <Anchor>a0b376db76071ff7f99ff25eea979af10</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>getNumeric</Name>
+                        <Path>classalbert_1_1detail_1_1DesktopEntryParser.html</Path>
+                        <Anchor>a8504605cc9590b8394600a719e00d6f9</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>getString</Name>
+                        <Path>classalbert_1_1detail_1_1DesktopEntryParser.html</Path>
+                        <Anchor>ae4a3523970140a7c66300cefe6f5b780</Anchor>
                        </Node>
                       </Subnodes>
                      </Node>
@@ -4628,6 +4709,37 @@
                     <Name>item.h</Name>
                     <Path>item_8h.html</Path>
                   <Subnodes>
+                     <Node>
+                      <Name>albert::Action</Name>
+                      <Path>classalbert_1_1Action.html</Path>
+                    <Subnodes>
+                       <Node>
+                        <Name>Action</Name>
+                        <Path>classalbert_1_1Action.html</Path>
+                        <Anchor>a52e6338641d818423837645ab6df1a63</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>function</Name>
+                        <Path>classalbert_1_1Action.html</Path>
+                        <Anchor>a3b51b223188440df06f813fc06f2b6ed</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>hide_on_activation</Name>
+                        <Path>classalbert_1_1Action.html</Path>
+                        <Anchor>a09b8c3f503b01112e675ce0516ce264a</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>id</Name>
+                        <Path>classalbert_1_1Action.html</Path>
+                        <Anchor>a4a9974e46952a6f4852b9a34f4e546ff</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>text</Name>
+                        <Path>classalbert_1_1Action.html</Path>
+                        <Anchor>a1bfc14743e18269a07ef3ff9eb8798dc</Anchor>
+                       </Node>
+                      </Subnodes>
+                     </Node>
                      <Node>
                       <Name>albert::Item</Name>
                       <Path>classalbert_1_1Item.html</Path>

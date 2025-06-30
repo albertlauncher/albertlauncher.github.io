@@ -9,7 +9,8 @@ var searchData=
   ['dependency_6',['Dependency',['../classalbert_1_1util_1_1Dependency.html#a24bca8ff0e29290fc881e837cd8ee339',1,'albert::util::Dependency']]],
   ['deregisterextension_7',['deregisterExtension',['../classalbert_1_1ExtensionRegistry.html#a7b08618d085bafac2399641c4dc32a62',1,'albert::ExtensionRegistry']]],
   ['description_8',['description',['../classalbert_1_1Extension.html#a9f18ca0cf14e367e3826cdcdaa35f1c3',1,'albert::Extension::description()'],['../classalbert_1_1util_1_1ExtensionPlugin.html#aee5afc1dc4a0cdb4b442800371476010',1,'albert::util::ExtensionPlugin::description()']]],
-  ['dismiss_9',['dismiss',['../classalbert_1_1util_1_1Notification.html#aff395d7be46e2d9a6687ea1bf5c1735b',1,'albert::util::Notification']]],
-  ['download_10',['Download',['../classalbert_1_1util_1_1Download.html#a740bbb43415e048d5a92e7342e830ead',1,'albert::util::Download']]],
-  ['dynamicitem_11',['DynamicItem',['../classalbert_1_1detail_1_1DynamicItem.html#a82c34fe0ccce788091fc6efedb26843e',1,'albert::detail::DynamicItem']]]
+  ['desktopentryparser_9',['DesktopEntryParser',['../classalbert_1_1detail_1_1DesktopEntryParser.html#a7c3621527518be1f87f70f16a8a0147f',1,'albert::detail::DesktopEntryParser']]],
+  ['dismiss_10',['dismiss',['../classalbert_1_1util_1_1Notification.html#aff395d7be46e2d9a6687ea1bf5c1735b',1,'albert::util::Notification']]],
+  ['download_11',['Download',['../classalbert_1_1util_1_1Download.html#a740bbb43415e048d5a92e7342e830ead',1,'albert::util::Download']]],
+  ['dynamicitem_12',['DynamicItem',['../classalbert_1_1detail_1_1DynamicItem.html#a82c34fe0ccce788091fc6efedb26843e',1,'albert::detail::DynamicItem']]]
 ];

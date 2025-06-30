@@ -101,15 +101,16 @@ $(document).ready(function(){initNavTree('classalbert_1_1Action.html',''); initR
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="action_8h_source.html">albert/action.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="item_8h_source.html">albert/item.h</a>&gt;</code></p>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Action used by result items (Item). </p>
+<div class="textblock"><p>Action used by result items (<a class="el" href="classalbert_1_1Item.html">Item</a>). </p>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:aa4e4130a3666df11988dce9217cfd167" id="r_aa4e4130a3666df11988dce9217cfd167"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1Action.html#aa4e4130a3666df11988dce9217cfd167">Action</a> (QString <a class="el" href="classalbert_1_1Action.html#a4a9974e46952a6f4852b9a34f4e546ff">id</a>, QString <a class="el" href="classalbert_1_1Action.html#a1bfc14743e18269a07ef3ff9eb8798dc">text</a>, std::function&lt; void()&gt; <a class="el" href="classalbert_1_1Action.html#a3b51b223188440df06f813fc06f2b6ed">function</a>, bool hideOnActivation=true) noexcept</td></tr>
-<tr class="memdesc:aa4e4130a3666df11988dce9217cfd167"><td class="mdescLeft">&#160;</td><td class="mdescRight">Action constructor.  <br /></td></tr>
-<tr class="separator:aa4e4130a3666df11988dce9217cfd167"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a52e6338641d818423837645ab6df1a63" id="r_a52e6338641d818423837645ab6df1a63"><td class="memTemplParams" colspan="2">template&lt;typename T1  = QString, typename T2  = QString, typename T3  = std::function&lt;void()&gt;&gt; </td></tr>
+<tr class="memitem:a52e6338641d818423837645ab6df1a63"><td class="memTemplItemLeft" align="right" valign="top">&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classalbert_1_1Action.html#a52e6338641d818423837645ab6df1a63">Action</a> (T1 &amp;&amp;id_, T2 &amp;&amp;text_, T3 &amp;&amp;function_, bool hide_on_activation_=true) noexcept</td></tr>
+<tr class="memdesc:a52e6338641d818423837645ab6df1a63"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs an <a class="el" href="classalbert_1_1Action.html">Action</a> with the contents initialized with the data passed.  <br /></td></tr>
+<tr class="separator:a52e6338641d818423837645ab6df1a63"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -120,18 +121,20 @@ Public Attributes</h2></td></tr>
 <tr class="memdesc:a1bfc14743e18269a07ef3ff9eb8798dc"><td class="mdescLeft">&#160;</td><td class="mdescRight">The description.  <br /></td></tr>
 <tr class="separator:a1bfc14743e18269a07ef3ff9eb8798dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3b51b223188440df06f813fc06f2b6ed" id="r_a3b51b223188440df06f813fc06f2b6ed"><td class="memItemLeft" align="right" valign="top">std::function&lt; void()&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1Action.html#a3b51b223188440df06f813fc06f2b6ed">function</a></td></tr>
-<tr class="memdesc:a3b51b223188440df06f813fc06f2b6ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">The action.  <br /></td></tr>
+<tr class="memdesc:a3b51b223188440df06f813fc06f2b6ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">The function executed on activation.  <br /></td></tr>
 <tr class="separator:a3b51b223188440df06f813fc06f2b6ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a09b8c3f503b01112e675ce0516ce264a" id="r_a09b8c3f503b01112e675ce0516ce264a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1Action.html#a09b8c3f503b01112e675ce0516ce264a">hide_on_activation</a></td></tr>
 <tr class="memdesc:a09b8c3f503b01112e675ce0516ce264a"><td class="mdescLeft">&#160;</td><td class="mdescRight">The activation behavior.  <br /></td></tr>
 <tr class="separator:a09b8c3f503b01112e675ce0516ce264a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="aa4e4130a3666df11988dce9217cfd167" name="aa4e4130a3666df11988dce9217cfd167"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa4e4130a3666df11988dce9217cfd167">&#9670;&#160;</a></span>Action()</h2>
+<a id="a52e6338641d818423837645ab6df1a63" name="a52e6338641d818423837645ab6df1a63"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a52e6338641d818423837645ab6df1a63">&#9670;&#160;</a></span>Action()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<div class="memtemplate">
+template&lt;typename T1  = QString, typename T2  = QString, typename T3  = std::function&lt;void()&gt;&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -139,26 +142,26 @@ Public Attributes</h2></td></tr>
         <tr>
           <td class="memname">albert::Action::Action </td>
           <td>(</td>
-          <td class="paramtype">QString&#160;</td>
-          <td class="paramname"><em>id</em>, </td>
+          <td class="paramtype">T1 &amp;&amp;&#160;</td>
+          <td class="paramname"><em>id_</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">QString&#160;</td>
-          <td class="paramname"><em>text</em>, </td>
+          <td class="paramtype">T2 &amp;&amp;&#160;</td>
+          <td class="paramname"><em>text_</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">std::function&lt; void()&gt;&#160;</td>
-          <td class="paramname"><em>function</em>, </td>
+          <td class="paramtype">T3 &amp;&amp;&#160;</td>
+          <td class="paramname"><em>function_</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>hideOnActivation</em> = <code>true</code>&#160;</td>
+          <td class="paramname"><em>hide_on_activation_</em> = <code>true</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -168,17 +171,17 @@ Public Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>Action constructor. </p>
+<p>Constructs an <a class="el" href="classalbert_1_1Action.html">Action</a> with the contents initialized with the data passed. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">id</td><td>The identifier.   </td></tr>
     <tr><td class="paramname">text</td><td>The description.   </td></tr>
-    <tr><td class="paramname">function</td><td>The action.   </td></tr>
+    <tr><td class="paramname">function</td><td>The function executed on activation.   </td></tr>
     <tr><td class="paramname">hideOnActivation</td><td>The activation behavior.   </td></tr>
   </table>
   </dd>
@@ -199,7 +202,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>The action. </p>
+<p>The function executed on activation. </p>
 
 </div>
 </div>
@@ -252,7 +255,7 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>workspace/albert/include/albert/<a class="el" href="action_8h_source.html">action.h</a></li>
+<li>workspace/albert/include/albert/<a class="el" href="item_8h_source.html">item.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

@@ -2,6 +2,7 @@ var annotated_dup =
 [
     [ "albert", "namespacealbert.html", [
       [ "detail", "namespacealbert_1_1detail.html", [
+        [ "DesktopEntryParser", "classalbert_1_1detail_1_1DesktopEntryParser.html", "classalbert_1_1detail_1_1DesktopEntryParser" ],
         [ "DynamicItem", "classalbert_1_1detail_1_1DynamicItem.html", "classalbert_1_1detail_1_1DynamicItem" ],
         [ "Frontend", "classalbert_1_1detail_1_1Frontend.html", "classalbert_1_1detail_1_1Frontend" ],
         [ "RateLimiter", "classalbert_1_1detail_1_1RateLimiter.html", "classalbert_1_1detail_1_1RateLimiter" ],
