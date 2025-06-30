@@ -41,15 +41,11 @@
       &lt;li&gt;Drop fixed listview height&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;mediaremote&lt;/strong&gt;
+  &lt;li&gt;&lt;strong&gt;mediaremote&lt;/strong&gt; v7
     &lt;ul&gt;
-      &lt;li&gt;v7
-        &lt;ul&gt;
-          &lt;li&gt;Drop public API&lt;/li&gt;
-          &lt;li&gt;Reintroduce multi player support&lt;/li&gt;
-          &lt;li&gt;Nice composed icons&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
+      &lt;li&gt;Drop public API&lt;/li&gt;
+      &lt;li&gt;Reintroduce multi player support&lt;/li&gt;
+      &lt;li&gt;Nice composed icons&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;spotify&lt;/strong&gt; 🆕&lt;/li&gt;
