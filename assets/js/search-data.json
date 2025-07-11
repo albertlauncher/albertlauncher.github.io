@@ -321,13 +321,6 @@
     
     "relUrl": "/gettingstarted/extension/python/"
   },"46": {
-    "doc": "Markdown Viewer",
-    "title": "Markdown Viewer",
-    "content": "Loading… ",
-    "url": "/readme/",
-    
-    "relUrl": "/readme/"
-  },"47": {
     "doc": "From source",
     "title": "From source",
     "content": "Building and installing from sources is the least convenient, but most flexible way. This way is usually for developers only. The build process is trivial, but you have to manage the dependencies on your own. See the OBS package specs for up to date build and runtime dependencies. git clone --recursive https://github.com/albertlauncher/albert.git cmake -B build -S albert -DCMAKE_INSTALL_PREFIX=/usr -DCMAKE_BUILD_TYPE=Debug cmake --build build cmake --install build . ",
