@@ -7,6 +7,39 @@
     
       
         <item>
+          <title>Albert v0.30.1 released</title>
+          <description>&lt;h1 id=&quot;albert-v0301-released&quot;&gt;Albert v0.30.1 released&lt;/h1&gt;
+
+&lt;h3 id=&quot;plugins&quot;&gt;Plugins&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;contacts&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Use AppleScript to open contacts which allows setting a selection.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;github&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Avoid downloading icons multiple times&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;python&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Use pip freeze instead of inspect to check for existing packages&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Check the &lt;a href=&quot;https://github.com/albertlauncher/albert/commits/v0.30.1&quot;&gt;GitHub repositories&lt;/a&gt; for details.&lt;/p&gt;
+</description>
+          <pubDate>2025-07-12T11:30:00+00:00</pubDate>
+          <link>https://albertlauncher.github.io/2025/07/12/albert-v0.30.1-released/</link>
+          <guid isPermaLink="true">https://albertlauncher.github.io/2025/07/12/albert-v0.30.1-released/</guid>
+        </item>
+      
+    
+      
+        <item>
           <title>Albert v0.30.0 released</title>
           <description>&lt;h1 id=&quot;albert-v0300-released&quot;&gt;Albert v0.30.0 released&lt;/h1&gt;
 
