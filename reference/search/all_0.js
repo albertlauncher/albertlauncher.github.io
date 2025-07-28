@@ -26,7 +26,7 @@ var searchData=
   ['albert_5fproperty_5fgetset_23',['ALBERT_PROPERTY_GETSET',['../property_8h.html#a676ef7567c3e50c1d23798d6ab140a61',1,'property.h']]],
   ['albert_5fproperty_5fmember_24',['ALBERT_PROPERTY_MEMBER',['../property_8h.html#a3e3e2661f264e96ea7c515fe8800e1f7',1,'property.h']]],
   ['allowtriggerremap_25',['allowTriggerRemap',['../classalbert_1_1TriggerQueryHandler.html#a565b2220701d672e00c54b71f4e9cb94',1,'albert::TriggerQueryHandler']]],
-  ['applyusagescore_26',['applyUsageScore',['../classalbert_1_1GlobalQueryHandler.html#a656d92e3b99137024993f7721e02e676',1,'albert::GlobalQueryHandler']]],
+  ['applyusagescore_26',['applyUsageScore',['../classalbert_1_1TriggerQueryHandler.html#af0ba9843daa13c20ba7ab2138f825b2f',1,'albert::TriggerQueryHandler']]],
   ['authors_27',['authors',['../classalbert_1_1PluginMetadata.html#a7b65565721dc7326d516990b20d15018',1,'albert::PluginMetadata']]],
   ['authurl_28',['authUrl',['../classalbert_1_1util_1_1OAuth2.html#aae5c049a8ee58c124e55144a9f53ae77',1,'albert::util::OAuth2']]],
   ['authurlchanged_29',['authUrlChanged',['../classalbert_1_1util_1_1OAuth2.html#a7eccd085cad5f13db2d1e430835d4b3a',1,'albert::util::OAuth2']]],

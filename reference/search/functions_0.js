@@ -11,7 +11,7 @@ var searchData=
   ['added_8',['added',['../classalbert_1_1ExtensionRegistry.html#a845f61794954dc73bb9b2722f459c1d4',1,'albert::ExtensionRegistry']]],
   ['addobserver_9',['addobserver',['../classalbert_1_1Item.html#ae7aa8d38726094aaac853c96d5d066b2',1,'albert::Item::addObserver()'],['../classalbert_1_1detail_1_1DynamicItem.html#aceee7c9a782bb6618d7ef82967e05955',1,'albert::detail::DynamicItem::addObserver()']]],
   ['allowtriggerremap_10',['allowTriggerRemap',['../classalbert_1_1TriggerQueryHandler.html#a565b2220701d672e00c54b71f4e9cb94',1,'albert::TriggerQueryHandler']]],
-  ['applyusagescore_11',['applyUsageScore',['../classalbert_1_1GlobalQueryHandler.html#a656d92e3b99137024993f7721e02e676',1,'albert::GlobalQueryHandler']]],
+  ['applyusagescore_11',['applyUsageScore',['../classalbert_1_1TriggerQueryHandler.html#af0ba9843daa13c20ba7ab2138f825b2f',1,'albert::TriggerQueryHandler']]],
   ['authurl_12',['authUrl',['../classalbert_1_1util_1_1OAuth2.html#aae5c049a8ee58c124e55144a9f53ae77',1,'albert::util::OAuth2']]],
   ['authurlchanged_13',['authUrlChanged',['../classalbert_1_1util_1_1OAuth2.html#a7eccd085cad5f13db2d1e430835d4b3a',1,'albert::util::OAuth2']]],
   ['await_14',['await',['../namespacealbert_1_1util.html#ad42cff176730ced1bd908a1437c20029',1,'albert::util']]]

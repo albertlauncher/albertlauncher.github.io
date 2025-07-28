@@ -7,6 +7,45 @@
     
       
         <item>
+          <title>Albert v0.31.0 released</title>
+          <description>&lt;h1 id=&quot;albert-v0310-released&quot;&gt;Albert v0.31.0 released&lt;/h1&gt;
+
+&lt;h3 id=&quot;api&quot;&gt;API&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Move &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;applyUsageScore&lt;/code&gt; into &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;TriggerQueryHandler&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;GlobalQueryHandler::applyUsageScore&lt;/code&gt; pass by reference&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;plugins&quot;&gt;Plugins&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;python&lt;/strong&gt; Add plugins as submodules&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;ssh&lt;/strong&gt; v10
+    &lt;ul&gt;
+      &lt;li&gt;Allow customizing the ssh command&lt;/li&gt;
+      &lt;li&gt;Allow customizing the remote command&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;locate&lt;/strong&gt; v3
+    &lt;ul&gt;
+      &lt;li&gt;Drop update database action&lt;/li&gt;
+      &lt;li&gt;Filter using &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Matcher&lt;/code&gt;&lt;/li&gt;
+      &lt;li&gt;Use system file icons&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Check the &lt;a href=&quot;https://github.com/albertlauncher/albert/commits/v0.31.0&quot;&gt;GitHub repositories&lt;/a&gt; for details.&lt;/p&gt;
+</description>
+          <pubDate>2025-07-28T22:48:00+00:00</pubDate>
+          <link>https://albertlauncher.github.io/2025/07/28/albert-v0.31.0-released/</link>
+          <guid isPermaLink="true">https://albertlauncher.github.io/2025/07/28/albert-v0.31.0-released/</guid>
+        </item>
+      
+    
+      
+        <item>
           <title>Albert v0.30.1 released</title>
           <description>&lt;h1 id=&quot;albert-v0301-released&quot;&gt;Albert v0.30.1 released&lt;/h1&gt;
 

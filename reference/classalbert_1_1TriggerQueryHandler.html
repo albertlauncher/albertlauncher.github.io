@@ -134,6 +134,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a14e770979eb2456826cf954d80b86a36" id="r_a14e770979eb2456826cf954d80b86a36"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1TriggerQueryHandler.html#a14e770979eb2456826cf954d80b86a36">handleTriggerQuery</a> (<a class="el" href="classalbert_1_1Query.html">Query</a> &amp;)=0</td></tr>
 <tr class="memdesc:a14e770979eb2456826cf954d80b86a36"><td class="mdescLeft">&#160;</td><td class="mdescRight">The trigger query processing function.  <br /></td></tr>
 <tr class="separator:a14e770979eb2456826cf954d80b86a36"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af0ba9843daa13c20ba7ab2138f825b2f" id="r_af0ba9843daa13c20ba7ab2138f825b2f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1TriggerQueryHandler.html#af0ba9843daa13c20ba7ab2138f825b2f">applyUsageScore</a> (std::vector&lt; <a class="el" href="classalbert_1_1RankItem.html">RankItem</a> &gt; &amp;rank_items)</td></tr>
+<tr class="memdesc:af0ba9843daa13c20ba7ab2138f825b2f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Modifies the score of <em>rank_items</em> to reflect the users usage history.  <br /></td></tr>
+<tr class="separator:af0ba9843daa13c20ba7ab2138f825b2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classalbert_1_1Extension"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classalbert_1_1Extension')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classalbert_1_1Extension.html">albert::Extension</a></td></tr>
 <tr class="memitem:aba79b0b7a42a03addbb4223462362b06 inherit pub_methods_classalbert_1_1Extension" id="r_aba79b0b7a42a03addbb4223462362b06"><td class="memItemLeft" align="right" valign="top">virtual QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1Extension.html#aba79b0b7a42a03addbb4223462362b06">id</a> () const =0</td></tr>
 <tr class="memdesc:aba79b0b7a42a03addbb4223462362b06 inherit pub_methods_classalbert_1_1Extension"><td class="mdescLeft">&#160;</td><td class="mdescRight">The identifier of this extension.  <br /></td></tr>
@@ -208,6 +211,26 @@ Protected Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="af0ba9843daa13c20ba7ab2138f825b2f" name="af0ba9843daa13c20ba7ab2138f825b2f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af0ba9843daa13c20ba7ab2138f825b2f">&#9670;&#160;</a></span>applyUsageScore()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void albert::TriggerQueryHandler::applyUsageScore </td>
+          <td>(</td>
+          <td class="paramtype">std::vector&lt; <a class="el" href="classalbert_1_1RankItem.html">RankItem</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>rank_items</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Modifies the score of <em>rank_items</em> to reflect the users usage history. </p>
+
+</div>
+</div>
 <a id="afb3f05c5d7c91025dfe12ecb0065d6da" name="afb3f05c5d7c91025dfe12ecb0065d6da"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#afb3f05c5d7c91025dfe12ecb0065d6da">&#9670;&#160;</a></span>defaultTrigger()</h2>
 
@@ -263,7 +286,7 @@ Protected Member Functions</h2></td></tr>
 <p>The trigger query processing function. </p>
 <dl class="section note"><dt>Note</dt><dd>Executed in a worker thread. </dd></dl>
 
-<p>Implemented in <a class="el" href="classalbert_1_1GlobalQueryHandler.html#a55ea5b23789f82ab09d961dc6b3e5c40">albert::GlobalQueryHandler</a>.</p>
+<p>Implemented in <a class="el" href="classalbert_1_1GlobalQueryHandler.html#af6287f5c6d79e7a2c0688fa141d942c5">albert::GlobalQueryHandler</a>.</p>
 
 </div>
 </div>

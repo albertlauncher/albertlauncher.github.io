@@ -332,7 +332,7 @@ Macros</h2></td></tr>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line">    <a class="code hl_define" href="property_8h.html#a3e3e2661f264e96ea7c515fe8800e1f7">ALBERT_PROPERTY_MEMBER</a>(type, name, name##_, defaultValue, settings) \</div>
 <div class="line">    <span class="keyword">protected</span>: type name##_{name##_default()};</div>
-<div class="ttc" id="aproperty_8h_html_a3e3e2661f264e96ea7c515fe8800e1f7"><div class="ttname"><a href="property_8h.html#a3e3e2661f264e96ea7c515fe8800e1f7">ALBERT_PROPERTY_MEMBER</a></div><div class="ttdeci">#define ALBERT_PROPERTY_MEMBER(type, name, member, defaultValue, settings)</div><div class="ttdoc">Convenience macro for user property definition using a given member.</div><div class="ttdef"><b>Definition</b> property.h:107</div></div>
+<div class="ttc" id="aproperty_8h_html_a3e3e2661f264e96ea7c515fe8800e1f7"><div class="ttname"><a href="property_8h.html#a3e3e2661f264e96ea7c515fe8800e1f7">ALBERT_PROPERTY_MEMBER</a></div><div class="ttdeci">#define ALBERT_PROPERTY_MEMBER(type, name, member, defaultValue, settings)</div><div class="ttdoc">Convenience macro for user property definition using a given member.</div><div class="ttdef"><b>Definition</b> property.h:115</div></div>
 </div><!-- fragment -->
 <p>Convenience macro for user property definition defining a member. </p>
 <p>Extends ALBERT_PLUGIN_PROPERTY_MEMBER by (psuedo code):</p>
@@ -388,13 +388,21 @@ Macros</h2></td></tr>
 <b>Value:</b><div class="fragment"><div class="line">    <span class="keyword">public</span>: <span class="keyword">static</span> type name##_default(){ <span class="keywordflow">return</span> defaultValue; }; \</div>
 <div class="line">    <span class="keyword">protected</span>: <span class="keywordtype">void</span> store_##name() { settings()-&gt;setValue(<a class="code hl_define" href="property_8h.html#afa5f33475901a9746f14f6975b7deaab">EXPAND_STRINGIZE</a>(name), name()); } \</div>
 <div class="line">    <span class="keyword">protected</span>: <span class="keywordtype">void</span> restore_##name(<span class="keyword">const</span> <span class="keyword">auto</span> &amp;s = <span class="keyword">nullptr</span>) { \</div>
-<div class="line">        if (s) set_##name##_(s-&gt;value(<a class="code hl_define" href="property_8h.html#afa5f33475901a9746f14f6975b7deaab">EXPAND_STRINGIZE</a>(name), name##_default()).<span class="keyword">template</span> value&lt;type&gt;()); \</div>
-<div class="line">        <span class="keywordflow">else</span> set_##name##_(<a class="code hl_function" href="namespacealbert.html#a09085231379cd9843cd3064606bc0766">settings</a>()-&gt;value(<a class="code hl_define" href="property_8h.html#afa5f33475901a9746f14f6975b7deaab">EXPAND_STRINGIZE</a>(name), name##_default()).<span class="keyword">template</span> value&lt;type&gt;()); \</div>
+<div class="line">        if (s) \</div>
+<div class="line">            set_##name##_(s-&gt;value(<a class="code hl_define" href="property_8h.html#afa5f33475901a9746f14f6975b7deaab">EXPAND_STRINGIZE</a>(name), name##_default()).<span class="keyword">template</span> value&lt;type&gt;()); \</div>
+<div class="line">        else \</div>
+<div class="line">            set_##name##_(<a class="code hl_function" href="namespacealbert.html#a09085231379cd9843cd3064606bc0766">settings</a>()-&gt;value(<a class="code hl_define" href="property_8h.html#afa5f33475901a9746f14f6975b7deaab">EXPAND_STRINGIZE</a>(name), name##_default()).<span class="keyword">template</span> value&lt;type&gt;()); \</div>
 <div class="line">    } \</div>
-<div class="line">    <span class="keyword">public</span>: <span class="keywordtype">void</span> reset_##name() { set_##name##_(name##_default()); <a class="code hl_function" href="namespacealbert.html#a09085231379cd9843cd3064606bc0766">settings</a>()-&gt;remove(<a class="code hl_define" href="property_8h.html#afa5f33475901a9746f14f6975b7deaab">EXPAND_STRINGIZE</a>(name));  } \</div>
-<div class="line">    Q_SIGNAL <span class="keywordtype">void</span> name##_changed(type); \</div>
+<div class="line">    signals: Q_SIGNAL <span class="keywordtype">void</span> name##_changed(type); \</div>
 <div class="line">    Q_PROPERTY(type name READ name WRITE set_##name RESET reset_##name NOTIFY name##_changed USER <span class="keyword">true</span>) \</div>
-<div class="line">    <span class="keyword">public</span>: <span class="keywordtype">void</span> set_##name(type val) { <span class="keywordflow">if</span> (val != name()){ set_##name##_(val); store_##name(); emit name##_changed(val); } }</div>
+<div class="line">    <span class="keyword">public</span>: <span class="keywordtype">void</span> set_##name(type val) { \</div>
+<div class="line">        if (val != name()){ set_##name##_(val); \</div>
+<div class="line">        store_##name(); \</div>
+<div class="line">        emit name##_changed(val); } } \</div>
+<div class="line">    <span class="keyword">public</span>: <span class="keywordtype">void</span> reset_##name() { \</div>
+<div class="line">        set_##name(name##_default()); \</div>
+<div class="line">        settings()-&gt;remove(<a class="code hl_define" href="property_8h.html#afa5f33475901a9746f14f6975b7deaab">EXPAND_STRINGIZE</a>(name)); \</div>
+<div class="line">    }</div>
 <div class="ttc" id="anamespacealbert_html_a09085231379cd9843cd3064606bc0766"><div class="ttname"><a href="namespacealbert.html#a09085231379cd9843cd3064606bc0766">albert::settings</a></div><div class="ttdeci">std::unique_ptr&lt; QSettings &gt; settings()</div><div class="ttdoc">Returns a QSettings object for configuration storage.</div></div>
 <div class="ttc" id="aproperty_8h_html_afa5f33475901a9746f14f6975b7deaab"><div class="ttname"><a href="property_8h.html#afa5f33475901a9746f14f6975b7deaab">EXPAND_STRINGIZE</a></div><div class="ttdeci">#define EXPAND_STRINGIZE(s)</div><div class="ttdef"><b>Definition</b> property.h:6</div></div>
 </div><!-- fragment -->

@@ -59,7 +59,7 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "albert_8h.html",
-"classalbert_1_1ResultItem.html#aba468adef554696d9f40731ab9152a70",
+"classalbert_1_1TriggerQueryHandler.html",
 "classalbert_1_1util_1_1Notification.html",
 "indexitem_8h_source.html"
 ];
