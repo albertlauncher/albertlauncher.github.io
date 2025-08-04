@@ -32,16 +32,6 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>albert::detail::DesktopEntryParser</Name>
-      <APILanguage>c</APILanguage>
-      <Type>cl</Type>
-      <Scope>albert::detail::DesktopEntryParser</Scope>
-    </TokenIdentifier>
-    <Path>classalbert_1_1detail_1_1DesktopEntryParser.html</Path>
-    <DeclaredIn>albert/desktopentryparser.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
       <Name>albert::util::Download</Name>
       <APILanguage>c</APILanguage>
       <Type>cl</Type>
@@ -49,16 +39,6 @@
     </TokenIdentifier>
     <Path>classalbert_1_1util_1_1Download.html</Path>
     <DeclaredIn>albert/download.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>albert::detail::DynamicItem</Name>
-      <APILanguage>c</APILanguage>
-      <Type>cl</Type>
-      <Scope>albert::detail::DynamicItem</Scope>
-    </TokenIdentifier>
-    <Path>classalbert_1_1detail_1_1DynamicItem.html</Path>
-    <DeclaredIn>albert/item.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -99,16 +79,6 @@
     </TokenIdentifier>
     <Path>classalbert_1_1FallbackHandler.html</Path>
     <DeclaredIn>albert/fallbackhandler.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>albert::detail::Frontend</Name>
-      <APILanguage>c</APILanguage>
-      <Type>cl</Type>
-      <Scope>albert::detail::Frontend</Scope>
-    </TokenIdentifier>
-    <Path>classalbert_1_1detail_1_1Frontend.html</Path>
-    <DeclaredIn>albert/frontend.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -301,16 +271,6 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>albert::detail::RateLimiter</Name>
-      <APILanguage>c</APILanguage>
-      <Type>cl</Type>
-      <Scope>albert::detail::RateLimiter</Scope>
-    </TokenIdentifier>
-    <Path>classalbert_1_1detail_1_1RateLimiter.html</Path>
-    <DeclaredIn>albert/networkutil.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
       <Name>albert::ResultItem</Name>
       <APILanguage>c</APILanguage>
       <Type>cl</Type>
@@ -338,26 +298,6 @@
     </TokenIdentifier>
     <Path>classalbert_1_1util_1_1StrongDependency.html</Path>
     <DeclaredIn>albert/plugindependency.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>albert::detail::TelemetryProvider</Name>
-      <APILanguage>c</APILanguage>
-      <Type>cl</Type>
-      <Scope>albert::detail::TelemetryProvider</Scope>
-    </TokenIdentifier>
-    <Path>classalbert_1_1detail_1_1TelemetryProvider.html</Path>
-    <DeclaredIn>albert/telemetryprovider.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>albert::detail::TimeIt</Name>
-      <APILanguage>c</APILanguage>
-      <Type>cl</Type>
-      <Scope>albert::detail::TimeIt</Scope>
-    </TokenIdentifier>
-    <Path>structalbert_1_1detail_1_1TimeIt.html</Path>
-    <DeclaredIn>albert/timeit.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -397,15 +337,6 @@
       <Scope>albert</Scope>
     </TokenIdentifier>
     <Path>namespacealbert.html</Path>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>albert::detail</Name>
-      <APILanguage>c</APILanguage>
-      <Type>ns</Type>
-      <Scope>albert::detail</Scope>
-    </TokenIdentifier>
-    <Path>namespacealbert_1_1detail.html</Path>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -593,17 +524,6 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>addObserver</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>albert::detail::DynamicItem</Scope>
-    </TokenIdentifier>
-    <Path>classalbert_1_1detail_1_1DynamicItem.html</Path>
-    <Anchor>aceee7c9a782bb6618d7ef82967e05955</Anchor>
-    <DeclaredIn>item.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
       <Name>allowTriggerRemap</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
@@ -787,17 +707,6 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>createFrontendConfigWidget</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>albert::detail::Frontend</Scope>
-    </TokenIdentifier>
-    <Path>classalbert_1_1detail_1_1Frontend.html</Path>
-    <Anchor>a7b584cc824eb8b9eea1611b679064b1a</Anchor>
-    <DeclaredIn>frontend.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
       <Name>current_loader</Name>
       <APILanguage>cpp</APILanguage>
       <Type>data</Type>
@@ -805,17 +714,6 @@
     </TokenIdentifier>
     <Path>classalbert_1_1PluginLoader.html</Path>
     <Anchor>a2a330d50938bc0f3c8f9ffe82defc788</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>dataChanged</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>albert::detail::DynamicItem</Scope>
-    </TokenIdentifier>
-    <Path>classalbert_1_1detail_1_1DynamicItem.html</Path>
-    <Anchor>a2766382acc73aff205b39624d45e9e2f</Anchor>
-    <DeclaredIn>item.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -849,17 +747,6 @@
     <Path>classalbert_1_1PluginInstance.html</Path>
     <Anchor>a19e5d6a978082662efb288626f568841</Anchor>
     <DeclaredIn>plugininstance.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>debounce</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>albert::detail::RateLimiter</Scope>
-    </TokenIdentifier>
-    <Path>classalbert_1_1detail_1_1RateLimiter.html</Path>
-    <Anchor>a5bb051dd93a2a5683c4bb274cd6a888d</Anchor>
-    <DeclaredIn>networkutil.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -938,17 +825,6 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>DesktopEntryParser</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>albert::detail::DesktopEntryParser</Scope>
-    </TokenIdentifier>
-    <Path>classalbert_1_1detail_1_1DesktopEntryParser.html</Path>
-    <Anchor>a7c3621527518be1f87f70f16a8a0147f</Anchor>
-    <DeclaredIn>desktopentryparser.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
       <Name>dismiss</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
@@ -968,17 +844,6 @@
     <Path>classalbert_1_1util_1_1Download.html</Path>
     <Anchor>a740bbb43415e048d5a92e7342e830ead</Anchor>
     <DeclaredIn>download.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>DynamicItem</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>albert::detail::DynamicItem</Scope>
-    </TokenIdentifier>
-    <Path>classalbert_1_1detail_1_1DynamicItem.html</Path>
-    <Anchor>a82c34fe0ccce788091fc6efedb26843e</Anchor>
-    <DeclaredIn>item.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -1182,61 +1047,6 @@
     <Path>classalbert_1_1util_1_1Dependency.html</Path>
     <Anchor>a4c93621dbb74e2e21af45714c69a4826</Anchor>
     <DeclaredIn>plugindependency.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>getBoolean</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>albert::detail::DesktopEntryParser</Scope>
-    </TokenIdentifier>
-    <Path>classalbert_1_1detail_1_1DesktopEntryParser.html</Path>
-    <Anchor>a4b982c59f3c50de9b1937af46f27c1ce</Anchor>
-    <DeclaredIn>desktopentryparser.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>getIconString</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>albert::detail::DesktopEntryParser</Scope>
-    </TokenIdentifier>
-    <Path>classalbert_1_1detail_1_1DesktopEntryParser.html</Path>
-    <Anchor>afaf6ae1034bbd8e4050ea1dd491d9561</Anchor>
-    <DeclaredIn>desktopentryparser.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>getLocaleString</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>albert::detail::DesktopEntryParser</Scope>
-    </TokenIdentifier>
-    <Path>classalbert_1_1detail_1_1DesktopEntryParser.html</Path>
-    <Anchor>a0b376db76071ff7f99ff25eea979af10</Anchor>
-    <DeclaredIn>desktopentryparser.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>getNumeric</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>albert::detail::DesktopEntryParser</Scope>
-    </TokenIdentifier>
-    <Path>classalbert_1_1detail_1_1DesktopEntryParser.html</Path>
-    <Anchor>a8504605cc9590b8394600a719e00d6f9</Anchor>
-    <DeclaredIn>desktopentryparser.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>getString</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>albert::detail::DesktopEntryParser</Scope>
-    </TokenIdentifier>
-    <Path>classalbert_1_1detail_1_1DesktopEntryParser.html</Path>
-    <Anchor>ae4a3523970140a7c66300cefe6f5b780</Anchor>
-    <DeclaredIn>desktopentryparser.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -1505,17 +1315,6 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>input</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>albert::detail::Frontend</Scope>
-    </TokenIdentifier>
-    <Path>classalbert_1_1detail_1_1Frontend.html</Path>
-    <Anchor>aac182f987b48340a3f3d55427d4042b9</Anchor>
-    <DeclaredIn>frontend.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
       <Name>input_action_text_</Name>
       <APILanguage>cpp</APILanguage>
       <Type>data</Type>
@@ -1545,17 +1344,6 @@
     <Path>classalbert_1_1util_1_1StandardItem.html</Path>
     <Anchor>a946c5dea683506354dad301d56a288b8</Anchor>
     <DeclaredIn>standarditem.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>inputChanged</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>signal</Type>
-      <Scope>albert::detail::Frontend</Scope>
-    </TokenIdentifier>
-    <Path>classalbert_1_1detail_1_1Frontend.html</Path>
-    <Anchor>ad7c4e55c99a073ceed51c8c2d6f6687b</Anchor>
-    <DeclaredIn>frontend.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -1688,17 +1476,6 @@
     <Path>classalbert_1_1Query.html</Path>
     <Anchor>acc1d5475f190ca21ca914c6408910078</Anchor>
     <DeclaredIn>query.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>isVisible</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>albert::detail::Frontend</Scope>
-    </TokenIdentifier>
-    <Path>classalbert_1_1detail_1_1Frontend.html</Path>
-    <Anchor>a9bde4ec8e4772955d94d6dfb6185a1c9</Anchor>
-    <DeclaredIn>frontend.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -1965,16 +1742,6 @@
     </TokenIdentifier>
     <Path>classalbert_1_1PluginMetadata.html</Path>
     <Anchor>a0d7d49ddba3c6024eef05970a35917f2</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>name</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>data</Type>
-      <Scope>albert::detail::TimeIt</Scope>
-    </TokenIdentifier>
-    <Path>structalbert_1_1detail_1_1TimeIt.html</Path>
-    <Anchor>a06ce08d6243e37b764481f5011dffdeb</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -2325,17 +2092,6 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>RateLimiter</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>albert::detail::RateLimiter</Scope>
-    </TokenIdentifier>
-    <Path>classalbert_1_1detail_1_1RateLimiter.html</Path>
-    <Anchor>a46cb5c019a5ce7bf112f0e05515fa9eb</Anchor>
-    <DeclaredIn>networkutil.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
       <Name>readKeychain</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
@@ -2419,17 +2175,6 @@
     </TokenIdentifier>
     <Path>classalbert_1_1Item.html</Path>
     <Anchor>a4791d25d38f298d79bfa6889c14f02b9</Anchor>
-    <DeclaredIn>item.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>removeObserver</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>albert::detail::DynamicItem</Scope>
-    </TokenIdentifier>
-    <Path>classalbert_1_1detail_1_1DynamicItem.html</Path>
-    <Anchor>a434afe1804af248c0a74bab64ea95671</Anchor>
     <DeclaredIn>item.h</DeclaredIn>
   </Token>
   <Token>
@@ -2660,17 +2405,6 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>setInput</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>albert::detail::Frontend</Scope>
-    </TokenIdentifier>
-    <Path>classalbert_1_1detail_1_1Frontend.html</Path>
-    <Anchor>ac7fd1745c47dcbeed2c4f82bc2a5da41</Anchor>
-    <DeclaredIn>frontend.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
       <Name>setInputActionText</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
@@ -2701,17 +2435,6 @@
     <Path>classalbert_1_1util_1_1OAuth2.html</Path>
     <Anchor>aca164c192d4ad655712fdfb66ddc3ebc</Anchor>
     <DeclaredIn>oauth.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>setQuery</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>albert::detail::Frontend</Scope>
-    </TokenIdentifier>
-    <Path>classalbert_1_1detail_1_1Frontend.html</Path>
-    <Anchor>af562460625902cbab28da91c443103ef</Anchor>
-    <DeclaredIn>frontend.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -2825,28 +2548,6 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>setVisible</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>albert::detail::Frontend</Scope>
-    </TokenIdentifier>
-    <Path>classalbert_1_1detail_1_1Frontend.html</Path>
-    <Anchor>a3a9077908b8406c0a1e95acb8f96ab8f</Anchor>
-    <DeclaredIn>frontend.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>splitExec</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>clm</Type>
-      <Scope>albert::detail::DesktopEntryParser</Scope>
-    </TokenIdentifier>
-    <Path>classalbert_1_1detail_1_1DesktopEntryParser.html</Path>
-    <Anchor>ab5a93980fbb4220eca2c2a5ba2c2f122</Anchor>
-    <DeclaredIn>desktopentryparser.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
       <Name>StandardItem</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
@@ -2877,16 +2578,6 @@
     <Path>classalbert_1_1util_1_1StandardItem.html</Path>
     <Anchor>a7270cf43649bc8b6512f5616f8ed0576</Anchor>
     <DeclaredIn>standarditem.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>start</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>data</Type>
-      <Scope>albert::detail::TimeIt</Scope>
-    </TokenIdentifier>
-    <Path>structalbert_1_1detail_1_1TimeIt.html</Path>
-    <Anchor>a184220bca8322fb1d7a6082eb34c94c6</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -3093,17 +2784,6 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>telemetryData</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>albert::detail::TelemetryProvider</Scope>
-    </TokenIdentifier>
-    <Path>classalbert_1_1detail_1_1TelemetryProvider.html</Path>
-    <Anchor>a26206ed4f6d5ebaad34a409d7dd0345b</Anchor>
-    <DeclaredIn>telemetryprovider.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
       <Name>text</Name>
       <APILanguage>cpp</APILanguage>
       <Type>data</Type>
@@ -3164,17 +2844,6 @@
     </TokenIdentifier>
     <Path>classalbert_1_1PluginMetadata.html</Path>
     <Anchor>a273c5f87754ff87da2136b65819cff86</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>TimeIt</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>func</Type>
-      <Scope>albert::detail::TimeIt</Scope>
-    </TokenIdentifier>
-    <Path>structalbert_1_1detail_1_1TimeIt.html</Path>
-    <Anchor>ad16687a1c6a3ab3f9db53b328e8cfd3c</Anchor>
-    <DeclaredIn>timeit.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -3339,17 +3008,6 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>visibleChanged</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>signal</Type>
-      <Scope>albert::detail::Frontend</Scope>
-    </TokenIdentifier>
-    <Path>classalbert_1_1detail_1_1Frontend.html</Path>
-    <Anchor>a8b0a59627e2b56311ee309928a748ced</Anchor>
-    <DeclaredIn>frontend.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
       <Name>WeakDependency</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
@@ -3358,17 +3016,6 @@
     <Path>classalbert_1_1util_1_1WeakDependency.html</Path>
     <Anchor>a5a28e99265b8b639c0c87f16eed80360</Anchor>
     <DeclaredIn>plugindependency.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>winId</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>albert::detail::Frontend</Scope>
-    </TokenIdentifier>
-    <Path>classalbert_1_1detail_1_1Frontend.html</Path>
-    <Anchor>ac46b0e5afe7a3c4429d6d7a31b2b2f4b</Anchor>
-    <DeclaredIn>frontend.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -3416,17 +3063,6 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>~DynamicItem</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>albert::detail::DynamicItem</Scope>
-    </TokenIdentifier>
-    <Path>classalbert_1_1detail_1_1DynamicItem.html</Path>
-    <Anchor>adedaa130fb33fcc3966aa930c8e16632</Anchor>
-    <DeclaredIn>item.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
       <Name>~Extension</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
@@ -3446,17 +3082,6 @@
     <Path>classalbert_1_1FallbackHandler.html</Path>
     <Anchor>a071609d784d84ddab90dba76b87dfd84</Anchor>
     <DeclaredIn>fallbackhandler.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>~Frontend</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>albert::detail::Frontend</Scope>
-    </TokenIdentifier>
-    <Path>classalbert_1_1detail_1_1Frontend.html</Path>
-    <Anchor>a88f2e34efba6b8c9af40c4507058ae31</Anchor>
-    <DeclaredIn>frontend.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -3600,39 +3225,6 @@
     <Path>classalbert_1_1Query.html</Path>
     <Anchor>a8f6a1727abc202c50bf6bd1606cd976d</Anchor>
     <DeclaredIn>query.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>~RateLimiter</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>albert::detail::RateLimiter</Scope>
-    </TokenIdentifier>
-    <Path>classalbert_1_1detail_1_1RateLimiter.html</Path>
-    <Anchor>a5174fb931e7b188eb824f0947debdcfa</Anchor>
-    <DeclaredIn>networkutil.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>~TelemetryProvider</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>albert::detail::TelemetryProvider</Scope>
-    </TokenIdentifier>
-    <Path>classalbert_1_1detail_1_1TelemetryProvider.html</Path>
-    <Anchor>afb01fcf3a26daa2d61a4d1bd620537cf</Anchor>
-    <DeclaredIn>telemetryprovider.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>~TimeIt</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>func</Type>
-      <Scope>albert::detail::TimeIt</Scope>
-    </TokenIdentifier>
-    <Path>structalbert_1_1detail_1_1TimeIt.html</Path>
-    <Anchor>a2fb1366365419f0c5e48b6fb0ab93795</Anchor>
-    <DeclaredIn>timeit.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -4034,39 +3626,6 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>fileIcon</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>func</Type>
-      <Scope>albert::detail</Scope>
-    </TokenIdentifier>
-    <Path>namespacealbert_1_1detail.html</Path>
-    <Anchor>ae1984e30a529c8c436195a0ed3ec525d</Anchor>
-    <DeclaredIn>iconprovider.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>genericIcon</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>func</Type>
-      <Scope>albert::detail</Scope>
-    </TokenIdentifier>
-    <Path>namespacealbert_1_1detail.html</Path>
-    <Anchor>a07f1b551718f8e7be2f5974219c96e3f</Anchor>
-    <DeclaredIn>iconprovider.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>genericPixmap</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>func</Type>
-      <Scope>albert::detail</Scope>
-    </TokenIdentifier>
-    <Path>namespacealbert_1_1detail.html</Path>
-    <Anchor>a5fd9f85a1c27697a1294e0326f4bdee3</Anchor>
-    <DeclaredIn>iconprovider.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
       <Name>havePasteSupport</Name>
       <APILanguage>cpp</APILanguage>
       <Type>func</Type>
@@ -4075,28 +3634,6 @@
     <Path>namespacealbert_1_1util.html</Path>
     <Anchor>a017ca773af9592bc3d0cc096af49ffdf</Anchor>
     <DeclaredIn>systemutil.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>iconFromUrl</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>func</Type>
-      <Scope>albert::detail</Scope>
-    </TokenIdentifier>
-    <Path>namespacealbert_1_1detail.html</Path>
-    <Anchor>ad4261f15028c9c6414f974413ec1ae32</Anchor>
-    <DeclaredIn>iconprovider.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>iconFromUrls</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>func</Type>
-      <Scope>albert::detail</Scope>
-    </TokenIdentifier>
-    <Path>namespacealbert_1_1detail.html</Path>
-    <Anchor>a9316fa929748922feda9b358e913b1e7</Anchor>
-    <DeclaredIn>iconprovider.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -4173,28 +3710,6 @@
     <Path>namespacealbert_1_1util.html</Path>
     <Anchor>aa7dfede720bb3bdfb4e3cdff4cad4e46</Anchor>
     <DeclaredIn>systemutil.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>pixmapFromUrl</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>func</Type>
-      <Scope>albert::detail</Scope>
-    </TokenIdentifier>
-    <Path>namespacealbert_1_1detail.html</Path>
-    <Anchor>a716d7dbb9b2d69177a1d25de20876e5c</Anchor>
-    <DeclaredIn>iconprovider.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>pixmapFromUrls</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>func</Type>
-      <Scope>albert::detail</Scope>
-    </TokenIdentifier>
-    <Path>namespacealbert_1_1detail.html</Path>
-    <Anchor>af7c9d3fa079b53b69d6dd268c1fa19fa</Anchor>
-    <DeclaredIn>iconprovider.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>

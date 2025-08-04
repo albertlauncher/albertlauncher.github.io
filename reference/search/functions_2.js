@@ -7,6 +7,5 @@ var searchData=
   ['clientsecret_4',['clientSecret',['../classalbert_1_1util_1_1OAuth2.html#a4146bfb6d7421dc52598e6ac13d5c937',1,'albert::util::OAuth2']]],
   ['clientsecretchanged_5',['clientSecretChanged',['../classalbert_1_1util_1_1OAuth2.html#a85ec2e638ac6ee049c3e1b6f18b01ef2',1,'albert::util::OAuth2']]],
   ['configlocation_6',['configlocation',['../classalbert_1_1PluginInstance.html#accbf6639db1db1996b7dfaa4c3134a92',1,'albert::PluginInstance::configLocation()'],['../namespacealbert.html#a937e01e829944189d76f3058e05e0f9f',1,'albert::configLocation()']]],
-  ['createfrontendconfigwidget_7',['createFrontendConfigWidget',['../classalbert_1_1detail_1_1Frontend.html#a7b584cc824eb8b9eea1611b679064b1a',1,'albert::detail::Frontend']]],
-  ['critical_8',['critical',['../namespacealbert_1_1util.html#aee7437df90752fea81920c276cf34762',1,'albert::util']]]
+  ['critical_7',['critical',['../namespacealbert_1_1util.html#aee7437df90752fea81920c276cf34762',1,'albert::util']]]
 ];

@@ -182,18 +182,17 @@ $(document).ready(function(){initNavTree('item_8h_source.html',''); initResizabl
 <div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span> </div>
 <div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span><span class="keyword">namespace </span>detail</div>
 <div class="line"><a id="l00108" name="l00108"></a><span class="lineno">  108</span>{</div>
-<div class="foldopen" id="foldopen00109" data-start="{" data-end="};">
-<div class="line"><a id="l00109" name="l00109"></a><span class="lineno"><a class="line" href="classalbert_1_1detail_1_1DynamicItem.html">  109</a></span><span class="keyword">class </span>ALBERT_EXPORT <a class="code hl_class" href="classalbert_1_1detail_1_1DynamicItem.html">DynamicItem</a> : <span class="keyword">public</span> <a class="code hl_class" href="classalbert_1_1Item.html">Item</a></div>
+<div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span><span class="keyword">class </span>ALBERT_EXPORT DynamicItem : <span class="keyword">public</span> <a class="code hl_class" href="classalbert_1_1Item.html">Item</a></div>
 <div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span>{</div>
 <div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span><span class="keyword">public</span>:</div>
 <div class="line"><a id="l00112" name="l00112"></a><span class="lineno">  112</span> </div>
-<div class="line"><a id="l00113" name="l00113"></a><span class="lineno"><a class="line" href="classalbert_1_1detail_1_1DynamicItem.html#a82c34fe0ccce788091fc6efedb26843e">  113</a></span>    <a class="code hl_function" href="classalbert_1_1detail_1_1DynamicItem.html#a82c34fe0ccce788091fc6efedb26843e">DynamicItem</a>();</div>
-<div class="line"><a id="l00114" name="l00114"></a><span class="lineno"><a class="line" href="classalbert_1_1detail_1_1DynamicItem.html#adedaa130fb33fcc3966aa930c8e16632">  114</a></span>    <a class="code hl_function" href="classalbert_1_1detail_1_1DynamicItem.html#adedaa130fb33fcc3966aa930c8e16632">~DynamicItem</a>() <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span>    DynamicItem();</div>
+<div class="line"><a id="l00114" name="l00114"></a><span class="lineno">  114</span>    ~DynamicItem() <span class="keyword">override</span>;</div>
 <div class="line"><a id="l00115" name="l00115"></a><span class="lineno">  115</span> </div>
-<div class="line"><a id="l00116" name="l00116"></a><span class="lineno"><a class="line" href="classalbert_1_1detail_1_1DynamicItem.html#a2766382acc73aff205b39624d45e9e2f">  116</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="classalbert_1_1detail_1_1DynamicItem.html#a2766382acc73aff205b39624d45e9e2f">dataChanged</a>() <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00116" name="l00116"></a><span class="lineno">  116</span>    <span class="keywordtype">void</span> dataChanged() <span class="keyword">const</span>;</div>
 <div class="line"><a id="l00117" name="l00117"></a><span class="lineno">  117</span> </div>
-<div class="line"><a id="l00118" name="l00118"></a><span class="lineno"><a class="line" href="classalbert_1_1detail_1_1DynamicItem.html#aceee7c9a782bb6618d7ef82967e05955">  118</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="classalbert_1_1detail_1_1DynamicItem.html#aceee7c9a782bb6618d7ef82967e05955">addObserver</a>(<a class="code hl_class" href="classalbert_1_1Item_1_1Observer.html">Observer</a> *) <span class="keyword">override</span>;</div>
-<div class="line"><a id="l00119" name="l00119"></a><span class="lineno"><a class="line" href="classalbert_1_1detail_1_1DynamicItem.html#a434afe1804af248c0a74bab64ea95671">  119</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="classalbert_1_1detail_1_1DynamicItem.html#a434afe1804af248c0a74bab64ea95671">removeObserver</a>(<a class="code hl_class" href="classalbert_1_1Item_1_1Observer.html">Observer</a> *) <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00118" name="l00118"></a><span class="lineno">  118</span>    <span class="keywordtype">void</span> addObserver(Observer *) <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00119" name="l00119"></a><span class="lineno">  119</span>    <span class="keywordtype">void</span> removeObserver(Observer *) <span class="keyword">override</span>;</div>
 <div class="line"><a id="l00120" name="l00120"></a><span class="lineno">  120</span> </div>
 <div class="line"><a id="l00121" name="l00121"></a><span class="lineno">  121</span><span class="keyword">private</span>:</div>
 <div class="line"><a id="l00122" name="l00122"></a><span class="lineno">  122</span> </div>
@@ -201,7 +200,6 @@ $(document).ready(function(){initNavTree('item_8h_source.html',''); initResizabl
 <div class="line"><a id="l00124" name="l00124"></a><span class="lineno">  124</span>    std::unique_ptr&lt;Private&gt; d;</div>
 <div class="line"><a id="l00125" name="l00125"></a><span class="lineno">  125</span> </div>
 <div class="line"><a id="l00126" name="l00126"></a><span class="lineno">  126</span>};</div>
-</div>
 <div class="line"><a id="l00127" name="l00127"></a><span class="lineno">  127</span>}</div>
 <div class="line"><a id="l00128" name="l00128"></a><span class="lineno">  128</span> </div>
 <div class="line"><a id="l00129" name="l00129"></a><span class="lineno">  129</span>}</div>
@@ -225,12 +223,6 @@ $(document).ready(function(){initNavTree('item_8h_source.html',''); initResizabl
 <div class="ttc" id="aclassalbert_1_1Item_html_ad8423cbb1d705f5f3837478c120fc2c0"><div class="ttname"><a href="classalbert_1_1Item.html#ad8423cbb1d705f5f3837478c120fc2c0">albert::Item::actions</a></div><div class="ttdeci">virtual std::vector&lt; Action &gt; actions() const</div><div class="ttdoc">Returns the item actions.</div></div>
 <div class="ttc" id="aclassalbert_1_1Item_html_ae7aa8d38726094aaac853c96d5d066b2"><div class="ttname"><a href="classalbert_1_1Item.html#ae7aa8d38726094aaac853c96d5d066b2">albert::Item::addObserver</a></div><div class="ttdeci">virtual void addObserver(Observer *observer)</div><div class="ttdoc">Start notifying observer about any changes.</div></div>
 <div class="ttc" id="aclassalbert_1_1Item_html_af24bba87910db269e79df47622e1bdd5"><div class="ttname"><a href="classalbert_1_1Item.html#af24bba87910db269e79df47622e1bdd5">albert::Item::iconUrls</a></div><div class="ttdeci">virtual QStringList iconUrls() const =0</div><div class="ttdoc">Returns the items icon urls.</div></div>
-<div class="ttc" id="aclassalbert_1_1detail_1_1DynamicItem_html"><div class="ttname"><a href="classalbert_1_1detail_1_1DynamicItem.html">albert::detail::DynamicItem</a></div><div class="ttdef"><b>Definition</b> item.h:110</div></div>
-<div class="ttc" id="aclassalbert_1_1detail_1_1DynamicItem_html_a2766382acc73aff205b39624d45e9e2f"><div class="ttname"><a href="classalbert_1_1detail_1_1DynamicItem.html#a2766382acc73aff205b39624d45e9e2f">albert::detail::DynamicItem::dataChanged</a></div><div class="ttdeci">void dataChanged() const</div></div>
-<div class="ttc" id="aclassalbert_1_1detail_1_1DynamicItem_html_a434afe1804af248c0a74bab64ea95671"><div class="ttname"><a href="classalbert_1_1detail_1_1DynamicItem.html#a434afe1804af248c0a74bab64ea95671">albert::detail::DynamicItem::removeObserver</a></div><div class="ttdeci">void removeObserver(Observer *) override</div><div class="ttdoc">Stop notifying observer about any changes.</div></div>
-<div class="ttc" id="aclassalbert_1_1detail_1_1DynamicItem_html_a82c34fe0ccce788091fc6efedb26843e"><div class="ttname"><a href="classalbert_1_1detail_1_1DynamicItem.html#a82c34fe0ccce788091fc6efedb26843e">albert::detail::DynamicItem::DynamicItem</a></div><div class="ttdeci">DynamicItem()</div></div>
-<div class="ttc" id="aclassalbert_1_1detail_1_1DynamicItem_html_aceee7c9a782bb6618d7ef82967e05955"><div class="ttname"><a href="classalbert_1_1detail_1_1DynamicItem.html#aceee7c9a782bb6618d7ef82967e05955">albert::detail::DynamicItem::addObserver</a></div><div class="ttdeci">void addObserver(Observer *) override</div><div class="ttdoc">Start notifying observer about any changes.</div></div>
-<div class="ttc" id="aclassalbert_1_1detail_1_1DynamicItem_html_adedaa130fb33fcc3966aa930c8e16632"><div class="ttname"><a href="classalbert_1_1detail_1_1DynamicItem.html#adedaa130fb33fcc3966aa930c8e16632">albert::detail::DynamicItem::~DynamicItem</a></div><div class="ttdeci">~DynamicItem() override</div></div>
 <div class="ttc" id="anamespacealbert_html"><div class="ttname"><a href="namespacealbert.html">albert</a></div><div class="ttdoc">Albert core interface namespace.</div><div class="ttdef"><b>Definition</b> albert.h:14</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->

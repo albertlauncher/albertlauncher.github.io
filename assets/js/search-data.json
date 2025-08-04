@@ -36,7 +36,7 @@
   },"5": {
     "doc": "Contributing",
     "title": "Contributing",
-    "content": ". | Promotion | Plugins | Code reviews | Maintenance | Translations | Documentation | Appreciation | . ",
+    "content": ". | Promotion | Code | Reviews | Maintenance | Translations | Documentation | Appreciation | . ",
     "url": "/gettingstarted/contributing/",
     
     "relUrl": "/gettingstarted/contributing/"
@@ -49,18 +49,18 @@
     "relUrl": "/gettingstarted/contributing/#promotion"
   },"7": {
     "doc": "Contributing",
-    "title": "Plugins",
-    "content": "The place for official plugin repositories is the Albert launcher organization. Distributed native plugins are submodules in the Albert repository plugins directory. Python plugins in the Python repository plugins directory respectively. The main branch of each plugin repository represents the latest version of a plugin that is or will be distributed with the application. Contributions to the main branch have to pass peer reviewing. As such contributors have to work on a branch or their own fork and send a PR. The rationale for this flow: . | Safety. For users and developers. | Simplicity. Upstream main branch is reviewed and distributable. | Tidiness. No dirty source trees. | Code quality. Code is compliant to our standards. | . Given the above the ownership of the upstream repository has to be transferred to the Albert launcher organization account. Note that this does not imply that you transfer the ownership of your code. According to copyright laws, you wrote the code and hold copyright. The code transferred has to be permissive open source licensed (GPL is not permissive). Once transferred the initial repo has to pass peer reviewing before becoming a submodule. ",
-    "url": "/gettingstarted/contributing/#plugins",
+    "title": "Code",
+    "content": "The place for official plugin repositories is the Albert launcher organization. Distributed native plugins are submodules in the Albert repository plugins directory. Python plugins in the Python repository plugins directory respectively. The main branch of a plugin repository represents the latest version that is or will be distributed with the application. The main branch has to be protected. Contributions have to pass peer reviewing via pull request. Contributors have to work on a separate branch or their own fork and send a PR. The rationale is to ensure . | Safety. For users and developers. | Simplicity. Upstream main branch is reviewed and distributable. | Tidiness. git status is clean. | . To work on existing plugins fork and send a pull request. Get in touch with the maintainer of the plugin to discuss your changes. To add new plugins from scratch request the creation of a repository in the organization account and fork it. If you have a repository, the ownership has to be transferred to the Albert launcher organization account. For a plugin repository to be accepted it has to . | be licensed under a permissive open source license (e.g. MIT, Apache, BSD), | have an active maintainer, | have a lightweight initial commit to have a commit to compare the initial pull request against and | contain the main branch only. | . If you have questions join the community chats and ask for help. ",
+    "url": "/gettingstarted/contributing/#code",
     
-    "relUrl": "/gettingstarted/contributing/#plugins"
+    "relUrl": "/gettingstarted/contributing/#code"
   },"8": {
     "doc": "Contributing",
-    "title": "Code reviews",
+    "title": "Reviews",
     "content": "Lots of PRs have been stuck in the reviewing pipeline for years because nobody reviewed them. Your efforts helps plugins being shipped faster. You can review current pull requests directly any time. You can also join the reviewer teams. These teams will be assigned on new pull requests and as such you will get a notification. Leave a message with your GitHub username to get an invite. ",
-    "url": "/gettingstarted/contributing/#code-reviews",
+    "url": "/gettingstarted/contributing/#reviews",
     
-    "relUrl": "/gettingstarted/contributing/#code-reviews"
+    "relUrl": "/gettingstarted/contributing/#reviews"
   },"9": {
     "doc": "Contributing",
     "title": "Maintenance",
@@ -246,7 +246,7 @@
   },"35": {
     "doc": "Extension",
     "title": "Writing extensions",
-    "content": "Albert can be extended using C++ or Python. The sections on the C++ and Python interfaces do not serve as general guides, but rather focus on their particular interface and its peculiarities. Thus, before you start reading the details, you should understand the basics and have read the general concepts of Albert extension. | Native plugins: . | Performance and power of C/C++/ObjC(++). | Benefits of the native access to Qt: . | Asynchronous operation. | Built-in internationalization. | Qt is a mature and well-documented framework. | . | Hardly any limitations. | . | Python plugins: . | Python is easy, allows rapid prototyping and is easy to distribute. | Theres a library for almost everything you’d want to achieve on PyPI. | Limited subset of the internal API. | No asynchronous operation. | No streamlined translations. | Does not allow effective parallelized multi-threading due to the GIL. | . | . ",
+    "content": "Albert can be extended using C++ or Python. The sections on the C++ and Python interfaces do not serve as general guides, but rather focus on their particular interface and its peculiarities. Thus, before you start reading the details, you should understand the basics and have read the general concepts of Albert extension. | Native plugins: . | Performance and power of C/C++/ObjC(++). | Benefits of the native access to Qt: . | Asynchronous operation. | Built-in internationalization. | Qt is a mature and well-documented framework. | . | Hardly any limitations. | . | Python plugins: . | Python is easy, allows rapid prototyping and is easy to distribute. | Theres a library for almost everything you’d want to achieve on PyPI. | Limited subset of the internal API. | No asynchronous operation. | No streamlined translations. | Does not allow effective parallelized multi-threading due to the GIL. | . | . If you are interested in getting your plugin distributed with the application, please read the contributing page. ",
     "url": "/gettingstarted/extension/#writing-extensions",
     
     "relUrl": "/gettingstarted/extension/#writing-extensions"
