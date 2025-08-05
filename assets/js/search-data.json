@@ -57,7 +57,7 @@
   },"8": {
     "doc": "Contributing",
     "title": "Reviews",
-    "content": "Lots of PRs have been stuck in the reviewing pipeline for years because nobody reviewed them. Your efforts helps plugins being shipped faster. You can review current pull requests directly any time. You can also join the reviewer teams. These teams will be assigned on new pull requests and as such you will get a notification. Leave a message with your GitHub username to get an invite. ",
+    "content": "Your efforts helps plugins being shipped faster. You can review current pull requests directly any time. You can also join the reviewer teams. These teams will be assigned on new pull requests and as such you will get a notification. Leave a message with your GitHub username to get an invite. ",
     "url": "/gettingstarted/contributing/#reviews",
     
     "relUrl": "/gettingstarted/contributing/#reviews"
