@@ -50,7 +50,7 @@
   },"7": {
     "doc": "Contributing",
     "title": "Code",
-    "content": "The place for official plugin repositories is the Albert launcher organization. Distributed native plugins are submodules in the Albert repository plugins directory. Python plugins in the Python repository plugins directory respectively. The main branch of a plugin repository represents the latest version that is or will be distributed with the application and therefore has to be protected. Contributions have to pass peer reviewing via pull request. As such contributors have to work on their own fork and send a PR. The rationale is to ensure . | Safety. For users and developers. | Simplicity. Upstream main branch is reviewed and distributable. | Tidiness. git status is clean or contains approved plugin changes. | . To add new plugins from scratch . | Request the creation of a repository (in the community chat) | Fork the repository to your account | Work on on the fork | Send a pull request to the upstream repository | Go through the review process until approved | . To work on existing plugins start at step 2. Discuss your planned changes with the maintainer of the plugin before. For a plugin repository to be accepted it has to be licensed under a permissive open source license (e.g. MIT, Apache, BSD), have an active maintainer and contain only content essential to the functionality of the plugin. Having a concise README.md summarizing features, requirements, limitations, supported platforms and implementation details is recommended. If you have questions join the community chats and ask for help. ",
+    "content": "The place for official plugin repositories is the Albert launcher organization. Distributed native plugins are submodules in the Albert repository plugins directory. Python plugins in the Python repository plugins directory respectively. The main branch of a plugin repository represents the latest version that is or will be distributed with the application and therefore has to be protected. Contributions have to pass peer reviewing via pull request. As such contributors have to work on their own fork and send a PR. The rationale is to ensure . | Safety. For users and developers. | Simplicity. Upstream main branch is reviewed and distributable. | Tidiness. git status is clean or contains approved plugin changes. | . To add new plugins from scratch . | Request the creation of a repository (in the community chat) | Fork the repository to your account | Work on on the fork | Send a pull request to the upstream repository | Go through the review process until approved | . To work on existing plugins start at step 2. Discuss your planned changes with the maintainer of the plugin before. For a plugin repository to be accepted it has to satisfy the following requirements: . | The project is licensed under a permissive open source license (e.g. MIT, Apache, BSD). | The project has an active maintainer. | The repository content is essential to the functionality of the plugin. Keep in mind that in future somebody else may want to maintain the plugin and for distribution the size of the repository should be minimal. | Icons are vector graphics or 128x128 raster images. | . Having a concise README.md summarizing features, requirements, limitations, supported platforms and implementation details is recommended. If you have questions join the community chats and ask for help. ",
     "url": "/gettingstarted/contributing/#code",
     
     "relUrl": "/gettingstarted/contributing/#code"
@@ -244,26 +244,26 @@
     
     "relUrl": "/gettingstarted/help/"
   },"35": {
-    "doc": "Extension",
-    "title": "Writing extensions",
-    "content": "Albert can be extended using C++ or Python. The sections on the C++ and Python interfaces do not serve as general guides, but rather focus on their particular interface and its peculiarities. Thus, before you start reading the details, you should understand the basics and have read the general concepts of Albert extension. | Native plugins: . | Performance and power of C/C++/ObjC(++). | Benefits of the native access to Qt: . | Asynchronous operation. | Built-in internationalization. | Qt is a mature and well-documented framework. | . | Hardly any limitations. | . | Python plugins: . | Python is easy, allows rapid prototyping and is easy to distribute. | Theres a library for almost everything you’d want to achieve on PyPI. | Limited subset of the internal API. | No asynchronous operation. | No streamlined translations. | Does not allow effective parallelized multi-threading due to the GIL. | . | . If you are interested in getting your plugin distributed with the application, please read the contributing page. ",
-    "url": "/gettingstarted/extension/#writing-extensions",
-    
-    "relUrl": "/gettingstarted/extension/#writing-extensions"
-  },"36": {
-    "doc": "Extension",
-    "title": "Extension",
-    "content": " ",
-    "url": "/gettingstarted/extension/",
-    
-    "relUrl": "/gettingstarted/extension/"
-  },"37": {
     "doc": "Install",
     "title": "Install",
     "content": "Prebuilt packages are available for Linux and macOS. Windows is not supported yet. ",
     "url": "/gettingstarted/install/",
     
     "relUrl": "/gettingstarted/install/"
+  },"36": {
+    "doc": "Extension",
+    "title": "Writing extensions",
+    "content": "Albert can be extended using C++ or Python. The sections on the C++ and Python interfaces do not serve as general guides, but rather focus on their particular interface and its peculiarities. Thus, before you start reading the details, you should understand the basics and have read the general concepts of Albert extension. | Native plugins: . | Performance and power of C/C++/ObjC(++). | Benefits of the native access to Qt: . | Asynchronous operation. | Built-in internationalization. | Qt is a mature and well-documented framework. | . | Hardly any limitations. | . | Python plugins: . | Python is easy, allows rapid prototyping and is easy to distribute. | Theres a library for almost everything you’d want to achieve on PyPI. | Limited subset of the internal API. | No asynchronous operation. | No streamlined translations. | Does not allow effective parallelized multi-threading due to the GIL. | . | . If you are interested in getting your plugin distributed with the application, please read the contributing page. ",
+    "url": "/gettingstarted/extension/#writing-extensions",
+    
+    "relUrl": "/gettingstarted/extension/#writing-extensions"
+  },"37": {
+    "doc": "Extension",
+    "title": "Extension",
+    "content": " ",
+    "url": "/gettingstarted/extension/",
+    
+    "relUrl": "/gettingstarted/extension/"
   },"38": {
     "doc": "Getting started",
     "title": "Getting started",
