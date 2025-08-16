@@ -248,57 +248,6 @@
                 </Subnodes>
                </Node>
                <Node>
-                <Name>InputHistory</Name>
-                <Path>classalbert_1_1util_1_1InputHistory.html</Path>
-              <Subnodes>
-                 <Node>
-                  <Name>InputHistory</Name>
-                  <Path>classalbert_1_1util_1_1InputHistory.html</Path>
-                  <Anchor>a26702d9f03b28a7113e3e2a5b5af6480</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>~InputHistory</Name>
-                  <Path>classalbert_1_1util_1_1InputHistory.html</Path>
-                  <Anchor>a76d5e5937c22356c7030d1e6bf2aedff</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>add</Name>
-                  <Path>classalbert_1_1util_1_1InputHistory.html</Path>
-                  <Anchor>a8fa6f73491fc513f509d14d6883be728</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>clear</Name>
-                  <Path>classalbert_1_1util_1_1InputHistory.html</Path>
-                  <Anchor>ac9f485ee104a9ab15fa7b7f326fc7b62</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>limit</Name>
-                  <Path>classalbert_1_1util_1_1InputHistory.html</Path>
-                  <Anchor>a1d14c9d8a60a516643300cf6c06914e1</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>next</Name>
-                  <Path>classalbert_1_1util_1_1InputHistory.html</Path>
-                  <Anchor>ae0d39fb99fc06e890fb061ddb8acb00b</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>prev</Name>
-                  <Path>classalbert_1_1util_1_1InputHistory.html</Path>
-                  <Anchor>a6bdf7b1187679ebf78462d4b0dd72ceb</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>resetIterator</Name>
-                  <Path>classalbert_1_1util_1_1InputHistory.html</Path>
-                  <Anchor>a6bc94b69574ad4033c106e79cee18b67</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>setLimit</Name>
-                  <Path>classalbert_1_1util_1_1InputHistory.html</Path>
-                  <Anchor>a066a566dd103710da6259e962921bc04</Anchor>
-                 </Node>
-                </Subnodes>
-               </Node>
-               <Node>
                 <Name>Match</Name>
                 <Path>classalbert_1_1util_1_1Match.html</Path>
               <Subnodes>
@@ -1362,6 +1311,11 @@
                 <Anchor>ae29ae4b809993bdcbc6f25b2ba838577</Anchor>
                </Node>
                <Node>
+                <Name>maintainers</Name>
+                <Path>classalbert_1_1PluginMetadata.html</Path>
+                <Anchor>adb10aaee57c6178f55dd442f5ef5d54c</Anchor>
+               </Node>
+               <Node>
                 <Name>name</Name>
                 <Path>classalbert_1_1PluginMetadata.html</Path>
                 <Anchor>a0d7d49ddba3c6024eef05970a35917f2</Anchor>
@@ -1963,57 +1917,6 @@
                   <Name>updateIndexItems</Name>
                   <Path>classalbert_1_1util_1_1IndexQueryHandler.html</Path>
                   <Anchor>afcb8026e37066817f5f608053129bd92</Anchor>
-                 </Node>
-                </Subnodes>
-               </Node>
-               <Node>
-                <Name>InputHistory</Name>
-                <Path>classalbert_1_1util_1_1InputHistory.html</Path>
-              <Subnodes>
-                 <Node>
-                  <Name>InputHistory</Name>
-                  <Path>classalbert_1_1util_1_1InputHistory.html</Path>
-                  <Anchor>a26702d9f03b28a7113e3e2a5b5af6480</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>~InputHistory</Name>
-                  <Path>classalbert_1_1util_1_1InputHistory.html</Path>
-                  <Anchor>a76d5e5937c22356c7030d1e6bf2aedff</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>add</Name>
-                  <Path>classalbert_1_1util_1_1InputHistory.html</Path>
-                  <Anchor>a8fa6f73491fc513f509d14d6883be728</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>clear</Name>
-                  <Path>classalbert_1_1util_1_1InputHistory.html</Path>
-                  <Anchor>ac9f485ee104a9ab15fa7b7f326fc7b62</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>limit</Name>
-                  <Path>classalbert_1_1util_1_1InputHistory.html</Path>
-                  <Anchor>a1d14c9d8a60a516643300cf6c06914e1</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>next</Name>
-                  <Path>classalbert_1_1util_1_1InputHistory.html</Path>
-                  <Anchor>ae0d39fb99fc06e890fb061ddb8acb00b</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>prev</Name>
-                  <Path>classalbert_1_1util_1_1InputHistory.html</Path>
-                  <Anchor>a6bdf7b1187679ebf78462d4b0dd72ceb</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>resetIterator</Name>
-                  <Path>classalbert_1_1util_1_1InputHistory.html</Path>
-                  <Anchor>a6bc94b69574ad4033c106e79cee18b67</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>setLimit</Name>
-                  <Path>classalbert_1_1util_1_1InputHistory.html</Path>
-                  <Anchor>a066a566dd103710da6259e962921bc04</Anchor>
                  </Node>
                 </Subnodes>
                </Node>
@@ -2951,6 +2854,11 @@
                 <Anchor>ae29ae4b809993bdcbc6f25b2ba838577</Anchor>
                </Node>
                <Node>
+                <Name>maintainers</Name>
+                <Path>classalbert_1_1PluginMetadata.html</Path>
+                <Anchor>adb10aaee57c6178f55dd442f5ef5d54c</Anchor>
+               </Node>
+               <Node>
                 <Name>name</Name>
                 <Path>classalbert_1_1PluginMetadata.html</Path>
                 <Anchor>a0d7d49ddba3c6024eef05970a35917f2</Anchor>
@@ -3394,10 +3302,6 @@
              <Node>
               <Name>albert::util::ExtensionPlugin</Name>
               <Path>classalbert_1_1util_1_1ExtensionPlugin.html</Path>
-             </Node>
-             <Node>
-              <Name>albert::util::InputHistory</Name>
-              <Path>classalbert_1_1util_1_1InputHistory.html</Path>
              </Node>
              <Node>
               <Name>albert::util::Notification</Name>
@@ -4066,59 +3970,6 @@
                    <Node>
                     <Name>inputhistory.h</Name>
                     <Path>inputhistory_8h.html</Path>
-                  <Subnodes>
-                     <Node>
-                      <Name>albert::util::InputHistory</Name>
-                      <Path>classalbert_1_1util_1_1InputHistory.html</Path>
-                    <Subnodes>
-                       <Node>
-                        <Name>InputHistory</Name>
-                        <Path>classalbert_1_1util_1_1InputHistory.html</Path>
-                        <Anchor>a26702d9f03b28a7113e3e2a5b5af6480</Anchor>
-                       </Node>
-                       <Node>
-                        <Name>~InputHistory</Name>
-                        <Path>classalbert_1_1util_1_1InputHistory.html</Path>
-                        <Anchor>a76d5e5937c22356c7030d1e6bf2aedff</Anchor>
-                       </Node>
-                       <Node>
-                        <Name>add</Name>
-                        <Path>classalbert_1_1util_1_1InputHistory.html</Path>
-                        <Anchor>a8fa6f73491fc513f509d14d6883be728</Anchor>
-                       </Node>
-                       <Node>
-                        <Name>clear</Name>
-                        <Path>classalbert_1_1util_1_1InputHistory.html</Path>
-                        <Anchor>ac9f485ee104a9ab15fa7b7f326fc7b62</Anchor>
-                       </Node>
-                       <Node>
-                        <Name>limit</Name>
-                        <Path>classalbert_1_1util_1_1InputHistory.html</Path>
-                        <Anchor>a1d14c9d8a60a516643300cf6c06914e1</Anchor>
-                       </Node>
-                       <Node>
-                        <Name>next</Name>
-                        <Path>classalbert_1_1util_1_1InputHistory.html</Path>
-                        <Anchor>ae0d39fb99fc06e890fb061ddb8acb00b</Anchor>
-                       </Node>
-                       <Node>
-                        <Name>prev</Name>
-                        <Path>classalbert_1_1util_1_1InputHistory.html</Path>
-                        <Anchor>a6bdf7b1187679ebf78462d4b0dd72ceb</Anchor>
-                       </Node>
-                       <Node>
-                        <Name>resetIterator</Name>
-                        <Path>classalbert_1_1util_1_1InputHistory.html</Path>
-                        <Anchor>a6bc94b69574ad4033c106e79cee18b67</Anchor>
-                       </Node>
-                       <Node>
-                        <Name>setLimit</Name>
-                        <Path>classalbert_1_1util_1_1InputHistory.html</Path>
-                        <Anchor>a066a566dd103710da6259e962921bc04</Anchor>
-                       </Node>
-                      </Subnodes>
-                     </Node>
-                    </Subnodes>
                    </Node>
                    <Node>
                     <Name>item.h</Name>
@@ -5063,6 +4914,11 @@
                         <Name>load_type</Name>
                         <Path>classalbert_1_1PluginMetadata.html</Path>
                         <Anchor>ae29ae4b809993bdcbc6f25b2ba838577</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>maintainers</Name>
+                        <Path>classalbert_1_1PluginMetadata.html</Path>
+                        <Anchor>adb10aaee57c6178f55dd442f5ef5d54c</Anchor>
                        </Node>
                        <Node>
                         <Name>name</Name>

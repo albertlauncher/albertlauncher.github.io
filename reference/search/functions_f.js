@@ -9,8 +9,7 @@ var searchData=
   ['removed_6',['removed',['../classalbert_1_1ExtensionRegistry.html#a5ed04eff2f2f6230a6bd54ca0ab12e32',1,'albert::ExtensionRegistry']]],
   ['removeobserver_7',['removeObserver',['../classalbert_1_1Item.html#a4791d25d38f298d79bfa6889c14f02b9',1,'albert::Item']]],
   ['requestaccess_8',['requestAccess',['../classalbert_1_1util_1_1OAuth2.html#a67c22a2b3bf36170d30f73bf5d8036b3',1,'albert::util::OAuth2']]],
-  ['resetiterator_9',['resetIterator',['../classalbert_1_1util_1_1InputHistory.html#a6bc94b69574ad4033c106e79cee18b67',1,'albert::util::InputHistory']]],
-  ['restart_10',['restart',['../namespacealbert.html#a7c912d042d2e07024785b691c1121647',1,'albert']]],
-  ['run_11',['run',['../classalbert_1_1util_1_1BackgroundExecutor.html#a779fafdee2fa6f934e9b5e8cbbe115af',1,'albert::util::BackgroundExecutor']]],
-  ['rundetachedprocess_12',['rundetachedprocess',['../namespacealbert_1_1util.html#ac888656fd3cc91a4a7e03551aa8fc595',1,'albert::util::runDetachedProcess(const QStringList &amp;commandline)'],['../namespacealbert_1_1util.html#a9e4734513e4be631e2e68390fa56aa64',1,'albert::util::runDetachedProcess(const QStringList &amp;commandline, const QString &amp;working_dir)']]]
+  ['restart_9',['restart',['../namespacealbert.html#a7c912d042d2e07024785b691c1121647',1,'albert']]],
+  ['run_10',['run',['../classalbert_1_1util_1_1BackgroundExecutor.html#a779fafdee2fa6f934e9b5e8cbbe115af',1,'albert::util::BackgroundExecutor']]],
+  ['rundetachedprocess_11',['rundetachedprocess',['../namespacealbert_1_1util.html#ac888656fd3cc91a4a7e03551aa8fc595',1,'albert::util::runDetachedProcess(const QStringList &amp;commandline)'],['../namespacealbert_1_1util.html#a9e4734513e4be631e2e68390fa56aa64',1,'albert::util::runDetachedProcess(const QStringList &amp;commandline, const QString &amp;working_dir)']]]
 ];

@@ -6,7 +6,6 @@ var namespacealbert_1_1util =
     [ "ExtensionPlugin", "classalbert_1_1util_1_1ExtensionPlugin.html", "classalbert_1_1util_1_1ExtensionPlugin" ],
     [ "IndexItem", "classalbert_1_1util_1_1IndexItem.html", "classalbert_1_1util_1_1IndexItem" ],
     [ "IndexQueryHandler", "classalbert_1_1util_1_1IndexQueryHandler.html", "classalbert_1_1util_1_1IndexQueryHandler" ],
-    [ "InputHistory", "classalbert_1_1util_1_1InputHistory.html", "classalbert_1_1util_1_1InputHistory" ],
     [ "Match", "classalbert_1_1util_1_1Match.html", "classalbert_1_1util_1_1Match" ],
     [ "MatchConfig", "classalbert_1_1util_1_1MatchConfig.html", "classalbert_1_1util_1_1MatchConfig" ],
     [ "Matcher", "classalbert_1_1util_1_1Matcher.html", "classalbert_1_1util_1_1Matcher" ],

@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['readme_5furl_0',['readme_url',['../classalbert_1_1PluginMetadata.html#af5a8e9fc2fac3a1fa44235ea4c2b338c',1,'albert::PluginMetadata']]],
-  ['runtime_1',['runtime',['../classalbert_1_1util_1_1BackgroundExecutor.html#adfa4565baddfb1e2d0cceaa35b76f365',1,'albert::util::BackgroundExecutor']]],
-  ['runtime_5fdependencies_2',['runtime_dependencies',['../classalbert_1_1PluginMetadata.html#a4285f9e6ad514b5d198e35f29d79b490',1,'albert::PluginMetadata']]]
+  ['parallel_0',['parallel',['../classalbert_1_1util_1_1BackgroundExecutor.html#a61c4afed1ad0a344e824b6a84717da68',1,'albert::util::BackgroundExecutor']]],
+  ['platforms_1',['platforms',['../classalbert_1_1PluginMetadata.html#a51761863ffd522fc7a6ca6dd0b94cf43',1,'albert::PluginMetadata']]],
+  ['plugin_5fdependencies_2',['plugin_dependencies',['../classalbert_1_1PluginMetadata.html#a0bbac3f934b5f20f3723835ddcfb8264',1,'albert::PluginMetadata']]]
 ];

@@ -59,9 +59,9 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "albert_8h.html",
-"classalbert_1_1TriggerQueryHandler.html",
-"classalbert_1_1util_1_1OAuth2.html#a85ec2e638ac6ee049c3e1b6f18b01ef2",
-"namespacemembers.html"
+"classalbert_1_1ResultItem.html#aba468adef554696d9f40731ab9152a70",
+"classalbert_1_1util_1_1OAuth2.html#aca164c192d4ad655712fdfb66ddc3ebc",
+"plugininstance_8h_source.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

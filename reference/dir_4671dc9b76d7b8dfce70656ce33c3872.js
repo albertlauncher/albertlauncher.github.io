@@ -13,7 +13,7 @@ var dir_4671dc9b76d7b8dfce70656ce33c3872 =
     [ "iconprovider.h", "iconprovider_8h.html", null ],
     [ "indexitem.h", "indexitem_8h.html", "indexitem_8h" ],
     [ "indexqueryhandler.h", "indexqueryhandler_8h.html", "indexqueryhandler_8h" ],
-    [ "inputhistory.h", "inputhistory_8h.html", "inputhistory_8h" ],
+    [ "inputhistory.h", "inputhistory_8h.html", null ],
     [ "item.h", "item_8h.html", "item_8h" ],
     [ "logging.h", "logging_8h.html", "logging_8h" ],
     [ "matchconfig.h", "matchconfig_8h.html", "matchconfig_8h" ],

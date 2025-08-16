@@ -112,16 +112,6 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>albert::util::InputHistory</Name>
-      <APILanguage>c</APILanguage>
-      <Type>cl</Type>
-      <Scope>albert::util::InputHistory</Scope>
-    </TokenIdentifier>
-    <Path>classalbert_1_1util_1_1InputHistory.html</Path>
-    <DeclaredIn>albert/inputhistory.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
       <Name>albert::Item</Name>
       <APILanguage>c</APILanguage>
       <Type>cl</Type>
@@ -450,17 +440,6 @@
       <Name>add</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
-      <Scope>albert::util::InputHistory</Scope>
-    </TokenIdentifier>
-    <Path>classalbert_1_1util_1_1InputHistory.html</Path>
-    <Anchor>a8fa6f73491fc513f509d14d6883be728</Anchor>
-    <DeclaredIn>inputhistory.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>add</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
       <Scope>albert::Query</Scope>
     </TokenIdentifier>
     <Path>classalbert_1_1Query.html</Path>
@@ -638,17 +617,6 @@
     </TokenIdentifier>
     <Path>classalbert_1_1util_1_1WeakDependency.html</Path>
     <Anchor>adcc126ea4397dbc0f3f1264867a31e1c</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>clear</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>albert::util::InputHistory</Scope>
-    </TokenIdentifier>
-    <Path>classalbert_1_1util_1_1InputHistory.html</Path>
-    <Anchor>ac9f485ee104a9ab15fa7b7f326fc7b62</Anchor>
-    <DeclaredIn>inputhistory.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -1347,17 +1315,6 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>InputHistory</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>albert::util::InputHistory</Scope>
-    </TokenIdentifier>
-    <Path>classalbert_1_1util_1_1InputHistory.html</Path>
-    <Anchor>a26702d9f03b28a7113e3e2a5b5af6480</Anchor>
-    <DeclaredIn>inputhistory.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
       <Name>instance</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
@@ -1519,17 +1476,6 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>limit</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>albert::util::InputHistory</Scope>
-    </TokenIdentifier>
-    <Path>classalbert_1_1util_1_1InputHistory.html</Path>
-    <Anchor>a1d14c9d8a60a516643300cf6c06914e1</Anchor>
-    <DeclaredIn>inputhistory.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
       <Name>load</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
@@ -1592,6 +1538,16 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>maintainers</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>albert::PluginMetadata</Scope>
+    </TokenIdentifier>
+    <Path>classalbert_1_1PluginMetadata.html</Path>
+    <Anchor>adb10aaee57c6178f55dd442f5ef5d54c</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>make</Name>
       <APILanguage>cpp</APILanguage>
       <Type>clm</Type>
@@ -1600,39 +1556,6 @@
     <Path>classalbert_1_1util_1_1StandardItem.html</Path>
     <Anchor>a3f929ca7faea221a6bcf694554b0a682</Anchor>
     <DeclaredIn>standarditem.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>match</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>albert::util::Matcher</Scope>
-    </TokenIdentifier>
-    <Path>classalbert_1_1util_1_1Matcher.html</Path>
-    <Anchor>ae2060edf1baeabfe5f58375e8bc79ed6</Anchor>
-    <DeclaredIn>matcher.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>match</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>albert::util::Matcher</Scope>
-    </TokenIdentifier>
-    <Path>classalbert_1_1util_1_1Matcher.html</Path>
-    <Anchor>a0bb2608c9398c34b077e058971919854</Anchor>
-    <DeclaredIn>matcher.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>match</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>albert::util::Matcher</Scope>
-    </TokenIdentifier>
-    <Path>classalbert_1_1util_1_1Matcher.html</Path>
-    <Anchor>abc5e1a5fb08281f529489db72af37ee9</Anchor>
-    <DeclaredIn>matcher.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -1665,6 +1588,39 @@
     </TokenIdentifier>
     <Path>classalbert_1_1util_1_1Match.html</Path>
     <Anchor>ae56f20f47823ca3cb245bcc6f4c0ebff</Anchor>
+    <DeclaredIn>matcher.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>match</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>albert::util::Matcher</Scope>
+    </TokenIdentifier>
+    <Path>classalbert_1_1util_1_1Matcher.html</Path>
+    <Anchor>ae2060edf1baeabfe5f58375e8bc79ed6</Anchor>
+    <DeclaredIn>matcher.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>match</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>albert::util::Matcher</Scope>
+    </TokenIdentifier>
+    <Path>classalbert_1_1util_1_1Matcher.html</Path>
+    <Anchor>a0bb2608c9398c34b077e058971919854</Anchor>
+    <DeclaredIn>matcher.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>match</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>albert::util::Matcher</Scope>
+    </TokenIdentifier>
+    <Path>classalbert_1_1util_1_1Matcher.html</Path>
+    <Anchor>abc5e1a5fb08281f529489db72af37ee9</Anchor>
     <DeclaredIn>matcher.h</DeclaredIn>
   </Token>
   <Token>
@@ -1764,17 +1720,6 @@
     <Path>classalbert_1_1util_1_1ExtensionPlugin.html</Path>
     <Anchor>aca94b06e94b494f1b2e9ec9f05e44b2e</Anchor>
     <DeclaredIn>extensionplugin.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>next</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>albert::util::InputHistory</Scope>
-    </TokenIdentifier>
-    <Path>classalbert_1_1util_1_1InputHistory.html</Path>
-    <Anchor>ae0d39fb99fc06e890fb061ddb8acb00b</Anchor>
-    <DeclaredIn>inputhistory.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -2049,17 +1994,6 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>prev</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>albert::util::InputHistory</Scope>
-    </TokenIdentifier>
-    <Path>classalbert_1_1util_1_1InputHistory.html</Path>
-    <Anchor>a6bdf7b1187679ebf78462d4b0dd72ceb</Anchor>
-    <DeclaredIn>inputhistory.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
       <Name>QNotificationManager</Name>
       <APILanguage>cpp</APILanguage>
       <Type>ffunc</Type>
@@ -2187,17 +2121,6 @@
     <Path>classalbert_1_1util_1_1OAuth2.html</Path>
     <Anchor>a67c22a2b3bf36170d30f73bf5d8036b3</Anchor>
     <DeclaredIn>oauth.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>resetIterator</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>albert::util::InputHistory</Scope>
-    </TokenIdentifier>
-    <Path>classalbert_1_1util_1_1InputHistory.html</Path>
-    <Anchor>a6bc94b69574ad4033c106e79cee18b67</Anchor>
-    <DeclaredIn>inputhistory.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -2413,17 +2336,6 @@
     <Path>classalbert_1_1util_1_1StandardItem.html</Path>
     <Anchor>ab48652a77b464e5c85f123ee6d063496</Anchor>
     <DeclaredIn>standarditem.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>setLimit</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>albert::util::InputHistory</Scope>
-    </TokenIdentifier>
-    <Path>classalbert_1_1util_1_1InputHistory.html</Path>
-    <Anchor>a066a566dd103710da6259e962921bc04</Anchor>
-    <DeclaredIn>inputhistory.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -3104,17 +3016,6 @@
     <Path>classalbert_1_1util_1_1IndexQueryHandler.html</Path>
     <Anchor>a55cb77be6607cda6b72fdbd5d6fbb43e</Anchor>
     <DeclaredIn>indexqueryhandler.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>~InputHistory</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>albert::util::InputHistory</Scope>
-    </TokenIdentifier>
-    <Path>classalbert_1_1util_1_1InputHistory.html</Path>
-    <Anchor>a76d5e5937c22356c7030d1e6bf2aedff</Anchor>
-    <DeclaredIn>inputhistory.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>

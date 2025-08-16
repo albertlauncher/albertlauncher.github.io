@@ -11,6 +11,7 @@ var classalbert_1_1PluginMetadata =
     [ "iid", "classalbert_1_1PluginMetadata.html#a6fa0db8a6a7e422b4c1147cee2348969", null ],
     [ "license", "classalbert_1_1PluginMetadata.html#af30a551f03a85bf2ae04e97dba96e735", null ],
     [ "load_type", "classalbert_1_1PluginMetadata.html#ae29ae4b809993bdcbc6f25b2ba838577", null ],
+    [ "maintainers", "classalbert_1_1PluginMetadata.html#adb10aaee57c6178f55dd442f5ef5d54c", null ],
     [ "name", "classalbert_1_1PluginMetadata.html#a0d7d49ddba3c6024eef05970a35917f2", null ],
     [ "platforms", "classalbert_1_1PluginMetadata.html#a51761863ffd522fc7a6ca6dd0b94cf43", null ],
     [ "plugin_dependencies", "classalbert_1_1PluginMetadata.html#a0bbac3f934b5f20f3723835ddcfb8264", null ],

@@ -16,20 +16,18 @@
 <area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="616,114,648,114,648,120,616,120"/>
 <area shape="rect" id="Node000008" href="$classalbert_1_1PluginInstance.html" title="Abstract plugin instance class." alt="" coords="5,203,151,228"/>
 <area shape="poly" id="edge8_Node000008_Node000007" title=" " alt="" coords="166,213,200,213,200,218,166,218"/>
-<area shape="rect" id="Node000009" title=" " alt="" coords="43,375,113,400"/>
-<area shape="poly" id="edge13_Node000009_Node000007" title=" " alt="" coords="91,359,133,298,163,265,197,237,219,226,221,231,200,242,167,269,138,301,96,362"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="43,351,113,376"/>
+<area shape="poly" id="edge13_Node000009_Node000007" title=" " alt="" coords="95,336,138,286,166,259,197,237,220,227,223,231,200,242,170,264,142,289,99,339"/>
 <area shape="rect" id="Node000010" href="$classalbert_1_1ExtensionRegistry.html" title="The common extension pool." alt="" coords="207,252,369,278"/>
-<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="100,362,143,323,197,286,223,276,225,281,200,291,146,327,104,366"/>
+<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="108,339,149,312,198,286,227,276,229,281,200,291,152,316,111,343"/>
 <area shape="rect" id="Node000011" href="$classalbert_1_1PluginLoader.html" title="Asynchronous plugin loader turning a physical plugin into a logical PluginInstance." alt="" coords="220,301,356,327"/>
-<area shape="poly" id="edge10_Node000009_Node000011" title=" " alt="" coords="122,366,198,336,232,325,234,330,200,341,124,371"/>
+<area shape="poly" id="edge10_Node000009_Node000011" title=" " alt="" coords="127,349,229,325,231,330,128,355"/>
 <area shape="rect" id="Node000012" href="$classalbert_1_1Query.html" title="Common query object." alt="" coords="241,351,335,376"/>
-<area shape="poly" id="edge11_Node000009_Node000012" title=" " alt="" coords="128,379,240,366,241,371,128,385"/>
+<area shape="poly" id="edge11_Node000009_Node000012" title=" " alt="" coords="128,361,241,361,241,366,128,366"/>
 <area shape="rect" id="Node000013" href="$classalbert_1_1util_1_1Download.html" title="Downloads a file from the given URL to the given path." alt="" coords="218,400,358,426"/>
-<area shape="poly" id="edge12_Node000009_Node000013" title=" " alt="" coords="129,391,218,402,217,407,128,396"/>
-<area shape="rect" id="Node000014" href="$classalbert_1_1util_1_1InputHistory.html" title="Input history class." alt="" coords="212,449,364,475"/>
-<area shape="poly" id="edge14_Node000009_Node000014" title=" " alt="" coords="123,405,200,436,234,446,232,451,198,441,121,410"/>
-<area shape="rect" id="Node000015" href="$classalbert_1_1util_1_1Notification.html" title="The notification class." alt="" coords="214,499,362,524"/>
-<area shape="poly" id="edge15_Node000009_Node000015" title=" " alt="" coords="104,410,146,449,200,485,225,496,223,501,197,490,143,453,100,414"/>
-<area shape="rect" id="Node000016" href="$classalbert_1_1util_1_1OAuth2.html" title="Provides OAuth2 authentication with support for the Authorization Code Flow with PKCE and refresh tok..." alt="" coords="225,548,351,574"/>
-<area shape="poly" id="edge16_Node000009_Node000016" title=" " alt="" coords="96,412,137,474,166,507,200,535,226,547,223,552,197,539,163,511,133,478,91,415"/>
+<area shape="poly" id="edge12_Node000009_Node000013" title=" " alt="" coords="128,372,231,397,229,402,127,378"/>
+<area shape="rect" id="Node000014" href="$classalbert_1_1util_1_1Notification.html" title="The notification class." alt="" coords="214,449,362,475"/>
+<area shape="poly" id="edge14_Node000009_Node000014" title=" " alt="" coords="111,384,152,411,200,436,229,446,227,451,198,441,149,415,108,388"/>
+<area shape="rect" id="Node000015" href="$classalbert_1_1util_1_1OAuth2.html" title="Provides OAuth2 authentication with support for the Authorization Code Flow with PKCE and refresh tok..." alt="" coords="225,499,351,524"/>
+<area shape="poly" id="edge15_Node000009_Node000015" title=" " alt="" coords="99,388,142,438,170,463,200,485,225,497,223,501,197,490,166,468,138,441,95,391"/>
 </map>

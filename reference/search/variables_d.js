@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['text_0',['text',['../classalbert_1_1Action.html#a1bfc14743e18269a07ef3ff9eb8798dc',1,'albert::Action']]],
-  ['text_5f_1',['text_',['../classalbert_1_1util_1_1StandardItem.html#a74eca0253e6cb77793b89c2075af4fae',1,'albert::util::StandardItem']]],
-  ['third_5fparty_5fcredits_2',['third_party_credits',['../classalbert_1_1PluginMetadata.html#a273c5f87754ff87da2136b65819cff86',1,'albert::PluginMetadata']]],
-  ['translations_3',['translations',['../classalbert_1_1PluginMetadata.html#a8524f868b8ff6b0b817a9f39679ec412',1,'albert::PluginMetadata']]]
+  ['score_0',['score',['../classalbert_1_1RankItem.html#a582ca543e0f6db3319cb201470d5437a',1,'albert::RankItem']]],
+  ['separator_5fregex_1',['separator_regex',['../classalbert_1_1util_1_1MatchConfig.html#aefc98b2752b0e8f00b464c9d6de575ff',1,'albert::util::MatchConfig']]],
+  ['string_2',['string',['../classalbert_1_1util_1_1IndexItem.html#ad2f14e519db862868949c25c25eb35a8',1,'albert::util::IndexItem']]],
+  ['subtext_5f_3',['subtext_',['../classalbert_1_1util_1_1StandardItem.html#a4f7434f6034067eb09d0593194ad0ff2',1,'albert::util::StandardItem']]]
 ];

@@ -7,6 +7,67 @@
     
       
         <item>
+          <title>Albert v0.32.0 released</title>
+          <description>&lt;h1 id=&quot;albert-v0320-released&quot;&gt;Albert v0.32.0 released&lt;/h1&gt;
+
+&lt;h3 id=&quot;albert&quot;&gt;Albert&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Add plugin: Obsidian&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;api&quot;&gt;API&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Let &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;runAppleScript&lt;/code&gt; return the result and throw on error&lt;/li&gt;
+  &lt;li&gt;Add maintainers to metadata&lt;/li&gt;
+  &lt;li&gt;Move InputHistory to namespace &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;detail&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;plugins&quot;&gt;Plugins&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;clipboard&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Specialize behavior of different platforms
+Qt on macOS does not deliver clipboard changes reliably. Poll on macos. React on
+clipboard changes everywhere else.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;copyq&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;v3 Add macOS support&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;kill&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Add platform filter.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;obsidian&lt;/strong&gt; 🆕&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;python&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;API v3.1 Add additional metadata fields
+        &lt;ul&gt;
+          &lt;li&gt;md_maintainers&lt;/li&gt;
+          &lt;li&gt;md_readme_url&lt;/li&gt;
+          &lt;li&gt;md_platforms&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Check the &lt;a href=&quot;https://github.com/albertlauncher/albert/compare/v0.31.1...v0.32.0&quot;&gt;commit log&lt;/a&gt; for details.&lt;/p&gt;
+</description>
+          <pubDate>2025-08-16T20:53:00+00:00</pubDate>
+          <link>https://albertlauncher.github.io/2025/08/16/albert-v0.32.0-released/</link>
+          <guid isPermaLink="true">https://albertlauncher.github.io/2025/08/16/albert-v0.32.0-released/</guid>
+        </item>
+      
+    
+      
+        <item>
           <title>Albert v0.31.1 released</title>
           <description>&lt;h1 id=&quot;albert-v0311-released&quot;&gt;Albert v0.31.1 released&lt;/h1&gt;
 

@@ -37,7 +37,6 @@ var hierarchy =
       [ "albert::Query", "classalbert_1_1Query.html", null ],
       [ "albert::util::Download", "classalbert_1_1util_1_1Download.html", null ],
       [ "albert::util::ExtensionPlugin", "classalbert_1_1util_1_1ExtensionPlugin.html", null ],
-      [ "albert::util::InputHistory", "classalbert_1_1util_1_1InputHistory.html", null ],
       [ "albert::util::Notification", "classalbert_1_1util_1_1Notification.html", null ],
       [ "albert::util::OAuth2", "classalbert_1_1util_1_1OAuth2.html", null ]
     ] ],
