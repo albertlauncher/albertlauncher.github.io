@@ -244,26 +244,26 @@
     
     "relUrl": "/gettingstarted/help/"
   },"35": {
-    "doc": "Install",
-    "title": "Install",
-    "content": "Prebuilt packages are available for Linux and macOS. Windows is not supported yet. ",
-    "url": "/gettingstarted/install/",
-    
-    "relUrl": "/gettingstarted/install/"
-  },"36": {
     "doc": "Extension",
     "title": "Writing extensions",
     "content": "Albert can be extended using C++ or Python. The sections on the C++ and Python interfaces do not serve as general guides, but rather focus on their particular interface and its peculiarities. Thus, before you start reading the details, you should understand the basics and have read the general concepts of Albert extension. | Native plugins: . | Performance and power of C/C++/ObjC(++). | Benefits of the native access to Qt: . | Asynchronous operation. | Built-in internationalization. | Qt is a mature and well-documented framework. | . | Hardly any limitations. | . | Python plugins: . | Python is easy, allows rapid prototyping and is easy to distribute. | Theres a library for almost everything you’d want to achieve on PyPI. | Limited subset of the internal API. | No asynchronous operation. | No streamlined translations. | Does not allow effective parallelized multi-threading due to the GIL. | . | . If you are interested in getting your plugin distributed with the application, please read the contributing page. ",
     "url": "/gettingstarted/extension/#writing-extensions",
     
     "relUrl": "/gettingstarted/extension/#writing-extensions"
-  },"37": {
+  },"36": {
     "doc": "Extension",
     "title": "Extension",
     "content": " ",
     "url": "/gettingstarted/extension/",
     
     "relUrl": "/gettingstarted/extension/"
+  },"37": {
+    "doc": "Installation",
+    "title": "Installation",
+    "content": "Prebuilt packages are available for Linux and macOS. Windows is not supported yet. ",
+    "url": "/gettingstarted/installation/",
+    
+    "relUrl": "/gettingstarted/installation/"
   },"38": {
     "doc": "Getting started",
     "title": "Getting started",
@@ -289,23 +289,23 @@
     "doc": "Linux",
     "title": "Linux",
     "content": "Base packages for Arch, Debian, Fedora, openSUSE, Raspbian and Ubuntu are built and hosted at Open Build Service. Installation instructions for each distribution can be found under “Add repository and install manually” in the OBS software center. This is the recommended way, because you will not get updates if you “Grab binary packages directly” instead. Visit OBS software center . Several other distributions are supported when used with the correct package base: . | Package base | Distribution | . | Ubuntu 24.04 | Elementary OS 8Linux Mint 22PopOS! 24.04 | . | Ubuntu 22.04 | Elementary OS 7Linux Mint 21PopOS! 22.04 | . | Debian 12.0 | Linux Mint DE 6 | . | Arch Linux | CachyOSEndeavourOSGarudaManjaro | . ",
-    "url": "/gettingstarted/install/linux/",
+    "url": "/gettingstarted/installation/linux/",
     
-    "relUrl": "/gettingstarted/install/linux/"
+    "relUrl": "/gettingstarted/installation/linux/"
   },"42": {
     "doc": "Linux",
     "title": "Unofficial packages",
     "content": ". | ArchLinux AUR | Gentoo | nixOS | . ",
-    "url": "/gettingstarted/install/linux/#unofficial-packages",
+    "url": "/gettingstarted/installation/linux/#unofficial-packages",
     
-    "relUrl": "/gettingstarted/install/linux/#unofficial-packages"
+    "relUrl": "/gettingstarted/installation/linux/#unofficial-packages"
   },"43": {
     "doc": "macOS",
     "title": "macOS",
     "content": "Albert is available via homebrew tap. The package is built and hosted on GitHub. The homebrew tap provides a cask for Albert. To install Albert via homebrew run the following commands: . brew tap albertlauncher/albert brew update brew install albert . brew update and brew upgrade will keep the app up to date. Note that the packaged app is not signed. Read the caveats section of brew install. For convenience the cask creates an ad-hoc signature and disables Gatekeeper for the app. See the postflight section of the cask. The provided bundle is not self-contained and uses dependencies provided by homebrew. This allows using shared memory and reduces the actual private memory consumption to a negliable amount. ",
-    "url": "/gettingstarted/install/macos/",
+    "url": "/gettingstarted/installation/macos/",
     
-    "relUrl": "/gettingstarted/install/macos/"
+    "relUrl": "/gettingstarted/installation/macos/"
   },"44": {
     "doc": "News",
     "title": "News",
@@ -373,8 +373,8 @@
     "doc": "From source",
     "title": "From source",
     "content": "Building and installing from sources is the least convenient, but most flexible way. This way is usually for developers only. The build process is trivial, but you have to manage the dependencies on your own. See the OBS package specs for up to date build and runtime dependencies. git clone --recursive https://github.com/albertlauncher/albert.git cmake -B build -S albert -DCMAKE_INSTALL_PREFIX=/usr -DCMAKE_BUILD_TYPE=Debug cmake --build build cmake --install build . ",
-    "url": "/gettingstarted/install/source/",
+    "url": "/gettingstarted/installation/source/",
     
-    "relUrl": "/gettingstarted/install/source/"
+    "relUrl": "/gettingstarted/installation/source/"
   }
 }
