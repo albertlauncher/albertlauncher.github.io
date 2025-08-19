@@ -309,7 +309,7 @@
   },"44": {
     "doc": "Python",
     "title": "Extending Albert using Python",
-    "content": "This page focuses on the practical aspects of extending Albert using Python and its peculiarities. To get a high level overview of common concepts of the API refer to the general section. | The Albert stub file | Python plugin directories | Writing Python plugins | Technical notes and limitations | Contributing Python plugins | . ",
+    "content": "This page focuses on the practical aspects of extending Albert using Python and its peculiarities. To get a high level overview of common concepts of the API refer to the general section. | The Albert stub file | Python plugin directories | Writing Python plugins | Technical notes and limitations | . ",
     "url": "/gettingstarted/extension/python/#extending-albert-using-python",
     
     "relUrl": "/gettingstarted/extension/python/#extending-albert-using-python"
@@ -343,19 +343,12 @@
     "relUrl": "/gettingstarted/extension/python/#technical-notes-and-limitations"
   },"49": {
     "doc": "Python",
-    "title": "Contributing Python plugins",
-    "content": ". | Fork the Python plugins repository. | Clone your fork into your Python user plugin location. git clone https://github.com/&lt;your_username&gt;/python.git \"${USER_DATA_DIR}/python/plugins\" . You can find the ${USER_DATA_DIR} for your platform in this table. | Open the directory in your favorite IDE (PyCharmCE is a good choice). | Write your plugin. | Make sure it is polished (No bugs, few to no warnings, efficient, readable, maintainable, …). | Commit, push, send a PR. | . ",
-    "url": "/gettingstarted/extension/python/#contributing-python-plugins",
-    
-    "relUrl": "/gettingstarted/extension/python/#contributing-python-plugins"
-  },"50": {
-    "doc": "Python",
     "title": "Python",
     "content": " ",
     "url": "/gettingstarted/extension/python/",
     
     "relUrl": "/gettingstarted/extension/python/"
-  },"51": {
+  },"50": {
     "doc": "From source",
     "title": "From source",
     "content": "Building and installing from sources is the least convenient, but most flexible way. This way is usually for developers only. The build process is trivial, but you have to manage the dependencies on your own. See the OBS package specs for up to date build and runtime dependencies. git clone --recursive https://github.com/albertlauncher/albert.git cmake -B build -S albert -DCMAKE_INSTALL_PREFIX=/usr -DCMAKE_BUILD_TYPE=Debug cmake --build build cmake --install build . ",
