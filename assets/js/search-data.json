@@ -57,14 +57,14 @@
   },"8": {
     "doc": "Contributing",
     "title": "Reviews",
-    "content": "You can review current pull requests directly any time. You can also join the reviewer teams. These teams will be assigned on new pull requests and as such you will get a notification. Leave a message with your GitHub username to get an invite. ",
+    "content": "Reviews are extremely important to ensure the quality of the code and the safety of users and developers. Reviews have always been a bottleneck in the past, so we are looking for more reviewers. You could review open pull requests any time or join the reviewer teams. Three random members of the reviewer team teams will be assigned on new pull requests of any (new) plugin. Leave a message with your GitHub username to get an invite. If you want to help with just some particular plugins, consider becoming a maintainer instead (see below). ",
     "url": "/gettingstarted/contributing/#reviews",
     
     "relUrl": "/gettingstarted/contributing/#reviews"
   },"9": {
     "doc": "Contributing",
     "title": "Maintenance",
-    "content": "If you are using a plugin a lot and have basic programming skills you are probably a good plugin maintainer. As passive maintainer you can help by using the plugin, reporting issues and sending pull requests containing fixes and features. As an active/official maintainer you will be assigned on new issues and pull requests (for reviews). To opt-in as active maintainer send a pull request adding your GitHub username to the maintainers array of the plugin metadata. Revert to opt-out. ",
+    "content": "If you are using a plugin a lot and have basic programming skills you are probably a good plugin maintainer. As passive maintainer you can help by using the plugin, reporting issues and sending pull requests containing fixes and features. As an active/official maintainer you will be assigned on new issues and pull requests. A maintainer is implicitly a reviewer of its plugin. To opt-in as active maintainer send a pull request adding your GitHub username to the maintainers array of the plugin metadata. Revert to opt-out. ",
     "url": "/gettingstarted/contributing/#maintenance",
     
     "relUrl": "/gettingstarted/contributing/#maintenance"
@@ -316,7 +316,7 @@
   },"45": {
     "doc": "Python",
     "title": "The Albert stub file",
-    "content": "The Albert Python interface is defined in the Albert Python stub file. This file serves as documentation for the embedded albert module, and its module docstring describes the interface that makes a Python module an Albert Python plugin. The stub file is written to your user Python plugin directory. This is also where you are supposed to put your personal plugins. There the stub file serves as inline documention and coding assistance in your IDE while developing plugins. ",
+    "content": "The Albert Python interface is defined in the Albert Python stub file. This file serves as documentation for the embedded albert module and its module docstring describes the interface that makes a Python module an Albert Python plugin. The stub file is written to your user Python plugin directory at runtime. This is also where you are supposed to put your personal plugins. There the stub file serves as inline documentation and coding assistance in your IDE while developing plugins. ",
     "url": "/gettingstarted/extension/python/#the-albert-stub-file",
     
     "relUrl": "/gettingstarted/extension/python/#the-albert-stub-file"
