@@ -7,6 +7,45 @@
     
       
         <item>
+          <title>Albert v0.32.1 released</title>
+          <description>&lt;h1 id=&quot;albert-v0321-released&quot;&gt;Albert v0.32.1 released&lt;/h1&gt;
+
+&lt;h3 id=&quot;albert&quot;&gt;Albert&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Fix plugins list view borders in breeze styles&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;plugins&quot;&gt;Plugins&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;github&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Add saved search action “Show on GitHub”&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;obsidian&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Fix obsidian.json path on xdg platforms&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;widgetsboxmodel&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Fix window property signals&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Check the &lt;a href=&quot;https://github.com/albertlauncher/albert/compare/v0.32.0...v0.32.1&quot;&gt;commit log&lt;/a&gt; for details.&lt;/p&gt;
+</description>
+          <pubDate>2025-08-21T21:21:00+00:00</pubDate>
+          <link>https://albertlauncher.github.io/2025/08/21/albert-v0.32.1-released/</link>
+          <guid isPermaLink="true">https://albertlauncher.github.io/2025/08/21/albert-v0.32.1-released/</guid>
+        </item>
+      
+    
+      
+        <item>
           <title>Albert v0.32.0 released</title>
           <description>&lt;h1 id=&quot;albert-v0320-released&quot;&gt;Albert v0.32.0 released&lt;/h1&gt;
 
