@@ -117,14 +117,12 @@ $(document).ready(function(){initNavTree('query_8h_source.html',''); initResizab
 <div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="keyword">class </span>Item;</div>
 <div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="keyword">class </span>Extension;</div>
 <div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span> </div>
-<div class="foldopen" id="foldopen00017" data-start="{" data-end="};">
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno"><a class="line" href="classalbert_1_1ResultItem.html">   17</a></span><span class="keyword">class </span>ALBERT_EXPORT <a class="code hl_class" href="classalbert_1_1ResultItem.html">ResultItem</a></div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="keyword">class </span>ALBERT_EXPORT ResultItem</div>
 <div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>{</div>
 <div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span><span class="keyword">public</span>:</div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno"><a class="line" href="classalbert_1_1ResultItem.html#aba468adef554696d9f40731ab9152a70">   20</a></span>    <span class="keyword">const</span> <a class="code hl_class" href="classalbert_1_1Extension.html">Extension</a> &amp;<a class="code hl_variable" href="classalbert_1_1ResultItem.html#aba468adef554696d9f40731ab9152a70">extension</a>;</div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno"><a class="line" href="classalbert_1_1ResultItem.html#a1b8da4d2b01a0a06907e1031040b2ef7">   21</a></span>    std::shared_ptr&lt;Item&gt; <a class="code hl_variable" href="classalbert_1_1ResultItem.html#a1b8da4d2b01a0a06907e1031040b2ef7">item</a>;</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>    <span class="keyword">const</span> Extension &amp;extension;</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>    std::shared_ptr&lt;Item&gt; item;</div>
 <div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>};</div>
-</div>
 <div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span> </div>
 <div class="foldopen" id="foldopen00027" data-start="{" data-end="};">
 <div class="line"><a id="l00027" name="l00027"></a><span class="lineno"><a class="line" href="classalbert_1_1Query.html">   27</a></span><span class="keyword">class </span>ALBERT_EXPORT <a class="code hl_class" href="classalbert_1_1Query.html">Query</a> : <span class="keyword">public</span> QObject</div>
@@ -182,7 +180,6 @@ $(document).ready(function(){initNavTree('query_8h_source.html',''); initResizab
 </div>
 <div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span> </div>
 <div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span>}</div>
-<div class="ttc" id="aclassalbert_1_1Extension_html"><div class="ttname"><a href="classalbert_1_1Extension.html">albert::Extension</a></div><div class="ttdoc">Abstract extension class.</div><div class="ttdef"><b>Definition</b> extension.h:19</div></div>
 <div class="ttc" id="aclassalbert_1_1Query_html"><div class="ttname"><a href="classalbert_1_1Query.html">albert::Query</a></div><div class="ttdoc">Common query object.</div><div class="ttdef"><b>Definition</b> query.h:28</div></div>
 <div class="ttc" id="aclassalbert_1_1Query_html_a055e6e2dc39d1bc8c5df67ead0adbf14"><div class="ttname"><a href="classalbert_1_1Query.html#a055e6e2dc39d1bc8c5df67ead0adbf14">albert::Query::synopsis</a></div><div class="ttdeci">virtual Q_INVOKABLE QString synopsis() const =0</div><div class="ttdoc">The synopsis of this query.</div></div>
 <div class="ttc" id="aclassalbert_1_1Query_html_a06f037b0abf075722f418e6c25396728"><div class="ttname"><a href="classalbert_1_1Query.html#a06f037b0abf075722f418e6c25396728">albert::Query::fallbacks</a></div><div class="ttdeci">virtual Q_INVOKABLE const std::vector&lt; ResultItem &gt; &amp; fallbacks()=0</div><div class="ttdoc">Returns the fallbacks.</div></div>
@@ -204,9 +201,6 @@ $(document).ready(function(){initNavTree('query_8h_source.html',''); initResizab
 <div class="ttc" id="aclassalbert_1_1Query_html_acc1d5475f190ca21ca914c6408910078"><div class="ttname"><a href="classalbert_1_1Query.html#acc1d5475f190ca21ca914c6408910078">albert::Query::isValid</a></div><div class="ttdeci">virtual Q_INVOKABLE const bool &amp; isValid() const =0</div><div class="ttdoc">True if query has not been cancelled.</div></div>
 <div class="ttc" id="aclassalbert_1_1Query_html_ae967c24f8c35a866235eecdc83b36fb6"><div class="ttname"><a href="classalbert_1_1Query.html#ae967c24f8c35a866235eecdc83b36fb6">albert::Query::string</a></div><div class="ttdeci">virtual Q_INVOKABLE QString string() const =0</div><div class="ttdoc">Query string excluding the trigger.</div></div>
 <div class="ttc" id="aclassalbert_1_1Query_html_aedcac1b526d23828765effde7d7103c8"><div class="ttname"><a href="classalbert_1_1Query.html#aedcac1b526d23828765effde7d7103c8">albert::Query::invalidated</a></div><div class="ttdeci">void invalidated()</div><div class="ttdoc">Emitted when the query has been invalidated.</div></div>
-<div class="ttc" id="aclassalbert_1_1ResultItem_html"><div class="ttname"><a href="classalbert_1_1ResultItem.html">albert::ResultItem</a></div><div class="ttdef"><b>Definition</b> query.h:18</div></div>
-<div class="ttc" id="aclassalbert_1_1ResultItem_html_a1b8da4d2b01a0a06907e1031040b2ef7"><div class="ttname"><a href="classalbert_1_1ResultItem.html#a1b8da4d2b01a0a06907e1031040b2ef7">albert::ResultItem::item</a></div><div class="ttdeci">std::shared_ptr&lt; Item &gt; item</div><div class="ttdef"><b>Definition</b> query.h:21</div></div>
-<div class="ttc" id="aclassalbert_1_1ResultItem_html_aba468adef554696d9f40731ab9152a70"><div class="ttname"><a href="classalbert_1_1ResultItem.html#aba468adef554696d9f40731ab9152a70">albert::ResultItem::extension</a></div><div class="ttdeci">const Extension &amp; extension</div><div class="ttdef"><b>Definition</b> query.h:20</div></div>
 <div class="ttc" id="anamespacealbert_html"><div class="ttname"><a href="namespacealbert.html">albert</a></div><div class="ttdoc">Albert core interface namespace.</div><div class="ttdef"><b>Definition</b> albert.h:14</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->

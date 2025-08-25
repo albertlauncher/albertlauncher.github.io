@@ -2,10 +2,11 @@ var hierarchy =
 [
     [ "albert::Action", "classalbert_1_1Action.html", null ],
     [ "albert::util::BackgroundExecutor< T >", "classalbert_1_1util_1_1BackgroundExecutor.html", null ],
-    [ "albert::util::Dependency< T >", "classalbert_1_1util_1_1Dependency.html", [
+    [ "albert::util::Dependency< T >", null, [
       [ "albert::util::StrongDependency< T >", "classalbert_1_1util_1_1StrongDependency.html", null ],
       [ "albert::util::WeakDependency< T >", "classalbert_1_1util_1_1WeakDependency.html", null ]
     ] ],
+    [ "albert::detail::DesktopEntryParser", "classalbert_1_1detail_1_1DesktopEntryParser.html", null ],
     [ "albert::Extension", "classalbert_1_1Extension.html", [
       [ "albert::FallbackHandler", "classalbert_1_1FallbackHandler.html", null ],
       [ "albert::PluginProvider", "classalbert_1_1PluginProvider.html", null ],
@@ -15,10 +16,12 @@ var hierarchy =
         ] ]
       ] ],
       [ "albert::UrlHandler", "classalbert_1_1UrlHandler.html", null ],
+      [ "albert::detail::TelemetryProvider", "classalbert_1_1detail_1_1TelemetryProvider.html", null ],
       [ "albert::util::ExtensionPlugin", "classalbert_1_1util_1_1ExtensionPlugin.html", null ]
     ] ],
     [ "albert::util::IndexItem", "classalbert_1_1util_1_1IndexItem.html", null ],
     [ "albert::Item", "classalbert_1_1Item.html", [
+      [ "albert::detail::DynamicItem", "classalbert_1_1detail_1_1DynamicItem.html", null ],
       [ "albert::util::StandardItem", "classalbert_1_1util_1_1StandardItem.html", null ]
     ] ],
     [ "albert::util::Match", "classalbert_1_1util_1_1Match.html", null ],
@@ -35,6 +38,8 @@ var hierarchy =
       [ "albert::ExtensionRegistry", "classalbert_1_1ExtensionRegistry.html", null ],
       [ "albert::PluginLoader", "classalbert_1_1PluginLoader.html", null ],
       [ "albert::Query", "classalbert_1_1Query.html", null ],
+      [ "albert::detail::Frontend", "classalbert_1_1detail_1_1Frontend.html", null ],
+      [ "albert::detail::InputHistory", "classalbert_1_1detail_1_1InputHistory.html", null ],
       [ "albert::util::Download", "classalbert_1_1util_1_1Download.html", null ],
       [ "albert::util::ExtensionPlugin", "classalbert_1_1util_1_1ExtensionPlugin.html", null ],
       [ "albert::util::Notification", "classalbert_1_1util_1_1Notification.html", null ],
@@ -44,5 +49,6 @@ var hierarchy =
       [ "albert::util::OAuthConfigWidget", "classalbert_1_1util_1_1OAuthConfigWidget.html", null ]
     ] ],
     [ "albert::RankItem", "classalbert_1_1RankItem.html", null ],
-    [ "albert::ResultItem", "classalbert_1_1ResultItem.html", null ]
+    [ "albert::detail::RateLimiter", "classalbert_1_1detail_1_1RateLimiter.html", null ],
+    [ "albert::detail::TimeIt", "structalbert_1_1detail_1_1TimeIt.html", null ]
 ];

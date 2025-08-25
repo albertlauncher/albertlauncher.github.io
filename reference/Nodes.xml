@@ -18,6 +18,284 @@
             <Path>namespacealbert.html</Path>
           <Subnodes>
              <Node>
+              <Name>detail</Name>
+              <Path>namespacealbert_1_1detail.html</Path>
+            <Subnodes>
+               <Node>
+                <Name>DesktopEntryParser</Name>
+                <Path>classalbert_1_1detail_1_1DesktopEntryParser.html</Path>
+              <Subnodes>
+                 <Node>
+                  <Name>DesktopEntryParser</Name>
+                  <Path>classalbert_1_1detail_1_1DesktopEntryParser.html</Path>
+                  <Anchor>a7c3621527518be1f87f70f16a8a0147f</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>getBoolean</Name>
+                  <Path>classalbert_1_1detail_1_1DesktopEntryParser.html</Path>
+                  <Anchor>a4b982c59f3c50de9b1937af46f27c1ce</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>getIconString</Name>
+                  <Path>classalbert_1_1detail_1_1DesktopEntryParser.html</Path>
+                  <Anchor>afaf6ae1034bbd8e4050ea1dd491d9561</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>getLocaleString</Name>
+                  <Path>classalbert_1_1detail_1_1DesktopEntryParser.html</Path>
+                  <Anchor>a0b376db76071ff7f99ff25eea979af10</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>getNumeric</Name>
+                  <Path>classalbert_1_1detail_1_1DesktopEntryParser.html</Path>
+                  <Anchor>a8504605cc9590b8394600a719e00d6f9</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>getString</Name>
+                  <Path>classalbert_1_1detail_1_1DesktopEntryParser.html</Path>
+                  <Anchor>ae4a3523970140a7c66300cefe6f5b780</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
+                <Name>DynamicItem</Name>
+                <Path>classalbert_1_1detail_1_1DynamicItem.html</Path>
+              <Subnodes>
+                 <Node>
+                  <Name>DynamicItem</Name>
+                  <Path>classalbert_1_1detail_1_1DynamicItem.html</Path>
+                  <Anchor>a82c34fe0ccce788091fc6efedb26843e</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>~DynamicItem</Name>
+                  <Path>classalbert_1_1detail_1_1DynamicItem.html</Path>
+                  <Anchor>adedaa130fb33fcc3966aa930c8e16632</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>addObserver</Name>
+                  <Path>classalbert_1_1detail_1_1DynamicItem.html</Path>
+                  <Anchor>aceee7c9a782bb6618d7ef82967e05955</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>dataChanged</Name>
+                  <Path>classalbert_1_1detail_1_1DynamicItem.html</Path>
+                  <Anchor>a2766382acc73aff205b39624d45e9e2f</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>removeObserver</Name>
+                  <Path>classalbert_1_1detail_1_1DynamicItem.html</Path>
+                  <Anchor>a434afe1804af248c0a74bab64ea95671</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
+                <Name>Frontend</Name>
+                <Path>classalbert_1_1detail_1_1Frontend.html</Path>
+              <Subnodes>
+                 <Node>
+                  <Name>~Frontend</Name>
+                  <Path>classalbert_1_1detail_1_1Frontend.html</Path>
+                  <Anchor>a88f2e34efba6b8c9af40c4507058ae31</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>createFrontendConfigWidget</Name>
+                  <Path>classalbert_1_1detail_1_1Frontend.html</Path>
+                  <Anchor>a7b584cc824eb8b9eea1611b679064b1a</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>input</Name>
+                  <Path>classalbert_1_1detail_1_1Frontend.html</Path>
+                  <Anchor>aac182f987b48340a3f3d55427d4042b9</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>inputChanged</Name>
+                  <Path>classalbert_1_1detail_1_1Frontend.html</Path>
+                  <Anchor>ad7c4e55c99a073ceed51c8c2d6f6687b</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>isVisible</Name>
+                  <Path>classalbert_1_1detail_1_1Frontend.html</Path>
+                  <Anchor>a9bde4ec8e4772955d94d6dfb6185a1c9</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>setInput</Name>
+                  <Path>classalbert_1_1detail_1_1Frontend.html</Path>
+                  <Anchor>ac7fd1745c47dcbeed2c4f82bc2a5da41</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>setQuery</Name>
+                  <Path>classalbert_1_1detail_1_1Frontend.html</Path>
+                  <Anchor>af562460625902cbab28da91c443103ef</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>setVisible</Name>
+                  <Path>classalbert_1_1detail_1_1Frontend.html</Path>
+                  <Anchor>a3a9077908b8406c0a1e95acb8f96ab8f</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>visibleChanged</Name>
+                  <Path>classalbert_1_1detail_1_1Frontend.html</Path>
+                  <Anchor>a8b0a59627e2b56311ee309928a748ced</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>winId</Name>
+                  <Path>classalbert_1_1detail_1_1Frontend.html</Path>
+                  <Anchor>ac46b0e5afe7a3c4429d6d7a31b2b2f4b</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
+                <Name>InputHistory</Name>
+                <Path>classalbert_1_1detail_1_1InputHistory.html</Path>
+              <Subnodes>
+                 <Node>
+                  <Name>InputHistory</Name>
+                  <Path>classalbert_1_1detail_1_1InputHistory.html</Path>
+                  <Anchor>a5a959a0cf11e824f74ceb6ad53a2a937</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>~InputHistory</Name>
+                  <Path>classalbert_1_1detail_1_1InputHistory.html</Path>
+                  <Anchor>af79b88712b187e20d8c1942e53196dba</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>add</Name>
+                  <Path>classalbert_1_1detail_1_1InputHistory.html</Path>
+                  <Anchor>a31d3730147618736e2ce8009e3f34f66</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>clear</Name>
+                  <Path>classalbert_1_1detail_1_1InputHistory.html</Path>
+                  <Anchor>ac356548bcad23b59be1da7f2f69d0b12</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>limit</Name>
+                  <Path>classalbert_1_1detail_1_1InputHistory.html</Path>
+                  <Anchor>a09b471754e2d89ff1a284af100eb844d</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>next</Name>
+                  <Path>classalbert_1_1detail_1_1InputHistory.html</Path>
+                  <Anchor>a6333755605e4b2b3476be104ec52b135</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>prev</Name>
+                  <Path>classalbert_1_1detail_1_1InputHistory.html</Path>
+                  <Anchor>a1b8430872cb8169f32e3c42a7e1ecf06</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>resetIterator</Name>
+                  <Path>classalbert_1_1detail_1_1InputHistory.html</Path>
+                  <Anchor>a8f9dd4fcb8dcacda9e3f25d17a61c099</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>setLimit</Name>
+                  <Path>classalbert_1_1detail_1_1InputHistory.html</Path>
+                  <Anchor>a789092ea730707a49c22f87ae9b5e943</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
+                <Name>RateLimiter</Name>
+                <Path>classalbert_1_1detail_1_1RateLimiter.html</Path>
+              <Subnodes>
+                 <Node>
+                  <Name>RateLimiter</Name>
+                  <Path>classalbert_1_1detail_1_1RateLimiter.html</Path>
+                  <Anchor>a46cb5c019a5ce7bf112f0e05515fa9eb</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>~RateLimiter</Name>
+                  <Path>classalbert_1_1detail_1_1RateLimiter.html</Path>
+                  <Anchor>a5174fb931e7b188eb824f0947debdcfa</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>debounce</Name>
+                  <Path>classalbert_1_1detail_1_1RateLimiter.html</Path>
+                  <Anchor>a5bb051dd93a2a5683c4bb274cd6a888d</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
+                <Name>TelemetryProvider</Name>
+                <Path>classalbert_1_1detail_1_1TelemetryProvider.html</Path>
+              <Subnodes>
+                 <Node>
+                  <Name>~TelemetryProvider</Name>
+                  <Path>classalbert_1_1detail_1_1TelemetryProvider.html</Path>
+                  <Anchor>afb01fcf3a26daa2d61a4d1bd620537cf</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>telemetryData</Name>
+                  <Path>classalbert_1_1detail_1_1TelemetryProvider.html</Path>
+                  <Anchor>a26206ed4f6d5ebaad34a409d7dd0345b</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
+                <Name>TimeIt</Name>
+                <Path>structalbert_1_1detail_1_1TimeIt.html</Path>
+              <Subnodes>
+                 <Node>
+                  <Name>TimeIt</Name>
+                  <Path>structalbert_1_1detail_1_1TimeIt.html</Path>
+                  <Anchor>ad16687a1c6a3ab3f9db53b328e8cfd3c</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>~TimeIt</Name>
+                  <Path>structalbert_1_1detail_1_1TimeIt.html</Path>
+                  <Anchor>a2fb1366365419f0c5e48b6fb0ab93795</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>name</Name>
+                  <Path>structalbert_1_1detail_1_1TimeIt.html</Path>
+                  <Anchor>a06ce08d6243e37b764481f5011dffdeb</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>start</Name>
+                  <Path>structalbert_1_1detail_1_1TimeIt.html</Path>
+                  <Anchor>a184220bca8322fb1d7a6082eb34c94c6</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
+                <Name>fileIcon</Name>
+                <Path>namespacealbert_1_1detail.html</Path>
+                <Anchor>ae1984e30a529c8c436195a0ed3ec525d</Anchor>
+               </Node>
+               <Node>
+                <Name>genericIcon</Name>
+                <Path>namespacealbert_1_1detail.html</Path>
+                <Anchor>a07f1b551718f8e7be2f5974219c96e3f</Anchor>
+               </Node>
+               <Node>
+                <Name>genericPixmap</Name>
+                <Path>namespacealbert_1_1detail.html</Path>
+                <Anchor>a5fd9f85a1c27697a1294e0326f4bdee3</Anchor>
+               </Node>
+               <Node>
+                <Name>iconFromUrl</Name>
+                <Path>namespacealbert_1_1detail.html</Path>
+                <Anchor>ad4261f15028c9c6414f974413ec1ae32</Anchor>
+               </Node>
+               <Node>
+                <Name>iconFromUrls</Name>
+                <Path>namespacealbert_1_1detail.html</Path>
+                <Anchor>a9316fa929748922feda9b358e913b1e7</Anchor>
+               </Node>
+               <Node>
+                <Name>pixmapFromUrl</Name>
+                <Path>namespacealbert_1_1detail.html</Path>
+                <Anchor>a716d7dbb9b2d69177a1d25de20876e5c</Anchor>
+               </Node>
+               <Node>
+                <Name>pixmapFromUrls</Name>
+                <Path>namespacealbert_1_1detail.html</Path>
+                <Anchor>af7c9d3fa079b53b69d6dd268c1fa19fa</Anchor>
+               </Node>
+              </Subnodes>
+             </Node>
+             <Node>
               <Name>util</Name>
               <Path>namespacealbert_1_1util.html</Path>
             <Subnodes>
@@ -59,57 +337,6 @@
                   <Name>runtime</Name>
                   <Path>classalbert_1_1util_1_1BackgroundExecutor.html</Path>
                   <Anchor>adfa4565baddfb1e2d0cceaa35b76f365</Anchor>
-                 </Node>
-                </Subnodes>
-               </Node>
-               <Node>
-                <Name>Dependency</Name>
-                <Path>classalbert_1_1util_1_1Dependency.html</Path>
-              <Subnodes>
-                 <Node>
-                  <Name>Dependency</Name>
-                  <Path>classalbert_1_1util_1_1Dependency.html</Path>
-                  <Anchor>a24bca8ff0e29290fc881e837cd8ee339</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>~Dependency</Name>
-                  <Path>classalbert_1_1util_1_1Dependency.html</Path>
-                  <Anchor>ab37ebc77c2fe282c846b70a91b288c61</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>get</Name>
-                  <Path>classalbert_1_1util_1_1Dependency.html</Path>
-                  <Anchor>a4c93621dbb74e2e21af45714c69a4826</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>get</Name>
-                  <Path>classalbert_1_1util_1_1Dependency.html</Path>
-                  <Anchor>a7a7cf881033d5eb85a5b4fef4311a9b0</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>operator bool</Name>
-                  <Path>classalbert_1_1util_1_1Dependency.html</Path>
-                  <Anchor>a3667411a603bb6d7a15a07150436486f</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>operator T</Name>
-                  <Path>classalbert_1_1util_1_1Dependency.html</Path>
-                  <Anchor>ad17773cac6e729040d45e9c60a3c18de</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>operator-&gt;</Name>
-                  <Path>classalbert_1_1util_1_1Dependency.html</Path>
-                  <Anchor>a7736986bb5701a5fd87e494e836b1dd0</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>operator-&gt;</Name>
-                  <Path>classalbert_1_1util_1_1Dependency.html</Path>
-                  <Anchor>a06a5d01c4eac871226260df43929ca82</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>dependency_</Name>
-                  <Path>classalbert_1_1util_1_1Dependency.html</Path>
-                  <Anchor>a9810928a8ba04c1868f752c594995058</Anchor>
                  </Node>
                 </Subnodes>
                </Node>
@@ -1526,22 +1753,6 @@
               </Subnodes>
              </Node>
              <Node>
-              <Name>ResultItem</Name>
-              <Path>classalbert_1_1ResultItem.html</Path>
-            <Subnodes>
-               <Node>
-                <Name>extension</Name>
-                <Path>classalbert_1_1ResultItem.html</Path>
-                <Anchor>aba468adef554696d9f40731ab9152a70</Anchor>
-               </Node>
-               <Node>
-                <Name>item</Name>
-                <Path>classalbert_1_1ResultItem.html</Path>
-                <Anchor>a1b8da4d2b01a0a06907e1031040b2ef7</Anchor>
-               </Node>
-              </Subnodes>
-             </Node>
-             <Node>
               <Name>TriggerQueryHandler</Name>
               <Path>classalbert_1_1TriggerQueryHandler.html</Path>
             <Subnodes>
@@ -1691,6 +1902,249 @@
             <Path>namespacealbert.html</Path>
           <Subnodes>
              <Node>
+              <Name>detail</Name>
+              <Path>namespacealbert_1_1detail.html</Path>
+            <Subnodes>
+               <Node>
+                <Name>DesktopEntryParser</Name>
+                <Path>classalbert_1_1detail_1_1DesktopEntryParser.html</Path>
+              <Subnodes>
+                 <Node>
+                  <Name>DesktopEntryParser</Name>
+                  <Path>classalbert_1_1detail_1_1DesktopEntryParser.html</Path>
+                  <Anchor>a7c3621527518be1f87f70f16a8a0147f</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>getBoolean</Name>
+                  <Path>classalbert_1_1detail_1_1DesktopEntryParser.html</Path>
+                  <Anchor>a4b982c59f3c50de9b1937af46f27c1ce</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>getIconString</Name>
+                  <Path>classalbert_1_1detail_1_1DesktopEntryParser.html</Path>
+                  <Anchor>afaf6ae1034bbd8e4050ea1dd491d9561</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>getLocaleString</Name>
+                  <Path>classalbert_1_1detail_1_1DesktopEntryParser.html</Path>
+                  <Anchor>a0b376db76071ff7f99ff25eea979af10</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>getNumeric</Name>
+                  <Path>classalbert_1_1detail_1_1DesktopEntryParser.html</Path>
+                  <Anchor>a8504605cc9590b8394600a719e00d6f9</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>getString</Name>
+                  <Path>classalbert_1_1detail_1_1DesktopEntryParser.html</Path>
+                  <Anchor>ae4a3523970140a7c66300cefe6f5b780</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
+                <Name>DynamicItem</Name>
+                <Path>classalbert_1_1detail_1_1DynamicItem.html</Path>
+              <Subnodes>
+                 <Node>
+                  <Name>DynamicItem</Name>
+                  <Path>classalbert_1_1detail_1_1DynamicItem.html</Path>
+                  <Anchor>a82c34fe0ccce788091fc6efedb26843e</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>~DynamicItem</Name>
+                  <Path>classalbert_1_1detail_1_1DynamicItem.html</Path>
+                  <Anchor>adedaa130fb33fcc3966aa930c8e16632</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>addObserver</Name>
+                  <Path>classalbert_1_1detail_1_1DynamicItem.html</Path>
+                  <Anchor>aceee7c9a782bb6618d7ef82967e05955</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>dataChanged</Name>
+                  <Path>classalbert_1_1detail_1_1DynamicItem.html</Path>
+                  <Anchor>a2766382acc73aff205b39624d45e9e2f</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>removeObserver</Name>
+                  <Path>classalbert_1_1detail_1_1DynamicItem.html</Path>
+                  <Anchor>a434afe1804af248c0a74bab64ea95671</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
+                <Name>Frontend</Name>
+                <Path>classalbert_1_1detail_1_1Frontend.html</Path>
+              <Subnodes>
+                 <Node>
+                  <Name>~Frontend</Name>
+                  <Path>classalbert_1_1detail_1_1Frontend.html</Path>
+                  <Anchor>a88f2e34efba6b8c9af40c4507058ae31</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>createFrontendConfigWidget</Name>
+                  <Path>classalbert_1_1detail_1_1Frontend.html</Path>
+                  <Anchor>a7b584cc824eb8b9eea1611b679064b1a</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>input</Name>
+                  <Path>classalbert_1_1detail_1_1Frontend.html</Path>
+                  <Anchor>aac182f987b48340a3f3d55427d4042b9</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>inputChanged</Name>
+                  <Path>classalbert_1_1detail_1_1Frontend.html</Path>
+                  <Anchor>ad7c4e55c99a073ceed51c8c2d6f6687b</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>isVisible</Name>
+                  <Path>classalbert_1_1detail_1_1Frontend.html</Path>
+                  <Anchor>a9bde4ec8e4772955d94d6dfb6185a1c9</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>setInput</Name>
+                  <Path>classalbert_1_1detail_1_1Frontend.html</Path>
+                  <Anchor>ac7fd1745c47dcbeed2c4f82bc2a5da41</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>setQuery</Name>
+                  <Path>classalbert_1_1detail_1_1Frontend.html</Path>
+                  <Anchor>af562460625902cbab28da91c443103ef</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>setVisible</Name>
+                  <Path>classalbert_1_1detail_1_1Frontend.html</Path>
+                  <Anchor>a3a9077908b8406c0a1e95acb8f96ab8f</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>visibleChanged</Name>
+                  <Path>classalbert_1_1detail_1_1Frontend.html</Path>
+                  <Anchor>a8b0a59627e2b56311ee309928a748ced</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>winId</Name>
+                  <Path>classalbert_1_1detail_1_1Frontend.html</Path>
+                  <Anchor>ac46b0e5afe7a3c4429d6d7a31b2b2f4b</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
+                <Name>InputHistory</Name>
+                <Path>classalbert_1_1detail_1_1InputHistory.html</Path>
+              <Subnodes>
+                 <Node>
+                  <Name>InputHistory</Name>
+                  <Path>classalbert_1_1detail_1_1InputHistory.html</Path>
+                  <Anchor>a5a959a0cf11e824f74ceb6ad53a2a937</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>~InputHistory</Name>
+                  <Path>classalbert_1_1detail_1_1InputHistory.html</Path>
+                  <Anchor>af79b88712b187e20d8c1942e53196dba</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>add</Name>
+                  <Path>classalbert_1_1detail_1_1InputHistory.html</Path>
+                  <Anchor>a31d3730147618736e2ce8009e3f34f66</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>clear</Name>
+                  <Path>classalbert_1_1detail_1_1InputHistory.html</Path>
+                  <Anchor>ac356548bcad23b59be1da7f2f69d0b12</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>limit</Name>
+                  <Path>classalbert_1_1detail_1_1InputHistory.html</Path>
+                  <Anchor>a09b471754e2d89ff1a284af100eb844d</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>next</Name>
+                  <Path>classalbert_1_1detail_1_1InputHistory.html</Path>
+                  <Anchor>a6333755605e4b2b3476be104ec52b135</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>prev</Name>
+                  <Path>classalbert_1_1detail_1_1InputHistory.html</Path>
+                  <Anchor>a1b8430872cb8169f32e3c42a7e1ecf06</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>resetIterator</Name>
+                  <Path>classalbert_1_1detail_1_1InputHistory.html</Path>
+                  <Anchor>a8f9dd4fcb8dcacda9e3f25d17a61c099</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>setLimit</Name>
+                  <Path>classalbert_1_1detail_1_1InputHistory.html</Path>
+                  <Anchor>a789092ea730707a49c22f87ae9b5e943</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
+                <Name>RateLimiter</Name>
+                <Path>classalbert_1_1detail_1_1RateLimiter.html</Path>
+              <Subnodes>
+                 <Node>
+                  <Name>RateLimiter</Name>
+                  <Path>classalbert_1_1detail_1_1RateLimiter.html</Path>
+                  <Anchor>a46cb5c019a5ce7bf112f0e05515fa9eb</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>~RateLimiter</Name>
+                  <Path>classalbert_1_1detail_1_1RateLimiter.html</Path>
+                  <Anchor>a5174fb931e7b188eb824f0947debdcfa</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>debounce</Name>
+                  <Path>classalbert_1_1detail_1_1RateLimiter.html</Path>
+                  <Anchor>a5bb051dd93a2a5683c4bb274cd6a888d</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
+                <Name>TelemetryProvider</Name>
+                <Path>classalbert_1_1detail_1_1TelemetryProvider.html</Path>
+              <Subnodes>
+                 <Node>
+                  <Name>~TelemetryProvider</Name>
+                  <Path>classalbert_1_1detail_1_1TelemetryProvider.html</Path>
+                  <Anchor>afb01fcf3a26daa2d61a4d1bd620537cf</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>telemetryData</Name>
+                  <Path>classalbert_1_1detail_1_1TelemetryProvider.html</Path>
+                  <Anchor>a26206ed4f6d5ebaad34a409d7dd0345b</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
+                <Name>TimeIt</Name>
+                <Path>structalbert_1_1detail_1_1TimeIt.html</Path>
+              <Subnodes>
+                 <Node>
+                  <Name>TimeIt</Name>
+                  <Path>structalbert_1_1detail_1_1TimeIt.html</Path>
+                  <Anchor>ad16687a1c6a3ab3f9db53b328e8cfd3c</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>~TimeIt</Name>
+                  <Path>structalbert_1_1detail_1_1TimeIt.html</Path>
+                  <Anchor>a2fb1366365419f0c5e48b6fb0ab93795</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>name</Name>
+                  <Path>structalbert_1_1detail_1_1TimeIt.html</Path>
+                  <Anchor>a06ce08d6243e37b764481f5011dffdeb</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>start</Name>
+                  <Path>structalbert_1_1detail_1_1TimeIt.html</Path>
+                  <Anchor>a184220bca8322fb1d7a6082eb34c94c6</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+              </Subnodes>
+             </Node>
+             <Node>
               <Name>util</Name>
               <Path>namespacealbert_1_1util.html</Path>
             <Subnodes>
@@ -1732,57 +2186,6 @@
                   <Name>runtime</Name>
                   <Path>classalbert_1_1util_1_1BackgroundExecutor.html</Path>
                   <Anchor>adfa4565baddfb1e2d0cceaa35b76f365</Anchor>
-                 </Node>
-                </Subnodes>
-               </Node>
-               <Node>
-                <Name>Dependency</Name>
-                <Path>classalbert_1_1util_1_1Dependency.html</Path>
-              <Subnodes>
-                 <Node>
-                  <Name>Dependency</Name>
-                  <Path>classalbert_1_1util_1_1Dependency.html</Path>
-                  <Anchor>a24bca8ff0e29290fc881e837cd8ee339</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>~Dependency</Name>
-                  <Path>classalbert_1_1util_1_1Dependency.html</Path>
-                  <Anchor>ab37ebc77c2fe282c846b70a91b288c61</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>get</Name>
-                  <Path>classalbert_1_1util_1_1Dependency.html</Path>
-                  <Anchor>a4c93621dbb74e2e21af45714c69a4826</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>get</Name>
-                  <Path>classalbert_1_1util_1_1Dependency.html</Path>
-                  <Anchor>a7a7cf881033d5eb85a5b4fef4311a9b0</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>operator bool</Name>
-                  <Path>classalbert_1_1util_1_1Dependency.html</Path>
-                  <Anchor>a3667411a603bb6d7a15a07150436486f</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>operator T</Name>
-                  <Path>classalbert_1_1util_1_1Dependency.html</Path>
-                  <Anchor>ad17773cac6e729040d45e9c60a3c18de</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>operator-&gt;</Name>
-                  <Path>classalbert_1_1util_1_1Dependency.html</Path>
-                  <Anchor>a7736986bb5701a5fd87e494e836b1dd0</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>operator-&gt;</Name>
-                  <Path>classalbert_1_1util_1_1Dependency.html</Path>
-                  <Anchor>a06a5d01c4eac871226260df43929ca82</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>dependency_</Name>
-                  <Path>classalbert_1_1util_1_1Dependency.html</Path>
-                  <Anchor>a9810928a8ba04c1868f752c594995058</Anchor>
                  </Node>
                 </Subnodes>
                </Node>
@@ -3069,22 +3472,6 @@
               </Subnodes>
              </Node>
              <Node>
-              <Name>ResultItem</Name>
-              <Path>classalbert_1_1ResultItem.html</Path>
-            <Subnodes>
-               <Node>
-                <Name>extension</Name>
-                <Path>classalbert_1_1ResultItem.html</Path>
-                <Anchor>aba468adef554696d9f40731ab9152a70</Anchor>
-               </Node>
-               <Node>
-                <Name>item</Name>
-                <Path>classalbert_1_1ResultItem.html</Path>
-                <Anchor>a1b8da4d2b01a0a06907e1031040b2ef7</Anchor>
-               </Node>
-              </Subnodes>
-             </Node>
-             <Node>
               <Name>TriggerQueryHandler</Name>
               <Path>classalbert_1_1TriggerQueryHandler.html</Path>
             <Subnodes>
@@ -3177,7 +3564,7 @@
            </Node>
            <Node>
             <Name>albert::util::Dependency&lt; T &gt;</Name>
-            <Path>classalbert_1_1util_1_1Dependency.html</Path>
+            <Path></Path>
           <Subnodes>
              <Node>
               <Name>albert::util::StrongDependency&lt; T &gt;</Name>
@@ -3188,6 +3575,10 @@
               <Path>classalbert_1_1util_1_1WeakDependency.html</Path>
              </Node>
             </Subnodes>
+           </Node>
+           <Node>
+            <Name>albert::detail::DesktopEntryParser</Name>
+            <Path>classalbert_1_1detail_1_1DesktopEntryParser.html</Path>
            </Node>
            <Node>
             <Name>albert::Extension</Name>
@@ -3222,6 +3613,10 @@
               <Path>classalbert_1_1UrlHandler.html</Path>
              </Node>
              <Node>
+              <Name>albert::detail::TelemetryProvider</Name>
+              <Path>classalbert_1_1detail_1_1TelemetryProvider.html</Path>
+             </Node>
+             <Node>
               <Name>albert::util::ExtensionPlugin</Name>
               <Path>classalbert_1_1util_1_1ExtensionPlugin.html</Path>
              </Node>
@@ -3235,6 +3630,10 @@
             <Name>albert::Item</Name>
             <Path>classalbert_1_1Item.html</Path>
           <Subnodes>
+             <Node>
+              <Name>albert::detail::DynamicItem</Name>
+              <Path>classalbert_1_1detail_1_1DynamicItem.html</Path>
+             </Node>
              <Node>
               <Name>albert::util::StandardItem</Name>
               <Path>classalbert_1_1util_1_1StandardItem.html</Path>
@@ -3296,6 +3695,14 @@
               <Path>classalbert_1_1Query.html</Path>
              </Node>
              <Node>
+              <Name>albert::detail::Frontend</Name>
+              <Path>classalbert_1_1detail_1_1Frontend.html</Path>
+             </Node>
+             <Node>
+              <Name>albert::detail::InputHistory</Name>
+              <Path>classalbert_1_1detail_1_1InputHistory.html</Path>
+             </Node>
+             <Node>
               <Name>albert::util::Download</Name>
               <Path>classalbert_1_1util_1_1Download.html</Path>
              </Node>
@@ -3328,8 +3735,12 @@
             <Path>classalbert_1_1RankItem.html</Path>
            </Node>
            <Node>
-            <Name>albert::ResultItem</Name>
-            <Path>classalbert_1_1ResultItem.html</Path>
+            <Name>albert::detail::RateLimiter</Name>
+            <Path>classalbert_1_1detail_1_1RateLimiter.html</Path>
+           </Node>
+           <Node>
+            <Name>albert::detail::TimeIt</Name>
+            <Path>structalbert_1_1detail_1_1TimeIt.html</Path>
            </Node>
           </Subnodes>
          </Node>
@@ -3508,6 +3919,10 @@
               <Path>functions_func_u.html</Path>
              </Node>
              <Node>
+              <Name>v</Name>
+              <Path>functions_func_v.html</Path>
+             </Node>
+             <Node>
               <Name>w</Name>
               <Path>functions_func_w.html</Path>
              </Node>
@@ -3667,6 +4082,44 @@
                    <Node>
                     <Name>desktopentryparser.h</Name>
                     <Path>desktopentryparser_8h.html</Path>
+                  <Subnodes>
+                     <Node>
+                      <Name>albert::detail::DesktopEntryParser</Name>
+                      <Path>classalbert_1_1detail_1_1DesktopEntryParser.html</Path>
+                    <Subnodes>
+                       <Node>
+                        <Name>DesktopEntryParser</Name>
+                        <Path>classalbert_1_1detail_1_1DesktopEntryParser.html</Path>
+                        <Anchor>a7c3621527518be1f87f70f16a8a0147f</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>getBoolean</Name>
+                        <Path>classalbert_1_1detail_1_1DesktopEntryParser.html</Path>
+                        <Anchor>a4b982c59f3c50de9b1937af46f27c1ce</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>getIconString</Name>
+                        <Path>classalbert_1_1detail_1_1DesktopEntryParser.html</Path>
+                        <Anchor>afaf6ae1034bbd8e4050ea1dd491d9561</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>getLocaleString</Name>
+                        <Path>classalbert_1_1detail_1_1DesktopEntryParser.html</Path>
+                        <Anchor>a0b376db76071ff7f99ff25eea979af10</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>getNumeric</Name>
+                        <Path>classalbert_1_1detail_1_1DesktopEntryParser.html</Path>
+                        <Anchor>a8504605cc9590b8394600a719e00d6f9</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>getString</Name>
+                        <Path>classalbert_1_1detail_1_1DesktopEntryParser.html</Path>
+                        <Anchor>ae4a3523970140a7c66300cefe6f5b780</Anchor>
+                       </Node>
+                      </Subnodes>
+                     </Node>
+                    </Subnodes>
                    </Node>
                    <Node>
                     <Name>download.h</Name>
@@ -3856,6 +4309,64 @@
                    <Node>
                     <Name>frontend.h</Name>
                     <Path>frontend_8h.html</Path>
+                  <Subnodes>
+                     <Node>
+                      <Name>albert::detail::Frontend</Name>
+                      <Path>classalbert_1_1detail_1_1Frontend.html</Path>
+                    <Subnodes>
+                       <Node>
+                        <Name>~Frontend</Name>
+                        <Path>classalbert_1_1detail_1_1Frontend.html</Path>
+                        <Anchor>a88f2e34efba6b8c9af40c4507058ae31</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>createFrontendConfigWidget</Name>
+                        <Path>classalbert_1_1detail_1_1Frontend.html</Path>
+                        <Anchor>a7b584cc824eb8b9eea1611b679064b1a</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>input</Name>
+                        <Path>classalbert_1_1detail_1_1Frontend.html</Path>
+                        <Anchor>aac182f987b48340a3f3d55427d4042b9</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>inputChanged</Name>
+                        <Path>classalbert_1_1detail_1_1Frontend.html</Path>
+                        <Anchor>ad7c4e55c99a073ceed51c8c2d6f6687b</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>isVisible</Name>
+                        <Path>classalbert_1_1detail_1_1Frontend.html</Path>
+                        <Anchor>a9bde4ec8e4772955d94d6dfb6185a1c9</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>setInput</Name>
+                        <Path>classalbert_1_1detail_1_1Frontend.html</Path>
+                        <Anchor>ac7fd1745c47dcbeed2c4f82bc2a5da41</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>setQuery</Name>
+                        <Path>classalbert_1_1detail_1_1Frontend.html</Path>
+                        <Anchor>af562460625902cbab28da91c443103ef</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>setVisible</Name>
+                        <Path>classalbert_1_1detail_1_1Frontend.html</Path>
+                        <Anchor>a3a9077908b8406c0a1e95acb8f96ab8f</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>visibleChanged</Name>
+                        <Path>classalbert_1_1detail_1_1Frontend.html</Path>
+                        <Anchor>a8b0a59627e2b56311ee309928a748ced</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>winId</Name>
+                        <Path>classalbert_1_1detail_1_1Frontend.html</Path>
+                        <Anchor>ac46b0e5afe7a3c4429d6d7a31b2b2f4b</Anchor>
+                       </Node>
+                      </Subnodes>
+                     </Node>
+                    </Subnodes>
                    </Node>
                    <Node>
                     <Name>globalqueryhandler.h</Name>
@@ -3892,6 +4403,43 @@
                    <Node>
                     <Name>iconprovider.h</Name>
                     <Path>iconprovider_8h.html</Path>
+                  <Subnodes>
+                     <Node>
+                      <Name>fileIcon</Name>
+                      <Path>iconprovider_8h.html</Path>
+                      <Anchor>ae1984e30a529c8c436195a0ed3ec525d</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>genericIcon</Name>
+                      <Path>iconprovider_8h.html</Path>
+                      <Anchor>a07f1b551718f8e7be2f5974219c96e3f</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>genericPixmap</Name>
+                      <Path>iconprovider_8h.html</Path>
+                      <Anchor>a5fd9f85a1c27697a1294e0326f4bdee3</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>iconFromUrl</Name>
+                      <Path>iconprovider_8h.html</Path>
+                      <Anchor>ad4261f15028c9c6414f974413ec1ae32</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>iconFromUrls</Name>
+                      <Path>iconprovider_8h.html</Path>
+                      <Anchor>a9316fa929748922feda9b358e913b1e7</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>pixmapFromUrl</Name>
+                      <Path>iconprovider_8h.html</Path>
+                      <Anchor>a716d7dbb9b2d69177a1d25de20876e5c</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>pixmapFromUrls</Name>
+                      <Path>iconprovider_8h.html</Path>
+                      <Anchor>af7c9d3fa079b53b69d6dd268c1fa19fa</Anchor>
+                     </Node>
+                    </Subnodes>
                    </Node>
                    <Node>
                     <Name>indexitem.h</Name>
@@ -3970,6 +4518,59 @@
                    <Node>
                     <Name>inputhistory.h</Name>
                     <Path>inputhistory_8h.html</Path>
+                  <Subnodes>
+                     <Node>
+                      <Name>albert::detail::InputHistory</Name>
+                      <Path>classalbert_1_1detail_1_1InputHistory.html</Path>
+                    <Subnodes>
+                       <Node>
+                        <Name>InputHistory</Name>
+                        <Path>classalbert_1_1detail_1_1InputHistory.html</Path>
+                        <Anchor>a5a959a0cf11e824f74ceb6ad53a2a937</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>~InputHistory</Name>
+                        <Path>classalbert_1_1detail_1_1InputHistory.html</Path>
+                        <Anchor>af79b88712b187e20d8c1942e53196dba</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>add</Name>
+                        <Path>classalbert_1_1detail_1_1InputHistory.html</Path>
+                        <Anchor>a31d3730147618736e2ce8009e3f34f66</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>clear</Name>
+                        <Path>classalbert_1_1detail_1_1InputHistory.html</Path>
+                        <Anchor>ac356548bcad23b59be1da7f2f69d0b12</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>limit</Name>
+                        <Path>classalbert_1_1detail_1_1InputHistory.html</Path>
+                        <Anchor>a09b471754e2d89ff1a284af100eb844d</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>next</Name>
+                        <Path>classalbert_1_1detail_1_1InputHistory.html</Path>
+                        <Anchor>a6333755605e4b2b3476be104ec52b135</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>prev</Name>
+                        <Path>classalbert_1_1detail_1_1InputHistory.html</Path>
+                        <Anchor>a1b8430872cb8169f32e3c42a7e1ecf06</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>resetIterator</Name>
+                        <Path>classalbert_1_1detail_1_1InputHistory.html</Path>
+                        <Anchor>a8f9dd4fcb8dcacda9e3f25d17a61c099</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>setLimit</Name>
+                        <Path>classalbert_1_1detail_1_1InputHistory.html</Path>
+                        <Anchor>a789092ea730707a49c22f87ae9b5e943</Anchor>
+                       </Node>
+                      </Subnodes>
+                     </Node>
+                    </Subnodes>
                    </Node>
                    <Node>
                     <Name>item.h</Name>
@@ -4086,6 +4687,37 @@
                         <Name>notify</Name>
                         <Path>classalbert_1_1Item_1_1Observer.html</Path>
                         <Anchor>a4a5efa14ef8660b013e4296784768da0</Anchor>
+                       </Node>
+                      </Subnodes>
+                     </Node>
+                     <Node>
+                      <Name>albert::detail::DynamicItem</Name>
+                      <Path>classalbert_1_1detail_1_1DynamicItem.html</Path>
+                    <Subnodes>
+                       <Node>
+                        <Name>DynamicItem</Name>
+                        <Path>classalbert_1_1detail_1_1DynamicItem.html</Path>
+                        <Anchor>a82c34fe0ccce788091fc6efedb26843e</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>~DynamicItem</Name>
+                        <Path>classalbert_1_1detail_1_1DynamicItem.html</Path>
+                        <Anchor>adedaa130fb33fcc3966aa930c8e16632</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>addObserver</Name>
+                        <Path>classalbert_1_1detail_1_1DynamicItem.html</Path>
+                        <Anchor>aceee7c9a782bb6618d7ef82967e05955</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>dataChanged</Name>
+                        <Path>classalbert_1_1detail_1_1DynamicItem.html</Path>
+                        <Anchor>a2766382acc73aff205b39624d45e9e2f</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>removeObserver</Name>
+                        <Path>classalbert_1_1detail_1_1DynamicItem.html</Path>
+                        <Anchor>a434afe1804af248c0a74bab64ea95671</Anchor>
                        </Node>
                       </Subnodes>
                      </Node>
@@ -4342,6 +4974,27 @@
                     <Name>networkutil.h</Name>
                     <Path>networkutil_8h.html</Path>
                   <Subnodes>
+                     <Node>
+                      <Name>albert::detail::RateLimiter</Name>
+                      <Path>classalbert_1_1detail_1_1RateLimiter.html</Path>
+                    <Subnodes>
+                       <Node>
+                        <Name>RateLimiter</Name>
+                        <Path>classalbert_1_1detail_1_1RateLimiter.html</Path>
+                        <Anchor>a46cb5c019a5ce7bf112f0e05515fa9eb</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>~RateLimiter</Name>
+                        <Path>classalbert_1_1detail_1_1RateLimiter.html</Path>
+                        <Anchor>a5174fb931e7b188eb824f0947debdcfa</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>debounce</Name>
+                        <Path>classalbert_1_1detail_1_1RateLimiter.html</Path>
+                        <Anchor>a5bb051dd93a2a5683c4bb274cd6a888d</Anchor>
+                       </Node>
+                      </Subnodes>
+                     </Node>
                      <Node>
                       <Name>await</Name>
                       <Path>networkutil_8h.html</Path>
@@ -4641,57 +5294,6 @@
                     <Name>plugindependency.h</Name>
                     <Path>plugindependency_8h.html</Path>
                   <Subnodes>
-                     <Node>
-                      <Name>albert::util::Dependency&lt; T &gt;</Name>
-                      <Path>classalbert_1_1util_1_1Dependency.html</Path>
-                    <Subnodes>
-                       <Node>
-                        <Name>Dependency</Name>
-                        <Path>classalbert_1_1util_1_1Dependency.html</Path>
-                        <Anchor>a24bca8ff0e29290fc881e837cd8ee339</Anchor>
-                       </Node>
-                       <Node>
-                        <Name>~Dependency</Name>
-                        <Path>classalbert_1_1util_1_1Dependency.html</Path>
-                        <Anchor>ab37ebc77c2fe282c846b70a91b288c61</Anchor>
-                       </Node>
-                       <Node>
-                        <Name>get</Name>
-                        <Path>classalbert_1_1util_1_1Dependency.html</Path>
-                        <Anchor>a4c93621dbb74e2e21af45714c69a4826</Anchor>
-                       </Node>
-                       <Node>
-                        <Name>get</Name>
-                        <Path>classalbert_1_1util_1_1Dependency.html</Path>
-                        <Anchor>a7a7cf881033d5eb85a5b4fef4311a9b0</Anchor>
-                       </Node>
-                       <Node>
-                        <Name>operator bool</Name>
-                        <Path>classalbert_1_1util_1_1Dependency.html</Path>
-                        <Anchor>a3667411a603bb6d7a15a07150436486f</Anchor>
-                       </Node>
-                       <Node>
-                        <Name>operator T</Name>
-                        <Path>classalbert_1_1util_1_1Dependency.html</Path>
-                        <Anchor>ad17773cac6e729040d45e9c60a3c18de</Anchor>
-                       </Node>
-                       <Node>
-                        <Name>operator-&gt;</Name>
-                        <Path>classalbert_1_1util_1_1Dependency.html</Path>
-                        <Anchor>a7736986bb5701a5fd87e494e836b1dd0</Anchor>
-                       </Node>
-                       <Node>
-                        <Name>operator-&gt;</Name>
-                        <Path>classalbert_1_1util_1_1Dependency.html</Path>
-                        <Anchor>a06a5d01c4eac871226260df43929ca82</Anchor>
-                       </Node>
-                       <Node>
-                        <Name>dependency_</Name>
-                        <Path>classalbert_1_1util_1_1Dependency.html</Path>
-                        <Anchor>a9810928a8ba04c1868f752c594995058</Anchor>
-                       </Node>
-                      </Subnodes>
-                     </Node>
                      <Node>
                       <Name>albert::util::StrongDependency&lt; T &gt;</Name>
                       <Path>classalbert_1_1util_1_1StrongDependency.html</Path>
@@ -5052,22 +5654,6 @@
                     <Path>query_8h.html</Path>
                   <Subnodes>
                      <Node>
-                      <Name>albert::ResultItem</Name>
-                      <Path>classalbert_1_1ResultItem.html</Path>
-                    <Subnodes>
-                       <Node>
-                        <Name>extension</Name>
-                        <Path>classalbert_1_1ResultItem.html</Path>
-                        <Anchor>aba468adef554696d9f40731ab9152a70</Anchor>
-                       </Node>
-                       <Node>
-                        <Name>item</Name>
-                        <Path>classalbert_1_1ResultItem.html</Path>
-                        <Anchor>a1b8da4d2b01a0a06907e1031040b2ef7</Anchor>
-                       </Node>
-                      </Subnodes>
-                     </Node>
-                     <Node>
                       <Name>albert::Query</Name>
                       <Path>classalbert_1_1Query.html</Path>
                     <Subnodes>
@@ -5418,10 +6004,56 @@
                    <Node>
                     <Name>telemetryprovider.h</Name>
                     <Path>telemetryprovider_8h.html</Path>
+                  <Subnodes>
+                     <Node>
+                      <Name>albert::detail::TelemetryProvider</Name>
+                      <Path>classalbert_1_1detail_1_1TelemetryProvider.html</Path>
+                    <Subnodes>
+                       <Node>
+                        <Name>~TelemetryProvider</Name>
+                        <Path>classalbert_1_1detail_1_1TelemetryProvider.html</Path>
+                        <Anchor>afb01fcf3a26daa2d61a4d1bd620537cf</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>telemetryData</Name>
+                        <Path>classalbert_1_1detail_1_1TelemetryProvider.html</Path>
+                        <Anchor>a26206ed4f6d5ebaad34a409d7dd0345b</Anchor>
+                       </Node>
+                      </Subnodes>
+                     </Node>
+                    </Subnodes>
                    </Node>
                    <Node>
                     <Name>timeit.h</Name>
                     <Path>timeit_8h.html</Path>
+                  <Subnodes>
+                     <Node>
+                      <Name>albert::detail::TimeIt</Name>
+                      <Path>structalbert_1_1detail_1_1TimeIt.html</Path>
+                    <Subnodes>
+                       <Node>
+                        <Name>TimeIt</Name>
+                        <Path>structalbert_1_1detail_1_1TimeIt.html</Path>
+                        <Anchor>ad16687a1c6a3ab3f9db53b328e8cfd3c</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>~TimeIt</Name>
+                        <Path>structalbert_1_1detail_1_1TimeIt.html</Path>
+                        <Anchor>a2fb1366365419f0c5e48b6fb0ab93795</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>name</Name>
+                        <Path>structalbert_1_1detail_1_1TimeIt.html</Path>
+                        <Anchor>a06ce08d6243e37b764481f5011dffdeb</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>start</Name>
+                        <Path>structalbert_1_1detail_1_1TimeIt.html</Path>
+                        <Anchor>a184220bca8322fb1d7a6082eb34c94c6</Anchor>
+                       </Node>
+                      </Subnodes>
+                     </Node>
+                    </Subnodes>
                    </Node>
                    <Node>
                     <Name>triggerqueryhandler.h</Name>

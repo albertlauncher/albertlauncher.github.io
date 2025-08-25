@@ -1,23 +1,7 @@
 var searchData=
 [
-  ['_7ebackgroundexecutor_0',['~BackgroundExecutor',['../classalbert_1_1util_1_1BackgroundExecutor.html#af55212d7c56228ed0cf2456c7d245ee9',1,'albert::util::BackgroundExecutor']]],
-  ['_7edependency_1',['~Dependency',['../classalbert_1_1util_1_1Dependency.html#ab37ebc77c2fe282c846b70a91b288c61',1,'albert::util::Dependency']]],
-  ['_7edownload_2',['~Download',['../classalbert_1_1util_1_1Download.html#aa114090b9d0173b1ab939415b0427e0f',1,'albert::util::Download']]],
-  ['_7eextension_3',['~Extension',['../classalbert_1_1Extension.html#a75ca8e53d296b0fa89467469f2200b5f',1,'albert::Extension']]],
-  ['_7efallbackhandler_4',['~FallbackHandler',['../classalbert_1_1FallbackHandler.html#a071609d784d84ddab90dba76b87dfd84',1,'albert::FallbackHandler']]],
-  ['_7eglobalqueryhandler_5',['~GlobalQueryHandler',['../classalbert_1_1GlobalQueryHandler.html#a3e4cba0351c0d47953476559db4b9b3a',1,'albert::GlobalQueryHandler']]],
-  ['_7eindexqueryhandler_6',['~IndexQueryHandler',['../classalbert_1_1util_1_1IndexQueryHandler.html#a55cb77be6607cda6b72fdbd5d6fbb43e',1,'albert::util::IndexQueryHandler']]],
-  ['_7eitem_7',['~Item',['../classalbert_1_1Item.html#a12e5b15918eac6708436805ea544b343',1,'albert::Item']]],
-  ['_7ematcher_8',['~Matcher',['../classalbert_1_1util_1_1Matcher.html#a607cca53a37d835de9bb7f9271eac7ba',1,'albert::util::Matcher']]],
-  ['_7enotification_9',['~Notification',['../classalbert_1_1util_1_1Notification.html#aa9a158b2676f9d8fdc4c33dcb9d5c869',1,'albert::util::Notification']]],
-  ['_7eoauth2_10',['~OAuth2',['../classalbert_1_1util_1_1OAuth2.html#a0cf5fdd0f2c86529fd79948b2e7d322d',1,'albert::util::OAuth2']]],
-  ['_7eoauthconfigwidget_11',['~OAuthConfigWidget',['../classalbert_1_1util_1_1OAuthConfigWidget.html#a8b6392bcdefb2c28cb3a4d7a1802cbd8',1,'albert::util::OAuthConfigWidget']]],
-  ['_7eobserver_12',['~Observer',['../classalbert_1_1Item_1_1Observer.html#aaff4b4ce29528767642aa308ef432c22',1,'albert::Item::Observer']]],
-  ['_7eplugininstance_13',['~PluginInstance',['../classalbert_1_1PluginInstance.html#a5f45a55c5eb5712294adc15b889942fa',1,'albert::PluginInstance']]],
-  ['_7epluginloader_14',['~PluginLoader',['../classalbert_1_1PluginLoader.html#aed12605269105560dfa0130957d8b403',1,'albert::PluginLoader']]],
-  ['_7epluginprovider_15',['~PluginProvider',['../classalbert_1_1PluginProvider.html#a1d3172a2832639a55d0fcf30905b9fec',1,'albert::PluginProvider']]],
-  ['_7equery_16',['~Query',['../classalbert_1_1Query.html#a8f6a1727abc202c50bf6bd1606cd976d',1,'albert::Query']]],
-  ['_7etriggerqueryhandler_17',['~TriggerQueryHandler',['../classalbert_1_1TriggerQueryHandler.html#af5a7811af0fdf807b26826c277776505',1,'albert::TriggerQueryHandler']]],
-  ['_7eurlhandler_18',['~UrlHandler',['../classalbert_1_1UrlHandler.html#ab841908bf603e50cc70ab5a6403f3890',1,'albert::UrlHandler']]],
-  ['_7eweakdependency_19',['~WeakDependency',['../classalbert_1_1util_1_1WeakDependency.html#a7ca99a8564f47d8fe74f08874feaf742',1,'albert::util::WeakDependency']]]
+  ['warning_0',['warning',['../namespacealbert_1_1util.html#a4688a13cb126f47c7def9f58d030b68e',1,'albert::util']]],
+  ['weakdependency_1',['WeakDependency',['../classalbert_1_1util_1_1WeakDependency.html#a5a28e99265b8b639c0c87f16eed80360',1,'albert::util::WeakDependency']]],
+  ['winid_2',['winId',['../classalbert_1_1detail_1_1Frontend.html#ac46b0e5afe7a3c4429d6d7a31b2b2f4b',1,'albert::detail::Frontend']]],
+  ['writekeychain_3',['writeKeychain',['../classalbert_1_1PluginInstance.html#a7e23a9b754d0c725e5897cd9d6d98ee9',1,'albert::PluginInstance']]]
 ];

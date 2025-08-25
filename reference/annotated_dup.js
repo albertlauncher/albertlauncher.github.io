@@ -1,9 +1,17 @@
 var annotated_dup =
 [
     [ "albert", "namespacealbert.html", [
+      [ "detail", "namespacealbert_1_1detail.html", [
+        [ "DesktopEntryParser", "classalbert_1_1detail_1_1DesktopEntryParser.html", "classalbert_1_1detail_1_1DesktopEntryParser" ],
+        [ "DynamicItem", "classalbert_1_1detail_1_1DynamicItem.html", "classalbert_1_1detail_1_1DynamicItem" ],
+        [ "Frontend", "classalbert_1_1detail_1_1Frontend.html", "classalbert_1_1detail_1_1Frontend" ],
+        [ "InputHistory", "classalbert_1_1detail_1_1InputHistory.html", "classalbert_1_1detail_1_1InputHistory" ],
+        [ "RateLimiter", "classalbert_1_1detail_1_1RateLimiter.html", "classalbert_1_1detail_1_1RateLimiter" ],
+        [ "TelemetryProvider", "classalbert_1_1detail_1_1TelemetryProvider.html", "classalbert_1_1detail_1_1TelemetryProvider" ],
+        [ "TimeIt", "structalbert_1_1detail_1_1TimeIt.html", "structalbert_1_1detail_1_1TimeIt" ]
+      ] ],
       [ "util", "namespacealbert_1_1util.html", [
         [ "BackgroundExecutor", "classalbert_1_1util_1_1BackgroundExecutor.html", "classalbert_1_1util_1_1BackgroundExecutor" ],
-        [ "Dependency", "classalbert_1_1util_1_1Dependency.html", "classalbert_1_1util_1_1Dependency" ],
         [ "Download", "classalbert_1_1util_1_1Download.html", "classalbert_1_1util_1_1Download" ],
         [ "ExtensionPlugin", "classalbert_1_1util_1_1ExtensionPlugin.html", "classalbert_1_1util_1_1ExtensionPlugin" ],
         [ "IndexItem", "classalbert_1_1util_1_1IndexItem.html", "classalbert_1_1util_1_1IndexItem" ],
@@ -30,7 +38,6 @@ var annotated_dup =
       [ "PluginProvider", "classalbert_1_1PluginProvider.html", "classalbert_1_1PluginProvider" ],
       [ "Query", "classalbert_1_1Query.html", "classalbert_1_1Query" ],
       [ "RankItem", "classalbert_1_1RankItem.html", "classalbert_1_1RankItem" ],
-      [ "ResultItem", "classalbert_1_1ResultItem.html", "classalbert_1_1ResultItem" ],
       [ "TriggerQueryHandler", "classalbert_1_1TriggerQueryHandler.html", "classalbert_1_1TriggerQueryHandler" ],
       [ "UrlHandler", "classalbert_1_1UrlHandler.html", "classalbert_1_1UrlHandler" ]
     ] ],

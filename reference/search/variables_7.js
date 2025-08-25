@@ -8,5 +8,5 @@ var searchData=
   ['ignore_5fword_5forder_5',['ignore_word_order',['../classalbert_1_1util_1_1MatchConfig.html#abea790122fbe4e4d02274479066a2f80',1,'albert::util::MatchConfig']]],
   ['iid_6',['iid',['../classalbert_1_1PluginMetadata.html#a6fa0db8a6a7e422b4c1147cee2348969',1,'albert::PluginMetadata']]],
   ['input_5faction_5ftext_5f_7',['input_action_text_',['../classalbert_1_1util_1_1StandardItem.html#ace4aeba667d92fb552c1fe4bbc35a89d',1,'albert::util::StandardItem']]],
-  ['item_8',['item',['../classalbert_1_1util_1_1IndexItem.html#a9afe16324248f4b15cea0087c65a2cca',1,'albert::util::IndexItem::item'],['../classalbert_1_1ResultItem.html#a1b8da4d2b01a0a06907e1031040b2ef7',1,'albert::ResultItem::item'],['../classalbert_1_1RankItem.html#a632f30a524f44fa1b8b87a6b567d8c8f',1,'albert::RankItem::item']]]
+  ['item_8',['item',['../classalbert_1_1util_1_1IndexItem.html#a9afe16324248f4b15cea0087c65a2cca',1,'albert::util::IndexItem::item'],['../classalbert_1_1RankItem.html#a632f30a524f44fa1b8b87a6b567d8c8f',1,'albert::RankItem::item']]]
 ];

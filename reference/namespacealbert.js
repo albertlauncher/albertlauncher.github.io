@@ -1,5 +1,6 @@
 var namespacealbert =
 [
+    [ "detail", "namespacealbert_1_1detail.html", "namespacealbert_1_1detail" ],
     [ "util", "namespacealbert_1_1util.html", "namespacealbert_1_1util" ],
     [ "Action", "classalbert_1_1Action.html", "classalbert_1_1Action" ],
     [ "Extension", "classalbert_1_1Extension.html", "classalbert_1_1Extension" ],
@@ -13,7 +14,6 @@ var namespacealbert =
     [ "PluginProvider", "classalbert_1_1PluginProvider.html", "classalbert_1_1PluginProvider" ],
     [ "Query", "classalbert_1_1Query.html", "classalbert_1_1Query" ],
     [ "RankItem", "classalbert_1_1RankItem.html", "classalbert_1_1RankItem" ],
-    [ "ResultItem", "classalbert_1_1ResultItem.html", "classalbert_1_1ResultItem" ],
     [ "TriggerQueryHandler", "classalbert_1_1TriggerQueryHandler.html", "classalbert_1_1TriggerQueryHandler" ],
     [ "UrlHandler", "classalbert_1_1UrlHandler.html", "classalbert_1_1UrlHandler" ],
     [ "cacheLocation", "namespacealbert.html#a0e2c257e0f05bc73b7559d69595d9bf2", null ],

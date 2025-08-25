@@ -1,7 +1,6 @@
 var namespacealbert_1_1util =
 [
     [ "BackgroundExecutor", "classalbert_1_1util_1_1BackgroundExecutor.html", "classalbert_1_1util_1_1BackgroundExecutor" ],
-    [ "Dependency", "classalbert_1_1util_1_1Dependency.html", "classalbert_1_1util_1_1Dependency" ],
     [ "Download", "classalbert_1_1util_1_1Download.html", "classalbert_1_1util_1_1Download" ],
     [ "ExtensionPlugin", "classalbert_1_1util_1_1ExtensionPlugin.html", "classalbert_1_1util_1_1ExtensionPlugin" ],
     [ "IndexItem", "classalbert_1_1util_1_1IndexItem.html", "classalbert_1_1util_1_1IndexItem" ],
