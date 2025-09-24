@@ -148,7 +148,7 @@
   },"21": {
     "doc": "FAQ",
     "title": "Frequently asked questions",
-    "content": ". | Wayland . | XWayland | Hotkeys | Window rules | . | How to open with a particular text? | Where are cache, config and data files stored? | How to get GNOME platform integration (auto dark mode)? | How to get debug logs? | How’s it going? | . ",
+    "content": ". | Wayland . | XWayland | Hotkeys | Window rules | . | How to open with a particular text? | Where are cache, config and data files stored? | How to get GNOME platform integration (auto dark mode)? | How to use a custom app/tray icon? | How to get debug logs? | How’s it going? | . ",
     "url": "/gettingstarted/faq/#frequently-asked-questions",
     
     "relUrl": "/gettingstarted/faq/#frequently-asked-questions"
@@ -182,222 +182,229 @@
     "relUrl": "/gettingstarted/faq/#how-to-get-gnome-platform-integration-auto-dark-mode"
   },"26": {
     "doc": "FAQ",
+    "title": "How to use a custom app/tray icon?",
+    "content": "mkdir -p \"~/.local/share/icons/hicolor/scalable/apps/\" # Overwrite the default app icon cp &lt;your-icon&gt;.svg \"~/.local/share/icons/hicolor/scalable/apps/albert.svg # Overwrite the default tray icon cp &lt;your-icon&gt;.svg \"~/.local/share/icons/hicolor/scalable/apps/albert-tray.svg\" . ",
+    "url": "/gettingstarted/faq/#how-to-use-a-custom-apptray-icon",
+    
+    "relUrl": "/gettingstarted/faq/#how-to-use-a-custom-apptray-icon"
+  },"27": {
+    "doc": "FAQ",
     "title": "How to get debug logs?",
     "content": "# Enable _all_ albert logs QT_LOGGING_RULES='albert*=true' albert # Enable all albert logs of a particular plugin QT_LOGGING_RULES='albert.python*=true' albert # Enable _all_ logs (albert + qt) QT_LOGGING_RULES='*=true' albert # Enable _all_ logs (albert + qt) with additional plugin debug info QT_LOGGING_RULES='*=true' QT_DEBUG_PLUGINS=1 albert # Debug DBus QT_LOGGING_RULES='default*=true' QDBUS_DEBUG=1 . ",
     "url": "/gettingstarted/faq/#how-to-get-debug-logs",
     
     "relUrl": "/gettingstarted/faq/#how-to-get-debug-logs"
-  },"27": {
+  },"28": {
     "doc": "FAQ",
     "title": "How’s it going?",
     "content": ". | Star history compared | GitHub Release Stats | . ",
     "url": "/gettingstarted/faq/#hows-it-going",
     
     "relUrl": "/gettingstarted/faq/#hows-it-going"
-  },"28": {
+  },"29": {
     "doc": "FAQ",
     "title": "FAQ",
     "content": " ",
     "url": "/gettingstarted/faq/",
     
     "relUrl": "/gettingstarted/faq/"
-  },"29": {
+  },"30": {
     "doc": "Features",
     "title": "Features",
     "content": " ",
     "url": "/features",
     
     "relUrl": "/features"
-  },"30": {
+  },"31": {
     "doc": "Features",
     "title": "🚀 Performance",
     "content": "Your muscle memory achieves 1000+ KPM? Albert can keep up with that. Being one of the primary design goals, Albert is designed to be fast. ",
     "url": "/features#-performance",
     
     "relUrl": "/features#-performance"
-  },"31": {
+  },"32": {
     "doc": "Features",
     "title": "🌱 Efficiency",
     "content": "Technology, design, tooling, distribution, contribution standards. Decisions made with efficiency in mind. ",
     "url": "/features#-efficiency",
     
     "relUrl": "/features#-efficiency"
-  },"32": {
+  },"33": {
     "doc": "Features",
     "title": "🧩 Flexibility",
     "content": "Albert is based on a plugin system that allows you to customize its functionality. It could be your go-to app launcher or a full-blown system command palette. ",
     "url": "/features#-flexibility",
     
     "relUrl": "/features#-flexibility"
-  },"33": {
+  },"34": {
     "doc": "Features",
     "title": "🔧 Extensibility",
     "content": "Albert offers APIs designed to be simple and easy to learn. To accomplish common tasks with minimal code it provides a set powerful utilities. ",
     "url": "/features#-extensibility",
     
     "relUrl": "/features#-extensibility"
-  },"34": {
+  },"35": {
     "doc": "Features",
     "title": "🔋 Batteries included",
     "content": "Albert comes with a curated collection of peer-reviewed, actively maintained plugins. No searching, no duplicates, no broken code, no risks. Works out of the box. ",
     "url": "/features#-batteries-included",
     
     "relUrl": "/features#-batteries-included"
-  },"35": {
+  },"36": {
     "doc": "Gallery",
     "title": "Gallery",
     "content": ". ",
     "url": "/gallery",
     
     "relUrl": "/gallery"
-  },"36": {
+  },"37": {
     "doc": "Help",
     "title": "Getting help",
     "content": "If you have questions or problems the community is there to help. To be fair we expect you to do your own research first. | Make sure your issue is in the scope of this project. | Google your issue. | Ask AI for help (e.g. chatgpt.com). | Search for similar existing issues. | If you need support ask for it in the community chats. | If you think you found a bug post an issue. | . ",
     "url": "/gettingstarted/help/#getting-help",
     
     "relUrl": "/gettingstarted/help/#getting-help"
-  },"37": {
+  },"38": {
     "doc": "Help",
     "title": "Community chat",
     "content": ". | Chat on Telegram | Chat on Discord | . These chats are bridged using matterbridge. ",
     "url": "/gettingstarted/help/#community-chat",
     
     "relUrl": "/gettingstarted/help/#community-chat"
-  },"38": {
+  },"39": {
     "doc": "Help",
     "title": "Help",
     "content": " ",
     "url": "/gettingstarted/help/",
     
     "relUrl": "/gettingstarted/help/"
-  },"39": {
+  },"40": {
     "doc": "Installation",
     "title": "Installation",
     "content": "Prebuilt packages are available for Linux and macOS. Windows is not supported yet. ",
     "url": "/gettingstarted/installation/",
     
     "relUrl": "/gettingstarted/installation/"
-  },"40": {
+  },"41": {
     "doc": "Extension",
     "title": "Writing extensions",
     "content": "Before you start reading the details of extending Albert, make sure you have read the basics. Albert can be extended using C++ or Python. | Native C++ plugins benefit the performance and power of (Obj)C(++) and the native access to Qt (Eventloop, translations, the framework itself …). | Python plugins on the other hand are easier to write and distribute and PyPi has a library for almost everything you can think of. However the Albert Python API is a limited subset of the native API and the GIL prevents true parallelism. | . ",
     "url": "/gettingstarted/extension/#writing-extensions",
     
     "relUrl": "/gettingstarted/extension/#writing-extensions"
-  },"41": {
+  },"42": {
     "doc": "Extension",
     "title": "Brief core API overview",
     "content": "Every plugin has to implement the PluginInstance, which provides a list of Extension instances. The built-in extension interfaces related to query handling are: . | TriggerQueryHandler | GlobalQueryHandler | FallbackHandler | . All query handlers provide instances of the Item interface, which contains several methods related to the user interface, most notably the Action factory. In addition to the core API, utilities facilitate plugin development and help developers to provide users with a streamlined search experience. | util::StandardItem Value-based Item implementation. | util::Matcher Utility for configurable string matching. | util::IndexQueryHandler Index-based GlobalQueryHandler implementation. | . Next, read the section of your prefered API, build something cool and share it. ",
     "url": "/gettingstarted/extension/#brief-core-api-overview",
     
     "relUrl": "/gettingstarted/extension/#brief-core-api-overview"
-  },"42": {
+  },"43": {
     "doc": "Extension",
     "title": "Extension",
     "content": " ",
     "url": "/gettingstarted/extension/",
     
     "relUrl": "/gettingstarted/extension/"
-  },"43": {
+  },"44": {
     "doc": "Getting started",
     "title": "Getting started",
     "content": " ",
     "url": "/gettingstarted/",
     
     "relUrl": "/gettingstarted/"
-  },"44": {
+  },"45": {
     "doc": "Home",
     "title": "Focus on the essence.",
     "content": "Albert is a lightning-fast, plugin-based keyboard launcher. Get started View on GitHub Donate 💛 ",
     "url": "/#focus-on-the-essence",
     
     "relUrl": "/#focus-on-the-essence"
-  },"45": {
+  },"46": {
     "doc": "Home",
     "title": "Home",
     "content": " ",
     "url": "/",
     
     "relUrl": "/"
-  },"46": {
+  },"47": {
     "doc": "Linux",
     "title": "Linux",
     "content": "Base packages for Arch, Debian, Fedora, openSUSE, Raspbian and Ubuntu are built and hosted at Open Build Service. Installation instructions for each distribution can be found under “Add repository and install manually” in the OBS software center. This is the recommended way, because you will not get updates if you “Grab binary packages directly” instead. Visit OBS software center . Several other distributions are supported when used with the correct package base: . | Package base | Distribution | . | Ubuntu 24.04 | Elementary OS 8Linux Mint 22PopOS! 24.04 | . | Ubuntu 22.04 | Elementary OS 7Linux Mint 21PopOS! 22.04 | . | Debian 12.0 | Linux Mint DE 6 | . | Arch Linux | CachyOSEndeavourOSGarudaManjaro | . ",
     "url": "/gettingstarted/installation/linux/",
     
     "relUrl": "/gettingstarted/installation/linux/"
-  },"47": {
+  },"48": {
     "doc": "Linux",
     "title": "Unofficial packages",
     "content": ". | ArchLinux AUR | Gentoo | nixOS | . ",
     "url": "/gettingstarted/installation/linux/#unofficial-packages",
     
     "relUrl": "/gettingstarted/installation/linux/#unofficial-packages"
-  },"48": {
+  },"49": {
     "doc": "macOS",
     "title": "macOS",
     "content": "Albert is available via homebrew tap. The package is built and hosted on GitHub. The homebrew tap provides a cask for Albert. To install Albert via homebrew run the following commands: . brew tap albertlauncher/albert brew update brew install albert . brew update and brew upgrade will keep the app up to date. Note that the packaged app is not signed. Read the caveats section of brew install. For convenience the cask creates an ad-hoc signature and disables Gatekeeper for the app. See the postflight section of the cask. The provided bundle is not self-contained and uses dependencies provided by homebrew. This allows using shared memory and reduces the actual private memory consumption to a negliable amount. ",
     "url": "/gettingstarted/installation/macos/",
     
     "relUrl": "/gettingstarted/installation/macos/"
-  },"49": {
+  },"50": {
     "doc": "News",
     "title": "News",
     "content": ". | 21 August 2025 Albert v0.32.1 released | 16 August 2025 Albert v0.32.0 released | 29 July 2025 Albert v0.31.1 released | 28 July 2025 Albert v0.31.0 released | 12 July 2025 Albert v0.30.1 released | 30 June 2025 Albert v0.30.0 released | 27 June 2025 Albert v0.29.4 released | 26 June 2025 Albert v0.29.3 released | 25 June 2025 Albert v0.29.2 released | 24 June 2025 Albert v0.29.1 released | 24 June 2025 Albert v0.29.0 released | 20 June 2025 Albert v0.28.2 released | 19 June 2025 Albert v0.28.1 released | 30 May 2025 Albert v0.28.0 released | 06 April 2025 Albert v0.27.8 released | 02 April 2025 Albert v0.27.7 released | 02 April 2025 Albert v0.27.6 released | 06 March 2025 Albert v0.27.5 released | 05 March 2025 Albert v0.27.4 released | 28 February 2025 Albert v0.27.3 released | 28 February 2025 Albert v0.27.2 released | 27 February 2025 Albert v0.27.1 released | 27 February 2025 Albert v0.27.0 released | 06 January 2025 Albert v0.26.13 released | 06 January 2025 Albert v0.26.12 released | 30 December 2024 Albert v0.26.11 released | 06 December 2024 Albert v0.26.10 released | 02 December 2024 Albert v0.26.9 released | 18 November 2024 Albert v0.26.8 released | 08 November 2024 Albert Homebrew Tap | 07 November 2024 Albert v0.26.7 released | 22 October 2024 Albert v0.26.6 released | 16 October 2024 Albert v0.26.5 released | 24 September 2024 Albert v0.26.4 released | 07 September 2024 Albert v0.26.3 released | 21 August 2024 Albert v0.26.2 released | 20 August 2024 Albert v0.26.1 released | 16 August 2024 Albert v0.26.0 released | 02 August 2024 Albert v0.25.0 released | 09 July 2024 Albert v0.24.3 released | 02 July 2024 Albert v0.24.2 released | 28 June 2024 Albert v0.24.1 released | 28 June 2024 Albert v0.24.0 released | 02 May 2024 GPG error: Signatures invalid: EXPKEYSIG | 03 March 2024 Albert v0.23.0 released | 26 November 2023 Albert v0.22.17 released | 18 November 2023 Albert v0.22.16 released | 08 November 2023 Albert v0.22.15 released | 06 October 2023 Albert v0.22.14 released | 05 October 2023 Albert v0.22.13 released | 03 October 2023 Albert v0.22.12 released | 03 October 2023 Albert v0.22.11 released | 03 October 2023 Albert v0.22.10 released | 28 September 2023 Albert v0.22.9 released | 28 September 2023 Albert v0.22.8 released | 27 September 2023 Albert v0.22.7 released | 26 September 2023 Albert v0.22.6 released | 22 September 2023 Albert v0.22.5 released | 30 August 2023 Albert v0.22.4 released | 17 August 2023 Albert v0.22.3 released | 14 August 2023 Albert v0.22.2 released | 14 August 2023 Albert v0.22.1 released | 12 August 2023 Albert v0.22.0 released | 27 June 2023 Albert v0.21.1 released | 23 June 2023 Albert v0.21.0 released | 19 June 2023 Prebuilt master branch packages available | 01 May 2023 Albert v0.20.14 released | 30 March 2023 Albert v0.20.13 released | 29 March 2023 Albert v0.20.12 released | 27 March 2023 Albert v0.20.11 released | 20 March 2023 Albert v0.20.10 released | 13 March 2023 Albert v0.20.9 released | 11 February 2023 Albert v0.20.8 released | 10 February 2023 Albert v0.20.7 released | 08 February 2023 Albert v0.20.6 released | 01 February 2023 Albert v0.20.5 released | 31 January 2023 Albert v0.20.4 released | 27 January 2023 Albert v0.20.3 released | 25 January 2023 Albert v0.20.2 released | 25 January 2023 Albert v0.20.1 released | 24 January 2023 Albert v0.20.0 released | 22 January 2023 Albert v0.19.4 released | 22 January 2023 Albert v0.19.3 released | 18 January 2023 Albert v0.19.2 released | 18 January 2023 Albert v0.19.1 released | 18 January 2023 Albert v0.19.0 released | 13 January 2023 Albert v0.18.13 released | 13 January 2023 Albert v0.18.12 released | 11 January 2023 Albert v0.18.11 released | 09 January 2023 Albert v0.18.10 released | 07 January 2023 Albert v0.18.9 released | 07 January 2023 Albert v0.18.8 released | 05 January 2023 Albert v0.18.7 released | 05 January 2023 Albert v0.18.6 released | 04 January 2023 Albert v0.18.5 released | 03 January 2023 Albert v0.18.4 released | 02 January 2023 Albert v0.18.3 released | 02 January 2023 Albert v0.18.2 released | 01 January 2023 Albert v0.18.1 released | 31 December 2022 Albert v0.18.0 released | 04 October 2022 Albert v0.17.4 released | 05 July 2022 Albert v0.17.3 released | 24 December 2020 Albert v0.17.2 released | 21 December 2020 Albert v0.17.1 released | 17 December 2020 Albert v0.17.0 released | 10 December 2020 Albert v0.16.4 released | 03 December 2020 Albert v0.16.3 released | 25 November 2020 Albert v0.16.2 released | 31 December 2018 Albert v0.16.1 released | 28 December 2018 Albert v0.16.0 released | 16 December 2018 Albert v0.15.0 released | 21 September 2018 Albert v0.14.22 released | 08 June 2018 Albert v0.14.21 released | 04 June 2018 Albert v0.14.20 released | 15 May 2018 Albert v0.14.19 released | 23 March 2018 Albert v0.14.18 released | 23 March 2018 Albert v0.14.17 released | 09 March 2018 Albert v0.14.16 released | 26 January 2018 Albert v0.14.15 released | 06 December 2017 Albert v0.14.14 released | 25 November 2017 Albert v0.14.13 released | 23 November 2017 Albert v0.14.12 released | 18 November 2017 Albert v0.14.11 released | 16 November 2017 Albert v0.14.10 released | 15 November 2017 Albert v0.14.9 released | 13 November 2017 Albert v0.14.8 released | 03 November 2017 Albert v0.14.7 released | 02 November 2017 Official repositories at openSUSE Build Service | 31 October 2017 Albert v0.14.6 released | 30 October 2017 Albert v0.14.5 released | 25 October 2017 Albert v0.14.4 released | 21 October 2017 Albert v0.14.3 released | 20 October 2017 Albert v0.14.2 released | 19 October 2017 Albert v0.14.1 released | 18 October 2017 Albert v0.14.0 released | 30 September 2017 Albert v0.13.1 released | 28 September 2017 Albert v0.13.0 released | 09 June 2017 Albert v0.12.0 released | 28 May 2017 Albert v0.11.3 released | 13 May 2017 Albert v0.11.2 released | 16 April 2017 Albert v0.11.1 released | 15 April 2017 Albert v0.11.0 released | 14 April 2017 Albert v0.10.4 released | 02 April 2017 Albert v0.10.3 released | 24 March 2017 Albert v0.10.2 released | 20 March 2017 Albert v0.10.1 released | 19 March 2017 Albert v0.10 released | 13 March 2017 Albert v0.9.5 released | 01 March 2017 Albert v0.9.4 released | 05 February 2017 Albert v0.9.3 released | 30 January 2017 Albert v0.9.2 released | 23 January 2017 Albert v0.9.1 released | 17 January 2017 Albert v0.9 released | 11 January 2017 Repository moved to organization page | 09 January 2017 Albert finally has a website | . Be up to date with the RSS feed . ",
     "url": "/news/",
     
     "relUrl": "/news/"
-  },"50": {
+  },"51": {
     "doc": "Plugins",
     "title": "Plugins",
     "content": ". | . ",
     "url": "/plugins/",
     
     "relUrl": "/plugins/"
-  },"51": {
+  },"52": {
     "doc": "Albert Privacy Notice",
     "title": "Albert Privacy Notice",
     "content": "Version 1.0-beta, last updated: 24 April, 2025 . tl;dr . | No personal data is collected. | No profiling, tracking, or commercial use takes place. | No data shared with third parties. | All data serves the purpose of improving the app. | . Who is responsible? . This application (“Albert”) is developed and maintained by Manuel Schneider (@manuelschneid3r). For inquiries, post an issue on Github. What data is processed? . When the app sends a report, the following data is processed: . | Hashed device ID (Pseudonym) | Local time (To properly map a report to a “human date”) | . Depending on the users choice to send telemetry data, the following data is processed: . | Country code (derived from the IP address, the IP address itself is not stored) | App and Qt version | Operation system type and version | Platform type (macOS, Wayland, etc.) | Enabled plugins | Activated extensions | . Why is this data used? . Basic data is used exclusively for: . | Computing aggregated users counts. | . Optional data is used exclusively for: . | Understanding the distribution of releases. | Triaging issues. | Prioritizing plugin development efforts. | Prioritizing localization efforts. | Determine when to increase the minimum required versions of dependencies. | . Legal basis . Processing is based on legitimate interest under Article 6(1)(f) GDPR. Retention period . 180 days. ",
     "url": "/privacy/",
     
     "relUrl": "/privacy/"
-  },"52": {
+  },"53": {
     "doc": "Python",
     "title": "Extending Albert using Python",
     "content": "This page focuses on the practical aspects of extending Albert using Python and its peculiarities. To get an overview of the API refer to the general extension section. ",
     "url": "/gettingstarted/extension/python/#extending-albert-using-python",
     
     "relUrl": "/gettingstarted/extension/python/#extending-albert-using-python"
-  },"53": {
+  },"54": {
     "doc": "Python",
     "title": "Writing Python plugins",
     "content": "An Albert Python plugin is a Python module having an interface defined in the Albert stub file. At runtime the stub file is written to your user Python plugin directory, where it serves as inline documentation and coding assistance in your IDE while development. A minimal trigger query handler plugin: . from albert import * md_iid = '3.0' md_version = '1.0' md_name = 'My plugin' md_description = 'Does things' class Plugin(PluginInstance, TriggerQueryHandler): def __init__(self): PluginInstance.__init__(self) TriggerQueryHandler.__init__(self) def handleTriggerQuery(self, query): # query.add(StandardItem(…)) . Next, skim through the Python stub file. For reference see the official plugins. In case of questions see the C++ API. ",
     "url": "/gettingstarted/extension/python/#writing-python-plugins",
     
     "relUrl": "/gettingstarted/extension/python/#writing-python-plugins"
-  },"54": {
+  },"55": {
     "doc": "Python",
     "title": "Plugin directories",
     "content": "Python plugin directories are the directories at python/plugins relative to the app data directories. | xdg: . | ~/.local/share/albert/python/plugins | /usr/local/share/albert/python/plugins | /usr/share/albert/python/plugins | . | macOS: . | ~/Library/Application Support/Albert/python/plugins | /Library/Application Support/Albert/python/plugins | $BUNDLE_PATH/Contents/PlugIns/python/plugins | . | . ",
     "url": "/gettingstarted/extension/python/#plugin-directories",
     
     "relUrl": "/gettingstarted/extension/python/#plugin-directories"
-  },"55": {
+  },"56": {
     "doc": "Python",
     "title": "Technical notes and limitations",
     "content": ". | Due to the different type systems, multiple virtual inheritance of extension interfaces is not supported. However, multiple extensions can be added by reimplementing albert.PluginInstance.extensions(). | Python plugin execution is subject to the Python Global Interpreter Lock (GIL). This means that only one thread can execute Python code at a time. This can become a problem for parallelization of queries or multithreaded global queries. Long running handlers will introduce noticeable lags. Do not block execution in your query handlers, especially not in handleGlobalQuery. If you can, use IndexQueryHandler instead, which performs the handling in C++ space. | PyBind11 method resolution does not support mixin behavior. Usually this should not be much of a problem, but there is one prevalent use case: Reusing id, name and description of the PluginInstance class for your Extension. For the sake of minimal boilerplate the mixin behavior is emulated for these methods. I.e. if you inherit PluginInstance and any Extension, you do not have to reimplement these methods. | . ",
     "url": "/gettingstarted/extension/python/#technical-notes-and-limitations",
     
     "relUrl": "/gettingstarted/extension/python/#technical-notes-and-limitations"
-  },"56": {
+  },"57": {
     "doc": "Python",
     "title": "Python",
     "content": " ",
     "url": "/gettingstarted/extension/python/",
     
     "relUrl": "/gettingstarted/extension/python/"
-  },"57": {
+  },"58": {
     "doc": "From source",
     "title": "From source",
     "content": "Building and installing from sources is the least convenient, but most flexible way. This way is usually for developers only. The build process is trivial, but you have to manage the dependencies on your own. See the OBS package specs for up to date build and runtime dependencies. git clone --recursive https://github.com/albertlauncher/albert.git cmake -B build -S albert -DCMAKE_INSTALL_PREFIX=/usr -DCMAKE_BUILD_TYPE=Debug cmake --build build cmake --install build . ",
