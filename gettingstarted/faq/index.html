@@ -14,11 +14,11 @@ albert <span class="nt">--platformtheme</span> gnome
 </code></pre></div></div> <h2 id="how-to-use-a-custom-apptray-icon"> <a href="#how-to-use-a-custom-apptray-icon" class="anchor-heading" aria-labelledby="how-to-use-a-custom-apptray-icon"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> How to use a custom app/tray icon? </h2> <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">mkdir</span> <span class="nt">-p</span> <span class="s2">"~/.local/share/icons/hicolor/scalable/apps/"</span>
 
 <span class="c"># Overwrite the default app icon</span>
-<span class="nb">cp</span> &lt;your-icon&gt;.svg <span class="s2">"~/.local/share/icons/hicolor/scalable/apps/albert.svg
+<span class="nb">cp</span> &lt;your-icon&gt;.svg <span class="s2">"~/.local/share/icons/hicolor/scalable/apps/albert.svg"</span>
 
-# Overwrite the default tray icon
-cp &lt;your-icon&gt;.svg "</span>~/.local/share/icons/hicolor/scalable/apps/albert-tray.svg<span class="s2">"
-</span></code></pre></div></div> <h2 id="how-to-get-debug-logs"> <a href="#how-to-get-debug-logs" class="anchor-heading" aria-labelledby="how-to-get-debug-logs"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> How to get debug logs? </h2> <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># Enable _all_ albert logs</span>
+<span class="c"># Overwrite the default tray icon</span>
+<span class="nb">cp</span> &lt;your-icon&gt;.svg <span class="s2">"~/.local/share/icons/hicolor/scalable/apps/albert-tray.svg"</span>
+</code></pre></div></div> <h2 id="how-to-get-debug-logs"> <a href="#how-to-get-debug-logs" class="anchor-heading" aria-labelledby="how-to-get-debug-logs"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> How to get debug logs? </h2> <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># Enable _all_ albert logs</span>
 <span class="nv">QT_LOGGING_RULES</span><span class="o">=</span><span class="s1">'albert*=true'</span> albert
 
 <span class="c"># Enable all albert logs of a particular plugin</span>

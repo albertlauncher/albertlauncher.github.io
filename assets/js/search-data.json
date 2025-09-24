@@ -183,7 +183,7 @@
   },"26": {
     "doc": "FAQ",
     "title": "How to use a custom app/tray icon?",
-    "content": "mkdir -p \"~/.local/share/icons/hicolor/scalable/apps/\" # Overwrite the default app icon cp &lt;your-icon&gt;.svg \"~/.local/share/icons/hicolor/scalable/apps/albert.svg # Overwrite the default tray icon cp &lt;your-icon&gt;.svg \"~/.local/share/icons/hicolor/scalable/apps/albert-tray.svg\" . ",
+    "content": "mkdir -p \"~/.local/share/icons/hicolor/scalable/apps/\" # Overwrite the default app icon cp &lt;your-icon&gt;.svg \"~/.local/share/icons/hicolor/scalable/apps/albert.svg\" # Overwrite the default tray icon cp &lt;your-icon&gt;.svg \"~/.local/share/icons/hicolor/scalable/apps/albert-tray.svg\" . ",
     "url": "/gettingstarted/faq/#how-to-use-a-custom-apptray-icon",
     
     "relUrl": "/gettingstarted/faq/#how-to-use-a-custom-apptray-icon"
