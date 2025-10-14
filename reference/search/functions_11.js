@@ -9,6 +9,7 @@ var searchData=
   ['tokenurl_6',['tokenUrl',['../classalbert_1_1util_1_1OAuth2.html#a2cb4c0b3a2e34ce6e4699d8c8795c76d',1,'albert::util::OAuth2']]],
   ['tokenurlchanged_7',['tokenUrlChanged',['../classalbert_1_1util_1_1OAuth2.html#ad99be5c2f81becadd9261be57f2bb814',1,'albert::util::OAuth2']]],
   ['toqstring_8',['toQString',['../namespacealbert_1_1util.html#a3ecb8fdac2f680261fba23b044943e8b',1,'albert::util']]],
-  ['trigger_9',['trigger',['../classalbert_1_1Query.html#a9a6cf0301a8fbae3cbb9cb77c7be3454',1,'albert::Query']]],
-  ['trycreatedirectory_10',['tryCreateDirectory',['../namespacealbert_1_1util.html#abcee75bbe9f068b924a3b8c2f3a9b8bd',1,'albert::util']]]
+  ['tourl_9',['toUrl',['../classalbert_1_1Icon.html#a54ce37829dd9a05ced0e5e8ae429b6e2',1,'albert::Icon']]],
+  ['trigger_10',['trigger',['../classalbert_1_1Query.html#a9a6cf0301a8fbae3cbb9cb77c7be3454',1,'albert::Query']]],
+  ['trycreatedirectory_11',['tryCreateDirectory',['../namespacealbert_1_1util.html#abcee75bbe9f068b924a3b8c2f3a9b8bd',1,'albert::util']]]
 ];

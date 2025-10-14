@@ -31,6 +31,7 @@ var annotated_dup =
       [ "ExtensionRegistry", "classalbert_1_1ExtensionRegistry.html", "classalbert_1_1ExtensionRegistry" ],
       [ "FallbackHandler", "classalbert_1_1FallbackHandler.html", "classalbert_1_1FallbackHandler" ],
       [ "GlobalQueryHandler", "classalbert_1_1GlobalQueryHandler.html", "classalbert_1_1GlobalQueryHandler" ],
+      [ "Icon", "classalbert_1_1Icon.html", "classalbert_1_1Icon" ],
       [ "Item", "classalbert_1_1Item.html", "classalbert_1_1Item" ],
       [ "PluginInstance", "classalbert_1_1PluginInstance.html", "classalbert_1_1PluginInstance" ],
       [ "PluginLoader", "classalbert_1_1PluginLoader.html", "classalbert_1_1PluginLoader" ],

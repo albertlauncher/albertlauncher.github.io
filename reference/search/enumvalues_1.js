@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['frontend_0',['Frontend',['../classalbert_1_1PluginMetadata.html#a430d528ce1f7c9602941815f30ed3ff7ad97ba66b283564339628b71975a6e68d',1,'albert::PluginMetadata']]]
+  ['browserreload_0',['BrowserReload',['../namespacealbert.html#a65152af1dfff0f5d1a1b11bb305829ada06fc3277ad62989f43817af10bb10e12',1,'albert']]],
+  ['browserstop_1',['BrowserStop',['../namespacealbert.html#a65152af1dfff0f5d1a1b11bb305829adadbe396c6a01c75a7c8ac9a696d0b492c',1,'albert']]]
 ];

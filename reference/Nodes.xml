@@ -258,41 +258,6 @@
                  </Node>
                 </Subnodes>
                </Node>
-               <Node>
-                <Name>fileIcon</Name>
-                <Path>namespacealbert_1_1detail.html</Path>
-                <Anchor>ae1984e30a529c8c436195a0ed3ec525d</Anchor>
-               </Node>
-               <Node>
-                <Name>genericIcon</Name>
-                <Path>namespacealbert_1_1detail.html</Path>
-                <Anchor>a07f1b551718f8e7be2f5974219c96e3f</Anchor>
-               </Node>
-               <Node>
-                <Name>genericPixmap</Name>
-                <Path>namespacealbert_1_1detail.html</Path>
-                <Anchor>a5fd9f85a1c27697a1294e0326f4bdee3</Anchor>
-               </Node>
-               <Node>
-                <Name>iconFromUrl</Name>
-                <Path>namespacealbert_1_1detail.html</Path>
-                <Anchor>ad4261f15028c9c6414f974413ec1ae32</Anchor>
-               </Node>
-               <Node>
-                <Name>iconFromUrls</Name>
-                <Path>namespacealbert_1_1detail.html</Path>
-                <Anchor>a9316fa929748922feda9b358e913b1e7</Anchor>
-               </Node>
-               <Node>
-                <Name>pixmapFromUrl</Name>
-                <Path>namespacealbert_1_1detail.html</Path>
-                <Anchor>a716d7dbb9b2d69177a1d25de20876e5c</Anchor>
-               </Node>
-               <Node>
-                <Name>pixmapFromUrls</Name>
-                <Path>namespacealbert_1_1detail.html</Path>
-                <Anchor>af7c9d3fa079b53b69d6dd268c1fa19fa</Anchor>
-               </Node>
               </Subnodes>
              </Node>
              <Node>
@@ -884,7 +849,7 @@
                  <Node>
                   <Name>StandardItem</Name>
                   <Path>classalbert_1_1util_1_1StandardItem.html</Path>
-                  <Anchor>af3b6692eaf865147879b19f9ac224da9</Anchor>
+                  <Anchor>aee806a5e91bef919cddd1abe2d8d3c4b</Anchor>
                  </Node>
                  <Node>
                   <Name>StandardItem</Name>
@@ -897,14 +862,24 @@
                   <Anchor>a7270cf43649bc8b6512f5616f8ed0576</Anchor>
                  </Node>
                  <Node>
+                  <Name>~StandardItem</Name>
+                  <Path>classalbert_1_1util_1_1StandardItem.html</Path>
+                  <Anchor>a8d7877523a472d9ea4c5d1143b7ef924</Anchor>
+                 </Node>
+                 <Node>
                   <Name>actions</Name>
                   <Path>classalbert_1_1util_1_1StandardItem.html</Path>
                   <Anchor>a77c096bace167b6ff80249cd4d58664b</Anchor>
                  </Node>
                  <Node>
-                  <Name>iconUrls</Name>
+                  <Name>icon</Name>
                   <Path>classalbert_1_1util_1_1StandardItem.html</Path>
-                  <Anchor>a82022674d66fa5876ad121d7f9fe8976</Anchor>
+                  <Anchor>adb55cc4c0da28a03ccd3e502f03f8fb6</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>iconFactory</Name>
+                  <Path>classalbert_1_1util_1_1StandardItem.html</Path>
+                  <Anchor>a355c90c83cba47b309e9af6e8dc506bb</Anchor>
                  </Node>
                  <Node>
                   <Name>id</Name>
@@ -932,9 +907,9 @@
                   <Anchor>a05de714fd0198c525d0692e2dcc9aa3a</Anchor>
                  </Node>
                  <Node>
-                  <Name>setIconUrls</Name>
+                  <Name>setIconFactory</Name>
                   <Path>classalbert_1_1util_1_1StandardItem.html</Path>
-                  <Anchor>a9e8c8ccbd13d9d85e83634969c003844</Anchor>
+                  <Anchor>a0a37b063d4f4a75c37c17bdad519812c</Anchor>
                  </Node>
                  <Node>
                   <Name>setId</Name>
@@ -972,9 +947,9 @@
                   <Anchor>a383aa407f4b62b78544b83972184f6fd</Anchor>
                  </Node>
                  <Node>
-                  <Name>icon_urls_</Name>
+                  <Name>icon_factory_</Name>
                   <Path>classalbert_1_1util_1_1StandardItem.html</Path>
-                  <Anchor>a6fade63760127e56e5d69e95878eed5e</Anchor>
+                  <Anchor>a58cccc4f85ddfc1df6bdf59853530140</Anchor>
                  </Node>
                  <Node>
                   <Name>id_</Name>
@@ -1119,6 +1094,16 @@
                 <Name>openUrl</Name>
                 <Path>namespacealbert_1_1util.html</Path>
                 <Anchor>aa7dfede720bb3bdfb4e3cdff4cad4e46</Anchor>
+               </Node>
+               <Node>
+                <Name>percentDecoded</Name>
+                <Path>namespacealbert_1_1util.html</Path>
+                <Anchor>a0c2accf65a91c2ba4f964de52e1dc15e</Anchor>
+               </Node>
+               <Node>
+                <Name>percentEncoded</Name>
+                <Path>namespacealbert_1_1util.html</Path>
+                <Anchor>aae00ab73828b9292933e85437271657a</Anchor>
                </Node>
                <Node>
                 <Name>question</Name>
@@ -1303,6 +1288,52 @@
               </Subnodes>
              </Node>
              <Node>
+              <Name>Icon</Name>
+              <Path>classalbert_1_1Icon.html</Path>
+            <Subnodes>
+               <Node>
+                <Name>~Icon</Name>
+                <Path>classalbert_1_1Icon.html</Path>
+                <Anchor>a818902ac617ccc26ef6e73e555352125</Anchor>
+               </Node>
+               <Node>
+                <Name>actualSize</Name>
+                <Path>classalbert_1_1Icon.html</Path>
+                <Anchor>a6ddb6b2ac88023d22889f5b9406eafd6</Anchor>
+               </Node>
+               <Node>
+                <Name>cacheKey</Name>
+                <Path>classalbert_1_1Icon.html</Path>
+                <Anchor>a4d6e8a4dc0f6059fb629ec608dd906c8</Anchor>
+               </Node>
+               <Node>
+                <Name>clone</Name>
+                <Path>classalbert_1_1Icon.html</Path>
+                <Anchor>a58c779282edf5dac20e0889f717314d8</Anchor>
+               </Node>
+               <Node>
+                <Name>isNull</Name>
+                <Path>classalbert_1_1Icon.html</Path>
+                <Anchor>ac0dc834d49025ae707d935ce6439beea</Anchor>
+               </Node>
+               <Node>
+                <Name>paint</Name>
+                <Path>classalbert_1_1Icon.html</Path>
+                <Anchor>a299d8e3841cd0e4ee94abba92367a497</Anchor>
+               </Node>
+               <Node>
+                <Name>pixmap</Name>
+                <Path>classalbert_1_1Icon.html</Path>
+                <Anchor>a3046051e43ea6924f0df20548182f319</Anchor>
+               </Node>
+               <Node>
+                <Name>toUrl</Name>
+                <Path>classalbert_1_1Icon.html</Path>
+                <Anchor>a54ce37829dd9a05ced0e5e8ae429b6e2</Anchor>
+               </Node>
+              </Subnodes>
+             </Node>
+             <Node>
               <Name>Item</Name>
               <Path>classalbert_1_1Item.html</Path>
             <Subnodes>
@@ -1338,9 +1369,9 @@
                 <Anchor>ae7aa8d38726094aaac853c96d5d066b2</Anchor>
                </Node>
                <Node>
-                <Name>iconUrls</Name>
+                <Name>icon</Name>
                 <Path>classalbert_1_1Item.html</Path>
-                <Anchor>af24bba87910db269e79df47622e1bdd5</Anchor>
+                <Anchor>a182e6af95bdf2350a41d1be0719593b6</Anchor>
                </Node>
                <Node>
                 <Name>id</Name>
@@ -1421,7 +1452,7 @@
                <Node>
                 <Name>readKeychain</Name>
                 <Path>classalbert_1_1PluginInstance.html</Path>
-                <Anchor>ac9051b125051feb0833d2f30bd917506</Anchor>
+                <Anchor>ae407d151635db0e6fd2ed5d059ff37ae</Anchor>
                </Node>
                <Node>
                 <Name>settings</Name>
@@ -1436,7 +1467,7 @@
                <Node>
                 <Name>writeKeychain</Name>
                 <Path>classalbert_1_1PluginInstance.html</Path>
-                <Anchor>a7e23a9b754d0c725e5897cd9d6d98ee9</Anchor>
+                <Anchor>a776acef7203c9a02c00f9b97737a8acb</Anchor>
                </Node>
               </Subnodes>
              </Node>
@@ -1779,7 +1810,7 @@
                <Node>
                 <Name>handleTriggerQuery</Name>
                 <Path>classalbert_1_1TriggerQueryHandler.html</Path>
-                <Anchor>a14e770979eb2456826cf954d80b86a36</Anchor>
+                <Anchor>a075ae1f685990887694234312ed81b85</Anchor>
                </Node>
                <Node>
                 <Name>setFuzzyMatching</Name>
@@ -1789,7 +1820,7 @@
                <Node>
                 <Name>setTrigger</Name>
                 <Path>classalbert_1_1TriggerQueryHandler.html</Path>
-                <Anchor>ae04d3a2e067b6d0e3e151d4a6f880afc</Anchor>
+                <Anchor>af15759ea57315499784db88b88166bb2</Anchor>
                </Node>
                <Node>
                 <Name>supportsFuzzyMatching</Name>
@@ -1820,9 +1851,426 @@
               </Subnodes>
              </Node>
              <Node>
+              <Name>StandardIconType</Name>
+              <Path>namespacealbert.html</Path>
+              <Anchor>a65152af1dfff0f5d1a1b11bb305829ad</Anchor>
+            <Subnodes>
+               <Node>
+                <Name>TitleBarMenuButton</Name>
+                <Path>namespacealbert.html</Path>
+                <Anchor>a65152af1dfff0f5d1a1b11bb305829adabd601c1e89ff7b3de08fca42ea141125</Anchor>
+               </Node>
+               <Node>
+                <Name>TitleBarMinButton</Name>
+                <Path>namespacealbert.html</Path>
+                <Anchor>a65152af1dfff0f5d1a1b11bb305829ada7cbf19d68f59adae60be87a1b2a67117</Anchor>
+               </Node>
+               <Node>
+                <Name>TitleBarMaxButton</Name>
+                <Path>namespacealbert.html</Path>
+                <Anchor>a65152af1dfff0f5d1a1b11bb305829adafe889ef4dac9fe43364193fbd373ca27</Anchor>
+               </Node>
+               <Node>
+                <Name>TitleBarCloseButton</Name>
+                <Path>namespacealbert.html</Path>
+                <Anchor>a65152af1dfff0f5d1a1b11bb305829ada06b79b50a41d27f53ac2608ccc46858e</Anchor>
+               </Node>
+               <Node>
+                <Name>TitleBarNormalButton</Name>
+                <Path>namespacealbert.html</Path>
+                <Anchor>a65152af1dfff0f5d1a1b11bb305829adab1ee53b966dcbce1ae33830750b5027a</Anchor>
+               </Node>
+               <Node>
+                <Name>TitleBarShadeButton</Name>
+                <Path>namespacealbert.html</Path>
+                <Anchor>a65152af1dfff0f5d1a1b11bb305829ada32be9668ed3bf474edad51c7fd052b41</Anchor>
+               </Node>
+               <Node>
+                <Name>TitleBarUnshadeButton</Name>
+                <Path>namespacealbert.html</Path>
+                <Anchor>a65152af1dfff0f5d1a1b11bb305829adab464ce9566f7401528ad69dca605445e</Anchor>
+               </Node>
+               <Node>
+                <Name>TitleBarContextHelpButton</Name>
+                <Path>namespacealbert.html</Path>
+                <Anchor>a65152af1dfff0f5d1a1b11bb305829ada0023409be27b9881842b0f52b6bb4ca1</Anchor>
+               </Node>
+               <Node>
+                <Name>DockWidgetCloseButton</Name>
+                <Path>namespacealbert.html</Path>
+                <Anchor>a65152af1dfff0f5d1a1b11bb305829adab96b8de7387cad883bc49a35596e308b</Anchor>
+               </Node>
+               <Node>
+                <Name>MessageBoxInformation</Name>
+                <Path>namespacealbert.html</Path>
+                <Anchor>a65152af1dfff0f5d1a1b11bb305829ada380583c00b9c0aa4b0be09ef6aa6dc3c</Anchor>
+               </Node>
+               <Node>
+                <Name>MessageBoxWarning</Name>
+                <Path>namespacealbert.html</Path>
+                <Anchor>a65152af1dfff0f5d1a1b11bb305829adad9844ab7e2f181866ba481ad155cac4c</Anchor>
+               </Node>
+               <Node>
+                <Name>MessageBoxCritical</Name>
+                <Path>namespacealbert.html</Path>
+                <Anchor>a65152af1dfff0f5d1a1b11bb305829adabe181785e3051945579a65e9961af235</Anchor>
+               </Node>
+               <Node>
+                <Name>MessageBoxQuestion</Name>
+                <Path>namespacealbert.html</Path>
+                <Anchor>a65152af1dfff0f5d1a1b11bb305829adaa3b7a3774a302e8ef9553dd53b8c6ff2</Anchor>
+               </Node>
+               <Node>
+                <Name>DesktopIcon</Name>
+                <Path>namespacealbert.html</Path>
+                <Anchor>a65152af1dfff0f5d1a1b11bb305829ada415d5420090da2a6021e1f743a3d8921</Anchor>
+               </Node>
+               <Node>
+                <Name>TrashIcon</Name>
+                <Path>namespacealbert.html</Path>
+                <Anchor>a65152af1dfff0f5d1a1b11bb305829ada176048c8cd4df9e6c76890236b0747b3</Anchor>
+               </Node>
+               <Node>
+                <Name>ComputerIcon</Name>
+                <Path>namespacealbert.html</Path>
+                <Anchor>a65152af1dfff0f5d1a1b11bb305829ada0626f88f54c58f60f7d89aaefc635762</Anchor>
+               </Node>
+               <Node>
+                <Name>DriveFDIcon</Name>
+                <Path>namespacealbert.html</Path>
+                <Anchor>a65152af1dfff0f5d1a1b11bb305829ada6b2677aa095e33ecd5040c7cac112439</Anchor>
+               </Node>
+               <Node>
+                <Name>DriveHDIcon</Name>
+                <Path>namespacealbert.html</Path>
+                <Anchor>a65152af1dfff0f5d1a1b11bb305829ada3d81ff3b6dc8ad4a5d773dd14b47a108</Anchor>
+               </Node>
+               <Node>
+                <Name>DriveCDIcon</Name>
+                <Path>namespacealbert.html</Path>
+                <Anchor>a65152af1dfff0f5d1a1b11bb305829ada921426458f42e23bf3d36df99237b58a</Anchor>
+               </Node>
+               <Node>
+                <Name>DriveDVDIcon</Name>
+                <Path>namespacealbert.html</Path>
+                <Anchor>a65152af1dfff0f5d1a1b11bb305829adac2cf60f7b9e567215b0fc43052afe67e</Anchor>
+               </Node>
+               <Node>
+                <Name>DriveNetIcon</Name>
+                <Path>namespacealbert.html</Path>
+                <Anchor>a65152af1dfff0f5d1a1b11bb305829adafd153069420d94fdbf2c481776374a80</Anchor>
+               </Node>
+               <Node>
+                <Name>DirOpenIcon</Name>
+                <Path>namespacealbert.html</Path>
+                <Anchor>a65152af1dfff0f5d1a1b11bb305829ada0c86993fcddce4153b3b03ac04206e9c</Anchor>
+               </Node>
+               <Node>
+                <Name>DirClosedIcon</Name>
+                <Path>namespacealbert.html</Path>
+                <Anchor>a65152af1dfff0f5d1a1b11bb305829ada8a5d3266c27a0ff10441b057c0a11f29</Anchor>
+               </Node>
+               <Node>
+                <Name>DirLinkIcon</Name>
+                <Path>namespacealbert.html</Path>
+                <Anchor>a65152af1dfff0f5d1a1b11bb305829ada8634f080931e6519efdd5603e4475828</Anchor>
+               </Node>
+               <Node>
+                <Name>DirLinkOpenIcon</Name>
+                <Path>namespacealbert.html</Path>
+                <Anchor>a65152af1dfff0f5d1a1b11bb305829ada60c26d7d0ada651068d6f7968bcbe195</Anchor>
+               </Node>
+               <Node>
+                <Name>FileIcon</Name>
+                <Path>namespacealbert.html</Path>
+                <Anchor>a65152af1dfff0f5d1a1b11bb305829ada4e24b54600d94d5eccb3bc9c6626a07a</Anchor>
+               </Node>
+               <Node>
+                <Name>FileLinkIcon</Name>
+                <Path>namespacealbert.html</Path>
+                <Anchor>a65152af1dfff0f5d1a1b11bb305829adaf0dfe7b59f87d8ee0c229f80d3efed63</Anchor>
+               </Node>
+               <Node>
+                <Name>ToolBarHorizontalExtensionButton</Name>
+                <Path>namespacealbert.html</Path>
+                <Anchor>a65152af1dfff0f5d1a1b11bb305829ada22822bf29a4cf353eef9395ed4b1505a</Anchor>
+               </Node>
+               <Node>
+                <Name>ToolBarVerticalExtensionButton</Name>
+                <Path>namespacealbert.html</Path>
+                <Anchor>a65152af1dfff0f5d1a1b11bb305829ada5d7ca860f6ec34d2dc79e456be3df115</Anchor>
+               </Node>
+               <Node>
+                <Name>FileDialogStart</Name>
+                <Path>namespacealbert.html</Path>
+                <Anchor>a65152af1dfff0f5d1a1b11bb305829ada3b355784d21e574a2c8dae9714c90ec4</Anchor>
+               </Node>
+               <Node>
+                <Name>FileDialogEnd</Name>
+                <Path>namespacealbert.html</Path>
+                <Anchor>a65152af1dfff0f5d1a1b11bb305829ada53003f5417653d7f977b7cafaf8f6ac5</Anchor>
+               </Node>
+               <Node>
+                <Name>FileDialogToParent</Name>
+                <Path>namespacealbert.html</Path>
+                <Anchor>a65152af1dfff0f5d1a1b11bb305829adaab911a1db0bff51efd2d7671a3c3cf05</Anchor>
+               </Node>
+               <Node>
+                <Name>FileDialogNewFolder</Name>
+                <Path>namespacealbert.html</Path>
+                <Anchor>a65152af1dfff0f5d1a1b11bb305829ada54d575be431a2a8bd9668c8c5d4273f1</Anchor>
+               </Node>
+               <Node>
+                <Name>FileDialogDetailedView</Name>
+                <Path>namespacealbert.html</Path>
+                <Anchor>a65152af1dfff0f5d1a1b11bb305829ada5c7e322381d37ee52f8e55be624a2a94</Anchor>
+               </Node>
+               <Node>
+                <Name>FileDialogInfoView</Name>
+                <Path>namespacealbert.html</Path>
+                <Anchor>a65152af1dfff0f5d1a1b11bb305829adaaa4fad79a8492279d23eb8e00607d5d7</Anchor>
+               </Node>
+               <Node>
+                <Name>FileDialogContentsView</Name>
+                <Path>namespacealbert.html</Path>
+                <Anchor>a65152af1dfff0f5d1a1b11bb305829adaffdec2b3ebfe63409e5837c55bff7377</Anchor>
+               </Node>
+               <Node>
+                <Name>FileDialogListView</Name>
+                <Path>namespacealbert.html</Path>
+                <Anchor>a65152af1dfff0f5d1a1b11bb305829adaa65f48a9a2466cd1fb39ce946ef5a592</Anchor>
+               </Node>
+               <Node>
+                <Name>FileDialogBack</Name>
+                <Path>namespacealbert.html</Path>
+                <Anchor>a65152af1dfff0f5d1a1b11bb305829ada27fbae1e4048ca1faeb5445fae73a596</Anchor>
+               </Node>
+               <Node>
+                <Name>DirIcon</Name>
+                <Path>namespacealbert.html</Path>
+                <Anchor>a65152af1dfff0f5d1a1b11bb305829adafca382d93bbbd19e2ac5ca8e62da6566</Anchor>
+               </Node>
+               <Node>
+                <Name>DialogOkButton</Name>
+                <Path>namespacealbert.html</Path>
+                <Anchor>a65152af1dfff0f5d1a1b11bb305829adaac997539d14f204b2296ade70f1f5681</Anchor>
+               </Node>
+               <Node>
+                <Name>DialogCancelButton</Name>
+                <Path>namespacealbert.html</Path>
+                <Anchor>a65152af1dfff0f5d1a1b11bb305829adaca16acf43c438213aa0685348f862c32</Anchor>
+               </Node>
+               <Node>
+                <Name>DialogHelpButton</Name>
+                <Path>namespacealbert.html</Path>
+                <Anchor>a65152af1dfff0f5d1a1b11bb305829ada732b3457aaa915b2ba6adfa005d73e35</Anchor>
+               </Node>
+               <Node>
+                <Name>DialogOpenButton</Name>
+                <Path>namespacealbert.html</Path>
+                <Anchor>a65152af1dfff0f5d1a1b11bb305829ada50ff075dfe67531f7e20b8699611a534</Anchor>
+               </Node>
+               <Node>
+                <Name>DialogSaveButton</Name>
+                <Path>namespacealbert.html</Path>
+                <Anchor>a65152af1dfff0f5d1a1b11bb305829ada8c68537ffe564d3f35d326e3a4d5f292</Anchor>
+               </Node>
+               <Node>
+                <Name>DialogCloseButton</Name>
+                <Path>namespacealbert.html</Path>
+                <Anchor>a65152af1dfff0f5d1a1b11bb305829adaaf45443f97be558d2c6d397b74650bce</Anchor>
+               </Node>
+               <Node>
+                <Name>DialogApplyButton</Name>
+                <Path>namespacealbert.html</Path>
+                <Anchor>a65152af1dfff0f5d1a1b11bb305829ada0a0c8bcccab843b462957e78943f2ae0</Anchor>
+               </Node>
+               <Node>
+                <Name>DialogResetButton</Name>
+                <Path>namespacealbert.html</Path>
+                <Anchor>a65152af1dfff0f5d1a1b11bb305829adaa668ede7a5454cc0f30d6b15b2a38b7c</Anchor>
+               </Node>
+               <Node>
+                <Name>DialogDiscardButton</Name>
+                <Path>namespacealbert.html</Path>
+                <Anchor>a65152af1dfff0f5d1a1b11bb305829adae5d44d11e0a23075b20163c7a5f36cba</Anchor>
+               </Node>
+               <Node>
+                <Name>DialogYesButton</Name>
+                <Path>namespacealbert.html</Path>
+                <Anchor>a65152af1dfff0f5d1a1b11bb305829ada0a66657f300bc590539b017e026c654e</Anchor>
+               </Node>
+               <Node>
+                <Name>DialogNoButton</Name>
+                <Path>namespacealbert.html</Path>
+                <Anchor>a65152af1dfff0f5d1a1b11bb305829ada48804a7a229d0c92cdd5989c3d310b50</Anchor>
+               </Node>
+               <Node>
+                <Name>ArrowUp</Name>
+                <Path>namespacealbert.html</Path>
+                <Anchor>a65152af1dfff0f5d1a1b11bb305829ada4667f6e0e35933489b2f04d0fefe3e31</Anchor>
+               </Node>
+               <Node>
+                <Name>ArrowDown</Name>
+                <Path>namespacealbert.html</Path>
+                <Anchor>a65152af1dfff0f5d1a1b11bb305829ada4de84fc1e08372fa6ff4fed82c732d6e</Anchor>
+               </Node>
+               <Node>
+                <Name>ArrowLeft</Name>
+                <Path>namespacealbert.html</Path>
+                <Anchor>a65152af1dfff0f5d1a1b11bb305829adaeef08c31c70c23e3ca66b5268a627b5b</Anchor>
+               </Node>
+               <Node>
+                <Name>ArrowRight</Name>
+                <Path>namespacealbert.html</Path>
+                <Anchor>a65152af1dfff0f5d1a1b11bb305829ada98e798ae7d53e928ac4a3ba519de5ba6</Anchor>
+               </Node>
+               <Node>
+                <Name>ArrowBack</Name>
+                <Path>namespacealbert.html</Path>
+                <Anchor>a65152af1dfff0f5d1a1b11bb305829ada4716d868862a672778314e045e8cb85e</Anchor>
+               </Node>
+               <Node>
+                <Name>ArrowForward</Name>
+                <Path>namespacealbert.html</Path>
+                <Anchor>a65152af1dfff0f5d1a1b11bb305829adaac102a053d6b2008471acc6bb255bcfa</Anchor>
+               </Node>
+               <Node>
+                <Name>DirHomeIcon</Name>
+                <Path>namespacealbert.html</Path>
+                <Anchor>a65152af1dfff0f5d1a1b11bb305829ada8da688e5bc0831ede68a92d3b9471624</Anchor>
+               </Node>
+               <Node>
+                <Name>CommandLink</Name>
+                <Path>namespacealbert.html</Path>
+                <Anchor>a65152af1dfff0f5d1a1b11bb305829adabd4df8de1346ba00ffd32522b1cd04d7</Anchor>
+               </Node>
+               <Node>
+                <Name>VistaShield</Name>
+                <Path>namespacealbert.html</Path>
+                <Anchor>a65152af1dfff0f5d1a1b11bb305829adae54d0f86faa633095f720807fb987731</Anchor>
+               </Node>
+               <Node>
+                <Name>BrowserReload</Name>
+                <Path>namespacealbert.html</Path>
+                <Anchor>a65152af1dfff0f5d1a1b11bb305829ada06fc3277ad62989f43817af10bb10e12</Anchor>
+               </Node>
+               <Node>
+                <Name>BrowserStop</Name>
+                <Path>namespacealbert.html</Path>
+                <Anchor>a65152af1dfff0f5d1a1b11bb305829adadbe396c6a01c75a7c8ac9a696d0b492c</Anchor>
+               </Node>
+               <Node>
+                <Name>MediaPlay</Name>
+                <Path>namespacealbert.html</Path>
+                <Anchor>a65152af1dfff0f5d1a1b11bb305829ada8c85929acf44250d8fd9531426d34744</Anchor>
+               </Node>
+               <Node>
+                <Name>MediaStop</Name>
+                <Path>namespacealbert.html</Path>
+                <Anchor>a65152af1dfff0f5d1a1b11bb305829adae7480dd651271a0e8b97ea8b3e23efb0</Anchor>
+               </Node>
+               <Node>
+                <Name>MediaPause</Name>
+                <Path>namespacealbert.html</Path>
+                <Anchor>a65152af1dfff0f5d1a1b11bb305829adae6e526dbf30f3b0a684eb6fef8b365a4</Anchor>
+               </Node>
+               <Node>
+                <Name>MediaSkipForward</Name>
+                <Path>namespacealbert.html</Path>
+                <Anchor>a65152af1dfff0f5d1a1b11bb305829ada5be19b73a32896dcc05cbbc32011c6a7</Anchor>
+               </Node>
+               <Node>
+                <Name>MediaSkipBackward</Name>
+                <Path>namespacealbert.html</Path>
+                <Anchor>a65152af1dfff0f5d1a1b11bb305829ada9f1f0cea2eedf1e942f336aeee2c2750</Anchor>
+               </Node>
+               <Node>
+                <Name>MediaSeekForward</Name>
+                <Path>namespacealbert.html</Path>
+                <Anchor>a65152af1dfff0f5d1a1b11bb305829adaf08c17e7c1a32e29418b2dacadd8ecde</Anchor>
+               </Node>
+               <Node>
+                <Name>MediaSeekBackward</Name>
+                <Path>namespacealbert.html</Path>
+                <Anchor>a65152af1dfff0f5d1a1b11bb305829ada75373d0100041378acf09e52e2095563</Anchor>
+               </Node>
+               <Node>
+                <Name>MediaVolume</Name>
+                <Path>namespacealbert.html</Path>
+                <Anchor>a65152af1dfff0f5d1a1b11bb305829adaac0a9f4d9f9f8fafaed8ac0bb36d0c80</Anchor>
+               </Node>
+               <Node>
+                <Name>MediaVolumeMuted</Name>
+                <Path>namespacealbert.html</Path>
+                <Anchor>a65152af1dfff0f5d1a1b11bb305829ada545ed85aa36d4bbf8b89a1b3b5a3816f</Anchor>
+               </Node>
+               <Node>
+                <Name>LineEditClearButton</Name>
+                <Path>namespacealbert.html</Path>
+                <Anchor>a65152af1dfff0f5d1a1b11bb305829adabf6519a7be172af2bf218906c000c15e</Anchor>
+               </Node>
+               <Node>
+                <Name>DialogYesToAllButton</Name>
+                <Path>namespacealbert.html</Path>
+                <Anchor>a65152af1dfff0f5d1a1b11bb305829ada5ed6c6084d4fa5217a31f43cfd191f40</Anchor>
+               </Node>
+               <Node>
+                <Name>DialogNoToAllButton</Name>
+                <Path>namespacealbert.html</Path>
+                <Anchor>a65152af1dfff0f5d1a1b11bb305829ada121f3ae8f9de979fea5fff740242ddc7</Anchor>
+               </Node>
+               <Node>
+                <Name>DialogSaveAllButton</Name>
+                <Path>namespacealbert.html</Path>
+                <Anchor>a65152af1dfff0f5d1a1b11bb305829ada4d9cc5475aae1530c9a19224ff7e67eb</Anchor>
+               </Node>
+               <Node>
+                <Name>DialogAbortButton</Name>
+                <Path>namespacealbert.html</Path>
+                <Anchor>a65152af1dfff0f5d1a1b11bb305829ada56f5827066dc281560ae7b64c77c8aa9</Anchor>
+               </Node>
+               <Node>
+                <Name>DialogRetryButton</Name>
+                <Path>namespacealbert.html</Path>
+                <Anchor>a65152af1dfff0f5d1a1b11bb305829ada733f57be269077cb76b562d4f36f163d</Anchor>
+               </Node>
+               <Node>
+                <Name>DialogIgnoreButton</Name>
+                <Path>namespacealbert.html</Path>
+                <Anchor>a65152af1dfff0f5d1a1b11bb305829adab4f25fd1f6364df1617673ecf7108929</Anchor>
+               </Node>
+               <Node>
+                <Name>RestoreDefaultsButton</Name>
+                <Path>namespacealbert.html</Path>
+                <Anchor>a65152af1dfff0f5d1a1b11bb305829adac4e9d0a4f52fd7a64d58ef7666654b6b</Anchor>
+               </Node>
+               <Node>
+                <Name>TabCloseButton</Name>
+                <Path>namespacealbert.html</Path>
+                <Anchor>a65152af1dfff0f5d1a1b11bb305829adabeb69da223f7b1a49a530018ce08a074</Anchor>
+               </Node>
+              </Subnodes>
+             </Node>
+             <Node>
               <Name>cacheLocation</Name>
               <Path>namespacealbert.html</Path>
               <Anchor>a0e2c257e0f05bc73b7559d69595d9bf2</Anchor>
+             </Node>
+             <Node>
+              <Name>composedIconDefaultPos1</Name>
+              <Path>namespacealbert.html</Path>
+              <Anchor>a91ffe74e7bc8528b3ff9a016bf6ec940</Anchor>
+             </Node>
+             <Node>
+              <Name>composedIconDefaultPos2</Name>
+              <Path>namespacealbert.html</Path>
+              <Anchor>af5f430b8fb4b54551b966a3aa7e27413</Anchor>
+             </Node>
+             <Node>
+              <Name>composedIconDefaultSize</Name>
+              <Path>namespacealbert.html</Path>
+              <Anchor>a7bd1ec36bc375e1195c73ac20b11ae49</Anchor>
              </Node>
              <Node>
               <Name>configLocation</Name>
@@ -1840,9 +2288,124 @@
               <Anchor>ad686c346ceb5a0fa99659e5c3a627bb1</Anchor>
              </Node>
              <Node>
+              <Name>graphemeIconDefaultColor</Name>
+              <Path>namespacealbert.html</Path>
+              <Anchor>a5b57bbf31c8fa4af4aff58f4183e5b3b</Anchor>
+             </Node>
+             <Node>
+              <Name>graphemeIconDefaultScalar</Name>
+              <Path>namespacealbert.html</Path>
+              <Anchor>afa6e7b4952acb3799f32fafbd8d34145</Anchor>
+             </Node>
+             <Node>
+              <Name>iconFromUrl</Name>
+              <Path>namespacealbert.html</Path>
+              <Anchor>ad04bae4785bbe6b69f7b848cfb969466</Anchor>
+             </Node>
+             <Node>
+              <Name>iconFromUrls</Name>
+              <Path>namespacealbert.html</Path>
+              <Anchor>abdc3bac3d3ff250f4c2e82188e07dd5b</Anchor>
+             </Node>
+             <Node>
+              <Name>iconifiedIconDefaultBorderColor</Name>
+              <Path>namespacealbert.html</Path>
+              <Anchor>ab38a8c8cefb2ef85da321dccf284bea8</Anchor>
+             </Node>
+             <Node>
+              <Name>iconifiedIconDefaultBorderRadius</Name>
+              <Path>namespacealbert.html</Path>
+              <Anchor>a7d76829a6dd1c67a06e9bbd8f1674d01</Anchor>
+             </Node>
+             <Node>
+              <Name>iconifiedIconDefaultBorderWidth</Name>
+              <Path>namespacealbert.html</Path>
+              <Anchor>ac21013cb5040842be4baf86d6c97cc37</Anchor>
+             </Node>
+             <Node>
+              <Name>iconifiedIconDefaultColor</Name>
+              <Path>namespacealbert.html</Path>
+              <Anchor>a28dd26856865adf756823a8c74457e03</Anchor>
+             </Node>
+             <Node>
+              <Name>makeComposedIcon</Name>
+              <Path>namespacealbert.html</Path>
+              <Anchor>a0bee48154cb7b9e38e67d70a2ffd4e26</Anchor>
+             </Node>
+             <Node>
+              <Name>makeFileTypeIcon</Name>
+              <Path>namespacealbert.html</Path>
+              <Anchor>a22afc0cea51cf05c992412947d149d4c</Anchor>
+             </Node>
+             <Node>
+              <Name>makeFileTypeIcon</Name>
+              <Path>namespacealbert.html</Path>
+              <Anchor>a23c91b6ca1bda9e2d3448c8b6813bb7c</Anchor>
+             </Node>
+             <Node>
+              <Name>makeGraphemeIcon</Name>
+              <Path>namespacealbert.html</Path>
+              <Anchor>a7e579b0a1cbb815bd79b08b2e4196312</Anchor>
+             </Node>
+             <Node>
+              <Name>makeIconifiedIcon</Name>
+              <Path>namespacealbert.html</Path>
+              <Anchor>a217d8e674474f1edb32e96e32af0f638</Anchor>
+             </Node>
+             <Node>
+              <Name>makeImageIcon</Name>
+              <Path>namespacealbert.html</Path>
+              <Anchor>a7bd918cd73c17638586c03cab6b64ea5</Anchor>
+             </Node>
+             <Node>
+              <Name>makeImageIcon</Name>
+              <Path>namespacealbert.html</Path>
+              <Anchor>aa88662b47018d014eabd62cdbe2b38e9</Anchor>
+             </Node>
+             <Node>
+              <Name>makeRectIcon</Name>
+              <Path>namespacealbert.html</Path>
+              <Anchor>a1421490f55010c16da8260b494787132</Anchor>
+             </Node>
+             <Node>
+              <Name>makeStandardIcon</Name>
+              <Path>namespacealbert.html</Path>
+              <Anchor>a62369b6986902d127f93a84562af62be</Anchor>
+             </Node>
+             <Node>
+              <Name>makeThemeIcon</Name>
+              <Path>namespacealbert.html</Path>
+              <Anchor>a3cabfcc5d8a677583d3af64bd12041a5</Anchor>
+             </Node>
+             <Node>
+              <Name>qIcon</Name>
+              <Path>namespacealbert.html</Path>
+              <Anchor>ad140698a9d37ee80d905817df4716634</Anchor>
+             </Node>
+             <Node>
               <Name>quit</Name>
               <Path>namespacealbert.html</Path>
               <Anchor>ab3146bc3f5c4199dcf3c67c2ce399dd9</Anchor>
+             </Node>
+             <Node>
+              <Name>rectIconDefaultBorderColor</Name>
+              <Path>namespacealbert.html</Path>
+              <Anchor>a622d404f0099ba01a51ad48f800cac81</Anchor>
+             </Node>
+             <Node>
+              <Name>rectIconDefaultBorderWidth</Name>
+              <Path>namespacealbert.html</Path>
+              <Anchor>a6255d36318ec32e7b026d154f7691dea</Anchor>
+             </Node>
+             <Node>
+              <Name>rectIconDefaultColor</Name>
+              <Path>namespacealbert.html</Path>
+              <Anchor>ad20163465c77b40ff72f2654b8cf94a2</Anchor>
+             </Node>
+             <Node>
+              <Name>rectIconDefaultRadius</Name>
+              <Path>namespacealbert.html</Path>
+              <Anchor>a4797841d5207aa78267ca172b327a1d5</Anchor>
              </Node>
              <Node>
               <Name>restart</Name>
@@ -1884,6 +2447,14 @@
            <Node>
             <Name>Functions</Name>
             <Path>namespacemembers_func.html</Path>
+           </Node>
+           <Node>
+            <Name>Enumerations</Name>
+            <Path>namespacemembers_enum.html</Path>
+           </Node>
+           <Node>
+            <Name>Enumerator</Name>
+            <Path>namespacemembers_eval.html</Path>
            </Node>
           </Subnodes>
          </Node>
@@ -2733,7 +3304,7 @@
                  <Node>
                   <Name>StandardItem</Name>
                   <Path>classalbert_1_1util_1_1StandardItem.html</Path>
-                  <Anchor>af3b6692eaf865147879b19f9ac224da9</Anchor>
+                  <Anchor>aee806a5e91bef919cddd1abe2d8d3c4b</Anchor>
                  </Node>
                  <Node>
                   <Name>StandardItem</Name>
@@ -2746,14 +3317,24 @@
                   <Anchor>a7270cf43649bc8b6512f5616f8ed0576</Anchor>
                  </Node>
                  <Node>
+                  <Name>~StandardItem</Name>
+                  <Path>classalbert_1_1util_1_1StandardItem.html</Path>
+                  <Anchor>a8d7877523a472d9ea4c5d1143b7ef924</Anchor>
+                 </Node>
+                 <Node>
                   <Name>actions</Name>
                   <Path>classalbert_1_1util_1_1StandardItem.html</Path>
                   <Anchor>a77c096bace167b6ff80249cd4d58664b</Anchor>
                  </Node>
                  <Node>
-                  <Name>iconUrls</Name>
+                  <Name>icon</Name>
                   <Path>classalbert_1_1util_1_1StandardItem.html</Path>
-                  <Anchor>a82022674d66fa5876ad121d7f9fe8976</Anchor>
+                  <Anchor>adb55cc4c0da28a03ccd3e502f03f8fb6</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>iconFactory</Name>
+                  <Path>classalbert_1_1util_1_1StandardItem.html</Path>
+                  <Anchor>a355c90c83cba47b309e9af6e8dc506bb</Anchor>
                  </Node>
                  <Node>
                   <Name>id</Name>
@@ -2781,9 +3362,9 @@
                   <Anchor>a05de714fd0198c525d0692e2dcc9aa3a</Anchor>
                  </Node>
                  <Node>
-                  <Name>setIconUrls</Name>
+                  <Name>setIconFactory</Name>
                   <Path>classalbert_1_1util_1_1StandardItem.html</Path>
-                  <Anchor>a9e8c8ccbd13d9d85e83634969c003844</Anchor>
+                  <Anchor>a0a37b063d4f4a75c37c17bdad519812c</Anchor>
                  </Node>
                  <Node>
                   <Name>setId</Name>
@@ -2821,9 +3402,9 @@
                   <Anchor>a383aa407f4b62b78544b83972184f6fd</Anchor>
                  </Node>
                  <Node>
-                  <Name>icon_urls_</Name>
+                  <Name>icon_factory_</Name>
                   <Path>classalbert_1_1util_1_1StandardItem.html</Path>
-                  <Anchor>a6fade63760127e56e5d69e95878eed5e</Anchor>
+                  <Anchor>a58cccc4f85ddfc1df6bdf59853530140</Anchor>
                  </Node>
                  <Node>
                   <Name>id_</Name>
@@ -3022,6 +3603,52 @@
               </Subnodes>
              </Node>
              <Node>
+              <Name>Icon</Name>
+              <Path>classalbert_1_1Icon.html</Path>
+            <Subnodes>
+               <Node>
+                <Name>~Icon</Name>
+                <Path>classalbert_1_1Icon.html</Path>
+                <Anchor>a818902ac617ccc26ef6e73e555352125</Anchor>
+               </Node>
+               <Node>
+                <Name>actualSize</Name>
+                <Path>classalbert_1_1Icon.html</Path>
+                <Anchor>a6ddb6b2ac88023d22889f5b9406eafd6</Anchor>
+               </Node>
+               <Node>
+                <Name>cacheKey</Name>
+                <Path>classalbert_1_1Icon.html</Path>
+                <Anchor>a4d6e8a4dc0f6059fb629ec608dd906c8</Anchor>
+               </Node>
+               <Node>
+                <Name>clone</Name>
+                <Path>classalbert_1_1Icon.html</Path>
+                <Anchor>a58c779282edf5dac20e0889f717314d8</Anchor>
+               </Node>
+               <Node>
+                <Name>isNull</Name>
+                <Path>classalbert_1_1Icon.html</Path>
+                <Anchor>ac0dc834d49025ae707d935ce6439beea</Anchor>
+               </Node>
+               <Node>
+                <Name>paint</Name>
+                <Path>classalbert_1_1Icon.html</Path>
+                <Anchor>a299d8e3841cd0e4ee94abba92367a497</Anchor>
+               </Node>
+               <Node>
+                <Name>pixmap</Name>
+                <Path>classalbert_1_1Icon.html</Path>
+                <Anchor>a3046051e43ea6924f0df20548182f319</Anchor>
+               </Node>
+               <Node>
+                <Name>toUrl</Name>
+                <Path>classalbert_1_1Icon.html</Path>
+                <Anchor>a54ce37829dd9a05ced0e5e8ae429b6e2</Anchor>
+               </Node>
+              </Subnodes>
+             </Node>
+             <Node>
               <Name>Item</Name>
               <Path>classalbert_1_1Item.html</Path>
             <Subnodes>
@@ -3057,9 +3684,9 @@
                 <Anchor>ae7aa8d38726094aaac853c96d5d066b2</Anchor>
                </Node>
                <Node>
-                <Name>iconUrls</Name>
+                <Name>icon</Name>
                 <Path>classalbert_1_1Item.html</Path>
-                <Anchor>af24bba87910db269e79df47622e1bdd5</Anchor>
+                <Anchor>a182e6af95bdf2350a41d1be0719593b6</Anchor>
                </Node>
                <Node>
                 <Name>id</Name>
@@ -3140,7 +3767,7 @@
                <Node>
                 <Name>readKeychain</Name>
                 <Path>classalbert_1_1PluginInstance.html</Path>
-                <Anchor>ac9051b125051feb0833d2f30bd917506</Anchor>
+                <Anchor>ae407d151635db0e6fd2ed5d059ff37ae</Anchor>
                </Node>
                <Node>
                 <Name>settings</Name>
@@ -3155,7 +3782,7 @@
                <Node>
                 <Name>writeKeychain</Name>
                 <Path>classalbert_1_1PluginInstance.html</Path>
-                <Anchor>a7e23a9b754d0c725e5897cd9d6d98ee9</Anchor>
+                <Anchor>a776acef7203c9a02c00f9b97737a8acb</Anchor>
                </Node>
               </Subnodes>
              </Node>
@@ -3498,7 +4125,7 @@
                <Node>
                 <Name>handleTriggerQuery</Name>
                 <Path>classalbert_1_1TriggerQueryHandler.html</Path>
-                <Anchor>a14e770979eb2456826cf954d80b86a36</Anchor>
+                <Anchor>a075ae1f685990887694234312ed81b85</Anchor>
                </Node>
                <Node>
                 <Name>setFuzzyMatching</Name>
@@ -3508,7 +4135,7 @@
                <Node>
                 <Name>setTrigger</Name>
                 <Path>classalbert_1_1TriggerQueryHandler.html</Path>
-                <Anchor>ae04d3a2e067b6d0e3e151d4a6f880afc</Anchor>
+                <Anchor>af15759ea57315499784db88b88166bb2</Anchor>
                </Node>
                <Node>
                 <Name>supportsFuzzyMatching</Name>
@@ -3623,6 +4250,10 @@
             </Subnodes>
            </Node>
            <Node>
+            <Name>albert::Icon</Name>
+            <Path>classalbert_1_1Icon.html</Path>
+           </Node>
+           <Node>
             <Name>albert::util::IndexItem</Name>
             <Path>classalbert_1_1util_1_1IndexItem.html</Path>
            </Node>
@@ -3657,16 +4288,6 @@
             <Path>classalbert_1_1Item_1_1Observer.html</Path>
            </Node>
            <Node>
-            <Name>albert::PluginInstance</Name>
-            <Path>classalbert_1_1PluginInstance.html</Path>
-          <Subnodes>
-             <Node>
-              <Name>albert::util::ExtensionPlugin</Name>
-              <Path>classalbert_1_1util_1_1ExtensionPlugin.html</Path>
-             </Node>
-            </Subnodes>
-           </Node>
-           <Node>
             <Name>albert::PluginMetadata</Name>
             <Path>classalbert_1_1PluginMetadata.html</Path>
            </Node>
@@ -3687,6 +4308,20 @@
               <Path>classalbert_1_1ExtensionRegistry.html</Path>
              </Node>
              <Node>
+              <Name>albert::PluginInstance</Name>
+              <Path>classalbert_1_1PluginInstance.html</Path>
+            <Subnodes>
+               <Node>
+                <Name>albert::detail::Frontend</Name>
+                <Path>classalbert_1_1detail_1_1Frontend.html</Path>
+               </Node>
+               <Node>
+                <Name>albert::util::ExtensionPlugin</Name>
+                <Path>classalbert_1_1util_1_1ExtensionPlugin.html</Path>
+               </Node>
+              </Subnodes>
+             </Node>
+             <Node>
               <Name>albert::PluginLoader</Name>
               <Path>classalbert_1_1PluginLoader.html</Path>
              </Node>
@@ -3695,20 +4330,12 @@
               <Path>classalbert_1_1Query.html</Path>
              </Node>
              <Node>
-              <Name>albert::detail::Frontend</Name>
-              <Path>classalbert_1_1detail_1_1Frontend.html</Path>
-             </Node>
-             <Node>
               <Name>albert::detail::InputHistory</Name>
               <Path>classalbert_1_1detail_1_1InputHistory.html</Path>
              </Node>
              <Node>
               <Name>albert::util::Download</Name>
               <Path>classalbert_1_1util_1_1Download.html</Path>
-             </Node>
-             <Node>
-              <Name>albert::util::ExtensionPlugin</Name>
-              <Path>classalbert_1_1util_1_1ExtensionPlugin.html</Path>
              </Node>
              <Node>
               <Name>albert::util::Notification</Name>
@@ -4401,43 +5028,592 @@
                     </Subnodes>
                    </Node>
                    <Node>
-                    <Name>iconprovider.h</Name>
-                    <Path>iconprovider_8h.html</Path>
+                    <Name>icon.h</Name>
+                    <Path>icon_8h.html</Path>
                   <Subnodes>
                      <Node>
-                      <Name>fileIcon</Name>
-                      <Path>iconprovider_8h.html</Path>
-                      <Anchor>ae1984e30a529c8c436195a0ed3ec525d</Anchor>
+                      <Name>albert::Icon</Name>
+                      <Path>classalbert_1_1Icon.html</Path>
+                    <Subnodes>
+                       <Node>
+                        <Name>~Icon</Name>
+                        <Path>classalbert_1_1Icon.html</Path>
+                        <Anchor>a818902ac617ccc26ef6e73e555352125</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>actualSize</Name>
+                        <Path>classalbert_1_1Icon.html</Path>
+                        <Anchor>a6ddb6b2ac88023d22889f5b9406eafd6</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>cacheKey</Name>
+                        <Path>classalbert_1_1Icon.html</Path>
+                        <Anchor>a4d6e8a4dc0f6059fb629ec608dd906c8</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>clone</Name>
+                        <Path>classalbert_1_1Icon.html</Path>
+                        <Anchor>a58c779282edf5dac20e0889f717314d8</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>isNull</Name>
+                        <Path>classalbert_1_1Icon.html</Path>
+                        <Anchor>ac0dc834d49025ae707d935ce6439beea</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>paint</Name>
+                        <Path>classalbert_1_1Icon.html</Path>
+                        <Anchor>a299d8e3841cd0e4ee94abba92367a497</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>pixmap</Name>
+                        <Path>classalbert_1_1Icon.html</Path>
+                        <Anchor>a3046051e43ea6924f0df20548182f319</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>toUrl</Name>
+                        <Path>classalbert_1_1Icon.html</Path>
+                        <Anchor>a54ce37829dd9a05ced0e5e8ae429b6e2</Anchor>
+                       </Node>
+                      </Subnodes>
+                     </Node>
+                    </Subnodes>
+                   </Node>
+                   <Node>
+                    <Name>iconutil.h</Name>
+                    <Path>iconutil_8h.html</Path>
+                  <Subnodes>
+                     <Node>
+                      <Name>StandardIconType</Name>
+                      <Path>iconutil_8h.html</Path>
+                      <Anchor>a65152af1dfff0f5d1a1b11bb305829ad</Anchor>
+                    <Subnodes>
+                       <Node>
+                        <Name>TitleBarMenuButton</Name>
+                        <Path>iconutil_8h.html</Path>
+                        <Anchor>a65152af1dfff0f5d1a1b11bb305829adabd601c1e89ff7b3de08fca42ea141125</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>TitleBarMinButton</Name>
+                        <Path>iconutil_8h.html</Path>
+                        <Anchor>a65152af1dfff0f5d1a1b11bb305829ada7cbf19d68f59adae60be87a1b2a67117</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>TitleBarMaxButton</Name>
+                        <Path>iconutil_8h.html</Path>
+                        <Anchor>a65152af1dfff0f5d1a1b11bb305829adafe889ef4dac9fe43364193fbd373ca27</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>TitleBarCloseButton</Name>
+                        <Path>iconutil_8h.html</Path>
+                        <Anchor>a65152af1dfff0f5d1a1b11bb305829ada06b79b50a41d27f53ac2608ccc46858e</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>TitleBarNormalButton</Name>
+                        <Path>iconutil_8h.html</Path>
+                        <Anchor>a65152af1dfff0f5d1a1b11bb305829adab1ee53b966dcbce1ae33830750b5027a</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>TitleBarShadeButton</Name>
+                        <Path>iconutil_8h.html</Path>
+                        <Anchor>a65152af1dfff0f5d1a1b11bb305829ada32be9668ed3bf474edad51c7fd052b41</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>TitleBarUnshadeButton</Name>
+                        <Path>iconutil_8h.html</Path>
+                        <Anchor>a65152af1dfff0f5d1a1b11bb305829adab464ce9566f7401528ad69dca605445e</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>TitleBarContextHelpButton</Name>
+                        <Path>iconutil_8h.html</Path>
+                        <Anchor>a65152af1dfff0f5d1a1b11bb305829ada0023409be27b9881842b0f52b6bb4ca1</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>DockWidgetCloseButton</Name>
+                        <Path>iconutil_8h.html</Path>
+                        <Anchor>a65152af1dfff0f5d1a1b11bb305829adab96b8de7387cad883bc49a35596e308b</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>MessageBoxInformation</Name>
+                        <Path>iconutil_8h.html</Path>
+                        <Anchor>a65152af1dfff0f5d1a1b11bb305829ada380583c00b9c0aa4b0be09ef6aa6dc3c</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>MessageBoxWarning</Name>
+                        <Path>iconutil_8h.html</Path>
+                        <Anchor>a65152af1dfff0f5d1a1b11bb305829adad9844ab7e2f181866ba481ad155cac4c</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>MessageBoxCritical</Name>
+                        <Path>iconutil_8h.html</Path>
+                        <Anchor>a65152af1dfff0f5d1a1b11bb305829adabe181785e3051945579a65e9961af235</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>MessageBoxQuestion</Name>
+                        <Path>iconutil_8h.html</Path>
+                        <Anchor>a65152af1dfff0f5d1a1b11bb305829adaa3b7a3774a302e8ef9553dd53b8c6ff2</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>DesktopIcon</Name>
+                        <Path>iconutil_8h.html</Path>
+                        <Anchor>a65152af1dfff0f5d1a1b11bb305829ada415d5420090da2a6021e1f743a3d8921</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>TrashIcon</Name>
+                        <Path>iconutil_8h.html</Path>
+                        <Anchor>a65152af1dfff0f5d1a1b11bb305829ada176048c8cd4df9e6c76890236b0747b3</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>ComputerIcon</Name>
+                        <Path>iconutil_8h.html</Path>
+                        <Anchor>a65152af1dfff0f5d1a1b11bb305829ada0626f88f54c58f60f7d89aaefc635762</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>DriveFDIcon</Name>
+                        <Path>iconutil_8h.html</Path>
+                        <Anchor>a65152af1dfff0f5d1a1b11bb305829ada6b2677aa095e33ecd5040c7cac112439</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>DriveHDIcon</Name>
+                        <Path>iconutil_8h.html</Path>
+                        <Anchor>a65152af1dfff0f5d1a1b11bb305829ada3d81ff3b6dc8ad4a5d773dd14b47a108</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>DriveCDIcon</Name>
+                        <Path>iconutil_8h.html</Path>
+                        <Anchor>a65152af1dfff0f5d1a1b11bb305829ada921426458f42e23bf3d36df99237b58a</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>DriveDVDIcon</Name>
+                        <Path>iconutil_8h.html</Path>
+                        <Anchor>a65152af1dfff0f5d1a1b11bb305829adac2cf60f7b9e567215b0fc43052afe67e</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>DriveNetIcon</Name>
+                        <Path>iconutil_8h.html</Path>
+                        <Anchor>a65152af1dfff0f5d1a1b11bb305829adafd153069420d94fdbf2c481776374a80</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>DirOpenIcon</Name>
+                        <Path>iconutil_8h.html</Path>
+                        <Anchor>a65152af1dfff0f5d1a1b11bb305829ada0c86993fcddce4153b3b03ac04206e9c</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>DirClosedIcon</Name>
+                        <Path>iconutil_8h.html</Path>
+                        <Anchor>a65152af1dfff0f5d1a1b11bb305829ada8a5d3266c27a0ff10441b057c0a11f29</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>DirLinkIcon</Name>
+                        <Path>iconutil_8h.html</Path>
+                        <Anchor>a65152af1dfff0f5d1a1b11bb305829ada8634f080931e6519efdd5603e4475828</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>DirLinkOpenIcon</Name>
+                        <Path>iconutil_8h.html</Path>
+                        <Anchor>a65152af1dfff0f5d1a1b11bb305829ada60c26d7d0ada651068d6f7968bcbe195</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>FileIcon</Name>
+                        <Path>iconutil_8h.html</Path>
+                        <Anchor>a65152af1dfff0f5d1a1b11bb305829ada4e24b54600d94d5eccb3bc9c6626a07a</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>FileLinkIcon</Name>
+                        <Path>iconutil_8h.html</Path>
+                        <Anchor>a65152af1dfff0f5d1a1b11bb305829adaf0dfe7b59f87d8ee0c229f80d3efed63</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>ToolBarHorizontalExtensionButton</Name>
+                        <Path>iconutil_8h.html</Path>
+                        <Anchor>a65152af1dfff0f5d1a1b11bb305829ada22822bf29a4cf353eef9395ed4b1505a</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>ToolBarVerticalExtensionButton</Name>
+                        <Path>iconutil_8h.html</Path>
+                        <Anchor>a65152af1dfff0f5d1a1b11bb305829ada5d7ca860f6ec34d2dc79e456be3df115</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>FileDialogStart</Name>
+                        <Path>iconutil_8h.html</Path>
+                        <Anchor>a65152af1dfff0f5d1a1b11bb305829ada3b355784d21e574a2c8dae9714c90ec4</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>FileDialogEnd</Name>
+                        <Path>iconutil_8h.html</Path>
+                        <Anchor>a65152af1dfff0f5d1a1b11bb305829ada53003f5417653d7f977b7cafaf8f6ac5</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>FileDialogToParent</Name>
+                        <Path>iconutil_8h.html</Path>
+                        <Anchor>a65152af1dfff0f5d1a1b11bb305829adaab911a1db0bff51efd2d7671a3c3cf05</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>FileDialogNewFolder</Name>
+                        <Path>iconutil_8h.html</Path>
+                        <Anchor>a65152af1dfff0f5d1a1b11bb305829ada54d575be431a2a8bd9668c8c5d4273f1</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>FileDialogDetailedView</Name>
+                        <Path>iconutil_8h.html</Path>
+                        <Anchor>a65152af1dfff0f5d1a1b11bb305829ada5c7e322381d37ee52f8e55be624a2a94</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>FileDialogInfoView</Name>
+                        <Path>iconutil_8h.html</Path>
+                        <Anchor>a65152af1dfff0f5d1a1b11bb305829adaaa4fad79a8492279d23eb8e00607d5d7</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>FileDialogContentsView</Name>
+                        <Path>iconutil_8h.html</Path>
+                        <Anchor>a65152af1dfff0f5d1a1b11bb305829adaffdec2b3ebfe63409e5837c55bff7377</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>FileDialogListView</Name>
+                        <Path>iconutil_8h.html</Path>
+                        <Anchor>a65152af1dfff0f5d1a1b11bb305829adaa65f48a9a2466cd1fb39ce946ef5a592</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>FileDialogBack</Name>
+                        <Path>iconutil_8h.html</Path>
+                        <Anchor>a65152af1dfff0f5d1a1b11bb305829ada27fbae1e4048ca1faeb5445fae73a596</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>DirIcon</Name>
+                        <Path>iconutil_8h.html</Path>
+                        <Anchor>a65152af1dfff0f5d1a1b11bb305829adafca382d93bbbd19e2ac5ca8e62da6566</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>DialogOkButton</Name>
+                        <Path>iconutil_8h.html</Path>
+                        <Anchor>a65152af1dfff0f5d1a1b11bb305829adaac997539d14f204b2296ade70f1f5681</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>DialogCancelButton</Name>
+                        <Path>iconutil_8h.html</Path>
+                        <Anchor>a65152af1dfff0f5d1a1b11bb305829adaca16acf43c438213aa0685348f862c32</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>DialogHelpButton</Name>
+                        <Path>iconutil_8h.html</Path>
+                        <Anchor>a65152af1dfff0f5d1a1b11bb305829ada732b3457aaa915b2ba6adfa005d73e35</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>DialogOpenButton</Name>
+                        <Path>iconutil_8h.html</Path>
+                        <Anchor>a65152af1dfff0f5d1a1b11bb305829ada50ff075dfe67531f7e20b8699611a534</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>DialogSaveButton</Name>
+                        <Path>iconutil_8h.html</Path>
+                        <Anchor>a65152af1dfff0f5d1a1b11bb305829ada8c68537ffe564d3f35d326e3a4d5f292</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>DialogCloseButton</Name>
+                        <Path>iconutil_8h.html</Path>
+                        <Anchor>a65152af1dfff0f5d1a1b11bb305829adaaf45443f97be558d2c6d397b74650bce</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>DialogApplyButton</Name>
+                        <Path>iconutil_8h.html</Path>
+                        <Anchor>a65152af1dfff0f5d1a1b11bb305829ada0a0c8bcccab843b462957e78943f2ae0</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>DialogResetButton</Name>
+                        <Path>iconutil_8h.html</Path>
+                        <Anchor>a65152af1dfff0f5d1a1b11bb305829adaa668ede7a5454cc0f30d6b15b2a38b7c</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>DialogDiscardButton</Name>
+                        <Path>iconutil_8h.html</Path>
+                        <Anchor>a65152af1dfff0f5d1a1b11bb305829adae5d44d11e0a23075b20163c7a5f36cba</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>DialogYesButton</Name>
+                        <Path>iconutil_8h.html</Path>
+                        <Anchor>a65152af1dfff0f5d1a1b11bb305829ada0a66657f300bc590539b017e026c654e</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>DialogNoButton</Name>
+                        <Path>iconutil_8h.html</Path>
+                        <Anchor>a65152af1dfff0f5d1a1b11bb305829ada48804a7a229d0c92cdd5989c3d310b50</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>ArrowUp</Name>
+                        <Path>iconutil_8h.html</Path>
+                        <Anchor>a65152af1dfff0f5d1a1b11bb305829ada4667f6e0e35933489b2f04d0fefe3e31</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>ArrowDown</Name>
+                        <Path>iconutil_8h.html</Path>
+                        <Anchor>a65152af1dfff0f5d1a1b11bb305829ada4de84fc1e08372fa6ff4fed82c732d6e</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>ArrowLeft</Name>
+                        <Path>iconutil_8h.html</Path>
+                        <Anchor>a65152af1dfff0f5d1a1b11bb305829adaeef08c31c70c23e3ca66b5268a627b5b</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>ArrowRight</Name>
+                        <Path>iconutil_8h.html</Path>
+                        <Anchor>a65152af1dfff0f5d1a1b11bb305829ada98e798ae7d53e928ac4a3ba519de5ba6</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>ArrowBack</Name>
+                        <Path>iconutil_8h.html</Path>
+                        <Anchor>a65152af1dfff0f5d1a1b11bb305829ada4716d868862a672778314e045e8cb85e</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>ArrowForward</Name>
+                        <Path>iconutil_8h.html</Path>
+                        <Anchor>a65152af1dfff0f5d1a1b11bb305829adaac102a053d6b2008471acc6bb255bcfa</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>DirHomeIcon</Name>
+                        <Path>iconutil_8h.html</Path>
+                        <Anchor>a65152af1dfff0f5d1a1b11bb305829ada8da688e5bc0831ede68a92d3b9471624</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>CommandLink</Name>
+                        <Path>iconutil_8h.html</Path>
+                        <Anchor>a65152af1dfff0f5d1a1b11bb305829adabd4df8de1346ba00ffd32522b1cd04d7</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>VistaShield</Name>
+                        <Path>iconutil_8h.html</Path>
+                        <Anchor>a65152af1dfff0f5d1a1b11bb305829adae54d0f86faa633095f720807fb987731</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>BrowserReload</Name>
+                        <Path>iconutil_8h.html</Path>
+                        <Anchor>a65152af1dfff0f5d1a1b11bb305829ada06fc3277ad62989f43817af10bb10e12</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>BrowserStop</Name>
+                        <Path>iconutil_8h.html</Path>
+                        <Anchor>a65152af1dfff0f5d1a1b11bb305829adadbe396c6a01c75a7c8ac9a696d0b492c</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>MediaPlay</Name>
+                        <Path>iconutil_8h.html</Path>
+                        <Anchor>a65152af1dfff0f5d1a1b11bb305829ada8c85929acf44250d8fd9531426d34744</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>MediaStop</Name>
+                        <Path>iconutil_8h.html</Path>
+                        <Anchor>a65152af1dfff0f5d1a1b11bb305829adae7480dd651271a0e8b97ea8b3e23efb0</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>MediaPause</Name>
+                        <Path>iconutil_8h.html</Path>
+                        <Anchor>a65152af1dfff0f5d1a1b11bb305829adae6e526dbf30f3b0a684eb6fef8b365a4</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>MediaSkipForward</Name>
+                        <Path>iconutil_8h.html</Path>
+                        <Anchor>a65152af1dfff0f5d1a1b11bb305829ada5be19b73a32896dcc05cbbc32011c6a7</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>MediaSkipBackward</Name>
+                        <Path>iconutil_8h.html</Path>
+                        <Anchor>a65152af1dfff0f5d1a1b11bb305829ada9f1f0cea2eedf1e942f336aeee2c2750</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>MediaSeekForward</Name>
+                        <Path>iconutil_8h.html</Path>
+                        <Anchor>a65152af1dfff0f5d1a1b11bb305829adaf08c17e7c1a32e29418b2dacadd8ecde</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>MediaSeekBackward</Name>
+                        <Path>iconutil_8h.html</Path>
+                        <Anchor>a65152af1dfff0f5d1a1b11bb305829ada75373d0100041378acf09e52e2095563</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>MediaVolume</Name>
+                        <Path>iconutil_8h.html</Path>
+                        <Anchor>a65152af1dfff0f5d1a1b11bb305829adaac0a9f4d9f9f8fafaed8ac0bb36d0c80</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>MediaVolumeMuted</Name>
+                        <Path>iconutil_8h.html</Path>
+                        <Anchor>a65152af1dfff0f5d1a1b11bb305829ada545ed85aa36d4bbf8b89a1b3b5a3816f</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>LineEditClearButton</Name>
+                        <Path>iconutil_8h.html</Path>
+                        <Anchor>a65152af1dfff0f5d1a1b11bb305829adabf6519a7be172af2bf218906c000c15e</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>DialogYesToAllButton</Name>
+                        <Path>iconutil_8h.html</Path>
+                        <Anchor>a65152af1dfff0f5d1a1b11bb305829ada5ed6c6084d4fa5217a31f43cfd191f40</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>DialogNoToAllButton</Name>
+                        <Path>iconutil_8h.html</Path>
+                        <Anchor>a65152af1dfff0f5d1a1b11bb305829ada121f3ae8f9de979fea5fff740242ddc7</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>DialogSaveAllButton</Name>
+                        <Path>iconutil_8h.html</Path>
+                        <Anchor>a65152af1dfff0f5d1a1b11bb305829ada4d9cc5475aae1530c9a19224ff7e67eb</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>DialogAbortButton</Name>
+                        <Path>iconutil_8h.html</Path>
+                        <Anchor>a65152af1dfff0f5d1a1b11bb305829ada56f5827066dc281560ae7b64c77c8aa9</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>DialogRetryButton</Name>
+                        <Path>iconutil_8h.html</Path>
+                        <Anchor>a65152af1dfff0f5d1a1b11bb305829ada733f57be269077cb76b562d4f36f163d</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>DialogIgnoreButton</Name>
+                        <Path>iconutil_8h.html</Path>
+                        <Anchor>a65152af1dfff0f5d1a1b11bb305829adab4f25fd1f6364df1617673ecf7108929</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>RestoreDefaultsButton</Name>
+                        <Path>iconutil_8h.html</Path>
+                        <Anchor>a65152af1dfff0f5d1a1b11bb305829adac4e9d0a4f52fd7a64d58ef7666654b6b</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>TabCloseButton</Name>
+                        <Path>iconutil_8h.html</Path>
+                        <Anchor>a65152af1dfff0f5d1a1b11bb305829adabeb69da223f7b1a49a530018ce08a074</Anchor>
+                       </Node>
+                      </Subnodes>
                      </Node>
                      <Node>
-                      <Name>genericIcon</Name>
-                      <Path>iconprovider_8h.html</Path>
-                      <Anchor>a07f1b551718f8e7be2f5974219c96e3f</Anchor>
+                      <Name>composedIconDefaultPos1</Name>
+                      <Path>iconutil_8h.html</Path>
+                      <Anchor>a91ffe74e7bc8528b3ff9a016bf6ec940</Anchor>
                      </Node>
                      <Node>
-                      <Name>genericPixmap</Name>
-                      <Path>iconprovider_8h.html</Path>
-                      <Anchor>a5fd9f85a1c27697a1294e0326f4bdee3</Anchor>
+                      <Name>composedIconDefaultPos2</Name>
+                      <Path>iconutil_8h.html</Path>
+                      <Anchor>af5f430b8fb4b54551b966a3aa7e27413</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>composedIconDefaultSize</Name>
+                      <Path>iconutil_8h.html</Path>
+                      <Anchor>a7bd1ec36bc375e1195c73ac20b11ae49</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>graphemeIconDefaultColor</Name>
+                      <Path>iconutil_8h.html</Path>
+                      <Anchor>a5b57bbf31c8fa4af4aff58f4183e5b3b</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>graphemeIconDefaultScalar</Name>
+                      <Path>iconutil_8h.html</Path>
+                      <Anchor>afa6e7b4952acb3799f32fafbd8d34145</Anchor>
                      </Node>
                      <Node>
                       <Name>iconFromUrl</Name>
-                      <Path>iconprovider_8h.html</Path>
-                      <Anchor>ad4261f15028c9c6414f974413ec1ae32</Anchor>
+                      <Path>iconutil_8h.html</Path>
+                      <Anchor>ad04bae4785bbe6b69f7b848cfb969466</Anchor>
                      </Node>
                      <Node>
                       <Name>iconFromUrls</Name>
-                      <Path>iconprovider_8h.html</Path>
-                      <Anchor>a9316fa929748922feda9b358e913b1e7</Anchor>
+                      <Path>iconutil_8h.html</Path>
+                      <Anchor>abdc3bac3d3ff250f4c2e82188e07dd5b</Anchor>
                      </Node>
                      <Node>
-                      <Name>pixmapFromUrl</Name>
-                      <Path>iconprovider_8h.html</Path>
-                      <Anchor>a716d7dbb9b2d69177a1d25de20876e5c</Anchor>
+                      <Name>iconifiedIconDefaultBorderColor</Name>
+                      <Path>iconutil_8h.html</Path>
+                      <Anchor>ab38a8c8cefb2ef85da321dccf284bea8</Anchor>
                      </Node>
                      <Node>
-                      <Name>pixmapFromUrls</Name>
-                      <Path>iconprovider_8h.html</Path>
-                      <Anchor>af7c9d3fa079b53b69d6dd268c1fa19fa</Anchor>
+                      <Name>iconifiedIconDefaultBorderRadius</Name>
+                      <Path>iconutil_8h.html</Path>
+                      <Anchor>a7d76829a6dd1c67a06e9bbd8f1674d01</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>iconifiedIconDefaultBorderWidth</Name>
+                      <Path>iconutil_8h.html</Path>
+                      <Anchor>ac21013cb5040842be4baf86d6c97cc37</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>iconifiedIconDefaultColor</Name>
+                      <Path>iconutil_8h.html</Path>
+                      <Anchor>a28dd26856865adf756823a8c74457e03</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>makeComposedIcon</Name>
+                      <Path>iconutil_8h.html</Path>
+                      <Anchor>a0bee48154cb7b9e38e67d70a2ffd4e26</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>makeFileTypeIcon</Name>
+                      <Path>iconutil_8h.html</Path>
+                      <Anchor>a22afc0cea51cf05c992412947d149d4c</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>makeFileTypeIcon</Name>
+                      <Path>iconutil_8h.html</Path>
+                      <Anchor>a23c91b6ca1bda9e2d3448c8b6813bb7c</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>makeGraphemeIcon</Name>
+                      <Path>iconutil_8h.html</Path>
+                      <Anchor>a7e579b0a1cbb815bd79b08b2e4196312</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>makeIconifiedIcon</Name>
+                      <Path>iconutil_8h.html</Path>
+                      <Anchor>a217d8e674474f1edb32e96e32af0f638</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>makeImageIcon</Name>
+                      <Path>iconutil_8h.html</Path>
+                      <Anchor>a7bd918cd73c17638586c03cab6b64ea5</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>makeImageIcon</Name>
+                      <Path>iconutil_8h.html</Path>
+                      <Anchor>aa88662b47018d014eabd62cdbe2b38e9</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>makeRectIcon</Name>
+                      <Path>iconutil_8h.html</Path>
+                      <Anchor>a1421490f55010c16da8260b494787132</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>makeStandardIcon</Name>
+                      <Path>iconutil_8h.html</Path>
+                      <Anchor>a62369b6986902d127f93a84562af62be</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>makeThemeIcon</Name>
+                      <Path>iconutil_8h.html</Path>
+                      <Anchor>a3cabfcc5d8a677583d3af64bd12041a5</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>qIcon</Name>
+                      <Path>iconutil_8h.html</Path>
+                      <Anchor>ad140698a9d37ee80d905817df4716634</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>rectIconDefaultBorderColor</Name>
+                      <Path>iconutil_8h.html</Path>
+                      <Anchor>a622d404f0099ba01a51ad48f800cac81</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>rectIconDefaultBorderWidth</Name>
+                      <Path>iconutil_8h.html</Path>
+                      <Anchor>a6255d36318ec32e7b026d154f7691dea</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>rectIconDefaultColor</Name>
+                      <Path>iconutil_8h.html</Path>
+                      <Anchor>ad20163465c77b40ff72f2654b8cf94a2</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>rectIconDefaultRadius</Name>
+                      <Path>iconutil_8h.html</Path>
+                      <Anchor>a4797841d5207aa78267ca172b327a1d5</Anchor>
                      </Node>
                     </Subnodes>
                    </Node>
@@ -4643,9 +5819,9 @@
                         <Anchor>ae7aa8d38726094aaac853c96d5d066b2</Anchor>
                        </Node>
                        <Node>
-                        <Name>iconUrls</Name>
+                        <Name>icon</Name>
                         <Path>classalbert_1_1Item.html</Path>
-                        <Anchor>af24bba87910db269e79df47622e1bdd5</Anchor>
+                        <Anchor>a182e6af95bdf2350a41d1be0719593b6</Anchor>
                        </Node>
                        <Node>
                         <Name>id</Name>
@@ -5004,6 +6180,16 @@
                       <Name>network</Name>
                       <Path>networkutil_8h.html</Path>
                       <Anchor>a4eb04697695099b3039b1aba8dd7508b</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>percentDecoded</Name>
+                      <Path>networkutil_8h.html</Path>
+                      <Anchor>a0c2accf65a91c2ba4f964de52e1dc15e</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>percentEncoded</Name>
+                      <Path>networkutil_8h.html</Path>
+                      <Anchor>aae00ab73828b9292933e85437271657a</Anchor>
                      </Node>
                     </Subnodes>
                    </Node>
@@ -5384,7 +6570,7 @@
                        <Node>
                         <Name>readKeychain</Name>
                         <Path>classalbert_1_1PluginInstance.html</Path>
-                        <Anchor>ac9051b125051feb0833d2f30bd917506</Anchor>
+                        <Anchor>ae407d151635db0e6fd2ed5d059ff37ae</Anchor>
                        </Node>
                        <Node>
                         <Name>settings</Name>
@@ -5399,7 +6585,7 @@
                        <Node>
                         <Name>writeKeychain</Name>
                         <Path>classalbert_1_1PluginInstance.html</Path>
-                        <Anchor>a7e23a9b754d0c725e5897cd9d6d98ee9</Anchor>
+                        <Anchor>a776acef7203c9a02c00f9b97737a8acb</Anchor>
                        </Node>
                       </Subnodes>
                      </Node>
@@ -5819,7 +7005,7 @@
                        <Node>
                         <Name>StandardItem</Name>
                         <Path>classalbert_1_1util_1_1StandardItem.html</Path>
-                        <Anchor>af3b6692eaf865147879b19f9ac224da9</Anchor>
+                        <Anchor>aee806a5e91bef919cddd1abe2d8d3c4b</Anchor>
                        </Node>
                        <Node>
                         <Name>StandardItem</Name>
@@ -5832,14 +7018,24 @@
                         <Anchor>a7270cf43649bc8b6512f5616f8ed0576</Anchor>
                        </Node>
                        <Node>
+                        <Name>~StandardItem</Name>
+                        <Path>classalbert_1_1util_1_1StandardItem.html</Path>
+                        <Anchor>a8d7877523a472d9ea4c5d1143b7ef924</Anchor>
+                       </Node>
+                       <Node>
                         <Name>actions</Name>
                         <Path>classalbert_1_1util_1_1StandardItem.html</Path>
                         <Anchor>a77c096bace167b6ff80249cd4d58664b</Anchor>
                        </Node>
                        <Node>
-                        <Name>iconUrls</Name>
+                        <Name>icon</Name>
                         <Path>classalbert_1_1util_1_1StandardItem.html</Path>
-                        <Anchor>a82022674d66fa5876ad121d7f9fe8976</Anchor>
+                        <Anchor>adb55cc4c0da28a03ccd3e502f03f8fb6</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>iconFactory</Name>
+                        <Path>classalbert_1_1util_1_1StandardItem.html</Path>
+                        <Anchor>a355c90c83cba47b309e9af6e8dc506bb</Anchor>
                        </Node>
                        <Node>
                         <Name>id</Name>
@@ -5867,9 +7063,9 @@
                         <Anchor>a05de714fd0198c525d0692e2dcc9aa3a</Anchor>
                        </Node>
                        <Node>
-                        <Name>setIconUrls</Name>
+                        <Name>setIconFactory</Name>
                         <Path>classalbert_1_1util_1_1StandardItem.html</Path>
-                        <Anchor>a9e8c8ccbd13d9d85e83634969c003844</Anchor>
+                        <Anchor>a0a37b063d4f4a75c37c17bdad519812c</Anchor>
                        </Node>
                        <Node>
                         <Name>setId</Name>
@@ -5907,9 +7103,9 @@
                         <Anchor>a383aa407f4b62b78544b83972184f6fd</Anchor>
                        </Node>
                        <Node>
-                        <Name>icon_urls_</Name>
+                        <Name>icon_factory_</Name>
                         <Path>classalbert_1_1util_1_1StandardItem.html</Path>
-                        <Anchor>a6fade63760127e56e5d69e95878eed5e</Anchor>
+                        <Anchor>a58cccc4f85ddfc1df6bdf59853530140</Anchor>
                        </Node>
                        <Node>
                         <Name>id_</Name>
@@ -6086,7 +7282,7 @@
                        <Node>
                         <Name>handleTriggerQuery</Name>
                         <Path>classalbert_1_1TriggerQueryHandler.html</Path>
-                        <Anchor>a14e770979eb2456826cf954d80b86a36</Anchor>
+                        <Anchor>a075ae1f685990887694234312ed81b85</Anchor>
                        </Node>
                        <Node>
                         <Name>setFuzzyMatching</Name>
@@ -6096,7 +7292,7 @@
                        <Node>
                         <Name>setTrigger</Name>
                         <Path>classalbert_1_1TriggerQueryHandler.html</Path>
-                        <Anchor>ae04d3a2e067b6d0e3e151d4a6f880afc</Anchor>
+                        <Anchor>af15759ea57315499784db88b88166bb2</Anchor>
                        </Node>
                        <Node>
                         <Name>supportsFuzzyMatching</Name>

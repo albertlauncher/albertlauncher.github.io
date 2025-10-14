@@ -7,6 +7,247 @@
     
       
         <item>
+          <title>Albert v33.0.0 released</title>
+          <description>&lt;h1 id=&quot;albert-v3300-released&quot;&gt;Albert v33.0.0 released&lt;/h1&gt;
+
+&lt;h2 id=&quot;v3300-2025-10-14&quot;&gt;v33.0.0 (2025-10-14)&lt;/h2&gt;
+
+&lt;h3 id=&quot;️-core-changes&quot;&gt;⚙️ Core changes&lt;/h3&gt;
+
+&lt;h4 id=&quot;features&quot;&gt;Features&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;em&gt;triggersqueryhandler&lt;/em&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert/commit/ccfd481ad4c7d4b5e933151ddb13e903da247279&quot;&gt;Add fuzzy support&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;tray&lt;/em&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert/commit/ef29635c656ee00e5eef87d56449a379059e9719&quot;&gt;Install the app tray icon on xdg&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/albertlauncher/albert/commit/164aee0b066fb0f735e5fd595199429c5ecdae25&quot;&gt;Built-in fallback theme support&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;PluginQueryHandler&lt;/em&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert/commit/197c840aa9643c8308d9a52968e27c6f0550a420&quot;&gt;Add ‘Load’/’Reload’ actions&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/albertlauncher/albert/commit/3519ff1eadfc2ad16048aaf12dbca2197158522a&quot;&gt;User customizable PATH&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;fixes&quot;&gt;Fixes&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;em&gt;triggersqueryhandler&lt;/em&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert/commit/3c1cc80c73f96d408f7b2869c9fd2f43e70316e1&quot;&gt;Properly sync triggers&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;rankitem&lt;/em&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert/commit/e098a5d34c56f5cbea706a0f152de9d3cf84cbc2&quot;&gt;Correct inverted text length in operator&amp;lt;&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;globalquery&lt;/em&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert/commit/b764ab77b1322c7854c70074c69b9a6fe4ce2b9c&quot;&gt;Remove leftover explicit comparator&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/albertlauncher/albert/commit/66f4405b6e1af354a1d5414673fc5a60130c45c6&quot;&gt;Update wayland faq link&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;performance&quot;&gt;Performance&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;em&gt;rankitem&lt;/em&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert/commit/90e7fdfb56f92ada07ee8d366d13e97a7c2a09bf&quot;&gt;Avoid multiple string allocations in comparison (🚀200%)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;globalqueryhandler&lt;/em&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert/commit/44d5f47856488fafc84ce139555a3e6b9bdeb4eb&quot;&gt;Instant response times in handleTriggerQuery&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;api&quot;&gt;API&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/albertlauncher/albert/commit/1b76238a39a5658576d533200a6d6aec98b0064d&quot;&gt;Add &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;util::percentEncoded&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/albertlauncher/albert/commit/aff1e220c1be9a71d7fe901eb2119c6b9b4fd687&quot;&gt;Add &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;util::percentDecoded&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;[&lt;strong&gt;BREAKING&lt;/strong&gt;] &lt;a href=&quot;https://github.com/albertlauncher/albert/commit/490dbd49c164afb6989545f9bbe10b9279a9dae6&quot;&gt;Add customizable and typesafe icon support&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;PluginInstance&lt;/em&gt; · [&lt;strong&gt;BREAKING&lt;/strong&gt;] &lt;a href=&quot;https://github.com/albertlauncher/albert/commit/cb0a21d2a558f8b3bf6a840399ea0d90d3df5783&quot;&gt;Asynchronous keychain access&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;documentation&quot;&gt;Documentation&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;em&gt;cmake-macros&lt;/em&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert/commit/8a39e163557d6d4c9c155e9838a140c47515d07a&quot;&gt;Add missing metadata fields&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;plugininstance&lt;/em&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert/commit/62d8882f778f8b5117998e2e6f5b2105ab79f2a8&quot;&gt;Add \ref, remove \since, some updates.&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;extensionplugin&lt;/em&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert/commit/8a6887cd7a7929f943c74a897e29e4d8450ee5a8&quot;&gt;Add doxygen references&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;TriggerQueryHandler&lt;/em&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert/commit/5adcf7932cc4be740c0b9d126dd20ee474b30f25&quot;&gt;Update doxygen documentation&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;miscellaneous-tasks&quot;&gt;Miscellaneous Tasks&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/albertlauncher/albert/commit/3dd56c7b0c5b2e597659ac01be5fee8cc5278b67&quot;&gt;Add api group to gitlint&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/albertlauncher/albert/commit/03b2a426addc74608392910191410c23087c482c&quot;&gt;Remove justfile&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/albertlauncher/albert/commit/9ddf79ba5a416652a6e494c92bcff717060b8bee&quot;&gt;Add git cliff configuration&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/albertlauncher/albert/commit/60f24a9f0da389d1a396b20188dddf0495f525b5&quot;&gt;Move frontend resources into frontend repository&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Scoring&lt;/em&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert/commit/caf854edd390cf7f11ddb26e719b759590b253e9&quot;&gt;Fetch exceptions thrown from items&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/albertlauncher/albert/commit/c38e7d88d26f771519bfc2ad9eddbe5c5fe037f3&quot;&gt;Replace about text with list of links&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/albertlauncher/albert/commit/aeeee5ca3fc1d4ecedd34328c4468e6f8ccb6815&quot;&gt;Notify on major version change&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;-plugin-changes&quot;&gt;🧩 Plugin changes&lt;/h3&gt;
+
+&lt;h4 id=&quot;features-1&quot;&gt;Features&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Albert&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-application/commit/c2421a31ac0b7960c87f645e308b7a5624782c91&quot;&gt;Use paths of app data locations as input action text&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Applications&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-applications/commit/6815974159374df1f52722ae9922d31a0b75dd5f&quot;&gt;Add sakura terminal support&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Bluetooth&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-bluetooth/commit/6f0115cd0cf1207ac86951f9b1380b9a4afd551a&quot;&gt;Linux/BlueZ support&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Bluetooth&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-bluetooth/commit/3624ed1db206292cd86c72358d6af5ef144eb85f&quot;&gt;Device icon based on class of device&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Clipboard&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-clipboard/commit/1f634cb14d1c84fbdb56057aaa2086f2be10233a&quot;&gt;Add fuzzy support&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Documentation&lt;/strong&gt; · &lt;em&gt;icon&lt;/em&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-docs/commit/28f8974920a41b9ed87cb71b297aa15401cc3b26&quot;&gt;Pixel density dependent icon&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Jetbrains projects&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-python-jetbrains-projects/commit/4fe02cffc930d9210e28c9cf33d2601b3aca3272&quot;&gt;Handle multiple config dir prefixes (#4)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Jetbrains projects&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-python-jetbrains-projects/commit/92601d1bc7fa2f6111dae2132d9dee21aa805426&quot;&gt;Update icons to 2025 (#5)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Python Eval&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-python-python-eval/commit/cd19492e8eddffac94e0322924f9dfdddf6179f0&quot;&gt;Customizable list of modules to preload&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;VirtualBox&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-python-virtualbox/commit/73980121b8947dee60f876f7b103f756e7b4408b&quot;&gt;Use SDK manually installed into venv&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;fixes-1&quot;&gt;Fixes&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Applications&lt;/strong&gt; · &lt;em&gt;macOS&lt;/em&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-applications/commit/f6d7f95383569d0a9ea1bf4973064a3853d5e984&quot;&gt;Index apps in $HOME/Applications&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Calculator&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-calculator-qalculate/commit/00dc1e7d03b43a22bc7c37f72e033051eb8dc06b&quot;&gt;Remove completion on evaluation errors&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Emoji&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-python-emoji/commit/f10277d7ab6eb997d7232b985ac3aa7b9d834c16&quot;&gt;Do not lower others while capitalizing 1st char&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;GitHub&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-github/commit/ba97cea1c32d98385fd4a4fcd3520ab634522385&quot;&gt;Correct endpoint in “Show on GitHub” action&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Menu bar&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-menubar/commit/6c3358eb730ca8c176b97345e9e8c784888b2ede&quot;&gt;Mutex item acces&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;PacMan&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-python-pacman/commit/a9b69dc542479def5f570ed4edb1d4387f54a903&quot;&gt;Remove trigger from input action&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Python Eval&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-python-python-eval/commit/1a384d37ae58265792f540f5e4d5e51d5acc84f7&quot;&gt;Remove trigger from input action&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Python plugins&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-python/commit/24c369a8933d87269ae7af1287f4ba7fd9c84453&quot;&gt;Add missing &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;setTrigger&lt;/code&gt; trampoline&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;System&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-system/commit/bd348beae6522e06643da2f756d329bcabac0552&quot;&gt;Strict standard conform array initialization&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;performance-1&quot;&gt;Performance&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Spotify&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-spotify/commit/28300dfd618faace6034bcd0a283e4f03fe34311&quot;&gt;Select smallest picture greater than 128px&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;api-1&quot;&gt;API&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Python plugins&lt;/strong&gt; · [&lt;strong&gt;BREAKING&lt;/strong&gt;] · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-python/commit/b493552d6e7164cdeca8d17d11219a27bf08c55c&quot;&gt;Reflect core API changes in the Python API.&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;documentation-1&quot;&gt;Documentation&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Python plugins&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-python/commit/9bdc8f573787c01e3aaa9868b9fe32abd125cd43&quot;&gt;Unify and update links&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Python plugins&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-python/commit/82d8a33b5c92ae6959716bc2eb029803a95b11fe&quot;&gt;Polish stubfile. Minor fixes.&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Python plugins&lt;/strong&gt; · &lt;em&gt;IndexQueryHandler&lt;/em&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-python/commit/3205b6c5b7e47d8a53758f07ec550ae72fa042ef&quot;&gt;Mark final methods &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;@final&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;testing&quot;&gt;Testing&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Python plugins&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-python/commit/d4b67ba952172739452612c68431f077a50c320e&quot;&gt;Add additional tests&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;miscellaneous-tasks-1&quot;&gt;Miscellaneous Tasks&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;AUR&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-python-aur/commit/723f776e8df3c879a505c258c11eb427db196100&quot;&gt;Add maintainer&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;AUR&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-python-aur/commit/f8d04321936434e95370a207bfb851ba8a30176b&quot;&gt;Add README&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;AUR&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-python-aur/commit/9aef802106cb4f31235d25f83dac2166e71a082e&quot;&gt;Adopt v4 API changes&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;AUR&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-python-aur/commit/cd67ddb28f9fbc9747233ca1085165c2efed3996&quot;&gt;Adopt v4 StandardItem API changes&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Albert&lt;/strong&gt; · &lt;em&gt;icon&lt;/em&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-application/commit/316c64a18fa66384d299fea91edb298973ac5fb7&quot;&gt;Adapt to updated icon API&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Applications&lt;/strong&gt; · &lt;em&gt;icon&lt;/em&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-applications/commit/1a13860f8d2d583885416d84ca7f326af3748e04&quot;&gt;Adapt to updated icon API&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Applications&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-applications/commit/a20cd9b8b2f67eeee3f4ebf20120323addc3ff17&quot;&gt;Make exec_args usable on all platforms&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Arch Linux Wiki&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-python-arch-wiki/commit/a75982fb9609ef02bf68ff378890aac0f5ecc7d7&quot;&gt;Adopt v4 API changes&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Arch Linux Wiki&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-python-arch-wiki/commit/4548712f5ac9ea645cd30d00d4672f9ed2f144ba&quot;&gt;Adopt v4 StandardItem API changes&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Bitwarden&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-python-bitwarden/commit/a8db13792dbf7201ba4c54b69cf1d678b7e0d67a&quot;&gt;Add README&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Bitwarden&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-python-bitwarden/commit/b65793efc9ec8f87fefccf31ae4856342cf427be&quot;&gt;Adopt v4 API changes&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Bitwarden&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-python-bitwarden/commit/e8598b7d7de40f94e93148a3294a9789135cfda0&quot;&gt;Adopt v4 StandardItem API changes&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Bluetooth&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-bluetooth/commit/aa1fa150e477992cc1c654072c0dbcc71f9e05fe&quot;&gt;Platform abstraction&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Bluetooth&lt;/strong&gt; · &lt;em&gt;icon&lt;/em&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-bluetooth/commit/8f356435859269f4a0057ba1a916f83fa75e0c96&quot;&gt;Adapt to updated icon API&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Caffeine&lt;/strong&gt; · &lt;em&gt;icon&lt;/em&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-caffeine/commit/c4b92961f994cd516e2ac7135bc6a86444a30e7a&quot;&gt;Adapt to updated icon API&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Calculator&lt;/strong&gt; · &lt;em&gt;icon&lt;/em&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-calculator-qalculate/commit/3ecc47acafef9c49af2d3e844c82d413cf5eb750&quot;&gt;Adapt to updated icon API&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Chromium&lt;/strong&gt; · &lt;em&gt;icon&lt;/em&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-chromium/commit/a146842777b852a37430ba58a893cf35167ed5eb&quot;&gt;Adapt to updated icon API&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Clipboard&lt;/strong&gt; · &lt;em&gt;icon&lt;/em&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-clipboard/commit/8c4afc60a91c3485feb521cb38a323e2d230ae01&quot;&gt;Adapt to updated icon API&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;CoinGecko&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-python-coingecko/commit/3e762fde763afa27a4415d57e801396bdaf369c2&quot;&gt;Adopt v4 API changes&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;CoinGecko&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-python-coingecko/commit/239d008dcb1eb76d1eef5f9ba05d7ddb9d263163&quot;&gt;Adopt v4 StandardItem API changes&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Contacts&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-contacts/commit/767b6a07762ff86169ed352e1f588df6c6605c5d&quot;&gt;Remove unused code&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Contacts&lt;/strong&gt; · &lt;em&gt;icon&lt;/em&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-contacts/commit/fc5ce4220b80fbbccbaf7dd3eb36ab736745c5d7&quot;&gt;Adapt to updated icon API&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Contacts&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-contacts/commit/4cad35c56268227ab017cdb21a61880c193b9f76&quot;&gt;Avoid copyingitems vector on indexing&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;CopyQ&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-python-copyq/commit/743e7d0c966d92b41b68a236b2e3c99f5a830958&quot;&gt;Adopt v4 API changes&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;CopyQ&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-python-copyq/commit/c97105370f0e8ed5539212a7f37aaef6e3595887&quot;&gt;Adopt v4 StandardItem API changes&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Date and time&lt;/strong&gt; · &lt;em&gt;icon&lt;/em&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-datetime/commit/ce8ec6efd2303dad62dffbfb76cf062a01829f27&quot;&gt;Adapt to updated icon API&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Debug&lt;/strong&gt; · &lt;em&gt;icon&lt;/em&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-debug/commit/4674fb661d4d631224ea887d3e2d3b575e42f31a&quot;&gt;Adapt to updated icon API&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Dictionary&lt;/strong&gt; · &lt;em&gt;icon&lt;/em&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-dictionary/commit/761739d81a2a02addd7e8dd1cca578b8acdea1ee&quot;&gt;Adapt to updated icon API&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Docker&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-python-docker/commit/a54a1409836ac249f0831a62c632c86c1269d59d&quot;&gt;Adopt v4 API changes&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Docker&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-python-docker/commit/62509564ab5dcaa2aa95cfa12b84a2a09e7a4a2b&quot;&gt;Adopt v4 StandardItem API changes&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;DuckDuckGo&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-python-duckduckgo/commit/06a33b8c852b561bc1f05f06ce69b7a84ff86ad6&quot;&gt;Adopt v4 API changes&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;DuckDuckGo&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-python-duckduckgo/commit/c6a7cfb9b13b5c7743abb916411d820fd326aade&quot;&gt;Adopt v4 StandardItem API changes&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Emoji&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-python-emoji/commit/b27d46b67820ab62ea5f81c60d8fd4ff7e1a6848&quot;&gt;Add maintainers&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Emoji&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-python-emoji/commit/faa3a0ae68fe5407f25911562c2f90194004525b&quot;&gt;Adopt v4 API changes&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Emoji&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-python-emoji/commit/684bdd0285b236ae9a5b1f2c7136474b8a066b3f&quot;&gt;Adopt v4 StandardItem API changes&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Files&lt;/strong&gt; · &lt;em&gt;icon&lt;/em&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-files/commit/783e01710e183b49cabc3891c159ca2d45d7f276&quot;&gt;Adapt to updated icon API&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;GitHub&lt;/strong&gt; · &lt;em&gt;icon&lt;/em&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-github/commit/5886f0c14ee42e553c76a9151cb16135ac5d5529&quot;&gt;Adapt to updated icon API&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;GitHub&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-github/commit/ba9ec20f4da9f29f0d57726460dc4e2ccf3fec5c&quot;&gt;Adapt to async keychain API&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;GoldenDict&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-python-goldendict/commit/64f0fc33b2e4864568e37234a5555b672bcd40c9&quot;&gt;Add README&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;GoldenDict&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-python-goldendict/commit/679c7e1e887924b7f56a6a967b5bf466b657c123&quot;&gt;Adopt v4 API changes&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;GoldenDict&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-python-goldendict/commit/6dd802993ce7de747abea67229d189d37af8d4d4&quot;&gt;Adopt v4 StandardItem API changes&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Hash Generator&lt;/strong&gt; · &lt;em&gt;icon&lt;/em&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-hash/commit/fa5c2a22d513d6b366d8125046bc10fe15b92bdd&quot;&gt;Adapt to updated icon API&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Jetbrains projects&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-python-jetbrains-projects/commit/d3d5051e4644e8f5f92e2000510040b4fd2f93e4&quot;&gt;Add maintainers&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Jetbrains projects&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-python-jetbrains-projects/commit/c81e1bca466cd05f694c3ffb68f65e052824d197&quot;&gt;Adopt v4 API changes&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Jetbrains projects&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-python-jetbrains-projects/commit/ec9dfa5ca6e06e4a686c69e1f3eda73276ce732d&quot;&gt;Add README&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Jetbrains projects&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-python-jetbrains-projects/commit/bc8acdb9b219e54eceaf343fe203201cb988eb5a&quot;&gt;Adopt v4 StandardItem API changes&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Kill Process&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-python-kill/commit/8ce200168b7ed8ed0d04496bd7e21ad9e80aadeb&quot;&gt;Add maintainer&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Kill Process&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-python-kill/commit/4d56e4d415c03b24c4b7909ee078c45888871e83&quot;&gt;Adopt v4 API changes&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Kill Process&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-python-kill/commit/ae1b07e217e390d48237107a7e4d5849346065fc&quot;&gt;Adopt v4 StandardItem API changes&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Locate&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-python-locate/commit/d27b5d31eb43e5ace6033ca267355cc21a682d54&quot;&gt;Adopt v4 API changes&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Locate&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-python-locate/commit/88860b02ba8684f79f207708b6ab67a76cad8e42&quot;&gt;Adopt v4 StandardItem API changes&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Media player remote&lt;/strong&gt; · &lt;em&gt;icon&lt;/em&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-mediaremote/commit/f57ddbaf05734060bf915cedd18dccb928d8f460&quot;&gt;Adapt to updated icon API&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Menu bar&lt;/strong&gt; · &lt;em&gt;icon&lt;/em&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-menubar/commit/0c79198313f5e6af3ebd9bf4fe882d38434c08f3&quot;&gt;Adapt to updated icon API&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Obsidian&lt;/strong&gt; · &lt;em&gt;icon&lt;/em&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-obsidian/commit/1448d203ec0f04b7b069af33ce3d8d8c48198534&quot;&gt;Adapt to updated icon API&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;PATH&lt;/strong&gt; · &lt;em&gt;icon&lt;/em&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-path/commit/22a9adbc330d4817e758db6652e6014d7e3a8961&quot;&gt;Adapt to updated icon API&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;PacMan&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-python-pacman/commit/4cff10414982f2c6416c6ffa91a05f40c1f4c7a3&quot;&gt;Add README&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;PacMan&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-python-pacman/commit/251ab72eb184622b730e143b807e423e5864dae5&quot;&gt;Adopt v4 API changes&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;PacMan&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-python-pacman/commit/f7cde6da4e43d39b248032c852419d48d79ea04f&quot;&gt;Adopt v4 StandardItem API changes&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Pass&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-python-pass/commit/9cd2064101012f8dbc62d222ff407751c4450c49&quot;&gt;Add maintainers&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Pass&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-python-pass/commit/c4a50082c1c2fb8814e2a1f47e1a2d9f2226f949&quot;&gt;Adopt v4 API changes&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Pass&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-python-pass/commit/e1f8388e4f154700ddf7cb4bade83cf8c8dfb572&quot;&gt;Adopt v4 StandardItem API changes&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Pomodoro&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-python-pomodoro/commit/82e8ec6bf4d42aa9e6a5276b9165e8cbe8e8c703&quot;&gt;Adopt v4 API changes&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Pomodoro&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-python-pomodoro/commit/26c5c22e0669d0924667927d53a98b73d9a59b84&quot;&gt;Adopt v4 StandardItem API changes&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Python Eval&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-python-python-eval/commit/7e52f0ffe3a4088e125800e5a77567293c5719cb&quot;&gt;Adopt v4 API changes&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Python Eval&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-python-python-eval/commit/50b161a323dae48a75e60750df4c880db941ebba&quot;&gt;Adopt v4 StandardItem API changes&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Python plugins&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-python/commit/0263a6066b6446a3501076ab823a2ea5d87aae2d&quot;&gt;Drop color plugin&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Python plugins&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-python/commit/114f1dfe1bec19c5f5938e4abc214fcc6a1004b9&quot;&gt;Drop dice_roll plugin&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Python plugins&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-python/commit/306d52575febe8d61d4af8395f20480562c5a3e3&quot;&gt;Use smart_holders for items&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Python plugins&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-python/commit/9ea2db166bff37c0a82b9e44075c93b9c128e653&quot;&gt;&amp;gt;3.9 typing annotations&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Python plugins&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-python/commit/8a53aae718762ad55fab4a9e3afba164f3538fea&quot;&gt;Update to pybind v3.0.1&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Python plugins&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-python/commit/288e484dadbf7c6e71bea7bb5bd0e3f464877c10&quot;&gt;Refactor and minor optimizations.&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;SSH&lt;/strong&gt; · &lt;em&gt;icon&lt;/em&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-ssh/commit/13f423c61ae215bfd0a3c65a6913f0dd89ccbce5&quot;&gt;Adapt to updated icon API&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Snippets&lt;/strong&gt; · &lt;em&gt;icon&lt;/em&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-snippets/commit/4247166b32b3bf38349ac70437d1b143b95b9ea5&quot;&gt;Adapt to updated icon API&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Spotify&lt;/strong&gt; · &lt;em&gt;icon&lt;/em&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-spotify/commit/3d882ea8540d3009adc1475a26c901d1ec8eb0d7&quot;&gt;Adapt to updated icon API&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Spotify&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-spotify/commit/cdb303869be902bdfac5e3fc9365ebeb18d45c66&quot;&gt;Adopt async keychain API&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Syncthing&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-python-syncthing/commit/53b07e0bcb9b830eb01490b1ee14a4ee6c58a43e&quot;&gt;Adopt v4 API changes&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Syncthing&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-python-syncthing/commit/6ca0e9d9d8714aa3ef968e5b6849c3bab1e745fa&quot;&gt;Adopt v4 StandardItem API changes&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;System&lt;/strong&gt; · &lt;em&gt;icon&lt;/em&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-system/commit/203eaef2e1fcadab085135891d388b55075076ea&quot;&gt;Adapt to updated icon API&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;TeX to Unicode&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-python-tex-to-unicode/commit/99d50d35e6bd9efbdea8982bbb669bcecbee665d&quot;&gt;Add maintainers&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;TeX to Unicode&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-python-tex-to-unicode/commit/520247480d62baa4dfcb88a6153657bca2e89ce5&quot;&gt;Adopt v4 API changes&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;TeX to Unicode&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-python-tex-to-unicode/commit/d933728411dde8f49e4fb08783234c58fc68a9b5&quot;&gt;Adopt v4 StandardItem API changes&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Time zones&lt;/strong&gt; · &lt;em&gt;icon&lt;/em&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-timezones/commit/037f982602335c5ae971f96b4756a88fc764db09&quot;&gt;Adapt to updated icon API&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Timers&lt;/strong&gt; · &lt;em&gt;icon&lt;/em&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-timer/commit/66cf1a4dbbb7226b8467082dc87a19299ac8a713&quot;&gt;Adapt to updated icon API&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Translator&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-python-translators/commit/41918fcfe27c1577495ef949dc4bc80b77a2c781&quot;&gt;Adopt v4 API changes&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Translator&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-python-translators/commit/ffa1c580095e7b5557be201ef32bc9621f78c101&quot;&gt;Adopt v4 StandardItem API changes&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;URL Handler&lt;/strong&gt; · &lt;em&gt;icon&lt;/em&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-urlhandler/commit/887a1c3829e62bf8ce9d7f5a5b48062b50df5908&quot;&gt;Adapt to updated icon API&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Unit Converter&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-python-unit-converter/commit/bd438b05b561f7b1c0e145091d68e158639631cc&quot;&gt;Add maintainers&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Unit Converter&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-python-unit-converter/commit/ae410cb031b636e9ab6eddfa49187990137dcf7e&quot;&gt;Adopt v4 API changes&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Unit Converter&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-python-unit-converter/commit/44dff840af554617f11cb434cd41859670453ae5&quot;&gt;Adopt v4 StandardItem API changes&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;VPN&lt;/strong&gt; · &lt;em&gt;icon&lt;/em&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-vpn/commit/d192152c77c6546b701b95e2c74141a104068fd3&quot;&gt;Adapt to updated icon API&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;VSCode projects&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-python-vscode-projects/commit/b684fd0ca5986d94782f5325466abb3af0e66a6d&quot;&gt;Add maintainer&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;VSCode projects&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-python-vscode-projects/commit/75684894ef19c6013ba723fb9ae48699252174d3&quot;&gt;Adopt v4 API changes&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;VSCode projects&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-python-vscode-projects/commit/51506959c605f65a6b7f85e64125877e6829af9b&quot;&gt;Adopt v4 StandardItem API changes&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;VirtualBox&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-python-virtualbox/commit/8ff5a30c273b8bf6f3d1adc5c088561387b89255&quot;&gt;Adopt v4 API changes&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;VirtualBox&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-python-virtualbox/commit/63d16bcc76ca8acc454f95dbe7992c8aa336c715&quot;&gt;Adopt v4 StandardItem API changes&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Web search&lt;/strong&gt; · &lt;em&gt;icon&lt;/em&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-websearch/commit/b0c967e03be450f55dc253d509b24cd546852963&quot;&gt;Adapt to updated icon API&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Widgets BoxModel&lt;/strong&gt; · &lt;em&gt;icon&lt;/em&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-widgetsboxmodel/commit/6f98f72f787b4f827207e2cf741912eff32254f1&quot;&gt;Adapt to updated icon API&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Widgets BoxModel&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-widgetsboxmodel/commit/f889c0d4dccc414574cd4acf13cabf4365688f86&quot;&gt;Adopt changes of async keychain&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Widgets BoxModel QSS&lt;/strong&gt; · &lt;em&gt;icon&lt;/em&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-widgetsboxmodel-qss/commit/74780be90720ebfe4313553951f2181d6c9ae26f&quot;&gt;Adapt to updated icon API&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Widgets BoxModel QSS&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-widgetsboxmodel-qss/commit/e95503644119de38c58926e5a485ee9aa4353935&quot;&gt;Adopt API changes of async keychain&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Wikipedia&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-python-wikipedia/commit/eabf72a84e55cd785ab4c0bcf62cd2e157b5c151&quot;&gt;Adopt v4 API changes&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Wikipedia&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-python-wikipedia/commit/ec146d94198eece39232cea9b75d156ef569a46c&quot;&gt;Adopt v4 StandardItem API changes&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;X Window Switcher&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-python-x-window-switcher/commit/380fd8b82b56c044d2a0a670ad069571ddfc59bf&quot;&gt;Adopt v4 API changes&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;X Window Switcher&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-python-x-window-switcher/commit/33737cd14936604db3ad601997d12edf32267f1e&quot;&gt;Adopt v4 StandardItem API changes&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Zeal&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-python-zeal/commit/b5102dc8004371424a8c7bd30c031b18052ebb0b&quot;&gt;Adopt v4 API changes&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Zeal&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-python-zeal/commit/01cf748a41a00e25b8691ee0d1d5d1837a8ef7ce&quot;&gt;Adopt v4 StandardItem API changes&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Check the &lt;a href=&quot;https://github.com/albertlauncher/albert/compare/v32.1.0...v33.0.0&quot;&gt;commit log&lt;/a&gt; for details.&lt;/p&gt;
+</description>
+          <pubDate>2025-10-14T13:51:00+00:00</pubDate>
+          <link>https://albertlauncher.github.io/2025/10/14/albert-v33.0.0-released/</link>
+          <guid isPermaLink="true">https://albertlauncher.github.io/2025/10/14/albert-v33.0.0-released/</guid>
+        </item>
+      
+    
+      
+        <item>
           <title>Albert v0.32.1 released</title>
           <description>&lt;h1 id=&quot;albert-v0321-released&quot;&gt;Albert v0.32.1 released&lt;/h1&gt;
 

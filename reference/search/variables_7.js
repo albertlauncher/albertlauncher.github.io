@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['icon_5furls_5f_0',['icon_urls_',['../classalbert_1_1util_1_1StandardItem.html#a6fade63760127e56e5d69e95878eed5e',1,'albert::util::StandardItem']]],
+  ['icon_5ffactory_5f_0',['icon_factory_',['../classalbert_1_1util_1_1StandardItem.html#a58cccc4f85ddfc1df6bdf59853530140',1,'albert::util::StandardItem']]],
   ['id_1',['id',['../classalbert_1_1Action.html#a4a9974e46952a6f4852b9a34f4e546ff',1,'albert::Action::id'],['../classalbert_1_1PluginMetadata.html#ae455e3626e396950fae4bc87e2a310ff',1,'albert::PluginMetadata::id']]],
   ['id_5f_2',['id_',['../classalbert_1_1util_1_1StandardItem.html#a8c67bbe5f74af1336e6852c52caf2192',1,'albert::util::StandardItem']]],
   ['ignore_5fcase_3',['ignore_case',['../classalbert_1_1util_1_1MatchConfig.html#ade6de120fa9c303476c0c5d563c0adba',1,'albert::util::MatchConfig']]],

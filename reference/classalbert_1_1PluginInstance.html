@@ -105,7 +105,7 @@ $(document).ready(function(){initNavTree('classalbert_1_1PluginInstance.html',''
 <div class="dynheader">
 Inheritance diagram for albert::PluginInstance:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classalbert_1_1PluginInstance__inherit__graph.svg" width="186" height="111"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classalbert_1_1PluginInstance__inherit__graph.svg" width="358" height="111"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Abstract plugin instance class. </p>
@@ -120,7 +120,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:ae1c91829360d9e5d4d08033d7d155a85"><td class="mdescLeft">&#160;</td><td class="mdescRight">The extensions provided by this plugin.  <br /></td></tr>
 <tr class="separator:ae1c91829360d9e5d4d08033d7d155a85"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a050d248da29f0a6106f83b53036fcaac" id="r_a050d248da29f0a6106f83b53036fcaac"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classalbert_1_1PluginLoader.html">PluginLoader</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1PluginInstance.html#a050d248da29f0a6106f83b53036fcaac">loader</a> () const</td></tr>
-<tr class="memdesc:a050d248da29f0a6106f83b53036fcaac"><td class="mdescLeft">&#160;</td><td class="mdescRight">The PluginLoader of this instance.  <br /></td></tr>
+<tr class="memdesc:a050d248da29f0a6106f83b53036fcaac"><td class="mdescLeft">&#160;</td><td class="mdescRight">The <a class="el" href="classalbert_1_1PluginLoader.html">PluginLoader</a> of this instance.  <br /></td></tr>
 <tr class="separator:a050d248da29f0a6106f83b53036fcaac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a986c378aec3a83830d5815116330d3c2" id="r_a986c378aec3a83830d5815116330d3c2"><td class="memItemLeft" align="right" valign="top">std::filesystem::path&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1PluginInstance.html#a986c378aec3a83830d5815116330d3c2">cacheLocation</a> () const</td></tr>
 <tr class="memdesc:a986c378aec3a83830d5815116330d3c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">The recommended cache location.  <br /></td></tr>
@@ -140,12 +140,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a5a9678437750233481ca162744bdb93f" id="r_a5a9678437750233481ca162744bdb93f"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; QSettings &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1PluginInstance.html#a5a9678437750233481ca162744bdb93f">state</a> () const</td></tr>
 <tr class="memdesc:a5a9678437750233481ca162744bdb93f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Persistent plugin state.  <br /></td></tr>
 <tr class="separator:a5a9678437750233481ca162744bdb93f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac9051b125051feb0833d2f30bd917506" id="r_ac9051b125051feb0833d2f30bd917506"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1PluginInstance.html#ac9051b125051feb0833d2f30bd917506">readKeychain</a> (const QString &amp;key) const</td></tr>
-<tr class="memdesc:ac9051b125051feb0833d2f30bd917506"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reads the keychain value for <code>key</code>.  <br /></td></tr>
-<tr class="separator:ac9051b125051feb0833d2f30bd917506"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7e23a9b754d0c725e5897cd9d6d98ee9" id="r_a7e23a9b754d0c725e5897cd9d6d98ee9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1PluginInstance.html#a7e23a9b754d0c725e5897cd9d6d98ee9">writeKeychain</a> (const QString &amp;key, const QString &amp;value) const</td></tr>
-<tr class="memdesc:a7e23a9b754d0c725e5897cd9d6d98ee9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the keychain value of <code>key</code> to <code>value</code>.  <br /></td></tr>
-<tr class="separator:a7e23a9b754d0c725e5897cd9d6d98ee9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae407d151635db0e6fd2ed5d059ff37ae" id="r_ae407d151635db0e6fd2ed5d059ff37ae"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1PluginInstance.html#ae407d151635db0e6fd2ed5d059ff37ae">readKeychain</a> (const QString &amp;key, std::function&lt; void(const QString &amp;)&gt; onSuccess, std::function&lt; void(const QString &amp;)&gt; onError) const</td></tr>
+<tr class="memdesc:ae407d151635db0e6fd2ed5d059ff37ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reads the keychain value for <code>key</code> asynchronously.  <br /></td></tr>
+<tr class="separator:ae407d151635db0e6fd2ed5d059ff37ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a776acef7203c9a02c00f9b97737a8acb" id="r_a776acef7203c9a02c00f9b97737a8acb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1PluginInstance.html#a776acef7203c9a02c00f9b97737a8acb">writeKeychain</a> (const QString &amp;key, const QString &amp;value, std::function&lt; void()&gt; onSuccess, std::function&lt; void(const QString &amp;)&gt; onError) const</td></tr>
+<tr class="memdesc:a776acef7203c9a02c00f9b97737a8acb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the keychain value of <code>key</code> to <code>value</code> asynchronously.  <br /></td></tr>
+<tr class="separator:a776acef7203c9a02c00f9b97737a8acb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
@@ -251,7 +251,6 @@ Protected Member Functions</h2></td></tr>
 
 <p>The recommended cache location. </p>
 <dl class="section return"><dt>Returns</dt><dd>The recommended cache location.   </dd></dl>
-<dl class="section since"><dt>Since</dt><dd>0.27 </dd></dl>
 
 </div>
 </div>
@@ -272,7 +271,6 @@ Protected Member Functions</h2></td></tr>
 
 <p>The recommended config location. </p>
 <dl class="section return"><dt>Returns</dt><dd>The recommended config location.   </dd></dl>
-<dl class="section since"><dt>Since</dt><dd>0.27 </dd></dl>
 
 </div>
 </div>
@@ -293,7 +291,6 @@ Protected Member Functions</h2></td></tr>
 
 <p>The recommended data location. </p>
 <dl class="section return"><dt>Returns</dt><dd>The recommended data location.   </dd></dl>
-<dl class="section since"><dt>Since</dt><dd>0.27 </dd></dl>
 
 </div>
 </div>
@@ -314,7 +311,6 @@ Protected Member Functions</h2></td></tr>
 
 <p>The existing data locations of this plugin. </p>
 <dl class="section return"><dt>Returns</dt><dd>The existing data locations of this plugin.   </dd></dl>
-<dl class="section since"><dt>Since</dt><dd>0.28 </dd></dl>
 
 </div>
 </div>
@@ -343,7 +339,6 @@ Protected Member Functions</h2></td></tr>
 
 <p>The extensions provided by this plugin. </p>
 <dl class="section return"><dt>Returns</dt><dd>Weak references to the extensions. </dd></dl>
-<dl class="section since"><dt>Since</dt><dd>0.27 </dd></dl>
 
 <p>Reimplemented in <a class="el" href="classalbert_1_1util_1_1ExtensionPlugin.html#a74ec8b1a7046d0ca3102209efc06e50e">albert::util::ExtensionPlugin</a>.</p>
 
@@ -364,30 +359,45 @@ Protected Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>The PluginLoader of this instance. </p>
-<dl class="section return"><dt>Returns</dt><dd>The PluginLoader of this instance.   </dd></dl>
-<dl class="section since"><dt>Since</dt><dd>0.24 </dd></dl>
+<p>The <a class="el" href="classalbert_1_1PluginLoader.html">PluginLoader</a> of this instance. </p>
+<dl class="section return"><dt>Returns</dt><dd>The <a class="el" href="classalbert_1_1PluginLoader.html">PluginLoader</a> of this instance.   </dd></dl>
 
 </div>
 </div>
-<a id="ac9051b125051feb0833d2f30bd917506" name="ac9051b125051feb0833d2f30bd917506"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac9051b125051feb0833d2f30bd917506">&#9670;&#160;</a></span>readKeychain()</h2>
+<a id="ae407d151635db0e6fd2ed5d059ff37ae" name="ae407d151635db0e6fd2ed5d059ff37ae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae407d151635db0e6fd2ed5d059ff37ae">&#9670;&#160;</a></span>readKeychain()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">QString albert::PluginInstance::readKeychain </td>
+          <td class="memname">void albert::PluginInstance::readKeychain </td>
           <td>(</td>
           <td class="paramtype">const QString &amp;&#160;</td>
-          <td class="paramname"><em>key</em></td><td>)</td>
-          <td> const</td>
+          <td class="paramname"><em>key</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::function&lt; void(const QString &amp;)&gt;&#160;</td>
+          <td class="paramname"><em>onSuccess</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::function&lt; void(const QString &amp;)&gt;&#160;</td>
+          <td class="paramname"><em>onError</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Reads the keychain value for <code>key</code>. </p>
-<p>Convenience function avoiding name conflicts. </p>
+<p>Reads the keychain value for <code>key</code> asynchronously. </p>
+<p>Calls <code>onSuccess</code> with the value on success and <code>onError</code> with an error message on failure. </p>
 
 </div>
 </div>
@@ -407,7 +417,7 @@ Protected Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Persistent plugin settings. </p>
-<p>Preconfigured according to albert conventions, i.e. using albert::settings() configured to write to a section titled &lt;plugin-id&gt;. </p><dl class="section return"><dt>Returns</dt><dd>Preconfigured QSettings object for config storage. </dd></dl>
+<p>Preconfigured according to albert conventions, i.e. using <a class="el" href="namespacealbert.html#a09085231379cd9843cd3064606bc0766">albert::settings()</a> configured to write to a section titled &lt;plugin-id&gt;. </p><dl class="section return"><dt>Returns</dt><dd>Preconfigured QSettings object for config storage. </dd></dl>
 
 </div>
 </div>
@@ -427,13 +437,12 @@ Protected Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Persistent plugin state. </p>
-<p>Preconfigured according to albert conventions, i.e. using albert::state() configured to write to a section titled &lt;plugin-id&gt;. </p><dl class="section since"><dt>Since</dt><dd>0.23 </dd></dl>
-<dl class="section return"><dt>Returns</dt><dd>Preconfigured QSettings object for state storage. </dd></dl>
+<p>Preconfigured according to albert conventions, i.e. using <a class="el" href="namespacealbert.html#a1998f7413d7a26e994fc3a8ff17df336">albert::state()</a> configured to write to a section titled &lt;plugin-id&gt;. </p><dl class="section return"><dt>Returns</dt><dd>Preconfigured QSettings object for state storage. </dd></dl>
 
 </div>
 </div>
-<a id="a7e23a9b754d0c725e5897cd9d6d98ee9" name="a7e23a9b754d0c725e5897cd9d6d98ee9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7e23a9b754d0c725e5897cd9d6d98ee9">&#9670;&#160;</a></span>writeKeychain()</h2>
+<a id="a776acef7203c9a02c00f9b97737a8acb" name="a776acef7203c9a02c00f9b97737a8acb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a776acef7203c9a02c00f9b97737a8acb">&#9670;&#160;</a></span>writeKeychain()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -448,7 +457,19 @@ Protected Member Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const QString &amp;&#160;</td>
-          <td class="paramname"><em>value</em>&#160;</td>
+          <td class="paramname"><em>value</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::function&lt; void()&gt;&#160;</td>
+          <td class="paramname"><em>onSuccess</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::function&lt; void(const QString &amp;)&gt;&#160;</td>
+          <td class="paramname"><em>onError</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -458,8 +479,8 @@ Protected Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Sets the keychain value of <code>key</code> to <code>value</code>. </p>
-<p>Convenience function avoiding name conflicts. </p>
+<p>Sets the keychain value of <code>key</code> to <code>value</code> asynchronously. </p>
+<p>Calls <code>onSuccess</code> on success and <code>onError</code> with an error message on failure. </p>
 
 </div>
 </div>

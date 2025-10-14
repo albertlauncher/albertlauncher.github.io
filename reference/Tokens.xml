@@ -112,6 +112,16 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>albert::Icon</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+      <Scope>albert::Icon</Scope>
+    </TokenIdentifier>
+    <Path>classalbert_1_1Icon.html</Path>
+    <DeclaredIn>albert/icon.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>albert::util::IndexItem</Name>
       <APILanguage>c</APILanguage>
       <Type>cl</Type>
@@ -496,6 +506,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>actualSize</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>albert::Icon</Scope>
+    </TokenIdentifier>
+    <Path>classalbert_1_1Icon.html</Path>
+    <Anchor>a6ddb6b2ac88023d22889f5b9406eafd6</Anchor>
+    <DeclaredIn>icon.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>add</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
@@ -680,6 +701,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>cacheKey</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>albert::Icon</Scope>
+    </TokenIdentifier>
+    <Path>classalbert_1_1Icon.html</Path>
+    <Anchor>a4d6e8a4dc0f6059fb629ec608dd906c8</Anchor>
+    <DeclaredIn>icon.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>cacheLocation</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
@@ -753,6 +785,17 @@
     <Path>classalbert_1_1util_1_1OAuth2.html</Path>
     <Anchor>a85ec2e638ac6ee049c3e1b6f18b01ef2</Anchor>
     <DeclaredIn>oauth.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>clone</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>albert::Icon</Scope>
+    </TokenIdentifier>
+    <Path>classalbert_1_1Icon.html</Path>
+    <Anchor>a58c779282edf5dac20e0889f717314d8</Anchor>
+    <DeclaredIn>icon.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -1249,7 +1292,7 @@
       <Scope>albert::TriggerQueryHandler</Scope>
     </TokenIdentifier>
     <Path>classalbert_1_1TriggerQueryHandler.html</Path>
-    <Anchor>a14e770979eb2456826cf954d80b86a36</Anchor>
+    <Anchor>a075ae1f685990887694234312ed81b85</Anchor>
     <DeclaredIn>triggerqueryhandler.h</DeclaredIn>
   </Token>
   <Token>
@@ -1264,34 +1307,45 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>icon_urls_</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>data</Type>
-      <Scope>albert::util::StandardItem</Scope>
-    </TokenIdentifier>
-    <Path>classalbert_1_1util_1_1StandardItem.html</Path>
-    <Anchor>a6fade63760127e56e5d69e95878eed5e</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>iconUrls</Name>
+      <Name>icon</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
       <Scope>albert::Item</Scope>
     </TokenIdentifier>
     <Path>classalbert_1_1Item.html</Path>
-    <Anchor>af24bba87910db269e79df47622e1bdd5</Anchor>
+    <Anchor>a182e6af95bdf2350a41d1be0719593b6</Anchor>
     <DeclaredIn>item.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>iconUrls</Name>
+      <Name>icon</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
       <Scope>albert::util::StandardItem</Scope>
     </TokenIdentifier>
     <Path>classalbert_1_1util_1_1StandardItem.html</Path>
-    <Anchor>a82022674d66fa5876ad121d7f9fe8976</Anchor>
+    <Anchor>adb55cc4c0da28a03ccd3e502f03f8fb6</Anchor>
+    <DeclaredIn>standarditem.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>icon_factory_</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>albert::util::StandardItem</Scope>
+    </TokenIdentifier>
+    <Path>classalbert_1_1util_1_1StandardItem.html</Path>
+    <Anchor>a58cccc4f85ddfc1df6bdf59853530140</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>iconFactory</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>albert::util::StandardItem</Scope>
+    </TokenIdentifier>
+    <Path>classalbert_1_1util_1_1StandardItem.html</Path>
+    <Anchor>a355c90c83cba47b309e9af6e8dc506bb</Anchor>
     <DeclaredIn>standarditem.h</DeclaredIn>
   </Token>
   <Token>
@@ -1574,6 +1628,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>isNull</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>albert::Icon</Scope>
+    </TokenIdentifier>
+    <Path>classalbert_1_1Icon.html</Path>
+    <Anchor>ac0dc834d49025ae707d935ce6439beea</Anchor>
+    <DeclaredIn>icon.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>isPkceEnabled</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
@@ -1748,41 +1813,8 @@
       <Scope>albert::util::StandardItem</Scope>
     </TokenIdentifier>
     <Path>classalbert_1_1util_1_1StandardItem.html</Path>
-    <Anchor>a3f929ca7faea221a6bcf694554b0a682</Anchor>
+    <Anchor>ae91819e64011f6901085d83750b061a3</Anchor>
     <DeclaredIn>standarditem.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>Match</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>albert::util::Match</Scope>
-    </TokenIdentifier>
-    <Path>classalbert_1_1util_1_1Match.html</Path>
-    <Anchor>a4a06d7ae6ec5b8eb9258d873003b4473</Anchor>
-    <DeclaredIn>matcher.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>Match</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>albert::util::Match</Scope>
-    </TokenIdentifier>
-    <Path>classalbert_1_1util_1_1Match.html</Path>
-    <Anchor>a53955c401dc7dafd2a3b0dfe7d7c1d23</Anchor>
-    <DeclaredIn>matcher.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>Match</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>albert::util::Match</Scope>
-    </TokenIdentifier>
-    <Path>classalbert_1_1util_1_1Match.html</Path>
-    <Anchor>ae56f20f47823ca3cb245bcc6f4c0ebff</Anchor>
-    <DeclaredIn>matcher.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -1815,6 +1847,39 @@
     </TokenIdentifier>
     <Path>classalbert_1_1util_1_1Matcher.html</Path>
     <Anchor>abc5e1a5fb08281f529489db72af37ee9</Anchor>
+    <DeclaredIn>matcher.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Match</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>albert::util::Match</Scope>
+    </TokenIdentifier>
+    <Path>classalbert_1_1util_1_1Match.html</Path>
+    <Anchor>a4a06d7ae6ec5b8eb9258d873003b4473</Anchor>
+    <DeclaredIn>matcher.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Match</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>albert::util::Match</Scope>
+    </TokenIdentifier>
+    <Path>classalbert_1_1util_1_1Match.html</Path>
+    <Anchor>a53955c401dc7dafd2a3b0dfe7d7c1d23</Anchor>
+    <DeclaredIn>matcher.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Match</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>albert::util::Match</Scope>
+    </TokenIdentifier>
+    <Path>classalbert_1_1util_1_1Match.html</Path>
+    <Anchor>ae56f20f47823ca3cb245bcc6f4c0ebff</Anchor>
     <DeclaredIn>matcher.h</DeclaredIn>
   </Token>
   <Token>
@@ -2091,6 +2156,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>paint</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>albert::Icon</Scope>
+    </TokenIdentifier>
+    <Path>classalbert_1_1Icon.html</Path>
+    <Anchor>a299d8e3841cd0e4ee94abba92367a497</Anchor>
+    <DeclaredIn>icon.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>parallel</Name>
       <APILanguage>cpp</APILanguage>
       <Type>data</Type>
@@ -2120,6 +2196,17 @@
     <Path>classalbert_1_1PluginLoader.html</Path>
     <Anchor>adaeee71bdc38be3a98fa6f471b6a8f0a</Anchor>
     <DeclaredIn>pluginloader.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>pixmap</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>albert::Icon</Scope>
+    </TokenIdentifier>
+    <Path>classalbert_1_1Icon.html</Path>
+    <Anchor>a3046051e43ea6924f0df20548182f319</Anchor>
+    <DeclaredIn>icon.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -2225,7 +2312,7 @@
       <Scope>albert::PluginInstance</Scope>
     </TokenIdentifier>
     <Path>classalbert_1_1PluginInstance.html</Path>
-    <Anchor>ac9051b125051feb0833d2f30bd917506</Anchor>
+    <Anchor>ae407d151635db0e6fd2ed5d059ff37ae</Anchor>
     <DeclaredIn>plugininstance.h</DeclaredIn>
   </Token>
   <Token>
@@ -2510,13 +2597,13 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>setIconUrls</Name>
+      <Name>setIconFactory</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
       <Scope>albert::util::StandardItem</Scope>
     </TokenIdentifier>
     <Path>classalbert_1_1util_1_1StandardItem.html</Path>
-    <Anchor>a9e8c8ccbd13d9d85e83634969c003844</Anchor>
+    <Anchor>a0a37b063d4f4a75c37c17bdad519812c</Anchor>
     <DeclaredIn>standarditem.h</DeclaredIn>
   </Token>
   <Token>
@@ -2703,7 +2790,7 @@
       <Scope>albert::TriggerQueryHandler</Scope>
     </TokenIdentifier>
     <Path>classalbert_1_1TriggerQueryHandler.html</Path>
-    <Anchor>ae04d3a2e067b6d0e3e151d4a6f880afc</Anchor>
+    <Anchor>af15759ea57315499784db88b88166bb2</Anchor>
     <DeclaredIn>triggerqueryhandler.h</DeclaredIn>
   </Token>
   <Token>
@@ -2736,7 +2823,7 @@
       <Scope>albert::util::StandardItem</Scope>
     </TokenIdentifier>
     <Path>classalbert_1_1util_1_1StandardItem.html</Path>
-    <Anchor>af3b6692eaf865147879b19f9ac224da9</Anchor>
+    <Anchor>aee806a5e91bef919cddd1abe2d8d3c4b</Anchor>
     <DeclaredIn>standarditem.h</DeclaredIn>
   </Token>
   <Token>
@@ -3116,6 +3203,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>toUrl</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>albert::Icon</Scope>
+    </TokenIdentifier>
+    <Path>classalbert_1_1Icon.html</Path>
+    <Anchor>a54ce37829dd9a05ced0e5e8ae429b6e2</Anchor>
+    <DeclaredIn>icon.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>translations</Name>
       <APILanguage>cpp</APILanguage>
       <Type>data</Type>
@@ -3261,7 +3359,7 @@
       <Scope>albert::PluginInstance</Scope>
     </TokenIdentifier>
     <Path>classalbert_1_1PluginInstance.html</Path>
-    <Anchor>a7e23a9b754d0c725e5897cd9d6d98ee9</Anchor>
+    <Anchor>a776acef7203c9a02c00f9b97737a8acb</Anchor>
     <DeclaredIn>plugininstance.h</DeclaredIn>
   </Token>
   <Token>
@@ -3340,6 +3438,17 @@
     <Path>classalbert_1_1GlobalQueryHandler.html</Path>
     <Anchor>a3e4cba0351c0d47953476559db4b9b3a</Anchor>
     <DeclaredIn>globalqueryhandler.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>~Icon</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>albert::Icon</Scope>
+    </TokenIdentifier>
+    <Path>classalbert_1_1Icon.html</Path>
+    <Anchor>a818902ac617ccc26ef6e73e555352125</Anchor>
+    <DeclaredIn>icon.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -3483,6 +3592,17 @@
     <Path>classalbert_1_1detail_1_1RateLimiter.html</Path>
     <Anchor>a5174fb931e7b188eb824f0947debdcfa</Anchor>
     <DeclaredIn>networkutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>~StandardItem</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>albert::util::StandardItem</Scope>
+    </TokenIdentifier>
+    <Path>classalbert_1_1util_1_1StandardItem.html</Path>
+    <Anchor>a8d7877523a472d9ea4c5d1143b7ef924</Anchor>
+    <DeclaredIn>standarditem.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -3641,6 +3761,72 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>ArrowBack</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a65152af1dfff0f5d1a1b11bb305829ada4716d868862a672778314e045e8cb85e</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ArrowDown</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a65152af1dfff0f5d1a1b11bb305829ada4de84fc1e08372fa6ff4fed82c732d6e</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ArrowForward</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a65152af1dfff0f5d1a1b11bb305829adaac102a053d6b2008471acc6bb255bcfa</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ArrowLeft</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a65152af1dfff0f5d1a1b11bb305829adaeef08c31c70c23e3ca66b5268a627b5b</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ArrowRight</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a65152af1dfff0f5d1a1b11bb305829ada98e798ae7d53e928ac4a3ba519de5ba6</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ArrowUp</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a65152af1dfff0f5d1a1b11bb305829ada4667f6e0e35933489b2f04d0fefe3e31</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>await</Name>
       <APILanguage>cpp</APILanguage>
       <Type>func</Type>
@@ -3740,6 +3926,28 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>BrowserReload</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a65152af1dfff0f5d1a1b11bb305829ada06fc3277ad62989f43817af10bb10e12</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>BrowserStop</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a65152af1dfff0f5d1a1b11bb305829adadbe396c6a01c75a7c8ac9a696d0b492c</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>cacheLocation</Name>
       <APILanguage>cpp</APILanguage>
       <Type>func</Type>
@@ -3788,6 +3996,61 @@
     <Path>logging_8h.html</Path>
     <Anchor>af475890bcf50f518e8390e156ddd217b</Anchor>
     <DeclaredIn>logging.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>CommandLink</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a65152af1dfff0f5d1a1b11bb305829adabd4df8de1346ba00ffd32522b1cd04d7</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>composedIconDefaultPos1</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a91ffe74e7bc8528b3ff9a016bf6ec940</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>composedIconDefaultPos2</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>af5f430b8fb4b54551b966a3aa7e27413</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>composedIconDefaultSize</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a7bd1ec36bc375e1195c73ac20b11ae49</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ComputerIcon</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a65152af1dfff0f5d1a1b11bb305829ada0626f88f54c58f60f7d89aaefc635762</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -3885,6 +4148,336 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>DesktopIcon</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a65152af1dfff0f5d1a1b11bb305829ada415d5420090da2a6021e1f743a3d8921</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DialogAbortButton</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a65152af1dfff0f5d1a1b11bb305829ada56f5827066dc281560ae7b64c77c8aa9</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DialogApplyButton</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a65152af1dfff0f5d1a1b11bb305829ada0a0c8bcccab843b462957e78943f2ae0</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DialogCancelButton</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a65152af1dfff0f5d1a1b11bb305829adaca16acf43c438213aa0685348f862c32</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DialogCloseButton</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a65152af1dfff0f5d1a1b11bb305829adaaf45443f97be558d2c6d397b74650bce</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DialogDiscardButton</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a65152af1dfff0f5d1a1b11bb305829adae5d44d11e0a23075b20163c7a5f36cba</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DialogHelpButton</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a65152af1dfff0f5d1a1b11bb305829ada732b3457aaa915b2ba6adfa005d73e35</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DialogIgnoreButton</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a65152af1dfff0f5d1a1b11bb305829adab4f25fd1f6364df1617673ecf7108929</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DialogNoButton</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a65152af1dfff0f5d1a1b11bb305829ada48804a7a229d0c92cdd5989c3d310b50</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DialogNoToAllButton</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a65152af1dfff0f5d1a1b11bb305829ada121f3ae8f9de979fea5fff740242ddc7</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DialogOkButton</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a65152af1dfff0f5d1a1b11bb305829adaac997539d14f204b2296ade70f1f5681</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DialogOpenButton</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a65152af1dfff0f5d1a1b11bb305829ada50ff075dfe67531f7e20b8699611a534</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DialogResetButton</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a65152af1dfff0f5d1a1b11bb305829adaa668ede7a5454cc0f30d6b15b2a38b7c</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DialogRetryButton</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a65152af1dfff0f5d1a1b11bb305829ada733f57be269077cb76b562d4f36f163d</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DialogSaveAllButton</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a65152af1dfff0f5d1a1b11bb305829ada4d9cc5475aae1530c9a19224ff7e67eb</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DialogSaveButton</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a65152af1dfff0f5d1a1b11bb305829ada8c68537ffe564d3f35d326e3a4d5f292</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DialogYesButton</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a65152af1dfff0f5d1a1b11bb305829ada0a66657f300bc590539b017e026c654e</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DialogYesToAllButton</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a65152af1dfff0f5d1a1b11bb305829ada5ed6c6084d4fa5217a31f43cfd191f40</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DirClosedIcon</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a65152af1dfff0f5d1a1b11bb305829ada8a5d3266c27a0ff10441b057c0a11f29</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DirHomeIcon</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a65152af1dfff0f5d1a1b11bb305829ada8da688e5bc0831ede68a92d3b9471624</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DirIcon</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a65152af1dfff0f5d1a1b11bb305829adafca382d93bbbd19e2ac5ca8e62da6566</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DirLinkIcon</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a65152af1dfff0f5d1a1b11bb305829ada8634f080931e6519efdd5603e4475828</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DirLinkOpenIcon</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a65152af1dfff0f5d1a1b11bb305829ada60c26d7d0ada651068d6f7968bcbe195</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DirOpenIcon</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a65152af1dfff0f5d1a1b11bb305829ada0c86993fcddce4153b3b03ac04206e9c</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DockWidgetCloseButton</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a65152af1dfff0f5d1a1b11bb305829adab96b8de7387cad883bc49a35596e308b</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DriveCDIcon</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a65152af1dfff0f5d1a1b11bb305829ada921426458f42e23bf3d36df99237b58a</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DriveDVDIcon</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a65152af1dfff0f5d1a1b11bb305829adac2cf60f7b9e567215b0fc43052afe67e</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DriveFDIcon</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a65152af1dfff0f5d1a1b11bb305829ada6b2677aa095e33ecd5040c7cac112439</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DriveHDIcon</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a65152af1dfff0f5d1a1b11bb305829ada3d81ff3b6dc8ad4a5d773dd14b47a108</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DriveNetIcon</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a65152af1dfff0f5d1a1b11bb305829adafd153069420d94fdbf2c481776374a80</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>EXPAND_STRINGIZE</Name>
       <APILanguage>unknown</APILanguage>
       <Type>macro</Type>
@@ -3906,36 +4499,146 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>fileIcon</Name>
+      <Name>FileDialogBack</Name>
       <APILanguage>cpp</APILanguage>
-      <Type>func</Type>
-      <Scope>albert::detail</Scope>
+      <Type>econst</Type>
+      <Scope>albert</Scope>
     </TokenIdentifier>
-    <Path>namespacealbert_1_1detail.html</Path>
-    <Anchor>ae1984e30a529c8c436195a0ed3ec525d</Anchor>
-    <DeclaredIn>iconprovider.h</DeclaredIn>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a65152af1dfff0f5d1a1b11bb305829ada27fbae1e4048ca1faeb5445fae73a596</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>genericIcon</Name>
+      <Name>FileDialogContentsView</Name>
       <APILanguage>cpp</APILanguage>
-      <Type>func</Type>
-      <Scope>albert::detail</Scope>
+      <Type>econst</Type>
+      <Scope>albert</Scope>
     </TokenIdentifier>
-    <Path>namespacealbert_1_1detail.html</Path>
-    <Anchor>a07f1b551718f8e7be2f5974219c96e3f</Anchor>
-    <DeclaredIn>iconprovider.h</DeclaredIn>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a65152af1dfff0f5d1a1b11bb305829adaffdec2b3ebfe63409e5837c55bff7377</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>genericPixmap</Name>
+      <Name>FileDialogDetailedView</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a65152af1dfff0f5d1a1b11bb305829ada5c7e322381d37ee52f8e55be624a2a94</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>FileDialogEnd</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a65152af1dfff0f5d1a1b11bb305829ada53003f5417653d7f977b7cafaf8f6ac5</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>FileDialogInfoView</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a65152af1dfff0f5d1a1b11bb305829adaaa4fad79a8492279d23eb8e00607d5d7</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>FileDialogListView</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a65152af1dfff0f5d1a1b11bb305829adaa65f48a9a2466cd1fb39ce946ef5a592</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>FileDialogNewFolder</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a65152af1dfff0f5d1a1b11bb305829ada54d575be431a2a8bd9668c8c5d4273f1</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>FileDialogStart</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a65152af1dfff0f5d1a1b11bb305829ada3b355784d21e574a2c8dae9714c90ec4</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>FileDialogToParent</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a65152af1dfff0f5d1a1b11bb305829adaab911a1db0bff51efd2d7671a3c3cf05</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>FileIcon</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a65152af1dfff0f5d1a1b11bb305829ada4e24b54600d94d5eccb3bc9c6626a07a</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>FileLinkIcon</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a65152af1dfff0f5d1a1b11bb305829adaf0dfe7b59f87d8ee0c229f80d3efed63</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>graphemeIconDefaultColor</Name>
       <APILanguage>cpp</APILanguage>
       <Type>func</Type>
-      <Scope>albert::detail</Scope>
+      <Scope>albert</Scope>
     </TokenIdentifier>
-    <Path>namespacealbert_1_1detail.html</Path>
-    <Anchor>a5fd9f85a1c27697a1294e0326f4bdee3</Anchor>
-    <DeclaredIn>iconprovider.h</DeclaredIn>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a5b57bbf31c8fa4af4aff58f4183e5b3b</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>graphemeIconDefaultScalar</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>afa6e7b4952acb3799f32fafbd8d34145</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -3953,22 +4656,66 @@
       <Name>iconFromUrl</Name>
       <APILanguage>cpp</APILanguage>
       <Type>func</Type>
-      <Scope>albert::detail</Scope>
+      <Scope>albert</Scope>
     </TokenIdentifier>
-    <Path>namespacealbert_1_1detail.html</Path>
-    <Anchor>ad4261f15028c9c6414f974413ec1ae32</Anchor>
-    <DeclaredIn>iconprovider.h</DeclaredIn>
+    <Path>namespacealbert.html</Path>
+    <Anchor>ad04bae4785bbe6b69f7b848cfb969466</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
       <Name>iconFromUrls</Name>
       <APILanguage>cpp</APILanguage>
       <Type>func</Type>
-      <Scope>albert::detail</Scope>
+      <Scope>albert</Scope>
     </TokenIdentifier>
-    <Path>namespacealbert_1_1detail.html</Path>
-    <Anchor>a9316fa929748922feda9b358e913b1e7</Anchor>
-    <DeclaredIn>iconprovider.h</DeclaredIn>
+    <Path>namespacealbert.html</Path>
+    <Anchor>abdc3bac3d3ff250f4c2e82188e07dd5b</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>iconifiedIconDefaultBorderColor</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>ab38a8c8cefb2ef85da321dccf284bea8</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>iconifiedIconDefaultBorderRadius</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a7d76829a6dd1c67a06e9bbd8f1674d01</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>iconifiedIconDefaultBorderWidth</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>ac21013cb5040842be4baf86d6c97cc37</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>iconifiedIconDefaultColor</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a28dd26856865adf756823a8c74457e03</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -3990,6 +4737,270 @@
     <Path>namespacealbert_1_1util.html</Path>
     <Anchor>aba684528627f3372c432cbd0a6eff899</Anchor>
     <DeclaredIn>messagebox.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>LineEditClearButton</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a65152af1dfff0f5d1a1b11bb305829adabf6519a7be172af2bf218906c000c15e</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>makeComposedIcon</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a0bee48154cb7b9e38e67d70a2ffd4e26</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>makeFileTypeIcon</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a22afc0cea51cf05c992412947d149d4c</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>makeFileTypeIcon</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a23c91b6ca1bda9e2d3448c8b6813bb7c</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>makeGraphemeIcon</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a7e579b0a1cbb815bd79b08b2e4196312</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>makeIconifiedIcon</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a217d8e674474f1edb32e96e32af0f638</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>makeImageIcon</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a7bd918cd73c17638586c03cab6b64ea5</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>makeImageIcon</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>aa88662b47018d014eabd62cdbe2b38e9</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>makeRectIcon</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a1421490f55010c16da8260b494787132</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>makeStandardIcon</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a62369b6986902d127f93a84562af62be</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>makeThemeIcon</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a3cabfcc5d8a677583d3af64bd12041a5</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>MediaPause</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a65152af1dfff0f5d1a1b11bb305829adae6e526dbf30f3b0a684eb6fef8b365a4</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>MediaPlay</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a65152af1dfff0f5d1a1b11bb305829ada8c85929acf44250d8fd9531426d34744</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>MediaSeekBackward</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a65152af1dfff0f5d1a1b11bb305829ada75373d0100041378acf09e52e2095563</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>MediaSeekForward</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a65152af1dfff0f5d1a1b11bb305829adaf08c17e7c1a32e29418b2dacadd8ecde</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>MediaSkipBackward</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a65152af1dfff0f5d1a1b11bb305829ada9f1f0cea2eedf1e942f336aeee2c2750</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>MediaSkipForward</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a65152af1dfff0f5d1a1b11bb305829ada5be19b73a32896dcc05cbbc32011c6a7</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>MediaStop</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a65152af1dfff0f5d1a1b11bb305829adae7480dd651271a0e8b97ea8b3e23efb0</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>MediaVolume</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a65152af1dfff0f5d1a1b11bb305829adaac0a9f4d9f9f8fafaed8ac0bb36d0c80</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>MediaVolumeMuted</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a65152af1dfff0f5d1a1b11bb305829ada545ed85aa36d4bbf8b89a1b3b5a3816f</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>MessageBoxCritical</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a65152af1dfff0f5d1a1b11bb305829adabe181785e3051945579a65e9961af235</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>MessageBoxInformation</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a65152af1dfff0f5d1a1b11bb305829ada380583c00b9c0aa4b0be09ef6aa6dc3c</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>MessageBoxQuestion</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a65152af1dfff0f5d1a1b11bb305829adaa3b7a3774a302e8ef9553dd53b8c6ff2</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>MessageBoxWarning</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a65152af1dfff0f5d1a1b11bb305829adad9844ab7e2f181866ba481ad155cac4c</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -4048,25 +5059,36 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>pixmapFromUrl</Name>
+      <Name>percentDecoded</Name>
       <APILanguage>cpp</APILanguage>
       <Type>func</Type>
-      <Scope>albert::detail</Scope>
+      <Scope>albert::util</Scope>
     </TokenIdentifier>
-    <Path>namespacealbert_1_1detail.html</Path>
-    <Anchor>a716d7dbb9b2d69177a1d25de20876e5c</Anchor>
-    <DeclaredIn>iconprovider.h</DeclaredIn>
+    <Path>namespacealbert_1_1util.html</Path>
+    <Anchor>a0c2accf65a91c2ba4f964de52e1dc15e</Anchor>
+    <DeclaredIn>networkutil.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>pixmapFromUrls</Name>
+      <Name>percentEncoded</Name>
       <APILanguage>cpp</APILanguage>
       <Type>func</Type>
-      <Scope>albert::detail</Scope>
+      <Scope>albert::util</Scope>
     </TokenIdentifier>
-    <Path>namespacealbert_1_1detail.html</Path>
-    <Anchor>af7c9d3fa079b53b69d6dd268c1fa19fa</Anchor>
-    <DeclaredIn>iconprovider.h</DeclaredIn>
+    <Path>namespacealbert_1_1util.html</Path>
+    <Anchor>aae00ab73828b9292933e85437271657a</Anchor>
+    <DeclaredIn>networkutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>qIcon</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>ad140698a9d37ee80d905817df4716634</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -4102,6 +5124,50 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>rectIconDefaultBorderColor</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a622d404f0099ba01a51ad48f800cac81</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>rectIconDefaultBorderWidth</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a6255d36318ec32e7b026d154f7691dea</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>rectIconDefaultColor</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>ad20163465c77b40ff72f2654b8cf94a2</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>rectIconDefaultRadius</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a4797841d5207aa78267ca172b327a1d5</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>restart</Name>
       <APILanguage>cpp</APILanguage>
       <Type>func</Type>
@@ -4110,6 +5176,17 @@
     <Path>namespacealbert.html</Path>
     <Anchor>a7c912d042d2e07024785b691c1121647</Anchor>
     <DeclaredIn>albert.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>RestoreDefaultsButton</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a65152af1dfff0f5d1a1b11bb305829adac4e9d0a4f52fd7a64d58ef7666654b6b</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -4190,6 +5267,886 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>StandardIconType</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>enum</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a65152af1dfff0f5d1a1b11bb305829ad</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>TitleBarMenuButton</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a65152af1dfff0f5d1a1b11bb305829adabd601c1e89ff7b3de08fca42ea141125</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>TitleBarMinButton</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a65152af1dfff0f5d1a1b11bb305829ada7cbf19d68f59adae60be87a1b2a67117</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>TitleBarMaxButton</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a65152af1dfff0f5d1a1b11bb305829adafe889ef4dac9fe43364193fbd373ca27</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>TitleBarCloseButton</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a65152af1dfff0f5d1a1b11bb305829ada06b79b50a41d27f53ac2608ccc46858e</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>TitleBarNormalButton</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a65152af1dfff0f5d1a1b11bb305829adab1ee53b966dcbce1ae33830750b5027a</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>TitleBarShadeButton</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a65152af1dfff0f5d1a1b11bb305829ada32be9668ed3bf474edad51c7fd052b41</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>TitleBarUnshadeButton</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a65152af1dfff0f5d1a1b11bb305829adab464ce9566f7401528ad69dca605445e</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>TitleBarContextHelpButton</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a65152af1dfff0f5d1a1b11bb305829ada0023409be27b9881842b0f52b6bb4ca1</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DockWidgetCloseButton</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a65152af1dfff0f5d1a1b11bb305829adab96b8de7387cad883bc49a35596e308b</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>MessageBoxInformation</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a65152af1dfff0f5d1a1b11bb305829ada380583c00b9c0aa4b0be09ef6aa6dc3c</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>MessageBoxWarning</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a65152af1dfff0f5d1a1b11bb305829adad9844ab7e2f181866ba481ad155cac4c</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>MessageBoxCritical</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a65152af1dfff0f5d1a1b11bb305829adabe181785e3051945579a65e9961af235</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>MessageBoxQuestion</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a65152af1dfff0f5d1a1b11bb305829adaa3b7a3774a302e8ef9553dd53b8c6ff2</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DesktopIcon</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a65152af1dfff0f5d1a1b11bb305829ada415d5420090da2a6021e1f743a3d8921</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>TrashIcon</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a65152af1dfff0f5d1a1b11bb305829ada176048c8cd4df9e6c76890236b0747b3</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ComputerIcon</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a65152af1dfff0f5d1a1b11bb305829ada0626f88f54c58f60f7d89aaefc635762</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DriveFDIcon</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a65152af1dfff0f5d1a1b11bb305829ada6b2677aa095e33ecd5040c7cac112439</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DriveHDIcon</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a65152af1dfff0f5d1a1b11bb305829ada3d81ff3b6dc8ad4a5d773dd14b47a108</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DriveCDIcon</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a65152af1dfff0f5d1a1b11bb305829ada921426458f42e23bf3d36df99237b58a</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DriveDVDIcon</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a65152af1dfff0f5d1a1b11bb305829adac2cf60f7b9e567215b0fc43052afe67e</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DriveNetIcon</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a65152af1dfff0f5d1a1b11bb305829adafd153069420d94fdbf2c481776374a80</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DirOpenIcon</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a65152af1dfff0f5d1a1b11bb305829ada0c86993fcddce4153b3b03ac04206e9c</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DirClosedIcon</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a65152af1dfff0f5d1a1b11bb305829ada8a5d3266c27a0ff10441b057c0a11f29</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DirLinkIcon</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a65152af1dfff0f5d1a1b11bb305829ada8634f080931e6519efdd5603e4475828</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DirLinkOpenIcon</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a65152af1dfff0f5d1a1b11bb305829ada60c26d7d0ada651068d6f7968bcbe195</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>FileIcon</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a65152af1dfff0f5d1a1b11bb305829ada4e24b54600d94d5eccb3bc9c6626a07a</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>FileLinkIcon</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a65152af1dfff0f5d1a1b11bb305829adaf0dfe7b59f87d8ee0c229f80d3efed63</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ToolBarHorizontalExtensionButton</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a65152af1dfff0f5d1a1b11bb305829ada22822bf29a4cf353eef9395ed4b1505a</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ToolBarVerticalExtensionButton</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a65152af1dfff0f5d1a1b11bb305829ada5d7ca860f6ec34d2dc79e456be3df115</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>FileDialogStart</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a65152af1dfff0f5d1a1b11bb305829ada3b355784d21e574a2c8dae9714c90ec4</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>FileDialogEnd</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a65152af1dfff0f5d1a1b11bb305829ada53003f5417653d7f977b7cafaf8f6ac5</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>FileDialogToParent</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a65152af1dfff0f5d1a1b11bb305829adaab911a1db0bff51efd2d7671a3c3cf05</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>FileDialogNewFolder</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a65152af1dfff0f5d1a1b11bb305829ada54d575be431a2a8bd9668c8c5d4273f1</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>FileDialogDetailedView</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a65152af1dfff0f5d1a1b11bb305829ada5c7e322381d37ee52f8e55be624a2a94</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>FileDialogInfoView</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a65152af1dfff0f5d1a1b11bb305829adaaa4fad79a8492279d23eb8e00607d5d7</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>FileDialogContentsView</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a65152af1dfff0f5d1a1b11bb305829adaffdec2b3ebfe63409e5837c55bff7377</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>FileDialogListView</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a65152af1dfff0f5d1a1b11bb305829adaa65f48a9a2466cd1fb39ce946ef5a592</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>FileDialogBack</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a65152af1dfff0f5d1a1b11bb305829ada27fbae1e4048ca1faeb5445fae73a596</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DirIcon</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a65152af1dfff0f5d1a1b11bb305829adafca382d93bbbd19e2ac5ca8e62da6566</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DialogOkButton</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a65152af1dfff0f5d1a1b11bb305829adaac997539d14f204b2296ade70f1f5681</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DialogCancelButton</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a65152af1dfff0f5d1a1b11bb305829adaca16acf43c438213aa0685348f862c32</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DialogHelpButton</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a65152af1dfff0f5d1a1b11bb305829ada732b3457aaa915b2ba6adfa005d73e35</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DialogOpenButton</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a65152af1dfff0f5d1a1b11bb305829ada50ff075dfe67531f7e20b8699611a534</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DialogSaveButton</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a65152af1dfff0f5d1a1b11bb305829ada8c68537ffe564d3f35d326e3a4d5f292</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DialogCloseButton</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a65152af1dfff0f5d1a1b11bb305829adaaf45443f97be558d2c6d397b74650bce</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DialogApplyButton</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a65152af1dfff0f5d1a1b11bb305829ada0a0c8bcccab843b462957e78943f2ae0</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DialogResetButton</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a65152af1dfff0f5d1a1b11bb305829adaa668ede7a5454cc0f30d6b15b2a38b7c</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DialogDiscardButton</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a65152af1dfff0f5d1a1b11bb305829adae5d44d11e0a23075b20163c7a5f36cba</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DialogYesButton</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a65152af1dfff0f5d1a1b11bb305829ada0a66657f300bc590539b017e026c654e</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DialogNoButton</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a65152af1dfff0f5d1a1b11bb305829ada48804a7a229d0c92cdd5989c3d310b50</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ArrowUp</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a65152af1dfff0f5d1a1b11bb305829ada4667f6e0e35933489b2f04d0fefe3e31</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ArrowDown</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a65152af1dfff0f5d1a1b11bb305829ada4de84fc1e08372fa6ff4fed82c732d6e</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ArrowLeft</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a65152af1dfff0f5d1a1b11bb305829adaeef08c31c70c23e3ca66b5268a627b5b</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ArrowRight</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a65152af1dfff0f5d1a1b11bb305829ada98e798ae7d53e928ac4a3ba519de5ba6</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ArrowBack</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a65152af1dfff0f5d1a1b11bb305829ada4716d868862a672778314e045e8cb85e</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ArrowForward</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a65152af1dfff0f5d1a1b11bb305829adaac102a053d6b2008471acc6bb255bcfa</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DirHomeIcon</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a65152af1dfff0f5d1a1b11bb305829ada8da688e5bc0831ede68a92d3b9471624</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>CommandLink</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a65152af1dfff0f5d1a1b11bb305829adabd4df8de1346ba00ffd32522b1cd04d7</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>VistaShield</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a65152af1dfff0f5d1a1b11bb305829adae54d0f86faa633095f720807fb987731</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>BrowserReload</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a65152af1dfff0f5d1a1b11bb305829ada06fc3277ad62989f43817af10bb10e12</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>BrowserStop</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a65152af1dfff0f5d1a1b11bb305829adadbe396c6a01c75a7c8ac9a696d0b492c</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>MediaPlay</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a65152af1dfff0f5d1a1b11bb305829ada8c85929acf44250d8fd9531426d34744</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>MediaStop</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a65152af1dfff0f5d1a1b11bb305829adae7480dd651271a0e8b97ea8b3e23efb0</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>MediaPause</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a65152af1dfff0f5d1a1b11bb305829adae6e526dbf30f3b0a684eb6fef8b365a4</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>MediaSkipForward</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a65152af1dfff0f5d1a1b11bb305829ada5be19b73a32896dcc05cbbc32011c6a7</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>MediaSkipBackward</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a65152af1dfff0f5d1a1b11bb305829ada9f1f0cea2eedf1e942f336aeee2c2750</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>MediaSeekForward</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a65152af1dfff0f5d1a1b11bb305829adaf08c17e7c1a32e29418b2dacadd8ecde</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>MediaSeekBackward</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a65152af1dfff0f5d1a1b11bb305829ada75373d0100041378acf09e52e2095563</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>MediaVolume</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a65152af1dfff0f5d1a1b11bb305829adaac0a9f4d9f9f8fafaed8ac0bb36d0c80</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>MediaVolumeMuted</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a65152af1dfff0f5d1a1b11bb305829ada545ed85aa36d4bbf8b89a1b3b5a3816f</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>LineEditClearButton</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a65152af1dfff0f5d1a1b11bb305829adabf6519a7be172af2bf218906c000c15e</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DialogYesToAllButton</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a65152af1dfff0f5d1a1b11bb305829ada5ed6c6084d4fa5217a31f43cfd191f40</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DialogNoToAllButton</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a65152af1dfff0f5d1a1b11bb305829ada121f3ae8f9de979fea5fff740242ddc7</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DialogSaveAllButton</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a65152af1dfff0f5d1a1b11bb305829ada4d9cc5475aae1530c9a19224ff7e67eb</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DialogAbortButton</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a65152af1dfff0f5d1a1b11bb305829ada56f5827066dc281560ae7b64c77c8aa9</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DialogRetryButton</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a65152af1dfff0f5d1a1b11bb305829ada733f57be269077cb76b562d4f36f163d</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DialogIgnoreButton</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a65152af1dfff0f5d1a1b11bb305829adab4f25fd1f6364df1617673ecf7108929</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>RestoreDefaultsButton</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a65152af1dfff0f5d1a1b11bb305829adac4e9d0a4f52fd7a64d58ef7666654b6b</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>TabCloseButton</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a65152af1dfff0f5d1a1b11bb305829adabeb69da223f7b1a49a530018ce08a074</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>state</Name>
       <APILanguage>cpp</APILanguage>
       <Type>func</Type>
@@ -4211,6 +6168,127 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>TabCloseButton</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a65152af1dfff0f5d1a1b11bb305829adabeb69da223f7b1a49a530018ce08a074</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>TitleBarCloseButton</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a65152af1dfff0f5d1a1b11bb305829ada06b79b50a41d27f53ac2608ccc46858e</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>TitleBarContextHelpButton</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a65152af1dfff0f5d1a1b11bb305829ada0023409be27b9881842b0f52b6bb4ca1</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>TitleBarMaxButton</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a65152af1dfff0f5d1a1b11bb305829adafe889ef4dac9fe43364193fbd373ca27</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>TitleBarMenuButton</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a65152af1dfff0f5d1a1b11bb305829adabd601c1e89ff7b3de08fca42ea141125</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>TitleBarMinButton</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a65152af1dfff0f5d1a1b11bb305829ada7cbf19d68f59adae60be87a1b2a67117</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>TitleBarNormalButton</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a65152af1dfff0f5d1a1b11bb305829adab1ee53b966dcbce1ae33830750b5027a</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>TitleBarShadeButton</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a65152af1dfff0f5d1a1b11bb305829ada32be9668ed3bf474edad51c7fd052b41</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>TitleBarUnshadeButton</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a65152af1dfff0f5d1a1b11bb305829adab464ce9566f7401528ad69dca605445e</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ToolBarHorizontalExtensionButton</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a65152af1dfff0f5d1a1b11bb305829ada22822bf29a4cf353eef9395ed4b1505a</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ToolBarVerticalExtensionButton</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a65152af1dfff0f5d1a1b11bb305829ada5d7ca860f6ec34d2dc79e456be3df115</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>toQString</Name>
       <APILanguage>cpp</APILanguage>
       <Type>func</Type>
@@ -4222,6 +6300,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>TrashIcon</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a65152af1dfff0f5d1a1b11bb305829ada176048c8cd4df9e6c76890236b0747b3</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>tryCreateDirectory</Name>
       <APILanguage>cpp</APILanguage>
       <Type>func</Type>
@@ -4230,6 +6319,17 @@
     <Path>namespacealbert_1_1util.html</Path>
     <Anchor>abcee75bbe9f068b924a3b8c2f3a9b8bd</Anchor>
     <DeclaredIn>systemutil.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>VistaShield</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>a65152af1dfff0f5d1a1b11bb305829adae54d0f86faa633095f720807fb987731</Anchor>
+    <DeclaredIn>iconutil.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>

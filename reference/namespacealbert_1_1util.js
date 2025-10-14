@@ -32,6 +32,8 @@ var namespacealbert_1_1util =
     [ "open", "namespacealbert_1_1util.html#a1749e740b4c925108fbd4bbabd571210", null ],
     [ "open", "namespacealbert_1_1util.html#ad3be0cea1d7d8678bc3f3a195866f936", null ],
     [ "openUrl", "namespacealbert_1_1util.html#aa7dfede720bb3bdfb4e3cdff4cad4e46", null ],
+    [ "percentDecoded", "namespacealbert_1_1util.html#a0c2accf65a91c2ba4f964de52e1dc15e", null ],
+    [ "percentEncoded", "namespacealbert_1_1util.html#aae00ab73828b9292933e85437271657a", null ],
     [ "question", "namespacealbert_1_1util.html#a269d93ec607848a13e93d9e2d47b5762", null ],
     [ "runDetachedProcess", "namespacealbert_1_1util.html#ac888656fd3cc91a4a7e03551aa8fc595", null ],
     [ "runDetachedProcess", "namespacealbert_1_1util.html#a9e4734513e4be631e2e68390fa56aa64", null ],

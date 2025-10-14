@@ -19,6 +19,7 @@ var hierarchy =
       [ "albert::detail::TelemetryProvider", "classalbert_1_1detail_1_1TelemetryProvider.html", null ],
       [ "albert::util::ExtensionPlugin", "classalbert_1_1util_1_1ExtensionPlugin.html", null ]
     ] ],
+    [ "albert::Icon", "classalbert_1_1Icon.html", null ],
     [ "albert::util::IndexItem", "classalbert_1_1util_1_1IndexItem.html", null ],
     [ "albert::Item", "classalbert_1_1Item.html", [
       [ "albert::detail::DynamicItem", "classalbert_1_1detail_1_1DynamicItem.html", null ],
@@ -28,20 +29,19 @@ var hierarchy =
     [ "albert::util::MatchConfig", "classalbert_1_1util_1_1MatchConfig.html", null ],
     [ "albert::util::Matcher", "classalbert_1_1util_1_1Matcher.html", null ],
     [ "albert::Item::Observer", "classalbert_1_1Item_1_1Observer.html", null ],
-    [ "albert::PluginInstance", "classalbert_1_1PluginInstance.html", [
-      [ "albert::util::ExtensionPlugin", "classalbert_1_1util_1_1ExtensionPlugin.html", null ]
-    ] ],
     [ "albert::PluginMetadata", "classalbert_1_1PluginMetadata.html", null ],
     [ "QList< T >", "classQList.html", null ],
     [ "QList< QString >", "classQList.html", null ],
     [ "QObject", null, [
       [ "albert::ExtensionRegistry", "classalbert_1_1ExtensionRegistry.html", null ],
+      [ "albert::PluginInstance", "classalbert_1_1PluginInstance.html", [
+        [ "albert::detail::Frontend", "classalbert_1_1detail_1_1Frontend.html", null ],
+        [ "albert::util::ExtensionPlugin", "classalbert_1_1util_1_1ExtensionPlugin.html", null ]
+      ] ],
       [ "albert::PluginLoader", "classalbert_1_1PluginLoader.html", null ],
       [ "albert::Query", "classalbert_1_1Query.html", null ],
-      [ "albert::detail::Frontend", "classalbert_1_1detail_1_1Frontend.html", null ],
       [ "albert::detail::InputHistory", "classalbert_1_1detail_1_1InputHistory.html", null ],
       [ "albert::util::Download", "classalbert_1_1util_1_1Download.html", null ],
-      [ "albert::util::ExtensionPlugin", "classalbert_1_1util_1_1ExtensionPlugin.html", null ],
       [ "albert::util::Notification", "classalbert_1_1util_1_1Notification.html", null ],
       [ "albert::util::OAuth2", "classalbert_1_1util_1_1OAuth2.html", null ]
     ] ],

@@ -1,23 +1,24 @@
 <map id="workspace/albert/include/albert/extensionplugin.h" name="workspace/albert/include/albert/extensionplugin.h">
 <area shape="rect" id="Node000001" title=" " alt="" coords="77,5,243,46"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="5,94,75,120"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="132,49,72,88,69,83,129,44"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,168,75,193"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="136,49,112,70,89,96,69,126,54,155,49,152,64,123,85,92,108,66,133,45"/>
 <area shape="rect" id="Node000003" href="$extension_8h.html" title=" " alt="" coords="99,94,221,120"/>
 <area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="163,46,163,78,157,78,157,46"/>
-<area shape="rect" id="Node000006" href="$plugininstance_8h.html" title=" " alt="" coords="245,94,395,120"/>
-<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="201,44,283,84,281,89,199,49"/>
-<area shape="rect" id="Node000004" title=" " alt="" coords="45,168,110,193"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="148,122,104,159,101,155,144,118"/>
-<area shape="rect" id="Node000005" title=" " alt="" coords="134,168,237,193"/>
-<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="167,119,179,152,173,154,162,121"/>
-<area shape="poly" id="edge6_Node000006_Node000004" title=" " alt="" coords="280,123,126,168,124,163,278,118"/>
-<area shape="poly" id="edge8_Node000006_Node000005" title=" " alt="" coords="298,123,223,162,220,158,296,118"/>
-<area shape="rect" id="Node000007" title=" " alt="" coords="435,168,536,193"/>
-<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="349,118,444,159,442,164,347,123"/>
-<area shape="rect" id="Node000008" title=" " alt="" coords="560,168,640,193"/>
-<area shape="poly" id="edge9_Node000006_Node000008" title=" " alt="" coords="368,118,546,163,545,168,367,123"/>
-<area shape="rect" id="Node000009" title=" " alt="" coords="261,168,328,193"/>
-<area shape="poly" id="edge10_Node000006_Node000009" title=" " alt="" coords="318,121,307,154,301,152,313,119"/>
-<area shape="rect" id="Node000010" title=" " alt="" coords="353,168,410,193"/>
-<area shape="poly" id="edge11_Node000006_Node000010" title=" " alt="" coords="332,118,363,154,359,157,328,122"/>
+<area shape="rect" id="Node000006" href="$plugininstance_8h.html" title=" " alt="" coords="266,94,417,120"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="206,44,301,85,299,90,204,49"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="225,168,290,193"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="178,118,231,156,227,161,175,122"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="98,168,201,193"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="161,120,156,153,151,152,156,119"/>
+<area shape="poly" id="edge6_Node000006_Node000002" title=" " alt="" coords="289,123,91,170,89,164,288,118"/>
+<area shape="poly" id="edge7_Node000006_Node000004" title=" " alt="" coords="329,122,285,159,281,155,325,118"/>
+<area shape="poly" id="edge9_Node000006_Node000005" title=" " alt="" coords="310,123,197,164,195,159,308,118"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="591,168,692,193"/>
+<area shape="poly" id="edge8_Node000006_Node000007" title=" " alt="" coords="393,118,576,161,575,166,392,123"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="314,168,393,193"/>
+<area shape="poly" id="edge10_Node000006_Node000008" title=" " alt="" coords="346,119,351,152,346,153,341,120"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="417,168,484,193"/>
+<area shape="poly" id="edge11_Node000006_Node000009" title=" " alt="" coords="361,118,421,157,418,161,358,122"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="509,168,566,193"/>
+<area shape="poly" id="edge12_Node000006_Node000010" title=" " alt="" coords="375,118,495,161,494,166,374,123"/>
 </map>

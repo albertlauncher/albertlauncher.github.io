@@ -109,31 +109,31 @@ Inheritance diagram for albert::TriggerQueryHandler:</div>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Abstract trigger query handler. </p>
-<p>If the trigger matches this handler is the only query handler chosen to process the user query. Inherit this class if you dont want your results to be reordered or if you want to display your items of a long running query as soon as they are available. </p>
+<p>If the trigger matches, this handler is the only query handler chosen to process the user query. Inherit this class if you dont want your results to be reordered or if you want to display your items of a long running query as soon as they are available. </p>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a37594f3c99dff8f91f6b80e77dcf9ce4" id="r_a37594f3c99dff8f91f6b80e77dcf9ce4"><td class="memItemLeft" align="right" valign="top">virtual QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1TriggerQueryHandler.html#a37594f3c99dff8f91f6b80e77dcf9ce4">synopsis</a> (const QString &amp;query) const</td></tr>
-<tr class="memdesc:a37594f3c99dff8f91f6b80e77dcf9ce4"><td class="mdescLeft">&#160;</td><td class="mdescRight">The synopsis, displayed on empty query.  <br /></td></tr>
+<tr class="memdesc:a37594f3c99dff8f91f6b80e77dcf9ce4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the input hint for the given <em>query</em>.  <br /></td></tr>
 <tr class="separator:a37594f3c99dff8f91f6b80e77dcf9ce4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a565b2220701d672e00c54b71f4e9cb94" id="r_a565b2220701d672e00c54b71f4e9cb94"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1TriggerQueryHandler.html#a565b2220701d672e00c54b71f4e9cb94">allowTriggerRemap</a> () const</td></tr>
-<tr class="memdesc:a565b2220701d672e00c54b71f4e9cb94"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enable user remapping of the trigger.  <br /></td></tr>
+<tr class="memdesc:a565b2220701d672e00c54b71f4e9cb94"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns <code>true</code> if the user is allowed to set a custom trigger, otherwise returns <code>false</code>.  <br /></td></tr>
 <tr class="separator:a565b2220701d672e00c54b71f4e9cb94"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afb3f05c5d7c91025dfe12ecb0065d6da" id="r_afb3f05c5d7c91025dfe12ecb0065d6da"><td class="memItemLeft" align="right" valign="top">virtual QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1TriggerQueryHandler.html#afb3f05c5d7c91025dfe12ecb0065d6da">defaultTrigger</a> () const</td></tr>
-<tr class="memdesc:afb3f05c5d7c91025dfe12ecb0065d6da"><td class="mdescLeft">&#160;</td><td class="mdescRight">The default (not user defined) trigger.  <br /></td></tr>
+<tr class="memdesc:afb3f05c5d7c91025dfe12ecb0065d6da"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the default trigger.  <br /></td></tr>
 <tr class="separator:afb3f05c5d7c91025dfe12ecb0065d6da"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae04d3a2e067b6d0e3e151d4a6f880afc" id="r_ae04d3a2e067b6d0e3e151d4a6f880afc"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1TriggerQueryHandler.html#ae04d3a2e067b6d0e3e151d4a6f880afc">setTrigger</a> (const QString &amp;)</td></tr>
-<tr class="memdesc:ae04d3a2e067b6d0e3e151d4a6f880afc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Setter for the user defined trigger.  <br /></td></tr>
-<tr class="separator:ae04d3a2e067b6d0e3e151d4a6f880afc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af15759ea57315499784db88b88166bb2" id="r_af15759ea57315499784db88b88166bb2"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1TriggerQueryHandler.html#af15759ea57315499784db88b88166bb2">setTrigger</a> (const QString &amp;trigger)</td></tr>
+<tr class="memdesc:af15759ea57315499784db88b88166bb2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Notifies that the user-defined trigger has changed to <em>trigger</em>.  <br /></td></tr>
+<tr class="separator:af15759ea57315499784db88b88166bb2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a82133091f339ec43665604501dc562ea" id="r_a82133091f339ec43665604501dc562ea"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1TriggerQueryHandler.html#a82133091f339ec43665604501dc562ea">supportsFuzzyMatching</a> () const</td></tr>
-<tr class="memdesc:a82133091f339ec43665604501dc562ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fuzzy matching capability.  <br /></td></tr>
+<tr class="memdesc:a82133091f339ec43665604501dc562ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns <code>true</code> if the handler supports error tolerant matching, otherwise returns <code>false</code>.  <br /></td></tr>
 <tr class="separator:a82133091f339ec43665604501dc562ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4004638b15c55c526b0088e12d20b7f2" id="r_a4004638b15c55c526b0088e12d20b7f2"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1TriggerQueryHandler.html#a4004638b15c55c526b0088e12d20b7f2">setFuzzyMatching</a> (bool enabled)</td></tr>
-<tr class="memdesc:a4004638b15c55c526b0088e12d20b7f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fuzzy matching behavior.  <br /></td></tr>
+<tr class="memdesc:a4004638b15c55c526b0088e12d20b7f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the fuzzy matching mode to <em>enabled</em>.  <br /></td></tr>
 <tr class="separator:a4004638b15c55c526b0088e12d20b7f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a14e770979eb2456826cf954d80b86a36" id="r_a14e770979eb2456826cf954d80b86a36"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1TriggerQueryHandler.html#a14e770979eb2456826cf954d80b86a36">handleTriggerQuery</a> (<a class="el" href="classalbert_1_1Query.html">Query</a> &amp;)=0</td></tr>
-<tr class="memdesc:a14e770979eb2456826cf954d80b86a36"><td class="mdescLeft">&#160;</td><td class="mdescRight">The trigger query processing function.  <br /></td></tr>
-<tr class="separator:a14e770979eb2456826cf954d80b86a36"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a075ae1f685990887694234312ed81b85" id="r_a075ae1f685990887694234312ed81b85"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1TriggerQueryHandler.html#a075ae1f685990887694234312ed81b85">handleTriggerQuery</a> (<a class="el" href="classalbert_1_1Query.html">Query</a> &amp;query)=0</td></tr>
+<tr class="memdesc:a075ae1f685990887694234312ed81b85"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handles the triggered <em>query</em>.  <br /></td></tr>
+<tr class="separator:a075ae1f685990887694234312ed81b85"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af0ba9843daa13c20ba7ab2138f825b2f" id="r_af0ba9843daa13c20ba7ab2138f825b2f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1TriggerQueryHandler.html#af0ba9843daa13c20ba7ab2138f825b2f">applyUsageScore</a> (std::vector&lt; <a class="el" href="classalbert_1_1RankItem.html">RankItem</a> &gt; &amp;rank_items)</td></tr>
 <tr class="memdesc:af0ba9843daa13c20ba7ab2138f825b2f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Modifies the score of <em>rank_items</em> to reflect the users usage history.  <br /></td></tr>
 <tr class="separator:af0ba9843daa13c20ba7ab2138f825b2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -206,8 +206,8 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Enable user remapping of the trigger. </p>
-<dl class="section return"><dt>Returns</dt><dd>False. </dd></dl>
+<p>Returns <code>true</code> if the user is allowed to set a custom trigger, otherwise returns <code>false</code>. </p>
+<p>The base class implementation returns <code>true</code>. </p>
 
 </div>
 </div>
@@ -254,13 +254,13 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>The default (not user defined) trigger. </p>
-<dl class="section return"><dt>Returns</dt><dd>Extension::id(). </dd></dl>
+<p>Returns the default trigger. </p>
+<p>The base class implementation returns <a class="el" href="classalbert_1_1Extension.html#aba79b0b7a42a03addbb4223462362b06">Extension::id()</a> with a space appended. </p>
 
 </div>
 </div>
-<a id="a14e770979eb2456826cf954d80b86a36" name="a14e770979eb2456826cf954d80b86a36"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a14e770979eb2456826cf954d80b86a36">&#9670;&#160;</a></span>handleTriggerQuery()</h2>
+<a id="a075ae1f685990887694234312ed81b85" name="a075ae1f685990887694234312ed81b85"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a075ae1f685990887694234312ed81b85">&#9670;&#160;</a></span>handleTriggerQuery()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -272,7 +272,7 @@ Protected Member Functions</h2></td></tr>
           <td class="memname">virtual void albert::TriggerQueryHandler::handleTriggerQuery </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classalbert_1_1Query.html">Query</a> &amp;&#160;</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramname"><em>query</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -283,7 +283,7 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>The trigger query processing function. </p>
+<p>Handles the triggered <em>query</em>. </p>
 <dl class="section note"><dt>Note</dt><dd>Executed in a worker thread. </dd></dl>
 
 <p>Implemented in <a class="el" href="classalbert_1_1GlobalQueryHandler.html#af6287f5c6d79e7a2c0688fa141d942c5">albert::GlobalQueryHandler</a>.</p>
@@ -314,15 +314,15 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Fuzzy matching behavior. </p>
-<p>Default does nothing. </p>
+<p>Sets the fuzzy matching mode to <em>enabled</em>. </p>
+<p>The base class implementation does nothing. </p>
 
 <p>Reimplemented in <a class="el" href="classalbert_1_1util_1_1IndexQueryHandler.html#a801ae5a6903534233392368001f49df1">albert::util::IndexQueryHandler</a>.</p>
 
 </div>
 </div>
-<a id="ae04d3a2e067b6d0e3e151d4a6f880afc" name="ae04d3a2e067b6d0e3e151d4a6f880afc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae04d3a2e067b6d0e3e151d4a6f880afc">&#9670;&#160;</a></span>setTrigger()</h2>
+<a id="af15759ea57315499784db88b88166bb2" name="af15759ea57315499784db88b88166bb2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af15759ea57315499784db88b88166bb2">&#9670;&#160;</a></span>setTrigger()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -334,7 +334,7 @@ Protected Member Functions</h2></td></tr>
           <td class="memname">virtual void albert::TriggerQueryHandler::setTrigger </td>
           <td>(</td>
           <td class="paramtype">const QString &amp;&#160;</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramname"><em>trigger</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -345,8 +345,8 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Setter for the user defined trigger. </p>
-<p>Reimplement this if you need this information. </p><dl class="section since"><dt>Since</dt><dd>0.24 </dd></dl>
+<p>Notifies that the user-defined trigger has changed to <em>trigger</em>. </p>
+<p>The base class implementation does nothing. </p>
 
 </div>
 </div>
@@ -373,8 +373,8 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Fuzzy matching capability. </p>
-<dl class="section return"><dt>Returns</dt><dd>False. </dd></dl>
+<p>Returns <code>true</code> if the handler supports error tolerant matching, otherwise returns <code>false</code>. </p>
+<p>The base class implementation returns <code>false</code>. </p>
 
 <p>Reimplemented in <a class="el" href="classalbert_1_1util_1_1IndexQueryHandler.html#a5794f9035c58b677ba0e0ed20f93131b">albert::util::IndexQueryHandler</a>.</p>
 
@@ -404,8 +404,8 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>The synopsis, displayed on empty query. </p>
-<p>Use this to give the user hints about accepted query strings. </p><dl class="section return"><dt>Returns</dt><dd>Empty string. </dd></dl>
+<p>Returns the input hint for the given <em>query</em>. </p>
+<p>The returned string will be displayed in the input line if space permits. The base class implementation returns an empty string. </p>
 
 </div>
 </div>

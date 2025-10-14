@@ -100,7 +100,8 @@ $(document).ready(function(){initNavTree('plugininstance_8h.html',''); initResiz
   <div class="headertitle"><div class="title">plugininstance.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;QString&gt;</code><br />
+<div class="textblock"><code>#include &lt;QObject&gt;</code><br />
+<code>#include &lt;QString&gt;</code><br />
 <code>#include &lt;albert/config.h&gt;</code><br />
 <code>#include &lt;albert/export.h&gt;</code><br />
 <code>#include &lt;filesystem&gt;</code><br />
@@ -109,12 +110,12 @@ $(document).ready(function(){initNavTree('plugininstance_8h.html',''); initResiz
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for plugininstance.h:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="plugininstance_8h__incl.svg" width="604" height="126"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="plugininstance_8h__incl.svg" width="699" height="126"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div><div class="textblock"><div class="dynheader">
 This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="plugininstance_8h__dep__incl.svg" width="176" height="140"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="plugininstance_8h__dep__incl.svg" width="366" height="140"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 <p><a href="plugininstance_8h_source.html">Go to the source code of this file.</a></p>
@@ -152,7 +153,7 @@ Macros</h2></td></tr>
 
 <p>Declare a class as native Albert plugin. </p>
 <p>Sets the interface identifier to ALBERT_PLUGIN_IID and uses the metadata file named 'metadata.json' located at CMAKE_CURRENT_SOURCE_DIR.</p>
-<dl class="section note"><dt>Note</dt><dd>This macro has to be put into the plugin class body. The class this macro appears on must be default-constructible, inherit QObject and contain the Q_OBJECT macro. There should be exactly one occurrence of this macro in the source code for a plugin. </dd></dl>
+<p>This macro has to be put into the plugin class body. The class this macro appears on must be default-constructible, inherit QObject and contain the Q_OBJECT macro. There should be exactly one occurrence of this macro in the source code for a plugin. </p>
 
 </div>
 </div>
