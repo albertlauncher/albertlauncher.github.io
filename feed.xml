@@ -7,6 +7,35 @@
     
       
         <item>
+          <title>Albert v33.0.1 released</title>
+          <description>&lt;h1 id=&quot;albert-v3301-released&quot;&gt;Albert v33.0.1 released&lt;/h1&gt;
+
+&lt;h2 id=&quot;v3301-2025-10-15&quot;&gt;v33.0.1 (2025-10-15)&lt;/h2&gt;
+
+&lt;h3 id=&quot;️-core-changes&quot;&gt;⚙️ Core changes&lt;/h3&gt;
+
+&lt;h4 id=&quot;fixes&quot;&gt;Fixes&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/albertlauncher/albert/commit/50f91e239cd6018697c05785d0bbac22eed48ee5&quot;&gt;Workaround hidpi icon Qt bug&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;miscellaneous-tasks&quot;&gt;Miscellaneous Tasks&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;em&gt;QIconEngineAdapter&lt;/em&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert/commit/7c34bf544679ca8911071bd596fb984845315967&quot;&gt;Remove drawing code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Check the &lt;a href=&quot;https://github.com/albertlauncher/albert/compare/v33.0.0...v33.0.1&quot;&gt;commit log&lt;/a&gt; for details.&lt;/p&gt;
+</description>
+          <pubDate>2025-10-15T12:00:00+00:00</pubDate>
+          <link>https://albertlauncher.github.io/2025/10/15/albert-v33.0.1-released/</link>
+          <guid isPermaLink="true">https://albertlauncher.github.io/2025/10/15/albert-v33.0.1-released/</guid>
+        </item>
+      
+    
+      
+        <item>
           <title>Albert v33.0.0 released</title>
           <description>&lt;h1 id=&quot;albert-v3300-released&quot;&gt;Albert v33.0.0 released&lt;/h1&gt;
 
