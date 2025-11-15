@@ -29,7 +29,7 @@
   },"4": {
     "doc": "Basics",
     "title": "Queries",
-    "content": "There are three built-in extension interfaces that handle user input: . If the query starts with a trigger of a trigger query handler extension, the query is handled exclusively by the corresponding handler. This allows the handler to set an inline input hint, asynchronously add match items and as such define their order. If the query does not start with a trigger, the query is handled by all enabled global query handler extensions in parallel and eventually the match items are merged and sorted by match and usage score. There is one special . In any case the enabled fallback handler extensions provide a separate set of fallbacks items, which are displayed when the matches are empty or when the user explicitly requests them. ",
+    "content": "There are three built-in extension interfaces that handle user input: . If the query starts with a trigger of a trigger query handler extension, the query is handled exclusively by the corresponding handler. This allows the handler to set an inline input hint, asynchronously add match items and as such define their order. If the query does not start with a trigger, the query is handled by all enabled global query handler extensions in parallel and eventually the match items are merged and sorted by match and usage score. In any case the enabled fallback handler extensions provide a separate set of fallbacks items, which are displayed when the matches are empty or when the user explicitly requests them. ",
     "url": "/gettingstarted/basics/#queries",
     
     "relUrl": "/gettingstarted/basics/#queries"
