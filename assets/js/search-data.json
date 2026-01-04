@@ -106,7 +106,7 @@
   },"15": {
     "doc": "C++",
     "title": "Writing native C++ plugins",
-    "content": "Albert provides C and CMake macros that implement conventions to streamline the plugin development process and reduce the boilerplate code required to a few lines of code. Read the documentation in the header of the Albert CMake module before you proceed. A minimal CMakeLists.txt: . project(my_plugin VERSION 1.0) find_package(Albert REQUIRED) albert_plugin() . A minimal metadata.json: . { \"name\": \"My Plugin\", \"description\": \"Do useful stuff\", \"authors\": [\"@myname\"], \"license\": \"MIT\" } . A plugin class has to be default-constructible, inherit QObject and PluginInstance and contain the ALBERT_PLUGIN macro in its body. However, if subclassing an extension interface, you’d rather inherit util::ExtensionPlugin for convenience. A minimal trigger query handler plugin: . #pragma once #include &lt;albert/extensionplugin.h&gt; #include &lt;albert/triggerqueryhandler.h&gt; class Plugin : public albert::ExtensionPlugin, public albert::TriggerQueryHandler { ALBERT_PLUGIN void handleTriggerQuery(albert::Query &amp;query) override { // Handle query } }; . Next, skim through the API reference. For reference see the official plugins. ",
+    "content": "Albert provides CMake macros that implement conventions to streamline the plugin development process and reduce the boilerplate code required to a few lines of code. Read the documentation in the header of the Albert CMake module before you proceed. A minimal CMakeLists.txt: . project(my_plugin VERSION 1.0) find_package(Albert REQUIRED) albert_plugin() . A minimal metadata.json: . { \"name\": \"My Plugin\", \"description\": \"Do useful stuff\", \"authors\": [\"@myname\"], \"license\": \"MIT\" } . A plugin class has to be default-constructible, inherit PluginInstance and contain the ALBERT_PLUGIN macro in its body. Almost always you want to provide exactly one extension. The ExtensionPlugin class implements the virtual methods in Extension and PluginInstance for this case. A minimal plugin providing an extension looks like this: . #pragma once #include &lt;albert/extensionplugin.h&gt; class Plugin : public albert::ExtensionPlugin { ALBERT_PLUGIN }; . For real use cases you want to derive actually useful extension interfaces. Next, skim through the API reference. For reference see the official plugins. ",
     "url": "/gettingstarted/extension/cplusplus/#writing-native-c-plugins",
     
     "relUrl": "/gettingstarted/extension/cplusplus/#writing-native-c-plugins"
@@ -308,11 +308,11 @@
     "relUrl": "/gettingstarted/extension/#writing-extensions"
   },"44": {
     "doc": "Extension",
-    "title": "Brief core API overview",
-    "content": "Every plugin has to implement the PluginInstance, which provides a list of Extension instances. The built-in extension interfaces related to query handling are: . | TriggerQueryHandler | GlobalQueryHandler | FallbackHandler | . All query handlers provide instances of the Item interface, which contains several methods related to the user interface, most notably the Action factory. In addition to the core API, utilities facilitate plugin development and help developers to provide users with a streamlined search experience. | util::StandardItem Value-based Item implementation. | util::Matcher Utility for configurable string matching. | util::IndexQueryHandler Index-based GlobalQueryHandler implementation. | . Next, read the section of your prefered API, build something cool and share it. ",
-    "url": "/gettingstarted/extension/#brief-core-api-overview",
+    "title": "API overview",
+    "content": "Every plugin has to implement the abstract PluginInstance , which provides a list of Extension instances. The built-in extension interfaces related to query handling are: . | QueryHandler | GlobalQueryHandler | FallbackHandler | . All query handlers provide instances of the Item interface, which contains several methods related to the user interface, most notably the Action factory. In addition to the core API, utilities facilitate plugin development and help developers to provide users with a streamlined search experience. | StandardItem Value-based Item implementation. | Matcher Utility for configurable string matching. | IndexQueryHandler Index-based GlobalQueryHandler implementation. | . Next, read the section of your prefered API, build something cool and share it. ",
+    "url": "/gettingstarted/extension/#api-overview",
     
-    "relUrl": "/gettingstarted/extension/#brief-core-api-overview"
+    "relUrl": "/gettingstarted/extension/#api-overview"
   },"45": {
     "doc": "Extension",
     "title": "Extension",
