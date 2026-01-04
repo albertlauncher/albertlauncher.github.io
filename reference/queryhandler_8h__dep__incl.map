@@ -1,0 +1,13 @@
+<map id="workspace/albert/include/albert/queryhandler.h" name="workspace/albert/include/albert/queryhandler.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="159,5,324,46"/>
+<area shape="rect" id="Node000002" href="$asyncgeneratorqueryhandler_8h.html" title=" " alt="" coords="5,94,238,135"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="204,57,150,96,147,91,201,53"/>
+<area shape="rect" id="Node000003" href="$generatorqueryhandler_8h.html" title=" " alt="" coords="262,94,461,135"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="282,53,336,91,333,96,279,57"/>
+<area shape="rect" id="Node000004" href="$rankedqueryhandler_8h.html" title=" " alt="" coords="270,183,453,223"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="364,150,364,182,359,182,359,150"/>
+<area shape="rect" id="Node000005" href="$globalqueryhandler_8h.html" title=" " alt="" coords="272,271,451,312"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="364,239,364,271,359,271,359,239"/>
+<area shape="rect" id="Node000006" href="$indexqueryhandler_8h.html" title=" " alt="" coords="274,360,449,401"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="364,328,364,360,359,360,359,328"/>
+</map>

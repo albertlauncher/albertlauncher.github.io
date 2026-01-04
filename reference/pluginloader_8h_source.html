@@ -101,7 +101,7 @@ $(document).ready(function(){initNavTree('pluginloader_8h_source.html',''); init
   <div class="headertitle"><div class="title">pluginloader.h</div></div>
 </div><!--header-->
 <div class="contents">
-<a href="pluginloader_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="comment">// SPDX-FileCopyrightText: 2024-2025 Manuel Schneider</span></div>
+<a href="pluginloader_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="comment">// SPDX-FileCopyrightText: 2025 Manuel Schneider</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="comment">// SPDX-License-Identifier: MIT</span></div>
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span> </div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#pragma once</span></div>
@@ -114,49 +114,49 @@ $(document).ready(function(){initNavTree('pluginloader_8h_source.html',''); init
 <div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="keyword">class </span>PluginInstance;</div>
 <div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="keyword">class </span>PluginMetadata;</div>
 <div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span> </div>
-<div class="foldopen" id="foldopen00015" data-start="{" data-end="};">
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno"><a class="line" href="classalbert_1_1PluginLoader.html">   15</a></span><span class="keyword">class </span>ALBERT_EXPORT <a class="code hl_class" href="classalbert_1_1PluginLoader.html">PluginLoader</a> : <span class="keyword">public</span> QObject</div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>{</div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>    Q_OBJECT</div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span> </div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span><span class="keyword">public</span>:</div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span> </div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno"><a class="line" href="classalbert_1_1PluginLoader.html#adaeee71bdc38be3a98fa6f471b6a8f0a">   22</a></span>    <span class="keyword">virtual</span> QString <a class="code hl_function" href="classalbert_1_1PluginLoader.html#adaeee71bdc38be3a98fa6f471b6a8f0a">path</a>() <span class="keyword">const</span> = 0;</div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span> </div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno"><a class="line" href="classalbert_1_1PluginLoader.html#a06a4cc4334005183076e2879a197c3a7">   25</a></span>    <span class="keyword">virtual</span> <span class="keyword">const</span> <a class="code hl_class" href="classalbert_1_1PluginMetadata.html">PluginMetadata</a> &amp;<a class="code hl_function" href="classalbert_1_1PluginLoader.html#a06a4cc4334005183076e2879a197c3a7">metadata</a>() <span class="keyword">const</span> = 0;</div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span> </div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno"><a class="line" href="classalbert_1_1PluginLoader.html#a25c920721215388c3936e4173a2dcbe4">   29</a></span>    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code hl_function" href="classalbert_1_1PluginLoader.html#a25c920721215388c3936e4173a2dcbe4">load</a>() = 0;</div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span> </div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno"><a class="line" href="classalbert_1_1PluginLoader.html#a2472c9d9ab4076c697e1b8cc2256f6a1">   32</a></span>    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code hl_function" href="classalbert_1_1PluginLoader.html#a2472c9d9ab4076c697e1b8cc2256f6a1">unload</a>() = 0;</div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span> </div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno"><a class="line" href="classalbert_1_1PluginLoader.html#a152ac767c6e132b5607716e3d7b4ac15">   35</a></span>    <span class="keyword">virtual</span> <a class="code hl_class" href="classalbert_1_1PluginInstance.html">albert::PluginInstance</a> *<a class="code hl_function" href="classalbert_1_1PluginLoader.html#a152ac767c6e132b5607716e3d7b4ac15">instance</a>() = 0;</div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span> </div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno"><a class="line" href="classalbert_1_1PluginLoader.html#a2a330d50938bc0f3c8f9ffe82defc788">   41</a></span>    <span class="keyword">static</span> <span class="keyword">thread_local</span> <a class="code hl_class" href="classalbert_1_1PluginLoader.html">PluginLoader</a> *<a class="code hl_variable" href="classalbert_1_1PluginLoader.html#a2a330d50938bc0f3c8f9ffe82defc788">current_loader</a>;</div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span> </div>
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>signals:</div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span> </div>
-<div class="line"><a id="l00049" name="l00049"></a><span class="lineno"><a class="line" href="classalbert_1_1PluginLoader.html#ac75e3b9e0a8f0bfbafd270f68f87ebdf">   49</a></span>    <span class="keywordtype">void</span> <a class="code hl_signal" href="classalbert_1_1PluginLoader.html#ac75e3b9e0a8f0bfbafd270f68f87ebdf">finished</a>(QString info);</div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span> </div>
-<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span><span class="keyword">protected</span>:</div>
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span> </div>
-<div class="line"><a id="l00053" name="l00053"></a><span class="lineno"><a class="line" href="classalbert_1_1PluginLoader.html#aed12605269105560dfa0130957d8b403">   53</a></span>    <span class="keyword">virtual</span> <a class="code hl_function" href="classalbert_1_1PluginLoader.html#aed12605269105560dfa0130957d8b403">~PluginLoader</a>();</div>
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span> </div>
-<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>};</div>
+<div class="foldopen" id="foldopen00019" data-start="{" data-end="};">
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno"><a class="line" href="classalbert_1_1PluginLoader.html">   19</a></span><span class="keyword">class </span>ALBERT_EXPORT <a class="code hl_class" href="classalbert_1_1PluginLoader.html">PluginLoader</a> : <span class="keyword">public</span> QObject</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>{</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>    Q_OBJECT</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span> </div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span> </div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno"><a class="line" href="classalbert_1_1PluginLoader.html#adaeee71bdc38be3a98fa6f471b6a8f0a">   28</a></span>    <span class="keyword">virtual</span> QString <a class="code hl_function" href="classalbert_1_1PluginLoader.html#adaeee71bdc38be3a98fa6f471b6a8f0a">path</a>() <span class="keyword">const</span> = 0;</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span> </div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno"><a class="line" href="classalbert_1_1PluginLoader.html#a06a4cc4334005183076e2879a197c3a7">   33</a></span>    <span class="keyword">virtual</span> <span class="keyword">const</span> <a class="code hl_class" href="classalbert_1_1PluginMetadata.html">PluginMetadata</a> &amp;<a class="code hl_function" href="classalbert_1_1PluginLoader.html#a06a4cc4334005183076e2879a197c3a7">metadata</a>() <span class="keyword">const</span> = 0;</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span> </div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno"><a class="line" href="classalbert_1_1PluginLoader.html#a25c920721215388c3936e4173a2dcbe4">   40</a></span>    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code hl_function" href="classalbert_1_1PluginLoader.html#a25c920721215388c3936e4173a2dcbe4">load</a>() = 0;</div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span> </div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno"><a class="line" href="classalbert_1_1PluginLoader.html#a2472c9d9ab4076c697e1b8cc2256f6a1">   45</a></span>    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code hl_function" href="classalbert_1_1PluginLoader.html#a2472c9d9ab4076c697e1b8cc2256f6a1">unload</a>() = 0;</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span> </div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno"><a class="line" href="classalbert_1_1PluginLoader.html#a152ac767c6e132b5607716e3d7b4ac15">   50</a></span>    <span class="keyword">virtual</span> <a class="code hl_class" href="classalbert_1_1PluginInstance.html">albert::PluginInstance</a> *<a class="code hl_function" href="classalbert_1_1PluginLoader.html#a152ac767c6e132b5607716e3d7b4ac15">instance</a>() = 0;</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span> </div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno"><a class="line" href="classalbert_1_1PluginLoader.html#a2a330d50938bc0f3c8f9ffe82defc788">   59</a></span>    <span class="keyword">static</span> <span class="keyword">thread_local</span> <a class="code hl_class" href="classalbert_1_1PluginLoader.html">PluginLoader</a> *<a class="code hl_variable" href="classalbert_1_1PluginLoader.html#a2a330d50938bc0f3c8f9ffe82defc788">current_loader</a>;</div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span> </div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>signals:</div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span> </div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno"><a class="line" href="classalbert_1_1PluginLoader.html#ac75e3b9e0a8f0bfbafd270f68f87ebdf">   70</a></span>    <span class="keywordtype">void</span> <a class="code hl_signal" href="classalbert_1_1PluginLoader.html#ac75e3b9e0a8f0bfbafd270f68f87ebdf">finished</a>(QString info);</div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span> </div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span><span class="keyword">protected</span>:</div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span> </div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno"><a class="line" href="classalbert_1_1PluginLoader.html#aed12605269105560dfa0130957d8b403">   74</a></span>    <span class="keyword">virtual</span> <a class="code hl_function" href="classalbert_1_1PluginLoader.html#aed12605269105560dfa0130957d8b403">~PluginLoader</a>();</div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span> </div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>};</div>
 </div>
-<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span> </div>
-<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>}</div>
-<div class="ttc" id="aclassalbert_1_1PluginInstance_html"><div class="ttname"><a href="classalbert_1_1PluginInstance.html">albert::PluginInstance</a></div><div class="ttdoc">Abstract plugin instance class.</div><div class="ttdef"><b>Definition</b> plugininstance.h:26</div></div>
-<div class="ttc" id="aclassalbert_1_1PluginLoader_html"><div class="ttname"><a href="classalbert_1_1PluginLoader.html">albert::PluginLoader</a></div><div class="ttdoc">Asynchronous plugin loader turning a physical plugin into a logical PluginInstance.</div><div class="ttdef"><b>Definition</b> pluginloader.h:16</div></div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span> </div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>}</div>
+<div class="ttc" id="aclassalbert_1_1PluginInstance_html"><div class="ttname"><a href="classalbert_1_1PluginInstance.html">albert::PluginInstance</a></div><div class="ttdoc">Abstract plugin instance class.</div><div class="ttdef"><b>Definition</b> plugininstance.h:31</div></div>
+<div class="ttc" id="aclassalbert_1_1PluginLoader_html"><div class="ttname"><a href="classalbert_1_1PluginLoader.html">albert::PluginLoader</a></div><div class="ttdoc">Asynchronous plugin loader turning a physical plugin into a logical plugin instance.</div><div class="ttdef"><b>Definition</b> pluginloader.h:20</div></div>
 <div class="ttc" id="aclassalbert_1_1PluginLoader_html_a06a4cc4334005183076e2879a197c3a7"><div class="ttname"><a href="classalbert_1_1PluginLoader.html#a06a4cc4334005183076e2879a197c3a7">albert::PluginLoader::metadata</a></div><div class="ttdeci">virtual const PluginMetadata &amp; metadata() const =0</div><div class="ttdoc">Returns the plugin metadata.</div></div>
 <div class="ttc" id="aclassalbert_1_1PluginLoader_html_a152ac767c6e132b5607716e3d7b4ac15"><div class="ttname"><a href="classalbert_1_1PluginLoader.html#a152ac767c6e132b5607716e3d7b4ac15">albert::PluginLoader::instance</a></div><div class="ttdeci">virtual albert::PluginInstance * instance()=0</div><div class="ttdoc">Returns the PluginInstance if the plugin is loaded, else nullptr.</div></div>
 <div class="ttc" id="aclassalbert_1_1PluginLoader_html_a2472c9d9ab4076c697e1b8cc2256f6a1"><div class="ttname"><a href="classalbert_1_1PluginLoader.html#a2472c9d9ab4076c697e1b8cc2256f6a1">albert::PluginLoader::unload</a></div><div class="ttdeci">virtual void unload()=0</div><div class="ttdoc">Unloads the plugin.</div></div>
 <div class="ttc" id="aclassalbert_1_1PluginLoader_html_a25c920721215388c3936e4173a2dcbe4"><div class="ttname"><a href="classalbert_1_1PluginLoader.html#a25c920721215388c3936e4173a2dcbe4">albert::PluginLoader::load</a></div><div class="ttdeci">virtual void load()=0</div><div class="ttdoc">Starts loading the plugin.</div></div>
-<div class="ttc" id="aclassalbert_1_1PluginLoader_html_a2a330d50938bc0f3c8f9ffe82defc788"><div class="ttname"><a href="classalbert_1_1PluginLoader.html#a2a330d50938bc0f3c8f9ffe82defc788">albert::PluginLoader::current_loader</a></div><div class="ttdeci">static thread_local PluginLoader * current_loader</div><div class="ttdoc">Used to set the plugin loader while plugin instatiation.</div><div class="ttdef"><b>Definition</b> pluginloader.h:41</div></div>
+<div class="ttc" id="aclassalbert_1_1PluginLoader_html_a2a330d50938bc0f3c8f9ffe82defc788"><div class="ttname"><a href="classalbert_1_1PluginLoader.html#a2a330d50938bc0f3c8f9ffe82defc788">albert::PluginLoader::current_loader</a></div><div class="ttdeci">static thread_local PluginLoader * current_loader</div><div class="ttdoc">Used to set the plugin loader while plugin instatiation.</div><div class="ttdef"><b>Definition</b> pluginloader.h:59</div></div>
 <div class="ttc" id="aclassalbert_1_1PluginLoader_html_ac75e3b9e0a8f0bfbafd270f68f87ebdf"><div class="ttname"><a href="classalbert_1_1PluginLoader.html#ac75e3b9e0a8f0bfbafd270f68f87ebdf">albert::PluginLoader::finished</a></div><div class="ttdeci">void finished(QString info)</div><div class="ttdoc">Emitted when the loading process finished.</div></div>
 <div class="ttc" id="aclassalbert_1_1PluginLoader_html_adaeee71bdc38be3a98fa6f471b6a8f0a"><div class="ttname"><a href="classalbert_1_1PluginLoader.html#adaeee71bdc38be3a98fa6f471b6a8f0a">albert::PluginLoader::path</a></div><div class="ttdeci">virtual QString path() const =0</div><div class="ttdoc">Returns the path to the plugin.</div></div>
 <div class="ttc" id="aclassalbert_1_1PluginLoader_html_aed12605269105560dfa0130957d8b403"><div class="ttname"><a href="classalbert_1_1PluginLoader.html#aed12605269105560dfa0130957d8b403">albert::PluginLoader::~PluginLoader</a></div><div class="ttdeci">virtual ~PluginLoader()</div></div>
-<div class="ttc" id="aclassalbert_1_1PluginMetadata_html"><div class="ttname"><a href="classalbert_1_1PluginMetadata.html">albert::PluginMetadata</a></div><div class="ttdoc">Common plugin metadata.</div><div class="ttdef"><b>Definition</b> pluginmetadata.h:13</div></div>
-<div class="ttc" id="anamespacealbert_html"><div class="ttname"><a href="namespacealbert.html">albert</a></div><div class="ttdoc">Albert core interface namespace.</div><div class="ttdef"><b>Definition</b> albert.h:14</div></div>
+<div class="ttc" id="aclassalbert_1_1PluginMetadata_html"><div class="ttname"><a href="classalbert_1_1PluginMetadata.html">albert::PluginMetadata</a></div><div class="ttdoc">Common plugin metadata.</div><div class="ttdef"><b>Definition</b> pluginmetadata.h:17</div></div>
+<div class="ttc" id="anamespacealbert_html"><div class="ttname"><a href="namespacealbert.html">albert</a></div><div class="ttdef"><b>Definition</b> app.h:56</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

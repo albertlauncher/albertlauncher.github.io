@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['weakdependency_0',['WeakDependency',['../classalbert_1_1util_1_1WeakDependency.html',1,'albert::util']]]
+  ['urlhandler_0',['UrlHandler',['../classalbert_1_1UrlHandler.html',1,'albert']]],
+  ['usagescoring_1',['UsageScoring',['../classalbert_1_1UsageScoring.html',1,'albert']]]
 ];

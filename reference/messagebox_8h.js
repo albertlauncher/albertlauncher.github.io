@@ -1,7 +1,7 @@
 var messagebox_8h =
 [
-    [ "critical", "messagebox_8h.html#aee7437df90752fea81920c276cf34762", null ],
-    [ "information", "messagebox_8h.html#aba684528627f3372c432cbd0a6eff899", null ],
-    [ "question", "messagebox_8h.html#a269d93ec607848a13e93d9e2d47b5762", null ],
-    [ "warning", "messagebox_8h.html#a4688a13cb126f47c7def9f58d030b68e", null ]
+    [ "critical", "messagebox_8h.html#ga72465367ff77fe327395ae90974dd70e", null ],
+    [ "information", "messagebox_8h.html#gab6587cb081eb0186f33ea186383d822e", null ],
+    [ "question", "messagebox_8h.html#gabe80d22d26ac1be3b24874ecc4040365", null ],
+    [ "warning", "messagebox_8h.html#gac7d0e23a3f76efe888505bf06ec58b18", null ]
 ];

@@ -1,0 +1,13 @@
+<map id="albert::IndexQueryHandler" name="albert::IndexQueryHandler">
+<area shape="rect" id="Node000001" title="Index&#45;based global query handler." alt="" coords="18,374,188,399"/>
+<area shape="rect" id="Node000002" href="$classalbert_1_1GlobalQueryHandler.html" title="Query handler participating in the global search." alt="" coords="15,300,191,326"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="106,341,106,373,100,373,100,341"/>
+<area shape="rect" id="Node000003" href="$classalbert_1_1RankedQueryHandler.html" title="Usage&#45;ranked query handler." alt="" coords="12,226,194,252"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="106,267,106,300,100,300,100,267"/>
+<area shape="rect" id="Node000004" href="$classalbert_1_1GeneratorQueryHandler.html" title="Coroutine&#45;based synchronous generator query handler." alt="" coords="5,153,201,178"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="106,194,106,226,100,226,100,194"/>
+<area shape="rect" id="Node000005" href="$classalbert_1_1QueryHandler.html" title="Base query handler interface for triggered queries." alt="" coords="34,79,172,105"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="106,120,106,152,100,152,100,120"/>
+<area shape="rect" id="Node000006" href="$classalbert_1_1Extension.html" title="Abstract extension class." alt="" coords="45,5,161,31"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="106,46,106,79,100,79,100,46"/>
+</map>

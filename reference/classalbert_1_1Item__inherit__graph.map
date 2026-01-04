@@ -1,7 +1,7 @@
 <map id="albert::Item" name="albert::Item">
-<area shape="rect" id="Node000001" title="Result items displayed in the query results list." alt="" coords="144,5,229,31"/>
-<area shape="rect" id="Node000002" href="$classalbert_1_1detail_1_1DynamicItem.html" title=" " alt="" coords="5,79,178,105"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="159,43,109,81,106,77,156,39"/>
-<area shape="rect" id="Node000003" href="$classalbert_1_1util_1_1StandardItem.html" title="General purpose Item implementation." alt="" coords="202,79,362,105"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="216,38,268,76,265,81,213,43"/>
+<area shape="rect" id="Node000001" title="Result items displayed in the query results list." alt="" coords="121,5,206,31"/>
+<area shape="rect" id="Node000002" href="$classalbert_1_1StandardItem.html" title="General purpose Item implementation." alt="" coords="5,79,143,105"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="138,43,91,81,87,77,135,39"/>
+<area shape="rect" id="Node000003" href="$classalbert_1_1detail_1_1DynamicItem.html" title=" " alt="" coords="167,79,339,105"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="192,39,239,77,236,81,188,43"/>
 </map>

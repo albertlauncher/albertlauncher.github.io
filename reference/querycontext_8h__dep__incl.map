@@ -1,0 +1,21 @@
+<map id="workspace/albert/include/albert/querycontext.h" name="workspace/albert/include/albert/querycontext.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="279,5,444,46"/>
+<area shape="rect" id="Node000002" href="$query_8h.html" title=" " alt="" coords="90,94,255,135"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="306,55,216,96,214,91,304,50"/>
+<area shape="rect" id="Node000003" href="$queryhandler_8h.html" title=" " alt="" coords="279,94,444,135"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="364,62,364,94,359,94,359,62"/>
+<area shape="rect" id="Node000009" href="$queryresults_8h.html" title=" " alt="" coords="476,94,642,135"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="421,50,515,91,513,96,419,55"/>
+<area shape="rect" id="Node000004" href="$asyncgeneratorqueryhandler_8h.html" title=" " alt="" coords="5,183,238,223"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="294,143,177,185,175,180,292,138"/>
+<area shape="rect" id="Node000005" href="$generatorqueryhandler_8h.html" title=" " alt="" coords="262,183,461,223"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="364,150,364,182,359,182,359,150"/>
+<area shape="rect" id="Node000006" href="$rankedqueryhandler_8h.html" title=" " alt="" coords="270,271,453,312"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="364,239,364,271,359,271,359,239"/>
+<area shape="rect" id="Node000007" href="$globalqueryhandler_8h.html" title=" " alt="" coords="272,360,451,401"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="364,328,364,360,359,360,359,328"/>
+<area shape="rect" id="Node000008" href="$indexqueryhandler_8h.html" title=" " alt="" coords="274,449,449,489"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="364,416,364,448,359,448,359,416"/>
+<area shape="rect" id="Node000010" href="$queryexecution_8h.html" title=" " alt="" coords="484,183,650,223"/>
+<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="565,150,568,182,562,182,559,151"/>
+</map>

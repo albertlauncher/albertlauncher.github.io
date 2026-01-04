@@ -96,13 +96,14 @@ $(document).ready(function(){initNavTree('classalbert_1_1Icon.html',''); initRes
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="classalbert_1_1Icon-members.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">albert::Icon Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div></div>
+  <div class="headertitle"><div class="title">albert::Icon Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span><div class="ingroups"><a class="el" href="group__core.html">Core API</a> &raquo; <a class="el" href="group__core__query.html">Query handling</a></div></div></div>
 </div><!--header-->
 <div class="contents">
 
 <p><code>#include &lt;<a class="el" href="icon_8h_source.html">albert/icon.h</a>&gt;</code></p>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Abstract icon engine. </p>
+<p>See also the topic on <a class="el" href="group__util__icon.html">icon utility</a>. </p>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -113,7 +114,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a58c779282edf5dac20e0889f717314d8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a clone of this icon.  <br /></td></tr>
 <tr class="separator:a58c779282edf5dac20e0889f717314d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6ddb6b2ac88023d22889f5b9406eafd6" id="r_a6ddb6b2ac88023d22889f5b9406eafd6"><td class="memItemLeft" align="right" valign="top">virtual QSize&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1Icon.html#a6ddb6b2ac88023d22889f5b9406eafd6">actualSize</a> (const QSize &amp;device_independent_size, double device_pixel_ratio)</td></tr>
-<tr class="memdesc:a6ddb6b2ac88023d22889f5b9406eafd6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the device independent size of the icon available for the given <em>device_independent_size</em> and <em>device_pixel_ratio</em>.  <br /></td></tr>
+<tr class="memdesc:a6ddb6b2ac88023d22889f5b9406eafd6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the device independent size of the available icon for the given <em>device_independent_size</em> and <em>device_pixel_ratio</em>.  <br /></td></tr>
 <tr class="separator:a6ddb6b2ac88023d22889f5b9406eafd6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3046051e43ea6924f0df20548182f319" id="r_a3046051e43ea6924f0df20548182f319"><td class="memItemLeft" align="right" valign="top">virtual QPixmap&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1Icon.html#a3046051e43ea6924f0df20548182f319">pixmap</a> (const QSize &amp;device_independent_size, double device_pixel_ratio)</td></tr>
 <tr class="memdesc:a3046051e43ea6924f0df20548182f319"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a pixmap for the requested <em>device_independent_size</em> and <em>device_pixel_ratio</em>.  <br /></td></tr>
@@ -194,7 +195,7 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Returns the device independent size of the icon available for the given <em>device_independent_size</em> and <em>device_pixel_ratio</em>. </p>
+<p>Returns the device independent size of the available icon for the given <em>device_independent_size</em> and <em>device_pixel_ratio</em>. </p>
 <p>The base implementations returns <em>device_independent_size</em>. </p>
 
 </div>

@@ -109,9 +109,9 @@
 </g>
 </g>
 <!-- Node5&#45;&gt;Node4 -->
-<g id="edge8_Node000005_Node000004" class="edge">
+<g id="edge7_Node000005_Node000004" class="edge">
 <title>Node5&#45;&gt;Node4</title>
-<g id="a_edge8_Node000005_Node000004"><a xlink:title=" ">
+<g id="a_edge7_Node000005_Node000004"><a xlink:title=" ">
 <path fill="none" stroke="#63b8ff" d="M242.43,-54.84C230.59,-46.96 213.16,-35.36 199.13,-26.02"/>
 <polygon fill="#63b8ff" stroke="#63b8ff" points="201.16,-23.17 190.9,-20.54 197.28,-29 201.16,-23.17"/>
 </a>
@@ -122,14 +122,14 @@
 <title>Node6</title>
 <g id="a_Node000006"><a xlink:title=" ">
 <polygon fill="#e0e0e0" stroke="#999999" points="516,-19.25 440,-19.25 440,0 516,0 516,-19.25"/>
-<text text-anchor="middle" x="478" y="-5.75" font-family="Helvetica,sans-Serif" font-size="10.00">albert/config.h</text>
+<text text-anchor="middle" x="478" y="-5.75" font-family="Helvetica,sans-Serif" font-size="10.00">albert/plugin.h</text>
 </a>
 </g>
 </g>
 <!-- Node5&#45;&gt;Node6 -->
-<g id="edge7_Node000005_Node000006" class="edge">
+<g id="edge8_Node000005_Node000006" class="edge">
 <title>Node5&#45;&gt;Node6</title>
-<g id="a_edge7_Node000005_Node000006"><a xlink:title=" ">
+<g id="a_edge8_Node000005_Node000006"><a xlink:title=" ">
 <path fill="none" stroke="#63b8ff" d="M293.91,-54.78C331.27,-45.82 388.5,-32.09 429.23,-22.32"/>
 <polygon fill="#63b8ff" stroke="#63b8ff" points="429.87,-25.77 438.77,-20.03 428.23,-18.96 429.87,-25.77"/>
 </a>

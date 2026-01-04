@@ -1,7 +1,5 @@
 <map id="workspace/albert/include/albert/matchconfig.h" name="workspace/albert/include/albert/matchconfig.h">
-<area shape="rect" id="Node000001" title=" " alt="" coords="46,5,211,46"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="5,94,108,120"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="113,48,80,84,76,80,109,45"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="131,94,270,120"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="148,45,181,80,177,84,144,48"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,171,46"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="37,94,139,120"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="91,46,91,78,85,78,85,46"/>
 </map>

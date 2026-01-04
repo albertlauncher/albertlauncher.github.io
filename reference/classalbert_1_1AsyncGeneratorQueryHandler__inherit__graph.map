@@ -1,0 +1,7 @@
+<map id="albert::AsyncGeneratorQueryHandler" name="albert::AsyncGeneratorQueryHandler">
+<area shape="rect" id="Node000001" title="Coroutine&#45;based asynchronous generator query handler." alt="" coords="5,153,192,193"/>
+<area shape="rect" id="Node000002" href="$classalbert_1_1QueryHandler.html" title="Base query handler interface for triggered queries." alt="" coords="29,79,168,105"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="101,120,101,152,96,152,96,120"/>
+<area shape="rect" id="Node000003" href="$classalbert_1_1Extension.html" title="Abstract extension class." alt="" coords="41,5,156,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="101,46,101,79,96,79,96,46"/>
+</map>

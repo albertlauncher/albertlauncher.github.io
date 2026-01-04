@@ -97,7 +97,7 @@ $(document).ready(function(){initNavTree('classalbert_1_1PluginProvider.html',''
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="classalbert_1_1PluginProvider-members.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">albert::PluginProvider Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div></div>
+  <div class="headertitle"><div class="title">albert::PluginProvider Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span><div class="ingroups"><a class="el" href="group__core.html">Core API</a> &raquo; <a class="el" href="group__core__extension.html">Extension</a></div></div></div>
 </div><!--header-->
 <div class="contents">
 
@@ -113,25 +113,27 @@ Inheritance diagram for albert::PluginProvider:</div>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a7976388d5144d9a0a0e34156afaabf32" id="r_a7976388d5144d9a0a0e34156afaabf32"><td class="memItemLeft" align="right" valign="top">virtual std::vector&lt; <a class="el" href="classalbert_1_1PluginLoader.html">PluginLoader</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1PluginProvider.html#a7976388d5144d9a0a0e34156afaabf32">plugins</a> ()=0</td></tr>
-<tr class="memdesc:a7976388d5144d9a0a0e34156afaabf32"><td class="mdescLeft">&#160;</td><td class="mdescRight">The plugins provided by this extension.  <br /></td></tr>
+<tr class="memdesc:a7976388d5144d9a0a0e34156afaabf32"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns references to the plugins provided by this plugin provider.  <br /></td></tr>
 <tr class="separator:a7976388d5144d9a0a0e34156afaabf32"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classalbert_1_1Extension"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classalbert_1_1Extension')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classalbert_1_1Extension.html">albert::Extension</a></td></tr>
 <tr class="memitem:aba79b0b7a42a03addbb4223462362b06 inherit pub_methods_classalbert_1_1Extension" id="r_aba79b0b7a42a03addbb4223462362b06"><td class="memItemLeft" align="right" valign="top">virtual QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1Extension.html#aba79b0b7a42a03addbb4223462362b06">id</a> () const =0</td></tr>
-<tr class="memdesc:aba79b0b7a42a03addbb4223462362b06 inherit pub_methods_classalbert_1_1Extension"><td class="mdescLeft">&#160;</td><td class="mdescRight">The identifier of this extension.  <br /></td></tr>
+<tr class="memdesc:aba79b0b7a42a03addbb4223462362b06 inherit pub_methods_classalbert_1_1Extension"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the extension identifier.  <br /></td></tr>
 <tr class="separator:aba79b0b7a42a03addbb4223462362b06 inherit pub_methods_classalbert_1_1Extension"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a632e2c0b2818d985d5a18f966c37e56a inherit pub_methods_classalbert_1_1Extension" id="r_a632e2c0b2818d985d5a18f966c37e56a"><td class="memItemLeft" align="right" valign="top">virtual QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1Extension.html#a632e2c0b2818d985d5a18f966c37e56a">name</a> () const =0</td></tr>
-<tr class="memdesc:a632e2c0b2818d985d5a18f966c37e56a inherit pub_methods_classalbert_1_1Extension"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pretty, human readable name.  <br /></td></tr>
+<tr class="memdesc:a632e2c0b2818d985d5a18f966c37e56a inherit pub_methods_classalbert_1_1Extension"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the pretty, human readable extension name.  <br /></td></tr>
 <tr class="separator:a632e2c0b2818d985d5a18f966c37e56a inherit pub_methods_classalbert_1_1Extension"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9f18ca0cf14e367e3826cdcdaa35f1c3 inherit pub_methods_classalbert_1_1Extension" id="r_a9f18ca0cf14e367e3826cdcdaa35f1c3"><td class="memItemLeft" align="right" valign="top">virtual QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1Extension.html#a9f18ca0cf14e367e3826cdcdaa35f1c3">description</a> () const =0</td></tr>
-<tr class="memdesc:a9f18ca0cf14e367e3826cdcdaa35f1c3 inherit pub_methods_classalbert_1_1Extension"><td class="mdescLeft">&#160;</td><td class="mdescRight">Brief description of this extension.  <br /></td></tr>
+<tr class="memdesc:a9f18ca0cf14e367e3826cdcdaa35f1c3 inherit pub_methods_classalbert_1_1Extension"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the brief extension description.  <br /></td></tr>
 <tr class="separator:a9f18ca0cf14e367e3826cdcdaa35f1c3 inherit pub_methods_classalbert_1_1Extension"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
 <tr class="memitem:a1d3172a2832639a55d0fcf30905b9fec" id="r_a1d3172a2832639a55d0fcf30905b9fec"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1PluginProvider.html#a1d3172a2832639a55d0fcf30905b9fec">~PluginProvider</a> ()</td></tr>
+<tr class="memdesc:a1d3172a2832639a55d0fcf30905b9fec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructs the plugin provider.  <br /></td></tr>
 <tr class="separator:a1d3172a2832639a55d0fcf30905b9fec"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_methods_classalbert_1_1Extension"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classalbert_1_1Extension')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="classalbert_1_1Extension.html">albert::Extension</a></td></tr>
 <tr class="memitem:a75ca8e53d296b0fa89467469f2200b5f inherit pro_methods_classalbert_1_1Extension" id="r_a75ca8e53d296b0fa89467469f2200b5f"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1Extension.html#a75ca8e53d296b0fa89467469f2200b5f">~Extension</a> ()</td></tr>
+<tr class="memdesc:a75ca8e53d296b0fa89467469f2200b5f inherit pro_methods_classalbert_1_1Extension"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructs the extension.  <br /></td></tr>
 <tr class="separator:a75ca8e53d296b0fa89467469f2200b5f inherit pro_methods_classalbert_1_1Extension"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
@@ -157,6 +159,8 @@ Protected Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Destructs the plugin provider. </p>
 
 </div>
 </div>
@@ -184,8 +188,8 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>The plugins provided by this extension. </p>
-<dl class="section return"><dt>Returns</dt><dd>The plugins provided by this extension.   </dd></dl>
+<p>Returns references to the plugins provided by this plugin provider. </p>
+<p>The calles does <b>not</b> take ownership of the returned plugin loaders. </p>
 
 </div>
 </div>

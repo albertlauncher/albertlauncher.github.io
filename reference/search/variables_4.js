@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['error_5ftolerance_5fdivisor_0',['error_tolerance_divisor',['../classalbert_1_1util_1_1MatchConfig.html#a855a497c2c70c1416f4217a041211374',1,'albert::util::MatchConfig']]]
+  ['extension_0',['extension',['../classalbert_1_1QueryResult.html#ae84de473b640efe657b22606d7f0d122',1,'albert::QueryResult']]],
+  ['extension_5fid_1',['extension_id',['../structalbert_1_1ItemKey.html#ade039b2e287991b4dcb02397e8fcbf20',1,'albert::ItemKey']]]
 ];

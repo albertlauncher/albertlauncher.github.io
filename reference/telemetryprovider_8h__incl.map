@@ -2,11 +2,9 @@
 <area shape="rect" id="Node000001" title=" " alt="" coords="56,5,226,46"/>
 <area shape="rect" id="Node000002" title=" " alt="" coords="5,94,103,120"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="121,48,80,85,77,81,117,44"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="90,168,192,193"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="143,46,143,152,138,152,138,46"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="139,168,241,193"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="148,46,169,119,181,152,176,154,163,121,143,47"/>
 <area shape="rect" id="Node000004" href="$extension_8h.html" title=" " alt="" coords="178,94,301,120"/>
 <area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="167,44,214,82,211,86,163,48"/>
-<area shape="poly" id="edge5_Node000004_Node000003" title=" " alt="" coords="224,122,171,161,168,156,221,118"/>
-<area shape="rect" id="Node000005" title=" " alt="" coords="216,168,281,193"/>
-<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="244,120,248,152,242,153,238,120"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="233,121,209,156,205,153,229,118"/>
 </map>

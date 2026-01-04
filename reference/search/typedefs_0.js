@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['qstringlist_0',['QStringList',['../systemutil_8h.html#a10f4ad2af6f15f47c0bf236178ae0105',1,'systemutil.h']]]
+  ['asyncitemgenerator_0',['AsyncItemGenerator',['../namespacealbert.html#a615f5081cd76f7c508e07be2d0c88707',1,'albert']]]
 ];

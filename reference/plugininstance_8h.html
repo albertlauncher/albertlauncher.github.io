@@ -95,15 +95,14 @@ $(document).ready(function(){initNavTree('plugininstance_8h.html',''); initResiz
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#namespaces">Namespaces</a> &#124;
-<a href="#define-members">Macros</a>  </div>
+<a href="#namespaces">Namespaces</a>  </div>
   <div class="headertitle"><div class="title">plugininstance.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &lt;QObject&gt;</code><br />
 <code>#include &lt;QString&gt;</code><br />
-<code>#include &lt;albert/config.h&gt;</code><br />
 <code>#include &lt;albert/export.h&gt;</code><br />
+<code>#include &lt;albert/plugin.h&gt;</code><br />
 <code>#include &lt;filesystem&gt;</code><br />
 <code>#include &lt;memory&gt;</code><br />
 <code>#include &lt;vector&gt;</code><br />
@@ -129,34 +128,8 @@ Classes</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:namespacealbert" id="r_namespacealbert"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacealbert.html">albert</a></td></tr>
-<tr class="memdesc:namespacealbert"><td class="mdescLeft">&#160;</td><td class="mdescRight">Albert core interface namespace. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
-Macros</h2></td></tr>
-<tr class="memitem:a8787b7c8c0b456d908480300c22d3f5f" id="r_a8787b7c8c0b456d908480300c22d3f5f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="plugininstance_8h.html#a8787b7c8c0b456d908480300c22d3f5f">ALBERT_PLUGIN</a>&#160;&#160;&#160;Q_OBJECT Q_PLUGIN_METADATA(IID ALBERT_PLUGIN_IID FILE &quot;metadata.json&quot;)</td></tr>
-<tr class="memdesc:a8787b7c8c0b456d908480300c22d3f5f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Declare a class as native Albert plugin.  <br /></td></tr>
-<tr class="separator:a8787b7c8c0b456d908480300c22d3f5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Macro Definition Documentation</h2>
-<a id="a8787b7c8c0b456d908480300c22d3f5f" name="a8787b7c8c0b456d908480300c22d3f5f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8787b7c8c0b456d908480300c22d3f5f">&#9670;&#160;</a></span>ALBERT_PLUGIN</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define ALBERT_PLUGIN&#160;&#160;&#160;Q_OBJECT Q_PLUGIN_METADATA(IID ALBERT_PLUGIN_IID FILE &quot;metadata.json&quot;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Declare a class as native Albert plugin. </p>
-<p>Sets the interface identifier to ALBERT_PLUGIN_IID and uses the metadata file named 'metadata.json' located at CMAKE_CURRENT_SOURCE_DIR.</p>
-<p>This macro has to be put into the plugin class body. The class this macro appears on must be default-constructible, inherit QObject and contain the Q_OBJECT macro. There should be exactly one occurrence of this macro in the source code for a plugin. </p>
-
-</div>
-</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

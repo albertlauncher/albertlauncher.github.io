@@ -1,6 +1,7 @@
 var searchData=
 [
-  ['qlist_0',['QList',['../classQList.html',1,'']]],
-  ['qlist_3c_20qstring_20_3e_1',['QList&lt; QString &gt;',['../classQList.html',1,'']]],
-  ['query_2',['Query',['../classalbert_1_1Query.html',1,'albert']]]
+  ['plugininstance_0',['PluginInstance',['../classalbert_1_1PluginInstance.html',1,'albert']]],
+  ['pluginloader_1',['PluginLoader',['../classalbert_1_1PluginLoader.html',1,'albert']]],
+  ['pluginmetadata_2',['PluginMetadata',['../classalbert_1_1PluginMetadata.html',1,'albert']]],
+  ['pluginprovider_3',['PluginProvider',['../classalbert_1_1PluginProvider.html',1,'albert']]]
 ];

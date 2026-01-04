@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['standarditem_0',['StandardItem',['../classalbert_1_1util_1_1StandardItem.html',1,'albert::util']]],
-  ['strongdependency_1',['StrongDependency',['../classalbert_1_1util_1_1StrongDependency.html',1,'albert::util']]]
+  ['rankedqueryhandler_0',['RankedQueryHandler',['../classalbert_1_1RankedQueryHandler.html',1,'albert']]],
+  ['rankitem_1',['RankItem',['../classalbert_1_1RankItem.html',1,'albert']]],
+  ['ratelimiter_2',['RateLimiter',['../classalbert_1_1detail_1_1RateLimiter.html',1,'albert::detail']]]
 ];

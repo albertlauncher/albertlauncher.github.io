@@ -94,7 +94,8 @@ $(document).ready(function(){initNavTree('iconutil_8h.html',''); initResizable()
 
 <div class="header">
   <div class="summary">
-<a href="#namespaces">Namespaces</a>  </div>
+<a href="#namespaces">Namespaces</a> &#124;
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle"><div class="title">iconutil.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
@@ -113,191 +114,200 @@ Include dependency graph for iconutil.h:</div>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:namespacealbert" id="r_namespacealbert"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacealbert.html">albert</a></td></tr>
-<tr class="memdesc:namespacealbert"><td class="mdescLeft">&#160;</td><td class="mdescRight">Albert core interface namespace. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader">Icon utilities</h2></td></tr>
-<tr class="memitem:a65152af1dfff0f5d1a1b11bb305829ad" id="r_a65152af1dfff0f5d1a1b11bb305829ad"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacealbert.html#a65152af1dfff0f5d1a1b11bb305829ad">albert::StandardIconType</a> { <br />
-&#160;&#160;<a class="el" href="namespacealbert.html#a65152af1dfff0f5d1a1b11bb305829adabd601c1e89ff7b3de08fca42ea141125">albert::TitleBarMenuButton</a>
-, <a class="el" href="namespacealbert.html#a65152af1dfff0f5d1a1b11bb305829ada7cbf19d68f59adae60be87a1b2a67117">albert::TitleBarMinButton</a>
-, <a class="el" href="namespacealbert.html#a65152af1dfff0f5d1a1b11bb305829adafe889ef4dac9fe43364193fbd373ca27">albert::TitleBarMaxButton</a>
-, <a class="el" href="namespacealbert.html#a65152af1dfff0f5d1a1b11bb305829ada06b79b50a41d27f53ac2608ccc46858e">albert::TitleBarCloseButton</a>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:gad140698a9d37ee80d905817df4716634" id="r_gad140698a9d37ee80d905817df4716634"><td class="memItemLeft" align="right" valign="top">QIcon&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__util__icon.html#gad140698a9d37ee80d905817df4716634">albert::qIcon</a> (std::unique_ptr&lt; <a class="el" href="classalbert_1_1Icon.html">albert::Icon</a> &gt; icon)</td></tr>
+<tr class="memdesc:gad140698a9d37ee80d905817df4716634"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a QIcon using <em>icon</em> as icon engine.  <br /></td></tr>
+<tr class="separator:gad140698a9d37ee80d905817df4716634"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad04bae4785bbe6b69f7b848cfb969466" id="r_gad04bae4785bbe6b69f7b848cfb969466"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classalbert_1_1Icon.html">Icon</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__util__icon.html#gad04bae4785bbe6b69f7b848cfb969466">albert::iconFromUrl</a> (const QString &amp;url)</td></tr>
+<tr class="memdesc:gad04bae4785bbe6b69f7b848cfb969466"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a built-in icon for the given <em>url</em>.  <br /></td></tr>
+<tr class="separator:gad04bae4785bbe6b69f7b848cfb969466"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gabdc3bac3d3ff250f4c2e82188e07dd5b" id="r_gabdc3bac3d3ff250f4c2e82188e07dd5b"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classalbert_1_1Icon.html">Icon</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__util__icon.html#gabdc3bac3d3ff250f4c2e82188e07dd5b">albert::iconFromUrls</a> (const <a class="el" href="systemutil_8h.html#a10f4ad2af6f15f47c0bf236178ae0105">QStringList</a> &amp;urls)</td></tr>
+<tr class="memdesc:gabdc3bac3d3ff250f4c2e82188e07dd5b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a built-in icon for the given <em>urls</em>.  <br /></td></tr>
+<tr class="separator:gabdc3bac3d3ff250f4c2e82188e07dd5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader">Image icon</div></td></tr>
+<tr class="memitem:ga7bd918cd73c17638586c03cab6b64ea5" id="r_ga7bd918cd73c17638586c03cab6b64ea5"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classalbert_1_1Icon.html">Icon</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__util__icon.html#ga7bd918cd73c17638586c03cab6b64ea5">albert::makeImageIcon</a> (const QString &amp;path)</td></tr>
+<tr class="memdesc:ga7bd918cd73c17638586c03cab6b64ea5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns an icon from an image file at <em>path</em>.  <br /></td></tr>
+<tr class="separator:ga7bd918cd73c17638586c03cab6b64ea5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa88662b47018d014eabd62cdbe2b38e9" id="r_gaa88662b47018d014eabd62cdbe2b38e9"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classalbert_1_1Icon.html">Icon</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__util__icon.html#gaa88662b47018d014eabd62cdbe2b38e9">albert::makeImageIcon</a> (const std::filesystem::path &amp;path)</td></tr>
+<tr class="memdesc:gaa88662b47018d014eabd62cdbe2b38e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns an icon from an image file at <em>path</em>.    <br /></td></tr>
+<tr class="separator:gaa88662b47018d014eabd62cdbe2b38e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader">File type icon</div></td></tr>
+<tr class="memitem:ga22afc0cea51cf05c992412947d149d4c" id="r_ga22afc0cea51cf05c992412947d149d4c"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classalbert_1_1Icon.html">Icon</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__util__icon.html#ga22afc0cea51cf05c992412947d149d4c">albert::makeFileTypeIcon</a> (const QString &amp;path)</td></tr>
+<tr class="memdesc:ga22afc0cea51cf05c992412947d149d4c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns an icon representing the file type of the file at <em>path</em>.  <br /></td></tr>
+<tr class="separator:ga22afc0cea51cf05c992412947d149d4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga23c91b6ca1bda9e2d3448c8b6813bb7c" id="r_ga23c91b6ca1bda9e2d3448c8b6813bb7c"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classalbert_1_1Icon.html">Icon</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__util__icon.html#ga23c91b6ca1bda9e2d3448c8b6813bb7c">albert::makeFileTypeIcon</a> (const std::filesystem::path &amp;path)</td></tr>
+<tr class="memdesc:ga23c91b6ca1bda9e2d3448c8b6813bb7c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns an icon representing the file type of the file at <em>path</em>.    <br /></td></tr>
+<tr class="separator:ga23c91b6ca1bda9e2d3448c8b6813bb7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader">Theme icon (XDG)</div></td></tr>
+<tr class="memitem:ga3cabfcc5d8a677583d3af64bd12041a5" id="r_ga3cabfcc5d8a677583d3af64bd12041a5"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classalbert_1_1Icon.html">Icon</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__util__icon.html#ga3cabfcc5d8a677583d3af64bd12041a5">albert::makeThemeIcon</a> (const QString &amp;icon_name)</td></tr>
+<tr class="memdesc:ga3cabfcc5d8a677583d3af64bd12041a5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns an icon from the current icon theme with the given <em>icon_name</em>.  <br /></td></tr>
+<tr class="separator:ga3cabfcc5d8a677583d3af64bd12041a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader">Grapheme icon</div></td></tr>
+<tr class="memitem:ga5b57bbf31c8fa4af4aff58f4183e5b3b" id="r_ga5b57bbf31c8fa4af4aff58f4183e5b3b"><td class="memItemLeft" align="right" valign="top">const QBrush &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__util__icon.html#ga5b57bbf31c8fa4af4aff58f4183e5b3b">albert::graphemeIconDefaultColor</a> ()</td></tr>
+<tr class="memdesc:ga5b57bbf31c8fa4af4aff58f4183e5b3b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the default color (black).  <br /></td></tr>
+<tr class="separator:ga5b57bbf31c8fa4af4aff58f4183e5b3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gafa6e7b4952acb3799f32fafbd8d34145" id="r_gafa6e7b4952acb3799f32fafbd8d34145"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__util__icon.html#gafa6e7b4952acb3799f32fafbd8d34145">albert::graphemeIconDefaultScalar</a> ()</td></tr>
+<tr class="memdesc:gafa6e7b4952acb3799f32fafbd8d34145"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the default scaling factor (1.0).  <br /></td></tr>
+<tr class="separator:gafa6e7b4952acb3799f32fafbd8d34145"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga7e579b0a1cbb815bd79b08b2e4196312" id="r_ga7e579b0a1cbb815bd79b08b2e4196312"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classalbert_1_1Icon.html">Icon</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__util__icon.html#ga7e579b0a1cbb815bd79b08b2e4196312">albert::makeGraphemeIcon</a> (const QString &amp;grapheme, double scalar=<a class="el" href="group__util__icon.html#gafa6e7b4952acb3799f32fafbd8d34145">graphemeIconDefaultScalar</a>(), const QBrush &amp;color=<a class="el" href="group__util__icon.html#ga5b57bbf31c8fa4af4aff58f4183e5b3b">graphemeIconDefaultColor</a>())</td></tr>
+<tr class="memdesc:ga7e579b0a1cbb815bd79b08b2e4196312"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns an icon rendering the given <em>grapheme</em>, scaled by <em>scalar</em> and colored with <em>color</em>.  <br /></td></tr>
+<tr class="separator:ga7e579b0a1cbb815bd79b08b2e4196312"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader">Rect icon</div></td></tr>
+<tr class="memitem:gad20163465c77b40ff72f2654b8cf94a2" id="r_gad20163465c77b40ff72f2654b8cf94a2"><td class="memItemLeft" align="right" valign="top">const QBrush &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__util__icon.html#gad20163465c77b40ff72f2654b8cf94a2">albert::rectIconDefaultColor</a> ()</td></tr>
+<tr class="memdesc:gad20163465c77b40ff72f2654b8cf94a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the default color (black).  <br /></td></tr>
+<tr class="separator:gad20163465c77b40ff72f2654b8cf94a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga622d404f0099ba01a51ad48f800cac81" id="r_ga622d404f0099ba01a51ad48f800cac81"><td class="memItemLeft" align="right" valign="top">const QBrush &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__util__icon.html#ga622d404f0099ba01a51ad48f800cac81">albert::rectIconDefaultBorderColor</a> ()</td></tr>
+<tr class="memdesc:ga622d404f0099ba01a51ad48f800cac81"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the default border color (black).  <br /></td></tr>
+<tr class="separator:ga622d404f0099ba01a51ad48f800cac81"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga4797841d5207aa78267ca172b327a1d5" id="r_ga4797841d5207aa78267ca172b327a1d5"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__util__icon.html#ga4797841d5207aa78267ca172b327a1d5">albert::rectIconDefaultRadius</a> ()</td></tr>
+<tr class="memdesc:ga4797841d5207aa78267ca172b327a1d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the default border radius (1.0).  <br /></td></tr>
+<tr class="separator:ga4797841d5207aa78267ca172b327a1d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga6255d36318ec32e7b026d154f7691dea" id="r_ga6255d36318ec32e7b026d154f7691dea"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__util__icon.html#ga6255d36318ec32e7b026d154f7691dea">albert::rectIconDefaultBorderWidth</a> ()</td></tr>
+<tr class="memdesc:ga6255d36318ec32e7b026d154f7691dea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the default border width (0).  <br /></td></tr>
+<tr class="separator:ga6255d36318ec32e7b026d154f7691dea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga1421490f55010c16da8260b494787132" id="r_ga1421490f55010c16da8260b494787132"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classalbert_1_1Icon.html">Icon</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__util__icon.html#ga1421490f55010c16da8260b494787132">albert::makeRectIcon</a> (const QBrush &amp;color=<a class="el" href="group__util__icon.html#gad20163465c77b40ff72f2654b8cf94a2">rectIconDefaultColor</a>(), double radius=<a class="el" href="group__util__icon.html#ga4797841d5207aa78267ca172b327a1d5">rectIconDefaultRadius</a>(), int border_width=<a class="el" href="group__util__icon.html#ga6255d36318ec32e7b026d154f7691dea">rectIconDefaultBorderWidth</a>(), const QBrush &amp;border_color=<a class="el" href="group__util__icon.html#ga622d404f0099ba01a51ad48f800cac81">rectIconDefaultBorderColor</a>())</td></tr>
+<tr class="memdesc:ga1421490f55010c16da8260b494787132"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a simple rectangular icon with the given <em>color</em>, <em>radius</em>, <em>border_width</em> and <em>border_color</em>.  <br /></td></tr>
+<tr class="separator:ga1421490f55010c16da8260b494787132"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader">Iconified icon</div></td></tr>
+<tr class="memitem:ga28dd26856865adf756823a8c74457e03" id="r_ga28dd26856865adf756823a8c74457e03"><td class="memItemLeft" align="right" valign="top">const QBrush &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__util__icon.html#ga28dd26856865adf756823a8c74457e03">albert::iconifiedIconDefaultColor</a> ()</td></tr>
+<tr class="memdesc:ga28dd26856865adf756823a8c74457e03"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the default background color (a top down gradient from white to some darker white).  <br /></td></tr>
+<tr class="separator:ga28dd26856865adf756823a8c74457e03"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga7d76829a6dd1c67a06e9bbd8f1674d01" id="r_ga7d76829a6dd1c67a06e9bbd8f1674d01"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__util__icon.html#ga7d76829a6dd1c67a06e9bbd8f1674d01">albert::iconifiedIconDefaultBorderRadius</a> ()</td></tr>
+<tr class="memdesc:ga7d76829a6dd1c67a06e9bbd8f1674d01"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the default relative radius 1.0.  <br /></td></tr>
+<tr class="separator:ga7d76829a6dd1c67a06e9bbd8f1674d01"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gac21013cb5040842be4baf86d6c97cc37" id="r_gac21013cb5040842be4baf86d6c97cc37"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__util__icon.html#gac21013cb5040842be4baf86d6c97cc37">albert::iconifiedIconDefaultBorderWidth</a> ()</td></tr>
+<tr class="memdesc:gac21013cb5040842be4baf86d6c97cc37"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the default border width (1).  <br /></td></tr>
+<tr class="separator:gac21013cb5040842be4baf86d6c97cc37"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gab38a8c8cefb2ef85da321dccf284bea8" id="r_gab38a8c8cefb2ef85da321dccf284bea8"><td class="memItemLeft" align="right" valign="top">const QBrush &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__util__icon.html#gab38a8c8cefb2ef85da321dccf284bea8">albert::iconifiedIconDefaultBorderColor</a> ()</td></tr>
+<tr class="memdesc:gab38a8c8cefb2ef85da321dccf284bea8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the default border color (a gradient slightly darker than the default background).  <br /></td></tr>
+<tr class="separator:gab38a8c8cefb2ef85da321dccf284bea8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga217d8e674474f1edb32e96e32af0f638" id="r_ga217d8e674474f1edb32e96e32af0f638"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classalbert_1_1Icon.html">Icon</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__util__icon.html#ga217d8e674474f1edb32e96e32af0f638">albert::makeIconifiedIcon</a> (std::unique_ptr&lt; <a class="el" href="classalbert_1_1Icon.html">Icon</a> &gt; src, const QBrush &amp;color=<a class="el" href="group__util__icon.html#ga28dd26856865adf756823a8c74457e03">iconifiedIconDefaultColor</a>(), double border_radius=<a class="el" href="group__util__icon.html#ga7d76829a6dd1c67a06e9bbd8f1674d01">iconifiedIconDefaultBorderRadius</a>(), int border_width=<a class="el" href="group__util__icon.html#gac21013cb5040842be4baf86d6c97cc37">iconifiedIconDefaultBorderWidth</a>(), const QBrush &amp;border_color=<a class="el" href="group__util__icon.html#gab38a8c8cefb2ef85da321dccf284bea8">iconifiedIconDefaultBorderColor</a>())</td></tr>
+<tr class="memdesc:ga217d8e674474f1edb32e96e32af0f638"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns an iconified <em>src</em>.  <br /></td></tr>
+<tr class="separator:ga217d8e674474f1edb32e96e32af0f638"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader">Composed icon</div></td></tr>
+<tr class="memitem:ga7bd1ec36bc375e1195c73ac20b11ae49" id="r_ga7bd1ec36bc375e1195c73ac20b11ae49"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__util__icon.html#ga7bd1ec36bc375e1195c73ac20b11ae49">albert::composedIconDefaultSize</a> ()</td></tr>
+<tr class="memdesc:ga7bd1ec36bc375e1195c73ac20b11ae49"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the default relative size 0.7.  <br /></td></tr>
+<tr class="separator:ga7bd1ec36bc375e1195c73ac20b11ae49"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga91ffe74e7bc8528b3ff9a016bf6ec940" id="r_ga91ffe74e7bc8528b3ff9a016bf6ec940"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__util__icon.html#ga91ffe74e7bc8528b3ff9a016bf6ec940">albert::composedIconDefaultPos1</a> ()</td></tr>
+<tr class="memdesc:ga91ffe74e7bc8528b3ff9a016bf6ec940"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the default relative position 0.0 of the first item.  <br /></td></tr>
+<tr class="separator:ga91ffe74e7bc8528b3ff9a016bf6ec940"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaf5f430b8fb4b54551b966a3aa7e27413" id="r_gaf5f430b8fb4b54551b966a3aa7e27413"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__util__icon.html#gaf5f430b8fb4b54551b966a3aa7e27413">albert::composedIconDefaultPos2</a> ()</td></tr>
+<tr class="memdesc:gaf5f430b8fb4b54551b966a3aa7e27413"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the default relative position 1.0 of the second item.  <br /></td></tr>
+<tr class="separator:gaf5f430b8fb4b54551b966a3aa7e27413"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga0bee48154cb7b9e38e67d70a2ffd4e26" id="r_ga0bee48154cb7b9e38e67d70a2ffd4e26"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classalbert_1_1Icon.html">Icon</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__util__icon.html#ga0bee48154cb7b9e38e67d70a2ffd4e26">albert::makeComposedIcon</a> (std::unique_ptr&lt; <a class="el" href="classalbert_1_1Icon.html">Icon</a> &gt; src1, std::unique_ptr&lt; <a class="el" href="classalbert_1_1Icon.html">Icon</a> &gt; src2, double size1=<a class="el" href="group__util__icon.html#ga7bd1ec36bc375e1195c73ac20b11ae49">composedIconDefaultSize</a>(), double size2=<a class="el" href="group__util__icon.html#ga7bd1ec36bc375e1195c73ac20b11ae49">composedIconDefaultSize</a>(), double x1=<a class="el" href="group__util__icon.html#ga91ffe74e7bc8528b3ff9a016bf6ec940">composedIconDefaultPos1</a>(), double y1=<a class="el" href="group__util__icon.html#ga91ffe74e7bc8528b3ff9a016bf6ec940">composedIconDefaultPos1</a>(), double x2=<a class="el" href="group__util__icon.html#gaf5f430b8fb4b54551b966a3aa7e27413">composedIconDefaultPos2</a>(), double y2=<a class="el" href="group__util__icon.html#gaf5f430b8fb4b54551b966a3aa7e27413">composedIconDefaultPos2</a>())</td></tr>
+<tr class="memdesc:ga0bee48154cb7b9e38e67d70a2ffd4e26"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a composed icon of <em>src1</em> and <em>src2</em>.  <br /></td></tr>
+<tr class="separator:ga0bee48154cb7b9e38e67d70a2ffd4e26"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader">Standard icon (QStyle standard pixmap)</h2></td></tr>
+<tr class="memitem:ga65152af1dfff0f5d1a1b11bb305829ad" id="r_ga65152af1dfff0f5d1a1b11bb305829ad"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__util__icon.html#ga65152af1dfff0f5d1a1b11bb305829ad">albert::StandardIconType</a> { <br />
+&#160;&#160;<a class="el" href="group__util__icon.html#gga65152af1dfff0f5d1a1b11bb305829ada7cbf19d68f59adae60be87a1b2a67117">albert::TitleBarMinButton</a> = 1
+, <a class="el" href="group__util__icon.html#gga65152af1dfff0f5d1a1b11bb305829adabd601c1e89ff7b3de08fca42ea141125">albert::TitleBarMenuButton</a> = 0
+, <a class="el" href="group__util__icon.html#gga65152af1dfff0f5d1a1b11bb305829adafe889ef4dac9fe43364193fbd373ca27">albert::TitleBarMaxButton</a> = 2
+, <a class="el" href="group__util__icon.html#gga65152af1dfff0f5d1a1b11bb305829ada06b79b50a41d27f53ac2608ccc46858e">albert::TitleBarCloseButton</a> = 3
 , <br />
-&#160;&#160;<a class="el" href="namespacealbert.html#a65152af1dfff0f5d1a1b11bb305829adab1ee53b966dcbce1ae33830750b5027a">albert::TitleBarNormalButton</a>
-, <a class="el" href="namespacealbert.html#a65152af1dfff0f5d1a1b11bb305829ada32be9668ed3bf474edad51c7fd052b41">albert::TitleBarShadeButton</a>
-, <a class="el" href="namespacealbert.html#a65152af1dfff0f5d1a1b11bb305829adab464ce9566f7401528ad69dca605445e">albert::TitleBarUnshadeButton</a>
-, <a class="el" href="namespacealbert.html#a65152af1dfff0f5d1a1b11bb305829ada0023409be27b9881842b0f52b6bb4ca1">albert::TitleBarContextHelpButton</a>
+&#160;&#160;<a class="el" href="group__util__icon.html#gga65152af1dfff0f5d1a1b11bb305829adab1ee53b966dcbce1ae33830750b5027a">albert::TitleBarNormalButton</a> = 4
+, <a class="el" href="group__util__icon.html#gga65152af1dfff0f5d1a1b11bb305829ada32be9668ed3bf474edad51c7fd052b41">albert::TitleBarShadeButton</a> = 5
+, <a class="el" href="group__util__icon.html#gga65152af1dfff0f5d1a1b11bb305829adab464ce9566f7401528ad69dca605445e">albert::TitleBarUnshadeButton</a> = 6
+, <a class="el" href="group__util__icon.html#gga65152af1dfff0f5d1a1b11bb305829ada0023409be27b9881842b0f52b6bb4ca1">albert::TitleBarContextHelpButton</a> = 7
 , <br />
-&#160;&#160;<a class="el" href="namespacealbert.html#a65152af1dfff0f5d1a1b11bb305829adab96b8de7387cad883bc49a35596e308b">albert::DockWidgetCloseButton</a>
-, <a class="el" href="namespacealbert.html#a65152af1dfff0f5d1a1b11bb305829ada380583c00b9c0aa4b0be09ef6aa6dc3c">albert::MessageBoxInformation</a>
-, <a class="el" href="namespacealbert.html#a65152af1dfff0f5d1a1b11bb305829adad9844ab7e2f181866ba481ad155cac4c">albert::MessageBoxWarning</a>
-, <a class="el" href="namespacealbert.html#a65152af1dfff0f5d1a1b11bb305829adabe181785e3051945579a65e9961af235">albert::MessageBoxCritical</a>
+&#160;&#160;<a class="el" href="group__util__icon.html#gga65152af1dfff0f5d1a1b11bb305829ada380583c00b9c0aa4b0be09ef6aa6dc3c">albert::MessageBoxInformation</a> = 9
+, <a class="el" href="group__util__icon.html#gga65152af1dfff0f5d1a1b11bb305829adad9844ab7e2f181866ba481ad155cac4c">albert::MessageBoxWarning</a> = 10
+, <a class="el" href="group__util__icon.html#gga65152af1dfff0f5d1a1b11bb305829adabe181785e3051945579a65e9961af235">albert::MessageBoxCritical</a> = 11
+, <a class="el" href="group__util__icon.html#gga65152af1dfff0f5d1a1b11bb305829adaa3b7a3774a302e8ef9553dd53b8c6ff2">albert::MessageBoxQuestion</a> = 12
 , <br />
-&#160;&#160;<a class="el" href="namespacealbert.html#a65152af1dfff0f5d1a1b11bb305829adaa3b7a3774a302e8ef9553dd53b8c6ff2">albert::MessageBoxQuestion</a>
-, <a class="el" href="namespacealbert.html#a65152af1dfff0f5d1a1b11bb305829ada415d5420090da2a6021e1f743a3d8921">albert::DesktopIcon</a>
-, <a class="el" href="namespacealbert.html#a65152af1dfff0f5d1a1b11bb305829ada176048c8cd4df9e6c76890236b0747b3">albert::TrashIcon</a>
-, <a class="el" href="namespacealbert.html#a65152af1dfff0f5d1a1b11bb305829ada0626f88f54c58f60f7d89aaefc635762">albert::ComputerIcon</a>
+&#160;&#160;<a class="el" href="group__util__icon.html#gga65152af1dfff0f5d1a1b11bb305829ada415d5420090da2a6021e1f743a3d8921">albert::DesktopIcon</a> = 13
+, <a class="el" href="group__util__icon.html#gga65152af1dfff0f5d1a1b11bb305829ada176048c8cd4df9e6c76890236b0747b3">albert::TrashIcon</a> = 14
+, <a class="el" href="group__util__icon.html#gga65152af1dfff0f5d1a1b11bb305829ada0626f88f54c58f60f7d89aaefc635762">albert::ComputerIcon</a> = 15
+, <a class="el" href="group__util__icon.html#gga65152af1dfff0f5d1a1b11bb305829ada6b2677aa095e33ecd5040c7cac112439">albert::DriveFDIcon</a> = 16
 , <br />
-&#160;&#160;<a class="el" href="namespacealbert.html#a65152af1dfff0f5d1a1b11bb305829ada6b2677aa095e33ecd5040c7cac112439">albert::DriveFDIcon</a>
-, <a class="el" href="namespacealbert.html#a65152af1dfff0f5d1a1b11bb305829ada3d81ff3b6dc8ad4a5d773dd14b47a108">albert::DriveHDIcon</a>
-, <a class="el" href="namespacealbert.html#a65152af1dfff0f5d1a1b11bb305829ada921426458f42e23bf3d36df99237b58a">albert::DriveCDIcon</a>
-, <a class="el" href="namespacealbert.html#a65152af1dfff0f5d1a1b11bb305829adac2cf60f7b9e567215b0fc43052afe67e">albert::DriveDVDIcon</a>
+&#160;&#160;<a class="el" href="group__util__icon.html#gga65152af1dfff0f5d1a1b11bb305829ada3d81ff3b6dc8ad4a5d773dd14b47a108">albert::DriveHDIcon</a> = 17
+, <a class="el" href="group__util__icon.html#gga65152af1dfff0f5d1a1b11bb305829ada921426458f42e23bf3d36df99237b58a">albert::DriveCDIcon</a> = 18
+, <a class="el" href="group__util__icon.html#gga65152af1dfff0f5d1a1b11bb305829adac2cf60f7b9e567215b0fc43052afe67e">albert::DriveDVDIcon</a> = 19
+, <a class="el" href="group__util__icon.html#gga65152af1dfff0f5d1a1b11bb305829adafd153069420d94fdbf2c481776374a80">albert::DriveNetIcon</a> = 20
 , <br />
-&#160;&#160;<a class="el" href="namespacealbert.html#a65152af1dfff0f5d1a1b11bb305829adafd153069420d94fdbf2c481776374a80">albert::DriveNetIcon</a>
-, <a class="el" href="namespacealbert.html#a65152af1dfff0f5d1a1b11bb305829ada0c86993fcddce4153b3b03ac04206e9c">albert::DirOpenIcon</a>
-, <a class="el" href="namespacealbert.html#a65152af1dfff0f5d1a1b11bb305829ada8a5d3266c27a0ff10441b057c0a11f29">albert::DirClosedIcon</a>
-, <a class="el" href="namespacealbert.html#a65152af1dfff0f5d1a1b11bb305829ada8634f080931e6519efdd5603e4475828">albert::DirLinkIcon</a>
+&#160;&#160;<a class="el" href="group__util__icon.html#gga65152af1dfff0f5d1a1b11bb305829ada8da688e5bc0831ede68a92d3b9471624">albert::DirHomeIcon</a> = 56
+, <a class="el" href="group__util__icon.html#gga65152af1dfff0f5d1a1b11bb305829ada0c86993fcddce4153b3b03ac04206e9c">albert::DirOpenIcon</a> = 21
+, <a class="el" href="group__util__icon.html#gga65152af1dfff0f5d1a1b11bb305829ada8a5d3266c27a0ff10441b057c0a11f29">albert::DirClosedIcon</a> = 22
+, <a class="el" href="group__util__icon.html#gga65152af1dfff0f5d1a1b11bb305829adafca382d93bbbd19e2ac5ca8e62da6566">albert::DirIcon</a> = 38
 , <br />
-&#160;&#160;<a class="el" href="namespacealbert.html#a65152af1dfff0f5d1a1b11bb305829ada60c26d7d0ada651068d6f7968bcbe195">albert::DirLinkOpenIcon</a>
-, <a class="el" href="namespacealbert.html#a65152af1dfff0f5d1a1b11bb305829ada4e24b54600d94d5eccb3bc9c6626a07a">albert::FileIcon</a>
-, <a class="el" href="namespacealbert.html#a65152af1dfff0f5d1a1b11bb305829adaf0dfe7b59f87d8ee0c229f80d3efed63">albert::FileLinkIcon</a>
-, <a class="el" href="namespacealbert.html#a65152af1dfff0f5d1a1b11bb305829ada22822bf29a4cf353eef9395ed4b1505a">albert::ToolBarHorizontalExtensionButton</a>
+&#160;&#160;<a class="el" href="group__util__icon.html#gga65152af1dfff0f5d1a1b11bb305829ada8634f080931e6519efdd5603e4475828">albert::DirLinkIcon</a> = 23
+, <a class="el" href="group__util__icon.html#gga65152af1dfff0f5d1a1b11bb305829ada60c26d7d0ada651068d6f7968bcbe195">albert::DirLinkOpenIcon</a> = 24
+, <a class="el" href="group__util__icon.html#gga65152af1dfff0f5d1a1b11bb305829ada4e24b54600d94d5eccb3bc9c6626a07a">albert::FileIcon</a> = 25
+, <a class="el" href="group__util__icon.html#gga65152af1dfff0f5d1a1b11bb305829adaf0dfe7b59f87d8ee0c229f80d3efed63">albert::FileLinkIcon</a> = 26
 , <br />
-&#160;&#160;<a class="el" href="namespacealbert.html#a65152af1dfff0f5d1a1b11bb305829ada5d7ca860f6ec34d2dc79e456be3df115">albert::ToolBarVerticalExtensionButton</a>
-, <a class="el" href="namespacealbert.html#a65152af1dfff0f5d1a1b11bb305829ada3b355784d21e574a2c8dae9714c90ec4">albert::FileDialogStart</a>
-, <a class="el" href="namespacealbert.html#a65152af1dfff0f5d1a1b11bb305829ada53003f5417653d7f977b7cafaf8f6ac5">albert::FileDialogEnd</a>
-, <a class="el" href="namespacealbert.html#a65152af1dfff0f5d1a1b11bb305829adaab911a1db0bff51efd2d7671a3c3cf05">albert::FileDialogToParent</a>
+&#160;&#160;<a class="el" href="group__util__icon.html#gga65152af1dfff0f5d1a1b11bb305829ada3b355784d21e574a2c8dae9714c90ec4">albert::FileDialogStart</a> = 29
+, <a class="el" href="group__util__icon.html#gga65152af1dfff0f5d1a1b11bb305829ada53003f5417653d7f977b7cafaf8f6ac5">albert::FileDialogEnd</a> = 30
+, <a class="el" href="group__util__icon.html#gga65152af1dfff0f5d1a1b11bb305829adaab911a1db0bff51efd2d7671a3c3cf05">albert::FileDialogToParent</a> = 31
+, <a class="el" href="group__util__icon.html#gga65152af1dfff0f5d1a1b11bb305829ada54d575be431a2a8bd9668c8c5d4273f1">albert::FileDialogNewFolder</a> = 32
 , <br />
-&#160;&#160;<a class="el" href="namespacealbert.html#a65152af1dfff0f5d1a1b11bb305829ada54d575be431a2a8bd9668c8c5d4273f1">albert::FileDialogNewFolder</a>
-, <a class="el" href="namespacealbert.html#a65152af1dfff0f5d1a1b11bb305829ada5c7e322381d37ee52f8e55be624a2a94">albert::FileDialogDetailedView</a>
-, <a class="el" href="namespacealbert.html#a65152af1dfff0f5d1a1b11bb305829adaaa4fad79a8492279d23eb8e00607d5d7">albert::FileDialogInfoView</a>
-, <a class="el" href="namespacealbert.html#a65152af1dfff0f5d1a1b11bb305829adaffdec2b3ebfe63409e5837c55bff7377">albert::FileDialogContentsView</a>
+&#160;&#160;<a class="el" href="group__util__icon.html#gga65152af1dfff0f5d1a1b11bb305829ada5c7e322381d37ee52f8e55be624a2a94">albert::FileDialogDetailedView</a> = 33
+, <a class="el" href="group__util__icon.html#gga65152af1dfff0f5d1a1b11bb305829adaaa4fad79a8492279d23eb8e00607d5d7">albert::FileDialogInfoView</a> = 34
+, <a class="el" href="group__util__icon.html#gga65152af1dfff0f5d1a1b11bb305829adaffdec2b3ebfe63409e5837c55bff7377">albert::FileDialogContentsView</a> = 35
+, <a class="el" href="group__util__icon.html#gga65152af1dfff0f5d1a1b11bb305829adaa65f48a9a2466cd1fb39ce946ef5a592">albert::FileDialogListView</a> = 36
 , <br />
-&#160;&#160;<a class="el" href="namespacealbert.html#a65152af1dfff0f5d1a1b11bb305829adaa65f48a9a2466cd1fb39ce946ef5a592">albert::FileDialogListView</a>
-, <a class="el" href="namespacealbert.html#a65152af1dfff0f5d1a1b11bb305829ada27fbae1e4048ca1faeb5445fae73a596">albert::FileDialogBack</a>
-, <a class="el" href="namespacealbert.html#a65152af1dfff0f5d1a1b11bb305829adafca382d93bbbd19e2ac5ca8e62da6566">albert::DirIcon</a>
-, <a class="el" href="namespacealbert.html#a65152af1dfff0f5d1a1b11bb305829adaac997539d14f204b2296ade70f1f5681">albert::DialogOkButton</a>
+&#160;&#160;<a class="el" href="group__util__icon.html#gga65152af1dfff0f5d1a1b11bb305829ada27fbae1e4048ca1faeb5445fae73a596">albert::FileDialogBack</a> = 37
+, <a class="el" href="group__util__icon.html#gga65152af1dfff0f5d1a1b11bb305829adab96b8de7387cad883bc49a35596e308b">albert::DockWidgetCloseButton</a> = 8
+, <a class="el" href="group__util__icon.html#gga65152af1dfff0f5d1a1b11bb305829ada22822bf29a4cf353eef9395ed4b1505a">albert::ToolBarHorizontalExtensionButton</a> = 27
+, <a class="el" href="group__util__icon.html#gga65152af1dfff0f5d1a1b11bb305829ada5d7ca860f6ec34d2dc79e456be3df115">albert::ToolBarVerticalExtensionButton</a> = 28
 , <br />
-&#160;&#160;<a class="el" href="namespacealbert.html#a65152af1dfff0f5d1a1b11bb305829adaca16acf43c438213aa0685348f862c32">albert::DialogCancelButton</a>
-, <a class="el" href="namespacealbert.html#a65152af1dfff0f5d1a1b11bb305829ada732b3457aaa915b2ba6adfa005d73e35">albert::DialogHelpButton</a>
-, <a class="el" href="namespacealbert.html#a65152af1dfff0f5d1a1b11bb305829ada50ff075dfe67531f7e20b8699611a534">albert::DialogOpenButton</a>
-, <a class="el" href="namespacealbert.html#a65152af1dfff0f5d1a1b11bb305829ada8c68537ffe564d3f35d326e3a4d5f292">albert::DialogSaveButton</a>
+&#160;&#160;<a class="el" href="group__util__icon.html#gga65152af1dfff0f5d1a1b11bb305829adaac997539d14f204b2296ade70f1f5681">albert::DialogOkButton</a> = 39
+, <a class="el" href="group__util__icon.html#gga65152af1dfff0f5d1a1b11bb305829adaca16acf43c438213aa0685348f862c32">albert::DialogCancelButton</a> = 40
+, <a class="el" href="group__util__icon.html#gga65152af1dfff0f5d1a1b11bb305829ada732b3457aaa915b2ba6adfa005d73e35">albert::DialogHelpButton</a> = 41
+, <a class="el" href="group__util__icon.html#gga65152af1dfff0f5d1a1b11bb305829ada50ff075dfe67531f7e20b8699611a534">albert::DialogOpenButton</a> = 42
 , <br />
-&#160;&#160;<a class="el" href="namespacealbert.html#a65152af1dfff0f5d1a1b11bb305829adaaf45443f97be558d2c6d397b74650bce">albert::DialogCloseButton</a>
-, <a class="el" href="namespacealbert.html#a65152af1dfff0f5d1a1b11bb305829ada0a0c8bcccab843b462957e78943f2ae0">albert::DialogApplyButton</a>
-, <a class="el" href="namespacealbert.html#a65152af1dfff0f5d1a1b11bb305829adaa668ede7a5454cc0f30d6b15b2a38b7c">albert::DialogResetButton</a>
-, <a class="el" href="namespacealbert.html#a65152af1dfff0f5d1a1b11bb305829adae5d44d11e0a23075b20163c7a5f36cba">albert::DialogDiscardButton</a>
+&#160;&#160;<a class="el" href="group__util__icon.html#gga65152af1dfff0f5d1a1b11bb305829ada8c68537ffe564d3f35d326e3a4d5f292">albert::DialogSaveButton</a> = 43
+, <a class="el" href="group__util__icon.html#gga65152af1dfff0f5d1a1b11bb305829adaaf45443f97be558d2c6d397b74650bce">albert::DialogCloseButton</a> = 44
+, <a class="el" href="group__util__icon.html#gga65152af1dfff0f5d1a1b11bb305829ada0a0c8bcccab843b462957e78943f2ae0">albert::DialogApplyButton</a> = 45
+, <a class="el" href="group__util__icon.html#gga65152af1dfff0f5d1a1b11bb305829adaa668ede7a5454cc0f30d6b15b2a38b7c">albert::DialogResetButton</a> = 46
 , <br />
-&#160;&#160;<a class="el" href="namespacealbert.html#a65152af1dfff0f5d1a1b11bb305829ada0a66657f300bc590539b017e026c654e">albert::DialogYesButton</a>
-, <a class="el" href="namespacealbert.html#a65152af1dfff0f5d1a1b11bb305829ada48804a7a229d0c92cdd5989c3d310b50">albert::DialogNoButton</a>
-, <a class="el" href="namespacealbert.html#a65152af1dfff0f5d1a1b11bb305829ada4667f6e0e35933489b2f04d0fefe3e31">albert::ArrowUp</a>
-, <a class="el" href="namespacealbert.html#a65152af1dfff0f5d1a1b11bb305829ada4de84fc1e08372fa6ff4fed82c732d6e">albert::ArrowDown</a>
+&#160;&#160;<a class="el" href="group__util__icon.html#gga65152af1dfff0f5d1a1b11bb305829adae5d44d11e0a23075b20163c7a5f36cba">albert::DialogDiscardButton</a> = 47
+, <a class="el" href="group__util__icon.html#gga65152af1dfff0f5d1a1b11bb305829ada0a66657f300bc590539b017e026c654e">albert::DialogYesButton</a> = 48
+, <a class="el" href="group__util__icon.html#gga65152af1dfff0f5d1a1b11bb305829ada48804a7a229d0c92cdd5989c3d310b50">albert::DialogNoButton</a> = 49
+, <a class="el" href="group__util__icon.html#gga65152af1dfff0f5d1a1b11bb305829ada4667f6e0e35933489b2f04d0fefe3e31">albert::ArrowUp</a> = 50
 , <br />
-&#160;&#160;<a class="el" href="namespacealbert.html#a65152af1dfff0f5d1a1b11bb305829adaeef08c31c70c23e3ca66b5268a627b5b">albert::ArrowLeft</a>
-, <a class="el" href="namespacealbert.html#a65152af1dfff0f5d1a1b11bb305829ada98e798ae7d53e928ac4a3ba519de5ba6">albert::ArrowRight</a>
-, <a class="el" href="namespacealbert.html#a65152af1dfff0f5d1a1b11bb305829ada4716d868862a672778314e045e8cb85e">albert::ArrowBack</a>
-, <a class="el" href="namespacealbert.html#a65152af1dfff0f5d1a1b11bb305829adaac102a053d6b2008471acc6bb255bcfa">albert::ArrowForward</a>
+&#160;&#160;<a class="el" href="group__util__icon.html#gga65152af1dfff0f5d1a1b11bb305829ada4de84fc1e08372fa6ff4fed82c732d6e">albert::ArrowDown</a> = 51
+, <a class="el" href="group__util__icon.html#gga65152af1dfff0f5d1a1b11bb305829adaeef08c31c70c23e3ca66b5268a627b5b">albert::ArrowLeft</a> = 52
+, <a class="el" href="group__util__icon.html#gga65152af1dfff0f5d1a1b11bb305829ada98e798ae7d53e928ac4a3ba519de5ba6">albert::ArrowRight</a> = 53
+, <a class="el" href="group__util__icon.html#gga65152af1dfff0f5d1a1b11bb305829ada4716d868862a672778314e045e8cb85e">albert::ArrowBack</a> = 54
 , <br />
-&#160;&#160;<a class="el" href="namespacealbert.html#a65152af1dfff0f5d1a1b11bb305829ada8da688e5bc0831ede68a92d3b9471624">albert::DirHomeIcon</a>
-, <a class="el" href="namespacealbert.html#a65152af1dfff0f5d1a1b11bb305829adabd4df8de1346ba00ffd32522b1cd04d7">albert::CommandLink</a>
-, <a class="el" href="namespacealbert.html#a65152af1dfff0f5d1a1b11bb305829adae54d0f86faa633095f720807fb987731">albert::VistaShield</a>
-, <a class="el" href="namespacealbert.html#a65152af1dfff0f5d1a1b11bb305829ada06fc3277ad62989f43817af10bb10e12">albert::BrowserReload</a>
+&#160;&#160;<a class="el" href="group__util__icon.html#gga65152af1dfff0f5d1a1b11bb305829adaac102a053d6b2008471acc6bb255bcfa">albert::ArrowForward</a> = 55
+, <a class="el" href="group__util__icon.html#gga65152af1dfff0f5d1a1b11bb305829adabd4df8de1346ba00ffd32522b1cd04d7">albert::CommandLink</a> = 57
+, <a class="el" href="group__util__icon.html#gga65152af1dfff0f5d1a1b11bb305829adae54d0f86faa633095f720807fb987731">albert::VistaShield</a> = 58
+, <a class="el" href="group__util__icon.html#gga65152af1dfff0f5d1a1b11bb305829ada06fc3277ad62989f43817af10bb10e12">albert::BrowserReload</a> = 59
 , <br />
-&#160;&#160;<a class="el" href="namespacealbert.html#a65152af1dfff0f5d1a1b11bb305829adadbe396c6a01c75a7c8ac9a696d0b492c">albert::BrowserStop</a>
-, <a class="el" href="namespacealbert.html#a65152af1dfff0f5d1a1b11bb305829ada8c85929acf44250d8fd9531426d34744">albert::MediaPlay</a>
-, <a class="el" href="namespacealbert.html#a65152af1dfff0f5d1a1b11bb305829adae7480dd651271a0e8b97ea8b3e23efb0">albert::MediaStop</a>
-, <a class="el" href="namespacealbert.html#a65152af1dfff0f5d1a1b11bb305829adae6e526dbf30f3b0a684eb6fef8b365a4">albert::MediaPause</a>
+&#160;&#160;<a class="el" href="group__util__icon.html#gga65152af1dfff0f5d1a1b11bb305829adadbe396c6a01c75a7c8ac9a696d0b492c">albert::BrowserStop</a> = 60
+, <a class="el" href="group__util__icon.html#gga65152af1dfff0f5d1a1b11bb305829ada8c85929acf44250d8fd9531426d34744">albert::MediaPlay</a> = 61
+, <a class="el" href="group__util__icon.html#gga65152af1dfff0f5d1a1b11bb305829adae7480dd651271a0e8b97ea8b3e23efb0">albert::MediaStop</a> = 62
+, <a class="el" href="group__util__icon.html#gga65152af1dfff0f5d1a1b11bb305829adae6e526dbf30f3b0a684eb6fef8b365a4">albert::MediaPause</a> = 63
 , <br />
-&#160;&#160;<a class="el" href="namespacealbert.html#a65152af1dfff0f5d1a1b11bb305829ada5be19b73a32896dcc05cbbc32011c6a7">albert::MediaSkipForward</a>
-, <a class="el" href="namespacealbert.html#a65152af1dfff0f5d1a1b11bb305829ada9f1f0cea2eedf1e942f336aeee2c2750">albert::MediaSkipBackward</a>
-, <a class="el" href="namespacealbert.html#a65152af1dfff0f5d1a1b11bb305829adaf08c17e7c1a32e29418b2dacadd8ecde">albert::MediaSeekForward</a>
-, <a class="el" href="namespacealbert.html#a65152af1dfff0f5d1a1b11bb305829ada75373d0100041378acf09e52e2095563">albert::MediaSeekBackward</a>
+&#160;&#160;<a class="el" href="group__util__icon.html#gga65152af1dfff0f5d1a1b11bb305829ada5be19b73a32896dcc05cbbc32011c6a7">albert::MediaSkipForward</a> = 64
+, <a class="el" href="group__util__icon.html#gga65152af1dfff0f5d1a1b11bb305829ada9f1f0cea2eedf1e942f336aeee2c2750">albert::MediaSkipBackward</a> = 65
+, <a class="el" href="group__util__icon.html#gga65152af1dfff0f5d1a1b11bb305829adaf08c17e7c1a32e29418b2dacadd8ecde">albert::MediaSeekForward</a> = 66
+, <a class="el" href="group__util__icon.html#gga65152af1dfff0f5d1a1b11bb305829ada75373d0100041378acf09e52e2095563">albert::MediaSeekBackward</a> = 67
 , <br />
-&#160;&#160;<a class="el" href="namespacealbert.html#a65152af1dfff0f5d1a1b11bb305829adaac0a9f4d9f9f8fafaed8ac0bb36d0c80">albert::MediaVolume</a>
-, <a class="el" href="namespacealbert.html#a65152af1dfff0f5d1a1b11bb305829ada545ed85aa36d4bbf8b89a1b3b5a3816f">albert::MediaVolumeMuted</a>
-, <a class="el" href="namespacealbert.html#a65152af1dfff0f5d1a1b11bb305829adabf6519a7be172af2bf218906c000c15e">albert::LineEditClearButton</a>
-, <a class="el" href="namespacealbert.html#a65152af1dfff0f5d1a1b11bb305829ada5ed6c6084d4fa5217a31f43cfd191f40">albert::DialogYesToAllButton</a>
+&#160;&#160;<a class="el" href="group__util__icon.html#gga65152af1dfff0f5d1a1b11bb305829adaac0a9f4d9f9f8fafaed8ac0bb36d0c80">albert::MediaVolume</a> = 68
+, <a class="el" href="group__util__icon.html#gga65152af1dfff0f5d1a1b11bb305829ada545ed85aa36d4bbf8b89a1b3b5a3816f">albert::MediaVolumeMuted</a> = 69
+, <a class="el" href="group__util__icon.html#gga65152af1dfff0f5d1a1b11bb305829adabf6519a7be172af2bf218906c000c15e">albert::LineEditClearButton</a> = 70
+, <a class="el" href="group__util__icon.html#gga65152af1dfff0f5d1a1b11bb305829ada5ed6c6084d4fa5217a31f43cfd191f40">albert::DialogYesToAllButton</a> = 71
 , <br />
-&#160;&#160;<a class="el" href="namespacealbert.html#a65152af1dfff0f5d1a1b11bb305829ada121f3ae8f9de979fea5fff740242ddc7">albert::DialogNoToAllButton</a>
-, <a class="el" href="namespacealbert.html#a65152af1dfff0f5d1a1b11bb305829ada4d9cc5475aae1530c9a19224ff7e67eb">albert::DialogSaveAllButton</a>
-, <a class="el" href="namespacealbert.html#a65152af1dfff0f5d1a1b11bb305829ada56f5827066dc281560ae7b64c77c8aa9">albert::DialogAbortButton</a>
-, <a class="el" href="namespacealbert.html#a65152af1dfff0f5d1a1b11bb305829ada733f57be269077cb76b562d4f36f163d">albert::DialogRetryButton</a>
+&#160;&#160;<a class="el" href="group__util__icon.html#gga65152af1dfff0f5d1a1b11bb305829ada121f3ae8f9de979fea5fff740242ddc7">albert::DialogNoToAllButton</a> = 72
+, <a class="el" href="group__util__icon.html#gga65152af1dfff0f5d1a1b11bb305829ada4d9cc5475aae1530c9a19224ff7e67eb">albert::DialogSaveAllButton</a> = 73
+, <a class="el" href="group__util__icon.html#gga65152af1dfff0f5d1a1b11bb305829ada56f5827066dc281560ae7b64c77c8aa9">albert::DialogAbortButton</a> = 74
+, <a class="el" href="group__util__icon.html#gga65152af1dfff0f5d1a1b11bb305829ada733f57be269077cb76b562d4f36f163d">albert::DialogRetryButton</a> = 75
 , <br />
-&#160;&#160;<a class="el" href="namespacealbert.html#a65152af1dfff0f5d1a1b11bb305829adab4f25fd1f6364df1617673ecf7108929">albert::DialogIgnoreButton</a>
-, <a class="el" href="namespacealbert.html#a65152af1dfff0f5d1a1b11bb305829adac4e9d0a4f52fd7a64d58ef7666654b6b">albert::RestoreDefaultsButton</a>
-, <a class="el" href="namespacealbert.html#a65152af1dfff0f5d1a1b11bb305829adabeb69da223f7b1a49a530018ce08a074">albert::TabCloseButton</a>
+&#160;&#160;<a class="el" href="group__util__icon.html#gga65152af1dfff0f5d1a1b11bb305829adab4f25fd1f6364df1617673ecf7108929">albert::DialogIgnoreButton</a> = 76
+, <a class="el" href="group__util__icon.html#gga65152af1dfff0f5d1a1b11bb305829adac4e9d0a4f52fd7a64d58ef7666654b6b">albert::RestoreDefaultsButton</a> = 77
+, <a class="el" href="group__util__icon.html#gga65152af1dfff0f5d1a1b11bb305829adabeb69da223f7b1a49a530018ce08a074">albert::TabCloseButton</a> = 78
 <br />
  }</td></tr>
-<tr class="memdesc:a65152af1dfff0f5d1a1b11bb305829ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">This enum describes the available standard icons.  <a href="namespacealbert.html#a65152af1dfff0f5d1a1b11bb305829ad">More...</a><br /></td></tr>
-<tr class="separator:a65152af1dfff0f5d1a1b11bb305829ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad140698a9d37ee80d905817df4716634" id="r_ad140698a9d37ee80d905817df4716634"><td class="memItemLeft" align="right" valign="top">QIcon&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacealbert.html#ad140698a9d37ee80d905817df4716634">albert::qIcon</a> (std::unique_ptr&lt; <a class="el" href="classalbert_1_1Icon.html">albert::Icon</a> &gt; icon)</td></tr>
-<tr class="memdesc:ad140698a9d37ee80d905817df4716634"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a QIcon using <em>icon</em> as icon engine.  <br /></td></tr>
-<tr class="separator:ad140698a9d37ee80d905817df4716634"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad04bae4785bbe6b69f7b848cfb969466" id="r_ad04bae4785bbe6b69f7b848cfb969466"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classalbert_1_1Icon.html">Icon</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacealbert.html#ad04bae4785bbe6b69f7b848cfb969466">albert::iconFromUrl</a> (const QString &amp;url)</td></tr>
-<tr class="memdesc:ad04bae4785bbe6b69f7b848cfb969466"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a built-in icon for the given <em>url</em>.  <br /></td></tr>
-<tr class="separator:ad04bae4785bbe6b69f7b848cfb969466"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abdc3bac3d3ff250f4c2e82188e07dd5b" id="r_abdc3bac3d3ff250f4c2e82188e07dd5b"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classalbert_1_1Icon.html">Icon</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacealbert.html#abdc3bac3d3ff250f4c2e82188e07dd5b">albert::iconFromUrls</a> (const <a class="el" href="systemutil_8h.html#a10f4ad2af6f15f47c0bf236178ae0105">QStringList</a> &amp;urls)</td></tr>
-<tr class="memdesc:abdc3bac3d3ff250f4c2e82188e07dd5b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a built-in icon for the given <em>urls</em>.  <br /></td></tr>
-<tr class="separator:abdc3bac3d3ff250f4c2e82188e07dd5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7bd918cd73c17638586c03cab6b64ea5" id="r_a7bd918cd73c17638586c03cab6b64ea5"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classalbert_1_1Icon.html">Icon</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacealbert.html#a7bd918cd73c17638586c03cab6b64ea5">albert::makeImageIcon</a> (const QString &amp;path)</td></tr>
-<tr class="memdesc:a7bd918cd73c17638586c03cab6b64ea5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns an icon from an image file at <em>path</em>.  <br /></td></tr>
-<tr class="separator:a7bd918cd73c17638586c03cab6b64ea5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa88662b47018d014eabd62cdbe2b38e9" id="r_aa88662b47018d014eabd62cdbe2b38e9"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classalbert_1_1Icon.html">Icon</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacealbert.html#aa88662b47018d014eabd62cdbe2b38e9">albert::makeImageIcon</a> (const std::filesystem::path &amp;path)</td></tr>
-<tr class="memdesc:aa88662b47018d014eabd62cdbe2b38e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns an icon from an image file at <em>path</em>.    <br /></td></tr>
-<tr class="separator:aa88662b47018d014eabd62cdbe2b38e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a22afc0cea51cf05c992412947d149d4c" id="r_a22afc0cea51cf05c992412947d149d4c"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classalbert_1_1Icon.html">Icon</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacealbert.html#a22afc0cea51cf05c992412947d149d4c">albert::makeFileTypeIcon</a> (const QString &amp;path)</td></tr>
-<tr class="memdesc:a22afc0cea51cf05c992412947d149d4c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns an icon representing the file type of the file at <em>path</em>.  <br /></td></tr>
-<tr class="separator:a22afc0cea51cf05c992412947d149d4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a23c91b6ca1bda9e2d3448c8b6813bb7c" id="r_a23c91b6ca1bda9e2d3448c8b6813bb7c"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classalbert_1_1Icon.html">Icon</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacealbert.html#a23c91b6ca1bda9e2d3448c8b6813bb7c">albert::makeFileTypeIcon</a> (const std::filesystem::path &amp;path)</td></tr>
-<tr class="memdesc:a23c91b6ca1bda9e2d3448c8b6813bb7c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns an icon representing the file type of the file at <em>path</em>.    <br /></td></tr>
-<tr class="separator:a23c91b6ca1bda9e2d3448c8b6813bb7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a62369b6986902d127f93a84562af62be" id="r_a62369b6986902d127f93a84562af62be"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classalbert_1_1Icon.html">Icon</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacealbert.html#a62369b6986902d127f93a84562af62be">albert::makeStandardIcon</a> (<a class="el" href="namespacealbert.html#a65152af1dfff0f5d1a1b11bb305829ad">StandardIconType</a> type)</td></tr>
-<tr class="memdesc:a62369b6986902d127f93a84562af62be"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a standard icon for the given <em>type</em>.  <br /></td></tr>
-<tr class="separator:a62369b6986902d127f93a84562af62be"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3cabfcc5d8a677583d3af64bd12041a5" id="r_a3cabfcc5d8a677583d3af64bd12041a5"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classalbert_1_1Icon.html">Icon</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacealbert.html#a3cabfcc5d8a677583d3af64bd12041a5">albert::makeThemeIcon</a> (const QString &amp;icon_name)</td></tr>
-<tr class="memdesc:a3cabfcc5d8a677583d3af64bd12041a5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns an icon from the current icon theme with the given <em>icon_name</em>.  <br /></td></tr>
-<tr class="separator:a3cabfcc5d8a677583d3af64bd12041a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5b57bbf31c8fa4af4aff58f4183e5b3b" id="r_a5b57bbf31c8fa4af4aff58f4183e5b3b"><td class="memItemLeft" align="right" valign="top">const QBrush &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacealbert.html#a5b57bbf31c8fa4af4aff58f4183e5b3b">albert::graphemeIconDefaultColor</a> ()</td></tr>
-<tr class="memdesc:a5b57bbf31c8fa4af4aff58f4183e5b3b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the default color (black).  <br /></td></tr>
-<tr class="separator:a5b57bbf31c8fa4af4aff58f4183e5b3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afa6e7b4952acb3799f32fafbd8d34145" id="r_afa6e7b4952acb3799f32fafbd8d34145"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacealbert.html#afa6e7b4952acb3799f32fafbd8d34145">albert::graphemeIconDefaultScalar</a> ()</td></tr>
-<tr class="memdesc:afa6e7b4952acb3799f32fafbd8d34145"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the default scaling factor (1.0).  <br /></td></tr>
-<tr class="separator:afa6e7b4952acb3799f32fafbd8d34145"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7e579b0a1cbb815bd79b08b2e4196312" id="r_a7e579b0a1cbb815bd79b08b2e4196312"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classalbert_1_1Icon.html">Icon</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacealbert.html#a7e579b0a1cbb815bd79b08b2e4196312">albert::makeGraphemeIcon</a> (const QString &amp;grapheme, double scalar=<a class="el" href="namespacealbert.html#afa6e7b4952acb3799f32fafbd8d34145">graphemeIconDefaultScalar</a>(), const QBrush &amp;color=<a class="el" href="namespacealbert.html#a5b57bbf31c8fa4af4aff58f4183e5b3b">graphemeIconDefaultColor</a>())</td></tr>
-<tr class="memdesc:a7e579b0a1cbb815bd79b08b2e4196312"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns an icon rendering the given <em>grapheme</em>, scaled by <em>scalar</em> and colored with <em>color</em>.  <br /></td></tr>
-<tr class="separator:a7e579b0a1cbb815bd79b08b2e4196312"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad20163465c77b40ff72f2654b8cf94a2" id="r_ad20163465c77b40ff72f2654b8cf94a2"><td class="memItemLeft" align="right" valign="top">const QBrush &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacealbert.html#ad20163465c77b40ff72f2654b8cf94a2">albert::rectIconDefaultColor</a> ()</td></tr>
-<tr class="memdesc:ad20163465c77b40ff72f2654b8cf94a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the default color (black).  <br /></td></tr>
-<tr class="separator:ad20163465c77b40ff72f2654b8cf94a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a622d404f0099ba01a51ad48f800cac81" id="r_a622d404f0099ba01a51ad48f800cac81"><td class="memItemLeft" align="right" valign="top">const QBrush &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacealbert.html#a622d404f0099ba01a51ad48f800cac81">albert::rectIconDefaultBorderColor</a> ()</td></tr>
-<tr class="memdesc:a622d404f0099ba01a51ad48f800cac81"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the default border color (black).  <br /></td></tr>
-<tr class="separator:a622d404f0099ba01a51ad48f800cac81"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4797841d5207aa78267ca172b327a1d5" id="r_a4797841d5207aa78267ca172b327a1d5"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacealbert.html#a4797841d5207aa78267ca172b327a1d5">albert::rectIconDefaultRadius</a> ()</td></tr>
-<tr class="memdesc:a4797841d5207aa78267ca172b327a1d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the default border radius (1.0).  <br /></td></tr>
-<tr class="separator:a4797841d5207aa78267ca172b327a1d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6255d36318ec32e7b026d154f7691dea" id="r_a6255d36318ec32e7b026d154f7691dea"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacealbert.html#a6255d36318ec32e7b026d154f7691dea">albert::rectIconDefaultBorderWidth</a> ()</td></tr>
-<tr class="memdesc:a6255d36318ec32e7b026d154f7691dea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the default border width (0).  <br /></td></tr>
-<tr class="separator:a6255d36318ec32e7b026d154f7691dea"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1421490f55010c16da8260b494787132" id="r_a1421490f55010c16da8260b494787132"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classalbert_1_1Icon.html">Icon</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacealbert.html#a1421490f55010c16da8260b494787132">albert::makeRectIcon</a> (const QBrush &amp;color=<a class="el" href="namespacealbert.html#ad20163465c77b40ff72f2654b8cf94a2">rectIconDefaultColor</a>(), double radius=<a class="el" href="namespacealbert.html#a4797841d5207aa78267ca172b327a1d5">rectIconDefaultRadius</a>(), int border_width=<a class="el" href="namespacealbert.html#a6255d36318ec32e7b026d154f7691dea">rectIconDefaultBorderWidth</a>(), const QBrush &amp;border_color=<a class="el" href="namespacealbert.html#a622d404f0099ba01a51ad48f800cac81">rectIconDefaultBorderColor</a>())</td></tr>
-<tr class="memdesc:a1421490f55010c16da8260b494787132"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a simple rectangular icon with the given <em>color</em>, <em>radius</em>, <em>border_width</em> and <em>border_color</em>.  <br /></td></tr>
-<tr class="separator:a1421490f55010c16da8260b494787132"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a28dd26856865adf756823a8c74457e03" id="r_a28dd26856865adf756823a8c74457e03"><td class="memItemLeft" align="right" valign="top">const QBrush &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacealbert.html#a28dd26856865adf756823a8c74457e03">albert::iconifiedIconDefaultColor</a> ()</td></tr>
-<tr class="memdesc:a28dd26856865adf756823a8c74457e03"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the default background color (a top down gradient from white to some darker white).  <br /></td></tr>
-<tr class="separator:a28dd26856865adf756823a8c74457e03"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7d76829a6dd1c67a06e9bbd8f1674d01" id="r_a7d76829a6dd1c67a06e9bbd8f1674d01"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacealbert.html#a7d76829a6dd1c67a06e9bbd8f1674d01">albert::iconifiedIconDefaultBorderRadius</a> ()</td></tr>
-<tr class="memdesc:a7d76829a6dd1c67a06e9bbd8f1674d01"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the default relative radius 1.0.  <br /></td></tr>
-<tr class="separator:a7d76829a6dd1c67a06e9bbd8f1674d01"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac21013cb5040842be4baf86d6c97cc37" id="r_ac21013cb5040842be4baf86d6c97cc37"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacealbert.html#ac21013cb5040842be4baf86d6c97cc37">albert::iconifiedIconDefaultBorderWidth</a> ()</td></tr>
-<tr class="memdesc:ac21013cb5040842be4baf86d6c97cc37"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the default border width (1).  <br /></td></tr>
-<tr class="separator:ac21013cb5040842be4baf86d6c97cc37"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab38a8c8cefb2ef85da321dccf284bea8" id="r_ab38a8c8cefb2ef85da321dccf284bea8"><td class="memItemLeft" align="right" valign="top">const QBrush &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacealbert.html#ab38a8c8cefb2ef85da321dccf284bea8">albert::iconifiedIconDefaultBorderColor</a> ()</td></tr>
-<tr class="memdesc:ab38a8c8cefb2ef85da321dccf284bea8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the default border color (a gradient slightly darker than the default background).  <br /></td></tr>
-<tr class="separator:ab38a8c8cefb2ef85da321dccf284bea8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a217d8e674474f1edb32e96e32af0f638" id="r_a217d8e674474f1edb32e96e32af0f638"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classalbert_1_1Icon.html">Icon</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacealbert.html#a217d8e674474f1edb32e96e32af0f638">albert::makeIconifiedIcon</a> (std::unique_ptr&lt; <a class="el" href="classalbert_1_1Icon.html">Icon</a> &gt; src, const QBrush &amp;color=<a class="el" href="namespacealbert.html#a28dd26856865adf756823a8c74457e03">iconifiedIconDefaultColor</a>(), double border_radius=<a class="el" href="namespacealbert.html#a7d76829a6dd1c67a06e9bbd8f1674d01">iconifiedIconDefaultBorderRadius</a>(), int border_width=<a class="el" href="namespacealbert.html#ac21013cb5040842be4baf86d6c97cc37">iconifiedIconDefaultBorderWidth</a>(), const QBrush &amp;border_color=<a class="el" href="namespacealbert.html#ab38a8c8cefb2ef85da321dccf284bea8">iconifiedIconDefaultBorderColor</a>())</td></tr>
-<tr class="memdesc:a217d8e674474f1edb32e96e32af0f638"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns an iconified <em>src</em>.  <br /></td></tr>
-<tr class="separator:a217d8e674474f1edb32e96e32af0f638"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7bd1ec36bc375e1195c73ac20b11ae49" id="r_a7bd1ec36bc375e1195c73ac20b11ae49"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacealbert.html#a7bd1ec36bc375e1195c73ac20b11ae49">albert::composedIconDefaultSize</a> ()</td></tr>
-<tr class="memdesc:a7bd1ec36bc375e1195c73ac20b11ae49"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the default relative size 0.7.  <br /></td></tr>
-<tr class="separator:a7bd1ec36bc375e1195c73ac20b11ae49"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a91ffe74e7bc8528b3ff9a016bf6ec940" id="r_a91ffe74e7bc8528b3ff9a016bf6ec940"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacealbert.html#a91ffe74e7bc8528b3ff9a016bf6ec940">albert::composedIconDefaultPos1</a> ()</td></tr>
-<tr class="memdesc:a91ffe74e7bc8528b3ff9a016bf6ec940"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the default relative position 0.0 of the first item.  <br /></td></tr>
-<tr class="separator:a91ffe74e7bc8528b3ff9a016bf6ec940"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af5f430b8fb4b54551b966a3aa7e27413" id="r_af5f430b8fb4b54551b966a3aa7e27413"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacealbert.html#af5f430b8fb4b54551b966a3aa7e27413">albert::composedIconDefaultPos2</a> ()</td></tr>
-<tr class="memdesc:af5f430b8fb4b54551b966a3aa7e27413"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the default relative position 1.0 of the second item.  <br /></td></tr>
-<tr class="separator:af5f430b8fb4b54551b966a3aa7e27413"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0bee48154cb7b9e38e67d70a2ffd4e26" id="r_a0bee48154cb7b9e38e67d70a2ffd4e26"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classalbert_1_1Icon.html">Icon</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacealbert.html#a0bee48154cb7b9e38e67d70a2ffd4e26">albert::makeComposedIcon</a> (std::unique_ptr&lt; <a class="el" href="classalbert_1_1Icon.html">Icon</a> &gt; src1, std::unique_ptr&lt; <a class="el" href="classalbert_1_1Icon.html">Icon</a> &gt; src2, double size1=<a class="el" href="namespacealbert.html#a7bd1ec36bc375e1195c73ac20b11ae49">composedIconDefaultSize</a>(), double size2=<a class="el" href="namespacealbert.html#a7bd1ec36bc375e1195c73ac20b11ae49">composedIconDefaultSize</a>(), double x1=<a class="el" href="namespacealbert.html#a91ffe74e7bc8528b3ff9a016bf6ec940">composedIconDefaultPos1</a>(), double y1=<a class="el" href="namespacealbert.html#a91ffe74e7bc8528b3ff9a016bf6ec940">composedIconDefaultPos1</a>(), double x2=<a class="el" href="namespacealbert.html#af5f430b8fb4b54551b966a3aa7e27413">composedIconDefaultPos2</a>(), double y2=<a class="el" href="namespacealbert.html#af5f430b8fb4b54551b966a3aa7e27413">composedIconDefaultPos2</a>())</td></tr>
-<tr class="memdesc:a0bee48154cb7b9e38e67d70a2ffd4e26"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a composed icon of <em>src1</em> and <em>src2</em>.  <br /></td></tr>
-<tr class="separator:a0bee48154cb7b9e38e67d70a2ffd4e26"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memdesc:ga65152af1dfff0f5d1a1b11bb305829ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">This enum describes the available standard icons.  <a href="group__util__icon.html#ga65152af1dfff0f5d1a1b11bb305829ad">More...</a><br /></td></tr>
+<tr class="separator:ga65152af1dfff0f5d1a1b11bb305829ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga62369b6986902d127f93a84562af62be" id="r_ga62369b6986902d127f93a84562af62be"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classalbert_1_1Icon.html">Icon</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__util__icon.html#ga62369b6986902d127f93a84562af62be">albert::makeStandardIcon</a> (<a class="el" href="group__util__icon.html#ga65152af1dfff0f5d1a1b11bb305829ad">StandardIconType</a> type)</td></tr>
+<tr class="memdesc:ga62369b6986902d127f93a84562af62be"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a standard icon for the given <em>type</em>.  <br /></td></tr>
+<tr class="separator:ga62369b6986902d127f93a84562af62be"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->

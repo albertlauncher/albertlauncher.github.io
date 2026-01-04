@@ -1,13 +1,13 @@
 var searchData=
 [
-  ['error_0',['error',['../classalbert_1_1util_1_1Download.html#a3c5f2514d02c2facf826a30e6cc99611',1,'albert::util::Download::error()'],['../classalbert_1_1util_1_1OAuth2.html#a9adecfa99d7d8c62e92473d4ed6e3a09',1,'albert::util::OAuth2::error()']]],
-  ['error_5ftolerance_5fdivisor_1',['error_tolerance_divisor',['../classalbert_1_1util_1_1MatchConfig.html#a855a497c2c70c1416f4217a041211374',1,'albert::util::MatchConfig']]],
-  ['expand_5fstringize_2',['EXPAND_STRINGIZE',['../property_8h.html#afa5f33475901a9746f14f6975b7deaab',1,'property.h']]],
-  ['extension_3',['extension',['../classalbert_1_1Extension.html',1,'albert::Extension'],['../classalbert_1_1ExtensionRegistry.html#a99839edb159935ec09401b74c8e00428',1,'albert::ExtensionRegistry::extension()']]],
-  ['extension_2eh_4',['extension.h',['../extension_8h.html',1,'']]],
-  ['extensionplugin_5',['ExtensionPlugin',['../classalbert_1_1util_1_1ExtensionPlugin.html',1,'albert::util']]],
+  ['error_0',['error',['../classalbert_1_1Download.html#ae2e8ffa6470a7c4d7d7a86bc8d99e30b',1,'albert::Download::error()'],['../classalbert_1_1OAuth2.html#a7a3974091d0a9a73926f903e48c21872',1,'albert::OAuth2::error()']]],
+  ['execution_1',['execution',['../classalbert_1_1QueryHandler.html#a1bad60ff51a66734fe10f9c1b8a58ba2',1,'albert::QueryHandler::execution()'],['../classalbert_1_1detail_1_1Query.html#a77ea76fea88f433017eb04589fa35718',1,'albert::detail::Query::execution()'],['../classalbert_1_1AsyncGeneratorQueryHandler.html#a4be9b7a8c31e53ff2a61ae85c1605bf5',1,'albert::AsyncGeneratorQueryHandler::execution()'],['../classalbert_1_1GeneratorQueryHandler.html#aa8507883635acef6760ef2a4248692db',1,'albert::GeneratorQueryHandler::execution()']]],
+  ['extension_2',['extension',['../group__core__extension.html',1,'Extension'],['../classalbert_1_1Extension.html',1,'albert::Extension'],['../classalbert_1_1ExtensionRegistry.html#a70e73251e367cf1ed5d62d3c539d7bd2',1,'albert::ExtensionRegistry::extension()'],['../classalbert_1_1QueryResult.html#ae84de473b640efe657b22606d7f0d122',1,'albert::QueryResult::extension']]],
+  ['extension_2eh_3',['extension.h',['../extension_8h.html',1,'']]],
+  ['extension_5fid_4',['extension_id',['../structalbert_1_1ItemKey.html#ade039b2e287991b4dcb02397e8fcbf20',1,'albert::ItemKey']]],
+  ['extensionplugin_5',['ExtensionPlugin',['../classalbert_1_1ExtensionPlugin.html',1,'albert']]],
   ['extensionplugin_2eh_6',['extensionplugin.h',['../extensionplugin_8h.html',1,'']]],
-  ['extensionregistry_7',['extensionregistry',['../classalbert_1_1ExtensionRegistry.html',1,'albert::ExtensionRegistry'],['../namespacealbert.html#ad686c346ceb5a0fa99659e5c3a627bb1',1,'albert::extensionRegistry()']]],
+  ['extensionregistry_7',['extensionregistry',['../classalbert_1_1ExtensionRegistry.html',1,'albert::ExtensionRegistry'],['../classalbert_1_1App.html#ab0b21caf94d2666e3f246f2263e47f6f',1,'albert::App::extensionRegistry()']]],
   ['extensionregistry_2eh_8',['extensionregistry.h',['../extensionregistry_8h.html',1,'']]],
-  ['extensions_9',['extensions',['../classalbert_1_1util_1_1ExtensionPlugin.html#a74ec8b1a7046d0ca3102209efc06e50e',1,'albert::util::ExtensionPlugin::extensions()'],['../classalbert_1_1ExtensionRegistry.html#a7dbd33a3cce2b17ff073b5c521165e95',1,'albert::ExtensionRegistry::extensions() const'],['../classalbert_1_1ExtensionRegistry.html#a0223f64212021bf220b36e14a7d8119c',1,'albert::ExtensionRegistry::extensions() const'],['../classalbert_1_1PluginInstance.html#ae1c91829360d9e5d4d08033d7d155a85',1,'albert::PluginInstance::extensions()']]]
+  ['extensions_9',['extensions',['../classalbert_1_1ExtensionPlugin.html#a2b66c777a6ec17e567c41cfe70218e5e',1,'albert::ExtensionPlugin::extensions()'],['../classalbert_1_1ExtensionRegistry.html#a7dbd33a3cce2b17ff073b5c521165e95',1,'albert::ExtensionRegistry::extensions() const'],['../classalbert_1_1ExtensionRegistry.html#a0223f64212021bf220b36e14a7d8119c',1,'albert::ExtensionRegistry::extensions() const'],['../classalbert_1_1PluginInstance.html#ae1c91829360d9e5d4d08033d7d155a85',1,'albert::PluginInstance::extensions()']]]
 ];

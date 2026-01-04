@@ -1,0 +1,20 @@
+<map id="workspace/albert/include/albert/generatorqueryhandler.h" name="workspace/albert/include/albert/generatorqueryhandler.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="259,5,457,46"/>
+<area shape="rect" id="Node000002" href="$queryhandler_8h.html" title=" " alt="" coords="171,94,311,120"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="331,49,273,87,270,83,328,44"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="335,168,402,193"/>
+<area shape="poly" id="edge9_Node000001_Node000007" title=" " alt="" coords="362,46,369,152,364,152,357,46"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="396,94,453,120"/>
+<area shape="poly" id="edge10_Node000001_Node000008" title=" " alt="" coords="377,45,407,80,403,83,373,48"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="34,241,136,267"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="171,120,76,139,37,153,14,169,9,185,15,201,30,217,50,231,46,235,27,221,11,204,3,185,9,166,35,148,75,134,170,114"/>
+<area shape="rect" id="Node000004" href="$extension_8h.html" title=" " alt="" coords="24,168,146,193"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="215,123,126,163,124,158,213,118"/>
+<area shape="rect" id="Node000005" href="$querycontext_8h.html" title=" " alt="" coords="171,168,311,193"/>
+<area shape="poly" id="edge5_Node000002_Node000005" title=" " alt="" coords="243,120,243,152,238,152,238,120"/>
+<area shape="poly" id="edge8_Node000002_Node000007" title=" " alt="" coords="264,118,335,157,332,162,261,123"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="87,194,87,226,82,226,82,194"/>
+<area shape="poly" id="edge7_Node000005_Node000003" title=" " alt="" coords="215,196,126,237,124,232,213,191"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="208,241,273,267"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="243,194,243,226,238,226,238,194"/>
+</map>
