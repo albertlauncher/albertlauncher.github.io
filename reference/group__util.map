@@ -1,9 +1,0 @@
-<map id="Utility API" name="Utility API">
-<area shape="rect" id="Node000001" title="Utility classes and helper functions." alt="" coords="5,129,85,155"/>
-<area shape="rect" id="Node000004" href="$group__util__icon.html" title="Utility for icon factories." alt="" coords="145,5,191,31"/>
-<area shape="rect" id="Node000005" href="$group__util__net.html" title="Network utility." alt="" coords="133,55,203,80"/>
-<area shape="rect" id="Node000002" href="$group__util__plugin.html" title="Utility for plugins." alt="" coords="139,104,197,130"/>
-<area shape="rect" id="Node000003" href="$group__util__query.html" title="Utility for indexing and query handling." alt="" coords="140,153,196,179"/>
-<area shape="rect" id="Node000006" href="$group__util__system.html" title="System/Desktop utility." alt="" coords="135,203,201,228"/>
-<area shape="rect" id="Node000007" href="$group__util__ui.html" title="UI utility." alt="" coords="149,252,187,278"/>
-</map>

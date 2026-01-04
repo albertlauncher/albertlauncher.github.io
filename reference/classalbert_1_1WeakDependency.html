@@ -102,17 +102,17 @@ $(document).ready(function(){initNavTree('classalbert_1_1WeakDependency.html',''
 <div class="contents">
 
 <p><code>#include &lt;<a class="el" href="plugindependency_8h_source.html">albert/plugindependency.h</a>&gt;</code></p>
-<div class="dynheader">
-Inheritance diagram for albert::WeakDependency&lt; T &gt;:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classalbert_1_1WeakDependency__inherit__graph.svg" width="204" height="111"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
-<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Description</h2>
 <div class="textblock"><div class="compoundTemplParams">template&lt;class T&gt;<br />
 class albert::WeakDependency&lt; T &gt;</div><p>Convenience holder class for soft plugin dependencies. </p>
 <p>Watches for (de)registration of an extension <code>id</code> of type <code>T</code>. On (de)registration of the dependency the pointer is updated and the callback called.</p>
 <p>If you use this class you may want to lock a mutex against a query handler or an action. This should not be necessary since the plugin loader and the extension registry must not be accessed while a session query is running. Take care though if you defer the execution of the action using a timer or similar. </p>
-</div><table class="memberdecls">
+</div><div class="dynheader">
+Inheritance diagram for albert::WeakDependency&lt; T &gt;:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classalbert_1_1WeakDependency__inherit__graph.svg" width="204" height="111"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
+<table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:aa7134ad13996b4bbe26d7dd13d1d05c4" id="r_aa7134ad13996b4bbe26d7dd13d1d05c4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1WeakDependency.html#aa7134ad13996b4bbe26d7dd13d1d05c4">WeakDependency</a> (const QString &amp;id, std::function&lt; void(bool)&gt; on_registered={})</td></tr>

@@ -2,7 +2,7 @@ var searchData=
 [
   ['fallbackhandler_0',['FallbackHandler',['../classalbert_1_1FallbackHandler.html',1,'albert']]],
   ['fallbackhandler_2eh_1',['fallbackhandler.h',['../fallbackhandler_8h.html',1,'']]],
-  ['fallbacks_2',['fallbacks',['../classalbert_1_1FallbackHandler.html#a131fd6896a43672eac646f29da7222ed',1,'albert::FallbackHandler::fallbacks()'],['../classalbert_1_1detail_1_1Query.html#a1767266efea111b9e152ec2f9f231da7',1,'albert::detail::Query::fallbacks()']]],
+  ['fallbacks_2',['fallbacks',['../classalbert_1_1FallbackHandler.html#a131fd6896a43672eac646f29da7222ed',1,'albert::FallbackHandler']]],
   ['fetchmore_3',['fetchMore',['../classalbert_1_1QueryExecution.html#ae5b0b067d821bd6ea8205c2895b38ee1',1,'albert::QueryExecution']]],
   ['filedialogback_4',['FileDialogBack',['../group__util__icon.html#gga65152af1dfff0f5d1a1b11bb305829ada27fbae1e4048ca1faeb5445fae73a596',1,'albert']]],
   ['filedialogcontentsview_5',['FileDialogContentsView',['../group__util__icon.html#gga65152af1dfff0f5d1a1b11bb305829adaffdec2b3ebfe63409e5837c55bff7377',1,'albert']]],
@@ -17,7 +17,7 @@ var searchData=
   ['filelinkicon_14',['FileLinkIcon',['../group__util__icon.html#gga65152af1dfff0f5d1a1b11bb305829adaf0dfe7b59f87d8ee0c229f80d3efed63',1,'albert']]],
   ['finish_15',['finish',['../classalbert_1_1BackgroundExecutor.html#a8dbece579177c2665517738ab279f8f9',1,'albert::BackgroundExecutor']]],
   ['finished_16',['finished',['../classalbert_1_1PluginLoader.html#ac75e3b9e0a8f0bfbafd270f68f87ebdf',1,'albert::PluginLoader::finished()'],['../classalbert_1_1Download.html#ad3ea2f731c1bfffaae863b105ff61347',1,'albert::Download::finished()']]],
-  ['frontend_17',['frontend',['../classalbert_1_1detail_1_1Frontend.html',1,'albert::detail::Frontend'],['../classalbert_1_1PluginMetadata.html#a430d528ce1f7c9602941815f30ed3ff7ad97ba66b283564339628b71975a6e68d',1,'albert::PluginMetadata::Frontend']]],
+  ['frontend_17',['Frontend',['../classalbert_1_1PluginMetadata.html#a430d528ce1f7c9602941815f30ed3ff7ad97ba66b283564339628b71975a6e68d',1,'albert::PluginMetadata']]],
   ['frontend_2eh_18',['frontend.h',['../frontend_8h.html',1,'']]],
   ['function_19',['function',['../classalbert_1_1Action.html#a3b51b223188440df06f813fc06f2b6ed',1,'albert::Action']]],
   ['fuzzy_20',['fuzzy',['../classalbert_1_1MatchConfig.html#aa1833dae4bbbc846e9d1d6d13f23689e',1,'albert::MatchConfig']]]

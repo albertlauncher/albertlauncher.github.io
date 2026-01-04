@@ -110,32 +110,31 @@ $(document).ready(function(){initNavTree('inputhistory_8h_source.html',''); init
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#include &lt;albert/export.h&gt;</span></div>
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#include &lt;memory&gt;</span></div>
 <div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
-<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespacealbert_1_1detail.html">albert::detail</a></div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="keyword">namespace </span>albert::detail</div>
 <div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span>{</div>
 <div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span> </div>
-<div class="foldopen" id="foldopen00018" data-start="{" data-end="};">
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno"><a class="line" href="classalbert_1_1detail_1_1InputHistory.html">   18</a></span><span class="keyword">class </span>ALBERT_EXPORT <a class="code hl_class" href="classalbert_1_1detail_1_1InputHistory.html">InputHistory</a> final : <span class="keyword">public</span> QObject</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span><span class="keyword">class </span>ALBERT_EXPORT InputHistory final : <span class="keyword">public</span> QObject</div>
 <div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>{</div>
 <div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>    Q_OBJECT</div>
 <div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span> </div>
 <div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span><span class="keyword">public</span>:</div>
 <div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span> </div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno"><a class="line" href="classalbert_1_1detail_1_1InputHistory.html#a5a959a0cf11e824f74ceb6ad53a2a937">   24</a></span>    <a class="code hl_function" href="classalbert_1_1detail_1_1InputHistory.html#a5a959a0cf11e824f74ceb6ad53a2a937">InputHistory</a>(<span class="keyword">const</span> QString &amp;path = {});</div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno"><a class="line" href="classalbert_1_1detail_1_1InputHistory.html#af79b88712b187e20d8c1942e53196dba">   25</a></span>    <a class="code hl_function" href="classalbert_1_1detail_1_1InputHistory.html#af79b88712b187e20d8c1942e53196dba">~InputHistory</a>() <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>    InputHistory(<span class="keyword">const</span> QString &amp;path = {});</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>    ~InputHistory() <span class="keyword">override</span>;</div>
 <div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span> </div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno"><a class="line" href="classalbert_1_1detail_1_1InputHistory.html#a31d3730147618736e2ce8009e3f34f66">   34</a></span>    Q_INVOKABLE <span class="keywordtype">void</span> <a class="code hl_function" href="classalbert_1_1detail_1_1InputHistory.html#a31d3730147618736e2ce8009e3f34f66">add</a>(<span class="keyword">const</span> QString&amp; str);</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>    Q_INVOKABLE <span class="keywordtype">void</span> add(<span class="keyword">const</span> QString&amp; str);</div>
 <div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span> </div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno"><a class="line" href="classalbert_1_1detail_1_1InputHistory.html#a6333755605e4b2b3476be104ec52b135">   42</a></span>    Q_INVOKABLE QString <a class="code hl_function" href="classalbert_1_1detail_1_1InputHistory.html#a6333755605e4b2b3476be104ec52b135">next</a>(<span class="keyword">const</span> QString &amp;pattern = QString{});</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>    Q_INVOKABLE QString next(<span class="keyword">const</span> QString &amp;pattern = QString{});</div>
 <div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span> </div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno"><a class="line" href="classalbert_1_1detail_1_1InputHistory.html#a1b8430872cb8169f32e3c42a7e1ecf06">   50</a></span>    Q_INVOKABLE QString <a class="code hl_function" href="classalbert_1_1detail_1_1InputHistory.html#a1b8430872cb8169f32e3c42a7e1ecf06">prev</a>(<span class="keyword">const</span> QString &amp;pattern = QString{});</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>    Q_INVOKABLE QString prev(<span class="keyword">const</span> QString &amp;pattern = QString{});</div>
 <div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span> </div>
-<div class="line"><a id="l00055" name="l00055"></a><span class="lineno"><a class="line" href="classalbert_1_1detail_1_1InputHistory.html#a8f9dd4fcb8dcacda9e3f25d17a61c099">   55</a></span>    Q_INVOKABLE <span class="keywordtype">void</span> <a class="code hl_function" href="classalbert_1_1detail_1_1InputHistory.html#a8f9dd4fcb8dcacda9e3f25d17a61c099">resetIterator</a>();</div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>    Q_INVOKABLE <span class="keywordtype">void</span> resetIterator();</div>
 <div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span> </div>
-<div class="line"><a id="l00060" name="l00060"></a><span class="lineno"><a class="line" href="classalbert_1_1detail_1_1InputHistory.html#ac356548bcad23b59be1da7f2f69d0b12">   60</a></span>    Q_INVOKABLE <span class="keywordtype">void</span> <a class="code hl_function" href="classalbert_1_1detail_1_1InputHistory.html#ac356548bcad23b59be1da7f2f69d0b12">clear</a>();</div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>    Q_INVOKABLE <span class="keywordtype">void</span> clear();</div>
 <div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span> </div>
-<div class="line"><a id="l00065" name="l00065"></a><span class="lineno"><a class="line" href="classalbert_1_1detail_1_1InputHistory.html#a09b471754e2d89ff1a284af100eb844d">   65</a></span>    Q_INVOKABLE uint <a class="code hl_function" href="classalbert_1_1detail_1_1InputHistory.html#a09b471754e2d89ff1a284af100eb844d">limit</a>() <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>    Q_INVOKABLE uint limit() <span class="keyword">const</span>;</div>
 <div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span> </div>
-<div class="line"><a id="l00070" name="l00070"></a><span class="lineno"><a class="line" href="classalbert_1_1detail_1_1InputHistory.html#a789092ea730707a49c22f87ae9b5e943">   70</a></span>    Q_INVOKABLE <span class="keywordtype">void</span> <a class="code hl_function" href="classalbert_1_1detail_1_1InputHistory.html#a789092ea730707a49c22f87ae9b5e943">setLimit</a>(uint);</div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>    Q_INVOKABLE <span class="keywordtype">void</span> setLimit(uint);</div>
 <div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span> </div>
 <div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span><span class="keyword">private</span>:</div>
 <div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span> </div>
@@ -143,20 +142,8 @@ $(document).ready(function(){initNavTree('inputhistory_8h_source.html',''); init
 <div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>    std::unique_ptr&lt;Private&gt; d;</div>
 <div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span> </div>
 <div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>};</div>
-</div>
 <div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span> </div>
 <div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>}</div>
-<div class="ttc" id="aclassalbert_1_1detail_1_1InputHistory_html"><div class="ttname"><a href="classalbert_1_1detail_1_1InputHistory.html">albert::detail::InputHistory</a></div><div class="ttdoc">Input history class.</div><div class="ttdef"><b>Definition</b> inputhistory.h:19</div></div>
-<div class="ttc" id="aclassalbert_1_1detail_1_1InputHistory_html_a09b471754e2d89ff1a284af100eb844d"><div class="ttname"><a href="classalbert_1_1detail_1_1InputHistory.html#a09b471754e2d89ff1a284af100eb844d">albert::detail::InputHistory::limit</a></div><div class="ttdeci">Q_INVOKABLE uint limit() const</div><div class="ttdoc">Returns the maximum amount of history entries.</div></div>
-<div class="ttc" id="aclassalbert_1_1detail_1_1InputHistory_html_a1b8430872cb8169f32e3c42a7e1ecf06"><div class="ttname"><a href="classalbert_1_1detail_1_1InputHistory.html#a1b8430872cb8169f32e3c42a7e1ecf06">albert::detail::InputHistory::prev</a></div><div class="ttdeci">Q_INVOKABLE QString prev(const QString &amp;pattern=QString{})</div><div class="ttdoc">Gets previous history item matching the pattern.</div></div>
-<div class="ttc" id="aclassalbert_1_1detail_1_1InputHistory_html_a31d3730147618736e2ce8009e3f34f66"><div class="ttname"><a href="classalbert_1_1detail_1_1InputHistory.html#a31d3730147618736e2ce8009e3f34f66">albert::detail::InputHistory::add</a></div><div class="ttdeci">Q_INVOKABLE void add(const QString &amp;str)</div><div class="ttdoc">Adds text to history search.</div></div>
-<div class="ttc" id="aclassalbert_1_1detail_1_1InputHistory_html_a5a959a0cf11e824f74ceb6ad53a2a937"><div class="ttname"><a href="classalbert_1_1detail_1_1InputHistory.html#a5a959a0cf11e824f74ceb6ad53a2a937">albert::detail::InputHistory::InputHistory</a></div><div class="ttdeci">InputHistory(const QString &amp;path={})</div></div>
-<div class="ttc" id="aclassalbert_1_1detail_1_1InputHistory_html_a6333755605e4b2b3476be104ec52b135"><div class="ttname"><a href="classalbert_1_1detail_1_1InputHistory.html#a6333755605e4b2b3476be104ec52b135">albert::detail::InputHistory::next</a></div><div class="ttdeci">Q_INVOKABLE QString next(const QString &amp;pattern=QString{})</div><div class="ttdoc">Gets next history item matching the pattern.</div></div>
-<div class="ttc" id="aclassalbert_1_1detail_1_1InputHistory_html_a789092ea730707a49c22f87ae9b5e943"><div class="ttname"><a href="classalbert_1_1detail_1_1InputHistory.html#a789092ea730707a49c22f87ae9b5e943">albert::detail::InputHistory::setLimit</a></div><div class="ttdeci">Q_INVOKABLE void setLimit(uint)</div><div class="ttdoc">Sets the maximum amount of history entries.</div></div>
-<div class="ttc" id="aclassalbert_1_1detail_1_1InputHistory_html_a8f9dd4fcb8dcacda9e3f25d17a61c099"><div class="ttname"><a href="classalbert_1_1detail_1_1InputHistory.html#a8f9dd4fcb8dcacda9e3f25d17a61c099">albert::detail::InputHistory::resetIterator</a></div><div class="ttdeci">Q_INVOKABLE void resetIterator()</div><div class="ttdoc">Resets history search.</div></div>
-<div class="ttc" id="aclassalbert_1_1detail_1_1InputHistory_html_ac356548bcad23b59be1da7f2f69d0b12"><div class="ttname"><a href="classalbert_1_1detail_1_1InputHistory.html#ac356548bcad23b59be1da7f2f69d0b12">albert::detail::InputHistory::clear</a></div><div class="ttdeci">Q_INVOKABLE void clear()</div><div class="ttdoc">Clears the history.</div></div>
-<div class="ttc" id="aclassalbert_1_1detail_1_1InputHistory_html_af79b88712b187e20d8c1942e53196dba"><div class="ttname"><a href="classalbert_1_1detail_1_1InputHistory.html#af79b88712b187e20d8c1942e53196dba">albert::detail::InputHistory::~InputHistory</a></div><div class="ttdeci">~InputHistory() override</div></div>
-<div class="ttc" id="anamespacealbert_1_1detail_html"><div class="ttname"><a href="namespacealbert_1_1detail.html">albert::detail</a></div><div class="ttdef"><b>Definition</b> desktopentryparser.h:10</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

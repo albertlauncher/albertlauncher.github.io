@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['qstringlist_0',['QStringList',['../systemutil_8h.html#a10f4ad2af6f15f47c0bf236178ae0105',1,'systemutil.h']]]
+  ['score_0',['Score',['../classalbert_1_1Match.html#af864b64c9d79b1408ed97893d896c982',1,'albert::Match']]]
 ];

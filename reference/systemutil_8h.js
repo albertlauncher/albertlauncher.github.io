@@ -1,6 +1,5 @@
 var systemutil_8h =
 [
-    [ "QStringList", "systemutil_8h.html#a10f4ad2af6f15f47c0bf236178ae0105", null ],
     [ "havePasteSupport", "systemutil_8h.html#ga0f190f5266c9ee4d4c44ee3b21af9876", null ],
     [ "open", "systemutil_8h.html#ga337794d224c1b8022a4b2d51bcd91547", null ],
     [ "open", "systemutil_8h.html#ga56d0cac0a667c060104c52af32c59cd5", null ],

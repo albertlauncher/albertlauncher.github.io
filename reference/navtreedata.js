@@ -25,6 +25,7 @@
 var NAVTREE =
 [
   [ "Albert", "index.html", [
+    [ "Topics", "topics.html", "topics" ],
     [ "Namespaces", "namespaces.html", [
       [ "Namespace List", "namespaces.html", "namespaces_dup" ],
       [ "Namespace Members", "namespacemembers.html", [
@@ -53,7 +54,6 @@ var NAVTREE =
       [ "File List", "files.html", "files_dup" ],
       [ "File Members", "globals.html", [
         [ "All", "globals.html", null ],
-        [ "Typedefs", "globals_type.html", null ],
         [ "Macros", "globals_defs.html", null ]
       ] ]
     ] ]
@@ -63,7 +63,8 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"inputhistory_8h.html"
+"classalbert_1_1QueryContext.html#a1b150b4b618b3c6724891ab32d85ab0d",
+"group__util__icon.html#gga65152af1dfff0f5d1a1b11bb305829ada5ed6c6084d4fa5217a31f43cfd191f40"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

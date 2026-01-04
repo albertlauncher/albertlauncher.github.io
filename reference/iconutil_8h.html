@@ -99,16 +99,7 @@ $(document).ready(function(){initNavTree('iconutil_8h.html',''); initResizable()
   <div class="headertitle"><div class="title">iconutil.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;albert/export.h&gt;</code><br />
-<code>#include &lt;<a class="el" href="icon_8h_source.html">albert/icon.h</a>&gt;</code><br />
-<code>#include &lt;filesystem&gt;</code><br />
-<code>#include &lt;QString&gt;</code><br />
-</div><div class="textblock"><div class="dynheader">
-Include dependency graph for iconutil.h:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="iconutil_8h__incl.svg" width="383" height="199"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-</div>
+
 <p><a href="iconutil_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
@@ -124,7 +115,7 @@ Functions</h2></td></tr>
 <tr class="memitem:gad04bae4785bbe6b69f7b848cfb969466" id="r_gad04bae4785bbe6b69f7b848cfb969466"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classalbert_1_1Icon.html">Icon</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__util__icon.html#gad04bae4785bbe6b69f7b848cfb969466">albert::iconFromUrl</a> (const QString &amp;url)</td></tr>
 <tr class="memdesc:gad04bae4785bbe6b69f7b848cfb969466"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a built-in icon for the given <em>url</em>.  <br /></td></tr>
 <tr class="separator:gad04bae4785bbe6b69f7b848cfb969466"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gabdc3bac3d3ff250f4c2e82188e07dd5b" id="r_gabdc3bac3d3ff250f4c2e82188e07dd5b"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classalbert_1_1Icon.html">Icon</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__util__icon.html#gabdc3bac3d3ff250f4c2e82188e07dd5b">albert::iconFromUrls</a> (const <a class="el" href="systemutil_8h.html#a10f4ad2af6f15f47c0bf236178ae0105">QStringList</a> &amp;urls)</td></tr>
+<tr class="memitem:gabdc3bac3d3ff250f4c2e82188e07dd5b" id="r_gabdc3bac3d3ff250f4c2e82188e07dd5b"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classalbert_1_1Icon.html">Icon</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__util__icon.html#gabdc3bac3d3ff250f4c2e82188e07dd5b">albert::iconFromUrls</a> (const <a class="el" href="classQList.html">QStringList</a> &amp;urls)</td></tr>
 <tr class="memdesc:gabdc3bac3d3ff250f4c2e82188e07dd5b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a built-in icon for the given <em>urls</em>.  <br /></td></tr>
 <tr class="separator:gabdc3bac3d3ff250f4c2e82188e07dd5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Image icon</div></td></tr>
@@ -202,107 +193,7 @@ Functions</h2></td></tr>
 <tr class="separator:ga0bee48154cb7b9e38e67d70a2ffd4e26"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader">Standard icon (QStyle standard pixmap)</h2></td></tr>
-<tr class="memitem:ga65152af1dfff0f5d1a1b11bb305829ad" id="r_ga65152af1dfff0f5d1a1b11bb305829ad"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__util__icon.html#ga65152af1dfff0f5d1a1b11bb305829ad">albert::StandardIconType</a> { <br />
-&#160;&#160;<a class="el" href="group__util__icon.html#gga65152af1dfff0f5d1a1b11bb305829ada7cbf19d68f59adae60be87a1b2a67117">albert::TitleBarMinButton</a> = 1
-, <a class="el" href="group__util__icon.html#gga65152af1dfff0f5d1a1b11bb305829adabd601c1e89ff7b3de08fca42ea141125">albert::TitleBarMenuButton</a> = 0
-, <a class="el" href="group__util__icon.html#gga65152af1dfff0f5d1a1b11bb305829adafe889ef4dac9fe43364193fbd373ca27">albert::TitleBarMaxButton</a> = 2
-, <a class="el" href="group__util__icon.html#gga65152af1dfff0f5d1a1b11bb305829ada06b79b50a41d27f53ac2608ccc46858e">albert::TitleBarCloseButton</a> = 3
-, <br />
-&#160;&#160;<a class="el" href="group__util__icon.html#gga65152af1dfff0f5d1a1b11bb305829adab1ee53b966dcbce1ae33830750b5027a">albert::TitleBarNormalButton</a> = 4
-, <a class="el" href="group__util__icon.html#gga65152af1dfff0f5d1a1b11bb305829ada32be9668ed3bf474edad51c7fd052b41">albert::TitleBarShadeButton</a> = 5
-, <a class="el" href="group__util__icon.html#gga65152af1dfff0f5d1a1b11bb305829adab464ce9566f7401528ad69dca605445e">albert::TitleBarUnshadeButton</a> = 6
-, <a class="el" href="group__util__icon.html#gga65152af1dfff0f5d1a1b11bb305829ada0023409be27b9881842b0f52b6bb4ca1">albert::TitleBarContextHelpButton</a> = 7
-, <br />
-&#160;&#160;<a class="el" href="group__util__icon.html#gga65152af1dfff0f5d1a1b11bb305829ada380583c00b9c0aa4b0be09ef6aa6dc3c">albert::MessageBoxInformation</a> = 9
-, <a class="el" href="group__util__icon.html#gga65152af1dfff0f5d1a1b11bb305829adad9844ab7e2f181866ba481ad155cac4c">albert::MessageBoxWarning</a> = 10
-, <a class="el" href="group__util__icon.html#gga65152af1dfff0f5d1a1b11bb305829adabe181785e3051945579a65e9961af235">albert::MessageBoxCritical</a> = 11
-, <a class="el" href="group__util__icon.html#gga65152af1dfff0f5d1a1b11bb305829adaa3b7a3774a302e8ef9553dd53b8c6ff2">albert::MessageBoxQuestion</a> = 12
-, <br />
-&#160;&#160;<a class="el" href="group__util__icon.html#gga65152af1dfff0f5d1a1b11bb305829ada415d5420090da2a6021e1f743a3d8921">albert::DesktopIcon</a> = 13
-, <a class="el" href="group__util__icon.html#gga65152af1dfff0f5d1a1b11bb305829ada176048c8cd4df9e6c76890236b0747b3">albert::TrashIcon</a> = 14
-, <a class="el" href="group__util__icon.html#gga65152af1dfff0f5d1a1b11bb305829ada0626f88f54c58f60f7d89aaefc635762">albert::ComputerIcon</a> = 15
-, <a class="el" href="group__util__icon.html#gga65152af1dfff0f5d1a1b11bb305829ada6b2677aa095e33ecd5040c7cac112439">albert::DriveFDIcon</a> = 16
-, <br />
-&#160;&#160;<a class="el" href="group__util__icon.html#gga65152af1dfff0f5d1a1b11bb305829ada3d81ff3b6dc8ad4a5d773dd14b47a108">albert::DriveHDIcon</a> = 17
-, <a class="el" href="group__util__icon.html#gga65152af1dfff0f5d1a1b11bb305829ada921426458f42e23bf3d36df99237b58a">albert::DriveCDIcon</a> = 18
-, <a class="el" href="group__util__icon.html#gga65152af1dfff0f5d1a1b11bb305829adac2cf60f7b9e567215b0fc43052afe67e">albert::DriveDVDIcon</a> = 19
-, <a class="el" href="group__util__icon.html#gga65152af1dfff0f5d1a1b11bb305829adafd153069420d94fdbf2c481776374a80">albert::DriveNetIcon</a> = 20
-, <br />
-&#160;&#160;<a class="el" href="group__util__icon.html#gga65152af1dfff0f5d1a1b11bb305829ada8da688e5bc0831ede68a92d3b9471624">albert::DirHomeIcon</a> = 56
-, <a class="el" href="group__util__icon.html#gga65152af1dfff0f5d1a1b11bb305829ada0c86993fcddce4153b3b03ac04206e9c">albert::DirOpenIcon</a> = 21
-, <a class="el" href="group__util__icon.html#gga65152af1dfff0f5d1a1b11bb305829ada8a5d3266c27a0ff10441b057c0a11f29">albert::DirClosedIcon</a> = 22
-, <a class="el" href="group__util__icon.html#gga65152af1dfff0f5d1a1b11bb305829adafca382d93bbbd19e2ac5ca8e62da6566">albert::DirIcon</a> = 38
-, <br />
-&#160;&#160;<a class="el" href="group__util__icon.html#gga65152af1dfff0f5d1a1b11bb305829ada8634f080931e6519efdd5603e4475828">albert::DirLinkIcon</a> = 23
-, <a class="el" href="group__util__icon.html#gga65152af1dfff0f5d1a1b11bb305829ada60c26d7d0ada651068d6f7968bcbe195">albert::DirLinkOpenIcon</a> = 24
-, <a class="el" href="group__util__icon.html#gga65152af1dfff0f5d1a1b11bb305829ada4e24b54600d94d5eccb3bc9c6626a07a">albert::FileIcon</a> = 25
-, <a class="el" href="group__util__icon.html#gga65152af1dfff0f5d1a1b11bb305829adaf0dfe7b59f87d8ee0c229f80d3efed63">albert::FileLinkIcon</a> = 26
-, <br />
-&#160;&#160;<a class="el" href="group__util__icon.html#gga65152af1dfff0f5d1a1b11bb305829ada3b355784d21e574a2c8dae9714c90ec4">albert::FileDialogStart</a> = 29
-, <a class="el" href="group__util__icon.html#gga65152af1dfff0f5d1a1b11bb305829ada53003f5417653d7f977b7cafaf8f6ac5">albert::FileDialogEnd</a> = 30
-, <a class="el" href="group__util__icon.html#gga65152af1dfff0f5d1a1b11bb305829adaab911a1db0bff51efd2d7671a3c3cf05">albert::FileDialogToParent</a> = 31
-, <a class="el" href="group__util__icon.html#gga65152af1dfff0f5d1a1b11bb305829ada54d575be431a2a8bd9668c8c5d4273f1">albert::FileDialogNewFolder</a> = 32
-, <br />
-&#160;&#160;<a class="el" href="group__util__icon.html#gga65152af1dfff0f5d1a1b11bb305829ada5c7e322381d37ee52f8e55be624a2a94">albert::FileDialogDetailedView</a> = 33
-, <a class="el" href="group__util__icon.html#gga65152af1dfff0f5d1a1b11bb305829adaaa4fad79a8492279d23eb8e00607d5d7">albert::FileDialogInfoView</a> = 34
-, <a class="el" href="group__util__icon.html#gga65152af1dfff0f5d1a1b11bb305829adaffdec2b3ebfe63409e5837c55bff7377">albert::FileDialogContentsView</a> = 35
-, <a class="el" href="group__util__icon.html#gga65152af1dfff0f5d1a1b11bb305829adaa65f48a9a2466cd1fb39ce946ef5a592">albert::FileDialogListView</a> = 36
-, <br />
-&#160;&#160;<a class="el" href="group__util__icon.html#gga65152af1dfff0f5d1a1b11bb305829ada27fbae1e4048ca1faeb5445fae73a596">albert::FileDialogBack</a> = 37
-, <a class="el" href="group__util__icon.html#gga65152af1dfff0f5d1a1b11bb305829adab96b8de7387cad883bc49a35596e308b">albert::DockWidgetCloseButton</a> = 8
-, <a class="el" href="group__util__icon.html#gga65152af1dfff0f5d1a1b11bb305829ada22822bf29a4cf353eef9395ed4b1505a">albert::ToolBarHorizontalExtensionButton</a> = 27
-, <a class="el" href="group__util__icon.html#gga65152af1dfff0f5d1a1b11bb305829ada5d7ca860f6ec34d2dc79e456be3df115">albert::ToolBarVerticalExtensionButton</a> = 28
-, <br />
-&#160;&#160;<a class="el" href="group__util__icon.html#gga65152af1dfff0f5d1a1b11bb305829adaac997539d14f204b2296ade70f1f5681">albert::DialogOkButton</a> = 39
-, <a class="el" href="group__util__icon.html#gga65152af1dfff0f5d1a1b11bb305829adaca16acf43c438213aa0685348f862c32">albert::DialogCancelButton</a> = 40
-, <a class="el" href="group__util__icon.html#gga65152af1dfff0f5d1a1b11bb305829ada732b3457aaa915b2ba6adfa005d73e35">albert::DialogHelpButton</a> = 41
-, <a class="el" href="group__util__icon.html#gga65152af1dfff0f5d1a1b11bb305829ada50ff075dfe67531f7e20b8699611a534">albert::DialogOpenButton</a> = 42
-, <br />
-&#160;&#160;<a class="el" href="group__util__icon.html#gga65152af1dfff0f5d1a1b11bb305829ada8c68537ffe564d3f35d326e3a4d5f292">albert::DialogSaveButton</a> = 43
-, <a class="el" href="group__util__icon.html#gga65152af1dfff0f5d1a1b11bb305829adaaf45443f97be558d2c6d397b74650bce">albert::DialogCloseButton</a> = 44
-, <a class="el" href="group__util__icon.html#gga65152af1dfff0f5d1a1b11bb305829ada0a0c8bcccab843b462957e78943f2ae0">albert::DialogApplyButton</a> = 45
-, <a class="el" href="group__util__icon.html#gga65152af1dfff0f5d1a1b11bb305829adaa668ede7a5454cc0f30d6b15b2a38b7c">albert::DialogResetButton</a> = 46
-, <br />
-&#160;&#160;<a class="el" href="group__util__icon.html#gga65152af1dfff0f5d1a1b11bb305829adae5d44d11e0a23075b20163c7a5f36cba">albert::DialogDiscardButton</a> = 47
-, <a class="el" href="group__util__icon.html#gga65152af1dfff0f5d1a1b11bb305829ada0a66657f300bc590539b017e026c654e">albert::DialogYesButton</a> = 48
-, <a class="el" href="group__util__icon.html#gga65152af1dfff0f5d1a1b11bb305829ada48804a7a229d0c92cdd5989c3d310b50">albert::DialogNoButton</a> = 49
-, <a class="el" href="group__util__icon.html#gga65152af1dfff0f5d1a1b11bb305829ada4667f6e0e35933489b2f04d0fefe3e31">albert::ArrowUp</a> = 50
-, <br />
-&#160;&#160;<a class="el" href="group__util__icon.html#gga65152af1dfff0f5d1a1b11bb305829ada4de84fc1e08372fa6ff4fed82c732d6e">albert::ArrowDown</a> = 51
-, <a class="el" href="group__util__icon.html#gga65152af1dfff0f5d1a1b11bb305829adaeef08c31c70c23e3ca66b5268a627b5b">albert::ArrowLeft</a> = 52
-, <a class="el" href="group__util__icon.html#gga65152af1dfff0f5d1a1b11bb305829ada98e798ae7d53e928ac4a3ba519de5ba6">albert::ArrowRight</a> = 53
-, <a class="el" href="group__util__icon.html#gga65152af1dfff0f5d1a1b11bb305829ada4716d868862a672778314e045e8cb85e">albert::ArrowBack</a> = 54
-, <br />
-&#160;&#160;<a class="el" href="group__util__icon.html#gga65152af1dfff0f5d1a1b11bb305829adaac102a053d6b2008471acc6bb255bcfa">albert::ArrowForward</a> = 55
-, <a class="el" href="group__util__icon.html#gga65152af1dfff0f5d1a1b11bb305829adabd4df8de1346ba00ffd32522b1cd04d7">albert::CommandLink</a> = 57
-, <a class="el" href="group__util__icon.html#gga65152af1dfff0f5d1a1b11bb305829adae54d0f86faa633095f720807fb987731">albert::VistaShield</a> = 58
-, <a class="el" href="group__util__icon.html#gga65152af1dfff0f5d1a1b11bb305829ada06fc3277ad62989f43817af10bb10e12">albert::BrowserReload</a> = 59
-, <br />
-&#160;&#160;<a class="el" href="group__util__icon.html#gga65152af1dfff0f5d1a1b11bb305829adadbe396c6a01c75a7c8ac9a696d0b492c">albert::BrowserStop</a> = 60
-, <a class="el" href="group__util__icon.html#gga65152af1dfff0f5d1a1b11bb305829ada8c85929acf44250d8fd9531426d34744">albert::MediaPlay</a> = 61
-, <a class="el" href="group__util__icon.html#gga65152af1dfff0f5d1a1b11bb305829adae7480dd651271a0e8b97ea8b3e23efb0">albert::MediaStop</a> = 62
-, <a class="el" href="group__util__icon.html#gga65152af1dfff0f5d1a1b11bb305829adae6e526dbf30f3b0a684eb6fef8b365a4">albert::MediaPause</a> = 63
-, <br />
-&#160;&#160;<a class="el" href="group__util__icon.html#gga65152af1dfff0f5d1a1b11bb305829ada5be19b73a32896dcc05cbbc32011c6a7">albert::MediaSkipForward</a> = 64
-, <a class="el" href="group__util__icon.html#gga65152af1dfff0f5d1a1b11bb305829ada9f1f0cea2eedf1e942f336aeee2c2750">albert::MediaSkipBackward</a> = 65
-, <a class="el" href="group__util__icon.html#gga65152af1dfff0f5d1a1b11bb305829adaf08c17e7c1a32e29418b2dacadd8ecde">albert::MediaSeekForward</a> = 66
-, <a class="el" href="group__util__icon.html#gga65152af1dfff0f5d1a1b11bb305829ada75373d0100041378acf09e52e2095563">albert::MediaSeekBackward</a> = 67
-, <br />
-&#160;&#160;<a class="el" href="group__util__icon.html#gga65152af1dfff0f5d1a1b11bb305829adaac0a9f4d9f9f8fafaed8ac0bb36d0c80">albert::MediaVolume</a> = 68
-, <a class="el" href="group__util__icon.html#gga65152af1dfff0f5d1a1b11bb305829ada545ed85aa36d4bbf8b89a1b3b5a3816f">albert::MediaVolumeMuted</a> = 69
-, <a class="el" href="group__util__icon.html#gga65152af1dfff0f5d1a1b11bb305829adabf6519a7be172af2bf218906c000c15e">albert::LineEditClearButton</a> = 70
-, <a class="el" href="group__util__icon.html#gga65152af1dfff0f5d1a1b11bb305829ada5ed6c6084d4fa5217a31f43cfd191f40">albert::DialogYesToAllButton</a> = 71
-, <br />
-&#160;&#160;<a class="el" href="group__util__icon.html#gga65152af1dfff0f5d1a1b11bb305829ada121f3ae8f9de979fea5fff740242ddc7">albert::DialogNoToAllButton</a> = 72
-, <a class="el" href="group__util__icon.html#gga65152af1dfff0f5d1a1b11bb305829ada4d9cc5475aae1530c9a19224ff7e67eb">albert::DialogSaveAllButton</a> = 73
-, <a class="el" href="group__util__icon.html#gga65152af1dfff0f5d1a1b11bb305829ada56f5827066dc281560ae7b64c77c8aa9">albert::DialogAbortButton</a> = 74
-, <a class="el" href="group__util__icon.html#gga65152af1dfff0f5d1a1b11bb305829ada733f57be269077cb76b562d4f36f163d">albert::DialogRetryButton</a> = 75
-, <br />
-&#160;&#160;<a class="el" href="group__util__icon.html#gga65152af1dfff0f5d1a1b11bb305829adab4f25fd1f6364df1617673ecf7108929">albert::DialogIgnoreButton</a> = 76
-, <a class="el" href="group__util__icon.html#gga65152af1dfff0f5d1a1b11bb305829adac4e9d0a4f52fd7a64d58ef7666654b6b">albert::RestoreDefaultsButton</a> = 77
-, <a class="el" href="group__util__icon.html#gga65152af1dfff0f5d1a1b11bb305829adabeb69da223f7b1a49a530018ce08a074">albert::TabCloseButton</a> = 78
-<br />
- }</td></tr>
+<tr class="memitem:ga65152af1dfff0f5d1a1b11bb305829ad" id="r_ga65152af1dfff0f5d1a1b11bb305829ad"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__util__icon.html#ga65152af1dfff0f5d1a1b11bb305829ad">albert::StandardIconType</a> </td></tr>
 <tr class="memdesc:ga65152af1dfff0f5d1a1b11bb305829ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">This enum describes the available standard icons.  <a href="group__util__icon.html#ga65152af1dfff0f5d1a1b11bb305829ad">More...</a><br /></td></tr>
 <tr class="separator:ga65152af1dfff0f5d1a1b11bb305829ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga62369b6986902d127f93a84562af62be" id="r_ga62369b6986902d127f93a84562af62be"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classalbert_1_1Icon.html">Icon</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__util__icon.html#ga62369b6986902d127f93a84562af62be">albert::makeStandardIcon</a> (<a class="el" href="group__util__icon.html#ga65152af1dfff0f5d1a1b11bb305829ad">StandardIconType</a> type)</td></tr>

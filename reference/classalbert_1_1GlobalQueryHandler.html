@@ -102,16 +102,16 @@ $(document).ready(function(){initNavTree('classalbert_1_1GlobalQueryHandler.html
 <div class="contents">
 
 <p><code>#include &lt;<a class="el" href="globalqueryhandler_8h_source.html">albert/globalqueryhandler.h</a>&gt;</code></p>
-<div class="dynheader">
+<a name="details" id="details"></a><h2 class="groupheader">Description</h2>
+<div class="textblock"><p>Query handler participating in the global search. </p>
+<p>By design, every global query handler is also a triggered query handler. Therefore this class inherits <a class="el" href="classalbert_1_1RankedQueryHandler.html">RankedQueryHandler</a> and as such inherits its contract. I.e. the handler returns a complete set of match-scored items eagerly. The provided match scores will be combined with the usage-based scoring weighted by user configuration. Finally the items (of all global handlers) will be yielded lazily in order of their final score.</p>
+<p>Note: Global queries are expected to complete within a few milliseconds. </p>
+</div><div class="dynheader">
 Inheritance diagram for albert::GlobalQueryHandler:</div>
 <div class="dyncontent">
 <div class="center"><iframe scrolling="no" frameborder="0" src="classalbert_1_1GlobalQueryHandler__inherit__graph.svg" width="207" height="406"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
-<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Query handler participating in the global search. </p>
-<p>By design, every global query handler is also a triggered query handler. Therefore this class inherits <a class="el" href="classalbert_1_1RankedQueryHandler.html">RankedQueryHandler</a> and as such inherits its contract. I.e. the handler returns a complete set of match-scored items eagerly. The provided match scores will be combined with the usage-based scoring weighted by user configuration. Finally the items (of all global handlers) will be yielded lazily in order of their final score.</p>
-<p>Note: Global queries are expected to complete within a few milliseconds. </p>
-</div><table class="memberdecls">
+<table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a237f970f2410c8a88ee488937346fa19" id="r_a237f970f2410c8a88ee488937346fa19"><td class="memItemLeft" align="right" valign="top">virtual std::vector&lt; std::shared_ptr&lt; <a class="el" href="classalbert_1_1Item.html">Item</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1GlobalQueryHandler.html#a237f970f2410c8a88ee488937346fa19">handleEmptyQuery</a> ()</td></tr>

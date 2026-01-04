@@ -94,29 +94,20 @@ $(document).ready(function(){initNavTree('classalbert_1_1ExtensionRegistry.html'
 
 <div class="header">
   <div class="summary">
-<a href="#signals">Signals</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#signals">Signals</a> &#124;
 <a href="classalbert_1_1ExtensionRegistry-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">albert::ExtensionRegistry Class Reference<div class="ingroups"><a class="el" href="group__core.html">Core API</a> &raquo; <a class="el" href="group__core__extension.html">Extension</a></div></div></div>
 </div><!--header-->
 <div class="contents">
 
 <p><code>#include &lt;<a class="el" href="extensionregistry_8h_source.html">albert/extensionregistry.h</a>&gt;</code></p>
-
-<p>Inherits QObject.</p>
-<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Description</h2>
 <div class="textblock"><p>The common extension pool. </p>
 <p>Clients can add their extensions, while services can track extensions by listening to the signals added/removed or any particular extension interface using ExtensionWatcher. </p>
-</div><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="signals" name="signals"></a>
-Signals</h2></td></tr>
-<tr class="memitem:a86352bc64c6339286d9a211e4af9609f" id="r_a86352bc64c6339286d9a211e4af9609f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1ExtensionRegistry.html#a86352bc64c6339286d9a211e4af9609f">added</a> (<a class="el" href="classalbert_1_1Extension.html">albert::Extension</a> *)</td></tr>
-<tr class="memdesc:a86352bc64c6339286d9a211e4af9609f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Emitted when an extension has been registered.  <br /></td></tr>
-<tr class="separator:a86352bc64c6339286d9a211e4af9609f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a97dfb7e3618e318d83e156df3c5766d5" id="r_a97dfb7e3618e318d83e156df3c5766d5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1ExtensionRegistry.html#a97dfb7e3618e318d83e156df3c5766d5">removed</a> (<a class="el" href="classalbert_1_1Extension.html">albert::Extension</a> *)</td></tr>
-<tr class="memdesc:a97dfb7e3618e318d83e156df3c5766d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Emitted when an extension has been deregistered.  <br /></td></tr>
-<tr class="separator:a97dfb7e3618e318d83e156df3c5766d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
+</div>
+<p>Inherits QObject.</p>
+<table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a680310c5eb7bfe2c5716a623bfdc206f" id="r_a680310c5eb7bfe2c5716a623bfdc206f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1ExtensionRegistry.html#a680310c5eb7bfe2c5716a623bfdc206f">registerExtension</a> (<a class="el" href="classalbert_1_1Extension.html">Extension</a> *)</td></tr>
@@ -136,6 +127,15 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a70e73251e367cf1ed5d62d3c539d7bd2"><td class="memTemplItemLeft" align="right" valign="top">T *&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classalbert_1_1ExtensionRegistry.html#a70e73251e367cf1ed5d62d3c539d7bd2">extension</a> (const QString &amp;id) const</td></tr>
 <tr class="memdesc:a70e73251e367cf1ed5d62d3c539d7bd2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get extension by id implicitly dynamic_cast'ed to type T.  <br /></td></tr>
 <tr class="separator:a70e73251e367cf1ed5d62d3c539d7bd2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="signals" name="signals"></a>
+Signals</h2></td></tr>
+<tr class="memitem:a86352bc64c6339286d9a211e4af9609f" id="r_a86352bc64c6339286d9a211e4af9609f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1ExtensionRegistry.html#a86352bc64c6339286d9a211e4af9609f">added</a> (<a class="el" href="classalbert_1_1Extension.html">albert::Extension</a> *)</td></tr>
+<tr class="memdesc:a86352bc64c6339286d9a211e4af9609f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Emitted when an extension has been registered.  <br /></td></tr>
+<tr class="separator:a86352bc64c6339286d9a211e4af9609f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a97dfb7e3618e318d83e156df3c5766d5" id="r_a97dfb7e3618e318d83e156df3c5766d5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1ExtensionRegistry.html#a97dfb7e3618e318d83e156df3c5766d5">removed</a> (<a class="el" href="classalbert_1_1Extension.html">albert::Extension</a> *)</td></tr>
+<tr class="memdesc:a97dfb7e3618e318d83e156df3c5766d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Emitted when an extension has been deregistered.  <br /></td></tr>
+<tr class="separator:a97dfb7e3618e318d83e156df3c5766d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
 <a id="a86352bc64c6339286d9a211e4af9609f" name="a86352bc64c6339286d9a211e4af9609f"></a>

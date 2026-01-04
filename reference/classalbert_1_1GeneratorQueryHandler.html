@@ -102,16 +102,16 @@ $(document).ready(function(){initNavTree('classalbert_1_1GeneratorQueryHandler.h
 <div class="contents">
 
 <p><code>#include &lt;<a class="el" href="generatorqueryhandler_8h_source.html">albert/generatorqueryhandler.h</a>&gt;</code></p>
-<div class="dynheader">
+<a name="details" id="details"></a><h2 class="groupheader">Description</h2>
+<div class="textblock"><p>Coroutine-based synchronous generator query handler. </p>
+<p>Convenience base class for implementing triggered query handlers using C++ coroutines. Results are produced lazily via a synchronous item generator. Item production is executed in a worker thread, allowing CPU-bound work without blocking the main thread. The items are displayed in the order they are yielded.</p>
+<p>This class is intended for computational workloads. For I/O-bound or event-driven tasks, prefer <a class="el" href="classalbert_1_1AsyncGeneratorQueryHandler.html">AsyncGeneratorQueryHandler</a>. </p>
+</div><div class="dynheader">
 Inheritance diagram for albert::GeneratorQueryHandler:</div>
 <div class="dyncontent">
 <div class="center"><iframe scrolling="no" frameborder="0" src="classalbert_1_1GeneratorQueryHandler__inherit__graph.svg" width="207" height="406"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
-<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Coroutine-based synchronous generator query handler. </p>
-<p>Convenience base class for implementing triggered query handlers using C++ coroutines. Results are produced lazily via a synchronous item generator. Item production is executed in a worker thread, allowing CPU-bound work without blocking the main thread. The items are displayed in the order they are yielded.</p>
-<p>This class is intended for computational workloads. For I/O-bound or event-driven tasks, prefer <a class="el" href="classalbert_1_1AsyncGeneratorQueryHandler.html">AsyncGeneratorQueryHandler</a>. </p>
-</div><table class="memberdecls">
+<table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:aa3c8bd9f704297bba3e58859f3ba3ec3" id="r_aa3c8bd9f704297bba3e58859f3ba3ec3"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespacealbert.html#abde1416a9258c4f584cffc12e1878fff">ItemGenerator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1GeneratorQueryHandler.html#aa3c8bd9f704297bba3e58859f3ba3ec3">items</a> (<a class="el" href="classalbert_1_1QueryContext.html">QueryContext</a> &amp;context)=0</td></tr>

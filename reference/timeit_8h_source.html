@@ -110,42 +110,30 @@ $(document).ready(function(){initNavTree('timeit_8h_source.html',''); initResiza
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#include &lt;<a class="code" href="logging_8h.html">albert/logging.h</a>&gt;</span></div>
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span> </div>
 <div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="comment">// Private API</span></div>
-<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespacealbert_1_1detail.html">albert::detail</a></div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="keyword">namespace </span>albert::detail</div>
 <div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span>{</div>
 <div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span> </div>
-<div class="foldopen" id="foldopen00013" data-start="{" data-end="};">
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno"><a class="line" href="structalbert_1_1detail_1_1TimeIt.html">   13</a></span><span class="keyword">struct </span><a class="code hl_struct" href="structalbert_1_1detail_1_1TimeIt.html">TimeIt</a></div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="keyword">struct </span>TimeIt</div>
 <div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>{</div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno"><a class="line" href="structalbert_1_1detail_1_1TimeIt.html#a2429f38e0e106a6bcc086a3ff7c765d1">   15</a></span>    QString <a class="code hl_variable" href="structalbert_1_1detail_1_1TimeIt.html#a2429f38e0e106a6bcc086a3ff7c765d1">name_</a>;</div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno"><a class="line" href="structalbert_1_1detail_1_1TimeIt.html#adda23239da37a1dd07bfb057f4d27c18">   16</a></span>    std::chrono::system_clock::time_point <a class="code hl_variable" href="structalbert_1_1detail_1_1TimeIt.html#adda23239da37a1dd07bfb057f4d27c18">start_</a>;</div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>    QString name_;</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>    std::chrono::system_clock::time_point start_;</div>
 <div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span> </div>
-<div class="foldopen" id="foldopen00018" data-start="{" data-end="}">
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno"><a class="line" href="structalbert_1_1detail_1_1TimeIt.html#ad16687a1c6a3ab3f9db53b328e8cfd3c">   18</a></span>    [[nodiscard]] <a class="code hl_function" href="structalbert_1_1detail_1_1TimeIt.html#ad16687a1c6a3ab3f9db53b328e8cfd3c">TimeIt</a>(<span class="keyword">const</span> QString &amp;name = {}):</div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>        <a class="code hl_variable" href="structalbert_1_1detail_1_1TimeIt.html#a2429f38e0e106a6bcc086a3ff7c765d1">name_</a>(name),</div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>        <a class="code hl_variable" href="structalbert_1_1detail_1_1TimeIt.html#adda23239da37a1dd07bfb057f4d27c18">start_</a>(std::chrono::system_clock::now())</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>    [[nodiscard]] TimeIt(<span class="keyword">const</span> QString &amp;name = {}):</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>        name_(name),</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>        start_(std::chrono::system_clock::now())</div>
 <div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>    {}</div>
-</div>
 <div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span> </div>
-<div class="foldopen" id="foldopen00023" data-start="{" data-end="}">
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno"><a class="line" href="structalbert_1_1detail_1_1TimeIt.html#a2fb1366365419f0c5e48b6fb0ab93795">   23</a></span>    <a class="code hl_function" href="structalbert_1_1detail_1_1TimeIt.html#a2fb1366365419f0c5e48b6fb0ab93795">~TimeIt</a>()</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>    ~TimeIt()</div>
 <div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>    {</div>
 <div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>        <span class="keyword">auto</span> end = std::chrono::system_clock::now();</div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>        <span class="keyword">auto</span> dur = std::chrono::duration_cast&lt;std::chrono::microseconds&gt;(end - <a class="code hl_variable" href="structalbert_1_1detail_1_1TimeIt.html#adda23239da37a1dd07bfb057f4d27c18">start_</a>).count();</div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>        <a class="code hl_define" href="logging_8h.html#a44ad7a1cce3ba64ff004aa697be1a079">CRIT</a> &lt;&lt; QStringLiteral(<span class="stringliteral">&quot;\x1b[36m%L1 µs | %2&quot;</span>).arg(dur, 8).arg(<a class="code hl_variable" href="structalbert_1_1detail_1_1TimeIt.html#a2429f38e0e106a6bcc086a3ff7c765d1">name_</a>);</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>        <span class="keyword">auto</span> dur = std::chrono::duration_cast&lt;std::chrono::microseconds&gt;(end - start_).count();</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>        <a class="code hl_define" href="logging_8h.html#a44ad7a1cce3ba64ff004aa697be1a079">CRIT</a> &lt;&lt; QStringLiteral(<span class="stringliteral">&quot;\x1b[36m%L1 µs | %2&quot;</span>).arg(dur, 8).arg(name_);</div>
 <div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>    }</div>
-</div>
 <div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>};</div>
-</div>
 <div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span> </div>
 <div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>}</div>
 <div class="ttc" id="alogging_8h_html"><div class="ttname"><a href="logging_8h.html">logging.h</a></div></div>
 <div class="ttc" id="alogging_8h_html_a44ad7a1cce3ba64ff004aa697be1a079"><div class="ttname"><a href="logging_8h.html#a44ad7a1cce3ba64ff004aa697be1a079">CRIT</a></div><div class="ttdeci">#define CRIT</div><div class="ttdoc">Creates a log object (level critial) you can use to pipe text into (&lt;&lt;).</div><div class="ttdef"><b>Definition</b> logging.h:32</div></div>
-<div class="ttc" id="anamespacealbert_1_1detail_html"><div class="ttname"><a href="namespacealbert_1_1detail.html">albert::detail</a></div><div class="ttdef"><b>Definition</b> desktopentryparser.h:10</div></div>
-<div class="ttc" id="astructalbert_1_1detail_1_1TimeIt_html"><div class="ttname"><a href="structalbert_1_1detail_1_1TimeIt.html">albert::detail::TimeIt</a></div><div class="ttdef"><b>Definition</b> timeit.h:14</div></div>
-<div class="ttc" id="astructalbert_1_1detail_1_1TimeIt_html_a2429f38e0e106a6bcc086a3ff7c765d1"><div class="ttname"><a href="structalbert_1_1detail_1_1TimeIt.html#a2429f38e0e106a6bcc086a3ff7c765d1">albert::detail::TimeIt::name_</a></div><div class="ttdeci">QString name_</div><div class="ttdef"><b>Definition</b> timeit.h:15</div></div>
-<div class="ttc" id="astructalbert_1_1detail_1_1TimeIt_html_a2fb1366365419f0c5e48b6fb0ab93795"><div class="ttname"><a href="structalbert_1_1detail_1_1TimeIt.html#a2fb1366365419f0c5e48b6fb0ab93795">albert::detail::TimeIt::~TimeIt</a></div><div class="ttdeci">~TimeIt()</div><div class="ttdef"><b>Definition</b> timeit.h:23</div></div>
-<div class="ttc" id="astructalbert_1_1detail_1_1TimeIt_html_ad16687a1c6a3ab3f9db53b328e8cfd3c"><div class="ttname"><a href="structalbert_1_1detail_1_1TimeIt.html#ad16687a1c6a3ab3f9db53b328e8cfd3c">albert::detail::TimeIt::TimeIt</a></div><div class="ttdeci">TimeIt(const QString &amp;name={})</div><div class="ttdef"><b>Definition</b> timeit.h:18</div></div>
-<div class="ttc" id="astructalbert_1_1detail_1_1TimeIt_html_adda23239da37a1dd07bfb057f4d27c18"><div class="ttname"><a href="structalbert_1_1detail_1_1TimeIt.html#adda23239da37a1dd07bfb057f4d27c18">albert::detail::TimeIt::start_</a></div><div class="ttdeci">std::chrono::system_clock::time_point start_</div><div class="ttdef"><b>Definition</b> timeit.h:16</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

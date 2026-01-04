@@ -1,17 +1,6 @@
 var annotated_dup =
 [
     [ "albert", "namespacealbert.html", [
-      [ "detail", "namespacealbert_1_1detail.html", [
-        [ "Acquire", "classalbert_1_1detail_1_1Acquire.html", "classalbert_1_1detail_1_1Acquire" ],
-        [ "DesktopEntryParser", "classalbert_1_1detail_1_1DesktopEntryParser.html", "classalbert_1_1detail_1_1DesktopEntryParser" ],
-        [ "DynamicItem", "classalbert_1_1detail_1_1DynamicItem.html", "classalbert_1_1detail_1_1DynamicItem" ],
-        [ "Frontend", "classalbert_1_1detail_1_1Frontend.html", "classalbert_1_1detail_1_1Frontend" ],
-        [ "InputHistory", "classalbert_1_1detail_1_1InputHistory.html", "classalbert_1_1detail_1_1InputHistory" ],
-        [ "Query", "classalbert_1_1detail_1_1Query.html", "classalbert_1_1detail_1_1Query" ],
-        [ "RateLimiter", "classalbert_1_1detail_1_1RateLimiter.html", "classalbert_1_1detail_1_1RateLimiter" ],
-        [ "TelemetryProvider", "classalbert_1_1detail_1_1TelemetryProvider.html", "classalbert_1_1detail_1_1TelemetryProvider" ],
-        [ "TimeIt", "structalbert_1_1detail_1_1TimeIt.html", "structalbert_1_1detail_1_1TimeIt" ]
-      ] ],
       [ "Action", "classalbert_1_1Action.html", "classalbert_1_1Action" ],
       [ "App", "classalbert_1_1App.html", "classalbert_1_1App" ],
       [ "AsyncGeneratorQueryHandler", "classalbert_1_1AsyncGeneratorQueryHandler.html", "classalbert_1_1AsyncGeneratorQueryHandler" ],
@@ -51,10 +40,6 @@ var annotated_dup =
       [ "UrlHandler", "classalbert_1_1UrlHandler.html", "classalbert_1_1UrlHandler" ],
       [ "UsageScoring", "classalbert_1_1UsageScoring.html", "classalbert_1_1UsageScoring" ],
       [ "WeakDependency", "classalbert_1_1WeakDependency.html", "classalbert_1_1WeakDependency" ]
-    ] ],
-    [ "QCoro", "namespaceQCoro.html", [
-      [ "AsyncGenerator", "classQCoro_1_1AsyncGenerator.html", null ],
-      [ "Generator", "classQCoro_1_1Generator.html", null ]
     ] ],
     [ "std", null, [
       [ "hash< albert::ItemKey >", "structstd_1_1hash_3_01albert_1_1ItemKey_01_4.html", "structstd_1_1hash_3_01albert_1_1ItemKey_01_4" ]

@@ -102,15 +102,15 @@ $(document).ready(function(){initNavTree('classalbert_1_1UrlHandler.html',''); i
 <div class="contents">
 
 <p><code>#include &lt;<a class="el" href="urlhandler_8h_source.html">albert/urlhandler.h</a>&gt;</code></p>
-<div class="dynheader">
+<a name="details" id="details"></a><h2 class="groupheader">Description</h2>
+<div class="textblock"><p>Albert scheme URL handler interface. </p>
+<p>Use this interface to register <code>albert:</code> URL handlers based on <a class="el" href="classalbert_1_1Extension.html#aba79b0b7a42a03addbb4223462362b06">Extension::id</a>. URLs with the host matching this extension's id are passed to the <a class="el" href="classalbert_1_1UrlHandler.html#a0ade4bde85fd917067c0163d60beffd6">handle()</a> method. E.g. the URL <code>albert://github/?…</code> will be redirected to the GitHub extension. </p>
+</div><div class="dynheader">
 Inheritance diagram for albert::UrlHandler:</div>
 <div class="dyncontent">
 <div class="center"><iframe scrolling="no" frameborder="0" src="classalbert_1_1UrlHandler__inherit__graph.svg" width="132" height="111"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
-<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Albert scheme URL handler interface. </p>
-<p>Use this interface to register <code>albert:</code> URL handlers based on <a class="el" href="classalbert_1_1Extension.html#aba79b0b7a42a03addbb4223462362b06">Extension::id</a>. URLs with the host matching this extension's id are passed to the <a class="el" href="classalbert_1_1UrlHandler.html#a0ade4bde85fd917067c0163d60beffd6">handle()</a> method. E.g. the URL <code>albert://github/?…</code> will be redirected to the GitHub extension. </p>
-</div><table class="memberdecls">
+<table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a0ade4bde85fd917067c0163d60beffd6" id="r_a0ade4bde85fd917067c0163d60beffd6"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1UrlHandler.html#a0ade4bde85fd917067c0163d60beffd6">handle</a> (const QUrl &amp;url)=0</td></tr>

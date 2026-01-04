@@ -1,7 +1,7 @@
 var searchData=
 [
   ['error_0',['error',['../classalbert_1_1Download.html#ae2e8ffa6470a7c4d7d7a86bc8d99e30b',1,'albert::Download::error()'],['../classalbert_1_1OAuth2.html#a7a3974091d0a9a73926f903e48c21872',1,'albert::OAuth2::error()']]],
-  ['execution_1',['execution',['../classalbert_1_1QueryHandler.html#a1bad60ff51a66734fe10f9c1b8a58ba2',1,'albert::QueryHandler::execution()'],['../classalbert_1_1detail_1_1Query.html#a77ea76fea88f433017eb04589fa35718',1,'albert::detail::Query::execution()'],['../classalbert_1_1AsyncGeneratorQueryHandler.html#a4be9b7a8c31e53ff2a61ae85c1605bf5',1,'albert::AsyncGeneratorQueryHandler::execution()'],['../classalbert_1_1GeneratorQueryHandler.html#aa8507883635acef6760ef2a4248692db',1,'albert::GeneratorQueryHandler::execution()']]],
+  ['execution_1',['execution',['../classalbert_1_1QueryHandler.html#a1bad60ff51a66734fe10f9c1b8a58ba2',1,'albert::QueryHandler::execution()'],['../classalbert_1_1GeneratorQueryHandler.html#aa8507883635acef6760ef2a4248692db',1,'albert::GeneratorQueryHandler::execution()'],['../classalbert_1_1AsyncGeneratorQueryHandler.html#a4be9b7a8c31e53ff2a61ae85c1605bf5',1,'albert::AsyncGeneratorQueryHandler::execution()']]],
   ['extension_2',['extension',['../group__core__extension.html',1,'Extension'],['../classalbert_1_1Extension.html',1,'albert::Extension'],['../classalbert_1_1ExtensionRegistry.html#a70e73251e367cf1ed5d62d3c539d7bd2',1,'albert::ExtensionRegistry::extension()'],['../classalbert_1_1QueryResult.html#ae84de473b640efe657b22606d7f0d122',1,'albert::QueryResult::extension']]],
   ['extension_2eh_3',['extension.h',['../extension_8h.html',1,'']]],
   ['extension_5fid_4',['extension_id',['../structalbert_1_1ItemKey.html#ade039b2e287991b4dcb02397e8fcbf20',1,'albert::ItemKey']]],

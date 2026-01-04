@@ -1,6 +1,5 @@
 var namespacealbert =
 [
-    [ "detail", "namespacealbert_1_1detail.html", "namespacealbert_1_1detail" ],
     [ "Action", "classalbert_1_1Action.html", "classalbert_1_1Action" ],
     [ "App", "classalbert_1_1App.html", "classalbert_1_1App" ],
     [ "AsyncGeneratorQueryHandler", "classalbert_1_1AsyncGeneratorQueryHandler.html", "classalbert_1_1AsyncGeneratorQueryHandler" ],

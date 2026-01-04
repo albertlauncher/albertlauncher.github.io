@@ -94,56 +94,23 @@ $(document).ready(function(){initNavTree('classalbert_1_1QueryResults.html','');
 
 <div class="header">
   <div class="summary">
-<a href="#signals">Signals</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#signals">Signals</a> &#124;
 <a href="classalbert_1_1QueryResults-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">albert::QueryResults Class Reference<div class="ingroups"><a class="el" href="group__core.html">Core API</a> &raquo; <a class="el" href="group__core__query.html">Query handling</a></div></div></div>
 </div><!--header-->
 <div class="contents">
 
 <p><code>#include &lt;<a class="el" href="queryresults_8h_source.html">albert/queryresults.h</a>&gt;</code></p>
-<div class="dynheader">
+<a name="details" id="details"></a><h2 class="groupheader">Description</h2>
+<div class="textblock"><p>Query results container. </p>
+<p>Holds the results of a Query and emits signals as expected by the UI models. </p>
+</div><div class="dynheader">
 Inheritance diagram for albert::QueryResults:</div>
 <div class="dyncontent">
 <div class="center"><iframe scrolling="no" frameborder="0" src="classalbert_1_1QueryResults__inherit__graph.svg" width="155" height="111"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
-<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Query results container. </p>
-<p>Holds the results of a Query and emits signals as expected by the UI models. </p>
-</div><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="signals" name="signals"></a>
-Signals</h2></td></tr>
-<tr class="memitem:aec08173b012b5eaab288c2fc83c7f6e9" id="r_aec08173b012b5eaab288c2fc83c7f6e9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1QueryResults.html#aec08173b012b5eaab288c2fc83c7f6e9">resultsAboutToBeInserted</a> (int first, int last)</td></tr>
-<tr class="memdesc:aec08173b012b5eaab288c2fc83c7f6e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Emitted before results are inserted.  <br /></td></tr>
-<tr class="separator:aec08173b012b5eaab288c2fc83c7f6e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af990a14e85d98a2f77f5022ea09ccb3c" id="r_af990a14e85d98a2f77f5022ea09ccb3c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1QueryResults.html#af990a14e85d98a2f77f5022ea09ccb3c">resultsInserted</a> ()</td></tr>
-<tr class="memdesc:af990a14e85d98a2f77f5022ea09ccb3c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Emitted after results have been inserted.  <br /></td></tr>
-<tr class="separator:af990a14e85d98a2f77f5022ea09ccb3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a62a26a02e5ff648eb9b7a301850420ce" id="r_a62a26a02e5ff648eb9b7a301850420ce"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1QueryResults.html#a62a26a02e5ff648eb9b7a301850420ce">resultsAboutToBeRemoved</a> (int first, int last)</td></tr>
-<tr class="memdesc:a62a26a02e5ff648eb9b7a301850420ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Emitted before results are removed.  <br /></td></tr>
-<tr class="separator:a62a26a02e5ff648eb9b7a301850420ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a54d3fd4b25982899729c30b01acf7273" id="r_a54d3fd4b25982899729c30b01acf7273"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1QueryResults.html#a54d3fd4b25982899729c30b01acf7273">resultsRemoved</a> ()</td></tr>
-<tr class="memdesc:a54d3fd4b25982899729c30b01acf7273"><td class="mdescLeft">&#160;</td><td class="mdescRight">Emitted after results have been removed.  <br /></td></tr>
-<tr class="separator:a54d3fd4b25982899729c30b01acf7273"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae2668b229c92afd01808586c1e3c3b26" id="r_ae2668b229c92afd01808586c1e3c3b26"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1QueryResults.html#ae2668b229c92afd01808586c1e3c3b26">resultsAboutToBeMoved</a> (int srcFirst, int srcLast, int dst)</td></tr>
-<tr class="memdesc:ae2668b229c92afd01808586c1e3c3b26"><td class="mdescLeft">&#160;</td><td class="mdescRight">Emitted before results are moved.  <br /></td></tr>
-<tr class="separator:ae2668b229c92afd01808586c1e3c3b26"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac81f30a8872c31bddd434cdb6cbec8ad" id="r_ac81f30a8872c31bddd434cdb6cbec8ad"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1QueryResults.html#ac81f30a8872c31bddd434cdb6cbec8ad">resultsMoved</a> ()</td></tr>
-<tr class="memdesc:ac81f30a8872c31bddd434cdb6cbec8ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Emitted after results have been moved.  <br /></td></tr>
-<tr class="separator:ac81f30a8872c31bddd434cdb6cbec8ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3d8a10c04d6e39f83475cee63931486a" id="r_a3d8a10c04d6e39f83475cee63931486a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1QueryResults.html#a3d8a10c04d6e39f83475cee63931486a">resultsAboutToBeReset</a> ()</td></tr>
-<tr class="memdesc:a3d8a10c04d6e39f83475cee63931486a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Emitted before all results are reset.  <br /></td></tr>
-<tr class="separator:a3d8a10c04d6e39f83475cee63931486a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a915042c8907bcea921b463575c066224" id="r_a915042c8907bcea921b463575c066224"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1QueryResults.html#a915042c8907bcea921b463575c066224">resultsReset</a> ()</td></tr>
-<tr class="memdesc:a915042c8907bcea921b463575c066224"><td class="mdescLeft">&#160;</td><td class="mdescRight">Emitted after all results have been reset.  <br /></td></tr>
-<tr class="separator:a915042c8907bcea921b463575c066224"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab24cee23dd6e912505cb9ff17c80845b" id="r_ab24cee23dd6e912505cb9ff17c80845b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1QueryResults.html#ab24cee23dd6e912505cb9ff17c80845b">resultChanged</a> (uint i)</td></tr>
-<tr class="memdesc:ab24cee23dd6e912505cb9ff17c80845b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Emitted when a result changed.  <br /></td></tr>
-<tr class="separator:ab24cee23dd6e912505cb9ff17c80845b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab88299b4bebbdb6bb2f6ee8e54277898" id="r_ab88299b4bebbdb6bb2f6ee8e54277898"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1QueryResults.html#ab88299b4bebbdb6bb2f6ee8e54277898">resultActivated</a> (QString query, QString extension_id, QString item_id, QString action_id)</td></tr>
-<tr class="memdesc:ab88299b4bebbdb6bb2f6ee8e54277898"><td class="mdescLeft">&#160;</td><td class="mdescRight">Emitted when a result was activated.  <br /></td></tr>
-<tr class="separator:ab88299b4bebbdb6bb2f6ee8e54277898"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
+<table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a0e3cda8962fba48b49a44f70f0bba618" id="r_a0e3cda8962fba48b49a44f70f0bba618"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1QueryResults.html#a0e3cda8962fba48b49a44f70f0bba618">QueryResults</a> (const <a class="el" href="classalbert_1_1QueryContext.html">QueryContext</a> &amp;context)</td></tr>
@@ -185,6 +152,39 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a7a8acb753081ac9403983bed1312ad1b" id="r_a7a8acb753081ac9403983bed1312ad1b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1QueryResults.html#a7a8acb753081ac9403983bed1312ad1b">reset</a> ()</td></tr>
 <tr class="memdesc:a7a8acb753081ac9403983bed1312ad1b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes all results.  <br /></td></tr>
 <tr class="separator:a7a8acb753081ac9403983bed1312ad1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="signals" name="signals"></a>
+Signals</h2></td></tr>
+<tr class="memitem:aec08173b012b5eaab288c2fc83c7f6e9" id="r_aec08173b012b5eaab288c2fc83c7f6e9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1QueryResults.html#aec08173b012b5eaab288c2fc83c7f6e9">resultsAboutToBeInserted</a> (int first, int last)</td></tr>
+<tr class="memdesc:aec08173b012b5eaab288c2fc83c7f6e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Emitted before results are inserted.  <br /></td></tr>
+<tr class="separator:aec08173b012b5eaab288c2fc83c7f6e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af990a14e85d98a2f77f5022ea09ccb3c" id="r_af990a14e85d98a2f77f5022ea09ccb3c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1QueryResults.html#af990a14e85d98a2f77f5022ea09ccb3c">resultsInserted</a> ()</td></tr>
+<tr class="memdesc:af990a14e85d98a2f77f5022ea09ccb3c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Emitted after results have been inserted.  <br /></td></tr>
+<tr class="separator:af990a14e85d98a2f77f5022ea09ccb3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a62a26a02e5ff648eb9b7a301850420ce" id="r_a62a26a02e5ff648eb9b7a301850420ce"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1QueryResults.html#a62a26a02e5ff648eb9b7a301850420ce">resultsAboutToBeRemoved</a> (int first, int last)</td></tr>
+<tr class="memdesc:a62a26a02e5ff648eb9b7a301850420ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Emitted before results are removed.  <br /></td></tr>
+<tr class="separator:a62a26a02e5ff648eb9b7a301850420ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a54d3fd4b25982899729c30b01acf7273" id="r_a54d3fd4b25982899729c30b01acf7273"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1QueryResults.html#a54d3fd4b25982899729c30b01acf7273">resultsRemoved</a> ()</td></tr>
+<tr class="memdesc:a54d3fd4b25982899729c30b01acf7273"><td class="mdescLeft">&#160;</td><td class="mdescRight">Emitted after results have been removed.  <br /></td></tr>
+<tr class="separator:a54d3fd4b25982899729c30b01acf7273"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae2668b229c92afd01808586c1e3c3b26" id="r_ae2668b229c92afd01808586c1e3c3b26"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1QueryResults.html#ae2668b229c92afd01808586c1e3c3b26">resultsAboutToBeMoved</a> (int srcFirst, int srcLast, int dst)</td></tr>
+<tr class="memdesc:ae2668b229c92afd01808586c1e3c3b26"><td class="mdescLeft">&#160;</td><td class="mdescRight">Emitted before results are moved.  <br /></td></tr>
+<tr class="separator:ae2668b229c92afd01808586c1e3c3b26"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac81f30a8872c31bddd434cdb6cbec8ad" id="r_ac81f30a8872c31bddd434cdb6cbec8ad"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1QueryResults.html#ac81f30a8872c31bddd434cdb6cbec8ad">resultsMoved</a> ()</td></tr>
+<tr class="memdesc:ac81f30a8872c31bddd434cdb6cbec8ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Emitted after results have been moved.  <br /></td></tr>
+<tr class="separator:ac81f30a8872c31bddd434cdb6cbec8ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3d8a10c04d6e39f83475cee63931486a" id="r_a3d8a10c04d6e39f83475cee63931486a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1QueryResults.html#a3d8a10c04d6e39f83475cee63931486a">resultsAboutToBeReset</a> ()</td></tr>
+<tr class="memdesc:a3d8a10c04d6e39f83475cee63931486a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Emitted before all results are reset.  <br /></td></tr>
+<tr class="separator:a3d8a10c04d6e39f83475cee63931486a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a915042c8907bcea921b463575c066224" id="r_a915042c8907bcea921b463575c066224"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1QueryResults.html#a915042c8907bcea921b463575c066224">resultsReset</a> ()</td></tr>
+<tr class="memdesc:a915042c8907bcea921b463575c066224"><td class="mdescLeft">&#160;</td><td class="mdescRight">Emitted after all results have been reset.  <br /></td></tr>
+<tr class="separator:a915042c8907bcea921b463575c066224"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab24cee23dd6e912505cb9ff17c80845b" id="r_ab24cee23dd6e912505cb9ff17c80845b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1QueryResults.html#ab24cee23dd6e912505cb9ff17c80845b">resultChanged</a> (uint i)</td></tr>
+<tr class="memdesc:ab24cee23dd6e912505cb9ff17c80845b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Emitted when a result changed.  <br /></td></tr>
+<tr class="separator:ab24cee23dd6e912505cb9ff17c80845b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab88299b4bebbdb6bb2f6ee8e54277898" id="r_ab88299b4bebbdb6bb2f6ee8e54277898"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1QueryResults.html#ab88299b4bebbdb6bb2f6ee8e54277898">resultActivated</a> (QString query, QString extension_id, QString item_id, QString action_id)</td></tr>
+<tr class="memdesc:ab88299b4bebbdb6bb2f6ee8e54277898"><td class="mdescLeft">&#160;</td><td class="mdescRight">Emitted when a result was activated.  <br /></td></tr>
+<tr class="separator:ab88299b4bebbdb6bb2f6ee8e54277898"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a0e3cda8962fba48b49a44f70f0bba618" name="a0e3cda8962fba48b49a44f70f0bba618"></a>

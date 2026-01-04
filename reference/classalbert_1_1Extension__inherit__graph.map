@@ -1,25 +1,23 @@
 <map id="albert::Extension" name="albert::Extension">
-<area shape="rect" id="Node000001" title="Abstract extension class." alt="" coords="5,129,121,155"/>
+<area shape="rect" id="Node000001" title="Abstract extension class." alt="" coords="5,104,121,130"/>
 <area shape="rect" id="Node000002" href="$classalbert_1_1ExtensionPlugin.html" title="Extension plugin base class." alt="" coords="170,5,321,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="82,116,119,77,167,40,190,29,192,34,170,44,123,81,86,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="89,92,125,65,167,40,193,29,195,34,170,45,128,70,93,96"/>
 <area shape="rect" id="Node000003" href="$classalbert_1_1FallbackHandler.html" title="Abstract fallback item provider." alt="" coords="169,55,322,80"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="101,120,168,89,197,78,199,83,170,94,104,124"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="127,97,194,78,196,84,129,102"/>
 <area shape="rect" id="Node000004" href="$classalbert_1_1PluginProvider.html" title="Plugin provider interface class." alt="" coords="174,104,317,130"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="136,129,173,124,174,129,136,135"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="136,114,174,114,174,120,136,120"/>
 <area shape="rect" id="Node000005" href="$classalbert_1_1QueryHandler.html" title="Base query handler interface for triggered queries." alt="" coords="176,153,315,179"/>
-<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="136,149,176,154,175,160,136,154"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="129,132,196,150,194,155,127,137"/>
 <area shape="rect" id="Node000011" href="$classalbert_1_1UrlHandler.html" title="Albert scheme URL handler interface." alt="" coords="185,203,306,228"/>
-<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="104,160,170,189,200,200,198,205,168,194,102,165"/>
-<area shape="rect" id="Node000012" href="$classalbert_1_1detail_1_1TelemetryProvider.html" title=" " alt="" coords="169,253,322,293"/>
-<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="87,165,124,202,170,239,190,250,187,254,167,243,121,206,83,168"/>
-<area shape="rect" id="Node000006" href="$classalbert_1_1AsyncGeneratorQueryHandler.html" title="Coroutine&#45;based asynchronous generator query handler." alt="" coords="375,118,561,159"/>
-<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="330,153,374,147,374,153,331,158"/>
-<area shape="rect" id="Node000007" href="$classalbert_1_1GeneratorQueryHandler.html" title="Coroutine&#45;based synchronous generator query handler." alt="" coords="370,183,565,208"/>
-<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="330,175,370,180,369,185,330,180"/>
-<area shape="rect" id="Node000008" href="$classalbert_1_1RankedQueryHandler.html" title="Usage&#45;ranked query handler." alt="" coords="613,183,796,208"/>
-<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="581,193,613,193,613,198,581,198"/>
-<area shape="rect" id="Node000009" href="$classalbert_1_1GlobalQueryHandler.html" title="Query handler participating in the global search." alt="" coords="844,183,1019,208"/>
-<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="811,193,843,193,843,198,811,198"/>
-<area shape="rect" id="Node000010" href="$classalbert_1_1IndexQueryHandler.html" title="Index&#45;based global query handler." alt="" coords="1067,183,1236,208"/>
-<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="1034,193,1066,193,1066,198,1034,198"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="93,137,128,164,170,189,195,200,193,204,167,194,125,168,89,142"/>
+<area shape="rect" id="Node000006" href="$classalbert_1_1AsyncGeneratorQueryHandler.html" title="Coroutine&#45;based asynchronous generator query handler." alt="" coords="375,117,561,157"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="330,152,374,147,374,152,331,158"/>
+<area shape="rect" id="Node000007" href="$classalbert_1_1GeneratorQueryHandler.html" title="Coroutine&#45;based synchronous generator query handler." alt="" coords="370,181,565,207"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="330,174,370,179,369,184,330,179"/>
+<area shape="rect" id="Node000008" href="$classalbert_1_1RankedQueryHandler.html" title="Usage&#45;ranked query handler." alt="" coords="613,181,796,207"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="581,192,613,192,613,197,581,197"/>
+<area shape="rect" id="Node000009" href="$classalbert_1_1GlobalQueryHandler.html" title="Query handler participating in the global search." alt="" coords="844,181,1019,207"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="811,192,843,192,843,197,811,197"/>
+<area shape="rect" id="Node000010" href="$classalbert_1_1IndexQueryHandler.html" title="Index&#45;based global query handler." alt="" coords="1067,181,1236,207"/>
+<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="1034,192,1066,192,1066,197,1034,197"/>
 </map>

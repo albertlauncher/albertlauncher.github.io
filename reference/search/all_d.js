@@ -20,6 +20,5 @@ var searchData=
   ['pluginprovider_17',['PluginProvider',['../classalbert_1_1PluginProvider.html',1,'albert']]],
   ['pluginprovider_2eh_18',['pluginprovider.h',['../pluginprovider_8h.html',1,'']]],
   ['plugins_19',['plugins',['../classalbert_1_1PluginProvider.html#a7976388d5144d9a0a0e34156afaabf32',1,'albert::PluginProvider']]],
-  ['prev_20',['prev',['../classalbert_1_1detail_1_1InputHistory.html#a1b8430872cb8169f32e3c42a7e1ecf06',1,'albert::detail::InputHistory']]],
-  ['prioritize_5fperfect_5fmatch_21',['prioritize_perfect_match',['../classalbert_1_1UsageScoring.html#adcd9e1668cfba5dd310d4e5990fd9562',1,'albert::UsageScoring']]]
+  ['prioritize_5fperfect_5fmatch_20',['prioritize_perfect_match',['../classalbert_1_1UsageScoring.html#adcd9e1668cfba5dd310d4e5990fd9562',1,'albert::UsageScoring']]]
 ];

@@ -95,54 +95,24 @@ $(document).ready(function(){initNavTree('classalbert_1_1OAuth2.html',''); initR
 <div class="header">
   <div class="summary">
 <a href="#pub-types">Public Types</a> &#124;
-<a href="#signals">Signals</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#signals">Signals</a> &#124;
 <a href="classalbert_1_1OAuth2-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">albert::OAuth2 Class Reference<div class="ingroups"><a class="el" href="group__util.html">Utility API</a> &raquo; <a class="el" href="group__util__net.html">Network</a></div></div></div>
 </div><!--header-->
 <div class="contents">
 
 <p><code>#include &lt;<a class="el" href="oauth_8h_source.html">albert/oauth.h</a>&gt;</code></p>
-
-<p>Inherits QObject.</p>
-<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Description</h2>
 <div class="textblock"><p>Provides OAuth2 authentication with support for the Authorization Code Flow with PKCE and refresh tokens. </p>
 <p>See also <a class="el" href="classalbert_1_1OAuthConfigWidget.html">OAuthConfigWidget</a>. </p>
-</div><table class="memberdecls">
+</div>
+<p>Inherits QObject.</p>
+<table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:ae31fde854e47dcd044708e9cb9e05051" id="r_ae31fde854e47dcd044708e9cb9e05051"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1OAuth2.html#ae31fde854e47dcd044708e9cb9e05051">State</a> { <a class="el" href="classalbert_1_1OAuth2.html#ae31fde854e47dcd044708e9cb9e05051a418ec6476e1acd92e17681f4bd00e3a3">NotAuthorized</a>
-, <a class="el" href="classalbert_1_1OAuth2.html#ae31fde854e47dcd044708e9cb9e05051ac7bece6685d4556fcb8dfdcd72d720f5">Awaiting</a>
-, <a class="el" href="classalbert_1_1OAuth2.html#ae31fde854e47dcd044708e9cb9e05051ac322f9346b70efdd31968628d5ee68db">Granted</a>
- }</td></tr>
+<tr class="memitem:ae31fde854e47dcd044708e9cb9e05051" id="r_ae31fde854e47dcd044708e9cb9e05051"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1OAuth2.html#ae31fde854e47dcd044708e9cb9e05051">State</a> </td></tr>
 <tr class="separator:ae31fde854e47dcd044708e9cb9e05051"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="signals" name="signals"></a>
-Signals</h2></td></tr>
-<tr class="memitem:a2804ccf2a79d24ff25bcd088a7d2b3ab" id="r_a2804ccf2a79d24ff25bcd088a7d2b3ab"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1OAuth2.html#a2804ccf2a79d24ff25bcd088a7d2b3ab">clientIdChanged</a> (const QString &amp;)</td></tr>
-<tr class="memdesc:a2804ccf2a79d24ff25bcd088a7d2b3ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Emitted when the client ID changes.  <br /></td></tr>
-<tr class="separator:a2804ccf2a79d24ff25bcd088a7d2b3ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5645d3ede3276d0c1277df44b38c57ec" id="r_a5645d3ede3276d0c1277df44b38c57ec"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1OAuth2.html#a5645d3ede3276d0c1277df44b38c57ec">clientSecretChanged</a> (const QString &amp;)</td></tr>
-<tr class="memdesc:a5645d3ede3276d0c1277df44b38c57ec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Emitted when the client secret changes.  <br /></td></tr>
-<tr class="separator:a5645d3ede3276d0c1277df44b38c57ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab5b9f2855f73cb53a8f4b4c237876143" id="r_ab5b9f2855f73cb53a8f4b4c237876143"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1OAuth2.html#ab5b9f2855f73cb53a8f4b4c237876143">scopeChanged</a> (const QString &amp;)</td></tr>
-<tr class="memdesc:ab5b9f2855f73cb53a8f4b4c237876143"><td class="mdescLeft">&#160;</td><td class="mdescRight">Emitted when the scope changes.  <br /></td></tr>
-<tr class="separator:ab5b9f2855f73cb53a8f4b4c237876143"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3e102530a270304f7e6ededa1e6cec36" id="r_a3e102530a270304f7e6ededa1e6cec36"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1OAuth2.html#a3e102530a270304f7e6ededa1e6cec36">authUrlChanged</a> (const QString &amp;)</td></tr>
-<tr class="memdesc:a3e102530a270304f7e6ededa1e6cec36"><td class="mdescLeft">&#160;</td><td class="mdescRight">Emitted when the authorization URL changes.  <br /></td></tr>
-<tr class="separator:a3e102530a270304f7e6ededa1e6cec36"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a609421ebc6f5f8fe8bd96e4c14ab023e" id="r_a609421ebc6f5f8fe8bd96e4c14ab023e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1OAuth2.html#a609421ebc6f5f8fe8bd96e4c14ab023e">redirectUriChanged</a> (const QString &amp;)</td></tr>
-<tr class="memdesc:a609421ebc6f5f8fe8bd96e4c14ab023e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Emitted when the redirect URI changes.  <br /></td></tr>
-<tr class="separator:a609421ebc6f5f8fe8bd96e4c14ab023e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a51d55178dabf03d4ca21f08345d331bb" id="r_a51d55178dabf03d4ca21f08345d331bb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1OAuth2.html#a51d55178dabf03d4ca21f08345d331bb">tokenUrlChanged</a> (const QString &amp;)</td></tr>
-<tr class="memdesc:a51d55178dabf03d4ca21f08345d331bb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Emitted when the token URL changes.  <br /></td></tr>
-<tr class="separator:a51d55178dabf03d4ca21f08345d331bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af1b87ef2e028c95f26e709710775dc8e" id="r_af1b87ef2e028c95f26e709710775dc8e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1OAuth2.html#af1b87ef2e028c95f26e709710775dc8e">tokensChanged</a> ()</td></tr>
-<tr class="memdesc:af1b87ef2e028c95f26e709710775dc8e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Emitted when the access token, refresh token or expiration date changes.  <br /></td></tr>
-<tr class="separator:af1b87ef2e028c95f26e709710775dc8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a51ff290ef0a30d5676f946f82d9bdf2b" id="r_a51ff290ef0a30d5676f946f82d9bdf2b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1OAuth2.html#a51ff290ef0a30d5676f946f82d9bdf2b">stateChanged</a> (<a class="el" href="classalbert_1_1OAuth2.html#ae31fde854e47dcd044708e9cb9e05051">State</a>)</td></tr>
-<tr class="memdesc:a51ff290ef0a30d5676f946f82d9bdf2b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Emitted when the state changes.  <br /></td></tr>
-<tr class="separator:a51ff290ef0a30d5676f946f82d9bdf2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -221,6 +191,33 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a823be9bdb97df7ce8598bfbfa44154c2" id="r_a823be9bdb97df7ce8598bfbfa44154c2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1OAuth2.html#a823be9bdb97df7ce8598bfbfa44154c2">handleCallback</a> (const QUrl &amp;callback)</td></tr>
 <tr class="memdesc:a823be9bdb97df7ce8598bfbfa44154c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handles the redirect callback URL from the OAuth2 provider.  <br /></td></tr>
 <tr class="separator:a823be9bdb97df7ce8598bfbfa44154c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="signals" name="signals"></a>
+Signals</h2></td></tr>
+<tr class="memitem:a2804ccf2a79d24ff25bcd088a7d2b3ab" id="r_a2804ccf2a79d24ff25bcd088a7d2b3ab"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1OAuth2.html#a2804ccf2a79d24ff25bcd088a7d2b3ab">clientIdChanged</a> (const QString &amp;)</td></tr>
+<tr class="memdesc:a2804ccf2a79d24ff25bcd088a7d2b3ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Emitted when the client ID changes.  <br /></td></tr>
+<tr class="separator:a2804ccf2a79d24ff25bcd088a7d2b3ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5645d3ede3276d0c1277df44b38c57ec" id="r_a5645d3ede3276d0c1277df44b38c57ec"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1OAuth2.html#a5645d3ede3276d0c1277df44b38c57ec">clientSecretChanged</a> (const QString &amp;)</td></tr>
+<tr class="memdesc:a5645d3ede3276d0c1277df44b38c57ec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Emitted when the client secret changes.  <br /></td></tr>
+<tr class="separator:a5645d3ede3276d0c1277df44b38c57ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab5b9f2855f73cb53a8f4b4c237876143" id="r_ab5b9f2855f73cb53a8f4b4c237876143"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1OAuth2.html#ab5b9f2855f73cb53a8f4b4c237876143">scopeChanged</a> (const QString &amp;)</td></tr>
+<tr class="memdesc:ab5b9f2855f73cb53a8f4b4c237876143"><td class="mdescLeft">&#160;</td><td class="mdescRight">Emitted when the scope changes.  <br /></td></tr>
+<tr class="separator:ab5b9f2855f73cb53a8f4b4c237876143"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e102530a270304f7e6ededa1e6cec36" id="r_a3e102530a270304f7e6ededa1e6cec36"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1OAuth2.html#a3e102530a270304f7e6ededa1e6cec36">authUrlChanged</a> (const QString &amp;)</td></tr>
+<tr class="memdesc:a3e102530a270304f7e6ededa1e6cec36"><td class="mdescLeft">&#160;</td><td class="mdescRight">Emitted when the authorization URL changes.  <br /></td></tr>
+<tr class="separator:a3e102530a270304f7e6ededa1e6cec36"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a609421ebc6f5f8fe8bd96e4c14ab023e" id="r_a609421ebc6f5f8fe8bd96e4c14ab023e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1OAuth2.html#a609421ebc6f5f8fe8bd96e4c14ab023e">redirectUriChanged</a> (const QString &amp;)</td></tr>
+<tr class="memdesc:a609421ebc6f5f8fe8bd96e4c14ab023e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Emitted when the redirect URI changes.  <br /></td></tr>
+<tr class="separator:a609421ebc6f5f8fe8bd96e4c14ab023e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a51d55178dabf03d4ca21f08345d331bb" id="r_a51d55178dabf03d4ca21f08345d331bb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1OAuth2.html#a51d55178dabf03d4ca21f08345d331bb">tokenUrlChanged</a> (const QString &amp;)</td></tr>
+<tr class="memdesc:a51d55178dabf03d4ca21f08345d331bb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Emitted when the token URL changes.  <br /></td></tr>
+<tr class="separator:a51d55178dabf03d4ca21f08345d331bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af1b87ef2e028c95f26e709710775dc8e" id="r_af1b87ef2e028c95f26e709710775dc8e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1OAuth2.html#af1b87ef2e028c95f26e709710775dc8e">tokensChanged</a> ()</td></tr>
+<tr class="memdesc:af1b87ef2e028c95f26e709710775dc8e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Emitted when the access token, refresh token or expiration date changes.  <br /></td></tr>
+<tr class="separator:af1b87ef2e028c95f26e709710775dc8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a51ff290ef0a30d5676f946f82d9bdf2b" id="r_a51ff290ef0a30d5676f946f82d9bdf2b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1OAuth2.html#a51ff290ef0a30d5676f946f82d9bdf2b">stateChanged</a> (<a class="el" href="classalbert_1_1OAuth2.html#ae31fde854e47dcd044708e9cb9e05051">State</a>)</td></tr>
+<tr class="memdesc:a51ff290ef0a30d5676f946f82d9bdf2b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Emitted when the state changes.  <br /></td></tr>
+<tr class="separator:a51ff290ef0a30d5676f946f82d9bdf2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Enumeration Documentation</h2>
 <a id="ae31fde854e47dcd044708e9cb9e05051" name="ae31fde854e47dcd044708e9cb9e05051"></a>

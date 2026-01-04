@@ -103,15 +103,15 @@ $(document).ready(function(){initNavTree('classalbert_1_1RankedQueryHandler.html
 <div class="contents">
 
 <p><code>#include &lt;<a class="el" href="rankedqueryhandler_8h_source.html">albert/rankedqueryhandler.h</a>&gt;</code></p>
-<div class="dynheader">
+<a name="details" id="details"></a><h2 class="groupheader">Description</h2>
+<div class="textblock"><p>Usage-ranked query handler. </p>
+<p>Convenience base class for triggered query handlers that return a complete set of match-scored items eagerly. <a class="el" href="classalbert_1_1RankedQueryHandler.html#a00461153b766e5160bc975521580819f">rankItems</a> is executed in a worker thread, allowing CPU-bound work without blocking the main thread. The provided match scores will be combined with the usage-based scoring weighted by user configuration. Finally the items will be yielded lazily in order of their final score. </p>
+</div><div class="dynheader">
 Inheritance diagram for albert::RankedQueryHandler:</div>
 <div class="dyncontent">
 <div class="center"><iframe scrolling="no" frameborder="0" src="classalbert_1_1RankedQueryHandler__inherit__graph.svg" width="207" height="406"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
-<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Usage-ranked query handler. </p>
-<p>Convenience base class for triggered query handlers that return a complete set of match-scored items eagerly. <a class="el" href="classalbert_1_1RankedQueryHandler.html#a00461153b766e5160bc975521580819f">rankItems</a> is executed in a worker thread, allowing CPU-bound work without blocking the main thread. The provided match scores will be combined with the usage-based scoring weighted by user configuration. Finally the items will be yielded lazily in order of their final score. </p>
-</div><table class="memberdecls">
+<table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a00461153b766e5160bc975521580819f" id="r_a00461153b766e5160bc975521580819f"><td class="memItemLeft" align="right" valign="top">virtual std::vector&lt; <a class="el" href="classalbert_1_1RankItem.html">RankItem</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1RankedQueryHandler.html#a00461153b766e5160bc975521580819f">rankItems</a> (<a class="el" href="classalbert_1_1QueryContext.html">QueryContext</a> &amp;context)=0</td></tr>

@@ -94,27 +94,21 @@ $(document).ready(function(){initNavTree('classalbert_1_1Download.html',''); ini
 
 <div class="header">
   <div class="summary">
-<a href="#signals">Signals</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="#signals">Signals</a> &#124;
 <a href="classalbert_1_1Download-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">albert::Download Class Reference<div class="ingroups"><a class="el" href="group__util.html">Utility API</a> &raquo; <a class="el" href="group__util__net.html">Network</a></div></div></div>
 </div><!--header-->
 <div class="contents">
 
 <p><code>#include &lt;<a class="el" href="download_8h_source.html">albert/download.h</a>&gt;</code></p>
-
-<p>Inherits QObject.</p>
-<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Description</h2>
 <div class="textblock"><p>Downloads a file from the given URL to the given path. </p>
 <p>Does not check if the file exists. The download will fail to save the file in this case. </p>
-</div><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="signals" name="signals"></a>
-Signals</h2></td></tr>
-<tr class="memitem:ad3ea2f731c1bfffaae863b105ff61347" id="r_ad3ea2f731c1bfffaae863b105ff61347"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1Download.html#ad3ea2f731c1bfffaae863b105ff61347">finished</a> ()</td></tr>
-<tr class="memdesc:ad3ea2f731c1bfffaae863b105ff61347"><td class="mdescLeft">&#160;</td><td class="mdescRight">Emitted when the download has finished.  <br /></td></tr>
-<tr class="separator:ad3ea2f731c1bfffaae863b105ff61347"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
+</div>
+<p>Inherits QObject.</p>
+<table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a197d9cb8bb72ae83a22bb96b9cd7089e" id="r_a197d9cb8bb72ae83a22bb96b9cd7089e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1Download.html#a197d9cb8bb72ae83a22bb96b9cd7089e">Download</a> (const QUrl &amp;<a class="el" href="classalbert_1_1Download.html#af73de32ef483ef094901ac48909b1090">url</a>, const QString &amp;<a class="el" href="classalbert_1_1Download.html#aa67d1c9ef8a9b18017e003f0af648a1c">path</a>, QObject *parent=nullptr)</td></tr>
@@ -144,6 +138,12 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:ad07b69bbc502fa465d022309a2633e6c" id="r_ad07b69bbc502fa465d022309a2633e6c"><td class="memItemLeft" align="right" valign="top">static std::shared_ptr&lt; <a class="el" href="classalbert_1_1Download.html">Download</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1Download.html#ad07b69bbc502fa465d022309a2633e6c">unique</a> (const QUrl &amp;<a class="el" href="classalbert_1_1Download.html#af73de32ef483ef094901ac48909b1090">url</a>, const QString &amp;<a class="el" href="classalbert_1_1Download.html#aa67d1c9ef8a9b18017e003f0af648a1c">path</a>)</td></tr>
 <tr class="memdesc:ad07b69bbc502fa465d022309a2633e6c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a unique download for <em>url</em> and <em>path</em>.  <br /></td></tr>
 <tr class="separator:ad07b69bbc502fa465d022309a2633e6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="signals" name="signals"></a>
+Signals</h2></td></tr>
+<tr class="memitem:ad3ea2f731c1bfffaae863b105ff61347" id="r_ad3ea2f731c1bfffaae863b105ff61347"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1Download.html#ad3ea2f731c1bfffaae863b105ff61347">finished</a> ()</td></tr>
+<tr class="memdesc:ad3ea2f731c1bfffaae863b105ff61347"><td class="mdescLeft">&#160;</td><td class="mdescRight">Emitted when the download has finished.  <br /></td></tr>
+<tr class="separator:ad3ea2f731c1bfffaae863b105ff61347"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a197d9cb8bb72ae83a22bb96b9cd7089e" name="a197d9cb8bb72ae83a22bb96b9cd7089e"></a>

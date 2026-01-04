@@ -1,7 +1,5 @@
 <map id="albert::PluginInstance" name="albert::PluginInstance">
-<area shape="rect" id="Node000001" title="Abstract plugin instance class." alt="" coords="95,5,240,31"/>
+<area shape="rect" id="Node000001" title="Abstract plugin instance class." alt="" coords="8,5,154,31"/>
 <area shape="rect" id="Node000002" href="$classalbert_1_1ExtensionPlugin.html" title="Extension plugin base class." alt="" coords="5,79,157,105"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="143,43,97,81,94,77,140,39"/>
-<area shape="rect" id="Node000003" href="$classalbert_1_1detail_1_1Frontend.html" title="The interface for albert frontends." alt="" coords="181,79,328,105"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="196,39,242,77,238,81,192,43"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="84,46,84,79,78,79,78,46"/>
 </map>

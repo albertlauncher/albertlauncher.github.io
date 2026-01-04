@@ -94,27 +94,21 @@ $(document).ready(function(){initNavTree('classalbert_1_1QueryExecution.html',''
 
 <div class="header">
   <div class="summary">
-<a href="#signals">Signals</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#signals">Signals</a> &#124;
 <a href="classalbert_1_1QueryExecution-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">albert::QueryExecution Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span><div class="ingroups"><a class="el" href="group__core.html">Core API</a> &raquo; <a class="el" href="group__core__query.html">Query handling</a></div></div></div>
 </div><!--header-->
 <div class="contents">
 
 <p><code>#include &lt;<a class="el" href="queryexecution_8h_source.html">albert/queryexecution.h</a>&gt;</code></p>
-
-<p>Inherits QObject.</p>
-<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Description</h2>
 <div class="textblock"><p>Abstract asynchronous query execution interface. </p>
 <p>Controls the execution of a query, reports busy state and allows to fetch results on demand. </p>
-</div><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="signals" name="signals"></a>
-Signals</h2></td></tr>
-<tr class="memitem:a1c271d5164f1cdb660c1f6a540cfbd62" id="r_a1c271d5164f1cdb660c1f6a540cfbd62"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1QueryExecution.html#a1c271d5164f1cdb660c1f6a540cfbd62">activeChanged</a> (bool active)</td></tr>
-<tr class="memdesc:a1c271d5164f1cdb660c1f6a540cfbd62"><td class="mdescLeft">&#160;</td><td class="mdescRight">Emitted when query processing started or finished.  <br /></td></tr>
-<tr class="separator:a1c271d5164f1cdb660c1f6a540cfbd62"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
+</div>
+<p>Inherits QObject.</p>
+<table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:adee5e72a7e3c3da3d9a7f393c488b8b4" id="r_adee5e72a7e3c3da3d9a7f393c488b8b4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1QueryExecution.html#adee5e72a7e3c3da3d9a7f393c488b8b4">QueryExecution</a> (<a class="el" href="classalbert_1_1QueryContext.html">QueryContext</a> &amp;<a class="el" href="classalbert_1_1QueryExecution.html#a4083506530ac3eb62448f46c22aa5657">context</a>)</td></tr>
@@ -144,6 +138,12 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a279ea2651d1d0b2a66d2ea9235e0ef84" id="r_a279ea2651d1d0b2a66d2ea9235e0ef84"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classalbert_1_1QueryResults.html">QueryResults</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1QueryExecution.html#a279ea2651d1d0b2a66d2ea9235e0ef84">results</a></td></tr>
 <tr class="memdesc:a279ea2651d1d0b2a66d2ea9235e0ef84"><td class="mdescLeft">&#160;</td><td class="mdescRight">The results of this query.  <br /></td></tr>
 <tr class="separator:a279ea2651d1d0b2a66d2ea9235e0ef84"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="signals" name="signals"></a>
+Signals</h2></td></tr>
+<tr class="memitem:a1c271d5164f1cdb660c1f6a540cfbd62" id="r_a1c271d5164f1cdb660c1f6a540cfbd62"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1QueryExecution.html#a1c271d5164f1cdb660c1f6a540cfbd62">activeChanged</a> (bool active)</td></tr>
+<tr class="memdesc:a1c271d5164f1cdb660c1f6a540cfbd62"><td class="mdescLeft">&#160;</td><td class="mdescRight">Emitted when query processing started or finished.  <br /></td></tr>
+<tr class="separator:a1c271d5164f1cdb660c1f6a540cfbd62"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="adee5e72a7e3c3da3d9a7f393c488b8b4" name="adee5e72a7e3c3da3d9a7f393c488b8b4"></a>

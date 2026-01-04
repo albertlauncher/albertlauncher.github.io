@@ -9,7 +9,7 @@ var searchData=
   ['urlhandler_6',['UrlHandler',['../classalbert_1_1UrlHandler.html',1,'albert']]],
   ['urlhandler_2eh_7',['urlhandler.h',['../urlhandler_8h.html',1,'']]],
   ['usage_5fscores_8',['usage_scores',['../classalbert_1_1UsageScoring.html#a3e2fd7963fadc72d8859229fd4fad36c',1,'albert::UsageScoring']]],
-  ['usagescoring_9',['usagescoring',['../classalbert_1_1UsageScoring.html',1,'albert::UsageScoring'],['../classalbert_1_1detail_1_1Query.html#ab13498c8283d1e9646f97e2bf9ee0a0f',1,'albert::detail::Query::usageScoring()'],['../classalbert_1_1QueryContext.html#a1b150b4b618b3c6724891ab32d85ab0d',1,'albert::QueryContext::usageScoring()']]],
+  ['usagescoring_9',['usagescoring',['../classalbert_1_1UsageScoring.html',1,'albert::UsageScoring'],['../classalbert_1_1QueryContext.html#a1b150b4b618b3c6724891ab32d85ab0d',1,'albert::QueryContext::usageScoring()']]],
   ['usagescoring_2eh_10',['usagescoring.h',['../usagescoring_8h.html',1,'']]],
   ['user_11',['User',['../classalbert_1_1PluginMetadata.html#a430d528ce1f7c9602941815f30ed3ff7a8f9bfe9d1345237cb3b2b205864da075',1,'albert::PluginMetadata']]],
   ['utility_20api_12',['Utility API',['../group__util.html',1,'']]]
