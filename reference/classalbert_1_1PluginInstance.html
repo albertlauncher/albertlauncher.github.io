@@ -96,6 +96,7 @@ $(document).ready(function(){initNavTree('classalbert_1_1PluginInstance.html',''
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
+<a href="#signals">Signals</a> &#124;
 <a href="classalbert_1_1PluginInstance-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">albert::PluginInstance Class Reference<div class="ingroups"><a class="el" href="group__core.html">Core API</a> &raquo; <a class="el" href="group__core__plugin.html">Plugin system</a></div></div></div>
 </div><!--header-->
@@ -114,6 +115,9 @@ Inheritance diagram for albert::PluginInstance:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr class="memitem:a3771e10208fe5343d36d550367d4210b" id="r_a3771e10208fe5343d36d550367d4210b"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1PluginInstance.html#a3771e10208fe5343d36d550367d4210b">initialize</a> ()</td></tr>
+<tr class="memdesc:a3771e10208fe5343d36d550367d4210b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Triggers the asynchronous initialization.  <br /></td></tr>
+<tr class="separator:a3771e10208fe5343d36d550367d4210b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab1376d91889acab63531e780b3ffdef8" id="r_ab1376d91889acab63531e780b3ffdef8"><td class="memItemLeft" align="right" valign="top">virtual QWidget *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1PluginInstance.html#ab1376d91889acab63531e780b3ffdef8">buildConfigWidget</a> ()</td></tr>
 <tr class="memdesc:ab1376d91889acab63531e780b3ffdef8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a widget that can be used to configure the plugin properties.  <br /></td></tr>
 <tr class="separator:ab1376d91889acab63531e780b3ffdef8"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -141,12 +145,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a5a9678437750233481ca162744bdb93f" id="r_a5a9678437750233481ca162744bdb93f"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; QSettings &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1PluginInstance.html#a5a9678437750233481ca162744bdb93f">state</a> () const</td></tr>
 <tr class="memdesc:a5a9678437750233481ca162744bdb93f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a preconfigured <code>QSettings</code> object for plugin state data.  <br /></td></tr>
 <tr class="separator:a5a9678437750233481ca162744bdb93f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a25241e0918d88b5584b0abe740570837" id="r_a25241e0918d88b5584b0abe740570837"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1PluginInstance.html#a25241e0918d88b5584b0abe740570837">readKeychain</a> (const QString &amp;key, std::function&lt; void(const QString &amp;value)&gt; onSuccess, std::function&lt; void(const QString &amp;error)&gt; onError) const</td></tr>
-<tr class="memdesc:a25241e0918d88b5584b0abe740570837"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reads the keychain value for <em>key</em> asynchronously.  <br /></td></tr>
-<tr class="separator:a25241e0918d88b5584b0abe740570837"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa706cb9e1078455bc140bd5a617f2927" id="r_aa706cb9e1078455bc140bd5a617f2927"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1PluginInstance.html#aa706cb9e1078455bc140bd5a617f2927">writeKeychain</a> (const QString &amp;key, const QString &amp;value, std::function&lt; void()&gt; onSuccess, std::function&lt; void(const QString &amp;error)&gt; onError) const</td></tr>
-<tr class="memdesc:aa706cb9e1078455bc140bd5a617f2927"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the keychain value of <em>key</em> to <em>value</em> asynchronously.  <br /></td></tr>
-<tr class="separator:aa706cb9e1078455bc140bd5a617f2927"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
@@ -156,6 +154,12 @@ Protected Member Functions</h2></td></tr>
 <tr class="memitem:a5f45a55c5eb5712294adc15b889942fa" id="r_a5f45a55c5eb5712294adc15b889942fa"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1PluginInstance.html#a5f45a55c5eb5712294adc15b889942fa">~PluginInstance</a> ()</td></tr>
 <tr class="memdesc:a5f45a55c5eb5712294adc15b889942fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructs the plugin instance.  <br /></td></tr>
 <tr class="separator:a5f45a55c5eb5712294adc15b889942fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="signals" name="signals"></a>
+Signals</h2></td></tr>
+<tr class="memitem:a2820a993249c4f98378c9de1ebd70705" id="r_a2820a993249c4f98378c9de1ebd70705"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1PluginInstance.html#a2820a993249c4f98378c9de1ebd70705">initialized</a> ()</td></tr>
+<tr class="memdesc:a2820a993249c4f98378c9de1ebd70705"><td class="mdescLeft">&#160;</td><td class="mdescRight">Emitted when the plugin has completed initialization.  <br /></td></tr>
+<tr class="separator:a2820a993249c4f98378c9de1ebd70705"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a97268fde3a98b3ea1857a5effd01e277" name="a97268fde3a98b3ea1857a5effd01e277"></a>
@@ -348,6 +352,61 @@ Protected Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a3771e10208fe5343d36d550367d4210b" name="a3771e10208fe5343d36d550367d4210b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3771e10208fe5343d36d550367d4210b">&#9670;&#160;</a></span>initialize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void albert::PluginInstance::initialize </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Triggers the asynchronous initialization. </p>
+<p>Implementations have to emit <a class="el" href="classalbert_1_1PluginInstance.html#a2820a993249c4f98378c9de1ebd70705">initialized()</a> or call base::initialize() when done initializing. </p>
+
+</div>
+</div>
+<a id="a2820a993249c4f98378c9de1ebd70705" name="a2820a993249c4f98378c9de1ebd70705"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2820a993249c4f98378c9de1ebd70705">&#9670;&#160;</a></span>initialized</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void albert::PluginInstance::initialized </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">signal</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Emitted when the plugin has completed initialization. </p>
+
+</div>
+</div>
 <a id="a050d248da29f0a6106f83b53036fcaac" name="a050d248da29f0a6106f83b53036fcaac"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a050d248da29f0a6106f83b53036fcaac">&#9670;&#160;</a></span>loader()</h2>
 
@@ -364,43 +423,6 @@ Protected Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Returns the loader of this plugin. </p>
-
-</div>
-</div>
-<a id="a25241e0918d88b5584b0abe740570837" name="a25241e0918d88b5584b0abe740570837"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a25241e0918d88b5584b0abe740570837">&#9670;&#160;</a></span>readKeychain()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void albert::PluginInstance::readKeychain </td>
-          <td>(</td>
-          <td class="paramtype">const QString &amp;&#160;</td>
-          <td class="paramname"><em>key</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::function&lt; void(const QString &amp;value)&gt;&#160;</td>
-          <td class="paramname"><em>onSuccess</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::function&lt; void(const QString &amp;error)&gt;&#160;</td>
-          <td class="paramname"><em>onError</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Reads the keychain value for <em>key</em> asynchronously. </p>
-<p>Calls <em>onSuccess</em> with the <em>value</em> of the <em>key</em> on success and <code>onError</code> with an <em>error</em> message on failure. </p>
 
 </div>
 </div>
@@ -441,49 +463,6 @@ Protected Member Functions</h2></td></tr>
 
 <p>Creates a preconfigured <code>QSettings</code> object for plugin state data. </p>
 <p>Configured to use the group &lt;plugin-id&gt; in albert::state(). </p>
-
-</div>
-</div>
-<a id="aa706cb9e1078455bc140bd5a617f2927" name="aa706cb9e1078455bc140bd5a617f2927"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa706cb9e1078455bc140bd5a617f2927">&#9670;&#160;</a></span>writeKeychain()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void albert::PluginInstance::writeKeychain </td>
-          <td>(</td>
-          <td class="paramtype">const QString &amp;&#160;</td>
-          <td class="paramname"><em>key</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const QString &amp;&#160;</td>
-          <td class="paramname"><em>value</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::function&lt; void()&gt;&#160;</td>
-          <td class="paramname"><em>onSuccess</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::function&lt; void(const QString &amp;error)&gt;&#160;</td>
-          <td class="paramname"><em>onError</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Sets the keychain value of <em>key</em> to <em>value</em> asynchronously. </p>
-<p>Calls <em>onSuccess</em> on success and <em>onError</em> with an <em>error</em> message on failure. </p>
 
 </div>
 </div>

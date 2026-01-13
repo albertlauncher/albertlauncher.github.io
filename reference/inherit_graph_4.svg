@@ -336,7 +336,7 @@
 <!-- Node8 -->
 <g id="Node000008" class="node">
 <title>Node8</title>
-<g id="a_Node000008"><a xlink:href="classalbert_1_1PluginLoader.html" target="_top" xlink:title="Asynchronous plugin loader turning a physical plugin into a logical plugin instance.">
+<g id="a_Node000008"><a xlink:href="classalbert_1_1PluginLoader.html" target="_top" xlink:title="Asynchronous plugin loader.">
 <polygon fill="white" stroke="#666666" points="255.88,-56.25 154.38,-56.25 154.38,-37 255.88,-37 255.88,-56.25"/>
 <text text-anchor="middle" x="205.12" y="-42.75" font-family="Helvetica,sans-Serif" font-size="10.00">albert::PluginLoader</text>
 </a>

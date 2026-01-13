@@ -1594,6 +1594,28 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>initialize</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>albert::PluginInstance</Scope>
+    </TokenIdentifier>
+    <Path>classalbert_1_1PluginInstance.html</Path>
+    <Anchor>a3771e10208fe5343d36d550367d4210b</Anchor>
+    <DeclaredIn>plugininstance.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>initialized</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>signal</Type>
+      <Scope>albert::PluginInstance</Scope>
+    </TokenIdentifier>
+    <Path>classalbert_1_1PluginInstance.html</Path>
+    <Anchor>a2820a993249c4f98378c9de1ebd70705</Anchor>
+    <DeclaredIn>plugininstance.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>input_action_text_</Name>
       <APILanguage>cpp</APILanguage>
       <Type>data</Type>
@@ -2532,17 +2554,6 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>readKeychain</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>albert::PluginInstance</Scope>
-    </TokenIdentifier>
-    <Path>classalbert_1_1PluginInstance.html</Path>
-    <Anchor>a25241e0918d88b5584b0abe740570837</Anchor>
-    <DeclaredIn>plugininstance.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
       <Name>readme_url</Name>
       <APILanguage>cpp</APILanguage>
       <Type>data</Type>
@@ -2826,6 +2837,16 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>Score</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>tdef</Type>
+      <Scope>albert::Match</Scope>
+    </TokenIdentifier>
+    <Path>classalbert_1_1Match.html</Path>
+    <Anchor>af864b64c9d79b1408ed97893d896c982</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>score</Name>
       <APILanguage>cpp</APILanguage>
       <Type>data</Type>
@@ -2844,16 +2865,6 @@
     <Path>classalbert_1_1Match.html</Path>
     <Anchor>aeb2d797f1718d841391125437236e412</Anchor>
     <DeclaredIn>matcher.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>Score</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>tdef</Type>
-      <Scope>albert::Match</Scope>
-    </TokenIdentifier>
-    <Path>classalbert_1_1Match.html</Path>
-    <Anchor>af864b64c9d79b1408ed97893d896c982</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -3176,39 +3187,6 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>state</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>clm</Type>
-      <Scope>albert::App</Scope>
-    </TokenIdentifier>
-    <Path>classalbert_1_1App.html</Path>
-    <Anchor>ae8bffacf1109c4c391b13b2b175a42be</Anchor>
-    <DeclaredIn>app.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>state</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>albert::OAuth2</Scope>
-    </TokenIdentifier>
-    <Path>classalbert_1_1OAuth2.html</Path>
-    <Anchor>a2350c9c518a81fedc8b8dcfa0d0c6e2c</Anchor>
-    <DeclaredIn>oauth.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>state</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>albert::PluginInstance</Scope>
-    </TokenIdentifier>
-    <Path>classalbert_1_1PluginInstance.html</Path>
-    <Anchor>a5a9678437750233481ca162744bdb93f</Anchor>
-    <DeclaredIn>plugininstance.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
       <Name>State</Name>
       <APILanguage>cpp</APILanguage>
       <Type>enum</Type>
@@ -3246,6 +3224,39 @@
     </TokenIdentifier>
     <Path>classalbert_1_1OAuth2.html</Path>
     <Anchor>ae31fde854e47dcd044708e9cb9e05051ac322f9346b70efdd31968628d5ee68db</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>state</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>clm</Type>
+      <Scope>albert::App</Scope>
+    </TokenIdentifier>
+    <Path>classalbert_1_1App.html</Path>
+    <Anchor>ae8bffacf1109c4c391b13b2b175a42be</Anchor>
+    <DeclaredIn>app.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>state</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>albert::OAuth2</Scope>
+    </TokenIdentifier>
+    <Path>classalbert_1_1OAuth2.html</Path>
+    <Anchor>a2350c9c518a81fedc8b8dcfa0d0c6e2c</Anchor>
+    <DeclaredIn>oauth.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>state</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>albert::PluginInstance</Scope>
+    </TokenIdentifier>
+    <Path>classalbert_1_1PluginInstance.html</Path>
+    <Anchor>a5a9678437750233481ca162744bdb93f</Anchor>
+    <DeclaredIn>plugininstance.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -3654,17 +3665,6 @@
     <Path>classalbert_1_1WeakDependency.html</Path>
     <Anchor>aa7134ad13996b4bbe26d7dd13d1d05c4</Anchor>
     <DeclaredIn>plugindependency.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>writeKeychain</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>albert::PluginInstance</Scope>
-    </TokenIdentifier>
-    <Path>classalbert_1_1PluginInstance.html</Path>
-    <Anchor>aa706cb9e1078455bc140bd5a617f2927</Anchor>
-    <DeclaredIn>plugininstance.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>

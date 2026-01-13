@@ -35,7 +35,7 @@
 <area shape="poly" id="edge17_Node000003_Node000007" title=" " alt="" coords="128,316,227,329,226,334,127,322"/>
 <area shape="rect" id="Node000002" href="$classalbert_1_1PluginInstance.html" title="Abstract plugin instance class." alt="" coords="206,375,352,400"/>
 <area shape="poly" id="edge18_Node000003_Node000002" title=" " alt="" coords="123,330,199,361,230,371,229,377,197,366,121,335"/>
-<area shape="rect" id="Node000008" href="$classalbert_1_1PluginLoader.html" title="Asynchronous plugin loader turning a physical plugin into a logical plugin instance." alt="" coords="211,424,347,450"/>
+<area shape="rect" id="Node000008" href="$classalbert_1_1PluginLoader.html" title="Asynchronous plugin loader." alt="" coords="211,424,347,450"/>
 <area shape="poly" id="edge20_Node000003_Node000008" title=" " alt="" coords="103,335,146,374,199,411,223,421,221,426,196,415,142,378,100,339"/>
 <area shape="rect" id="Node000009" href="$classalbert_1_1QueryExecution.html" title="Abstract asynchronous query execution interface." alt="" coords="204,473,354,499"/>
 <area shape="poly" id="edge21_Node000003_Node000009" title=" " alt="" coords="95,338,137,400,166,432,199,460,219,470,217,475,196,464,162,436,133,403,91,341"/>

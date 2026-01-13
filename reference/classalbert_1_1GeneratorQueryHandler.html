@@ -249,7 +249,9 @@ Protected Member Functions</h2></td></tr>
 
 <p>Yields batches of items for <em>context</em> lazily. </p>
 <p>The batch size is defined by the implementation.</p>
-<dl class="section note"><dt>Note</dt><dd>Executed in a background thread. </dd></dl>
+<dl class="section note"><dt>Note</dt><dd>Executed in a background thread.</dd>
+<dd>
+GCC-13 does not support returning temporary values in generators. So for as long as Ubuntu 24.04 is supported, we have to return lvalues. </dd></dl>
 
 <p>Implemented in <a class="el" href="classalbert_1_1RankedQueryHandler.html#a8dc06192d71bd84339eca82bfd81b8f4">albert::RankedQueryHandler</a>.</p>
 
