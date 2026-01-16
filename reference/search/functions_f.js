@@ -11,7 +11,7 @@ var searchData=
   ['refreshtoken_8',['refreshToken',['../classalbert_1_1OAuth2.html#a3e9eaf97f106bcd58428ae3c766ec21f',1,'albert::OAuth2']]],
   ['registerextension_9',['registerExtension',['../classalbert_1_1ExtensionRegistry.html#a680310c5eb7bfe2c5716a623bfdc206f',1,'albert::ExtensionRegistry']]],
   ['remove_10',['remove',['../classalbert_1_1QueryResults.html#af6ef1b3ec16c9ad253bfed4f2ba693ab',1,'albert::QueryResults']]],
-  ['removed_11',['removed',['../classalbert_1_1ExtensionRegistry.html#a97dfb7e3618e318d83e156df3c5766d5',1,'albert::ExtensionRegistry']]],
+  ['removed_11',['removed',['../classalbert_1_1App.html#a553a4bdcaf86650e3cb7113f8b0b8c6c',1,'albert::App::removed()'],['../classalbert_1_1ExtensionRegistry.html#a97dfb7e3618e318d83e156df3c5766d5',1,'albert::ExtensionRegistry::removed()']]],
   ['removeobserver_12',['removeObserver',['../classalbert_1_1Item.html#a4791d25d38f298d79bfa6889c14f02b9',1,'albert::Item']]],
   ['requestaccess_13',['requestAccess',['../classalbert_1_1OAuth2.html#aa17154f9b5493e11b28195f4829a0154',1,'albert::OAuth2']]],
   ['reset_14',['reset',['../classalbert_1_1QueryResults.html#a7a8acb753081ac9403983bed1312ad1b',1,'albert::QueryResults']]],

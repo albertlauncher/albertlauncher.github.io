@@ -116,73 +116,110 @@ $(document).ready(function(){initNavTree('app_8h_source.html',''); initResizable
 <div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span> </div>
 <div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span> </div>
 <div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span><span class="preprocessor">#pragma once</span></div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span><span class="preprocessor">#include &lt;QString&gt;</span></div>
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span><span class="preprocessor">#include &lt;albert/export.h&gt;</span></div>
-<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span><span class="preprocessor">#include &lt;filesystem&gt;</span></div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span><span class="preprocessor">#include &lt;memory&gt;</span></div>
-<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span><span class="keyword">class </span>QNetworkAccessManager;</div>
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span><span class="keyword">class </span>QSettings;</div>
-<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span><span class="keyword">class </span>QUrl;</div>
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span> </div>
-<div class="foldopen" id="foldopen00055" data-start="{" data-end="}">
-<div class="line"><a id="l00055" name="l00055"></a><span class="lineno"><a class="line" href="namespacealbert.html">   55</a></span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespacealbert.html">albert</a></div>
-<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>{</div>
-<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span><span class="keyword">class </span><a class="code hl_class" href="classalbert_1_1ExtensionRegistry.html">ExtensionRegistry</a>;</div>
-<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span><span class="keyword">class </span><a class="code hl_class" href="classalbert_1_1UsageScoring.html">UsageScoring</a>;</div>
-<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span> </div>
-<div class="foldopen" id="foldopen00065" data-start="{" data-end="};">
-<div class="line"><a id="l00065" name="l00065"></a><span class="lineno"><a class="line" href="classalbert_1_1App.html">   65</a></span><span class="keyword">class </span>ALBERT_EXPORT <a class="code hl_class" href="classalbert_1_1App.html">App</a></div>
-<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>{</div>
-<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span><span class="keyword">public</span>:</div>
-<div class="line"><a id="l00071" name="l00071"></a><span class="lineno"><a class="line" href="classalbert_1_1App.html#ab7c2e273b0a78b5884000064056eca94">   71</a></span>    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code hl_function" href="classalbert_1_1App.html#ab7c2e273b0a78b5884000064056eca94">show</a>(<span class="keyword">const</span> QString &amp;input_text = {}) = 0;</div>
-<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span> </div>
-<div class="line"><a id="l00076" name="l00076"></a><span class="lineno"><a class="line" href="classalbert_1_1App.html#aca152bd8e596da88e3d284730e35e013">   76</a></span>    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code hl_function" href="classalbert_1_1App.html#aca152bd8e596da88e3d284730e35e013">showSettings</a>(QString plugin_id = {}) = 0;</div>
-<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span> </div>
-<div class="line"><a id="l00084" name="l00084"></a><span class="lineno"><a class="line" href="classalbert_1_1App.html#ab0b21caf94d2666e3f246f2263e47f6f">   84</a></span>    <span class="keyword">virtual</span> <span class="keyword">const</span> <a class="code hl_class" href="classalbert_1_1ExtensionRegistry.html">ExtensionRegistry</a> &amp;<a class="code hl_function" href="classalbert_1_1App.html#ab0b21caf94d2666e3f246f2263e47f6f">extensionRegistry</a>() <span class="keyword">const</span> = 0;</div>
-<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span> </div>
-<div class="line"><a id="l00091" name="l00091"></a><span class="lineno"><a class="line" href="classalbert_1_1App.html#af5ed7d9ddfd90e6c176df8dc9359e0f0">   91</a></span>    <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code hl_function" href="classalbert_1_1App.html#af5ed7d9ddfd90e6c176df8dc9359e0f0">restart</a>();</div>
-<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span> </div>
-<div class="line"><a id="l00098" name="l00098"></a><span class="lineno"><a class="line" href="classalbert_1_1App.html#a580dea4d4a66dc0b4755566d442e9dc4">   98</a></span>    <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code hl_function" href="classalbert_1_1App.html#a580dea4d4a66dc0b4755566d442e9dc4">quit</a>();</div>
-<div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span> </div>
-<div class="line"><a id="l00105" name="l00105"></a><span class="lineno"><a class="line" href="classalbert_1_1App.html#a415406f14b944200a312ae9cd1989aa1">  105</a></span>    <span class="keyword">static</span> <span class="keyword">const</span> std::filesystem::path &amp;<a class="code hl_function" href="classalbert_1_1App.html#a415406f14b944200a312ae9cd1989aa1">configLocation</a>();</div>
-<div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span> </div>
-<div class="line"><a id="l00112" name="l00112"></a><span class="lineno"><a class="line" href="classalbert_1_1App.html#af1a5e70db581f094926140dded1819c2">  112</a></span>    <span class="keyword">static</span> <span class="keyword">const</span> std::filesystem::path &amp;<a class="code hl_function" href="classalbert_1_1App.html#af1a5e70db581f094926140dded1819c2">cacheLocation</a>();</div>
-<div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span> </div>
-<div class="line"><a id="l00119" name="l00119"></a><span class="lineno"><a class="line" href="classalbert_1_1App.html#a4a01a85952e4eb818cf3c4697d38e914">  119</a></span>    <span class="keyword">static</span> <span class="keyword">const</span> std::filesystem::path &amp;<a class="code hl_function" href="classalbert_1_1App.html#a4a01a85952e4eb818cf3c4697d38e914">dataLocation</a>();</div>
-<div class="line"><a id="l00120" name="l00120"></a><span class="lineno">  120</span> </div>
-<div class="line"><a id="l00128" name="l00128"></a><span class="lineno"><a class="line" href="classalbert_1_1App.html#a1d7a5b39baf71d49199a94cae7036efe">  128</a></span>    <span class="keyword">static</span> std::unique_ptr&lt;QSettings&gt; <a class="code hl_function" href="classalbert_1_1App.html#a1d7a5b39baf71d49199a94cae7036efe">settings</a>();</div>
-<div class="line"><a id="l00129" name="l00129"></a><span class="lineno">  129</span> </div>
-<div class="line"><a id="l00137" name="l00137"></a><span class="lineno"><a class="line" href="classalbert_1_1App.html#ae8bffacf1109c4c391b13b2b175a42be">  137</a></span>    <span class="keyword">static</span> std::unique_ptr&lt;QSettings&gt; <a class="code hl_function" href="classalbert_1_1App.html#ae8bffacf1109c4c391b13b2b175a42be">state</a>();</div>
-<div class="line"><a id="l00138" name="l00138"></a><span class="lineno">  138</span> </div>
-<div class="line"><a id="l00142" name="l00142"></a><span class="lineno"><a class="line" href="classalbert_1_1App.html#a4bffdd9346fb2af114c5ece47708926f">  142</a></span>    <span class="keyword">static</span> <a class="code hl_class" href="classalbert_1_1App.html">App</a> &amp;<a class="code hl_function" href="classalbert_1_1App.html#a4bffdd9346fb2af114c5ece47708926f">instance</a>();</div>
-<div class="line"><a id="l00143" name="l00143"></a><span class="lineno">  143</span> </div>
-<div class="line"><a id="l00144" name="l00144"></a><span class="lineno">  144</span><span class="keyword">protected</span>:</div>
-<div class="line"><a id="l00145" name="l00145"></a><span class="lineno">  145</span> </div>
-<div class="line"><a id="l00146" name="l00146"></a><span class="lineno"><a class="line" href="classalbert_1_1App.html#ab59e5f5d53ec791d2eb0ce8cc57221c8">  146</a></span>    <a class="code hl_function" href="classalbert_1_1App.html#ab59e5f5d53ec791d2eb0ce8cc57221c8">App</a>();</div>
-<div class="line"><a id="l00147" name="l00147"></a><span class="lineno"><a class="line" href="classalbert_1_1App.html#a99dd534165232f6c1e4a8a54629d6960">  147</a></span>    <span class="keyword">virtual</span> <a class="code hl_function" href="classalbert_1_1App.html#a99dd534165232f6c1e4a8a54629d6960">~App</a>();</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span><span class="preprocessor">#include &lt;QObject&gt;</span></div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span><span class="preprocessor">#include &lt;QString&gt;</span></div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span><span class="preprocessor">#include &lt;albert/export.h&gt;</span></div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span><span class="preprocessor">#include &lt;filesystem&gt;</span></div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span><span class="preprocessor">#include &lt;map&gt;</span></div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span><span class="preprocessor">#include &lt;memory&gt;</span></div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span><span class="keyword">class </span>QNetworkAccessManager;</div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span><span class="keyword">class </span>QSettings;</div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span><span class="keyword">class </span>QUrl;</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span> </div>
+<div class="foldopen" id="foldopen00057" data-start="{" data-end="}">
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno"><a class="line" href="namespacealbert.html">   57</a></span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespacealbert.html">albert</a></div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>{</div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span><span class="keyword">class </span><a class="code hl_class" href="classalbert_1_1Extension.html">Extension</a>;</div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span><span class="keyword">class </span><a class="code hl_class" href="classalbert_1_1UsageScoring.html">UsageScoring</a>;</div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span> </div>
+<div class="foldopen" id="foldopen00067" data-start="{" data-end="};">
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno"><a class="line" href="classalbert_1_1App.html">   67</a></span><span class="keyword">class </span>ALBERT_EXPORT <a class="code hl_class" href="classalbert_1_1App.html">App</a> : <span class="keyword">public</span> QObject</div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>{</div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>    Q_OBJECT</div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno"><a class="line" href="classalbert_1_1App.html#a4bffdd9346fb2af114c5ece47708926f">   72</a></span>    <span class="keyword">static</span> <a class="code hl_class" href="classalbert_1_1App.html">App</a> &amp;<a class="code hl_function" href="classalbert_1_1App.html#a4bffdd9346fb2af114c5ece47708926f">instance</a>();</div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span> </div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno"><a class="line" href="classalbert_1_1App.html#ab7c2e273b0a78b5884000064056eca94">   75</a></span>    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code hl_function" href="classalbert_1_1App.html#ab7c2e273b0a78b5884000064056eca94">show</a>(<span class="keyword">const</span> QString &amp;input_text = {}) = 0;</div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span> </div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno"><a class="line" href="classalbert_1_1App.html#aca152bd8e596da88e3d284730e35e013">   78</a></span>    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code hl_function" href="classalbert_1_1App.html#aca152bd8e596da88e3d284730e35e013">showSettings</a>(QString plugin_id = {}) = 0;</div>
+<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span> </div>
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno"><a class="line" href="classalbert_1_1App.html#a3a914db8ecc9a845b21f0e9758993d3a">   81</a></span>    <span class="keyword">virtual</span> <span class="keyword">const</span> std::map&lt;QString,Extension*&gt; &amp;<a class="code hl_function" href="classalbert_1_1App.html#a3a914db8ecc9a845b21f0e9758993d3a">extensions</a>() <span class="keyword">const</span> = 0;</div>
+<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span> </div>
+<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span>    <span class="keyword">template</span>&lt;<span class="keyword">typename</span> T&gt;</div>
+<div class="foldopen" id="foldopen00085" data-start="{" data-end="}">
+<div class="line"><a id="l00085" name="l00085"></a><span class="lineno"><a class="line" href="classalbert_1_1App.html#aa33ce08d3670e92590342c23e99372dc">   85</a></span>    std::map&lt;QString, T*&gt; <a class="code hl_function" href="classalbert_1_1App.html#aa33ce08d3670e92590342c23e99372dc">extensions</a>()<span class="keyword"> const</span></div>
+<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span><span class="keyword">    </span>{</div>
+<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span>        std::map&lt;QString, T*&gt; results;</div>
+<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span>        <span class="keywordflow">for</span> (<span class="keyword">auto</span> &amp;[<span class="keywordtype">id</span>, extension] : extensions())</div>
+<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span>            <span class="keywordflow">if</span> (T *t = <span class="keyword">dynamic_cast&lt;</span>T*<span class="keyword">&gt;</span>(extension))</div>
+<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span>                results.emplace(<span class="keywordtype">id</span>, t);</div>
+<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span>        <span class="keywordflow">return</span> results;</div>
+<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span>    }</div>
+</div>
+<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span> </div>
+<div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span>    <span class="keyword">template</span>&lt;<span class="keyword">typename</span> T&gt;</div>
+<div class="foldopen" id="foldopen00096" data-start="{" data-end="}">
+<div class="line"><a id="l00096" name="l00096"></a><span class="lineno"><a class="line" href="classalbert_1_1App.html#a351ba65b65fe7feeec2c2a11e65a4f64">   96</a></span>    T* <a class="code hl_function" href="classalbert_1_1App.html#a351ba65b65fe7feeec2c2a11e65a4f64">extension</a>(<span class="keyword">const</span> QString &amp;<span class="keywordtype">id</span>)<span class="keyword"> const</span></div>
+<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span><span class="keyword">    </span>{</div>
+<div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span>        <span class="keywordflow">try</span> {</div>
+<div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span>            <span class="keywordflow">return</span> <span class="keyword">dynamic_cast&lt;</span>T*<span class="keyword">&gt;</span>(extensions().at(<span class="keywordtype">id</span>));</div>
+<div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span>        } <span class="keywordflow">catch</span> (<span class="keyword">const</span> std::out_of_range &amp;) {</div>
+<div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span>            <span class="keywordflow">return</span> <span class="keyword">nullptr</span>;</div>
+<div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span>        }</div>
+<div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span>    }</div>
+</div>
+<div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span> </div>
+<div class="line"><a id="l00110" name="l00110"></a><span class="lineno"><a class="line" href="classalbert_1_1App.html#af5ed7d9ddfd90e6c176df8dc9359e0f0">  110</a></span>    <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code hl_function" href="classalbert_1_1App.html#af5ed7d9ddfd90e6c176df8dc9359e0f0">restart</a>();</div>
+<div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span> </div>
+<div class="line"><a id="l00117" name="l00117"></a><span class="lineno"><a class="line" href="classalbert_1_1App.html#a580dea4d4a66dc0b4755566d442e9dc4">  117</a></span>    <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code hl_function" href="classalbert_1_1App.html#a580dea4d4a66dc0b4755566d442e9dc4">quit</a>();</div>
+<div class="line"><a id="l00118" name="l00118"></a><span class="lineno">  118</span> </div>
+<div class="line"><a id="l00124" name="l00124"></a><span class="lineno"><a class="line" href="classalbert_1_1App.html#a415406f14b944200a312ae9cd1989aa1">  124</a></span>    <span class="keyword">static</span> <span class="keyword">const</span> std::filesystem::path &amp;<a class="code hl_function" href="classalbert_1_1App.html#a415406f14b944200a312ae9cd1989aa1">configLocation</a>();</div>
+<div class="line"><a id="l00125" name="l00125"></a><span class="lineno">  125</span> </div>
+<div class="line"><a id="l00131" name="l00131"></a><span class="lineno"><a class="line" href="classalbert_1_1App.html#af1a5e70db581f094926140dded1819c2">  131</a></span>    <span class="keyword">static</span> <span class="keyword">const</span> std::filesystem::path &amp;<a class="code hl_function" href="classalbert_1_1App.html#af1a5e70db581f094926140dded1819c2">cacheLocation</a>();</div>
+<div class="line"><a id="l00132" name="l00132"></a><span class="lineno">  132</span> </div>
+<div class="line"><a id="l00138" name="l00138"></a><span class="lineno"><a class="line" href="classalbert_1_1App.html#a4a01a85952e4eb818cf3c4697d38e914">  138</a></span>    <span class="keyword">static</span> <span class="keyword">const</span> std::filesystem::path &amp;<a class="code hl_function" href="classalbert_1_1App.html#a4a01a85952e4eb818cf3c4697d38e914">dataLocation</a>();</div>
+<div class="line"><a id="l00139" name="l00139"></a><span class="lineno">  139</span> </div>
+<div class="line"><a id="l00147" name="l00147"></a><span class="lineno"><a class="line" href="classalbert_1_1App.html#a1d7a5b39baf71d49199a94cae7036efe">  147</a></span>    <span class="keyword">static</span> std::unique_ptr&lt;QSettings&gt; <a class="code hl_function" href="classalbert_1_1App.html#a1d7a5b39baf71d49199a94cae7036efe">settings</a>();</div>
 <div class="line"><a id="l00148" name="l00148"></a><span class="lineno">  148</span> </div>
-<div class="line"><a id="l00149" name="l00149"></a><span class="lineno">  149</span>};</div>
+<div class="line"><a id="l00156" name="l00156"></a><span class="lineno"><a class="line" href="classalbert_1_1App.html#ae8bffacf1109c4c391b13b2b175a42be">  156</a></span>    <span class="keyword">static</span> std::unique_ptr&lt;QSettings&gt; <a class="code hl_function" href="classalbert_1_1App.html#ae8bffacf1109c4c391b13b2b175a42be">state</a>();</div>
+<div class="line"><a id="l00157" name="l00157"></a><span class="lineno">  157</span> </div>
+<div class="line"><a id="l00158" name="l00158"></a><span class="lineno">  158</span>signals:</div>
+<div class="line"><a id="l00159" name="l00159"></a><span class="lineno">  159</span> </div>
+<div class="line"><a id="l00161" name="l00161"></a><span class="lineno"><a class="line" href="classalbert_1_1App.html#abac13f55e568aae2b6eb4fe76bc33514">  161</a></span>    <span class="keywordtype">void</span> <a class="code hl_signal" href="classalbert_1_1App.html#abac13f55e568aae2b6eb4fe76bc33514">added</a>(<a class="code hl_class" href="classalbert_1_1Extension.html">albert::Extension</a>*);</div>
+<div class="line"><a id="l00162" name="l00162"></a><span class="lineno">  162</span> </div>
+<div class="line"><a id="l00164" name="l00164"></a><span class="lineno"><a class="line" href="classalbert_1_1App.html#a553a4bdcaf86650e3cb7113f8b0b8c6c">  164</a></span>    <span class="keywordtype">void</span> <a class="code hl_signal" href="classalbert_1_1App.html#a553a4bdcaf86650e3cb7113f8b0b8c6c">removed</a>(<a class="code hl_class" href="classalbert_1_1Extension.html">albert::Extension</a>*);</div>
+<div class="line"><a id="l00165" name="l00165"></a><span class="lineno">  165</span> </div>
+<div class="line"><a id="l00166" name="l00166"></a><span class="lineno">  166</span><span class="keyword">protected</span>:</div>
+<div class="line"><a id="l00167" name="l00167"></a><span class="lineno">  167</span> </div>
+<div class="line"><a id="l00168" name="l00168"></a><span class="lineno"><a class="line" href="classalbert_1_1App.html#ab59e5f5d53ec791d2eb0ce8cc57221c8">  168</a></span>    <a class="code hl_function" href="classalbert_1_1App.html#ab59e5f5d53ec791d2eb0ce8cc57221c8">App</a>();</div>
+<div class="line"><a id="l00169" name="l00169"></a><span class="lineno"><a class="line" href="classalbert_1_1App.html#a99dd534165232f6c1e4a8a54629d6960">  169</a></span>    <span class="keyword">virtual</span> <a class="code hl_function" href="classalbert_1_1App.html#a99dd534165232f6c1e4a8a54629d6960">~App</a>();</div>
+<div class="line"><a id="l00170" name="l00170"></a><span class="lineno">  170</span> </div>
+<div class="line"><a id="l00171" name="l00171"></a><span class="lineno">  171</span>};</div>
 </div>
-<div class="line"><a id="l00150" name="l00150"></a><span class="lineno">  150</span> </div>
-<div class="line"><a id="l00151" name="l00151"></a><span class="lineno">  151</span>} <span class="comment">// namespace albert</span></div>
+<div class="line"><a id="l00172" name="l00172"></a><span class="lineno">  172</span> </div>
+<div class="line"><a id="l00173" name="l00173"></a><span class="lineno">  173</span>} <span class="comment">// namespace albert</span></div>
 </div>
-<div class="ttc" id="aclassalbert_1_1App_html"><div class="ttname"><a href="classalbert_1_1App.html">albert::App</a></div><div class="ttdoc">The public app instance interface.</div><div class="ttdef"><b>Definition</b> app.h:66</div></div>
+<div class="ttc" id="aclassalbert_1_1App_html"><div class="ttname"><a href="classalbert_1_1App.html">albert::App</a></div><div class="ttdoc">The public app instance interface.</div><div class="ttdef"><b>Definition</b> app.h:68</div></div>
 <div class="ttc" id="aclassalbert_1_1App_html_a1d7a5b39baf71d49199a94cae7036efe"><div class="ttname"><a href="classalbert_1_1App.html#a1d7a5b39baf71d49199a94cae7036efe">albert::App::settings</a></div><div class="ttdeci">static std::unique_ptr&lt; QSettings &gt; settings()</div><div class="ttdoc">Returns a QSettings object initialized with the application configuration file path.</div></div>
+<div class="ttc" id="aclassalbert_1_1App_html_a351ba65b65fe7feeec2c2a11e65a4f64"><div class="ttname"><a href="classalbert_1_1App.html#a351ba65b65fe7feeec2c2a11e65a4f64">albert::App::extension</a></div><div class="ttdeci">T * extension(const QString &amp;id) const</div><div class="ttdoc">Get extension by id implicitly dynamic_cast'ed to type T.</div><div class="ttdef"><b>Definition</b> app.h:96</div></div>
+<div class="ttc" id="aclassalbert_1_1App_html_a3a914db8ecc9a845b21f0e9758993d3a"><div class="ttname"><a href="classalbert_1_1App.html#a3a914db8ecc9a845b21f0e9758993d3a">albert::App::extensions</a></div><div class="ttdeci">virtual const std::map&lt; QString, Extension * &gt; &amp; extensions() const =0</div><div class="ttdoc">Get map of all registered extensions.</div></div>
 <div class="ttc" id="aclassalbert_1_1App_html_a415406f14b944200a312ae9cd1989aa1"><div class="ttname"><a href="classalbert_1_1App.html#a415406f14b944200a312ae9cd1989aa1">albert::App::configLocation</a></div><div class="ttdeci">static const std::filesystem::path &amp; configLocation()</div><div class="ttdoc">Returns the path to the application config directory.</div></div>
 <div class="ttc" id="aclassalbert_1_1App_html_a4a01a85952e4eb818cf3c4697d38e914"><div class="ttname"><a href="classalbert_1_1App.html#a4a01a85952e4eb818cf3c4697d38e914">albert::App::dataLocation</a></div><div class="ttdeci">static const std::filesystem::path &amp; dataLocation()</div><div class="ttdoc">Returns the path to the application data directory.</div></div>
-<div class="ttc" id="aclassalbert_1_1App_html_a4bffdd9346fb2af114c5ece47708926f"><div class="ttname"><a href="classalbert_1_1App.html#a4bffdd9346fb2af114c5ece47708926f">albert::App::instance</a></div><div class="ttdeci">static App &amp; instance()</div><div class="ttdoc">Returns the core app instance.</div></div>
+<div class="ttc" id="aclassalbert_1_1App_html_a4bffdd9346fb2af114c5ece47708926f"><div class="ttname"><a href="classalbert_1_1App.html#a4bffdd9346fb2af114c5ece47708926f">albert::App::instance</a></div><div class="ttdeci">static App &amp; instance()</div><div class="ttdoc">Returns the global app instance.</div></div>
+<div class="ttc" id="aclassalbert_1_1App_html_a553a4bdcaf86650e3cb7113f8b0b8c6c"><div class="ttname"><a href="classalbert_1_1App.html#a553a4bdcaf86650e3cb7113f8b0b8c6c">albert::App::removed</a></div><div class="ttdeci">void removed(albert::Extension *)</div><div class="ttdoc">Emitted when an extension has been deregistered.</div></div>
 <div class="ttc" id="aclassalbert_1_1App_html_a580dea4d4a66dc0b4755566d442e9dc4"><div class="ttname"><a href="classalbert_1_1App.html#a580dea4d4a66dc0b4755566d442e9dc4">albert::App::quit</a></div><div class="ttdeci">static void quit()</div><div class="ttdoc">Quits the application.</div></div>
 <div class="ttc" id="aclassalbert_1_1App_html_a99dd534165232f6c1e4a8a54629d6960"><div class="ttname"><a href="classalbert_1_1App.html#a99dd534165232f6c1e4a8a54629d6960">albert::App::~App</a></div><div class="ttdeci">virtual ~App()</div></div>
-<div class="ttc" id="aclassalbert_1_1App_html_ab0b21caf94d2666e3f246f2263e47f6f"><div class="ttname"><a href="classalbert_1_1App.html#ab0b21caf94d2666e3f246f2263e47f6f">albert::App::extensionRegistry</a></div><div class="ttdeci">virtual const ExtensionRegistry &amp; extensionRegistry() const =0</div><div class="ttdoc">Returns a const reference to the central extension registry.</div></div>
+<div class="ttc" id="aclassalbert_1_1App_html_aa33ce08d3670e92590342c23e99372dc"><div class="ttname"><a href="classalbert_1_1App.html#aa33ce08d3670e92590342c23e99372dc">albert::App::extensions</a></div><div class="ttdeci">std::map&lt; QString, T * &gt; extensions() const</div><div class="ttdoc">Get map of all extensions of type T.</div><div class="ttdef"><b>Definition</b> app.h:85</div></div>
 <div class="ttc" id="aclassalbert_1_1App_html_ab59e5f5d53ec791d2eb0ce8cc57221c8"><div class="ttname"><a href="classalbert_1_1App.html#ab59e5f5d53ec791d2eb0ce8cc57221c8">albert::App::App</a></div><div class="ttdeci">App()</div></div>
 <div class="ttc" id="aclassalbert_1_1App_html_ab7c2e273b0a78b5884000064056eca94"><div class="ttname"><a href="classalbert_1_1App.html#ab7c2e273b0a78b5884000064056eca94">albert::App::show</a></div><div class="ttdeci">virtual void show(const QString &amp;input_text={})=0</div><div class="ttdoc">Shows the frontend and optionally sets the text to input_text.</div></div>
+<div class="ttc" id="aclassalbert_1_1App_html_abac13f55e568aae2b6eb4fe76bc33514"><div class="ttname"><a href="classalbert_1_1App.html#abac13f55e568aae2b6eb4fe76bc33514">albert::App::added</a></div><div class="ttdeci">void added(albert::Extension *)</div><div class="ttdoc">Emitted when an extension has been registered.</div></div>
 <div class="ttc" id="aclassalbert_1_1App_html_aca152bd8e596da88e3d284730e35e013"><div class="ttname"><a href="classalbert_1_1App.html#aca152bd8e596da88e3d284730e35e013">albert::App::showSettings</a></div><div class="ttdeci">virtual void showSettings(QString plugin_id={})=0</div><div class="ttdoc">Shows the settings window and optionally selects the plugin with plugin_id.</div></div>
 <div class="ttc" id="aclassalbert_1_1App_html_ae8bffacf1109c4c391b13b2b175a42be"><div class="ttname"><a href="classalbert_1_1App.html#ae8bffacf1109c4c391b13b2b175a42be">albert::App::state</a></div><div class="ttdeci">static std::unique_ptr&lt; QSettings &gt; state()</div><div class="ttdoc">Returns a QSettings object initialized with the application state file path.</div></div>
 <div class="ttc" id="aclassalbert_1_1App_html_af1a5e70db581f094926140dded1819c2"><div class="ttname"><a href="classalbert_1_1App.html#af1a5e70db581f094926140dded1819c2">albert::App::cacheLocation</a></div><div class="ttdeci">static const std::filesystem::path &amp; cacheLocation()</div><div class="ttdoc">Returns the path to the application cache directory.</div></div>
 <div class="ttc" id="aclassalbert_1_1App_html_af5ed7d9ddfd90e6c176df8dc9359e0f0"><div class="ttname"><a href="classalbert_1_1App.html#af5ed7d9ddfd90e6c176df8dc9359e0f0">albert::App::restart</a></div><div class="ttdeci">static void restart()</div><div class="ttdoc">Restarts the application.</div></div>
-<div class="ttc" id="aclassalbert_1_1ExtensionRegistry_html"><div class="ttname"><a href="classalbert_1_1ExtensionRegistry.html">albert::ExtensionRegistry</a></div><div class="ttdoc">The common extension pool.</div><div class="ttdef"><b>Definition</b> extensionregistry.h:23</div></div>
+<div class="ttc" id="aclassalbert_1_1Extension_html"><div class="ttname"><a href="classalbert_1_1Extension.html">albert::Extension</a></div><div class="ttdoc">Abstract extension class.</div><div class="ttdef"><b>Definition</b> extension.h:19</div></div>
 <div class="ttc" id="aclassalbert_1_1UsageScoring_html"><div class="ttname"><a href="classalbert_1_1UsageScoring.html">albert::UsageScoring</a></div><div class="ttdoc">Modifies match scores according to user usage history and preferences.</div><div class="ttdef"><b>Definition</b> usagescoring.h:29</div></div>
-<div class="ttc" id="anamespacealbert_html"><div class="ttname"><a href="namespacealbert.html">albert</a></div><div class="ttdef"><b>Definition</b> app.h:56</div></div>
+<div class="ttc" id="anamespacealbert_html"><div class="ttname"><a href="namespacealbert.html">albert</a></div><div class="ttdef"><b>Definition</b> app.h:58</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

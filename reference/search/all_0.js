@@ -9,7 +9,7 @@ var searchData=
   ['activechanged_6',['activeChanged',['../classalbert_1_1QueryExecution.html#a1c271d5164f1cdb660c1f6a540cfbd62',1,'albert::QueryExecution']]],
   ['actualsize_7',['actualSize',['../classalbert_1_1Icon.html#a6ddb6b2ac88023d22889f5b9406eafd6',1,'albert::Icon']]],
   ['add_8',['add',['../classalbert_1_1QueryResults.html#a8b6705606e867614a5de5e1bca80ec21',1,'albert::QueryResults::add(ItemRange auto &amp;&amp;items)'],['../classalbert_1_1QueryResults.html#ad55ccd153ec5ef0961aa614ed0e5f53f',1,'albert::QueryResults::add(const Extension &amp;extension, ItemRange auto &amp;&amp;items)'],['../classalbert_1_1QueryResults.html#a0060c9d6004d8548a7646203bd9b3d80',1,'albert::QueryResults::add(std::ranges::range auto &amp;&amp;query_results)'],['../classalbert_1_1QueryResults.html#a338b76c48b3980bcf7608d7b12f6d491',1,'albert::QueryResults::add(ItemPtr auto &amp;&amp;item)'],['../classalbert_1_1QueryResults.html#a14068589e1feb6a4a10a120a866d3362',1,'albert::QueryResults::add(const Extension &amp;extension, ItemPtr auto &amp;&amp;item)']]],
-  ['added_9',['added',['../classalbert_1_1ExtensionRegistry.html#a86352bc64c6339286d9a211e4af9609f',1,'albert::ExtensionRegistry']]],
+  ['added_9',['added',['../classalbert_1_1ExtensionRegistry.html#a86352bc64c6339286d9a211e4af9609f',1,'albert::ExtensionRegistry::added()'],['../classalbert_1_1App.html#abac13f55e568aae2b6eb4fe76bc33514',1,'albert::App::added()']]],
   ['addobserver_10',['addObserver',['../classalbert_1_1Item.html#ae7aa8d38726094aaac853c96d5d066b2',1,'albert::Item']]],
   ['albert_11',['albert',['../namespacealbert.html',1,'']]],
   ['albert_3a_3aitemptr_12',['ItemPtr',['../conceptalbert_1_1ItemPtr.html',1,'albert']]],

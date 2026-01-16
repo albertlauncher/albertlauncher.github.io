@@ -58,19 +58,9 @@
                 <Anchor>a7b08618d085bafac2399641c4dc32a62</Anchor>
                </Node>
                <Node>
-                <Name>extension</Name>
-                <Path>classalbert_1_1ExtensionRegistry.html</Path>
-                <Anchor>a70e73251e367cf1ed5d62d3c539d7bd2</Anchor>
-               </Node>
-               <Node>
                 <Name>extensions</Name>
                 <Path>classalbert_1_1ExtensionRegistry.html</Path>
                 <Anchor>a7dbd33a3cce2b17ff073b5c521165e95</Anchor>
-               </Node>
-               <Node>
-                <Name>extensions</Name>
-                <Path>classalbert_1_1ExtensionRegistry.html</Path>
-                <Anchor>a0223f64212021bf220b36e14a7d8119c</Anchor>
                </Node>
                <Node>
                 <Name>registerExtension</Name>
@@ -883,9 +873,29 @@
               <Anchor>a99dd534165232f6c1e4a8a54629d6960</Anchor>
              </Node>
              <Node>
-              <Name>extensionRegistry</Name>
+              <Name>added</Name>
               <Path>classalbert_1_1App.html</Path>
-              <Anchor>ab0b21caf94d2666e3f246f2263e47f6f</Anchor>
+              <Anchor>abac13f55e568aae2b6eb4fe76bc33514</Anchor>
+             </Node>
+             <Node>
+              <Name>extension</Name>
+              <Path>classalbert_1_1App.html</Path>
+              <Anchor>a351ba65b65fe7feeec2c2a11e65a4f64</Anchor>
+             </Node>
+             <Node>
+              <Name>extensions</Name>
+              <Path>classalbert_1_1App.html</Path>
+              <Anchor>aa33ce08d3670e92590342c23e99372dc</Anchor>
+             </Node>
+             <Node>
+              <Name>extensions</Name>
+              <Path>classalbert_1_1App.html</Path>
+              <Anchor>a3a914db8ecc9a845b21f0e9758993d3a</Anchor>
+             </Node>
+             <Node>
+              <Name>removed</Name>
+              <Path>classalbert_1_1App.html</Path>
+              <Anchor>a553a4bdcaf86650e3cb7113f8b0b8c6c</Anchor>
              </Node>
              <Node>
               <Name>show</Name>
@@ -2469,9 +2479,29 @@
                 <Anchor>a99dd534165232f6c1e4a8a54629d6960</Anchor>
                </Node>
                <Node>
-                <Name>extensionRegistry</Name>
+                <Name>added</Name>
                 <Path>classalbert_1_1App.html</Path>
-                <Anchor>ab0b21caf94d2666e3f246f2263e47f6f</Anchor>
+                <Anchor>abac13f55e568aae2b6eb4fe76bc33514</Anchor>
+               </Node>
+               <Node>
+                <Name>extension</Name>
+                <Path>classalbert_1_1App.html</Path>
+                <Anchor>a351ba65b65fe7feeec2c2a11e65a4f64</Anchor>
+               </Node>
+               <Node>
+                <Name>extensions</Name>
+                <Path>classalbert_1_1App.html</Path>
+                <Anchor>aa33ce08d3670e92590342c23e99372dc</Anchor>
+               </Node>
+               <Node>
+                <Name>extensions</Name>
+                <Path>classalbert_1_1App.html</Path>
+                <Anchor>a3a914db8ecc9a845b21f0e9758993d3a</Anchor>
+               </Node>
+               <Node>
+                <Name>removed</Name>
+                <Path>classalbert_1_1App.html</Path>
+                <Anchor>a553a4bdcaf86650e3cb7113f8b0b8c6c</Anchor>
                </Node>
                <Node>
                 <Name>show</Name>
@@ -2721,19 +2751,9 @@
                 <Anchor>a7b08618d085bafac2399641c4dc32a62</Anchor>
                </Node>
                <Node>
-                <Name>extension</Name>
-                <Path>classalbert_1_1ExtensionRegistry.html</Path>
-                <Anchor>a70e73251e367cf1ed5d62d3c539d7bd2</Anchor>
-               </Node>
-               <Node>
                 <Name>extensions</Name>
                 <Path>classalbert_1_1ExtensionRegistry.html</Path>
                 <Anchor>a7dbd33a3cce2b17ff073b5c521165e95</Anchor>
-               </Node>
-               <Node>
-                <Name>extensions</Name>
-                <Path>classalbert_1_1ExtensionRegistry.html</Path>
-                <Anchor>a0223f64212021bf220b36e14a7d8119c</Anchor>
                </Node>
                <Node>
                 <Name>registerExtension</Name>
@@ -4962,9 +4982,29 @@
                 <Anchor>a99dd534165232f6c1e4a8a54629d6960</Anchor>
                </Node>
                <Node>
-                <Name>extensionRegistry</Name>
+                <Name>added</Name>
                 <Path>classalbert_1_1App.html</Path>
-                <Anchor>ab0b21caf94d2666e3f246f2263e47f6f</Anchor>
+                <Anchor>abac13f55e568aae2b6eb4fe76bc33514</Anchor>
+               </Node>
+               <Node>
+                <Name>extension</Name>
+                <Path>classalbert_1_1App.html</Path>
+                <Anchor>a351ba65b65fe7feeec2c2a11e65a4f64</Anchor>
+               </Node>
+               <Node>
+                <Name>extensions</Name>
+                <Path>classalbert_1_1App.html</Path>
+                <Anchor>aa33ce08d3670e92590342c23e99372dc</Anchor>
+               </Node>
+               <Node>
+                <Name>extensions</Name>
+                <Path>classalbert_1_1App.html</Path>
+                <Anchor>a3a914db8ecc9a845b21f0e9758993d3a</Anchor>
+               </Node>
+               <Node>
+                <Name>removed</Name>
+                <Path>classalbert_1_1App.html</Path>
+                <Anchor>a553a4bdcaf86650e3cb7113f8b0b8c6c</Anchor>
                </Node>
                <Node>
                 <Name>show</Name>
@@ -5214,19 +5254,9 @@
                 <Anchor>a7b08618d085bafac2399641c4dc32a62</Anchor>
                </Node>
                <Node>
-                <Name>extension</Name>
-                <Path>classalbert_1_1ExtensionRegistry.html</Path>
-                <Anchor>a70e73251e367cf1ed5d62d3c539d7bd2</Anchor>
-               </Node>
-               <Node>
                 <Name>extensions</Name>
                 <Path>classalbert_1_1ExtensionRegistry.html</Path>
                 <Anchor>a7dbd33a3cce2b17ff073b5c521165e95</Anchor>
-               </Node>
-               <Node>
-                <Name>extensions</Name>
-                <Path>classalbert_1_1ExtensionRegistry.html</Path>
-                <Anchor>a0223f64212021bf220b36e14a7d8119c</Anchor>
                </Node>
                <Node>
                 <Name>registerExtension</Name>
@@ -6708,10 +6738,6 @@
             <Path>classalbert_1_1Action.html</Path>
            </Node>
            <Node>
-            <Name>albert::App</Name>
-            <Path>classalbert_1_1App.html</Path>
-           </Node>
-           <Node>
             <Name>albert::BackgroundExecutor&lt; T &gt;</Name>
             <Path>classalbert_1_1BackgroundExecutor.html</Path>
            </Node>
@@ -6847,6 +6873,10 @@
             <Name>QObject</Name>
             <Path></Path>
           <Subnodes>
+             <Node>
+              <Name>albert::App</Name>
+              <Path>classalbert_1_1App.html</Path>
+             </Node>
              <Node>
               <Name>albert::Download</Name>
               <Path>classalbert_1_1Download.html</Path>

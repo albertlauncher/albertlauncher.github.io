@@ -1,7 +1,6 @@
 var hierarchy =
 [
     [ "albert::Action", "classalbert_1_1Action.html", null ],
-    [ "albert::App", "classalbert_1_1App.html", null ],
     [ "albert::BackgroundExecutor< T >", "classalbert_1_1BackgroundExecutor.html", null ],
     [ "albert::Dependency< T >", "classalbert_1_1Dependency.html", [
       [ "albert::StrongDependency< T >", "classalbert_1_1StrongDependency.html", null ],
@@ -40,6 +39,7 @@ var hierarchy =
     [ "QList< T >", "classQList.html", null ],
     [ "QList< QString >", "classQList.html", null ],
     [ "QObject", null, [
+      [ "albert::App", "classalbert_1_1App.html", null ],
       [ "albert::Download", "classalbert_1_1Download.html", null ],
       [ "albert::ExtensionRegistry", "classalbert_1_1ExtensionRegistry.html", null ],
       [ "albert::Notification", "classalbert_1_1Notification.html", null ],

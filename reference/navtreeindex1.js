@@ -1,5 +1,7 @@
 var NAVTREEINDEX1 =
 {
+"classalbert_1_1PluginProvider.html#a7976388d5144d9a0a0e34156afaabf32":[0,0,0,4,1],
+"classalbert_1_1QueryContext.html":[0,0,2,3],
 "classalbert_1_1QueryContext.html#a1b150b4b618b3c6724891ab32d85ab0d":[0,0,2,3,6],
 "classalbert_1_1QueryContext.html#a8803a88d13a8cf092cc116b44fe09d05":[0,0,2,3,5],
 "classalbert_1_1QueryContext.html#aa616b2da8344e22a4d18a6ff252da98c":[0,0,2,3,3],
@@ -107,10 +109,10 @@ var NAVTREEINDEX1 =
 "classalbert_1_1WeakDependency.html#aa7134ad13996b4bbe26d7dd13d1d05c4":[0,1,0,2,0],
 "classalbert_1_1WeakDependency.html#ab77ad469adf86428a859203742d07ac0":[0,1,0,2,2],
 "classes.html":[3,1],
-"conceptalbert_1_1ItemPtr.html":[2,0,0],
 "conceptalbert_1_1ItemPtr.html":[1,0,0,39],
-"conceptalbert_1_1ItemRange.html":[1,0,0,40],
+"conceptalbert_1_1ItemPtr.html":[2,0,0],
 "conceptalbert_1_1ItemRange.html":[2,0,1],
+"conceptalbert_1_1ItemRange.html":[1,0,0,40],
 "concepts.html":[2],
 "desktopentryparser_8h.html":[4,0,0,0,0,0,3],
 "desktopentryparser_8h_source.html":[4,0,0,0,0,0,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX1 =
 "group__util__icon.html#gga65152af1dfff0f5d1a1b11bb305829ada545ed85aa36d4bbf8b89a1b3b5a3816f":[0,1,2,0,69],
 "group__util__icon.html#gga65152af1dfff0f5d1a1b11bb305829ada54d575be431a2a8bd9668c8c5d4273f1":[0,1,2,0,31],
 "group__util__icon.html#gga65152af1dfff0f5d1a1b11bb305829ada56f5827066dc281560ae7b64c77c8aa9":[0,1,2,0,74],
-"group__util__icon.html#gga65152af1dfff0f5d1a1b11bb305829ada5be19b73a32896dcc05cbbc32011c6a7":[0,1,2,0,64],
-"group__util__icon.html#gga65152af1dfff0f5d1a1b11bb305829ada5c7e322381d37ee52f8e55be624a2a94":[0,1,2,0,32],
-"group__util__icon.html#gga65152af1dfff0f5d1a1b11bb305829ada5d7ca860f6ec34d2dc79e456be3df115":[0,1,2,0,39]
+"group__util__icon.html#gga65152af1dfff0f5d1a1b11bb305829ada5be19b73a32896dcc05cbbc32011c6a7":[0,1,2,0,64]
 };

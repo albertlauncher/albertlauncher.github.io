@@ -676,6 +676,17 @@
       <Name>added</Name>
       <APILanguage>cpp</APILanguage>
       <Type>signal</Type>
+      <Scope>albert::App</Scope>
+    </TokenIdentifier>
+    <Path>classalbert_1_1App.html</Path>
+    <Anchor>abac13f55e568aae2b6eb4fe76bc33514</Anchor>
+    <DeclaredIn>app.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>added</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>signal</Type>
       <Scope>albert::ExtensionRegistry</Scope>
     </TokenIdentifier>
     <Path>classalbert_1_1ExtensionRegistry.html</Path>
@@ -1162,11 +1173,11 @@
       <Name>extension</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
-      <Scope>albert::ExtensionRegistry</Scope>
+      <Scope>albert::App</Scope>
     </TokenIdentifier>
-    <Path>classalbert_1_1ExtensionRegistry.html</Path>
-    <Anchor>a70e73251e367cf1ed5d62d3c539d7bd2</Anchor>
-    <DeclaredIn>extensionregistry.h</DeclaredIn>
+    <Path>classalbert_1_1App.html</Path>
+    <Anchor>a351ba65b65fe7feeec2c2a11e65a4f64</Anchor>
+    <DeclaredIn>app.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -1180,13 +1191,24 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>extensionRegistry</Name>
+      <Name>extensions</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
       <Scope>albert::App</Scope>
     </TokenIdentifier>
     <Path>classalbert_1_1App.html</Path>
-    <Anchor>ab0b21caf94d2666e3f246f2263e47f6f</Anchor>
+    <Anchor>a3a914db8ecc9a845b21f0e9758993d3a</Anchor>
+    <DeclaredIn>app.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>extensions</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>albert::App</Scope>
+    </TokenIdentifier>
+    <Path>classalbert_1_1App.html</Path>
+    <Anchor>aa33ce08d3670e92590342c23e99372dc</Anchor>
     <DeclaredIn>app.h</DeclaredIn>
   </Token>
   <Token>
@@ -1209,17 +1231,6 @@
     </TokenIdentifier>
     <Path>classalbert_1_1ExtensionRegistry.html</Path>
     <Anchor>a7dbd33a3cce2b17ff073b5c521165e95</Anchor>
-    <DeclaredIn>extensionregistry.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>extensions</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>albert::ExtensionRegistry</Scope>
-    </TokenIdentifier>
-    <Path>classalbert_1_1ExtensionRegistry.html</Path>
-    <Anchor>a0223f64212021bf220b36e14a7d8119c</Anchor>
     <DeclaredIn>extensionregistry.h</DeclaredIn>
   </Token>
   <Token>
@@ -2616,6 +2627,17 @@
     <Path>classalbert_1_1QueryResults.html</Path>
     <Anchor>af6ef1b3ec16c9ad253bfed4f2ba693ab</Anchor>
     <DeclaredIn>queryresults.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>removed</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>signal</Type>
+      <Scope>albert::App</Scope>
+    </TokenIdentifier>
+    <Path>classalbert_1_1App.html</Path>
+    <Anchor>a553a4bdcaf86650e3cb7113f8b0b8c6c</Anchor>
+    <DeclaredIn>app.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>

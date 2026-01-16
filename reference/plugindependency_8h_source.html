@@ -147,7 +147,7 @@ $(document).ready(function(){initNavTree('plugindependency_8h_source.html',''); 
 <div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>    {</div>
 <div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>        <span class="keywordflow">try</span></div>
 <div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>        {</div>
-<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>            this-&gt;dependency_ = <span class="keyword">dynamic_cast&lt;</span>T*<span class="keyword">&gt;</span>(App::instance().extensionRegistry().extensions().at(<span class="keywordtype">id</span>));</div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>            this-&gt;dependency_ = <span class="keyword">dynamic_cast&lt;</span>T*<span class="keyword">&gt;</span>(App::instance().extensions().at(<span class="keywordtype">id</span>));</div>
 <div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span> </div>
 <div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>            <span class="keywordflow">if</span> (!this-&gt;dependency_)</div>
 <div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>                <span class="keywordflow">throw</span> std::runtime_error(</div>
@@ -182,15 +182,15 @@ $(document).ready(function(){initNavTree('plugindependency_8h_source.html',''); 
 <div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span>        id_(id)</div>
 <div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span>    {</div>
 <div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span>        <span class="keywordflow">try</span> {</div>
-<div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span>            this-&gt;dependency_ = <span class="keyword">dynamic_cast&lt;</span>T*<span class="keyword">&gt;</span>(App::instance().extensionRegistry().extensions().at(<span class="keywordtype">id</span>));</div>
+<div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span>            this-&gt;dependency_ = <span class="keyword">dynamic_cast&lt;</span>T*<span class="keyword">&gt;</span>(App::instance().extensions().at(<span class="keywordtype">id</span>));</div>
 <div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span>            <span class="keywordflow">if</span> (!this-&gt;dependency_)</div>
 <div class="line"><a id="l00108" name="l00108"></a><span class="lineno">  108</span>                <a class="code hl_define" href="logging_8h.html#a271d8f7f52be750e5c744a394ec71344">WARN</a> &lt;&lt; QStringLiteral(<span class="stringliteral">&quot;Found &#39;%1&#39; but failed casting to expected type.&quot;</span>).arg(<span class="keywordtype">id</span>);</div>
 <div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span>        } <span class="keywordflow">catch</span> (<span class="keyword">const</span> std::out_of_range &amp;) { <span class="comment">/* okay, optional */</span> }</div>
 <div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span> </div>
-<div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span>        conn_add_ = QObject::connect(&amp;App::instance().extensionRegistry(), &amp;ExtensionRegistry::added,</div>
+<div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span>        conn_add_ = QObject::connect(&amp;App::instance(), &amp;App::added,</div>
 <div class="line"><a id="l00112" name="l00112"></a><span class="lineno">  112</span>                                     [<span class="keyword">this</span>](Extension *e){ onRegistered(e);});</div>
 <div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span> </div>
-<div class="line"><a id="l00114" name="l00114"></a><span class="lineno">  114</span>        conn_rem_ = QObject::connect(&amp;App::instance().extensionRegistry(), &amp;ExtensionRegistry::removed,</div>
+<div class="line"><a id="l00114" name="l00114"></a><span class="lineno">  114</span>        conn_rem_ = QObject::connect(&amp;App::instance(), &amp;App::removed,</div>
 <div class="line"><a id="l00115" name="l00115"></a><span class="lineno">  115</span>                                     [<span class="keyword">this</span>](Extension *e){ onDeregistered(e);});</div>
 <div class="line"><a id="l00116" name="l00116"></a><span class="lineno">  116</span>    }</div>
 </div>
@@ -277,7 +277,7 @@ $(document).ready(function(){initNavTree('plugindependency_8h_source.html',''); 
 <div class="ttc" id="alogging_8h_html"><div class="ttname"><a href="logging_8h.html">logging.h</a></div></div>
 <div class="ttc" id="alogging_8h_html_a271d8f7f52be750e5c744a394ec71344"><div class="ttname"><a href="logging_8h.html#a271d8f7f52be750e5c744a394ec71344">WARN</a></div><div class="ttdeci">#define WARN</div><div class="ttdoc">Creates a log object (level warning) you can use to pipe text into (&lt;&lt;).</div><div class="ttdef"><b>Definition</b> logging.h:27</div></div>
 <div class="ttc" id="alogging_8h_html_a44ad7a1cce3ba64ff004aa697be1a079"><div class="ttname"><a href="logging_8h.html#a44ad7a1cce3ba64ff004aa697be1a079">CRIT</a></div><div class="ttdeci">#define CRIT</div><div class="ttdoc">Creates a log object (level critial) you can use to pipe text into (&lt;&lt;).</div><div class="ttdef"><b>Definition</b> logging.h:32</div></div>
-<div class="ttc" id="anamespacealbert_html"><div class="ttname"><a href="namespacealbert.html">albert</a></div><div class="ttdef"><b>Definition</b> app.h:56</div></div>
+<div class="ttc" id="anamespacealbert_html"><div class="ttname"><a href="namespacealbert.html">albert</a></div><div class="ttdef"><b>Definition</b> app.h:58</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
