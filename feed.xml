@@ -10,8 +10,6 @@
           <title>Albert v34.0.1 released</title>
           <description>&lt;h1 id=&quot;albert-v3401-released&quot;&gt;Albert v34.0.1 released&lt;/h1&gt;
 
-&lt;h2 id=&quot;v3401-2026-01-19&quot;&gt;v34.0.1 (2026-01-19)&lt;/h2&gt;
-
 &lt;h3 id=&quot;fixes&quot;&gt;Fixes&lt;/h3&gt;
 
 &lt;h4 id=&quot;core&quot;&gt;Core&lt;/h4&gt;
@@ -34,8 +32,6 @@
 
 &lt;h3 id=&quot;documentation&quot;&gt;Documentation&lt;/h3&gt;
 
-&lt;h4 id=&quot;core-1&quot;&gt;Core&lt;/h4&gt;
-
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://github.com/albertlauncher/albert/commit/399427f8b9c4080e128544901274d351ad7780ea&quot;&gt;Fix missing graphemeDefaultBrush docs&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://github.com/albertlauncher/albert/commit/603f980065f9b525e51a37717c29bec7ddee907a&quot;&gt;Remove leftover icon topic&lt;/a&gt;&lt;/li&gt;
@@ -43,8 +39,6 @@
 &lt;/ul&gt;
 
 &lt;h3 id=&quot;miscellaneous-tasks&quot;&gt;Miscellaneous Tasks&lt;/h3&gt;
-
-&lt;h4 id=&quot;core-2&quot;&gt;Core&lt;/h4&gt;
 
 &lt;ul&gt;
   &lt;li&gt;&lt;em&gt;gitlint&lt;/em&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert/commit/67eed2ba372ee41b54712f6e3b2e42e5f3e8cc56&quot;&gt;Ignore body min length&lt;/a&gt;&lt;/li&gt;
