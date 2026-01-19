@@ -94,7 +94,6 @@ $(document).ready(function(){initNavTree('classalbert_1_1App.html',''); initResi
 
 <div class="header">
   <div class="summary">
-<a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="#signals">Signals</a> &#124;
@@ -111,12 +110,14 @@ $(document).ready(function(){initNavTree('classalbert_1_1App.html',''); initResi
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr><td colspan="2"><div class="groupHeader">Main window</div></td></tr>
 <tr class="memitem:ab7c2e273b0a78b5884000064056eca94" id="r_ab7c2e273b0a78b5884000064056eca94"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1App.html#ab7c2e273b0a78b5884000064056eca94">show</a> (const QString &amp;input_text={})=0</td></tr>
 <tr class="memdesc:ab7c2e273b0a78b5884000064056eca94"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shows the frontend and optionally sets the text to <em>input_text</em>.  <br /></td></tr>
 <tr class="separator:ab7c2e273b0a78b5884000064056eca94"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aca152bd8e596da88e3d284730e35e013" id="r_aca152bd8e596da88e3d284730e35e013"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1App.html#aca152bd8e596da88e3d284730e35e013">showSettings</a> (QString plugin_id={})=0</td></tr>
 <tr class="memdesc:aca152bd8e596da88e3d284730e35e013"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shows the settings window and optionally selects the plugin with <em>plugin_id</em>.  <br /></td></tr>
 <tr class="separator:aca152bd8e596da88e3d284730e35e013"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader">Extensions</div></td></tr>
 <tr class="memitem:a3a914db8ecc9a845b21f0e9758993d3a" id="r_a3a914db8ecc9a845b21f0e9758993d3a"><td class="memItemLeft" align="right" valign="top">virtual const std::map&lt; QString, <a class="el" href="classalbert_1_1Extension.html">Extension</a> * &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1App.html#a3a914db8ecc9a845b21f0e9758993d3a">extensions</a> () const =0</td></tr>
 <tr class="memdesc:a3a914db8ecc9a845b21f0e9758993d3a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get map of all registered extensions.  <br /></td></tr>
 <tr class="separator:a3a914db8ecc9a845b21f0e9758993d3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -134,12 +135,20 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a4bffdd9346fb2af114c5ece47708926f" id="r_a4bffdd9346fb2af114c5ece47708926f"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classalbert_1_1App.html">App</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1App.html#a4bffdd9346fb2af114c5ece47708926f">instance</a> ()</td></tr>
 <tr class="memdesc:a4bffdd9346fb2af114c5ece47708926f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the global app instance.  <br /></td></tr>
 <tr class="separator:a4bffdd9346fb2af114c5ece47708926f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader">Application control</div></td></tr>
 <tr class="memitem:af5ed7d9ddfd90e6c176df8dc9359e0f0" id="r_af5ed7d9ddfd90e6c176df8dc9359e0f0"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1App.html#af5ed7d9ddfd90e6c176df8dc9359e0f0">restart</a> ()</td></tr>
 <tr class="memdesc:af5ed7d9ddfd90e6c176df8dc9359e0f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Restarts the application.  <br /></td></tr>
 <tr class="separator:af5ed7d9ddfd90e6c176df8dc9359e0f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a580dea4d4a66dc0b4755566d442e9dc4" id="r_a580dea4d4a66dc0b4755566d442e9dc4"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1App.html#a580dea4d4a66dc0b4755566d442e9dc4">quit</a> ()</td></tr>
 <tr class="memdesc:a580dea4d4a66dc0b4755566d442e9dc4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Quits the application.  <br /></td></tr>
 <tr class="separator:a580dea4d4a66dc0b4755566d442e9dc4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader">Persistence</div></td></tr>
+<tr class="memitem:a1d7a5b39baf71d49199a94cae7036efe" id="r_a1d7a5b39baf71d49199a94cae7036efe"><td class="memItemLeft" align="right" valign="top">static std::unique_ptr&lt; QSettings &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1App.html#a1d7a5b39baf71d49199a94cae7036efe">settings</a> ()</td></tr>
+<tr class="memdesc:a1d7a5b39baf71d49199a94cae7036efe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a <code>QSettings</code> object initialized with the application configuration file path.  <br /></td></tr>
+<tr class="separator:a1d7a5b39baf71d49199a94cae7036efe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae8bffacf1109c4c391b13b2b175a42be" id="r_ae8bffacf1109c4c391b13b2b175a42be"><td class="memItemLeft" align="right" valign="top">static std::unique_ptr&lt; QSettings &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1App.html#ae8bffacf1109c4c391b13b2b175a42be">state</a> ()</td></tr>
+<tr class="memdesc:ae8bffacf1109c4c391b13b2b175a42be"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a <code>QSettings</code> object initialized with the application state file path.  <br /></td></tr>
+<tr class="separator:ae8bffacf1109c4c391b13b2b175a42be"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a415406f14b944200a312ae9cd1989aa1" id="r_a415406f14b944200a312ae9cd1989aa1"><td class="memItemLeft" align="right" valign="top">static const std::filesystem::path &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1App.html#a415406f14b944200a312ae9cd1989aa1">configLocation</a> ()</td></tr>
 <tr class="memdesc:a415406f14b944200a312ae9cd1989aa1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the path to the application config directory.  <br /></td></tr>
 <tr class="separator:a415406f14b944200a312ae9cd1989aa1"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -149,12 +158,6 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a4a01a85952e4eb818cf3c4697d38e914" id="r_a4a01a85952e4eb818cf3c4697d38e914"><td class="memItemLeft" align="right" valign="top">static const std::filesystem::path &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1App.html#a4a01a85952e4eb818cf3c4697d38e914">dataLocation</a> ()</td></tr>
 <tr class="memdesc:a4a01a85952e4eb818cf3c4697d38e914"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the path to the application data directory.  <br /></td></tr>
 <tr class="separator:a4a01a85952e4eb818cf3c4697d38e914"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1d7a5b39baf71d49199a94cae7036efe" id="r_a1d7a5b39baf71d49199a94cae7036efe"><td class="memItemLeft" align="right" valign="top">static std::unique_ptr&lt; QSettings &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1App.html#a1d7a5b39baf71d49199a94cae7036efe">settings</a> ()</td></tr>
-<tr class="memdesc:a1d7a5b39baf71d49199a94cae7036efe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a <code>QSettings</code> object initialized with the application configuration file path.  <br /></td></tr>
-<tr class="separator:a1d7a5b39baf71d49199a94cae7036efe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae8bffacf1109c4c391b13b2b175a42be" id="r_ae8bffacf1109c4c391b13b2b175a42be"><td class="memItemLeft" align="right" valign="top">static std::unique_ptr&lt; QSettings &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1App.html#ae8bffacf1109c4c391b13b2b175a42be">state</a> ()</td></tr>
-<tr class="memdesc:ae8bffacf1109c4c391b13b2b175a42be"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a <code>QSettings</code> object initialized with the application state file path.  <br /></td></tr>
-<tr class="separator:ae8bffacf1109c4c391b13b2b175a42be"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>

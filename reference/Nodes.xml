@@ -1797,12 +1797,6 @@
             </Subnodes>
            </Node>
            <Node>
-            <Name>Icon</Name>
-            <Path>group__util__icon.html</Path>
-          <Subnodes>
-            </Subnodes>
-           </Node>
-           <Node>
             <Name>Network</Name>
             <Path>group__util__net.html</Path>
           <Subnodes>

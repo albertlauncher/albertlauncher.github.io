@@ -483,13 +483,6 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>util_icon</Name>
-      <APILanguage>c</APILanguage>
-    </TokenIdentifier>
-    <Path>group__util__icon.html</Path>
-  </Token>
-  <Token>
-    <TokenIdentifier>
       <Name>util_net</Name>
       <APILanguage>c</APILanguage>
     </TokenIdentifier>
