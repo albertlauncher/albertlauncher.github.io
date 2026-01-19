@@ -1,0 +1,26 @@
+var classalbert_1_1QueryResults =
+[
+    [ "QueryResults", "classalbert_1_1QueryResults.html#a0e3cda8962fba48b49a44f70f0bba618", null ],
+    [ "~QueryResults", "classalbert_1_1QueryResults.html#a70c96d8764d22c8358c4be52f15cf6b2", null ],
+    [ "activate", "classalbert_1_1QueryResults.html#af7588a69ba9f081ad294afbdd59ca290", null ],
+    [ "add", "classalbert_1_1QueryResults.html#a14068589e1feb6a4a10a120a866d3362", null ],
+    [ "add", "classalbert_1_1QueryResults.html#ad55ccd153ec5ef0961aa614ed0e5f53f", null ],
+    [ "add", "classalbert_1_1QueryResults.html#a338b76c48b3980bcf7608d7b12f6d491", null ],
+    [ "add", "classalbert_1_1QueryResults.html#a8b6705606e867614a5de5e1bca80ec21", null ],
+    [ "add", "classalbert_1_1QueryResults.html#a0060c9d6004d8548a7646203bd9b3d80", null ],
+    [ "count", "classalbert_1_1QueryResults.html#a6c3088ed005b3b6403c4ebd3e50da1d3", null ],
+    [ "operator[]", "classalbert_1_1QueryResults.html#a3af04c7b4ec7fdac55d3669b5634177b", null ],
+    [ "operator[]", "classalbert_1_1QueryResults.html#a4081e65cb38b9547c12c7926b76e4228", null ],
+    [ "remove", "classalbert_1_1QueryResults.html#af6ef1b3ec16c9ad253bfed4f2ba693ab", null ],
+    [ "reset", "classalbert_1_1QueryResults.html#a7a8acb753081ac9403983bed1312ad1b", null ],
+    [ "resultActivated", "classalbert_1_1QueryResults.html#ab88299b4bebbdb6bb2f6ee8e54277898", null ],
+    [ "resultChanged", "classalbert_1_1QueryResults.html#ab24cee23dd6e912505cb9ff17c80845b", null ],
+    [ "resultsAboutToBeInserted", "classalbert_1_1QueryResults.html#aec08173b012b5eaab288c2fc83c7f6e9", null ],
+    [ "resultsAboutToBeMoved", "classalbert_1_1QueryResults.html#ae2668b229c92afd01808586c1e3c3b26", null ],
+    [ "resultsAboutToBeRemoved", "classalbert_1_1QueryResults.html#a62a26a02e5ff648eb9b7a301850420ce", null ],
+    [ "resultsAboutToBeReset", "classalbert_1_1QueryResults.html#a3d8a10c04d6e39f83475cee63931486a", null ],
+    [ "resultsInserted", "classalbert_1_1QueryResults.html#af990a14e85d98a2f77f5022ea09ccb3c", null ],
+    [ "resultsMoved", "classalbert_1_1QueryResults.html#ac81f30a8872c31bddd434cdb6cbec8ad", null ],
+    [ "resultsRemoved", "classalbert_1_1QueryResults.html#a54d3fd4b25982899729c30b01acf7273", null ],
+    [ "resultsReset", "classalbert_1_1QueryResults.html#a915042c8907bcea921b463575c066224", null ]
+];
