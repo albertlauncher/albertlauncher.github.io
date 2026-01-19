@@ -10,7 +10,7 @@
           <title>Albert v34.0.0 released</title>
           <description>&lt;h1 id=&quot;albert-v3400-released&quot;&gt;Albert v34.0.0 released&lt;/h1&gt;
 
-&lt;h2 id=&quot;key-changes&quot;&gt;Key changes&lt;/h2&gt;
+&lt;h2 id=&quot;highlights&quot;&gt;Highlights&lt;/h2&gt;
 
 &lt;ul&gt;
   &lt;li&gt;
@@ -37,7 +37,7 @@
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;detailed-changelog&quot;&gt;Detailed changelog&lt;/h2&gt;
+&lt;h2 id=&quot;details&quot;&gt;Details&lt;/h2&gt;
 
 &lt;h3 id=&quot;features&quot;&gt;Features&lt;/h3&gt;
 
@@ -645,10 +645,6 @@
         <item>
           <title>Albert v33.0.1 released</title>
           <description>&lt;h1 id=&quot;albert-v3301-released&quot;&gt;Albert v33.0.1 released&lt;/h1&gt;
-
-&lt;h2 id=&quot;v3301-2025-10-15&quot;&gt;v33.0.1 (2025-10-15)&lt;/h2&gt;
-
-&lt;h3 id=&quot;️-core-changes&quot;&gt;⚙️ Core changes&lt;/h3&gt;
 
 &lt;h4 id=&quot;fixes&quot;&gt;Fixes&lt;/h4&gt;
 
