@@ -393,7 +393,7 @@
   },"56": {
     "doc": "Python",
     "title": "Writing Python plugins",
-    "content": "An Albert Python plugin is a Python module having an interface defined in the Albert stub file. At runtime the stub file is written to your user Python plugin directory, where it serves as inline documentation and coding assistance in your IDE while development. A minimal trigger query handler plugin: . from albert import * md_iid = '5.0' md_version = '1.0' md_name = 'My plugin' md_description = 'Does things' class Plugin(PluginInstance, TriggerQueryHandler): def __init__(self): PluginInstance.__init__(self) TriggerQueryHandler.__init__(self) def handleTriggerQuery(self, query): # query.add(StandardItem(…)) . Next, skim through the Python stub file. For reference see the official plugins. In case of questions see the C++ API. ",
+    "content": "An Albert Python plugin is a Python module having an interface defined in the Albert stub file. At runtime the stub file is written to your user Python plugin directory, where it serves as inline documentation and coding assistance in your IDE while development. For reference see the official plugins. Also see the C++ API reference for details. ",
     "url": "/gettingstarted/extension/python/#writing-python-plugins",
     
     "relUrl": "/gettingstarted/extension/python/#writing-python-plugins"
