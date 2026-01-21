@@ -10,8 +10,6 @@
           <title>Albert v34.0.2 released</title>
           <description>&lt;h1 id=&quot;albert-v3402-released&quot;&gt;Albert v34.0.2 released&lt;/h1&gt;
 
-&lt;h2 id=&quot;v3402-2026-01-21&quot;&gt;v34.0.2 (2026-01-21)&lt;/h2&gt;
-
 &lt;h3 id=&quot;fixes&quot;&gt;Fixes&lt;/h3&gt;
 
 &lt;h4 id=&quot;plugins&quot;&gt;Plugins&lt;/h4&gt;
@@ -29,8 +27,6 @@
 
 &lt;h3 id=&quot;documentation&quot;&gt;Documentation&lt;/h3&gt;
 
-&lt;h4 id=&quot;core&quot;&gt;Core&lt;/h4&gt;
-
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://github.com/albertlauncher/albert/commit/546e960945e6986f07b278642ca5279533e4afb3&quot;&gt;Give the albert namespace a docstring&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://github.com/albertlauncher/albert/commit/8f2a693b68c4292986fc96d1f1b917533fc9feee&quot;&gt;Remove reference to ExtensionRegistry&lt;/a&gt;&lt;/li&gt;
@@ -38,7 +34,7 @@
 
 &lt;h3 id=&quot;miscellaneous-tasks&quot;&gt;Miscellaneous Tasks&lt;/h3&gt;
 
-&lt;h4 id=&quot;core-1&quot;&gt;Core&lt;/h4&gt;
+&lt;h4 id=&quot;core&quot;&gt;Core&lt;/h4&gt;
 
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://github.com/albertlauncher/albert/commit/91d738f1253f641f39e159bcd0e38c1ff3af50bc&quot;&gt;Codesign bundle with local certificate&lt;/a&gt;&lt;/li&gt;
