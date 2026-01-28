@@ -7,6 +7,95 @@
     
       
         <item>
+          <title>Albert v34.0.3 released</title>
+          <description>&lt;h1 id=&quot;albert-v3403-released&quot;&gt;Albert v34.0.3 released&lt;/h1&gt;
+
+&lt;h2 id=&quot;v3403-2026-01-28&quot;&gt;v34.0.3 (2026-01-28)&lt;/h2&gt;
+
+&lt;h3 id=&quot;features&quot;&gt;Features&lt;/h3&gt;
+
+&lt;h4 id=&quot;plugins&quot;&gt;Plugins&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Applications&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;em&gt;macOS&lt;/em&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-applications/commit/9f996fd6e1f994df38a9ab12d9e50640da0ea34d&quot;&gt;Use default terminal for *.command files&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-applications/commit/451c86e9dd4622e68ebaa62af7c5d5de16cf7384&quot;&gt;Add cosmic-term support&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-applications/commit/2bdf92c1a527748f27ea5247ab399eb16b97f649&quot;&gt;Support guake terminal&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Chromium&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;[&lt;strong&gt;BREAKING&lt;/strong&gt;] · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-chromium/commit/899d5b35d98b1fd6fadaa0e52c78b2285a1f6bdf&quot;&gt;Add profile selection combo box&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-chromium/commit/ac60b0c0dfb6f71ac2ef0acbb963e09eb7a0fcfd&quot;&gt;Add option “Show favicons”&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Clipboard&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-clipboard/commit/59eb7311b4331c21c959f78129fdb4de04c98046&quot;&gt;Use clipboard emoji icon&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;performance&quot;&gt;Performance&lt;/h3&gt;
+
+&lt;h4 id=&quot;plugins-1&quot;&gt;Plugins&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Widgets BoxModel&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-widgetsboxmodel/commit/cdc7a9a67123150a19bde5a79c9ce12b092f1de5&quot;&gt;Cache icon by item identifier&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;fixes&quot;&gt;Fixes&lt;/h3&gt;
+
+&lt;h4 id=&quot;core&quot;&gt;Core&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;em&gt;RankedQueryHandler&lt;/em&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert/commit/f9c3d2ab3b9b492c96eb90633613a7ed877409e8&quot;&gt;Do not call rankItems on main thread&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/albertlauncher/albert/commit/44e950a7323ac0bbc91b4319ab2d6ca94670f29a&quot;&gt;Segfault on plugin selection of unloaded plugin&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;plugins-2&quot;&gt;Plugins&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Bitwarden&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-python-bitwarden/commit/93582684886b809808911d10bb6d6c4ae0a0052b&quot;&gt;Return type and attr error&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Clipboard&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-clipboard/commit/ac4cfd61fd53e7352e2af21db8e89aeb26eaa2eb&quot;&gt;Deadlock on clipboard change&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Date and time&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-datetime/commit/9d515e5187ad9d0ffea324acac9772f7dbc14a0a&quot;&gt;Timer not started/stopped in same thread&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Python plugins&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-python/commit/5a172b56ad6196e52df901dd2b3101f431fb1e7d&quot;&gt;Empty debug line&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-python/commit/f38a6f13671555f20286f5af9f29ea85f12931da&quot;&gt;Missing dependencies are not automatically installed&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-python/commit/fa14c099390b57e8ddc361472f22bbc3d587039e&quot;&gt;Duplicate interpreter config dump&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;miscellaneous-tasks&quot;&gt;Miscellaneous Tasks&lt;/h3&gt;
+
+&lt;h4 id=&quot;plugins-3&quot;&gt;Plugins&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Applications&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-applications/commit/53b91170f0ca62b811f91ba0d75053465f3176e9&quot;&gt;Update translations&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Bluetooth&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-bluetooth/commit/13e76f0861c1bee969ad6524df5e6ce853d714d7&quot;&gt;Add README link&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Chromium&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-chromium/commit/1ea9572a7bd9df186705f712425d8d8dd1a56982&quot;&gt;Add README&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-chromium/commit/399f8f44c723ce3067862714c636d8996e0a0bc0&quot;&gt;Platform specific base dirs&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Python plugins&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-python/commit/e1468633aeeaf1056d407c69c726fed015580174&quot;&gt;Update translations&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-python/commit/a182938fb7c04f0aada0b82bbd45a6aaf08c014e&quot;&gt;Comment config dumps&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Check the &lt;a href=&quot;https://github.com/albertlauncher/albert/compare/v34.0.2...v34.0.3&quot;&gt;commit log&lt;/a&gt; for details.&lt;/p&gt;
+</description>
+          <pubDate>2026-01-28T15:37:00+00:00</pubDate>
+          <link>https://albertlauncher.github.io/2026/01/28/albert-v34.0.3-released/</link>
+          <guid isPermaLink="true">https://albertlauncher.github.io/2026/01/28/albert-v34.0.3-released/</guid>
+        </item>
+      
+    
+      
+        <item>
           <title>Albert v34.0.2 released</title>
           <description>&lt;h1 id=&quot;albert-v3402-released&quot;&gt;Albert v34.0.2 released&lt;/h1&gt;
 
