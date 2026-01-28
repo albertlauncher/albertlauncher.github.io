@@ -9,8 +9,7 @@ var group__util__system =
       [ "setText", "classalbert_1_1Notification.html#affcc3842e28acf040d6d48a369d6498d", null ],
       [ "setTitle", "classalbert_1_1Notification.html#a5d083c323e3c5803a82dd1debde6623c", null ],
       [ "text", "classalbert_1_1Notification.html#a74b9bf1549629ae78cda072136aeb7a0", null ],
-      [ "title", "classalbert_1_1Notification.html#a89254761b3387909595fad368ed1cd16", null ],
-      [ "QNotificationManager", "classalbert_1_1Notification.html#acc2d18d42d9545c5fbc49bb29a7ec5fb", null ]
+      [ "title", "classalbert_1_1Notification.html#a89254761b3387909595fad368ed1cd16", null ]
     ] ],
     [ "albert::havePasteSupport", "group__util__system.html#ga0f190f5266c9ee4d4c44ee3b21af9876", null ],
     [ "albert::open", "group__util__system.html#ga337794d224c1b8022a4b2d51bcd91547", null ],

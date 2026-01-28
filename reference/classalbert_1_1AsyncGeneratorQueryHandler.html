@@ -115,7 +115,7 @@ Inheritance diagram for albert::AsyncGeneratorQueryHandler:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a0283ae1f87d1ed6150ef0b6284ad90a1" id="r_a0283ae1f87d1ed6150ef0b6284ad90a1"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespacealbert.html#a615f5081cd76f7c508e07be2d0c88707">AsyncItemGenerator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1AsyncGeneratorQueryHandler.html#a0283ae1f87d1ed6150ef0b6284ad90a1">items</a> (<a class="el" href="classalbert_1_1QueryContext.html">QueryContext</a> &amp;context)=0</td></tr>
+<tr class="memitem:a0283ae1f87d1ed6150ef0b6284ad90a1" id="r_a0283ae1f87d1ed6150ef0b6284ad90a1"><td class="memItemLeft" align="right" valign="top">virtual AsyncItemGenerator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1AsyncGeneratorQueryHandler.html#a0283ae1f87d1ed6150ef0b6284ad90a1">items</a> (<a class="el" href="classalbert_1_1QueryContext.html">QueryContext</a> &amp;context)=0</td></tr>
 <tr class="memdesc:a0283ae1f87d1ed6150ef0b6284ad90a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Yields batches of items for <em>context</em> asynchronously and lazily.  <br /></td></tr>
 <tr class="separator:a0283ae1f87d1ed6150ef0b6284ad90a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classalbert_1_1QueryHandler"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classalbert_1_1QueryHandler')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classalbert_1_1QueryHandler.html">albert::QueryHandler</a></td></tr>
@@ -135,24 +135,29 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aba79b0b7a42a03addbb4223462362b06 inherit pub_methods_classalbert_1_1Extension" id="r_aba79b0b7a42a03addbb4223462362b06"><td class="memItemLeft" align="right" valign="top">virtual QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1Extension.html#aba79b0b7a42a03addbb4223462362b06">id</a> () const =0</td></tr>
 <tr class="memdesc:aba79b0b7a42a03addbb4223462362b06 inherit pub_methods_classalbert_1_1Extension"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the extension identifier.  <br /></td></tr>
 <tr class="separator:aba79b0b7a42a03addbb4223462362b06 inherit pub_methods_classalbert_1_1Extension"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a632e2c0b2818d985d5a18f966c37e56a inherit pub_methods_classalbert_1_1Extension" id="r_a632e2c0b2818d985d5a18f966c37e56a"><td class="memItemLeft" align="right" valign="top">virtual QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1Extension.html#a632e2c0b2818d985d5a18f966c37e56a">name</a> () const =0</td></tr>
-<tr class="memdesc:a632e2c0b2818d985d5a18f966c37e56a inherit pub_methods_classalbert_1_1Extension"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the pretty, human readable extension name.  <br /></td></tr>
+<tr class="memitem:a632e2c0b2818d985d5a18f966c37e56a inherit pub_methods_classalbert_1_1Extension" id="r_a632e2c0b2818d985d5a18f966c37e56a"><td class="memItemLeft" align="right" valign="top">
+virtual QString&#160;</td><td class="memItemRight" valign="bottom"><b>name</b> () const =0</td></tr>
+<tr class="memdesc:a632e2c0b2818d985d5a18f966c37e56a inherit pub_methods_classalbert_1_1Extension"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the pretty, human readable extension name. <br /></td></tr>
 <tr class="separator:a632e2c0b2818d985d5a18f966c37e56a inherit pub_methods_classalbert_1_1Extension"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9f18ca0cf14e367e3826cdcdaa35f1c3 inherit pub_methods_classalbert_1_1Extension" id="r_a9f18ca0cf14e367e3826cdcdaa35f1c3"><td class="memItemLeft" align="right" valign="top">virtual QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1Extension.html#a9f18ca0cf14e367e3826cdcdaa35f1c3">description</a> () const =0</td></tr>
-<tr class="memdesc:a9f18ca0cf14e367e3826cdcdaa35f1c3 inherit pub_methods_classalbert_1_1Extension"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the brief extension description.  <br /></td></tr>
+<tr class="memitem:a9f18ca0cf14e367e3826cdcdaa35f1c3 inherit pub_methods_classalbert_1_1Extension" id="r_a9f18ca0cf14e367e3826cdcdaa35f1c3"><td class="memItemLeft" align="right" valign="top">
+virtual QString&#160;</td><td class="memItemRight" valign="bottom"><b>description</b> () const =0</td></tr>
+<tr class="memdesc:a9f18ca0cf14e367e3826cdcdaa35f1c3 inherit pub_methods_classalbert_1_1Extension"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the brief extension description. <br /></td></tr>
 <tr class="separator:a9f18ca0cf14e367e3826cdcdaa35f1c3 inherit pub_methods_classalbert_1_1Extension"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
-<tr class="memitem:a3f29d6845c877e15978bfe8b34964485" id="r_a3f29d6845c877e15978bfe8b34964485"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1AsyncGeneratorQueryHandler.html#a3f29d6845c877e15978bfe8b34964485">~AsyncGeneratorQueryHandler</a> () override</td></tr>
-<tr class="memdesc:a3f29d6845c877e15978bfe8b34964485"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructs the handler.  <br /></td></tr>
+<tr class="memitem:a3f29d6845c877e15978bfe8b34964485" id="r_a3f29d6845c877e15978bfe8b34964485"><td class="memItemLeft" align="right" valign="top"><a id="a3f29d6845c877e15978bfe8b34964485" name="a3f29d6845c877e15978bfe8b34964485"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>~AsyncGeneratorQueryHandler</b> () override</td></tr>
+<tr class="memdesc:a3f29d6845c877e15978bfe8b34964485"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructs the handler. <br /></td></tr>
 <tr class="separator:a3f29d6845c877e15978bfe8b34964485"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4be9b7a8c31e53ff2a61ae85c1605bf5" id="r_a4be9b7a8c31e53ff2a61ae85c1605bf5"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classalbert_1_1QueryExecution.html">QueryExecution</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1AsyncGeneratorQueryHandler.html#a4be9b7a8c31e53ff2a61ae85c1605bf5">execution</a> (<a class="el" href="classalbert_1_1QueryContext.html">QueryContext</a> &amp;context) override</td></tr>
-<tr class="memdesc:a4be9b7a8c31e53ff2a61ae85c1605bf5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns an asynchronous generator query execution for <em>context</em>.  <br /></td></tr>
+<tr class="memitem:a4be9b7a8c31e53ff2a61ae85c1605bf5" id="r_a4be9b7a8c31e53ff2a61ae85c1605bf5"><td class="memItemLeft" align="right" valign="top"><a id="a4be9b7a8c31e53ff2a61ae85c1605bf5" name="a4be9b7a8c31e53ff2a61ae85c1605bf5"></a>
+std::unique_ptr&lt; <a class="el" href="classalbert_1_1QueryExecution.html">QueryExecution</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>execution</b> (<a class="el" href="classalbert_1_1QueryContext.html">QueryContext</a> &amp;context) override</td></tr>
+<tr class="memdesc:a4be9b7a8c31e53ff2a61ae85c1605bf5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns an asynchronous generator query execution for <em>context</em>. <br /></td></tr>
 <tr class="separator:a4be9b7a8c31e53ff2a61ae85c1605bf5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_methods_classalbert_1_1QueryHandler"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classalbert_1_1QueryHandler')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="classalbert_1_1QueryHandler.html">albert::QueryHandler</a></td></tr>
-<tr class="memitem:acf232f6837086273927896776b721bea inherit pro_methods_classalbert_1_1QueryHandler" id="r_acf232f6837086273927896776b721bea"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1QueryHandler.html#acf232f6837086273927896776b721bea">~QueryHandler</a> () override</td></tr>
-<tr class="memdesc:acf232f6837086273927896776b721bea inherit pro_methods_classalbert_1_1QueryHandler"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructs the handler.  <br /></td></tr>
+<tr class="memitem:acf232f6837086273927896776b721bea inherit pro_methods_classalbert_1_1QueryHandler" id="r_acf232f6837086273927896776b721bea"><td class="memItemLeft" align="right" valign="top">
+&#160;</td><td class="memItemRight" valign="bottom"><b>~QueryHandler</b> () override</td></tr>
+<tr class="memdesc:acf232f6837086273927896776b721bea inherit pro_methods_classalbert_1_1QueryHandler"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructs the handler. <br /></td></tr>
 <tr class="separator:acf232f6837086273927896776b721bea inherit pro_methods_classalbert_1_1QueryHandler"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2e9f84c01037b4d85bcf8420d55afdbd inherit pro_methods_classalbert_1_1QueryHandler" id="r_a2e9f84c01037b4d85bcf8420d55afdbd"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1QueryHandler.html#a2e9f84c01037b4d85bcf8420d55afdbd">setFuzzyMatching</a> (bool enabled)</td></tr>
 <tr class="memdesc:a2e9f84c01037b4d85bcf8420d55afdbd inherit pro_methods_classalbert_1_1QueryHandler"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the fuzzy matching mode to <em>enabled</em>.  <br /></td></tr>
@@ -161,69 +166,12 @@ Protected Member Functions</h2></td></tr>
 <tr class="memdesc:a7a0fa20c276374c511191a7959c163c0 inherit pro_methods_classalbert_1_1QueryHandler"><td class="mdescLeft">&#160;</td><td class="mdescRight">Notifies that the user-defined trigger has changed to <em>trigger</em>.  <br /></td></tr>
 <tr class="separator:a7a0fa20c276374c511191a7959c163c0 inherit pro_methods_classalbert_1_1QueryHandler"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_methods_classalbert_1_1Extension"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classalbert_1_1Extension')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="classalbert_1_1Extension.html">albert::Extension</a></td></tr>
-<tr class="memitem:a75ca8e53d296b0fa89467469f2200b5f inherit pro_methods_classalbert_1_1Extension" id="r_a75ca8e53d296b0fa89467469f2200b5f"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1Extension.html#a75ca8e53d296b0fa89467469f2200b5f">~Extension</a> ()</td></tr>
-<tr class="memdesc:a75ca8e53d296b0fa89467469f2200b5f inherit pro_methods_classalbert_1_1Extension"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructs the extension.  <br /></td></tr>
+<tr class="memitem:a75ca8e53d296b0fa89467469f2200b5f inherit pro_methods_classalbert_1_1Extension" id="r_a75ca8e53d296b0fa89467469f2200b5f"><td class="memItemLeft" align="right" valign="top">
+virtual&#160;</td><td class="memItemRight" valign="bottom"><b>~Extension</b> ()</td></tr>
+<tr class="memdesc:a75ca8e53d296b0fa89467469f2200b5f inherit pro_methods_classalbert_1_1Extension"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructs the extension. <br /></td></tr>
 <tr class="separator:a75ca8e53d296b0fa89467469f2200b5f inherit pro_methods_classalbert_1_1Extension"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a3f29d6845c877e15978bfe8b34964485" name="a3f29d6845c877e15978bfe8b34964485"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3f29d6845c877e15978bfe8b34964485">&#9670;&#160;</a></span>~AsyncGeneratorQueryHandler()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">albert::AsyncGeneratorQueryHandler::~AsyncGeneratorQueryHandler </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Destructs the handler. </p>
-
-</div>
-</div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a4be9b7a8c31e53ff2a61ae85c1605bf5" name="a4be9b7a8c31e53ff2a61ae85c1605bf5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4be9b7a8c31e53ff2a61ae85c1605bf5">&#9670;&#160;</a></span>execution()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::unique_ptr&lt; <a class="el" href="classalbert_1_1QueryExecution.html">QueryExecution</a> &gt; albert::AsyncGeneratorQueryHandler::execution </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="classalbert_1_1QueryContext.html">QueryContext</a> &amp;&#160;</td>
-          <td class="paramname"><em>context</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Returns an asynchronous generator query execution for <em>context</em>. </p>
-
-<p>Implements <a class="el" href="classalbert_1_1QueryHandler.html#a1bad60ff51a66734fe10f9c1b8a58ba2">albert::QueryHandler</a>.</p>
-
-</div>
-</div>
 <a id="a0283ae1f87d1ed6150ef0b6284ad90a1" name="a0283ae1f87d1ed6150ef0b6284ad90a1"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0283ae1f87d1ed6150ef0b6284ad90a1">&#9670;&#160;</a></span>items()</h2>
 
@@ -234,7 +182,7 @@ Protected Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual <a class="el" href="namespacealbert.html#a615f5081cd76f7c508e07be2d0c88707">AsyncItemGenerator</a> albert::AsyncGeneratorQueryHandler::items </td>
+          <td class="memname">virtual AsyncItemGenerator albert::AsyncGeneratorQueryHandler::items </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classalbert_1_1QueryContext.html">QueryContext</a> &amp;&#160;</td>
           <td class="paramname"><em>context</em></td><td>)</td>

@@ -95,7 +95,6 @@ $(document).ready(function(){initNavTree('classalbert_1_1App.html',''); initResi
 <div class="header">
   <div class="summary">
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
-<a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="#signals">Signals</a> &#124;
 <a href="classalbert_1_1App-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">albert::App Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span><div class="ingroups"><a class="el" href="group__core.html">Core API</a></div></div></div>
@@ -111,29 +110,35 @@ $(document).ready(function(){initNavTree('classalbert_1_1App.html',''); initResi
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr><td colspan="2"><div class="groupHeader">Main window</div></td></tr>
-<tr class="memitem:ab7c2e273b0a78b5884000064056eca94" id="r_ab7c2e273b0a78b5884000064056eca94"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1App.html#ab7c2e273b0a78b5884000064056eca94">show</a> (const QString &amp;input_text={})=0</td></tr>
-<tr class="memdesc:ab7c2e273b0a78b5884000064056eca94"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shows the frontend and optionally sets the text to <em>input_text</em>.  <br /></td></tr>
+<tr class="memitem:ab7c2e273b0a78b5884000064056eca94" id="r_ab7c2e273b0a78b5884000064056eca94"><td class="memItemLeft" align="right" valign="top"><a id="ab7c2e273b0a78b5884000064056eca94" name="ab7c2e273b0a78b5884000064056eca94"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>show</b> (const QString &amp;input_text={})=0</td></tr>
+<tr class="memdesc:ab7c2e273b0a78b5884000064056eca94"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shows the frontend and optionally sets the text to <em>input_text</em>. <br /></td></tr>
 <tr class="separator:ab7c2e273b0a78b5884000064056eca94"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aca152bd8e596da88e3d284730e35e013" id="r_aca152bd8e596da88e3d284730e35e013"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1App.html#aca152bd8e596da88e3d284730e35e013">showSettings</a> (QString plugin_id={})=0</td></tr>
-<tr class="memdesc:aca152bd8e596da88e3d284730e35e013"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shows the settings window and optionally selects the plugin with <em>plugin_id</em>.  <br /></td></tr>
+<tr class="memitem:aca152bd8e596da88e3d284730e35e013" id="r_aca152bd8e596da88e3d284730e35e013"><td class="memItemLeft" align="right" valign="top"><a id="aca152bd8e596da88e3d284730e35e013" name="aca152bd8e596da88e3d284730e35e013"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>showSettings</b> (QString plugin_id={})=0</td></tr>
+<tr class="memdesc:aca152bd8e596da88e3d284730e35e013"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shows the settings window and optionally selects the plugin with <em>plugin_id</em>. <br /></td></tr>
 <tr class="separator:aca152bd8e596da88e3d284730e35e013"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Extensions</div></td></tr>
-<tr class="memitem:a3a914db8ecc9a845b21f0e9758993d3a" id="r_a3a914db8ecc9a845b21f0e9758993d3a"><td class="memItemLeft" align="right" valign="top">virtual const std::map&lt; QString, <a class="el" href="classalbert_1_1Extension.html">Extension</a> * &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1App.html#a3a914db8ecc9a845b21f0e9758993d3a">extensions</a> () const =0</td></tr>
-<tr class="memdesc:a3a914db8ecc9a845b21f0e9758993d3a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get map of all registered extensions.  <br /></td></tr>
+<tr class="memitem:a3a914db8ecc9a845b21f0e9758993d3a" id="r_a3a914db8ecc9a845b21f0e9758993d3a"><td class="memItemLeft" align="right" valign="top"><a id="a3a914db8ecc9a845b21f0e9758993d3a" name="a3a914db8ecc9a845b21f0e9758993d3a"></a>
+virtual const std::map&lt; QString, <a class="el" href="classalbert_1_1Extension.html">Extension</a> * &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>extensions</b> () const =0</td></tr>
+<tr class="memdesc:a3a914db8ecc9a845b21f0e9758993d3a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get map of all registered extensions. <br /></td></tr>
 <tr class="separator:a3a914db8ecc9a845b21f0e9758993d3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa33ce08d3670e92590342c23e99372dc" id="r_aa33ce08d3670e92590342c23e99372dc"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:aa33ce08d3670e92590342c23e99372dc"><td class="memTemplItemLeft" align="right" valign="top">std::map&lt; QString, T * &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classalbert_1_1App.html#aa33ce08d3670e92590342c23e99372dc">extensions</a> () const</td></tr>
-<tr class="memdesc:aa33ce08d3670e92590342c23e99372dc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get map of all extensions of type T.  <br /></td></tr>
+<tr class="memitem:aa33ce08d3670e92590342c23e99372dc" id="r_aa33ce08d3670e92590342c23e99372dc"><td class="memTemplParams" colspan="2"><a id="aa33ce08d3670e92590342c23e99372dc" name="aa33ce08d3670e92590342c23e99372dc"></a>
+template&lt;typename T &gt; </td></tr>
+<tr class="memitem:aa33ce08d3670e92590342c23e99372dc"><td class="memTemplItemLeft" align="right" valign="top">std::map&lt; QString, T * &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><b>extensions</b> () const</td></tr>
+<tr class="memdesc:aa33ce08d3670e92590342c23e99372dc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get map of all extensions of type T. <br /></td></tr>
 <tr class="separator:aa33ce08d3670e92590342c23e99372dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a351ba65b65fe7feeec2c2a11e65a4f64" id="r_a351ba65b65fe7feeec2c2a11e65a4f64"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:a351ba65b65fe7feeec2c2a11e65a4f64"><td class="memTemplItemLeft" align="right" valign="top">T *&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classalbert_1_1App.html#a351ba65b65fe7feeec2c2a11e65a4f64">extension</a> (const QString &amp;id) const</td></tr>
-<tr class="memdesc:a351ba65b65fe7feeec2c2a11e65a4f64"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get extension by id implicitly dynamic_cast'ed to type T.  <br /></td></tr>
+<tr class="memitem:a351ba65b65fe7feeec2c2a11e65a4f64" id="r_a351ba65b65fe7feeec2c2a11e65a4f64"><td class="memTemplParams" colspan="2"><a id="a351ba65b65fe7feeec2c2a11e65a4f64" name="a351ba65b65fe7feeec2c2a11e65a4f64"></a>
+template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a351ba65b65fe7feeec2c2a11e65a4f64"><td class="memTemplItemLeft" align="right" valign="top">T *&#160;</td><td class="memTemplItemRight" valign="bottom"><b>extension</b> (const QString &amp;id) const</td></tr>
+<tr class="memdesc:a351ba65b65fe7feeec2c2a11e65a4f64"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get extension by id implicitly dynamic_cast'ed to type T. <br /></td></tr>
 <tr class="separator:a351ba65b65fe7feeec2c2a11e65a4f64"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a4bffdd9346fb2af114c5ece47708926f" id="r_a4bffdd9346fb2af114c5ece47708926f"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classalbert_1_1App.html">App</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1App.html#a4bffdd9346fb2af114c5ece47708926f">instance</a> ()</td></tr>
-<tr class="memdesc:a4bffdd9346fb2af114c5ece47708926f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the global app instance.  <br /></td></tr>
+<tr class="memitem:a4bffdd9346fb2af114c5ece47708926f" id="r_a4bffdd9346fb2af114c5ece47708926f"><td class="memItemLeft" align="right" valign="top"><a id="a4bffdd9346fb2af114c5ece47708926f" name="a4bffdd9346fb2af114c5ece47708926f"></a>
+static <a class="el" href="classalbert_1_1App.html">App</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>instance</b> ()</td></tr>
+<tr class="memdesc:a4bffdd9346fb2af114c5ece47708926f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the global app instance. <br /></td></tr>
 <tr class="separator:a4bffdd9346fb2af114c5ece47708926f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Application control</div></td></tr>
 <tr class="memitem:af5ed7d9ddfd90e6c176df8dc9359e0f0" id="r_af5ed7d9ddfd90e6c176df8dc9359e0f0"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1App.html#af5ed7d9ddfd90e6c176df8dc9359e0f0">restart</a> ()</td></tr>
@@ -159,102 +164,18 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memdesc:a4a01a85952e4eb818cf3c4697d38e914"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the path to the application data directory.  <br /></td></tr>
 <tr class="separator:a4a01a85952e4eb818cf3c4697d38e914"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
-Protected Member Functions</h2></td></tr>
-<tr class="memitem:ab59e5f5d53ec791d2eb0ce8cc57221c8" id="r_ab59e5f5d53ec791d2eb0ce8cc57221c8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1App.html#ab59e5f5d53ec791d2eb0ce8cc57221c8">App</a> ()</td></tr>
-<tr class="separator:ab59e5f5d53ec791d2eb0ce8cc57221c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a99dd534165232f6c1e4a8a54629d6960" id="r_a99dd534165232f6c1e4a8a54629d6960"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1App.html#a99dd534165232f6c1e4a8a54629d6960">~App</a> ()</td></tr>
-<tr class="separator:a99dd534165232f6c1e4a8a54629d6960"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="signals" name="signals"></a>
 Signals</h2></td></tr>
-<tr class="memitem:abac13f55e568aae2b6eb4fe76bc33514" id="r_abac13f55e568aae2b6eb4fe76bc33514"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1App.html#abac13f55e568aae2b6eb4fe76bc33514">added</a> (<a class="el" href="classalbert_1_1Extension.html">albert::Extension</a> *)</td></tr>
-<tr class="memdesc:abac13f55e568aae2b6eb4fe76bc33514"><td class="mdescLeft">&#160;</td><td class="mdescRight">Emitted when an extension has been registered.  <br /></td></tr>
+<tr class="memitem:abac13f55e568aae2b6eb4fe76bc33514" id="r_abac13f55e568aae2b6eb4fe76bc33514"><td class="memItemLeft" align="right" valign="top"><a id="abac13f55e568aae2b6eb4fe76bc33514" name="abac13f55e568aae2b6eb4fe76bc33514"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>added</b> (<a class="el" href="classalbert_1_1Extension.html">albert::Extension</a> *)</td></tr>
+<tr class="memdesc:abac13f55e568aae2b6eb4fe76bc33514"><td class="mdescLeft">&#160;</td><td class="mdescRight">Emitted when an extension has been registered. <br /></td></tr>
 <tr class="separator:abac13f55e568aae2b6eb4fe76bc33514"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a553a4bdcaf86650e3cb7113f8b0b8c6c" id="r_a553a4bdcaf86650e3cb7113f8b0b8c6c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1App.html#a553a4bdcaf86650e3cb7113f8b0b8c6c">removed</a> (<a class="el" href="classalbert_1_1Extension.html">albert::Extension</a> *)</td></tr>
-<tr class="memdesc:a553a4bdcaf86650e3cb7113f8b0b8c6c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Emitted when an extension has been deregistered.  <br /></td></tr>
+<tr class="memitem:a553a4bdcaf86650e3cb7113f8b0b8c6c" id="r_a553a4bdcaf86650e3cb7113f8b0b8c6c"><td class="memItemLeft" align="right" valign="top"><a id="a553a4bdcaf86650e3cb7113f8b0b8c6c" name="a553a4bdcaf86650e3cb7113f8b0b8c6c"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>removed</b> (<a class="el" href="classalbert_1_1Extension.html">albert::Extension</a> *)</td></tr>
+<tr class="memdesc:a553a4bdcaf86650e3cb7113f8b0b8c6c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Emitted when an extension has been deregistered. <br /></td></tr>
 <tr class="separator:a553a4bdcaf86650e3cb7113f8b0b8c6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="ab59e5f5d53ec791d2eb0ce8cc57221c8" name="ab59e5f5d53ec791d2eb0ce8cc57221c8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab59e5f5d53ec791d2eb0ce8cc57221c8">&#9670;&#160;</a></span>App()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">albert::App::App </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a99dd534165232f6c1e4a8a54629d6960" name="a99dd534165232f6c1e4a8a54629d6960"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a99dd534165232f6c1e4a8a54629d6960">&#9670;&#160;</a></span>~App()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual albert::App::~App </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="abac13f55e568aae2b6eb4fe76bc33514" name="abac13f55e568aae2b6eb4fe76bc33514"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abac13f55e568aae2b6eb4fe76bc33514">&#9670;&#160;</a></span>added</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void albert::App::added </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="classalbert_1_1Extension.html">albert::Extension</a> *&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">signal</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Emitted when an extension has been registered. </p>
-
-</div>
-</div>
 <a id="af1a5e70db581f094926140dded1819c2" name="af1a5e70db581f094926140dded1819c2"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af1a5e70db581f094926140dded1819c2">&#9670;&#160;</a></span>cacheLocation()</h2>
 
@@ -339,119 +260,6 @@ Signals</h2></td></tr>
 
 </div>
 </div>
-<a id="a351ba65b65fe7feeec2c2a11e65a4f64" name="a351ba65b65fe7feeec2c2a11e65a4f64"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a351ba65b65fe7feeec2c2a11e65a4f64">&#9670;&#160;</a></span>extension()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">T * albert::App::extension </td>
-          <td>(</td>
-          <td class="paramtype">const QString &amp;&#160;</td>
-          <td class="paramname"><em>id</em></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Get extension by id implicitly dynamic_cast'ed to type T. </p>
-
-</div>
-</div>
-<a id="aa33ce08d3670e92590342c23e99372dc" name="aa33ce08d3670e92590342c23e99372dc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa33ce08d3670e92590342c23e99372dc">&#9670;&#160;</a></span>extensions() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::map&lt; QString, T * &gt; albert::App::extensions </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Get map of all extensions of type T. </p>
-
-</div>
-</div>
-<a id="a3a914db8ecc9a845b21f0e9758993d3a" name="a3a914db8ecc9a845b21f0e9758993d3a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3a914db8ecc9a845b21f0e9758993d3a">&#9670;&#160;</a></span>extensions() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual const std::map&lt; QString, <a class="el" href="classalbert_1_1Extension.html">Extension</a> * &gt; &amp; albert::App::extensions </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Get map of all registered extensions. </p>
-
-</div>
-</div>
-<a id="a4bffdd9346fb2af114c5ece47708926f" name="a4bffdd9346fb2af114c5ece47708926f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4bffdd9346fb2af114c5ece47708926f">&#9670;&#160;</a></span>instance()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static <a class="el" href="classalbert_1_1App.html">App</a> &amp; albert::App::instance </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Returns the global app instance. </p>
-
-</div>
-</div>
 <a id="a580dea4d4a66dc0b4755566d442e9dc4" name="a580dea4d4a66dc0b4755566d442e9dc4"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a580dea4d4a66dc0b4755566d442e9dc4">&#9670;&#160;</a></span>quit()</h2>
 
@@ -477,34 +285,6 @@ template&lt;typename T &gt; </div>
 
 <p>Quits the application. </p>
 <p>This function is thread-safe. </p>
-
-</div>
-</div>
-<a id="a553a4bdcaf86650e3cb7113f8b0b8c6c" name="a553a4bdcaf86650e3cb7113f8b0b8c6c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a553a4bdcaf86650e3cb7113f8b0b8c6c">&#9670;&#160;</a></span>removed</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void albert::App::removed </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="classalbert_1_1Extension.html">albert::Extension</a> *&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">signal</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Emitted when an extension has been deregistered. </p>
 
 </div>
 </div>
@@ -562,62 +342,6 @@ template&lt;typename T &gt; </div>
 <p>Returns a <code>QSettings</code> object initialized with the application configuration file path. </p>
 <p>As <code>unique_ptr</code> for the sake of movability.</p>
 <p>This function is thread-safe. </p>
-
-</div>
-</div>
-<a id="ab7c2e273b0a78b5884000064056eca94" name="ab7c2e273b0a78b5884000064056eca94"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab7c2e273b0a78b5884000064056eca94">&#9670;&#160;</a></span>show()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual void albert::App::show </td>
-          <td>(</td>
-          <td class="paramtype">const QString &amp;&#160;</td>
-          <td class="paramname"><em>input_text</em> = <code>{}</code></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Shows the frontend and optionally sets the text to <em>input_text</em>. </p>
-
-</div>
-</div>
-<a id="aca152bd8e596da88e3d284730e35e013" name="aca152bd8e596da88e3d284730e35e013"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aca152bd8e596da88e3d284730e35e013">&#9670;&#160;</a></span>showSettings()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual void albert::App::showSettings </td>
-          <td>(</td>
-          <td class="paramtype">QString&#160;</td>
-          <td class="paramname"><em>plugin_id</em> = <code>{}</code></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Shows the settings window and optionally selects the plugin with <em>plugin_id</em>. </p>
 
 </div>
 </div>

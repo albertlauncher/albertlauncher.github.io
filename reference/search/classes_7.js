@@ -1,8 +1,6 @@
 var searchData=
 [
-  ['icon_0',['Icon',['../classalbert_1_1Icon.html',1,'albert']]],
-  ['indexitem_1',['IndexItem',['../classalbert_1_1IndexItem.html',1,'albert']]],
-  ['indexqueryhandler_2',['IndexQueryHandler',['../classalbert_1_1IndexQueryHandler.html',1,'albert']]],
-  ['item_3',['Item',['../classalbert_1_1Item.html',1,'albert']]],
-  ['itemkey_4',['ItemKey',['../structalbert_1_1ItemKey.html',1,'albert']]]
+  ['match_0',['Match',['../classalbert_1_1Match.html',1,'albert']]],
+  ['matchconfig_1',['MatchConfig',['../classalbert_1_1MatchConfig.html',1,'albert']]],
+  ['matcher_2',['Matcher',['../classalbert_1_1Matcher.html',1,'albert']]]
 ];

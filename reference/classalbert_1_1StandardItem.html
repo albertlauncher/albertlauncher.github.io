@@ -96,7 +96,6 @@ $(document).ready(function(){initNavTree('classalbert_1_1StandardItem.html','');
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
-<a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="classalbert_1_1StandardItem-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">albert::StandardItem Class Reference<div class="ingroups"><a class="el" href="group__util.html">Utility API</a> &raquo; <a class="el" href="group__util__query.html">Query</a></div></div></div>
 </div><!--header-->
@@ -113,44 +112,51 @@ Inheritance diagram for albert::StandardItem:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:aadb266946eefccf5f54cedaf4c955ef1" id="r_aadb266946eefccf5f54cedaf4c955ef1"><td class="memTemplParams" colspan="2">template&lt;typename T_ID  = QString, typename T_TEXT  = QString, typename T_SUBTEXT  = QString, typename T_ICON_FACTORY  = std::function&lt;std::unique_ptr&lt;Icon&gt;()&gt;, typename T_ACTIONS  = std::vector&lt;Action&gt;, typename T_INPUTACTION  = QString&gt; <br />
+<tr class="memitem:aadb266946eefccf5f54cedaf4c955ef1" id="r_aadb266946eefccf5f54cedaf4c955ef1"><td class="memTemplParams" colspan="2"><a id="aadb266946eefccf5f54cedaf4c955ef1" name="aadb266946eefccf5f54cedaf4c955ef1"></a>
+template&lt;typename T_ID  = QString, typename T_TEXT  = QString, typename T_SUBTEXT  = QString, typename T_ICON_FACTORY  = std::function&lt;std::unique_ptr&lt;Icon&gt;()&gt;, typename T_ACTIONS  = std::vector&lt;Action&gt;, typename T_INPUTACTION  = QString&gt; <br />
 requires (std::same_as&lt;std::remove_cvref_t&lt;T_ID&gt;, QString&gt; &amp;&amp; std::same_as&lt;std::remove_cvref_t&lt;T_TEXT&gt;, QString&gt; &amp;&amp; std::same_as&lt;std::remove_cvref_t&lt;T_SUBTEXT&gt;, QString&gt; &amp;&amp; std::convertible_to&lt;std::remove_cvref_t&lt;T_ICON_FACTORY&gt;, std::function&lt;std::unique_ptr&lt;<a class="el" href="classalbert_1_1Icon.html">Icon</a>&gt;()&gt;&gt; &amp;&amp; std::same_as&lt;std::remove_cvref_t&lt;T_ACTIONS&gt;, std::vector&lt;<a class="el" href="classalbert_1_1Action.html">Action</a>&gt;&gt; &amp;&amp; std::same_as&lt;std::remove_cvref_t&lt;T_INPUTACTION&gt;, QString&gt;)</td></tr>
-<tr class="memitem:aadb266946eefccf5f54cedaf4c955ef1"><td class="memTemplItemLeft" align="right" valign="top">&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classalbert_1_1StandardItem.html#aadb266946eefccf5f54cedaf4c955ef1">StandardItem</a> (T_ID &amp;&amp;<a class="el" href="classalbert_1_1StandardItem.html#aa7eaf721cdb29dac01f965b912c001be">id</a>, T_TEXT &amp;&amp;<a class="el" href="classalbert_1_1StandardItem.html#adfd90bae2b852c8233cb4b7f464de316">text</a>, T_SUBTEXT &amp;&amp;<a class="el" href="classalbert_1_1StandardItem.html#a1ab1c6f42fe6e919db5e7f44b4424672">subtext</a>, T_ICON_FACTORY &amp;&amp;icon_factory, T_ACTIONS &amp;&amp;<a class="el" href="classalbert_1_1StandardItem.html#a397e19018275ddd82cdfa5c1f07bc459">actions</a>=std::vector&lt; <a class="el" href="classalbert_1_1Action.html">Action</a> &gt;{}, T_INPUTACTION &amp;&amp;input_action_text=QString{}) noexcept</td></tr>
-<tr class="memdesc:aadb266946eefccf5f54cedaf4c955ef1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a <a class="el" href="classalbert_1_1StandardItem.html">StandardItem</a> with the contents initialized with the data passed.  <br /></td></tr>
+<tr class="memitem:aadb266946eefccf5f54cedaf4c955ef1"><td class="memTemplItemLeft" align="right" valign="top">&#160;</td><td class="memTemplItemRight" valign="bottom"><b>StandardItem</b> (T_ID &amp;&amp;<a class="el" href="classalbert_1_1StandardItem.html#aa7eaf721cdb29dac01f965b912c001be">id</a>, T_TEXT &amp;&amp;<a class="el" href="classalbert_1_1StandardItem.html#adfd90bae2b852c8233cb4b7f464de316">text</a>, T_SUBTEXT &amp;&amp;<a class="el" href="classalbert_1_1StandardItem.html#a1ab1c6f42fe6e919db5e7f44b4424672">subtext</a>, T_ICON_FACTORY &amp;&amp;icon_factory, T_ACTIONS &amp;&amp;<a class="el" href="classalbert_1_1StandardItem.html#a397e19018275ddd82cdfa5c1f07bc459">actions</a>=std::vector&lt; <a class="el" href="classalbert_1_1Action.html">Action</a> &gt;{}, T_INPUTACTION &amp;&amp;input_action_text=QString{}) noexcept</td></tr>
+<tr class="memdesc:aadb266946eefccf5f54cedaf4c955ef1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a <a class="el" href="classalbert_1_1StandardItem.html">StandardItem</a> with the contents initialized with the data passed. <br /></td></tr>
 <tr class="separator:aadb266946eefccf5f54cedaf4c955ef1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4fc74616cb7bb8b4c4fc28d66781b910" id="r_a4fc74616cb7bb8b4c4fc28d66781b910"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1StandardItem.html#a4fc74616cb7bb8b4c4fc28d66781b910">StandardItem</a> (const <a class="el" href="classalbert_1_1StandardItem.html">StandardItem</a> &amp;)=delete</td></tr>
-<tr class="separator:a4fc74616cb7bb8b4c4fc28d66781b910"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab099fb8d9964defec643468f1a3b90dd" id="r_ab099fb8d9964defec643468f1a3b90dd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classalbert_1_1StandardItem.html">StandardItem</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1StandardItem.html#ab099fb8d9964defec643468f1a3b90dd">operator=</a> (const <a class="el" href="classalbert_1_1StandardItem.html">StandardItem</a> &amp;)=delete</td></tr>
-<tr class="separator:ab099fb8d9964defec643468f1a3b90dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a948b95998a87543c2240050a4022b6a5" id="r_a948b95998a87543c2240050a4022b6a5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1StandardItem.html#a948b95998a87543c2240050a4022b6a5">StandardItem</a> (<a class="el" href="classalbert_1_1StandardItem.html">StandardItem</a> &amp;&amp;other) noexcept=default</td></tr>
-<tr class="memdesc:a948b95998a87543c2240050a4022b6a5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a <a class="el" href="classalbert_1_1StandardItem.html">StandardItem</a> with the contents of <em>other</em> using move semantics.  <br /></td></tr>
+<tr class="memitem:a948b95998a87543c2240050a4022b6a5" id="r_a948b95998a87543c2240050a4022b6a5"><td class="memItemLeft" align="right" valign="top"><a id="a948b95998a87543c2240050a4022b6a5" name="a948b95998a87543c2240050a4022b6a5"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>StandardItem</b> (<a class="el" href="classalbert_1_1StandardItem.html">StandardItem</a> &amp;&amp;other) noexcept=default</td></tr>
+<tr class="memdesc:a948b95998a87543c2240050a4022b6a5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a <a class="el" href="classalbert_1_1StandardItem.html">StandardItem</a> with the contents of <em>other</em> using move semantics. <br /></td></tr>
 <tr class="separator:a948b95998a87543c2240050a4022b6a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa7789c4d1633fe7df14c96f561bca20f" id="r_aa7789c4d1633fe7df14c96f561bca20f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classalbert_1_1StandardItem.html">StandardItem</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1StandardItem.html#aa7789c4d1633fe7df14c96f561bca20f">operator=</a> (<a class="el" href="classalbert_1_1StandardItem.html">StandardItem</a> &amp;&amp;other) noexcept=default</td></tr>
-<tr class="memdesc:aa7789c4d1633fe7df14c96f561bca20f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Replaces the contents with those of <em>other</em> using move semantics.  <br /></td></tr>
+<tr class="memitem:aa7789c4d1633fe7df14c96f561bca20f" id="r_aa7789c4d1633fe7df14c96f561bca20f"><td class="memItemLeft" align="right" valign="top"><a id="aa7789c4d1633fe7df14c96f561bca20f" name="aa7789c4d1633fe7df14c96f561bca20f"></a>
+<a class="el" href="classalbert_1_1StandardItem.html">StandardItem</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>operator=</b> (<a class="el" href="classalbert_1_1StandardItem.html">StandardItem</a> &amp;&amp;other) noexcept=default</td></tr>
+<tr class="memdesc:aa7789c4d1633fe7df14c96f561bca20f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Replaces the contents with those of <em>other</em> using move semantics. <br /></td></tr>
 <tr class="separator:aa7789c4d1633fe7df14c96f561bca20f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a95c469c412b5083bff8a7bbaced461a3" id="r_a95c469c412b5083bff8a7bbaced461a3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1StandardItem.html#a95c469c412b5083bff8a7bbaced461a3">~StandardItem</a> ()</td></tr>
-<tr class="memdesc:a95c469c412b5083bff8a7bbaced461a3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructs the <a class="el" href="classalbert_1_1StandardItem.html">StandardItem</a>.  <br /></td></tr>
+<tr class="memitem:a95c469c412b5083bff8a7bbaced461a3" id="r_a95c469c412b5083bff8a7bbaced461a3"><td class="memItemLeft" align="right" valign="top"><a id="a95c469c412b5083bff8a7bbaced461a3" name="a95c469c412b5083bff8a7bbaced461a3"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>~StandardItem</b> ()</td></tr>
+<tr class="memdesc:a95c469c412b5083bff8a7bbaced461a3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructs the <a class="el" href="classalbert_1_1StandardItem.html">StandardItem</a>. <br /></td></tr>
 <tr class="separator:a95c469c412b5083bff8a7bbaced461a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a482b09f80aaec878a9cb3cfded27ecdf" id="r_a482b09f80aaec878a9cb3cfded27ecdf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1StandardItem.html#a482b09f80aaec878a9cb3cfded27ecdf">setId</a> (QString <a class="el" href="classalbert_1_1StandardItem.html#aa7eaf721cdb29dac01f965b912c001be">id</a>)</td></tr>
-<tr class="memdesc:a482b09f80aaec878a9cb3cfded27ecdf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the item identifier to <em>id</em>.  <br /></td></tr>
+<tr class="memitem:a482b09f80aaec878a9cb3cfded27ecdf" id="r_a482b09f80aaec878a9cb3cfded27ecdf"><td class="memItemLeft" align="right" valign="top"><a id="a482b09f80aaec878a9cb3cfded27ecdf" name="a482b09f80aaec878a9cb3cfded27ecdf"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>setId</b> (QString <a class="el" href="classalbert_1_1StandardItem.html#aa7eaf721cdb29dac01f965b912c001be">id</a>)</td></tr>
+<tr class="memdesc:a482b09f80aaec878a9cb3cfded27ecdf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the item identifier to <em>id</em>. <br /></td></tr>
 <tr class="separator:a482b09f80aaec878a9cb3cfded27ecdf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa6a79337acbbe55d810307ee12b3299b" id="r_aa6a79337acbbe55d810307ee12b3299b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1StandardItem.html#aa6a79337acbbe55d810307ee12b3299b">setText</a> (QString <a class="el" href="classalbert_1_1StandardItem.html#adfd90bae2b852c8233cb4b7f464de316">text</a>)</td></tr>
-<tr class="memdesc:aa6a79337acbbe55d810307ee12b3299b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the item text to <em>text</em>.  <br /></td></tr>
+<tr class="memitem:aa6a79337acbbe55d810307ee12b3299b" id="r_aa6a79337acbbe55d810307ee12b3299b"><td class="memItemLeft" align="right" valign="top"><a id="aa6a79337acbbe55d810307ee12b3299b" name="aa6a79337acbbe55d810307ee12b3299b"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>setText</b> (QString <a class="el" href="classalbert_1_1StandardItem.html#adfd90bae2b852c8233cb4b7f464de316">text</a>)</td></tr>
+<tr class="memdesc:aa6a79337acbbe55d810307ee12b3299b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the item text to <em>text</em>. <br /></td></tr>
 <tr class="separator:aa6a79337acbbe55d810307ee12b3299b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a99a7e0aa6350d0f6e74815904fc7778e" id="r_a99a7e0aa6350d0f6e74815904fc7778e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1StandardItem.html#a99a7e0aa6350d0f6e74815904fc7778e">setSubtext</a> (QString <a class="el" href="classalbert_1_1StandardItem.html#adfd90bae2b852c8233cb4b7f464de316">text</a>)</td></tr>
-<tr class="memdesc:a99a7e0aa6350d0f6e74815904fc7778e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the item subtext to <em>text</em>.  <br /></td></tr>
+<tr class="memitem:a99a7e0aa6350d0f6e74815904fc7778e" id="r_a99a7e0aa6350d0f6e74815904fc7778e"><td class="memItemLeft" align="right" valign="top"><a id="a99a7e0aa6350d0f6e74815904fc7778e" name="a99a7e0aa6350d0f6e74815904fc7778e"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>setSubtext</b> (QString <a class="el" href="classalbert_1_1StandardItem.html#adfd90bae2b852c8233cb4b7f464de316">text</a>)</td></tr>
+<tr class="memdesc:a99a7e0aa6350d0f6e74815904fc7778e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the item subtext to <em>text</em>. <br /></td></tr>
 <tr class="separator:a99a7e0aa6350d0f6e74815904fc7778e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0797be92d22dc27732f38a827de8abe5" id="r_a0797be92d22dc27732f38a827de8abe5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1StandardItem.html#a0797be92d22dc27732f38a827de8abe5">setIconFactory</a> (std::function&lt; std::unique_ptr&lt; <a class="el" href="classalbert_1_1Icon.html">Icon</a> &gt;()&gt; icon_factory)</td></tr>
-<tr class="memdesc:a0797be92d22dc27732f38a827de8abe5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the item factory to <em>icon_factory</em>.  <br /></td></tr>
+<tr class="memitem:a0797be92d22dc27732f38a827de8abe5" id="r_a0797be92d22dc27732f38a827de8abe5"><td class="memItemLeft" align="right" valign="top"><a id="a0797be92d22dc27732f38a827de8abe5" name="a0797be92d22dc27732f38a827de8abe5"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>setIconFactory</b> (std::function&lt; std::unique_ptr&lt; <a class="el" href="classalbert_1_1Icon.html">Icon</a> &gt;()&gt; icon_factory)</td></tr>
+<tr class="memdesc:a0797be92d22dc27732f38a827de8abe5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the item factory to <em>icon_factory</em>. <br /></td></tr>
 <tr class="separator:a0797be92d22dc27732f38a827de8abe5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a592716154a66854c9a9dd4930ef5c2d6" id="r_a592716154a66854c9a9dd4930ef5c2d6"><td class="memItemLeft" align="right" valign="top">std::function&lt; std::unique_ptr&lt; <a class="el" href="classalbert_1_1Icon.html">Icon</a> &gt;()&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1StandardItem.html#a592716154a66854c9a9dd4930ef5c2d6">iconFactory</a> ()</td></tr>
-<tr class="memdesc:a592716154a66854c9a9dd4930ef5c2d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the item icon factory.  <br /></td></tr>
+<tr class="memitem:a592716154a66854c9a9dd4930ef5c2d6" id="r_a592716154a66854c9a9dd4930ef5c2d6"><td class="memItemLeft" align="right" valign="top"><a id="a592716154a66854c9a9dd4930ef5c2d6" name="a592716154a66854c9a9dd4930ef5c2d6"></a>
+std::function&lt; std::unique_ptr&lt; <a class="el" href="classalbert_1_1Icon.html">Icon</a> &gt;()&gt;&#160;</td><td class="memItemRight" valign="bottom"><b>iconFactory</b> ()</td></tr>
+<tr class="memdesc:a592716154a66854c9a9dd4930ef5c2d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the item icon factory. <br /></td></tr>
 <tr class="separator:a592716154a66854c9a9dd4930ef5c2d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af285d6a81a83b640bde98abe223ed05f" id="r_af285d6a81a83b640bde98abe223ed05f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1StandardItem.html#af285d6a81a83b640bde98abe223ed05f">setActions</a> (std::vector&lt; <a class="el" href="classalbert_1_1Action.html">Action</a> &gt; <a class="el" href="classalbert_1_1StandardItem.html#a397e19018275ddd82cdfa5c1f07bc459">actions</a>)</td></tr>
-<tr class="memdesc:af285d6a81a83b640bde98abe223ed05f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the item actions to <em>actions</em>.  <br /></td></tr>
+<tr class="memitem:af285d6a81a83b640bde98abe223ed05f" id="r_af285d6a81a83b640bde98abe223ed05f"><td class="memItemLeft" align="right" valign="top"><a id="af285d6a81a83b640bde98abe223ed05f" name="af285d6a81a83b640bde98abe223ed05f"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>setActions</b> (std::vector&lt; <a class="el" href="classalbert_1_1Action.html">Action</a> &gt; <a class="el" href="classalbert_1_1StandardItem.html#a397e19018275ddd82cdfa5c1f07bc459">actions</a>)</td></tr>
+<tr class="memdesc:af285d6a81a83b640bde98abe223ed05f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the item actions to <em>actions</em>. <br /></td></tr>
 <tr class="separator:af285d6a81a83b640bde98abe223ed05f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a82d895992441cca83a444a6b3133e9d7" id="r_a82d895992441cca83a444a6b3133e9d7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1StandardItem.html#a82d895992441cca83a444a6b3133e9d7">setInputActionText</a> (QString <a class="el" href="classalbert_1_1StandardItem.html#adfd90bae2b852c8233cb4b7f464de316">text</a>)</td></tr>
-<tr class="memdesc:a82d895992441cca83a444a6b3133e9d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the item input action text to <em>text</em>.  <br /></td></tr>
+<tr class="memitem:a82d895992441cca83a444a6b3133e9d7" id="r_a82d895992441cca83a444a6b3133e9d7"><td class="memItemLeft" align="right" valign="top"><a id="a82d895992441cca83a444a6b3133e9d7" name="a82d895992441cca83a444a6b3133e9d7"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>setInputActionText</b> (QString <a class="el" href="classalbert_1_1StandardItem.html#adfd90bae2b852c8233cb4b7f464de316">text</a>)</td></tr>
+<tr class="memdesc:a82d895992441cca83a444a6b3133e9d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the item input action text to <em>text</em>. <br /></td></tr>
 <tr class="separator:a82d895992441cca83a444a6b3133e9d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa7eaf721cdb29dac01f965b912c001be" id="r_aa7eaf721cdb29dac01f965b912c001be"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1StandardItem.html#aa7eaf721cdb29dac01f965b912c001be">id</a> () const override</td></tr>
 <tr class="memdesc:aa7eaf721cdb29dac01f965b912c001be"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the item identifier.  <br /></td></tr>
@@ -171,14 +177,17 @@ requires (std::same_as&lt;std::remove_cvref_t&lt;T_ID&gt;, QString&gt; &amp;&amp
 <tr class="memdesc:a397e19018275ddd82cdfa5c1f07bc459"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the item actions.  <br /></td></tr>
 <tr class="separator:a397e19018275ddd82cdfa5c1f07bc459"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classalbert_1_1Item"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classalbert_1_1Item')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classalbert_1_1Item.html">albert::Item</a></td></tr>
-<tr class="memitem:a12e5b15918eac6708436805ea544b343 inherit pub_methods_classalbert_1_1Item" id="r_a12e5b15918eac6708436805ea544b343"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1Item.html#a12e5b15918eac6708436805ea544b343">~Item</a> ()</td></tr>
-<tr class="memdesc:a12e5b15918eac6708436805ea544b343 inherit pub_methods_classalbert_1_1Item"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructs the item.  <br /></td></tr>
+<tr class="memitem:a12e5b15918eac6708436805ea544b343 inherit pub_methods_classalbert_1_1Item" id="r_a12e5b15918eac6708436805ea544b343"><td class="memItemLeft" align="right" valign="top">
+virtual&#160;</td><td class="memItemRight" valign="bottom"><b>~Item</b> ()</td></tr>
+<tr class="memdesc:a12e5b15918eac6708436805ea544b343 inherit pub_methods_classalbert_1_1Item"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructs the item. <br /></td></tr>
 <tr class="separator:a12e5b15918eac6708436805ea544b343 inherit pub_methods_classalbert_1_1Item"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae7aa8d38726094aaac853c96d5d066b2 inherit pub_methods_classalbert_1_1Item" id="r_ae7aa8d38726094aaac853c96d5d066b2"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1Item.html#ae7aa8d38726094aaac853c96d5d066b2">addObserver</a> (<a class="el" href="classalbert_1_1Item_1_1Observer.html">Observer</a> *observer)</td></tr>
-<tr class="memdesc:ae7aa8d38726094aaac853c96d5d066b2 inherit pub_methods_classalbert_1_1Item"><td class="mdescLeft">&#160;</td><td class="mdescRight">Starts notifying <em>observer</em> about any changes.  <br /></td></tr>
+<tr class="memitem:ae7aa8d38726094aaac853c96d5d066b2 inherit pub_methods_classalbert_1_1Item" id="r_ae7aa8d38726094aaac853c96d5d066b2"><td class="memItemLeft" align="right" valign="top">
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>addObserver</b> (<a class="el" href="classalbert_1_1Item_1_1Observer.html">Observer</a> *observer)</td></tr>
+<tr class="memdesc:ae7aa8d38726094aaac853c96d5d066b2 inherit pub_methods_classalbert_1_1Item"><td class="mdescLeft">&#160;</td><td class="mdescRight">Starts notifying <em>observer</em> about any changes. <br /></td></tr>
 <tr class="separator:ae7aa8d38726094aaac853c96d5d066b2 inherit pub_methods_classalbert_1_1Item"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4791d25d38f298d79bfa6889c14f02b9 inherit pub_methods_classalbert_1_1Item" id="r_a4791d25d38f298d79bfa6889c14f02b9"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1Item.html#a4791d25d38f298d79bfa6889c14f02b9">removeObserver</a> (<a class="el" href="classalbert_1_1Item_1_1Observer.html">Observer</a> *observer)</td></tr>
-<tr class="memdesc:a4791d25d38f298d79bfa6889c14f02b9 inherit pub_methods_classalbert_1_1Item"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stops notifying <em>observer</em> about any changes.  <br /></td></tr>
+<tr class="memitem:a4791d25d38f298d79bfa6889c14f02b9 inherit pub_methods_classalbert_1_1Item" id="r_a4791d25d38f298d79bfa6889c14f02b9"><td class="memItemLeft" align="right" valign="top">
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>removeObserver</b> (<a class="el" href="classalbert_1_1Item_1_1Observer.html">Observer</a> *observer)</td></tr>
+<tr class="memdesc:a4791d25d38f298d79bfa6889c14f02b9 inherit pub_methods_classalbert_1_1Item"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stops notifying <em>observer</em> about any changes. <br /></td></tr>
 <tr class="separator:a4791d25d38f298d79bfa6889c14f02b9 inherit pub_methods_classalbert_1_1Item"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
@@ -188,161 +197,7 @@ requires (std::same_as&lt;std::decay_t&lt;T_ID&gt;, QString&gt; &amp;&amp; std::
 <tr class="memitem:a869e6f422ac4d10a9f96a08dba0fcbb5"><td class="memTemplItemLeft" align="right" valign="top">static std::shared_ptr&lt; <a class="el" href="classalbert_1_1StandardItem.html">StandardItem</a> &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classalbert_1_1StandardItem.html#a869e6f422ac4d10a9f96a08dba0fcbb5">make</a> (T_ID &amp;&amp;<a class="el" href="classalbert_1_1StandardItem.html#aa7eaf721cdb29dac01f965b912c001be">id</a>, T_TEXT &amp;&amp;<a class="el" href="classalbert_1_1StandardItem.html#adfd90bae2b852c8233cb4b7f464de316">text</a>, T_SUBTEXT &amp;&amp;<a class="el" href="classalbert_1_1StandardItem.html#a1ab1c6f42fe6e919db5e7f44b4424672">subtext</a>, T_ICON_FACTORY &amp;&amp;icon_factory, T_ACTIONS &amp;&amp;<a class="el" href="classalbert_1_1StandardItem.html#a397e19018275ddd82cdfa5c1f07bc459">actions</a>=std::vector&lt; <a class="el" href="classalbert_1_1Action.html">Action</a> &gt;{}, T_INPUTACTION &amp;&amp;input_action_text=QString{}) noexcept</td></tr>
 <tr class="memdesc:a869e6f422ac4d10a9f96a08dba0fcbb5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a <code>shared_ptr</code> holding a <a class="el" href="classalbert_1_1StandardItem.html">StandardItem</a> with the contents initialized with the data passed.  <br /></td></tr>
 <tr class="separator:a869e6f422ac4d10a9f96a08dba0fcbb5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
-Protected Attributes</h2></td></tr>
-<tr class="memitem:a580b213d38ef4e7f5e2e05669b5ee750" id="r_a580b213d38ef4e7f5e2e05669b5ee750"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1StandardItem.html#a580b213d38ef4e7f5e2e05669b5ee750">id_</a></td></tr>
-<tr class="separator:a580b213d38ef4e7f5e2e05669b5ee750"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a277d77f4c599d91187820f849e9a9c52" id="r_a277d77f4c599d91187820f849e9a9c52"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1StandardItem.html#a277d77f4c599d91187820f849e9a9c52">text_</a></td></tr>
-<tr class="separator:a277d77f4c599d91187820f849e9a9c52"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8e276ffbab6c0c02dcdd4f8647d63869" id="r_a8e276ffbab6c0c02dcdd4f8647d63869"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1StandardItem.html#a8e276ffbab6c0c02dcdd4f8647d63869">subtext_</a></td></tr>
-<tr class="separator:a8e276ffbab6c0c02dcdd4f8647d63869"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8d6f06459eb886e373499846c51b6b18" id="r_a8d6f06459eb886e373499846c51b6b18"><td class="memItemLeft" align="right" valign="top">std::function&lt; std::unique_ptr&lt; <a class="el" href="classalbert_1_1Icon.html">Icon</a> &gt;()&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1StandardItem.html#a8d6f06459eb886e373499846c51b6b18">icon_factory_</a></td></tr>
-<tr class="separator:a8d6f06459eb886e373499846c51b6b18"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac6f077b942850287a4ebfc2f704808da" id="r_ac6f077b942850287a4ebfc2f704808da"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classalbert_1_1Action.html">Action</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1StandardItem.html#ac6f077b942850287a4ebfc2f704808da">actions_</a></td></tr>
-<tr class="separator:ac6f077b942850287a4ebfc2f704808da"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ace0e1c5710b75656df13f53a2588be66" id="r_ace0e1c5710b75656df13f53a2588be66"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1StandardItem.html#ace0e1c5710b75656df13f53a2588be66">input_action_text_</a></td></tr>
-<tr class="separator:ace0e1c5710b75656df13f53a2588be66"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="aadb266946eefccf5f54cedaf4c955ef1" name="aadb266946eefccf5f54cedaf4c955ef1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aadb266946eefccf5f54cedaf4c955ef1">&#9670;&#160;</a></span>StandardItem() <span class="overload">[1/3]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T_ID  = QString, typename T_TEXT  = QString, typename T_SUBTEXT  = QString, typename T_ICON_FACTORY  = std::function&lt;std::unique_ptr&lt;Icon&gt;()&gt;, typename T_ACTIONS  = std::vector&lt;Action&gt;, typename T_INPUTACTION  = QString&gt; <br />
-requires (std::same_as&lt;std::remove_cvref_t&lt;T_ID&gt;, QString&gt; &amp;&amp; std::same_as&lt;std::remove_cvref_t&lt;T_TEXT&gt;, QString&gt; &amp;&amp; std::same_as&lt;std::remove_cvref_t&lt;T_SUBTEXT&gt;, QString&gt; &amp;&amp; std::convertible_to&lt;std::remove_cvref_t&lt;T_ICON_FACTORY&gt;, std::function&lt;std::unique_ptr&lt;<a class="el" href="classalbert_1_1Icon.html">Icon</a>&gt;()&gt;&gt; &amp;&amp; std::same_as&lt;std::remove_cvref_t&lt;T_ACTIONS&gt;, std::vector&lt;<a class="el" href="classalbert_1_1Action.html">Action</a>&gt;&gt; &amp;&amp; std::same_as&lt;std::remove_cvref_t&lt;T_INPUTACTION&gt;, QString&gt;)</div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">albert::StandardItem::StandardItem </td>
-          <td>(</td>
-          <td class="paramtype">T_ID &amp;&amp;&#160;</td>
-          <td class="paramname"><em>id</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">T_TEXT &amp;&amp;&#160;</td>
-          <td class="paramname"><em>text</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">T_SUBTEXT &amp;&amp;&#160;</td>
-          <td class="paramname"><em>subtext</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">T_ICON_FACTORY &amp;&amp;&#160;</td>
-          <td class="paramname"><em>icon_factory</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">T_ACTIONS &amp;&amp;&#160;</td>
-          <td class="paramname"><em>actions</em> = <code>std::vector&lt;<a class="el" href="classalbert_1_1Action.html">Action</a>&gt;{}</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">T_INPUTACTION &amp;&amp;&#160;</td>
-          <td class="paramname"><em>input_action_text</em> = <code>QString{}</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Constructs a <a class="el" href="classalbert_1_1StandardItem.html">StandardItem</a> with the contents initialized with the data passed. </p>
-
-</div>
-</div>
-<a id="a4fc74616cb7bb8b4c4fc28d66781b910" name="a4fc74616cb7bb8b4c4fc28d66781b910"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4fc74616cb7bb8b4c4fc28d66781b910">&#9670;&#160;</a></span>StandardItem() <span class="overload">[2/3]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">albert::StandardItem::StandardItem </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="classalbert_1_1StandardItem.html">StandardItem</a> &amp;&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">delete</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a948b95998a87543c2240050a4022b6a5" name="a948b95998a87543c2240050a4022b6a5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a948b95998a87543c2240050a4022b6a5">&#9670;&#160;</a></span>StandardItem() <span class="overload">[3/3]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">albert::StandardItem::StandardItem </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="classalbert_1_1StandardItem.html">StandardItem</a> &amp;&amp;&#160;</td>
-          <td class="paramname"><em>other</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">default</span><span class="mlabel">noexcept</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Constructs a <a class="el" href="classalbert_1_1StandardItem.html">StandardItem</a> with the contents of <em>other</em> using move semantics. </p>
-
-</div>
-</div>
-<a id="a95c469c412b5083bff8a7bbaced461a3" name="a95c469c412b5083bff8a7bbaced461a3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a95c469c412b5083bff8a7bbaced461a3">&#9670;&#160;</a></span>~StandardItem()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">albert::StandardItem::~StandardItem </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Destructs the <a class="el" href="classalbert_1_1StandardItem.html">StandardItem</a>. </p>
-
-</div>
-</div>
 <h2 class="groupheader">Member Function Documentation</h2>
 <a id="a397e19018275ddd82cdfa5c1f07bc459" name="a397e19018275ddd82cdfa5c1f07bc459"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a397e19018275ddd82cdfa5c1f07bc459">&#9670;&#160;</a></span>actions()</h2>
@@ -401,25 +256,6 @@ requires (std::same_as&lt;std::remove_cvref_t&lt;T_ID&gt;, QString&gt; &amp;&amp
 <p>Do <em>not</em> clone a stored icon in this function. Icons can be a heavy resource. Instead return a new instance every time this function is called. The view will cache the icon instance. </p>
 
 <p>Implements <a class="el" href="classalbert_1_1Item.html#a182e6af95bdf2350a41d1be0719593b6">albert::Item</a>.</p>
-
-</div>
-</div>
-<a id="a592716154a66854c9a9dd4930ef5c2d6" name="a592716154a66854c9a9dd4930ef5c2d6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a592716154a66854c9a9dd4930ef5c2d6">&#9670;&#160;</a></span>iconFactory()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::function&lt; std::unique_ptr&lt; <a class="el" href="classalbert_1_1Icon.html">Icon</a> &gt;()&gt; albert::StandardItem::iconFactory </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Returns the item icon factory. </p>
 
 </div>
 </div>
@@ -550,180 +386,6 @@ requires (std::same_as&lt;std::decay_t&lt;T_ID&gt;, QString&gt; &amp;&amp; std::
 
 </div>
 </div>
-<a id="ab099fb8d9964defec643468f1a3b90dd" name="ab099fb8d9964defec643468f1a3b90dd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab099fb8d9964defec643468f1a3b90dd">&#9670;&#160;</a></span>operator=() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classalbert_1_1StandardItem.html">StandardItem</a> &amp; albert::StandardItem::operator= </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="classalbert_1_1StandardItem.html">StandardItem</a> &amp;&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">delete</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aa7789c4d1633fe7df14c96f561bca20f" name="aa7789c4d1633fe7df14c96f561bca20f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa7789c4d1633fe7df14c96f561bca20f">&#9670;&#160;</a></span>operator=() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classalbert_1_1StandardItem.html">StandardItem</a> &amp; albert::StandardItem::operator= </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="classalbert_1_1StandardItem.html">StandardItem</a> &amp;&amp;&#160;</td>
-          <td class="paramname"><em>other</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">default</span><span class="mlabel">noexcept</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Replaces the contents with those of <em>other</em> using move semantics. </p>
-
-</div>
-</div>
-<a id="af285d6a81a83b640bde98abe223ed05f" name="af285d6a81a83b640bde98abe223ed05f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af285d6a81a83b640bde98abe223ed05f">&#9670;&#160;</a></span>setActions()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void albert::StandardItem::setActions </td>
-          <td>(</td>
-          <td class="paramtype">std::vector&lt; <a class="el" href="classalbert_1_1Action.html">Action</a> &gt;&#160;</td>
-          <td class="paramname"><em>actions</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Sets the item actions to <em>actions</em>. </p>
-
-</div>
-</div>
-<a id="a0797be92d22dc27732f38a827de8abe5" name="a0797be92d22dc27732f38a827de8abe5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0797be92d22dc27732f38a827de8abe5">&#9670;&#160;</a></span>setIconFactory()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void albert::StandardItem::setIconFactory </td>
-          <td>(</td>
-          <td class="paramtype">std::function&lt; std::unique_ptr&lt; <a class="el" href="classalbert_1_1Icon.html">Icon</a> &gt;()&gt;&#160;</td>
-          <td class="paramname"><em>icon_factory</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Sets the item factory to <em>icon_factory</em>. </p>
-
-</div>
-</div>
-<a id="a482b09f80aaec878a9cb3cfded27ecdf" name="a482b09f80aaec878a9cb3cfded27ecdf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a482b09f80aaec878a9cb3cfded27ecdf">&#9670;&#160;</a></span>setId()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void albert::StandardItem::setId </td>
-          <td>(</td>
-          <td class="paramtype">QString&#160;</td>
-          <td class="paramname"><em>id</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Sets the item identifier to <em>id</em>. </p>
-
-</div>
-</div>
-<a id="a82d895992441cca83a444a6b3133e9d7" name="a82d895992441cca83a444a6b3133e9d7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a82d895992441cca83a444a6b3133e9d7">&#9670;&#160;</a></span>setInputActionText()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void albert::StandardItem::setInputActionText </td>
-          <td>(</td>
-          <td class="paramtype">QString&#160;</td>
-          <td class="paramname"><em>text</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Sets the item input action text to <em>text</em>. </p>
-
-</div>
-</div>
-<a id="a99a7e0aa6350d0f6e74815904fc7778e" name="a99a7e0aa6350d0f6e74815904fc7778e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a99a7e0aa6350d0f6e74815904fc7778e">&#9670;&#160;</a></span>setSubtext()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void albert::StandardItem::setSubtext </td>
-          <td>(</td>
-          <td class="paramtype">QString&#160;</td>
-          <td class="paramname"><em>text</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Sets the item subtext to <em>text</em>. </p>
-
-</div>
-</div>
-<a id="aa6a79337acbbe55d810307ee12b3299b" name="aa6a79337acbbe55d810307ee12b3299b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa6a79337acbbe55d810307ee12b3299b">&#9670;&#160;</a></span>setText()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void albert::StandardItem::setText </td>
-          <td>(</td>
-          <td class="paramtype">QString&#160;</td>
-          <td class="paramname"><em>text</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Sets the item text to <em>text</em>. </p>
-
-</div>
-</div>
 <a id="a1ab1c6f42fe6e919db5e7f44b4424672" name="a1ab1c6f42fe6e919db5e7f44b4424672"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1ab1c6f42fe6e919db5e7f44b4424672">&#9670;&#160;</a></span>subtext()</h2>
 
@@ -781,139 +443,6 @@ requires (std::same_as&lt;std::decay_t&lt;T_ID&gt;, QString&gt; &amp;&amp; std::
 <p>Primary text displayed emphasized in a list item. The string must not be empty, since the text length is used as divisor for scoring. Return as fast as possible. No checks are performed. If empty you get undefined behavior. </p>
 
 <p>Implements <a class="el" href="classalbert_1_1Item.html#acf06be44b0d88db1941325b06c5d671d">albert::Item</a>.</p>
-
-</div>
-</div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a id="ac6f077b942850287a4ebfc2f704808da" name="ac6f077b942850287a4ebfc2f704808da"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac6f077b942850287a4ebfc2f704808da">&#9670;&#160;</a></span>actions_</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::vector&lt;<a class="el" href="classalbert_1_1Action.html">Action</a>&gt; albert::StandardItem::actions_</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a8d6f06459eb886e373499846c51b6b18" name="a8d6f06459eb886e373499846c51b6b18"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8d6f06459eb886e373499846c51b6b18">&#9670;&#160;</a></span>icon_factory_</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::function&lt;std::unique_ptr&lt;<a class="el" href="classalbert_1_1Icon.html">Icon</a>&gt;()&gt; albert::StandardItem::icon_factory_</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a580b213d38ef4e7f5e2e05669b5ee750" name="a580b213d38ef4e7f5e2e05669b5ee750"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a580b213d38ef4e7f5e2e05669b5ee750">&#9670;&#160;</a></span>id_</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">QString albert::StandardItem::id_</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ace0e1c5710b75656df13f53a2588be66" name="ace0e1c5710b75656df13f53a2588be66"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ace0e1c5710b75656df13f53a2588be66">&#9670;&#160;</a></span>input_action_text_</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">QString albert::StandardItem::input_action_text_</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a8e276ffbab6c0c02dcdd4f8647d63869" name="a8e276ffbab6c0c02dcdd4f8647d63869"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8e276ffbab6c0c02dcdd4f8647d63869">&#9670;&#160;</a></span>subtext_</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">QString albert::StandardItem::subtext_</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a277d77f4c599d91187820f849e9a9c52" name="a277d77f4c599d91187820f849e9a9c52"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a277d77f4c599d91187820f849e9a9c52">&#9670;&#160;</a></span>text_</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">QString albert::StandardItem::text_</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
 
 </div>
 </div>

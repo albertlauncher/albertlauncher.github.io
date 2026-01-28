@@ -1,7 +1,8 @@
 var searchData=
 [
-  ['plugininstance_0',['PluginInstance',['../classalbert_1_1PluginInstance.html',1,'albert']]],
-  ['pluginloader_1',['PluginLoader',['../classalbert_1_1PluginLoader.html',1,'albert']]],
-  ['pluginmetadata_2',['PluginMetadata',['../classalbert_1_1PluginMetadata.html',1,'albert']]],
-  ['pluginprovider_3',['PluginProvider',['../classalbert_1_1PluginProvider.html',1,'albert']]]
+  ['querycontext_0',['QueryContext',['../classalbert_1_1QueryContext.html',1,'albert']]],
+  ['queryexecution_1',['QueryExecution',['../classalbert_1_1QueryExecution.html',1,'albert']]],
+  ['queryhandler_2',['QueryHandler',['../classalbert_1_1QueryHandler.html',1,'albert']]],
+  ['queryresult_3',['QueryResult',['../classalbert_1_1QueryResult.html',1,'albert']]],
+  ['queryresults_4',['QueryResults',['../classalbert_1_1QueryResults.html',1,'albert']]]
 ];

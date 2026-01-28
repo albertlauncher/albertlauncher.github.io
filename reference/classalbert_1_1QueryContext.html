@@ -95,7 +95,6 @@ $(document).ready(function(){initNavTree('classalbert_1_1QueryContext.html','');
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="classalbert_1_1QueryContext-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">albert::QueryContext Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span><div class="ingroups"><a class="el" href="group__core.html">Core API</a> &raquo; <a class="el" href="group__core__query.html">Query handling</a></div></div></div>
 </div><!--header-->
@@ -112,81 +111,28 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ad094f4c93aa808926cb0701a6bc28644" id="r_ad094f4c93aa808926cb0701a6bc28644"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1QueryContext.html#ad094f4c93aa808926cb0701a6bc28644">isValid</a> () const =0</td></tr>
 <tr class="memdesc:ad094f4c93aa808926cb0701a6bc28644"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns <code>true</code> if the query is valid; <code>false</code> if it has been cancelled.  <br /></td></tr>
 <tr class="separator:ad094f4c93aa808926cb0701a6bc28644"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aede6b64d66097bc36215003a38b89425" id="r_aede6b64d66097bc36215003a38b89425"><td class="memItemLeft" align="right" valign="top">virtual const <a class="el" href="classalbert_1_1QueryHandler.html">QueryHandler</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1QueryContext.html#aede6b64d66097bc36215003a38b89425">handler</a> () const =0</td></tr>
-<tr class="memdesc:aede6b64d66097bc36215003a38b89425"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the handler of this query.  <br /></td></tr>
+<tr class="memitem:aede6b64d66097bc36215003a38b89425" id="r_aede6b64d66097bc36215003a38b89425"><td class="memItemLeft" align="right" valign="top"><a id="aede6b64d66097bc36215003a38b89425" name="aede6b64d66097bc36215003a38b89425"></a>
+virtual const <a class="el" href="classalbert_1_1QueryHandler.html">QueryHandler</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>handler</b> () const =0</td></tr>
+<tr class="memdesc:aede6b64d66097bc36215003a38b89425"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the handler of this query. <br /></td></tr>
 <tr class="separator:aede6b64d66097bc36215003a38b89425"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8803a88d13a8cf092cc116b44fe09d05" id="r_a8803a88d13a8cf092cc116b44fe09d05"><td class="memItemLeft" align="right" valign="top">virtual QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1QueryContext.html#a8803a88d13a8cf092cc116b44fe09d05">trigger</a> () const =0</td></tr>
-<tr class="memdesc:a8803a88d13a8cf092cc116b44fe09d05"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the trigger string of the query.  <br /></td></tr>
+<tr class="memitem:a8803a88d13a8cf092cc116b44fe09d05" id="r_a8803a88d13a8cf092cc116b44fe09d05"><td class="memItemLeft" align="right" valign="top"><a id="a8803a88d13a8cf092cc116b44fe09d05" name="a8803a88d13a8cf092cc116b44fe09d05"></a>
+virtual QString&#160;</td><td class="memItemRight" valign="bottom"><b>trigger</b> () const =0</td></tr>
+<tr class="memdesc:a8803a88d13a8cf092cc116b44fe09d05"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the trigger string of the query. <br /></td></tr>
 <tr class="separator:a8803a88d13a8cf092cc116b44fe09d05"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af2792c2f652eed9a34ca74f8f0ddd1d0" id="r_af2792c2f652eed9a34ca74f8f0ddd1d0"><td class="memItemLeft" align="right" valign="top">virtual QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1QueryContext.html#af2792c2f652eed9a34ca74f8f0ddd1d0">query</a> () const =0</td></tr>
-<tr class="memdesc:af2792c2f652eed9a34ca74f8f0ddd1d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the query string of the query.  <br /></td></tr>
+<tr class="memitem:af2792c2f652eed9a34ca74f8f0ddd1d0" id="r_af2792c2f652eed9a34ca74f8f0ddd1d0"><td class="memItemLeft" align="right" valign="top"><a id="af2792c2f652eed9a34ca74f8f0ddd1d0" name="af2792c2f652eed9a34ca74f8f0ddd1d0"></a>
+virtual QString&#160;</td><td class="memItemRight" valign="bottom"><b>query</b> () const =0</td></tr>
+<tr class="memdesc:af2792c2f652eed9a34ca74f8f0ddd1d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the query string of the query. <br /></td></tr>
 <tr class="separator:af2792c2f652eed9a34ca74f8f0ddd1d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1b150b4b618b3c6724891ab32d85ab0d" id="r_a1b150b4b618b3c6724891ab32d85ab0d"><td class="memItemLeft" align="right" valign="top">virtual const <a class="el" href="classalbert_1_1UsageScoring.html">UsageScoring</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1QueryContext.html#a1b150b4b618b3c6724891ab32d85ab0d">usageScoring</a> () const =0</td></tr>
-<tr class="memdesc:a1b150b4b618b3c6724891ab32d85ab0d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the usage scoring.  <br /></td></tr>
+<tr class="memitem:a1b150b4b618b3c6724891ab32d85ab0d" id="r_a1b150b4b618b3c6724891ab32d85ab0d"><td class="memItemLeft" align="right" valign="top"><a id="a1b150b4b618b3c6724891ab32d85ab0d" name="a1b150b4b618b3c6724891ab32d85ab0d"></a>
+virtual const <a class="el" href="classalbert_1_1UsageScoring.html">UsageScoring</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>usageScoring</b> () const =0</td></tr>
+<tr class="memdesc:a1b150b4b618b3c6724891ab32d85ab0d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the usage scoring. <br /></td></tr>
 <tr class="separator:a1b150b4b618b3c6724891ab32d85ab0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa616b2da8344e22a4d18a6ff252da98c" id="r_aa616b2da8344e22a4d18a6ff252da98c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1QueryContext.html#aa616b2da8344e22a4d18a6ff252da98c">operator QString</a> () const</td></tr>
-<tr class="memdesc:aa616b2da8344e22a4d18a6ff252da98c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Implicit QString context conversion.  <br /></td></tr>
+<tr class="memitem:aa616b2da8344e22a4d18a6ff252da98c" id="r_aa616b2da8344e22a4d18a6ff252da98c"><td class="memItemLeft" align="right" valign="top"><a id="aa616b2da8344e22a4d18a6ff252da98c" name="aa616b2da8344e22a4d18a6ff252da98c"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>operator QString</b> () const</td></tr>
+<tr class="memdesc:aa616b2da8344e22a4d18a6ff252da98c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Implicit QString context conversion. <br /></td></tr>
 <tr class="separator:aa616b2da8344e22a4d18a6ff252da98c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
-Protected Member Functions</h2></td></tr>
-<tr class="memitem:afaaddf71ec856064160698376b2cfa86" id="r_afaaddf71ec856064160698376b2cfa86"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1QueryContext.html#afaaddf71ec856064160698376b2cfa86">~QueryContext</a> ()=default</td></tr>
-<tr class="separator:afaaddf71ec856064160698376b2cfa86"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="afaaddf71ec856064160698376b2cfa86" name="afaaddf71ec856064160698376b2cfa86"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afaaddf71ec856064160698376b2cfa86">&#9670;&#160;</a></span>~QueryContext()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual albert::QueryContext::~QueryContext </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span><span class="mlabel">default</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="aede6b64d66097bc36215003a38b89425" name="aede6b64d66097bc36215003a38b89425"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aede6b64d66097bc36215003a38b89425">&#9670;&#160;</a></span>handler()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual const <a class="el" href="classalbert_1_1QueryHandler.html">QueryHandler</a> &amp; albert::QueryContext::handler </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Returns the handler of this query. </p>
-
-</div>
-</div>
 <a id="ad094f4c93aa808926cb0701a6bc28644" name="ad094f4c93aa808926cb0701a6bc28644"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad094f4c93aa808926cb0701a6bc28644">&#9670;&#160;</a></span>isValid()</h2>
 
@@ -212,114 +158,6 @@ Protected Member Functions</h2></td></tr>
 
 <p>Returns <code>true</code> if the query is valid; <code>false</code> if it has been cancelled. </p>
 <p>This function is thread-safe. </p>
-
-</div>
-</div>
-<a id="aa616b2da8344e22a4d18a6ff252da98c" name="aa616b2da8344e22a4d18a6ff252da98c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa616b2da8344e22a4d18a6ff252da98c">&#9670;&#160;</a></span>operator QString()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">albert::QueryContext::operator QString </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Implicit QString context conversion. </p>
-
-</div>
-</div>
-<a id="af2792c2f652eed9a34ca74f8f0ddd1d0" name="af2792c2f652eed9a34ca74f8f0ddd1d0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af2792c2f652eed9a34ca74f8f0ddd1d0">&#9670;&#160;</a></span>query()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual QString albert::QueryContext::query </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Returns the query string of the query. </p>
-
-</div>
-</div>
-<a id="a8803a88d13a8cf092cc116b44fe09d05" name="a8803a88d13a8cf092cc116b44fe09d05"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8803a88d13a8cf092cc116b44fe09d05">&#9670;&#160;</a></span>trigger()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual QString albert::QueryContext::trigger </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Returns the trigger string of the query. </p>
-
-</div>
-</div>
-<a id="a1b150b4b618b3c6724891ab32d85ab0d" name="a1b150b4b618b3c6724891ab32d85ab0d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1b150b4b618b3c6724891ab32d85ab0d">&#9670;&#160;</a></span>usageScoring()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual const <a class="el" href="classalbert_1_1UsageScoring.html">UsageScoring</a> &amp; albert::QueryContext::usageScoring </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Returns the usage scoring. </p>
 
 </div>
 </div>

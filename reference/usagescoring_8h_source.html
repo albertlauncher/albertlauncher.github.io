@@ -101,7 +101,7 @@ $(document).ready(function(){initNavTree('usagescoring_8h_source.html',''); init
   <div class="headertitle"><div class="title">usagescoring.h</div></div>
 </div><!--header-->
 <div class="contents">
-<a href="usagescoring_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="comment">// SPDX-FileCopyrightText: 2025 Manuel Schneider</span></div>
+<div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="comment">// SPDX-FileCopyrightText: 2025 Manuel Schneider</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="comment">// SPDX-License-Identifier: MIT</span></div>
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span> </div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#pragma once</span></div>
@@ -115,14 +115,12 @@ $(document).ready(function(){initNavTree('usagescoring_8h_source.html',''); init
 <div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="keyword">class </span>RankItem;</div>
 <div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span> </div>
 <div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span> </div>
-<div class="foldopen" id="foldopen00015" data-start="{" data-end="};">
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno"><a class="line" href="structalbert_1_1ItemKey.html">   15</a></span><span class="keyword">struct </span>ALBERT_EXPORT <a class="code hl_struct" href="structalbert_1_1ItemKey.html">ItemKey</a></div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="keyword">struct </span>ALBERT_EXPORT ItemKey</div>
 <div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>{</div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno"><a class="line" href="structalbert_1_1ItemKey.html#ade039b2e287991b4dcb02397e8fcbf20">   17</a></span>    QString <a class="code hl_variable" href="structalbert_1_1ItemKey.html#ade039b2e287991b4dcb02397e8fcbf20">extension_id</a>;</div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno"><a class="line" href="structalbert_1_1ItemKey.html#a4d3c962ff5da21d541bde191cc938ce3">   18</a></span>    QString <a class="code hl_variable" href="structalbert_1_1ItemKey.html#a4d3c962ff5da21d541bde191cc938ce3">item_id</a>;</div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno"><a class="line" href="structalbert_1_1ItemKey.html#afc8ec3733bf659f180627e28b7df80b5">   19</a></span>    <span class="keywordtype">bool</span> <a class="code hl_function" href="structalbert_1_1ItemKey.html#afc8ec3733bf659f180627e28b7df80b5">operator==</a>(<span class="keyword">const</span> <a class="code hl_struct" href="structalbert_1_1ItemKey.html">ItemKey</a>&amp;) <span class="keyword">const</span> = <span class="keywordflow">default</span>;</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>    QString extension_id;</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>    QString item_id;</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>    <span class="keywordtype">bool</span> operator==(<span class="keyword">const</span> ItemKey&amp;) <span class="keyword">const</span> = <span class="keywordflow">default</span>;</div>
 <div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>};</div>
-</div>
 <div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span> </div>
 <div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span> </div>
 <div class="foldopen" id="foldopen00028" data-start="{" data-end="};">
@@ -130,7 +128,7 @@ $(document).ready(function(){initNavTree('usagescoring_8h_source.html',''); init
 <div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>{</div>
 <div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span><span class="keyword">public</span>:</div>
 <div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span> </div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno"><a class="line" href="classalbert_1_1UsageScoring.html#a0c946c11584a805294e471fc55f0f8bf">   33</a></span>    <span class="keywordtype">double</span> <a class="code hl_function" href="classalbert_1_1UsageScoring.html#a0c946c11584a805294e471fc55f0f8bf">modifiedMatchScore</a>(<span class="keyword">const</span> <a class="code hl_struct" href="structalbert_1_1ItemKey.html">ItemKey</a> &amp;key, <span class="keywordtype">double</span> match_score) <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno"><a class="line" href="classalbert_1_1UsageScoring.html#a0c946c11584a805294e471fc55f0f8bf">   33</a></span>    <span class="keywordtype">double</span> <a class="code hl_function" href="classalbert_1_1UsageScoring.html#a0c946c11584a805294e471fc55f0f8bf">modifiedMatchScore</a>(<span class="keyword">const</span> ItemKey &amp;key, <span class="keywordtype">double</span> match_score) <span class="keyword">const</span>;</div>
 <div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span> </div>
 <div class="line"><a id="l00036" name="l00036"></a><span class="lineno"><a class="line" href="classalbert_1_1UsageScoring.html#ae037061f447cd5455690be301f050632">   36</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="classalbert_1_1UsageScoring.html#ae037061f447cd5455690be301f050632">modifyMatchScores</a>(<span class="keyword">const</span> QString &amp;extension_id, std::vector&lt;albert::RankItem&gt; &amp;rank_items) <span class="keyword">const</span>;</div>
 <div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span> </div>
@@ -147,16 +145,12 @@ $(document).ready(function(){initNavTree('usagescoring_8h_source.html',''); init
 <div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span> </div>
 <div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span><span class="comment">// Hashing specialization for ItemKey</span></div>
 <div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span><span class="keyword">template</span> &lt;&gt;</div>
-<div class="foldopen" id="foldopen00060" data-start="{" data-end="};">
-<div class="line"><a id="l00060" name="l00060"></a><span class="lineno"><a class="line" href="structstd_1_1hash_3_01albert_1_1ItemKey_01_4.html">   60</a></span><span class="keyword">struct </span>std::hash&lt;<a class="code hl_namespace" href="namespacealbert.html">albert</a>::ItemKey&gt;</div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span><span class="keyword">struct </span>std::hash&lt;<a class="code hl_namespace" href="namespacealbert.html">albert</a>::ItemKey&gt;</div>
 <div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>{</div>
 <div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>    <span class="comment">// https://stackoverflow.com/questions/17016175/c-unordered-map-using-a-custom-class-type-as-the-key#comment39936543_17017281</span></div>
-<div class="foldopen" id="foldopen00063" data-start="{" data-end="}">
-<div class="line"><a id="l00063" name="l00063"></a><span class="lineno"><a class="line" href="structstd_1_1hash_3_01albert_1_1ItemKey_01_4.html#a487307b808df4dbc4ad4d2ab4a23f00f">   63</a></span>    <span class="keyword">inline</span> std::size_t <a class="code hl_function" href="structstd_1_1hash_3_01albert_1_1ItemKey_01_4.html#a487307b808df4dbc4ad4d2ab4a23f00f">operator()</a>(<span class="keyword">const</span> <a class="code hl_struct" href="structalbert_1_1ItemKey.html">albert::ItemKey</a>&amp; key)<span class="keyword"> const</span></div>
-<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span><span class="keyword">    </span>{ <span class="keywordflow">return</span> (qHash(key.<a class="code hl_variable" href="structalbert_1_1ItemKey.html#ade039b2e287991b4dcb02397e8fcbf20">extension_id</a>) ^ (qHash(key.<a class="code hl_variable" href="structalbert_1_1ItemKey.html#a4d3c962ff5da21d541bde191cc938ce3">item_id</a>)&lt;&lt; 1)); }</div>
-</div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>    <span class="keyword">inline</span> std::size_t operator()(<span class="keyword">const</span> albert::ItemKey&amp; key)<span class="keyword"> const</span></div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span><span class="keyword">    </span>{ <span class="keywordflow">return</span> (qHash(key.extension_id) ^ (qHash(key.item_id)&lt;&lt; 1)); }</div>
 <div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>};</div>
-</div>
 <div class="ttc" id="aclassalbert_1_1UsageScoring_html"><div class="ttname"><a href="classalbert_1_1UsageScoring.html">albert::UsageScoring</a></div><div class="ttdoc">Modifies match scores according to user usage history and preferences.</div><div class="ttdef"><b>Definition</b> usagescoring.h:29</div></div>
 <div class="ttc" id="aclassalbert_1_1UsageScoring_html_a0c946c11584a805294e471fc55f0f8bf"><div class="ttname"><a href="classalbert_1_1UsageScoring.html#a0c946c11584a805294e471fc55f0f8bf">albert::UsageScoring::modifiedMatchScore</a></div><div class="ttdeci">double modifiedMatchScore(const ItemKey &amp;key, double match_score) const</div><div class="ttdoc">Returns the modified match_score for an item identified by key.</div></div>
 <div class="ttc" id="aclassalbert_1_1UsageScoring_html_a2809c13cb26c8da72e09ef1ea57a6100"><div class="ttname"><a href="classalbert_1_1UsageScoring.html#a2809c13cb26c8da72e09ef1ea57a6100">albert::UsageScoring::memory_decay</a></div><div class="ttdeci">double memory_decay</div><div class="ttdoc">The exponential decay applied to usage scores based on recency.</div><div class="ttdef"><b>Definition</b> usagescoring.h:49</div></div>
@@ -164,17 +158,12 @@ $(document).ready(function(){initNavTree('usagescoring_8h_source.html',''); init
 <div class="ttc" id="aclassalbert_1_1UsageScoring_html_adcd9e1668cfba5dd310d4e5990fd9562"><div class="ttname"><a href="classalbert_1_1UsageScoring.html#adcd9e1668cfba5dd310d4e5990fd9562">albert::UsageScoring::prioritize_perfect_match</a></div><div class="ttdeci">bool prioritize_perfect_match</div><div class="ttdoc">If true perfect matches should be prioritized even if their usage score is lower.</div><div class="ttdef"><b>Definition</b> usagescoring.h:39</div></div>
 <div class="ttc" id="aclassalbert_1_1UsageScoring_html_ae037061f447cd5455690be301f050632"><div class="ttname"><a href="classalbert_1_1UsageScoring.html#ae037061f447cd5455690be301f050632">albert::UsageScoring::modifyMatchScores</a></div><div class="ttdeci">void modifyMatchScores(const QString &amp;extension_id, std::vector&lt; albert::RankItem &gt; &amp;rank_items) const</div><div class="ttdoc">Modifies the match score of rank_item for an item identified by key in-place.</div></div>
 <div class="ttc" id="anamespacealbert_html"><div class="ttname"><a href="namespacealbert.html">albert</a></div><div class="ttdoc">The Albert namespace.</div><div class="ttdef"><b>Definition</b> app.h:55</div></div>
-<div class="ttc" id="astructalbert_1_1ItemKey_html"><div class="ttname"><a href="structalbert_1_1ItemKey.html">albert::ItemKey</a></div><div class="ttdef"><b>Definition</b> usagescoring.h:16</div></div>
-<div class="ttc" id="astructalbert_1_1ItemKey_html_a4d3c962ff5da21d541bde191cc938ce3"><div class="ttname"><a href="structalbert_1_1ItemKey.html#a4d3c962ff5da21d541bde191cc938ce3">albert::ItemKey::item_id</a></div><div class="ttdeci">QString item_id</div><div class="ttdef"><b>Definition</b> usagescoring.h:18</div></div>
-<div class="ttc" id="astructalbert_1_1ItemKey_html_ade039b2e287991b4dcb02397e8fcbf20"><div class="ttname"><a href="structalbert_1_1ItemKey.html#ade039b2e287991b4dcb02397e8fcbf20">albert::ItemKey::extension_id</a></div><div class="ttdeci">QString extension_id</div><div class="ttdef"><b>Definition</b> usagescoring.h:17</div></div>
-<div class="ttc" id="astructalbert_1_1ItemKey_html_afc8ec3733bf659f180627e28b7df80b5"><div class="ttname"><a href="structalbert_1_1ItemKey.html#afc8ec3733bf659f180627e28b7df80b5">albert::ItemKey::operator==</a></div><div class="ttdeci">bool operator==(const ItemKey &amp;) const =default</div></div>
-<div class="ttc" id="astructstd_1_1hash_3_01albert_1_1ItemKey_01_4_html_a487307b808df4dbc4ad4d2ab4a23f00f"><div class="ttname"><a href="structstd_1_1hash_3_01albert_1_1ItemKey_01_4.html#a487307b808df4dbc4ad4d2ab4a23f00f">std::hash&lt; albert::ItemKey &gt;::operator()</a></div><div class="ttdeci">std::size_t operator()(const albert::ItemKey &amp;key) const</div><div class="ttdef"><b>Definition</b> usagescoring.h:63</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_a5be7bbed3ff2f129951759fe96bf5d5.html">workspace</a></li><li class="navelem"><a class="el" href="dir_50d953f824505da2f2ff039791aa8c84.html">albert</a></li><li class="navelem"><a class="el" href="dir_d2263c6ebc7191e42e4ff07405fc7c52.html">include</a></li><li class="navelem"><a class="el" href="dir_4671dc9b76d7b8dfce70656ce33c3872.html">albert</a></li><li class="navelem"><a class="el" href="usagescoring_8h.html">usagescoring.h</a></li>
+    <li class="navelem"><a class="el" href="dir_a5be7bbed3ff2f129951759fe96bf5d5.html">workspace</a></li><li class="navelem"><a class="el" href="dir_50d953f824505da2f2ff039791aa8c84.html">albert</a></li><li class="navelem"><a class="el" href="dir_d2263c6ebc7191e42e4ff07405fc7c52.html">include</a></li><li class="navelem"><a class="el" href="dir_4671dc9b76d7b8dfce70656ce33c3872.html">albert</a></li><li class="navelem"><b>usagescoring.h</b></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
   </ul>
 </div>

@@ -26,11 +26,9 @@ var group__core__extension =
       [ "setFuzzyMatching", "classalbert_1_1QueryHandler.html#a2e9f84c01037b4d85bcf8420d55afdbd", null ],
       [ "setTrigger", "classalbert_1_1QueryHandler.html#a7a0fa20c276374c511191a7959c163c0", null ],
       [ "supportsFuzzyMatching", "classalbert_1_1QueryHandler.html#ac50670e5ba27792b6bd6c175d8c8753a", null ],
-      [ "synopsis", "classalbert_1_1QueryHandler.html#aa07995d61d37cbbd9f20989d944280d1", null ],
-      [ "::QueryEngine", "classalbert_1_1QueryHandler.html#ac160e3c0a76112ff60b3046eb5fe635f", null ]
+      [ "synopsis", "classalbert_1_1QueryHandler.html#aa07995d61d37cbbd9f20989d944280d1", null ]
     ] ],
     [ "albert::UrlHandler", "classalbert_1_1UrlHandler.html", [
-      [ "~UrlHandler", "classalbert_1_1UrlHandler.html#ab841908bf603e50cc70ab5a6403f3890", null ],
       [ "handle", "classalbert_1_1UrlHandler.html#a0ade4bde85fd917067c0163d60beffd6", null ]
     ] ]
 ];

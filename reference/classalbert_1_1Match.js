@@ -1,6 +1,5 @@
 var classalbert_1_1Match =
 [
-    [ "Score", "classalbert_1_1Match.html#af864b64c9d79b1408ed97893d896c982", null ],
     [ "Match", "classalbert_1_1Match.html#a240aed4fc86419851dad0817a838a119", null ],
     [ "Match", "classalbert_1_1Match.html#add8282de219db9c48034ed5de2349ea3", null ],
     [ "Match", "classalbert_1_1Match.html#a5b158fdbe6e3f4380a5b0736bb1bf17f", null ],

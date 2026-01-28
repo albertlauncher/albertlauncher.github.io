@@ -1,4 +1,7 @@
 var searchData=
 [
-  ['hash_3c_20albert_3a_3aitemkey_20_3e_0',['hash&lt; albert::ItemKey &gt;',['../structstd_1_1hash_3_01albert_1_1ItemKey_01_4.html',1,'std']]]
+  ['icon_0',['Icon',['../classalbert_1_1Icon.html',1,'albert']]],
+  ['indexitem_1',['IndexItem',['../classalbert_1_1IndexItem.html',1,'albert']]],
+  ['indexqueryhandler_2',['IndexQueryHandler',['../classalbert_1_1IndexQueryHandler.html',1,'albert']]],
+  ['item_3',['Item',['../classalbert_1_1Item.html',1,'albert']]]
 ];

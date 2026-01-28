@@ -101,13 +101,13 @@ $(document).ready(function(){initNavTree('timeit_8h_source.html',''); initResiza
   <div class="headertitle"><div class="title">timeit.h</div></div>
 </div><!--header-->
 <div class="contents">
-<a href="timeit_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="comment">// SPDX-FileCopyrightText: 2025 Manuel Schneider</span></div>
+<div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="comment">// SPDX-FileCopyrightText: 2025 Manuel Schneider</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span> </div>
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#pragma once</span></div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &lt;QDebug&gt;</span></div>
 <div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &lt;QString&gt;</span></div>
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &lt;chrono&gt;</span></div>
-<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#include &lt;<a class="code" href="logging_8h.html">albert/logging.h</a>&gt;</span></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#include &lt;albert/logging.h&gt;</span></div>
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span> </div>
 <div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="comment">// Private API</span></div>
 <div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="keyword">namespace </span>albert::detail</div>
@@ -127,19 +127,17 @@ $(document).ready(function(){initNavTree('timeit_8h_source.html',''); initResiza
 <div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>    {</div>
 <div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>        <span class="keyword">auto</span> end = std::chrono::system_clock::now();</div>
 <div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>        <span class="keyword">auto</span> dur = std::chrono::duration_cast&lt;std::chrono::microseconds&gt;(end - start_).count();</div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>        <a class="code hl_define" href="logging_8h.html#a44ad7a1cce3ba64ff004aa697be1a079">CRIT</a> &lt;&lt; QStringLiteral(<span class="stringliteral">&quot;\x1b[36m%L1 µs | %2&quot;</span>).arg(dur, 8).arg(name_);</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>        CRIT &lt;&lt; QStringLiteral(<span class="stringliteral">&quot;\x1b[36m%L1 µs | %2&quot;</span>).arg(dur, 8).arg(name_);</div>
 <div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>    }</div>
 <div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>};</div>
 <div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span> </div>
 <div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>}</div>
-<div class="ttc" id="alogging_8h_html"><div class="ttname"><a href="logging_8h.html">logging.h</a></div></div>
-<div class="ttc" id="alogging_8h_html_a44ad7a1cce3ba64ff004aa697be1a079"><div class="ttname"><a href="logging_8h.html#a44ad7a1cce3ba64ff004aa697be1a079">CRIT</a></div><div class="ttdeci">#define CRIT</div><div class="ttdoc">Creates a log object (level critial) you can use to pipe text into (&lt;&lt;).</div><div class="ttdef"><b>Definition</b> logging.h:32</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_a5be7bbed3ff2f129951759fe96bf5d5.html">workspace</a></li><li class="navelem"><a class="el" href="dir_50d953f824505da2f2ff039791aa8c84.html">albert</a></li><li class="navelem"><a class="el" href="dir_d2263c6ebc7191e42e4ff07405fc7c52.html">include</a></li><li class="navelem"><a class="el" href="dir_4671dc9b76d7b8dfce70656ce33c3872.html">albert</a></li><li class="navelem"><a class="el" href="timeit_8h.html">timeit.h</a></li>
+    <li class="navelem"><a class="el" href="dir_a5be7bbed3ff2f129951759fe96bf5d5.html">workspace</a></li><li class="navelem"><a class="el" href="dir_50d953f824505da2f2ff039791aa8c84.html">albert</a></li><li class="navelem"><a class="el" href="dir_d2263c6ebc7191e42e4ff07405fc7c52.html">include</a></li><li class="navelem"><a class="el" href="dir_4671dc9b76d7b8dfce70656ce33c3872.html">albert</a></li><li class="navelem"><b>timeit.h</b></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
   </ul>
 </div>

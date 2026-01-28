@@ -1,6 +1,5 @@
 var classalbert_1_1QueryContext =
 [
-    [ "~QueryContext", "classalbert_1_1QueryContext.html#afaaddf71ec856064160698376b2cfa86", null ],
     [ "handler", "classalbert_1_1QueryContext.html#aede6b64d66097bc36215003a38b89425", null ],
     [ "isValid", "classalbert_1_1QueryContext.html#ad094f4c93aa808926cb0701a6bc28644", null ],
     [ "operator QString", "classalbert_1_1QueryContext.html#aa616b2da8344e22a4d18a6ff252da98c", null ],

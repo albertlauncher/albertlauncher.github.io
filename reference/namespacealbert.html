@@ -96,7 +96,6 @@ $(document).ready(function(){initNavTree('namespacealbert.html',''); initResizab
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#concepts">Concepts</a> &#124;
-<a href="#typedef-members">Typedefs</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle"><div class="title">albert Namespace Reference</div></div>
 </div><!--header-->
@@ -118,8 +117,6 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1BackgroundExecutor.html">BackgroundExecutor</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convenience class for recurring indexing tasks.  <a href="classalbert_1_1BackgroundExecutor.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1Dependency.html">Dependency</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1Download.html">Download</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Downloads a file from the given URL to the given path.  <a href="classalbert_1_1Download.html#details">More...</a><br /></td></tr>
@@ -150,8 +147,6 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1Item.html">Item</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Result items displayed in the query results list.  <a href="classalbert_1_1Item.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structalbert_1_1ItemKey.html">ItemKey</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1Match.html">Match</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Augmented match score.  <a href="classalbert_1_1Match.html#details">More...</a><br /></td></tr>
@@ -229,26 +224,23 @@ Concepts</h2></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A range of ItemPtr. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
-Typedefs</h2></td></tr>
-<tr class="memitem:a615f5081cd76f7c508e07be2d0c88707" id="r_a615f5081cd76f7c508e07be2d0c88707"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacealbert.html#a615f5081cd76f7c508e07be2d0c88707">AsyncItemGenerator</a> = QCoro::AsyncGenerator&lt; std::vector&lt; std::shared_ptr&lt; <a class="el" href="classalbert_1_1Item.html">albert::Item</a> &gt; &gt; &gt;</td></tr>
-<tr class="separator:a615f5081cd76f7c508e07be2d0c88707"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abde1416a9258c4f584cffc12e1878fff" id="r_abde1416a9258c4f584cffc12e1878fff"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacealbert.html#abde1416a9258c4f584cffc12e1878fff">ItemGenerator</a> = QCoro::Generator&lt; std::vector&lt; std::shared_ptr&lt; <a class="el" href="classalbert_1_1Item.html">albert::Item</a> &gt; &gt; &gt;</td></tr>
-<tr class="separator:abde1416a9258c4f584cffc12e1878fff"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ga71d7e8bfc3b0e691e3e1e85a55b842e7" id="r_ga71d7e8bfc3b0e691e3e1e85a55b842e7"><td class="memItemLeft" align="right" valign="top">QNetworkAccessManager &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__util__net.html#ga71d7e8bfc3b0e691e3e1e85a55b842e7">network</a> ()</td></tr>
-<tr class="memdesc:ga71d7e8bfc3b0e691e3e1e85a55b842e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a global, threadlocal QNetworkAccessManager.  <br /></td></tr>
+<tr class="memitem:ga71d7e8bfc3b0e691e3e1e85a55b842e7" id="r_ga71d7e8bfc3b0e691e3e1e85a55b842e7"><td class="memItemLeft" align="right" valign="top">
+QNetworkAccessManager &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>network</b> ()</td></tr>
+<tr class="memdesc:ga71d7e8bfc3b0e691e3e1e85a55b842e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a global, threadlocal QNetworkAccessManager. <br /></td></tr>
 <tr class="separator:ga71d7e8bfc3b0e691e3e1e85a55b842e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaeb88b880cbf906265347358210ad1cc1" id="r_gaeb88b880cbf906265347358210ad1cc1"><td class="memItemLeft" align="right" valign="top">QNetworkReply *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__util__net.html#gaeb88b880cbf906265347358210ad1cc1">await</a> (QNetworkReply *reply)</td></tr>
-<tr class="memdesc:gaeb88b880cbf906265347358210ad1cc1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Blocks until <em>reply</em> is finished.  <br /></td></tr>
+<tr class="memitem:gaeb88b880cbf906265347358210ad1cc1" id="r_gaeb88b880cbf906265347358210ad1cc1"><td class="memItemLeft" align="right" valign="top">
+QNetworkReply *&#160;</td><td class="memItemRight" valign="bottom"><b>await</b> (QNetworkReply *reply)</td></tr>
+<tr class="memdesc:gaeb88b880cbf906265347358210ad1cc1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Blocks until <em>reply</em> is finished. <br /></td></tr>
 <tr class="separator:gaeb88b880cbf906265347358210ad1cc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga0e68a87ae8dac1ea0433a9fb71dce5cb" id="r_ga0e68a87ae8dac1ea0433a9fb71dce5cb"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__util__net.html#ga0e68a87ae8dac1ea0433a9fb71dce5cb">percentEncoded</a> (const QString &amp;string)</td></tr>
-<tr class="memdesc:ga0e68a87ae8dac1ea0433a9fb71dce5cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns <em>string</em> percent encoded.  <br /></td></tr>
+<tr class="memitem:ga0e68a87ae8dac1ea0433a9fb71dce5cb" id="r_ga0e68a87ae8dac1ea0433a9fb71dce5cb"><td class="memItemLeft" align="right" valign="top">
+QString&#160;</td><td class="memItemRight" valign="bottom"><b>percentEncoded</b> (const QString &amp;string)</td></tr>
+<tr class="memdesc:ga0e68a87ae8dac1ea0433a9fb71dce5cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns <em>string</em> percent encoded. <br /></td></tr>
 <tr class="separator:ga0e68a87ae8dac1ea0433a9fb71dce5cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga5be512510495fb2741befae48b8e6ae9" id="r_ga5be512510495fb2741befae48b8e6ae9"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__util__net.html#ga5be512510495fb2741befae48b8e6ae9">percentDecoded</a> (const QString &amp;string)</td></tr>
-<tr class="memdesc:ga5be512510495fb2741befae48b8e6ae9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns <em>string</em> percent decoded.  <br /></td></tr>
+<tr class="memitem:ga5be512510495fb2741befae48b8e6ae9" id="r_ga5be512510495fb2741befae48b8e6ae9"><td class="memItemLeft" align="right" valign="top">
+QString&#160;</td><td class="memItemRight" valign="bottom"><b>percentDecoded</b> (const QString &amp;string)</td></tr>
+<tr class="memdesc:ga5be512510495fb2741befae48b8e6ae9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns <em>string</em> percent decoded. <br /></td></tr>
 <tr class="separator:ga5be512510495fb2741befae48b8e6ae9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Message boxes</div></td></tr>
 <tr class="memitem:gabe80d22d26ac1be3b24874ecc4040365" id="r_gabe80d22d26ac1be3b24874ecc4040365"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__util__ui.html#gabe80d22d26ac1be3b24874ecc4040365">question</a> (const QString &amp;text, QWidget *parent=nullptr)</td></tr>
@@ -267,32 +259,38 @@ Functions</h2></td></tr>
 <tr class="memitem:gac4d2ecaadddf8dc533510cadbb4e951c" id="r_gac4d2ecaadddf8dc533510cadbb4e951c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__util__system.html#gac4d2ecaadddf8dc533510cadbb4e951c">openUrl</a> (const QString &amp;url)</td></tr>
 <tr class="memdesc:gac4d2ecaadddf8dc533510cadbb4e951c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Opens <em>url</em> with the default handler for the scheme.  <br /></td></tr>
 <tr class="separator:gac4d2ecaadddf8dc533510cadbb4e951c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga56d0cac0a667c060104c52af32c59cd5" id="r_ga56d0cac0a667c060104c52af32c59cd5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__util__system.html#ga56d0cac0a667c060104c52af32c59cd5">open</a> (const QUrl &amp;url)</td></tr>
-<tr class="memdesc:ga56d0cac0a667c060104c52af32c59cd5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Opens <em>url</em> with the default handler for the scheme.  <br /></td></tr>
+<tr class="memitem:ga56d0cac0a667c060104c52af32c59cd5" id="r_ga56d0cac0a667c060104c52af32c59cd5"><td class="memItemLeft" align="right" valign="top">
+void&#160;</td><td class="memItemRight" valign="bottom"><b>open</b> (const QUrl &amp;url)</td></tr>
+<tr class="memdesc:ga56d0cac0a667c060104c52af32c59cd5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Opens <em>url</em> with the default handler for the scheme. <br /></td></tr>
 <tr class="separator:ga56d0cac0a667c060104c52af32c59cd5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga337794d224c1b8022a4b2d51bcd91547" id="r_ga337794d224c1b8022a4b2d51bcd91547"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__util__system.html#ga337794d224c1b8022a4b2d51bcd91547">open</a> (const QString &amp;path)</td></tr>
-<tr class="memdesc:ga337794d224c1b8022a4b2d51bcd91547"><td class="mdescLeft">&#160;</td><td class="mdescRight">Opens a file at <em>path</em> with the associated default application.  <br /></td></tr>
+<tr class="memitem:ga337794d224c1b8022a4b2d51bcd91547" id="r_ga337794d224c1b8022a4b2d51bcd91547"><td class="memItemLeft" align="right" valign="top">
+void&#160;</td><td class="memItemRight" valign="bottom"><b>open</b> (const QString &amp;path)</td></tr>
+<tr class="memdesc:ga337794d224c1b8022a4b2d51bcd91547"><td class="mdescLeft">&#160;</td><td class="mdescRight">Opens a file at <em>path</em> with the associated default application. <br /></td></tr>
 <tr class="separator:ga337794d224c1b8022a4b2d51bcd91547"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gae89d19d526f7287ee312b89e17b4c910" id="r_gae89d19d526f7287ee312b89e17b4c910"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__util__system.html#gae89d19d526f7287ee312b89e17b4c910">open</a> (const std::filesystem::path &amp;path)</td></tr>
-<tr class="memdesc:gae89d19d526f7287ee312b89e17b4c910"><td class="mdescLeft">&#160;</td><td class="mdescRight">Opens a file at <em>path</em> with the associated default application.  <br /></td></tr>
+<tr class="memitem:gae89d19d526f7287ee312b89e17b4c910" id="r_gae89d19d526f7287ee312b89e17b4c910"><td class="memItemLeft" align="right" valign="top">
+void&#160;</td><td class="memItemRight" valign="bottom"><b>open</b> (const std::filesystem::path &amp;path)</td></tr>
+<tr class="memdesc:gae89d19d526f7287ee312b89e17b4c910"><td class="mdescLeft">&#160;</td><td class="mdescRight">Opens a file at <em>path</em> with the associated default application. <br /></td></tr>
 <tr class="separator:gae89d19d526f7287ee312b89e17b4c910"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga406cb6824847d1f0cbd3ec7a7176dce8" id="r_ga406cb6824847d1f0cbd3ec7a7176dce8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__util__system.html#ga406cb6824847d1f0cbd3ec7a7176dce8">setClipboardText</a> (const QString &amp;text)</td></tr>
-<tr class="memdesc:ga406cb6824847d1f0cbd3ec7a7176dce8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the system clipboard to <em>text</em>.  <br /></td></tr>
+<tr class="memitem:ga406cb6824847d1f0cbd3ec7a7176dce8" id="r_ga406cb6824847d1f0cbd3ec7a7176dce8"><td class="memItemLeft" align="right" valign="top">
+void&#160;</td><td class="memItemRight" valign="bottom"><b>setClipboardText</b> (const QString &amp;text)</td></tr>
+<tr class="memdesc:ga406cb6824847d1f0cbd3ec7a7176dce8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the system clipboard to <em>text</em>. <br /></td></tr>
 <tr class="separator:ga406cb6824847d1f0cbd3ec7a7176dce8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga0f190f5266c9ee4d4c44ee3b21af9876" id="r_ga0f190f5266c9ee4d4c44ee3b21af9876"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__util__system.html#ga0f190f5266c9ee4d4c44ee3b21af9876">havePasteSupport</a> ()</td></tr>
-<tr class="memdesc:ga0f190f5266c9ee4d4c44ee3b21af9876"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the <code>true</code> if the platform supports pasting, else <code>false</code>.  <br /></td></tr>
+<tr class="memitem:ga0f190f5266c9ee4d4c44ee3b21af9876" id="r_ga0f190f5266c9ee4d4c44ee3b21af9876"><td class="memItemLeft" align="right" valign="top">
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>havePasteSupport</b> ()</td></tr>
+<tr class="memdesc:ga0f190f5266c9ee4d4c44ee3b21af9876"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the <code>true</code> if the platform supports pasting, else <code>false</code>. <br /></td></tr>
 <tr class="separator:ga0f190f5266c9ee4d4c44ee3b21af9876"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga88cb18f19f7c6fed45b25fba5e6bf9b5" id="r_ga88cb18f19f7c6fed45b25fba5e6bf9b5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__util__system.html#ga88cb18f19f7c6fed45b25fba5e6bf9b5">setClipboardTextAndPaste</a> (const QString &amp;text)</td></tr>
 <tr class="memdesc:ga88cb18f19f7c6fed45b25fba5e6bf9b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the system clipboard to <em>text</em> and pastes <em>text</em> to the front-most window.  <br /></td></tr>
 <tr class="separator:ga88cb18f19f7c6fed45b25fba5e6bf9b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga82b1c3911ee6a270ac3891315f28c179" id="r_ga82b1c3911ee6a270ac3891315f28c179"><td class="memItemLeft" align="right" valign="top">long long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__util__system.html#ga82b1c3911ee6a270ac3891315f28c179">runDetachedProcess</a> (const <a class="el" href="classQList.html">QStringList</a> &amp;commandline)</td></tr>
+<tr class="memitem:ga82b1c3911ee6a270ac3891315f28c179" id="r_ga82b1c3911ee6a270ac3891315f28c179"><td class="memItemLeft" align="right" valign="top">long long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__util__system.html#ga82b1c3911ee6a270ac3891315f28c179">runDetachedProcess</a> (const QStringList &amp;commandline)</td></tr>
 <tr class="memdesc:ga82b1c3911ee6a270ac3891315f28c179"><td class="mdescLeft">&#160;</td><td class="mdescRight">Starts the <em>commandline</em> in a new process, and detaches from it.  <br /></td></tr>
 <tr class="separator:ga82b1c3911ee6a270ac3891315f28c179"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaf727ac2d8c95fe428cb99bc175c83f12" id="r_gaf727ac2d8c95fe428cb99bc175c83f12"><td class="memItemLeft" align="right" valign="top">long long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__util__system.html#gaf727ac2d8c95fe428cb99bc175c83f12">runDetachedProcess</a> (const <a class="el" href="classQList.html">QStringList</a> &amp;commandline, const QString &amp;working_dir)</td></tr>
+<tr class="memitem:gaf727ac2d8c95fe428cb99bc175c83f12" id="r_gaf727ac2d8c95fe428cb99bc175c83f12"><td class="memItemLeft" align="right" valign="top">long long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__util__system.html#gaf727ac2d8c95fe428cb99bc175c83f12">runDetachedProcess</a> (const QStringList &amp;commandline, const QString &amp;working_dir)</td></tr>
 <tr class="memdesc:gaf727ac2d8c95fe428cb99bc175c83f12"><td class="mdescLeft">&#160;</td><td class="mdescRight">Starts the <em>commandline</em> in a new process, and detaches from it.  <br /></td></tr>
 <tr class="separator:gaf727ac2d8c95fe428cb99bc175c83f12"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga74261c8c644de10251fbf22c222a976a" id="r_ga74261c8c644de10251fbf22c222a976a"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__util__system.html#ga74261c8c644de10251fbf22c222a976a">toQString</a> (const std::filesystem::path &amp;path)</td></tr>
-<tr class="memdesc:ga74261c8c644de10251fbf22c222a976a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a QString representation of <em>path</em>.  <br /></td></tr>
+<tr class="memitem:ga74261c8c644de10251fbf22c222a976a" id="r_ga74261c8c644de10251fbf22c222a976a"><td class="memItemLeft" align="right" valign="top">
+QString&#160;</td><td class="memItemRight" valign="bottom"><b>toQString</b> (const std::filesystem::path &amp;path)</td></tr>
+<tr class="memdesc:ga74261c8c644de10251fbf22c222a976a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a QString representation of <em>path</em>. <br /></td></tr>
 <tr class="separator:ga74261c8c644de10251fbf22c222a976a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Property editor bindings</div></td></tr>
 <tr class="memitem:ga1fb00c52cc442b3df6f54da9f56e91eb" id="r_ga1fb00c52cc442b3df6f54da9f56e91eb"><td class="memTemplParams" colspan="2">template&lt;typename T , typename GET , typename SET &gt; </td></tr>
@@ -330,36 +328,7 @@ Functions</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>The Albert namespace. </p>
-</div><h2 class="groupheader">Typedef Documentation</h2>
-<a id="a615f5081cd76f7c508e07be2d0c88707" name="a615f5081cd76f7c508e07be2d0c88707"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a615f5081cd76f7c508e07be2d0c88707">&#9670;&#160;</a></span>AsyncItemGenerator</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="namespacealbert.html#a615f5081cd76f7c508e07be2d0c88707">albert::AsyncItemGenerator</a> = typedef QCoro::AsyncGenerator&lt;std::vector&lt;std::shared_ptr&lt;<a class="el" href="classalbert_1_1Item.html">albert::Item</a>&gt; &gt;&gt;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="abde1416a9258c4f584cffc12e1878fff" name="abde1416a9258c4f584cffc12e1878fff"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abde1416a9258c4f584cffc12e1878fff">&#9670;&#160;</a></span>ItemGenerator</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="namespacealbert.html#abde1416a9258c4f584cffc12e1878fff">albert::ItemGenerator</a> = typedef QCoro::Generator&lt;std::vector&lt;std::shared_ptr&lt;<a class="el" href="classalbert_1_1Item.html">albert::Item</a>&gt; &gt;&gt;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-</div><!-- contents -->
+</div></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->

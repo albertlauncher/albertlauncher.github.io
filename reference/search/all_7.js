@@ -5,7 +5,6 @@ var searchData=
   ['handleemptyquery_2',['handleEmptyQuery',['../classalbert_1_1GlobalQueryHandler.html#a237f970f2410c8a88ee488937346fa19',1,'albert::GlobalQueryHandler']]],
   ['handler_3',['handler',['../classalbert_1_1QueryContext.html#aede6b64d66097bc36215003a38b89425',1,'albert::QueryContext']]],
   ['handling_4',['Query handling',['../group__core__query.html',1,'']]],
-  ['hash_3c_20albert_3a_3aitemkey_20_3e_5',['hash&lt; albert::ItemKey &gt;',['../structstd_1_1hash_3_01albert_1_1ItemKey_01_4.html',1,'std']]],
-  ['havepastesupport_6',['havePasteSupport',['../group__util__system.html#ga0f190f5266c9ee4d4c44ee3b21af9876',1,'albert']]],
-  ['hide_5fon_5factivation_7',['hide_on_activation',['../classalbert_1_1Action.html#a09b8c3f503b01112e675ce0516ce264a',1,'albert::Action']]]
+  ['havepastesupport_5',['havePasteSupport',['../group__util__system.html#ga0f190f5266c9ee4d4c44ee3b21af9876',1,'albert']]],
+  ['hide_5fon_5factivation_6',['hide_on_activation',['../classalbert_1_1Action.html#a09b8c3f503b01112e675ce0516ce264a',1,'albert::Action']]]
 ];

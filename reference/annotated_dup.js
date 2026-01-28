@@ -5,7 +5,6 @@ var annotated_dup =
       [ "App", "classalbert_1_1App.html", "classalbert_1_1App" ],
       [ "AsyncGeneratorQueryHandler", "classalbert_1_1AsyncGeneratorQueryHandler.html", "classalbert_1_1AsyncGeneratorQueryHandler" ],
       [ "BackgroundExecutor", "classalbert_1_1BackgroundExecutor.html", "classalbert_1_1BackgroundExecutor" ],
-      [ "Dependency", "classalbert_1_1Dependency.html", "classalbert_1_1Dependency" ],
       [ "Download", "classalbert_1_1Download.html", "classalbert_1_1Download" ],
       [ "Extension", "classalbert_1_1Extension.html", "classalbert_1_1Extension" ],
       [ "ExtensionPlugin", "classalbert_1_1ExtensionPlugin.html", "classalbert_1_1ExtensionPlugin" ],
@@ -16,7 +15,6 @@ var annotated_dup =
       [ "IndexItem", "classalbert_1_1IndexItem.html", "classalbert_1_1IndexItem" ],
       [ "IndexQueryHandler", "classalbert_1_1IndexQueryHandler.html", "classalbert_1_1IndexQueryHandler" ],
       [ "Item", "classalbert_1_1Item.html", "classalbert_1_1Item" ],
-      [ "ItemKey", "structalbert_1_1ItemKey.html", "structalbert_1_1ItemKey" ],
       [ "Match", "classalbert_1_1Match.html", "classalbert_1_1Match" ],
       [ "MatchConfig", "classalbert_1_1MatchConfig.html", "classalbert_1_1MatchConfig" ],
       [ "Matcher", "classalbert_1_1Matcher.html", "classalbert_1_1Matcher" ],
@@ -39,9 +37,5 @@ var annotated_dup =
       [ "UrlHandler", "classalbert_1_1UrlHandler.html", "classalbert_1_1UrlHandler" ],
       [ "UsageScoring", "classalbert_1_1UsageScoring.html", "classalbert_1_1UsageScoring" ],
       [ "WeakDependency", "classalbert_1_1WeakDependency.html", "classalbert_1_1WeakDependency" ]
-    ] ],
-    [ "std", null, [
-      [ "hash< albert::ItemKey >", "structstd_1_1hash_3_01albert_1_1ItemKey_01_4.html", "structstd_1_1hash_3_01albert_1_1ItemKey_01_4" ]
-    ] ],
-    [ "QList", "classQList.html", null ]
+    ] ]
 ];

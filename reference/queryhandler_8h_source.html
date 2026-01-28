@@ -101,13 +101,13 @@ $(document).ready(function(){initNavTree('queryhandler_8h_source.html',''); init
   <div class="headertitle"><div class="title">queryhandler.h</div></div>
 </div><!--header-->
 <div class="contents">
-<a href="queryhandler_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="comment">// SPDX-FileCopyrightText: 2025 Manuel Schneider</span></div>
+<div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="comment">// SPDX-FileCopyrightText: 2025 Manuel Schneider</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="comment">// SPDX-License-Identifier: MIT</span></div>
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span> </div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#pragma once</span></div>
 <div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &lt;albert/export.h&gt;</span></div>
-<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &lt;<a class="code" href="extension_8h.html">albert/extension.h</a>&gt;</span></div>
-<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#include &lt;<a class="code" href="querycontext_8h.html">albert/querycontext.h</a>&gt;</span></div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &lt;albert/extension.h&gt;</span></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#include &lt;albert/querycontext.h&gt;</span></div>
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#include &lt;memory&gt;</span></div>
 <div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="keyword">class </span>QString;</div>
 <div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="keyword">class </span>QueryEngine;</div>
@@ -138,7 +138,7 @@ $(document).ready(function(){initNavTree('queryhandler_8h_source.html',''); init
 <div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span> </div>
 <div class="line"><a id="l00095" name="l00095"></a><span class="lineno"><a class="line" href="classalbert_1_1QueryHandler.html#a7a0fa20c276374c511191a7959c163c0">   95</a></span>    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code hl_function" href="classalbert_1_1QueryHandler.html#a7a0fa20c276374c511191a7959c163c0">setTrigger</a>(<span class="keyword">const</span> QString &amp;trigger);</div>
 <div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span> </div>
-<div class="line"><a id="l00097" name="l00097"></a><span class="lineno"><a class="line" href="classalbert_1_1QueryHandler.html#ac160e3c0a76112ff60b3046eb5fe635f">   97</a></span>    <span class="keyword">friend</span> class ::QueryEngine;</div>
+<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span>    <span class="keyword">friend</span> class ::QueryEngine;</div>
 <div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span>};</div>
 </div>
 <div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span> </div>
@@ -154,15 +154,13 @@ $(document).ready(function(){initNavTree('queryhandler_8h_source.html',''); init
 <div class="ttc" id="aclassalbert_1_1QueryHandler_html_aa07995d61d37cbbd9f20989d944280d1"><div class="ttname"><a href="classalbert_1_1QueryHandler.html#aa07995d61d37cbbd9f20989d944280d1">albert::QueryHandler::synopsis</a></div><div class="ttdeci">virtual QString synopsis(const QString &amp;query) const</div><div class="ttdoc">Returns the input hint for the given query.</div></div>
 <div class="ttc" id="aclassalbert_1_1QueryHandler_html_ac50670e5ba27792b6bd6c175d8c8753a"><div class="ttname"><a href="classalbert_1_1QueryHandler.html#ac50670e5ba27792b6bd6c175d8c8753a">albert::QueryHandler::supportsFuzzyMatching</a></div><div class="ttdeci">virtual bool supportsFuzzyMatching() const</div><div class="ttdoc">Returns true if the handler supports fuzzy matching, otherwise returns false.</div></div>
 <div class="ttc" id="aclassalbert_1_1QueryHandler_html_acf232f6837086273927896776b721bea"><div class="ttname"><a href="classalbert_1_1QueryHandler.html#acf232f6837086273927896776b721bea">albert::QueryHandler::~QueryHandler</a></div><div class="ttdeci">~QueryHandler() override</div><div class="ttdoc">Destructs the handler.</div></div>
-<div class="ttc" id="aextension_8h_html"><div class="ttname"><a href="extension_8h.html">extension.h</a></div></div>
 <div class="ttc" id="anamespacealbert_html"><div class="ttname"><a href="namespacealbert.html">albert</a></div><div class="ttdoc">The Albert namespace.</div><div class="ttdef"><b>Definition</b> app.h:55</div></div>
-<div class="ttc" id="aquerycontext_8h_html"><div class="ttname"><a href="querycontext_8h.html">querycontext.h</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_a5be7bbed3ff2f129951759fe96bf5d5.html">workspace</a></li><li class="navelem"><a class="el" href="dir_50d953f824505da2f2ff039791aa8c84.html">albert</a></li><li class="navelem"><a class="el" href="dir_d2263c6ebc7191e42e4ff07405fc7c52.html">include</a></li><li class="navelem"><a class="el" href="dir_4671dc9b76d7b8dfce70656ce33c3872.html">albert</a></li><li class="navelem"><a class="el" href="queryhandler_8h.html">queryhandler.h</a></li>
+    <li class="navelem"><a class="el" href="dir_a5be7bbed3ff2f129951759fe96bf5d5.html">workspace</a></li><li class="navelem"><a class="el" href="dir_50d953f824505da2f2ff039791aa8c84.html">albert</a></li><li class="navelem"><a class="el" href="dir_d2263c6ebc7191e42e4ff07405fc7c52.html">include</a></li><li class="navelem"><a class="el" href="dir_4671dc9b76d7b8dfce70656ce33c3872.html">albert</a></li><li class="navelem"><b>queryhandler.h</b></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
   </ul>
 </div>

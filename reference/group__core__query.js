@@ -113,7 +113,6 @@ var group__core__query =
       [ "text", "classalbert_1_1Item.html#acf06be44b0d88db1941325b06c5d671d", null ]
     ] ],
     [ "albert::QueryContext", "classalbert_1_1QueryContext.html", [
-      [ "~QueryContext", "classalbert_1_1QueryContext.html#afaaddf71ec856064160698376b2cfa86", null ],
       [ "handler", "classalbert_1_1QueryContext.html#aede6b64d66097bc36215003a38b89425", null ],
       [ "isValid", "classalbert_1_1QueryContext.html#ad094f4c93aa808926cb0701a6bc28644", null ],
       [ "operator QString", "classalbert_1_1QueryContext.html#aa616b2da8344e22a4d18a6ff252da98c", null ],

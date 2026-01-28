@@ -101,7 +101,7 @@ $(document).ready(function(){initNavTree('icon_8h_source.html',''); initResizabl
   <div class="headertitle"><div class="title">icon.h</div></div>
 </div><!--header-->
 <div class="contents">
-<a href="icon_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="comment">// SPDX-FileCopyrightText: 2025 Manuel Schneider</span></div>
+<div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="comment">// SPDX-FileCopyrightText: 2025 Manuel Schneider</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="comment">// SPDX-License-Identifier: MIT</span></div>
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span> </div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#pragma once</span></div>
@@ -145,7 +145,7 @@ $(document).ready(function(){initNavTree('icon_8h_source.html',''); initResizabl
 <div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span> </div>
 <div class="line"><a id="l00074" name="l00074"></a><span class="lineno"><a class="line" href="classalbert_1_1Icon.html#acfb7ce22b4eee57b8b34f41760a56580">   74</a></span>    <span class="keyword">static</span> std::unique_ptr&lt;Icon&gt; <a class="code hl_function" href="classalbert_1_1Icon.html#acfb7ce22b4eee57b8b34f41760a56580">iconFromUrl</a>(<span class="keyword">const</span> QString &amp;url);</div>
 <div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span> </div>
-<div class="line"><a id="l00077" name="l00077"></a><span class="lineno"><a class="line" href="classalbert_1_1Icon.html#a8e2595f86965940faea057fed374e283">   77</a></span>    <span class="keyword">static</span> std::unique_ptr&lt;Icon&gt; <a class="code hl_function" href="classalbert_1_1Icon.html#a8e2595f86965940faea057fed374e283">iconFromUrls</a>(<span class="keyword">const</span> <a class="code hl_class" href="classQList.html">QStringList</a> &amp;urls);</div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno"><a class="line" href="classalbert_1_1Icon.html#a8e2595f86965940faea057fed374e283">   77</a></span>    <span class="keyword">static</span> std::unique_ptr&lt;Icon&gt; <a class="code hl_function" href="classalbert_1_1Icon.html#a8e2595f86965940faea057fed374e283">iconFromUrls</a>(<span class="keyword">const</span> QStringList &amp;urls);</div>
 <div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span> </div>
 <div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span> </div>
 <div class="line"><a id="l00083" name="l00083"></a><span class="lineno"><a class="line" href="classalbert_1_1Icon.html#abc31673ad47aeb9a5b5d9537d137133e">   83</a></span>    <span class="keyword">static</span> std::unique_ptr&lt;Icon&gt; <a class="code hl_function" href="classalbert_1_1Icon.html#abc31673ad47aeb9a5b5d9537d137133e">image</a>(<span class="keyword">const</span> QString &amp;path);</div>
@@ -287,7 +287,6 @@ $(document).ready(function(){initNavTree('icon_8h_source.html',''); initResizabl
 </div>
 <div class="line"><a id="l00263" name="l00263"></a><span class="lineno">  263</span> </div>
 <div class="line"><a id="l00264" name="l00264"></a><span class="lineno">  264</span>}  <span class="comment">// namespace albert</span></div>
-<div class="ttc" id="aclassQList_html"><div class="ttname"><a href="classQList.html">QList&lt; QString &gt;</a></div></div>
 <div class="ttc" id="aclassalbert_1_1Icon_html"><div class="ttname"><a href="classalbert_1_1Icon.html">albert::Icon</a></div><div class="ttdoc">Abstract icon engine.</div><div class="ttdef"><b>Definition</b> icon.h:26</div></div>
 <div class="ttc" id="aclassalbert_1_1Icon_html_a036d7809785c17433e1afb12babfe347"><div class="ttname"><a href="classalbert_1_1Icon.html#a036d7809785c17433e1afb12babfe347">albert::Icon::fileType</a></div><div class="ttdeci">static std::unique_ptr&lt; Icon &gt; fileType(const std::filesystem::path &amp;path)</div><div class="ttdoc">Returns an icon representing the file type of the file at path.</div></div>
 <div class="ttc" id="aclassalbert_1_1Icon_html_a11548926208277a3ea33710d7caf24a6"><div class="ttname"><a href="classalbert_1_1Icon.html#a11548926208277a3ea33710d7caf24a6">albert::Icon::theme</a></div><div class="ttdeci">static std::unique_ptr&lt; Icon &gt; theme(const QString &amp;icon_name)</div><div class="ttdoc">Returns an icon from the current icon theme with the given icon_name.</div></div>
@@ -320,7 +319,7 @@ $(document).ready(function(){initNavTree('icon_8h_source.html',''); initResizabl
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_a5be7bbed3ff2f129951759fe96bf5d5.html">workspace</a></li><li class="navelem"><a class="el" href="dir_50d953f824505da2f2ff039791aa8c84.html">albert</a></li><li class="navelem"><a class="el" href="dir_d2263c6ebc7191e42e4ff07405fc7c52.html">include</a></li><li class="navelem"><a class="el" href="dir_4671dc9b76d7b8dfce70656ce33c3872.html">albert</a></li><li class="navelem"><a class="el" href="icon_8h.html">icon.h</a></li>
+    <li class="navelem"><a class="el" href="dir_a5be7bbed3ff2f129951759fe96bf5d5.html">workspace</a></li><li class="navelem"><a class="el" href="dir_50d953f824505da2f2ff039791aa8c84.html">albert</a></li><li class="navelem"><a class="el" href="dir_d2263c6ebc7191e42e4ff07405fc7c52.html">include</a></li><li class="navelem"><a class="el" href="dir_4671dc9b76d7b8dfce70656ce33c3872.html">albert</a></li><li class="navelem"><b>icon.h</b></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
   </ul>
 </div>
