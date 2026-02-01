@@ -7647,4 +7647,10 @@ kbd {
   white-space: nowrap;
 }
 
+.feature-text {
+  max-width: 50ch;
+  margin: 0 auto;
+  text-align: center !important;
+}
+
 /*# sourceMappingURL=just-the-docs-default.css.map */
