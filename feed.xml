@@ -7,6 +7,153 @@
     
       
         <item>
+          <title>Albert v34.0.5 released</title>
+          <description>&lt;h1 id=&quot;albert-v3405-released&quot;&gt;Albert v34.0.5 released&lt;/h1&gt;
+
+&lt;h3 id=&quot;features&quot;&gt;Features&lt;/h3&gt;
+
+&lt;h4 id=&quot;plugins&quot;&gt;Plugins&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Jetbrains projects&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-python-jetbrains-projects/commit/9018bfb00cbfdd498b15d0760ab99af0f1137bf3&quot;&gt;Global query handling&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;VSCode projects&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-python-vscode-projects/commit/0f6baf58174bf8e91628bbffed32b8a0e33ecfeb&quot;&gt;Support workspaces and singlefile recents&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;performance&quot;&gt;Performance&lt;/h3&gt;
+
+&lt;h4 id=&quot;plugins-1&quot;&gt;Plugins&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Jetbrains projects&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-python-jetbrains-projects/commit/b4a4bbeb5d3dcc8bf12f6b66f5cce07159048814&quot;&gt;Debounce projects cache update&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;fixes&quot;&gt;Fixes&lt;/h3&gt;
+
+&lt;h4 id=&quot;core&quot;&gt;Core&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/albertlauncher/albert/commit/8590d5c539877b261cfd089df35ef960f4e05f11&quot;&gt;Run calls to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;items()&lt;/code&gt; threaded&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;plugins-2&quot;&gt;Plugins&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Chromium&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-chromium/commit/b04abf06a2474fd1446825051e55c3a8f7f9f12c&quot;&gt;GCC13 builds&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;PacMan&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-python-pacman/commit/05fb5da13e5e6f899f1bbf10f24bac0eb4e2cb9d&quot;&gt;Query context variable&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Pass&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-python-pass/commit/3ef7739052ec546dbc04f13aa1e986b96f44195c&quot;&gt;Pass generate could have empty location&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;miscellaneous-tasks&quot;&gt;Miscellaneous Tasks&lt;/h3&gt;
+
+&lt;h4 id=&quot;core-1&quot;&gt;Core&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/albertlauncher/albert/commit/f1299c319ab7e4706f66bf3afc88030f1ae9c105&quot;&gt;Change motivational text in plugins tab placeholder widget&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;plugins-3&quot;&gt;Plugins&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Bitwarden&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-python-bitwarden/commit/da7696bb2832f921a3a92bf0e0c657de665e34dd&quot;&gt;Add maintainer&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Jetbrains projects&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-python-jetbrains-projects/commit/fe5f5417ce53b9bf901fd111544f18d58d958dcf&quot;&gt;Update readme&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Check the &lt;a href=&quot;https://github.com/albertlauncher/albert/compare/v34.0.4...v34.0.5&quot;&gt;commit log&lt;/a&gt; for details.&lt;/p&gt;
+</description>
+          <pubDate>2026-02-04T14:03:00+00:00</pubDate>
+          <link>https://albertlauncher.github.io/2026/02/04/albert-v34.0.5-released/</link>
+          <guid isPermaLink="true">https://albertlauncher.github.io/2026/02/04/albert-v34.0.5-released/</guid>
+        </item>
+      
+    
+      
+        <item>
+          <title>Albert v34.0.4 released</title>
+          <description>&lt;h1 id=&quot;albert-v3404-released&quot;&gt;Albert v34.0.4 released&lt;/h1&gt;
+
+&lt;h3 id=&quot;features&quot;&gt;Features&lt;/h3&gt;
+
+&lt;h4 id=&quot;plugins&quot;&gt;Plugins&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Albert&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-application/commit/8721b06fdfbc29048c7b00c5cb2805576441a7e4&quot;&gt;Show composed dir icon on albert dirs&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Files&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-files/commit/de20c4e7289e5987462c22ca1dbcba4a81409a1e&quot;&gt;Default to case insensitive matching for fs browsers&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Jetbrains projects&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-python-jetbrains-projects/commit/9018bfb00cbfdd498b15d0760ab99af0f1137bf3&quot;&gt;Global query handling&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Spotify&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-spotify/commit/6b57c52d3b77f655d627e7f18215f0d54c99d471&quot;&gt;Add open settings action on error items&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;VSCode projects&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-python-vscode-projects/commit/0f6baf58174bf8e91628bbffed32b8a0e33ecfeb&quot;&gt;Support workspaces and singlefile recents&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Widgets BoxModel&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-widgetsboxmodel/commit/b5640930076cc4b5bba479ad06ba3cb4b12b96e2&quot;&gt;Linear-gradient brush support&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-widgetsboxmodel/commit/1ccdf3d23429504f4f77bf4ef79244cb4a288c84&quot;&gt;Add ubuntu prototype theme&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;performance&quot;&gt;Performance&lt;/h3&gt;
+
+&lt;h4 id=&quot;plugins-1&quot;&gt;Plugins&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Jetbrains projects&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-python-jetbrains-projects/commit/b4a4bbeb5d3dcc8bf12f6b66f5cce07159048814&quot;&gt;Debounce projects cache update&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;fixes&quot;&gt;Fixes&lt;/h3&gt;
+
+&lt;h4 id=&quot;core&quot;&gt;Core&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/albertlauncher/albert/commit/a7097a9d4c17b0128becd5f65ec110642a87510c&quot;&gt;Link to extension website&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;plugins-2&quot;&gt;Plugins&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;PacMan&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-python-pacman/commit/05fb5da13e5e6f899f1bbf10f24bac0eb4e2cb9d&quot;&gt;Query context variable&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Pass&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-python-pass/commit/3ef7739052ec546dbc04f13aa1e986b96f44195c&quot;&gt;Pass generate could have empty location&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Widgets BoxModel&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-widgetsboxmodel/commit/e82b0bf3df44489ced6644de22b6791ed86082f6&quot;&gt;Correct input_hint_color default&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;miscellaneous-tasks&quot;&gt;Miscellaneous Tasks&lt;/h3&gt;
+
+&lt;h4 id=&quot;core-1&quot;&gt;Core&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/albertlauncher/albert/commit/cbeda76b4810765759a5183abaa786c73e821057&quot;&gt;Update FAQ link&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;plugins-3&quot;&gt;Plugins&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Albert&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-application/commit/b9ec5edcf08e471e8be891f5f73753428913a3c7&quot;&gt;Translation correction&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Bitwarden&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-python-bitwarden/commit/da7696bb2832f921a3a92bf0e0c657de665e34dd&quot;&gt;Add maintainer&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Chromium&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-chromium/commit/4ab4ab875b4a2ea1b78771a57666f183756e49a1&quot;&gt;Log reason on favicons db copy failure&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-chromium/commit/9e91c85a28ec92c128e84639fda69dbfd679d7b3&quot;&gt;Add some more data directories&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-chromium/commit/cb35739fce1d60d7d4ea02db792b010f2a0003f0&quot;&gt;Scan for profiles on init only if none configured&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Files&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-files/commit/48c90e65f51543b6040a157973874a659655aedb&quot;&gt;Drop static dir mime type&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-files/commit/1b7d79aed610cc50fe1a30241c06c7f487781b3e&quot;&gt;Do not store mime types, fetch mimetype on demand&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Jetbrains projects&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-python-jetbrains-projects/commit/fe5f5417ce53b9bf901fd111544f18d58d958dcf&quot;&gt;Update readme&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Spotify&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-spotify/commit/1424d536a5df8eb225f0639a7e9dc826a2c8d27a&quot;&gt;Update german translations&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Widgets BoxModel&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-widgetsboxmodel/commit/9464c0eccf878b43580803ad43a3cb3b61b0bd26&quot;&gt;Update README&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Check the &lt;a href=&quot;https://github.com/albertlauncher/albert/compare/v34.0.3...v34.0.4&quot;&gt;commit log&lt;/a&gt; for details.&lt;/p&gt;
+</description>
+          <pubDate>2026-02-02T23:13:00+00:00</pubDate>
+          <link>https://albertlauncher.github.io/2026/02/02/albert-v34.0.4-released/</link>
+          <guid isPermaLink="true">https://albertlauncher.github.io/2026/02/02/albert-v34.0.4-released/</guid>
+        </item>
+      
+    
+      
+        <item>
           <title>Albert v34.0.3 released</title>
           <description>&lt;h1 id=&quot;albert-v3403-released&quot;&gt;Albert v34.0.3 released&lt;/h1&gt;
 

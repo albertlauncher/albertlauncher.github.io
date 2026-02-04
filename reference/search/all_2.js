@@ -13,7 +13,7 @@ var searchData=
   ['composed_10',['composed',['../classalbert_1_1Icon.html#ae9294f308e2c67d942ca0a97f10af842',1,'albert::Icon']]],
   ['computericon_11',['ComputerIcon',['../classalbert_1_1Icon.html#aa191d4250a5cb1ddfcd146e94ac91168a5f45c902f4307f922f3a60576c592561',1,'albert::Icon']]],
   ['configlocation_12',['configlocation',['../classalbert_1_1App.html#a415406f14b944200a312ae9cd1989aa1',1,'albert::App::configLocation()'],['../classalbert_1_1PluginInstance.html#accbf6639db1db1996b7dfaa4c3134a92',1,'albert::PluginInstance::configLocation()']]],
-  ['context_13',['context',['../classalbert_1_1QueryExecution.html#a4083506530ac3eb62448f46c22aa5657',1,'albert::QueryExecution']]],
+  ['context_13',['context',['../classalbert_1_1QueryExecution.html#a4869cd81a3b352ba4c52ff10742a8bae',1,'albert::QueryExecution']]],
   ['core_20api_14',['Core API',['../group__core.html',1,'']]],
   ['count_15',['count',['../classalbert_1_1QueryResults.html#a6c3088ed005b3b6403c4ebd3e50da1d3',1,'albert::QueryResults']]],
   ['critical_16',['critical',['../group__util__ui.html#ga72465367ff77fe327395ae90974dd70e',1,'albert']]],
