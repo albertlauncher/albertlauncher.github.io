@@ -7,6 +7,66 @@
     
       
         <item>
+          <title>Albert v34.0.6 released</title>
+          <description>&lt;h1 id=&quot;albert-v3406-released&quot;&gt;Albert v34.0.6 released&lt;/h1&gt;
+
+&lt;h3 id=&quot;features&quot;&gt;Features&lt;/h3&gt;
+
+&lt;h4 id=&quot;plugins&quot;&gt;Plugins&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Files&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-files/commit/582bbec8e873152512e04f51c1de1a9ebd79cfba&quot;&gt;Treat depth 0 as special value (infty)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Python plugins&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-python/commit/5d714f058732a14f6e147a1c90a80d380433eb04&quot;&gt;Let default trigger be module name&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-python/commit/9f50b88fc9ad0798046906f2ea845f378d121cf0&quot;&gt;Add prefpanes plugin&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;fixes&quot;&gt;Fixes&lt;/h3&gt;
+
+&lt;h4 id=&quot;core&quot;&gt;Core&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/albertlauncher/albert/commit/cd526df20641924fbd6883a8c596393188a7b07d&quot;&gt;Remove unnecessary redundancy in global query log&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/albertlauncher/albert/commit/01a1d8501ba3ccc96073f5133cf065e2f136be1f&quot;&gt;Avoid holding a lock while calling plugin code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;plugins-1&quot;&gt;Plugins&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Files&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-files/commit/616208078411964ee8eca24cbd43e500002f6165&quot;&gt;File item completion&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Jetbrains projects&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-python-jetbrains-projects/commit/62ed2c178b46b224026066061521228df4008569&quot;&gt;Python 3.12 problems&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Python plugins&lt;/strong&gt; · &lt;em&gt;PyPluginLoader&lt;/em&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-python/commit/53a5e3c6db3dc9075aef434987252c555148b87a&quot;&gt;Do not hold GIL while emitting &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;finished&lt;/code&gt; signal&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Timers&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-timer/commit/22f8787442788ef40355c57fb61b553674acf917&quot;&gt;Disable auto input action text&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;miscellaneous-tasks&quot;&gt;Miscellaneous Tasks&lt;/h3&gt;
+
+&lt;h4 id=&quot;core-1&quot;&gt;Core&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;em&gt;cliff&lt;/em&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert/commit/b18b0978ee763da1ac8967bd5d520681177bcf8b&quot;&gt;Ignore plugin release commits&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/albertlauncher/albert/commit/6c15ddf10e6796eb27a85d999f9e990fdb687fa5&quot;&gt;Remove unreleased changes from changelog&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;plugins-2&quot;&gt;Plugins&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;PacMan&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-python-pacman/commit/81bcd4935bfce8cdb60810db310d7447cbc0a853&quot;&gt;Add maintainer&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Check the &lt;a href=&quot;https://github.com/albertlauncher/albert/compare/v34.0.5...v34.0.6&quot;&gt;commit log&lt;/a&gt; for details.&lt;/p&gt;
+</description>
+          <pubDate>2026-02-12T13:20:00+00:00</pubDate>
+          <link>https://albertlauncher.github.io/2026/02/12/albert-v34.0.6-released/</link>
+          <guid isPermaLink="true">https://albertlauncher.github.io/2026/02/12/albert-v34.0.6-released/</guid>
+        </item>
+      
+    
+      
+        <item>
           <title>Albert v34.0.5 released</title>
           <description>&lt;h1 id=&quot;albert-v3405-released&quot;&gt;Albert v34.0.5 released&lt;/h1&gt;
 
