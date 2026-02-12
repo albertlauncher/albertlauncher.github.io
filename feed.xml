@@ -7,6 +7,27 @@
     
       
         <item>
+          <title>Albert v34.0.7 released</title>
+          <description>&lt;h1 id=&quot;albert-v3407-released&quot;&gt;Albert v34.0.7 released&lt;/h1&gt;
+
+&lt;h3 id=&quot;fixes&quot;&gt;Fixes&lt;/h3&gt;
+
+&lt;h4 id=&quot;plugins&quot;&gt;Plugins&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Python plugins&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-python/commit/61b567b41b6281db8ae6dcd03f0ca92587174154&quot;&gt;Default trigger overrides not used&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Check the &lt;a href=&quot;https://github.com/albertlauncher/albert/compare/v34.0.6...v34.0.7&quot;&gt;commit log&lt;/a&gt; for details.&lt;/p&gt;
+</description>
+          <pubDate>2026-02-12T23:07:00+00:00</pubDate>
+          <link>https://albertlauncher.github.io/2026/02/12/albert-v34.0.7-released/</link>
+          <guid isPermaLink="true">https://albertlauncher.github.io/2026/02/12/albert-v34.0.7-released/</guid>
+        </item>
+      
+    
+      
+        <item>
           <title>Albert v34.0.6 released</title>
           <description>&lt;h1 id=&quot;albert-v3406-released&quot;&gt;Albert v34.0.6 released&lt;/h1&gt;
 
