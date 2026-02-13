@@ -1,0 +1,24 @@
+var searchData=
+[
+  ['_7easyncgeneratorqueryhandler_0',['~AsyncGeneratorQueryHandler',['../classalbert_1_1AsyncGeneratorQueryHandler.html#a3f29d6845c877e15978bfe8b34964485',1,'albert::AsyncGeneratorQueryHandler']]],
+  ['_7ebackgroundexecutor_1',['~BackgroundExecutor',['../classalbert_1_1BackgroundExecutor.html#a373e414af23f1ff1f389194b42fc2d81',1,'albert::BackgroundExecutor']]],
+  ['_7edownload_2',['~Download',['../classalbert_1_1Download.html#a6155cb57877adfed6605ac769b573748',1,'albert::Download']]],
+  ['_7eextension_3',['~Extension',['../classalbert_1_1Extension.html#a75ca8e53d296b0fa89467469f2200b5f',1,'albert::Extension']]],
+  ['_7efallbackhandler_4',['~FallbackHandler',['../classalbert_1_1FallbackHandler.html#a071609d784d84ddab90dba76b87dfd84',1,'albert::FallbackHandler']]],
+  ['_7egeneratorqueryhandler_5',['~GeneratorQueryHandler',['../classalbert_1_1GeneratorQueryHandler.html#ab77e5c38d1f35f3a541b3b9a634e59ee',1,'albert::GeneratorQueryHandler']]],
+  ['_7eglobalqueryhandler_6',['~GlobalQueryHandler',['../classalbert_1_1GlobalQueryHandler.html#a3e4cba0351c0d47953476559db4b9b3a',1,'albert::GlobalQueryHandler']]],
+  ['_7eicon_7',['~Icon',['../classalbert_1_1Icon.html#afabe3a511d5b0cb36ed5fbe3508b7403',1,'albert::Icon']]],
+  ['_7eindexqueryhandler_8',['~IndexQueryHandler',['../classalbert_1_1IndexQueryHandler.html#abaa098cb27e17c6d185d29f53083ce7d',1,'albert::IndexQueryHandler']]],
+  ['_7eitem_9',['~Item',['../classalbert_1_1Item.html#a12e5b15918eac6708436805ea544b343',1,'albert::Item']]],
+  ['_7ematcher_10',['~Matcher',['../classalbert_1_1Matcher.html#a6ad9d7d9338cbd36efa0b61127f70781',1,'albert::Matcher']]],
+  ['_7enotification_11',['~Notification',['../classalbert_1_1Notification.html#aa1d3a2a9695f2c76f4f90dc9abeeff0f',1,'albert::Notification']]],
+  ['_7eoauth2_12',['~OAuth2',['../classalbert_1_1OAuth2.html#ac4f1849d7e746d2b88bbfe0ad0bd4e71',1,'albert::OAuth2']]],
+  ['_7eoauthconfigwidget_13',['~OAuthConfigWidget',['../classalbert_1_1OAuthConfigWidget.html#aa09ebc0527c03bd373c4e795b07b5c91',1,'albert::OAuthConfigWidget']]],
+  ['_7eobserver_14',['~Observer',['../classalbert_1_1Item_1_1Observer.html#aaff4b4ce29528767642aa308ef432c22',1,'albert::Item::Observer']]],
+  ['_7eplugininstance_15',['~PluginInstance',['../classalbert_1_1PluginInstance.html#a5f45a55c5eb5712294adc15b889942fa',1,'albert::PluginInstance']]],
+  ['_7epluginprovider_16',['~PluginProvider',['../classalbert_1_1PluginProvider.html#a1d3172a2832639a55d0fcf30905b9fec',1,'albert::PluginProvider']]],
+  ['_7equeryhandler_17',['~QueryHandler',['../classalbert_1_1QueryHandler.html#acf232f6837086273927896776b721bea',1,'albert::QueryHandler']]],
+  ['_7equeryresults_18',['~QueryResults',['../classalbert_1_1QueryResults.html#a70c96d8764d22c8358c4be52f15cf6b2',1,'albert::QueryResults']]],
+  ['_7erankedqueryhandler_19',['~RankedQueryHandler',['../classalbert_1_1RankedQueryHandler.html#a5d23963756549e8cede665e6b668acde',1,'albert::RankedQueryHandler']]],
+  ['_7estandarditem_20',['~StandardItem',['../classalbert_1_1StandardItem.html#a95c469c412b5083bff8a7bbaced461a3',1,'albert::StandardItem']]]
+];

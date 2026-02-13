@@ -1,0 +1,28 @@
+var searchData=
+[
+  ['icon_0',['icon',['../classalbert_1_1StandardItem.html#a1535b40c63bdb1b15d4f62e858858c4e',1,'albert::StandardItem::icon()'],['../classalbert_1_1Item.html#a182e6af95bdf2350a41d1be0719593b6',1,'albert::Item::icon()']]],
+  ['iconfactory_1',['iconFactory',['../classalbert_1_1StandardItem.html#a592716154a66854c9a9dd4930ef5c2d6',1,'albert::StandardItem']]],
+  ['iconfromurl_2',['iconFromUrl',['../classalbert_1_1Icon.html#acfb7ce22b4eee57b8b34f41760a56580',1,'albert::Icon']]],
+  ['iconfromurls_3',['iconFromUrls',['../classalbert_1_1Icon.html#a8e2595f86965940faea057fed374e283',1,'albert::Icon']]],
+  ['iconified_4',['iconified',['../classalbert_1_1Icon.html#ab9b02657fbd356d2258e1a5ec7b6771d',1,'albert::Icon']]],
+  ['iconifieddefaultbackgroundbrush_5',['iconifiedDefaultBackgroundBrush',['../classalbert_1_1Icon.html#a432567a22055f3d6b959548777454c64',1,'albert::Icon']]],
+  ['iconifieddefaultborderbrush_6',['iconifiedDefaultBorderBrush',['../classalbert_1_1Icon.html#abf08ecfcaf8a9b6e4a3a7e3bab7914b9',1,'albert::Icon']]],
+  ['id_7',['id',['../classalbert_1_1Extension.html#aba79b0b7a42a03addbb4223462362b06',1,'albert::Extension::id()'],['../classalbert_1_1ExtensionPlugin.html#aeee425d0fa1174a25ce3ae562ecda5c0',1,'albert::ExtensionPlugin::id()'],['../classalbert_1_1Item.html#a79a57458532eb980b93834ff8546d22f',1,'albert::Item::id()'],['../classalbert_1_1StandardItem.html#aa7eaf721cdb29dac01f965b912c001be',1,'albert::StandardItem::id()']]],
+  ['image_8',['image',['../classalbert_1_1Icon.html#abc31673ad47aeb9a5b5d9537d137133e',1,'albert::Icon::image(const QString &amp;path)'],['../classalbert_1_1Icon.html#ae1f5732477c9acde6e022eb957f13ca0',1,'albert::Icon::image(const std::filesystem::path &amp;path)']]],
+  ['indexitem_9',['IndexItem',['../classalbert_1_1IndexItem.html#af4fcc3f09f8f612437fb81d215216954',1,'albert::IndexItem']]],
+  ['indexqueryhandler_10',['IndexQueryHandler',['../classalbert_1_1IndexQueryHandler.html#a5eb404658ee263fd33bb44b7e6ce615b',1,'albert::IndexQueryHandler']]],
+  ['information_11',['information',['../group__util__ui.html#gab6587cb081eb0186f33ea186383d822e',1,'albert']]],
+  ['initialize_12',['initialize',['../classalbert_1_1PluginInstance.html#a3771e10208fe5343d36d550367d4210b',1,'albert::PluginInstance']]],
+  ['initialized_13',['initialized',['../classalbert_1_1PluginInstance.html#a2820a993249c4f98378c9de1ebd70705',1,'albert::PluginInstance']]],
+  ['inputactiontext_14',['inputactiontext',['../classalbert_1_1Item.html#a895b7ffa23356556ef72d4ba33633306',1,'albert::Item::inputActionText()'],['../classalbert_1_1StandardItem.html#a9930511eb0a37648cdd1fae7fa7e1e98',1,'albert::StandardItem::inputActionText()']]],
+  ['instance_15',['instance',['../classalbert_1_1App.html#a4bffdd9346fb2af114c5ece47708926f',1,'albert::App::instance()'],['../classalbert_1_1PluginLoader.html#a152ac767c6e132b5607716e3d7b4ac15',1,'albert::PluginLoader::instance()']]],
+  ['isactive_16',['isactive',['../classalbert_1_1Download.html#a320579cf35130e642f8410cc156bae2e',1,'albert::Download::isActive()'],['../classalbert_1_1QueryExecution.html#a40b0cd12270ff87cf9215a26a036b119',1,'albert::QueryExecution::isActive()']]],
+  ['isemptymatch_17',['isEmptyMatch',['../classalbert_1_1Match.html#a48fa9fb3c1b4b03f6bc525de785a75f0',1,'albert::Match']]],
+  ['isexactmatch_18',['isExactMatch',['../classalbert_1_1Match.html#ada8b57297ddee9300997e81aa4f1bd75',1,'albert::Match']]],
+  ['ismatch_19',['isMatch',['../classalbert_1_1Match.html#a5fbbd4ce36917598a1cc5534f596c857',1,'albert::Match']]],
+  ['isnull_20',['isNull',['../classalbert_1_1Icon.html#ac0dc834d49025ae707d935ce6439beea',1,'albert::Icon']]],
+  ['ispkceenabled_21',['isPkceEnabled',['../classalbert_1_1OAuth2.html#a20b7cd47de03f7d7c0f09727150afb0e',1,'albert::OAuth2']]],
+  ['isrunning_22',['isRunning',['../classalbert_1_1BackgroundExecutor.html#a2d798a9bb8decb19d6ad55570b7efaae',1,'albert::BackgroundExecutor']]],
+  ['isvalid_23',['isValid',['../classalbert_1_1QueryContext.html#ad094f4c93aa808926cb0701a6bc28644',1,'albert::QueryContext']]],
+  ['items_24',['items',['../classalbert_1_1AsyncGeneratorQueryHandler.html#a0283ae1f87d1ed6150ef0b6284ad90a1',1,'albert::AsyncGeneratorQueryHandler::items()'],['../classalbert_1_1GeneratorQueryHandler.html#aa3c8bd9f704297bba3e58859f3ba3ec3',1,'albert::GeneratorQueryHandler::items()'],['../classalbert_1_1RankedQueryHandler.html#a8dc06192d71bd84339eca82bfd81b8f4',1,'albert::RankedQueryHandler::items()']]]
+];

@@ -1,0 +1,28 @@
+/*https://github.com/jothepro/doxygen-awesome-css/blob/main/doxygen-awesome.css*/
+
+html {
+    --primary-color: #00cccc;
+
+    /* default spacings. Most components reference these values for spacing, to provide uniform spacing on the page. */
+    --spacing-small:  3px; /*  5px; */
+    --spacing-medium: 6px; /* 10px; */
+    --spacing-large:  10px; /* 16px; */
+
+    /*!* font sizes *!*/
+    /*--page-font-size:       14px; !* 15.6px; *!*/
+    /*--navigation-font-size: 12px; !* 14.4px; *!*/
+    /*--toc-font-size:        11px; !* 13.4px; *!*/
+    /*--code-font-size:       12px; !* 14px affects code, fragment *!*/
+    /*--title-font-size:      20px; !* 22px; *!*/
+
+    --content-line-height: 25px;
+
+    /* colors for various content boxes: @warning, @note, @deprecated @bug */
+
+    --note-color: #ddffff;
+    --note-color-dark: #00cccc;
+    --note-color-darker: #00aaaa;
+
+
+}
+
