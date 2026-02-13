@@ -7,6 +7,44 @@
     
       
         <item>
+          <title>Albert v34.0.10 released</title>
+          <description>&lt;h1 id=&quot;albert-v34010-released&quot;&gt;Albert v34.0.10 released&lt;/h1&gt;
+
+&lt;h3 id=&quot;features&quot;&gt;Features&lt;/h3&gt;
+
+&lt;h4 id=&quot;plugins&quot;&gt;Plugins&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Widgets BoxModel&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-widgetsboxmodel/commit/222fdee5afa2d1bca195e7420a949977e4f697c7&quot;&gt;Warn on icon rendering taking too long&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;performance&quot;&gt;Performance&lt;/h3&gt;
+
+&lt;h4 id=&quot;plugins-1&quot;&gt;Plugins&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Widgets BoxModel&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-widgetsboxmodel/commit/700ba2d84f166b2c32c9606c1700cc744d94794c&quot;&gt;Warm up font rendering&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;fixes&quot;&gt;Fixes&lt;/h3&gt;
+
+&lt;h4 id=&quot;core&quot;&gt;Core&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;em&gt;GeneratorQueryHandler&lt;/em&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert/commit/556514bb3b76ed6f9ba1d2c597759fafb95e7c51&quot;&gt;Workaround Qt 6.4 deadlocks&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;BackgroundExecutor&lt;/em&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert/commit/2e9fce148b6c4213daca68f5a350457e34331da7&quot;&gt;Workaround Qt 6.4 deadlocks&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Check the &lt;a href=&quot;https://github.com/albertlauncher/albert/compare/v34.0.9...v34.0.10&quot;&gt;commit log&lt;/a&gt; for details.&lt;/p&gt;
+</description>
+          <pubDate>2026-02-13T21:31:00+00:00</pubDate>
+          <link>https://albertlauncher.github.io/2026/02/13/albert-v34.0.10-released/</link>
+          <guid isPermaLink="true">https://albertlauncher.github.io/2026/02/13/albert-v34.0.10-released/</guid>
+        </item>
+      
+    
+      
+        <item>
           <title>Albert v34.0.9 released</title>
           <description>&lt;h1 id=&quot;albert-v3409-released&quot;&gt;Albert v34.0.9 released&lt;/h1&gt;
 
