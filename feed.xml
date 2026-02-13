@@ -7,6 +7,41 @@
     
       
         <item>
+          <title>Albert v34.0.8 released</title>
+          <description>&lt;h1 id=&quot;albert-v3408-released&quot;&gt;Albert v34.0.8 released&lt;/h1&gt;
+
+&lt;h3 id=&quot;fixes&quot;&gt;Fixes&lt;/h3&gt;
+
+&lt;h4 id=&quot;plugins&quot;&gt;Plugins&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Python plugins&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-python/commit/9f7ec61aa0909c50fadb080bbf9fa65f4346ef1d&quot;&gt;Dependent template breaks almost all builds&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;miscellaneous-tasks&quot;&gt;Miscellaneous Tasks&lt;/h3&gt;
+
+&lt;h4 id=&quot;core&quot;&gt;Core&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/albertlauncher/albert/commit/52f7afc834f75a996e8e494ca1deda29d49e0c81&quot;&gt;Remove title from cliff templates&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;plugins-1&quot;&gt;Plugins&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;GitHub&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-github/commit/dbdc521897699b5a5e21d9e9a48d262ba4f0522b&quot;&gt;Remove leftover debug output&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Check the &lt;a href=&quot;https://github.com/albertlauncher/albert/compare/v34.0.7...v34.0.8&quot;&gt;commit log&lt;/a&gt; for details.&lt;/p&gt;
+</description>
+          <pubDate>2026-02-13T10:23:00+00:00</pubDate>
+          <link>https://albertlauncher.github.io/2026/02/13/albert-v34.0.8-released/</link>
+          <guid isPermaLink="true">https://albertlauncher.github.io/2026/02/13/albert-v34.0.8-released/</guid>
+        </item>
+      
+    
+      
+        <item>
           <title>Albert v34.0.7 released</title>
           <description>&lt;h1 id=&quot;albert-v3407-released&quot;&gt;Albert v34.0.7 released&lt;/h1&gt;
 
