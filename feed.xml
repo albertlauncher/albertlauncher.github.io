@@ -7,6 +7,33 @@
     
       
         <item>
+          <title>Albert v34.0.9 released</title>
+          <description>&lt;h1 id=&quot;albert-v3409-released&quot;&gt;Albert v34.0.9 released&lt;/h1&gt;
+
+&lt;h3 id=&quot;fixes&quot;&gt;Fixes&lt;/h3&gt;
+
+&lt;h4 id=&quot;core&quot;&gt;Core&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;em&gt;widgetsboxmodel&lt;/em&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert/commit/ad3705b2b32eb5170995d6a92faf09ead728c424&quot;&gt;Accidentially released dev branch&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;plugins&quot;&gt;Plugins&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;URL Handler&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-urlhandler/commit/c4950597a4887e795ddbb375da177bf30b87164d&quot;&gt;Disable implict input action&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Check the &lt;a href=&quot;https://github.com/albertlauncher/albert/compare/v34.0.8...v34.0.9&quot;&gt;commit log&lt;/a&gt; for details.&lt;/p&gt;
+</description>
+          <pubDate>2026-02-13T12:48:00+00:00</pubDate>
+          <link>https://albertlauncher.github.io/2026/02/13/albert-v34.0.9-released/</link>
+          <guid isPermaLink="true">https://albertlauncher.github.io/2026/02/13/albert-v34.0.9-released/</guid>
+        </item>
+      
+    
+      
+        <item>
           <title>Albert v34.0.8 released</title>
           <description>&lt;h1 id=&quot;albert-v3408-released&quot;&gt;Albert v34.0.8 released&lt;/h1&gt;
 
