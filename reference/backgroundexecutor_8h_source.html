@@ -135,76 +135,85 @@ $(document).ready(function(){initNavTree('backgroundexecutor_8h_source.html','')
 <div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>    {</div>
 <div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>        stop_ = <span class="keyword">true</span>;</div>
 <div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>        rerun_ = <span class="keyword">false</span>;</div>
-<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>        <span class="keywordflow">if</span> (future_watcher_ &amp;&amp; !future_watcher_-&gt;isFinished())</div>
-<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>            future_watcher_-&gt;waitForFinished();</div>
-<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>    }</div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span> </div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>        <span class="comment">// Qt 6.4 QFutureWatcher is broken.</span></div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>        <span class="comment">// isFinished returns wrong values and waitForFinished blocks forever on finished futures.</span></div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>        <span class="comment">// TODO(26.04): Remove workaround when dropping Qt &lt; 6.5 support.</span></div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>        <span class="keywordflow">if</span> (future_watcher_</div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>#<span class="keywordflow">if</span> QT_VERSION &gt;= QT_VERSION_CHECK(6, 5, 0)</div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>            &amp;&amp; !future_watcher_-&gt;isFinished())</div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span><span class="preprocessor">#else</span></div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>            &amp;&amp; future_watcher_-&gt;isRunning())</div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>#endif</div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>            future_watcher_-&gt;waitForFinished();</div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>    }</div>
 </div>
-<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span> </div>
-<div class="foldopen" id="foldopen00068" data-start="{" data-end="}">
-<div class="line"><a id="l00068" name="l00068"></a><span class="lineno"><a class="line" href="classalbert_1_1BackgroundExecutor.html#a95b0814f3637d231dad8e56b351fc795">   68</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="classalbert_1_1BackgroundExecutor.html#a95b0814f3637d231dad8e56b351fc795">run</a>()</div>
-<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>    {</div>
-<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>        <span class="keywordflow">if</span> (<a class="code hl_function" href="classalbert_1_1BackgroundExecutor.html#a2d798a9bb8decb19d6ad55570b7efaae">isRunning</a>())</div>
-<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>        {</div>
-<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>            stop_ = <span class="keyword">true</span>;</div>
-<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>            rerun_ = <span class="keyword">true</span>;</div>
-<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>        }</div>
-<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>        <span class="keywordflow">else</span></div>
-<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>        {</div>
-<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>            stop_ = <span class="keyword">false</span>;</div>
-<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>            rerun_ = <span class="keyword">false</span>;</div>
-<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span> </div>
-<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>            future_watcher_ = std::make_unique&lt;QFutureWatcher&lt;T&gt;&gt;();</div>
-<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span> </div>
-<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span>            QObject::connect(future_watcher_.get(), &amp;QFutureWatcher&lt;T&gt;::finished,</div>
-<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span>                             future_watcher_.get(), [<span class="keyword">this</span>]</div>
-<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span>            {</div>
-<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span>                if (rerun_)</div>
-<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span>                {</div>
-<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span>                    future_watcher_.reset();</div>
-<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span>                    run();  <span class="comment">// discard results and rerun</span></div>
-<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span>                }</div>
-<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span>                <span class="keywordflow">else</span></div>
-<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span>                {</div>
-<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span>                    try {</div>
-<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span>                        finish();  <span class="comment">// may throw</span></div>
-<div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span>                    } catch (...) {}</div>
-<div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span>                    future_watcher_.reset();</div>
-<div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span>                }</div>
-<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span>            });</div>
-<div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span> </div>
-<div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span>            future_watcher_-&gt;setFuture(QtConcurrent::run([<span class="keyword">this</span>]{ <span class="keywordflow">return</span> <a class="code hl_variable" href="classalbert_1_1BackgroundExecutor.html#a6866d11ec2d2ecca149318a4b6a3f97c">parallel</a>(stop_); }));</div>
-<div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span> </div>
-<div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span>        }</div>
-<div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span>    }</div>
-</div>
-<div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span> </div>
-<div class="line"><a id="l00105" name="l00105"></a><span class="lineno"><a class="line" href="classalbert_1_1BackgroundExecutor.html#a89f26a9e1336095199e2721967c0dfb4">  105</a></span>    <span class="keyword">inline</span> <span class="keywordtype">void</span> <a class="code hl_function" href="classalbert_1_1BackgroundExecutor.html#a89f26a9e1336095199e2721967c0dfb4">stop</a>() { stop_ = <span class="keyword">true</span>; }</div>
-<div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span> </div>
-<div class="line"><a id="l00108" name="l00108"></a><span class="lineno"><a class="line" href="classalbert_1_1BackgroundExecutor.html#a2d798a9bb8decb19d6ad55570b7efaae">  108</a></span>    <span class="keyword">inline</span> <span class="keywordtype">bool</span> <a class="code hl_function" href="classalbert_1_1BackgroundExecutor.html#a2d798a9bb8decb19d6ad55570b7efaae">isRunning</a>()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> future_watcher_.get(); }</div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span> </div>
+<div class="foldopen" id="foldopen00077" data-start="{" data-end="}">
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno"><a class="line" href="classalbert_1_1BackgroundExecutor.html#a95b0814f3637d231dad8e56b351fc795">   77</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="classalbert_1_1BackgroundExecutor.html#a95b0814f3637d231dad8e56b351fc795">run</a>()</div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>    {</div>
+<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>        <span class="keywordflow">if</span> (<a class="code hl_function" href="classalbert_1_1BackgroundExecutor.html#a2d798a9bb8decb19d6ad55570b7efaae">isRunning</a>())</div>
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>        {</div>
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>            stop_ = <span class="keyword">true</span>;</div>
+<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span>            rerun_ = <span class="keyword">true</span>;</div>
+<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span>        }</div>
+<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span>        <span class="keywordflow">else</span></div>
+<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span>        {</div>
+<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span>            stop_ = <span class="keyword">false</span>;</div>
+<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span>            rerun_ = <span class="keyword">false</span>;</div>
+<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span> </div>
+<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span>            future_watcher_ = std::make_unique&lt;QFutureWatcher&lt;T&gt;&gt;();</div>
+<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span> </div>
+<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span>            QObject::connect(future_watcher_.get(), &amp;QFutureWatcher&lt;T&gt;::finished,</div>
+<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span>                             future_watcher_.get(), [<span class="keyword">this</span>]</div>
+<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span>            {</div>
+<div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span>                if (rerun_)</div>
+<div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span>                {</div>
+<div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span>                    future_watcher_.reset();</div>
+<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span>                    run();  <span class="comment">// discard results and rerun</span></div>
+<div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span>                }</div>
+<div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span>                <span class="keywordflow">else</span></div>
+<div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span>                {</div>
+<div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span>                    try {</div>
+<div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span>                        finish();  <span class="comment">// may throw</span></div>
+<div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span>                    } catch (...) {}</div>
+<div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span>                    future_watcher_.reset();</div>
+<div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span>                }</div>
+<div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span>            });</div>
+<div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span> </div>
+<div class="line"><a id="l00108" name="l00108"></a><span class="lineno">  108</span>            future_watcher_-&gt;setFuture(QtConcurrent::run([<span class="keyword">this</span>]{ <span class="keywordflow">return</span> <a class="code hl_variable" href="classalbert_1_1BackgroundExecutor.html#a6866d11ec2d2ecca149318a4b6a3f97c">parallel</a>(stop_); }));</div>
 <div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span> </div>
-<div class="foldopen" id="foldopen00111" data-start="{" data-end="}">
-<div class="line"><a id="l00111" name="l00111"></a><span class="lineno"><a class="line" href="classalbert_1_1BackgroundExecutor.html#a338b257a88ff1eda78a62e417c763ee8">  111</a></span>    <span class="keyword">inline</span> <span class="keywordtype">void</span> <a class="code hl_function" href="classalbert_1_1BackgroundExecutor.html#a338b257a88ff1eda78a62e417c763ee8">waitForFinished</a>()</div>
-<div class="line"><a id="l00112" name="l00112"></a><span class="lineno">  112</span>    {</div>
-<div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span>        <span class="keywordflow">if</span> (future_watcher_)</div>
-<div class="line"><a id="l00114" name="l00114"></a><span class="lineno">  114</span>            future_watcher_-&gt;waitForFinished();</div>
-<div class="line"><a id="l00115" name="l00115"></a><span class="lineno">  115</span>    }</div>
+<div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span>        }</div>
+<div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span>    }</div>
 </div>
-<div class="line"><a id="l00116" name="l00116"></a><span class="lineno">  116</span> </div>
-<div class="line"><a id="l00122" name="l00122"></a><span class="lineno"><a class="line" href="classalbert_1_1BackgroundExecutor.html#abf785c66bc2ccb68e635ba956a243c1b">  122</a></span>    <span class="keyword">inline</span> T <a class="code hl_function" href="classalbert_1_1BackgroundExecutor.html#abf785c66bc2ccb68e635ba956a243c1b">takeResult</a>() { <span class="keywordflow">return</span> future_watcher_-&gt;future().takeResult(); }</div>
-<div class="line"><a id="l00123" name="l00123"></a><span class="lineno">  123</span> </div>
-<div class="line"><a id="l00124" name="l00124"></a><span class="lineno">  124</span>};</div>
+<div class="line"><a id="l00112" name="l00112"></a><span class="lineno">  112</span> </div>
+<div class="line"><a id="l00114" name="l00114"></a><span class="lineno"><a class="line" href="classalbert_1_1BackgroundExecutor.html#a89f26a9e1336095199e2721967c0dfb4">  114</a></span>    <span class="keyword">inline</span> <span class="keywordtype">void</span> <a class="code hl_function" href="classalbert_1_1BackgroundExecutor.html#a89f26a9e1336095199e2721967c0dfb4">stop</a>() { stop_ = <span class="keyword">true</span>; }</div>
+<div class="line"><a id="l00115" name="l00115"></a><span class="lineno">  115</span> </div>
+<div class="line"><a id="l00117" name="l00117"></a><span class="lineno"><a class="line" href="classalbert_1_1BackgroundExecutor.html#a2d798a9bb8decb19d6ad55570b7efaae">  117</a></span>    <span class="keyword">inline</span> <span class="keywordtype">bool</span> <a class="code hl_function" href="classalbert_1_1BackgroundExecutor.html#a2d798a9bb8decb19d6ad55570b7efaae">isRunning</a>()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> future_watcher_.get(); }</div>
+<div class="line"><a id="l00118" name="l00118"></a><span class="lineno">  118</span> </div>
+<div class="foldopen" id="foldopen00120" data-start="{" data-end="}">
+<div class="line"><a id="l00120" name="l00120"></a><span class="lineno"><a class="line" href="classalbert_1_1BackgroundExecutor.html#a338b257a88ff1eda78a62e417c763ee8">  120</a></span>    <span class="keyword">inline</span> <span class="keywordtype">void</span> <a class="code hl_function" href="classalbert_1_1BackgroundExecutor.html#a338b257a88ff1eda78a62e417c763ee8">waitForFinished</a>()</div>
+<div class="line"><a id="l00121" name="l00121"></a><span class="lineno">  121</span>    {</div>
+<div class="line"><a id="l00122" name="l00122"></a><span class="lineno">  122</span>        <span class="keywordflow">if</span> (future_watcher_)</div>
+<div class="line"><a id="l00123" name="l00123"></a><span class="lineno">  123</span>            future_watcher_-&gt;waitForFinished();</div>
+<div class="line"><a id="l00124" name="l00124"></a><span class="lineno">  124</span>    }</div>
 </div>
 <div class="line"><a id="l00125" name="l00125"></a><span class="lineno">  125</span> </div>
-<div class="line"><a id="l00126" name="l00126"></a><span class="lineno">  126</span>}</div>
+<div class="line"><a id="l00131" name="l00131"></a><span class="lineno"><a class="line" href="classalbert_1_1BackgroundExecutor.html#abf785c66bc2ccb68e635ba956a243c1b">  131</a></span>    <span class="keyword">inline</span> T <a class="code hl_function" href="classalbert_1_1BackgroundExecutor.html#abf785c66bc2ccb68e635ba956a243c1b">takeResult</a>() { <span class="keywordflow">return</span> future_watcher_-&gt;future().takeResult(); }</div>
+<div class="line"><a id="l00132" name="l00132"></a><span class="lineno">  132</span> </div>
+<div class="line"><a id="l00133" name="l00133"></a><span class="lineno">  133</span>};</div>
+</div>
+<div class="line"><a id="l00134" name="l00134"></a><span class="lineno">  134</span> </div>
+<div class="line"><a id="l00135" name="l00135"></a><span class="lineno">  135</span>}</div>
 <div class="ttc" id="aclassalbert_1_1BackgroundExecutor_html"><div class="ttname"><a href="classalbert_1_1BackgroundExecutor.html">albert::BackgroundExecutor</a></div><div class="ttdoc">Convenience class for recurring indexing tasks.</div><div class="ttdef"><b>Definition</b> backgroundexecutor.h:22</div></div>
-<div class="ttc" id="aclassalbert_1_1BackgroundExecutor_html_a2d798a9bb8decb19d6ad55570b7efaae"><div class="ttname"><a href="classalbert_1_1BackgroundExecutor.html#a2d798a9bb8decb19d6ad55570b7efaae">albert::BackgroundExecutor::isRunning</a></div><div class="ttdeci">bool isRunning() const</div><div class="ttdoc">Returns true if the asynchronous computation is currently running; otherwise returns false.</div><div class="ttdef"><b>Definition</b> backgroundexecutor.h:108</div></div>
-<div class="ttc" id="aclassalbert_1_1BackgroundExecutor_html_a338b257a88ff1eda78a62e417c763ee8"><div class="ttname"><a href="classalbert_1_1BackgroundExecutor.html#a338b257a88ff1eda78a62e417c763ee8">albert::BackgroundExecutor::waitForFinished</a></div><div class="ttdeci">void waitForFinished()</div><div class="ttdoc">Blocks until the current task finished.</div><div class="ttdef"><b>Definition</b> backgroundexecutor.h:111</div></div>
+<div class="ttc" id="aclassalbert_1_1BackgroundExecutor_html_a2d798a9bb8decb19d6ad55570b7efaae"><div class="ttname"><a href="classalbert_1_1BackgroundExecutor.html#a2d798a9bb8decb19d6ad55570b7efaae">albert::BackgroundExecutor::isRunning</a></div><div class="ttdeci">bool isRunning() const</div><div class="ttdoc">Returns true if the asynchronous computation is currently running; otherwise returns false.</div><div class="ttdef"><b>Definition</b> backgroundexecutor.h:117</div></div>
+<div class="ttc" id="aclassalbert_1_1BackgroundExecutor_html_a338b257a88ff1eda78a62e417c763ee8"><div class="ttname"><a href="classalbert_1_1BackgroundExecutor.html#a338b257a88ff1eda78a62e417c763ee8">albert::BackgroundExecutor::waitForFinished</a></div><div class="ttdeci">void waitForFinished()</div><div class="ttdoc">Blocks until the current task finished.</div><div class="ttdef"><b>Definition</b> backgroundexecutor.h:120</div></div>
 <div class="ttc" id="aclassalbert_1_1BackgroundExecutor_html_a373e414af23f1ff1f389194b42fc2d81"><div class="ttname"><a href="classalbert_1_1BackgroundExecutor.html#a373e414af23f1ff1f389194b42fc2d81">albert::BackgroundExecutor::~BackgroundExecutor</a></div><div class="ttdeci">~BackgroundExecutor()</div><div class="ttdoc">Destructs the background executor.</div><div class="ttdef"><b>Definition</b> backgroundexecutor.h:54</div></div>
 <div class="ttc" id="aclassalbert_1_1BackgroundExecutor_html_a6866d11ec2d2ecca149318a4b6a3f97c"><div class="ttname"><a href="classalbert_1_1BackgroundExecutor.html#a6866d11ec2d2ecca149318a4b6a3f97c">albert::BackgroundExecutor::parallel</a></div><div class="ttdeci">std::function&lt; T(const bool &amp;abort)&gt; parallel</div><div class="ttdoc">The task to be executed in a thread.</div><div class="ttdef"><b>Definition</b> backgroundexecutor.h:34</div></div>
-<div class="ttc" id="aclassalbert_1_1BackgroundExecutor_html_a89f26a9e1336095199e2721967c0dfb4"><div class="ttname"><a href="classalbert_1_1BackgroundExecutor.html#a89f26a9e1336095199e2721967c0dfb4">albert::BackgroundExecutor::stop</a></div><div class="ttdeci">void stop()</div><div class="ttdoc">Stops the current execution.</div><div class="ttdef"><b>Definition</b> backgroundexecutor.h:105</div></div>
+<div class="ttc" id="aclassalbert_1_1BackgroundExecutor_html_a89f26a9e1336095199e2721967c0dfb4"><div class="ttname"><a href="classalbert_1_1BackgroundExecutor.html#a89f26a9e1336095199e2721967c0dfb4">albert::BackgroundExecutor::stop</a></div><div class="ttdeci">void stop()</div><div class="ttdoc">Stops the current execution.</div><div class="ttdef"><b>Definition</b> backgroundexecutor.h:114</div></div>
 <div class="ttc" id="aclassalbert_1_1BackgroundExecutor_html_a8dbece579177c2665517738ab279f8f9"><div class="ttname"><a href="classalbert_1_1BackgroundExecutor.html#a8dbece579177c2665517738ab279f8f9">albert::BackgroundExecutor::finish</a></div><div class="ttdeci">std::function&lt; void()&gt; finish</div><div class="ttdoc">The finish callback.</div><div class="ttdef"><b>Definition</b> backgroundexecutor.h:42</div></div>
-<div class="ttc" id="aclassalbert_1_1BackgroundExecutor_html_a95b0814f3637d231dad8e56b351fc795"><div class="ttname"><a href="classalbert_1_1BackgroundExecutor.html#a95b0814f3637d231dad8e56b351fc795">albert::BackgroundExecutor::run</a></div><div class="ttdeci">void run()</div><div class="ttdoc">Run or schedule a rerun of the task.</div><div class="ttdef"><b>Definition</b> backgroundexecutor.h:68</div></div>
-<div class="ttc" id="aclassalbert_1_1BackgroundExecutor_html_abf785c66bc2ccb68e635ba956a243c1b"><div class="ttname"><a href="classalbert_1_1BackgroundExecutor.html#abf785c66bc2ccb68e635ba956a243c1b">albert::BackgroundExecutor::takeResult</a></div><div class="ttdeci">T takeResult()</div><div class="ttdoc">Takes the result from the future.</div><div class="ttdef"><b>Definition</b> backgroundexecutor.h:122</div></div>
+<div class="ttc" id="aclassalbert_1_1BackgroundExecutor_html_a95b0814f3637d231dad8e56b351fc795"><div class="ttname"><a href="classalbert_1_1BackgroundExecutor.html#a95b0814f3637d231dad8e56b351fc795">albert::BackgroundExecutor::run</a></div><div class="ttdeci">void run()</div><div class="ttdoc">Run or schedule a rerun of the task.</div><div class="ttdef"><b>Definition</b> backgroundexecutor.h:77</div></div>
+<div class="ttc" id="aclassalbert_1_1BackgroundExecutor_html_abf785c66bc2ccb68e635ba956a243c1b"><div class="ttname"><a href="classalbert_1_1BackgroundExecutor.html#abf785c66bc2ccb68e635ba956a243c1b">albert::BackgroundExecutor::takeResult</a></div><div class="ttdeci">T takeResult()</div><div class="ttdoc">Takes the result from the future.</div><div class="ttdef"><b>Definition</b> backgroundexecutor.h:131</div></div>
 <div class="ttc" id="aclassalbert_1_1BackgroundExecutor_html_adc7fce9c3bdb140a448cc487fba952df"><div class="ttname"><a href="classalbert_1_1BackgroundExecutor.html#adc7fce9c3bdb140a448cc487fba952df">albert::BackgroundExecutor::BackgroundExecutor</a></div><div class="ttdeci">BackgroundExecutor()=default</div><div class="ttdoc">Constructs the background executor.</div></div>
 <div class="ttc" id="anamespacealbert_html"><div class="ttname"><a href="namespacealbert.html">albert</a></div><div class="ttdoc">The Albert namespace.</div><div class="ttdef"><b>Definition</b> app.h:55</div></div>
 </div><!-- fragment --></div><!-- contents -->

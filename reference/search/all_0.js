@@ -23,10 +23,9 @@ var searchData=
   ['arrowright_20',['ArrowRight',['../classalbert_1_1Icon.html#aa191d4250a5cb1ddfcd146e94ac91168a70a2c0af401b38150927fbfb8dedbd8a',1,'albert::Icon']]],
   ['arrowup_21',['ArrowUp',['../classalbert_1_1Icon.html#aa191d4250a5cb1ddfcd146e94ac91168a2b186d837354262f8c3aefc3174009ba',1,'albert::Icon']]],
   ['asyncgeneratorqueryhandler_22',['AsyncGeneratorQueryHandler',['../classalbert_1_1AsyncGeneratorQueryHandler.html',1,'albert']]],
-  ['asyncitemgenerator_23',['asyncitemgenerator',['../classalbert_1_1AsyncGeneratorQueryHandler.html#afbdfea2a9bd3faf5f718220857ddf922',1,'albert::AsyncGeneratorQueryHandler::asyncItemGenerator()'],['../classalbert_1_1GeneratorQueryHandler.html#a4d744ddd3c79084f3c61f16545757b29',1,'albert::GeneratorQueryHandler::asyncItemGenerator()']]],
-  ['authors_24',['authors',['../classalbert_1_1PluginMetadata.html#a7b65565721dc7326d516990b20d15018',1,'albert::PluginMetadata']]],
-  ['authurl_25',['authUrl',['../classalbert_1_1OAuth2.html#a9189607844cbcb664d066257dc733828',1,'albert::OAuth2']]],
-  ['authurlchanged_26',['authUrlChanged',['../classalbert_1_1OAuth2.html#a3e102530a270304f7e6ededa1e6cec36',1,'albert::OAuth2']]],
-  ['await_27',['await',['../group__util__net.html#gaeb88b880cbf906265347358210ad1cc1',1,'albert']]],
-  ['awaiting_28',['Awaiting',['../classalbert_1_1OAuth2.html#ae31fde854e47dcd044708e9cb9e05051ac7bece6685d4556fcb8dfdcd72d720f5',1,'albert::OAuth2']]]
+  ['authors_23',['authors',['../classalbert_1_1PluginMetadata.html#a7b65565721dc7326d516990b20d15018',1,'albert::PluginMetadata']]],
+  ['authurl_24',['authUrl',['../classalbert_1_1OAuth2.html#a9189607844cbcb664d066257dc733828',1,'albert::OAuth2']]],
+  ['authurlchanged_25',['authUrlChanged',['../classalbert_1_1OAuth2.html#a3e102530a270304f7e6ededa1e6cec36',1,'albert::OAuth2']]],
+  ['await_26',['await',['../group__util__net.html#gaeb88b880cbf906265347358210ad1cc1',1,'albert']]],
+  ['awaiting_27',['Awaiting',['../classalbert_1_1OAuth2.html#ae31fde854e47dcd044708e9cb9e05051ac7bece6685d4556fcb8dfdcd72d720f5',1,'albert::OAuth2']]]
 ];

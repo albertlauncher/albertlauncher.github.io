@@ -9,12 +9,11 @@ var hierarchy =
       [ "albert::FallbackHandler", "classalbert_1_1FallbackHandler.html", null ],
       [ "albert::PluginProvider", "classalbert_1_1PluginProvider.html", null ],
       [ "albert::QueryHandler", "classalbert_1_1QueryHandler.html", [
-        [ "albert::AsyncGeneratorQueryHandler", "classalbert_1_1AsyncGeneratorQueryHandler.html", [
-          [ "albert::GeneratorQueryHandler", "classalbert_1_1GeneratorQueryHandler.html", [
-            [ "albert::RankedQueryHandler", "classalbert_1_1RankedQueryHandler.html", [
-              [ "albert::GlobalQueryHandler", "classalbert_1_1GlobalQueryHandler.html", [
-                [ "albert::IndexQueryHandler", "classalbert_1_1IndexQueryHandler.html", null ]
-              ] ]
+        [ "albert::AsyncGeneratorQueryHandler", "classalbert_1_1AsyncGeneratorQueryHandler.html", null ],
+        [ "albert::GeneratorQueryHandler", "classalbert_1_1GeneratorQueryHandler.html", [
+          [ "albert::RankedQueryHandler", "classalbert_1_1RankedQueryHandler.html", [
+            [ "albert::GlobalQueryHandler", "classalbert_1_1GlobalQueryHandler.html", [
+              [ "albert::IndexQueryHandler", "classalbert_1_1IndexQueryHandler.html", null ]
             ] ]
           ] ]
         ] ]

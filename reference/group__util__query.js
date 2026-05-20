@@ -2,8 +2,8 @@ var group__util__query =
 [
     [ "albert::AsyncGeneratorQueryHandler", "classalbert_1_1AsyncGeneratorQueryHandler.html", [
       [ "~AsyncGeneratorQueryHandler", "classalbert_1_1AsyncGeneratorQueryHandler.html#a3f29d6845c877e15978bfe8b34964485", null ],
-      [ "asyncItemGenerator", "classalbert_1_1AsyncGeneratorQueryHandler.html#afbdfea2a9bd3faf5f718220857ddf922", null ],
-      [ "execution", "classalbert_1_1AsyncGeneratorQueryHandler.html#ab6fe70bdf29d33e1c1cb90fb025c601f", null ]
+      [ "execution", "classalbert_1_1AsyncGeneratorQueryHandler.html#a4be9b7a8c31e53ff2a61ae85c1605bf5", null ],
+      [ "items", "classalbert_1_1AsyncGeneratorQueryHandler.html#a0283ae1f87d1ed6150ef0b6284ad90a1", null ]
     ] ],
     [ "albert::BackgroundExecutor< T >", "classalbert_1_1BackgroundExecutor.html", [
       [ "BackgroundExecutor", "classalbert_1_1BackgroundExecutor.html#adc7fce9c3bdb140a448cc487fba952df", null ],
@@ -18,7 +18,7 @@ var group__util__query =
     ] ],
     [ "albert::GeneratorQueryHandler", "classalbert_1_1GeneratorQueryHandler.html", [
       [ "~GeneratorQueryHandler", "classalbert_1_1GeneratorQueryHandler.html#ab77e5c38d1f35f3a541b3b9a634e59ee", null ],
-      [ "asyncItemGenerator", "classalbert_1_1GeneratorQueryHandler.html#a4d744ddd3c79084f3c61f16545757b29", null ],
+      [ "execution", "classalbert_1_1GeneratorQueryHandler.html#aa8507883635acef6760ef2a4248692db", null ],
       [ "items", "classalbert_1_1GeneratorQueryHandler.html#aa3c8bd9f704297bba3e58859f3ba3ec3", null ]
     ] ],
     [ "albert::IndexItem", "classalbert_1_1IndexItem.html", [

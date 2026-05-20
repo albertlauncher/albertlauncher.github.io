@@ -29,5 +29,5 @@ var searchData=
   ['isrunning_26',['isRunning',['../classalbert_1_1BackgroundExecutor.html#a2d798a9bb8decb19d6ad55570b7efaae',1,'albert::BackgroundExecutor']]],
   ['isvalid_27',['isValid',['../classalbert_1_1QueryContext.html#ad094f4c93aa808926cb0701a6bc28644',1,'albert::QueryContext']]],
   ['item_28',['item',['../classalbert_1_1IndexItem.html#a627e86379552accd1c25d4d12c67399e',1,'albert::IndexItem::item'],['../classalbert_1_1QueryResult.html#a7793dc91c023b06a4088001390813114',1,'albert::QueryResult::item'],['../classalbert_1_1RankItem.html#a632f30a524f44fa1b8b87a6b567d8c8f',1,'albert::RankItem::item'],['../classalbert_1_1Item.html',1,'albert::Item']]],
-  ['items_29',['items',['../classalbert_1_1GeneratorQueryHandler.html#aa3c8bd9f704297bba3e58859f3ba3ec3',1,'albert::GeneratorQueryHandler::items()'],['../classalbert_1_1RankedQueryHandler.html#a8dc06192d71bd84339eca82bfd81b8f4',1,'albert::RankedQueryHandler::items()']]]
+  ['items_29',['items',['../classalbert_1_1AsyncGeneratorQueryHandler.html#a0283ae1f87d1ed6150ef0b6284ad90a1',1,'albert::AsyncGeneratorQueryHandler::items()'],['../classalbert_1_1GeneratorQueryHandler.html#aa3c8bd9f704297bba3e58859f3ba3ec3',1,'albert::GeneratorQueryHandler::items()'],['../classalbert_1_1RankedQueryHandler.html#a8dc06192d71bd84339eca82bfd81b8f4',1,'albert::RankedQueryHandler::items()']]]
 ];
