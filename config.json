@@ -1,0 +1,4 @@
+{
+  "telemetry_endpoint": "http://80.211.205.88/api/",
+  "website": "http://80.211.205.88/static/stats.html"
+}

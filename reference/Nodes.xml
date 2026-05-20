@@ -1324,14 +1324,14 @@
                 <Anchor>a3f29d6845c877e15978bfe8b34964485</Anchor>
                </Node>
                <Node>
-                <Name>execution</Name>
+                <Name>asyncItemGenerator</Name>
                 <Path>classalbert_1_1AsyncGeneratorQueryHandler.html</Path>
-                <Anchor>a4be9b7a8c31e53ff2a61ae85c1605bf5</Anchor>
+                <Anchor>afbdfea2a9bd3faf5f718220857ddf922</Anchor>
                </Node>
                <Node>
-                <Name>items</Name>
+                <Name>execution</Name>
                 <Path>classalbert_1_1AsyncGeneratorQueryHandler.html</Path>
-                <Anchor>a0283ae1f87d1ed6150ef0b6284ad90a1</Anchor>
+                <Anchor>ab6fe70bdf29d33e1c1cb90fb025c601f</Anchor>
                </Node>
               </Subnodes>
              </Node>
@@ -1396,9 +1396,9 @@
                 <Anchor>ab77e5c38d1f35f3a541b3b9a634e59ee</Anchor>
                </Node>
                <Node>
-                <Name>execution</Name>
+                <Name>asyncItemGenerator</Name>
                 <Path>classalbert_1_1GeneratorQueryHandler.html</Path>
-                <Anchor>aa8507883635acef6760ef2a4248692db</Anchor>
+                <Anchor>a4d744ddd3c79084f3c61f16545757b29</Anchor>
                </Node>
                <Node>
                 <Name>items</Name>
@@ -2258,14 +2258,14 @@
                 <Anchor>a3f29d6845c877e15978bfe8b34964485</Anchor>
                </Node>
                <Node>
-                <Name>execution</Name>
+                <Name>asyncItemGenerator</Name>
                 <Path>classalbert_1_1AsyncGeneratorQueryHandler.html</Path>
-                <Anchor>a4be9b7a8c31e53ff2a61ae85c1605bf5</Anchor>
+                <Anchor>afbdfea2a9bd3faf5f718220857ddf922</Anchor>
                </Node>
                <Node>
-                <Name>items</Name>
+                <Name>execution</Name>
                 <Path>classalbert_1_1AsyncGeneratorQueryHandler.html</Path>
-                <Anchor>a0283ae1f87d1ed6150ef0b6284ad90a1</Anchor>
+                <Anchor>ab6fe70bdf29d33e1c1cb90fb025c601f</Anchor>
                </Node>
               </Subnodes>
              </Node>
@@ -2444,9 +2444,9 @@
                 <Anchor>ab77e5c38d1f35f3a541b3b9a634e59ee</Anchor>
                </Node>
                <Node>
-                <Name>execution</Name>
+                <Name>asyncItemGenerator</Name>
                 <Path>classalbert_1_1GeneratorQueryHandler.html</Path>
-                <Anchor>aa8507883635acef6760ef2a4248692db</Anchor>
+                <Anchor>a4d744ddd3c79084f3c61f16545757b29</Anchor>
                </Node>
                <Node>
                 <Name>items</Name>
@@ -4416,14 +4416,14 @@
                 <Anchor>a3f29d6845c877e15978bfe8b34964485</Anchor>
                </Node>
                <Node>
-                <Name>execution</Name>
+                <Name>asyncItemGenerator</Name>
                 <Path>classalbert_1_1AsyncGeneratorQueryHandler.html</Path>
-                <Anchor>a4be9b7a8c31e53ff2a61ae85c1605bf5</Anchor>
+                <Anchor>afbdfea2a9bd3faf5f718220857ddf922</Anchor>
                </Node>
                <Node>
-                <Name>items</Name>
+                <Name>execution</Name>
                 <Path>classalbert_1_1AsyncGeneratorQueryHandler.html</Path>
-                <Anchor>a0283ae1f87d1ed6150ef0b6284ad90a1</Anchor>
+                <Anchor>ab6fe70bdf29d33e1c1cb90fb025c601f</Anchor>
                </Node>
               </Subnodes>
              </Node>
@@ -4602,9 +4602,9 @@
                 <Anchor>ab77e5c38d1f35f3a541b3b9a634e59ee</Anchor>
                </Node>
                <Node>
-                <Name>execution</Name>
+                <Name>asyncItemGenerator</Name>
                 <Path>classalbert_1_1GeneratorQueryHandler.html</Path>
-                <Anchor>aa8507883635acef6760ef2a4248692db</Anchor>
+                <Anchor>a4d744ddd3c79084f3c61f16545757b29</Anchor>
                </Node>
                <Node>
                 <Name>items</Name>
@@ -6358,22 +6358,24 @@
                <Node>
                 <Name>albert::AsyncGeneratorQueryHandler</Name>
                 <Path>classalbert_1_1AsyncGeneratorQueryHandler.html</Path>
-               </Node>
-               <Node>
-                <Name>albert::GeneratorQueryHandler</Name>
-                <Path>classalbert_1_1GeneratorQueryHandler.html</Path>
               <Subnodes>
                  <Node>
-                  <Name>albert::RankedQueryHandler</Name>
-                  <Path>classalbert_1_1RankedQueryHandler.html</Path>
+                  <Name>albert::GeneratorQueryHandler</Name>
+                  <Path>classalbert_1_1GeneratorQueryHandler.html</Path>
                 <Subnodes>
                    <Node>
-                    <Name>albert::GlobalQueryHandler</Name>
-                    <Path>classalbert_1_1GlobalQueryHandler.html</Path>
+                    <Name>albert::RankedQueryHandler</Name>
+                    <Path>classalbert_1_1RankedQueryHandler.html</Path>
                   <Subnodes>
                      <Node>
-                      <Name>albert::IndexQueryHandler</Name>
-                      <Path>classalbert_1_1IndexQueryHandler.html</Path>
+                      <Name>albert::GlobalQueryHandler</Name>
+                      <Path>classalbert_1_1GlobalQueryHandler.html</Path>
+                    <Subnodes>
+                       <Node>
+                        <Name>albert::IndexQueryHandler</Name>
+                        <Path>classalbert_1_1IndexQueryHandler.html</Path>
+                       </Node>
+                      </Subnodes>
                      </Node>
                     </Subnodes>
                    </Node>

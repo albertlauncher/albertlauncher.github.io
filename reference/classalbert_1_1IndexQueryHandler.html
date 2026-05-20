@@ -108,7 +108,7 @@ $(document).ready(function(){initNavTree('classalbert_1_1IndexQueryHandler.html'
 </div><div class="dynheader">
 Inheritance diagram for albert::IndexQueryHandler:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classalbert_1_1IndexQueryHandler__inherit__graph.svg" width="207" height="406"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classalbert_1_1IndexQueryHandler__inherit__graph.svg" width="207" height="494"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
@@ -189,10 +189,19 @@ Protected Member Functions</h2></td></tr>
 &#160;</td><td class="memItemRight" valign="bottom"><b>~GeneratorQueryHandler</b> () override</td></tr>
 <tr class="memdesc:ab77e5c38d1f35f3a541b3b9a634e59ee inherit pro_methods_classalbert_1_1GeneratorQueryHandler"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructs the handler. <br /></td></tr>
 <tr class="separator:ab77e5c38d1f35f3a541b3b9a634e59ee inherit pro_methods_classalbert_1_1GeneratorQueryHandler"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa8507883635acef6760ef2a4248692db inherit pro_methods_classalbert_1_1GeneratorQueryHandler" id="r_aa8507883635acef6760ef2a4248692db"><td class="memItemLeft" align="right" valign="top">
-std::unique_ptr&lt; <a class="el" href="classalbert_1_1QueryExecution.html">QueryExecution</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>execution</b> (<a class="el" href="classalbert_1_1QueryContext.html">QueryContext</a> &amp;context) override</td></tr>
-<tr class="memdesc:aa8507883635acef6760ef2a4248692db inherit pro_methods_classalbert_1_1GeneratorQueryHandler"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a threaded synchronous generator query execution for <em>context</em>. <br /></td></tr>
-<tr class="separator:aa8507883635acef6760ef2a4248692db inherit pro_methods_classalbert_1_1GeneratorQueryHandler"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4d744ddd3c79084f3c61f16545757b29 inherit pro_methods_classalbert_1_1GeneratorQueryHandler" id="r_a4d744ddd3c79084f3c61f16545757b29"><td class="memItemLeft" align="right" valign="top">
+AsyncItemGenerator&#160;</td><td class="memItemRight" valign="bottom"><b>asyncItemGenerator</b> (<a class="el" href="classalbert_1_1QueryContext.html">QueryContext</a> &amp;context) override final</td></tr>
+<tr class="memdesc:a4d744ddd3c79084f3c61f16545757b29 inherit pro_methods_classalbert_1_1GeneratorQueryHandler"><td class="mdescLeft">&#160;</td><td class="mdescRight">Async wrapper that runs the synchronous <code>items()</code> in a worker thread. <br /></td></tr>
+<tr class="separator:a4d744ddd3c79084f3c61f16545757b29 inherit pro_methods_classalbert_1_1GeneratorQueryHandler"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_methods_classalbert_1_1AsyncGeneratorQueryHandler"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classalbert_1_1AsyncGeneratorQueryHandler')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="classalbert_1_1AsyncGeneratorQueryHandler.html">albert::AsyncGeneratorQueryHandler</a></td></tr>
+<tr class="memitem:a3f29d6845c877e15978bfe8b34964485 inherit pro_methods_classalbert_1_1AsyncGeneratorQueryHandler" id="r_a3f29d6845c877e15978bfe8b34964485"><td class="memItemLeft" align="right" valign="top">
+&#160;</td><td class="memItemRight" valign="bottom"><b>~AsyncGeneratorQueryHandler</b> () override</td></tr>
+<tr class="memdesc:a3f29d6845c877e15978bfe8b34964485 inherit pro_methods_classalbert_1_1AsyncGeneratorQueryHandler"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructs the handler. <br /></td></tr>
+<tr class="separator:a3f29d6845c877e15978bfe8b34964485 inherit pro_methods_classalbert_1_1AsyncGeneratorQueryHandler"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab6fe70bdf29d33e1c1cb90fb025c601f inherit pro_methods_classalbert_1_1AsyncGeneratorQueryHandler" id="r_ab6fe70bdf29d33e1c1cb90fb025c601f"><td class="memItemLeft" align="right" valign="top">
+std::unique_ptr&lt; <a class="el" href="classalbert_1_1QueryExecution.html">QueryExecution</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>execution</b> (<a class="el" href="classalbert_1_1QueryContext.html">QueryContext</a> &amp;context) override final</td></tr>
+<tr class="memdesc:ab6fe70bdf29d33e1c1cb90fb025c601f inherit pro_methods_classalbert_1_1AsyncGeneratorQueryHandler"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns an asynchronous generator query execution for <em>context</em>. <br /></td></tr>
+<tr class="separator:ab6fe70bdf29d33e1c1cb90fb025c601f inherit pro_methods_classalbert_1_1AsyncGeneratorQueryHandler"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_methods_classalbert_1_1QueryHandler"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classalbert_1_1QueryHandler')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="classalbert_1_1QueryHandler.html">albert::QueryHandler</a></td></tr>
 <tr class="memitem:acf232f6837086273927896776b721bea inherit pro_methods_classalbert_1_1QueryHandler" id="r_acf232f6837086273927896776b721bea"><td class="memItemLeft" align="right" valign="top">
 &#160;</td><td class="memItemRight" valign="bottom"><b>~QueryHandler</b> () override</td></tr>

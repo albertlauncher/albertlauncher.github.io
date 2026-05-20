@@ -690,6 +690,28 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>asyncItemGenerator</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>albert::AsyncGeneratorQueryHandler</Scope>
+    </TokenIdentifier>
+    <Path>classalbert_1_1AsyncGeneratorQueryHandler.html</Path>
+    <Anchor>afbdfea2a9bd3faf5f718220857ddf922</Anchor>
+    <DeclaredIn>asyncgeneratorqueryhandler.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>asyncItemGenerator</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>albert::GeneratorQueryHandler</Scope>
+    </TokenIdentifier>
+    <Path>classalbert_1_1GeneratorQueryHandler.html</Path>
+    <Anchor>a4d744ddd3c79084f3c61f16545757b29</Anchor>
+    <DeclaredIn>generatorqueryhandler.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>authors</Name>
       <APILanguage>cpp</APILanguage>
       <Type>data</Type>
@@ -1404,19 +1426,8 @@
       <Scope>albert::AsyncGeneratorQueryHandler</Scope>
     </TokenIdentifier>
     <Path>classalbert_1_1AsyncGeneratorQueryHandler.html</Path>
-    <Anchor>a4be9b7a8c31e53ff2a61ae85c1605bf5</Anchor>
+    <Anchor>ab6fe70bdf29d33e1c1cb90fb025c601f</Anchor>
     <DeclaredIn>asyncgeneratorqueryhandler.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>execution</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>albert::GeneratorQueryHandler</Scope>
-    </TokenIdentifier>
-    <Path>classalbert_1_1GeneratorQueryHandler.html</Path>
-    <Anchor>aa8507883635acef6760ef2a4248692db</Anchor>
-    <DeclaredIn>generatorqueryhandler.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -2253,17 +2264,6 @@
       <Name>items</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
-      <Scope>albert::AsyncGeneratorQueryHandler</Scope>
-    </TokenIdentifier>
-    <Path>classalbert_1_1AsyncGeneratorQueryHandler.html</Path>
-    <Anchor>a0283ae1f87d1ed6150ef0b6284ad90a1</Anchor>
-    <DeclaredIn>asyncgeneratorqueryhandler.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>items</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
       <Scope>albert::GeneratorQueryHandler</Scope>
     </TokenIdentifier>
     <Path>classalbert_1_1GeneratorQueryHandler.html</Path>
@@ -2397,39 +2397,6 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>match</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>albert::Matcher</Scope>
-    </TokenIdentifier>
-    <Path>classalbert_1_1Matcher.html</Path>
-    <Anchor>a8c865339f789c18f15ad62a4d57593c7</Anchor>
-    <DeclaredIn>matcher.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>match</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>albert::Matcher</Scope>
-    </TokenIdentifier>
-    <Path>classalbert_1_1Matcher.html</Path>
-    <Anchor>ae7ca1c9ef92531973ec99848d262e581</Anchor>
-    <DeclaredIn>matcher.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>match</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>albert::Matcher</Scope>
-    </TokenIdentifier>
-    <Path>classalbert_1_1Matcher.html</Path>
-    <Anchor>a4277087b8bd59a6e69f32417a941f430</Anchor>
-    <DeclaredIn>matcher.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
       <Name>Match</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
@@ -2459,6 +2426,39 @@
     </TokenIdentifier>
     <Path>classalbert_1_1Match.html</Path>
     <Anchor>a5b158fdbe6e3f4380a5b0736bb1bf17f</Anchor>
+    <DeclaredIn>matcher.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>match</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>albert::Matcher</Scope>
+    </TokenIdentifier>
+    <Path>classalbert_1_1Matcher.html</Path>
+    <Anchor>a8c865339f789c18f15ad62a4d57593c7</Anchor>
+    <DeclaredIn>matcher.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>match</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>albert::Matcher</Scope>
+    </TokenIdentifier>
+    <Path>classalbert_1_1Matcher.html</Path>
+    <Anchor>ae7ca1c9ef92531973ec99848d262e581</Anchor>
+    <DeclaredIn>matcher.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>match</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>albert::Matcher</Scope>
+    </TokenIdentifier>
+    <Path>classalbert_1_1Matcher.html</Path>
+    <Anchor>a4277087b8bd59a6e69f32417a941f430</Anchor>
     <DeclaredIn>matcher.h</DeclaredIn>
   </Token>
   <Token>
