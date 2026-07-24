@@ -10,7 +10,8 @@ var searchData=
   ['added_7',['added',['../classalbert_1_1App.html#abac13f55e568aae2b6eb4fe76bc33514',1,'albert::App']]],
   ['addobserver_8',['addObserver',['../classalbert_1_1Item.html#ae7aa8d38726094aaac853c96d5d066b2',1,'albert::Item']]],
   ['allowtriggerremap_9',['allowTriggerRemap',['../classalbert_1_1QueryHandler.html#a0cd50660f62640fa50fb78dc738ffb40',1,'albert::QueryHandler']]],
-  ['authurl_10',['authUrl',['../classalbert_1_1OAuth2.html#a9189607844cbcb664d066257dc733828',1,'albert::OAuth2']]],
-  ['authurlchanged_11',['authUrlChanged',['../classalbert_1_1OAuth2.html#a3e102530a270304f7e6ededa1e6cec36',1,'albert::OAuth2']]],
-  ['await_12',['await',['../group__util__net.html#gaeb88b880cbf906265347358210ad1cc1',1,'albert']]]
+  ['app_10',['app',['../namespacealbert.html#ac6fcf0ab8eebdca3d4248d750f0b387e',1,'albert']]],
+  ['authurl_11',['authUrl',['../classalbert_1_1OAuth2.html#a9189607844cbcb664d066257dc733828',1,'albert::OAuth2']]],
+  ['authurlchanged_12',['authUrlChanged',['../classalbert_1_1OAuth2.html#a3e102530a270304f7e6ededa1e6cec36',1,'albert::OAuth2']]],
+  ['await_13',['await',['../group__util__net.html#gaeb88b880cbf906265347358210ad1cc1',1,'albert']]]
 ];

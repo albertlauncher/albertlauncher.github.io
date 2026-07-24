@@ -797,11 +797,11 @@
     <TokenIdentifier>
       <Name>cacheLocation</Name>
       <APILanguage>cpp</APILanguage>
-      <Type>clm</Type>
+      <Type>instm</Type>
       <Scope>albert::App</Scope>
     </TokenIdentifier>
     <Path>classalbert_1_1App.html</Path>
-    <Anchor>af1a5e70db581f094926140dded1819c2</Anchor>
+    <Anchor>aa094aa1a784b6a21d771472daa946530</Anchor>
     <DeclaredIn>app.h</DeclaredIn>
   </Token>
   <Token>
@@ -927,11 +927,11 @@
     <TokenIdentifier>
       <Name>configLocation</Name>
       <APILanguage>cpp</APILanguage>
-      <Type>clm</Type>
+      <Type>instm</Type>
       <Scope>albert::App</Scope>
     </TokenIdentifier>
     <Path>classalbert_1_1App.html</Path>
-    <Anchor>a415406f14b944200a312ae9cd1989aa1</Anchor>
+    <Anchor>afc67e5a8066c908a1e0c40b2bf0baeef</Anchor>
     <DeclaredIn>app.h</DeclaredIn>
   </Token>
   <Token>
@@ -980,11 +980,11 @@
     <TokenIdentifier>
       <Name>dataLocation</Name>
       <APILanguage>cpp</APILanguage>
-      <Type>clm</Type>
+      <Type>instm</Type>
       <Scope>albert::App</Scope>
     </TokenIdentifier>
     <Path>classalbert_1_1App.html</Path>
-    <Anchor>a4a01a85952e4eb818cf3c4697d38e914</Anchor>
+    <Anchor>a38dd18cac21a6c595e799b8700f70ddf</Anchor>
     <DeclaredIn>app.h</DeclaredIn>
   </Token>
   <Token>
@@ -1991,6 +1991,16 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>ignore_underscore</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>albert::MatchConfig</Scope>
+    </TokenIdentifier>
+    <Path>classalbert_1_1MatchConfig.html</Path>
+    <Anchor>a43421d64633ccf21d0c22c4a45eccc00</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>ignore_word_order</Name>
       <APILanguage>cpp</APILanguage>
       <Type>data</Type>
@@ -2096,17 +2106,6 @@
     <Path>classalbert_1_1StandardItem.html</Path>
     <Anchor>a9930511eb0a37648cdd1fae7fa7e1e98</Anchor>
     <DeclaredIn>standarditem.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>instance</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>clm</Type>
-      <Scope>albert::App</Scope>
-    </TokenIdentifier>
-    <Path>classalbert_1_1App.html</Path>
-    <Anchor>a4bffdd9346fb2af114c5ece47708926f</Anchor>
-    <DeclaredIn>app.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -2373,6 +2372,17 @@
     </TokenIdentifier>
     <Path>classalbert_1_1PluginMetadata.html</Path>
     <Anchor>a430d528ce1f7c9602941815f30ed3ff7ad97ba66b283564339628b71975a6e68d</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>localizationEnabled</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>albert::App</Scope>
+    </TokenIdentifier>
+    <Path>classalbert_1_1App.html</Path>
+    <Anchor>a86073928e2c3a3a3932b0aa4c63614e2</Anchor>
+    <DeclaredIn>app.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -2711,17 +2721,6 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>notify</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>albert::Item::Observer</Scope>
-    </TokenIdentifier>
-    <Path>classalbert_1_1Item_1_1Observer.html</Path>
-    <Anchor>a4a5efa14ef8660b013e4296784768da0</Anchor>
-    <DeclaredIn>item.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
       <Name>OAuth2</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
@@ -2741,6 +2740,17 @@
     <Path>classalbert_1_1OAuthConfigWidget.html</Path>
     <Anchor>a46019fea55d573b945b65e716214280c</Anchor>
     <DeclaredIn>oauthconfigwidget.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>onItemChanged</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>albert::Item::Observer</Scope>
+    </TokenIdentifier>
+    <Path>classalbert_1_1Item_1_1Observer.html</Path>
+    <Anchor>a85efa56ba58942b58831cd3d766a3deb</Anchor>
+    <DeclaredIn>item.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -2945,7 +2955,7 @@
       <Scope>albert::PluginProvider</Scope>
     </TokenIdentifier>
     <Path>classalbert_1_1PluginProvider.html</Path>
-    <Anchor>a7976388d5144d9a0a0e34156afaabf32</Anchor>
+    <Anchor>a49cbe4ca0196d8d00d9b8bec843299e0</Anchor>
     <DeclaredIn>pluginprovider.h</DeclaredIn>
   </Token>
   <Token>
@@ -3551,11 +3561,11 @@
     <TokenIdentifier>
       <Name>settings</Name>
       <APILanguage>cpp</APILanguage>
-      <Type>clm</Type>
+      <Type>instm</Type>
       <Scope>albert::App</Scope>
     </TokenIdentifier>
     <Path>classalbert_1_1App.html</Path>
-    <Anchor>a1d7a5b39baf71d49199a94cae7036efe</Anchor>
+    <Anchor>a644bbb307270b099bba3451b46843dab</Anchor>
     <DeclaredIn>app.h</DeclaredIn>
   </Token>
   <Token>
@@ -4523,11 +4533,11 @@
     <TokenIdentifier>
       <Name>state</Name>
       <APILanguage>cpp</APILanguage>
-      <Type>clm</Type>
+      <Type>instm</Type>
       <Scope>albert::App</Scope>
     </TokenIdentifier>
     <Path>classalbert_1_1App.html</Path>
-    <Anchor>ae8bffacf1109c4c391b13b2b175a42be</Anchor>
+    <Anchor>af940d86d3e6af1e21651d49404bb2772</Anchor>
     <DeclaredIn>app.h</DeclaredIn>
   </Token>
   <Token>
@@ -5311,6 +5321,17 @@
     <Path>classalbert_1_1StandardItem.html</Path>
     <Anchor>a95c469c412b5083bff8a7bbaced461a3</Anchor>
     <DeclaredIn>standarditem.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>app</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>albert</Scope>
+    </TokenIdentifier>
+    <Path>namespacealbert.html</Path>
+    <Anchor>ac6fcf0ab8eebdca3d4248d750f0b387e</Anchor>
+    <DeclaredIn>app.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>

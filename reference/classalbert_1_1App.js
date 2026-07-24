@@ -1,10 +1,16 @@
 var classalbert_1_1App =
 [
     [ "added", "classalbert_1_1App.html#abac13f55e568aae2b6eb4fe76bc33514", null ],
+    [ "cacheLocation", "classalbert_1_1App.html#aa094aa1a784b6a21d771472daa946530", null ],
+    [ "configLocation", "classalbert_1_1App.html#afc67e5a8066c908a1e0c40b2bf0baeef", null ],
+    [ "dataLocation", "classalbert_1_1App.html#a38dd18cac21a6c595e799b8700f70ddf", null ],
     [ "extension", "classalbert_1_1App.html#a351ba65b65fe7feeec2c2a11e65a4f64", null ],
     [ "extensions", "classalbert_1_1App.html#aa33ce08d3670e92590342c23e99372dc", null ],
     [ "extensions", "classalbert_1_1App.html#a3a914db8ecc9a845b21f0e9758993d3a", null ],
+    [ "localizationEnabled", "classalbert_1_1App.html#a86073928e2c3a3a3932b0aa4c63614e2", null ],
     [ "removed", "classalbert_1_1App.html#a553a4bdcaf86650e3cb7113f8b0b8c6c", null ],
+    [ "settings", "classalbert_1_1App.html#a644bbb307270b099bba3451b46843dab", null ],
     [ "show", "classalbert_1_1App.html#ab7c2e273b0a78b5884000064056eca94", null ],
-    [ "showSettings", "classalbert_1_1App.html#aca152bd8e596da88e3d284730e35e013", null ]
+    [ "showSettings", "classalbert_1_1App.html#aca152bd8e596da88e3d284730e35e013", null ],
+    [ "state", "classalbert_1_1App.html#af940d86d3e6af1e21651d49404bb2772", null ]
 ];

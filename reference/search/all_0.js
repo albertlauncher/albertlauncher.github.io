@@ -15,7 +15,7 @@ var searchData=
   ['albert_3a_3aitemrange_12',['ItemRange',['../conceptalbert_1_1ItemRange.html',1,'albert']]],
   ['allowtriggerremap_13',['allowTriggerRemap',['../classalbert_1_1QueryHandler.html#a0cd50660f62640fa50fb78dc738ffb40',1,'albert::QueryHandler']]],
   ['api_14',['api',['../group__core.html',1,'Core API'],['../group__util.html',1,'Utility API']]],
-  ['app_15',['App',['../classalbert_1_1App.html',1,'albert']]],
+  ['app_15',['app',['../namespacealbert.html#ac6fcf0ab8eebdca3d4248d750f0b387e',1,'albert::app()'],['../classalbert_1_1App.html',1,'albert::App']]],
   ['arrowback_16',['ArrowBack',['../classalbert_1_1Icon.html#aa191d4250a5cb1ddfcd146e94ac91168a784922077a3171f60499157bf7455dea',1,'albert::Icon']]],
   ['arrowdown_17',['ArrowDown',['../classalbert_1_1Icon.html#aa191d4250a5cb1ddfcd146e94ac91168a86773970df2690979441d0706a809aeb',1,'albert::Icon']]],
   ['arrowforward_18',['ArrowForward',['../classalbert_1_1Icon.html#aa191d4250a5cb1ddfcd146e94ac91168ada064e441a88b799a38a8a6b4b09aff1',1,'albert::Icon']]],

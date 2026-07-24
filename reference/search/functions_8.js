@@ -15,7 +15,7 @@ var searchData=
   ['initialize_12',['initialize',['../classalbert_1_1PluginInstance.html#a3771e10208fe5343d36d550367d4210b',1,'albert::PluginInstance']]],
   ['initialized_13',['initialized',['../classalbert_1_1PluginInstance.html#a2820a993249c4f98378c9de1ebd70705',1,'albert::PluginInstance']]],
   ['inputactiontext_14',['inputactiontext',['../classalbert_1_1Item.html#a895b7ffa23356556ef72d4ba33633306',1,'albert::Item::inputActionText()'],['../classalbert_1_1StandardItem.html#a9930511eb0a37648cdd1fae7fa7e1e98',1,'albert::StandardItem::inputActionText()']]],
-  ['instance_15',['instance',['../classalbert_1_1App.html#a4bffdd9346fb2af114c5ece47708926f',1,'albert::App::instance()'],['../classalbert_1_1PluginLoader.html#a152ac767c6e132b5607716e3d7b4ac15',1,'albert::PluginLoader::instance()']]],
+  ['instance_15',['instance',['../classalbert_1_1PluginLoader.html#a152ac767c6e132b5607716e3d7b4ac15',1,'albert::PluginLoader']]],
   ['isactive_16',['isactive',['../classalbert_1_1Download.html#a320579cf35130e642f8410cc156bae2e',1,'albert::Download::isActive()'],['../classalbert_1_1QueryExecution.html#a40b0cd12270ff87cf9215a26a036b119',1,'albert::QueryExecution::isActive()']]],
   ['isemptymatch_17',['isEmptyMatch',['../classalbert_1_1Match.html#a48fa9fb3c1b4b03f6bc525de785a75f0',1,'albert::Match']]],
   ['isexactmatch_18',['isExactMatch',['../classalbert_1_1Match.html#ada8b57297ddee9300997e81aa4f1bd75',1,'albert::Match']]],

@@ -87,7 +87,7 @@
                <Node>
                 <Name>plugins</Name>
                 <Path>classalbert_1_1PluginProvider.html</Path>
-                <Anchor>a7976388d5144d9a0a0e34156afaabf32</Anchor>
+                <Anchor>a49cbe4ca0196d8d00d9b8bec843299e0</Anchor>
                </Node>
               </Subnodes>
              </Node>
@@ -863,9 +863,9 @@
                   <Anchor>aaff4b4ce29528767642aa308ef432c22</Anchor>
                  </Node>
                  <Node>
-                  <Name>notify</Name>
+                  <Name>onItemChanged</Name>
                   <Path>classalbert_1_1Item_1_1Observer.html</Path>
-                  <Anchor>a4a5efa14ef8660b013e4296784768da0</Anchor>
+                  <Anchor>a85efa56ba58942b58831cd3d766a3deb</Anchor>
                  </Node>
                 </Subnodes>
                </Node>
@@ -1219,6 +1219,21 @@
               <Anchor>abac13f55e568aae2b6eb4fe76bc33514</Anchor>
              </Node>
              <Node>
+              <Name>cacheLocation</Name>
+              <Path>classalbert_1_1App.html</Path>
+              <Anchor>aa094aa1a784b6a21d771472daa946530</Anchor>
+             </Node>
+             <Node>
+              <Name>configLocation</Name>
+              <Path>classalbert_1_1App.html</Path>
+              <Anchor>afc67e5a8066c908a1e0c40b2bf0baeef</Anchor>
+             </Node>
+             <Node>
+              <Name>dataLocation</Name>
+              <Path>classalbert_1_1App.html</Path>
+              <Anchor>a38dd18cac21a6c595e799b8700f70ddf</Anchor>
+             </Node>
+             <Node>
               <Name>extension</Name>
               <Path>classalbert_1_1App.html</Path>
               <Anchor>a351ba65b65fe7feeec2c2a11e65a4f64</Anchor>
@@ -1234,9 +1249,19 @@
               <Anchor>a3a914db8ecc9a845b21f0e9758993d3a</Anchor>
              </Node>
              <Node>
+              <Name>localizationEnabled</Name>
+              <Path>classalbert_1_1App.html</Path>
+              <Anchor>a86073928e2c3a3a3932b0aa4c63614e2</Anchor>
+             </Node>
+             <Node>
               <Name>removed</Name>
               <Path>classalbert_1_1App.html</Path>
               <Anchor>a553a4bdcaf86650e3cb7113f8b0b8c6c</Anchor>
+             </Node>
+             <Node>
+              <Name>settings</Name>
+              <Path>classalbert_1_1App.html</Path>
+              <Anchor>a644bbb307270b099bba3451b46843dab</Anchor>
              </Node>
              <Node>
               <Name>show</Name>
@@ -1247,6 +1272,11 @@
               <Name>showSettings</Name>
               <Path>classalbert_1_1App.html</Path>
               <Anchor>aca152bd8e596da88e3d284730e35e013</Anchor>
+             </Node>
+             <Node>
+              <Name>state</Name>
+              <Path>classalbert_1_1App.html</Path>
+              <Anchor>af940d86d3e6af1e21651d49404bb2772</Anchor>
              </Node>
             </Subnodes>
            </Node>
@@ -1487,6 +1517,11 @@
                 <Name>ignore_diacritics</Name>
                 <Path>classalbert_1_1MatchConfig.html</Path>
                 <Anchor>aba17291c8e157177a030a2b0342e77c9</Anchor>
+               </Node>
+               <Node>
+                <Name>ignore_underscore</Name>
+                <Path>classalbert_1_1MatchConfig.html</Path>
+                <Anchor>a43421d64633ccf21d0c22c4a45eccc00</Anchor>
                </Node>
                <Node>
                 <Name>ignore_word_order</Name>
@@ -2217,6 +2252,21 @@
                 <Anchor>abac13f55e568aae2b6eb4fe76bc33514</Anchor>
                </Node>
                <Node>
+                <Name>cacheLocation</Name>
+                <Path>classalbert_1_1App.html</Path>
+                <Anchor>aa094aa1a784b6a21d771472daa946530</Anchor>
+               </Node>
+               <Node>
+                <Name>configLocation</Name>
+                <Path>classalbert_1_1App.html</Path>
+                <Anchor>afc67e5a8066c908a1e0c40b2bf0baeef</Anchor>
+               </Node>
+               <Node>
+                <Name>dataLocation</Name>
+                <Path>classalbert_1_1App.html</Path>
+                <Anchor>a38dd18cac21a6c595e799b8700f70ddf</Anchor>
+               </Node>
+               <Node>
                 <Name>extension</Name>
                 <Path>classalbert_1_1App.html</Path>
                 <Anchor>a351ba65b65fe7feeec2c2a11e65a4f64</Anchor>
@@ -2232,9 +2282,19 @@
                 <Anchor>a3a914db8ecc9a845b21f0e9758993d3a</Anchor>
                </Node>
                <Node>
+                <Name>localizationEnabled</Name>
+                <Path>classalbert_1_1App.html</Path>
+                <Anchor>a86073928e2c3a3a3932b0aa4c63614e2</Anchor>
+               </Node>
+               <Node>
                 <Name>removed</Name>
                 <Path>classalbert_1_1App.html</Path>
                 <Anchor>a553a4bdcaf86650e3cb7113f8b0b8c6c</Anchor>
+               </Node>
+               <Node>
+                <Name>settings</Name>
+                <Path>classalbert_1_1App.html</Path>
+                <Anchor>a644bbb307270b099bba3451b46843dab</Anchor>
                </Node>
                <Node>
                 <Name>show</Name>
@@ -2245,6 +2305,11 @@
                 <Name>showSettings</Name>
                 <Path>classalbert_1_1App.html</Path>
                 <Anchor>aca152bd8e596da88e3d284730e35e013</Anchor>
+               </Node>
+               <Node>
+                <Name>state</Name>
+                <Path>classalbert_1_1App.html</Path>
+                <Anchor>af940d86d3e6af1e21651d49404bb2772</Anchor>
                </Node>
               </Subnodes>
              </Node>
@@ -2995,9 +3060,9 @@
                   <Anchor>aaff4b4ce29528767642aa308ef432c22</Anchor>
                  </Node>
                  <Node>
-                  <Name>notify</Name>
+                  <Name>onItemChanged</Name>
                   <Path>classalbert_1_1Item_1_1Observer.html</Path>
-                  <Anchor>a4a5efa14ef8660b013e4296784768da0</Anchor>
+                  <Anchor>a85efa56ba58942b58831cd3d766a3deb</Anchor>
                  </Node>
                 </Subnodes>
                </Node>
@@ -3122,6 +3187,11 @@
                 <Name>ignore_diacritics</Name>
                 <Path>classalbert_1_1MatchConfig.html</Path>
                 <Anchor>aba17291c8e157177a030a2b0342e77c9</Anchor>
+               </Node>
+               <Node>
+                <Name>ignore_underscore</Name>
+                <Path>classalbert_1_1MatchConfig.html</Path>
+                <Anchor>a43421d64633ccf21d0c22c4a45eccc00</Anchor>
                </Node>
                <Node>
                 <Name>ignore_word_order</Name>
@@ -3663,7 +3733,7 @@
                <Node>
                 <Name>plugins</Name>
                 <Path>classalbert_1_1PluginProvider.html</Path>
-                <Anchor>a7976388d5144d9a0a0e34156afaabf32</Anchor>
+                <Anchor>a49cbe4ca0196d8d00d9b8bec843299e0</Anchor>
                </Node>
               </Subnodes>
              </Node>
@@ -4158,6 +4228,11 @@
               <Path>conceptalbert_1_1ItemRange.html</Path>
              </Node>
              <Node>
+              <Name>app</Name>
+              <Path>namespacealbert.html</Path>
+              <Anchor>ac6fcf0ab8eebdca3d4248d750f0b387e</Anchor>
+             </Node>
+             <Node>
               <Name>await</Name>
               <Path>group__util__net.html</Path>
               <Anchor>gaeb88b880cbf906265347358210ad1cc1</Anchor>
@@ -4375,6 +4450,21 @@
                 <Anchor>abac13f55e568aae2b6eb4fe76bc33514</Anchor>
                </Node>
                <Node>
+                <Name>cacheLocation</Name>
+                <Path>classalbert_1_1App.html</Path>
+                <Anchor>aa094aa1a784b6a21d771472daa946530</Anchor>
+               </Node>
+               <Node>
+                <Name>configLocation</Name>
+                <Path>classalbert_1_1App.html</Path>
+                <Anchor>afc67e5a8066c908a1e0c40b2bf0baeef</Anchor>
+               </Node>
+               <Node>
+                <Name>dataLocation</Name>
+                <Path>classalbert_1_1App.html</Path>
+                <Anchor>a38dd18cac21a6c595e799b8700f70ddf</Anchor>
+               </Node>
+               <Node>
                 <Name>extension</Name>
                 <Path>classalbert_1_1App.html</Path>
                 <Anchor>a351ba65b65fe7feeec2c2a11e65a4f64</Anchor>
@@ -4390,9 +4480,19 @@
                 <Anchor>a3a914db8ecc9a845b21f0e9758993d3a</Anchor>
                </Node>
                <Node>
+                <Name>localizationEnabled</Name>
+                <Path>classalbert_1_1App.html</Path>
+                <Anchor>a86073928e2c3a3a3932b0aa4c63614e2</Anchor>
+               </Node>
+               <Node>
                 <Name>removed</Name>
                 <Path>classalbert_1_1App.html</Path>
                 <Anchor>a553a4bdcaf86650e3cb7113f8b0b8c6c</Anchor>
+               </Node>
+               <Node>
+                <Name>settings</Name>
+                <Path>classalbert_1_1App.html</Path>
+                <Anchor>a644bbb307270b099bba3451b46843dab</Anchor>
                </Node>
                <Node>
                 <Name>show</Name>
@@ -4403,6 +4503,11 @@
                 <Name>showSettings</Name>
                 <Path>classalbert_1_1App.html</Path>
                 <Anchor>aca152bd8e596da88e3d284730e35e013</Anchor>
+               </Node>
+               <Node>
+                <Name>state</Name>
+                <Path>classalbert_1_1App.html</Path>
+                <Anchor>af940d86d3e6af1e21651d49404bb2772</Anchor>
                </Node>
               </Subnodes>
              </Node>
@@ -5153,9 +5258,9 @@
                   <Anchor>aaff4b4ce29528767642aa308ef432c22</Anchor>
                  </Node>
                  <Node>
-                  <Name>notify</Name>
+                  <Name>onItemChanged</Name>
                   <Path>classalbert_1_1Item_1_1Observer.html</Path>
-                  <Anchor>a4a5efa14ef8660b013e4296784768da0</Anchor>
+                  <Anchor>a85efa56ba58942b58831cd3d766a3deb</Anchor>
                  </Node>
                 </Subnodes>
                </Node>
@@ -5280,6 +5385,11 @@
                 <Name>ignore_diacritics</Name>
                 <Path>classalbert_1_1MatchConfig.html</Path>
                 <Anchor>aba17291c8e157177a030a2b0342e77c9</Anchor>
+               </Node>
+               <Node>
+                <Name>ignore_underscore</Name>
+                <Path>classalbert_1_1MatchConfig.html</Path>
+                <Anchor>a43421d64633ccf21d0c22c4a45eccc00</Anchor>
                </Node>
                <Node>
                 <Name>ignore_word_order</Name>
@@ -5821,7 +5931,7 @@
                <Node>
                 <Name>plugins</Name>
                 <Path>classalbert_1_1PluginProvider.html</Path>
-                <Anchor>a7976388d5144d9a0a0e34156afaabf32</Anchor>
+                <Anchor>a49cbe4ca0196d8d00d9b8bec843299e0</Anchor>
                </Node>
               </Subnodes>
              </Node>
@@ -6864,6 +6974,10 @@
                    <Node>
                     <Name>ratelimiter.h</Name>
                     <Path>ratelimiter_8h_source.html</Path>
+                   </Node>
+                   <Node>
+                    <Name>scopedfuture.h</Name>
+                    <Path>scopedfuture_8h_source.html</Path>
                    </Node>
                    <Node>
                     <Name>standarditem.h</Name>

@@ -38,6 +38,7 @@ var namespacealbert =
     [ "WeakDependency", "classalbert_1_1WeakDependency.html", "classalbert_1_1WeakDependency" ],
     [ "ItemPtr", "conceptalbert_1_1ItemPtr.html", null ],
     [ "ItemRange", "conceptalbert_1_1ItemRange.html", null ],
+    [ "app", "namespacealbert.html#ac6fcf0ab8eebdca3d4248d750f0b387e", null ],
     [ "await", "group__util__net.html#gaeb88b880cbf906265347358210ad1cc1", null ],
     [ "bindWidget", "group__util__ui.html#ga1fb00c52cc442b3df6f54da9f56e91eb", null ],
     [ "bindWidget", "group__util__ui.html#ga9ecec49cbc6909134c9b5e2cd1f222e5", null ],

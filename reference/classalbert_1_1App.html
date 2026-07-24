@@ -94,7 +94,6 @@ $(document).ready(function(){initNavTree('classalbert_1_1App.html',''); initResi
 
 <div class="header">
   <div class="summary">
-<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#signals">Signals</a> &#124;
 <a href="classalbert_1_1App-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">albert::App Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span><div class="ingroups"><a class="el" href="group__core.html">Core API</a></div></div></div>
@@ -118,7 +117,11 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>show</b> (con
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>showSettings</b> (QString plugin_id={})=0</td></tr>
 <tr class="memdesc:aca152bd8e596da88e3d284730e35e013"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shows the settings window and optionally selects the plugin with <em>plugin_id</em>. <br /></td></tr>
 <tr class="separator:aca152bd8e596da88e3d284730e35e013"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr><td colspan="2"><div class="groupHeader">Extensions</div></td></tr>
+<tr><td colspan="2"><div class="groupHeader">Plugins and extensions</div></td></tr>
+<tr class="memitem:a86073928e2c3a3a3932b0aa4c63614e2" id="r_a86073928e2c3a3a3932b0aa4c63614e2"><td class="memItemLeft" align="right" valign="top"><a id="a86073928e2c3a3a3932b0aa4c63614e2" name="a86073928e2c3a3a3932b0aa4c63614e2"></a>
+virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>localizationEnabled</b> () const =0</td></tr>
+<tr class="memdesc:a86073928e2c3a3a3932b0aa4c63614e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns whether PluginLoaders should load translations. <br /></td></tr>
+<tr class="separator:a86073928e2c3a3a3932b0aa4c63614e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3a914db8ecc9a845b21f0e9758993d3a" id="r_a3a914db8ecc9a845b21f0e9758993d3a"><td class="memItemLeft" align="right" valign="top"><a id="a3a914db8ecc9a845b21f0e9758993d3a" name="a3a914db8ecc9a845b21f0e9758993d3a"></a>
 virtual const std::map&lt; QString, <a class="el" href="classalbert_1_1Extension.html">Extension</a> * &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>extensions</b> () const =0</td></tr>
 <tr class="memdesc:a3a914db8ecc9a845b21f0e9758993d3a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get map of all registered extensions. <br /></td></tr>
@@ -133,13 +136,25 @@ template&lt;typename T &gt; </td></tr>
 <tr class="memitem:a351ba65b65fe7feeec2c2a11e65a4f64"><td class="memTemplItemLeft" align="right" valign="top">T *&#160;</td><td class="memTemplItemRight" valign="bottom"><b>extension</b> (const QString &amp;id) const</td></tr>
 <tr class="memdesc:a351ba65b65fe7feeec2c2a11e65a4f64"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get extension by id implicitly dynamic_cast'ed to type T. <br /></td></tr>
 <tr class="separator:a351ba65b65fe7feeec2c2a11e65a4f64"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader">Persistence</div></td></tr>
+<tr class="memitem:a644bbb307270b099bba3451b46843dab" id="r_a644bbb307270b099bba3451b46843dab"><td class="memItemLeft" align="right" valign="top">virtual std::unique_ptr&lt; QSettings &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1App.html#a644bbb307270b099bba3451b46843dab">settings</a> ()=0</td></tr>
+<tr class="memdesc:a644bbb307270b099bba3451b46843dab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a <code>QSettings</code> object initialized with the application configuration file path.  <br /></td></tr>
+<tr class="separator:a644bbb307270b099bba3451b46843dab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af940d86d3e6af1e21651d49404bb2772" id="r_af940d86d3e6af1e21651d49404bb2772"><td class="memItemLeft" align="right" valign="top">virtual std::unique_ptr&lt; QSettings &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1App.html#af940d86d3e6af1e21651d49404bb2772">state</a> ()=0</td></tr>
+<tr class="memdesc:af940d86d3e6af1e21651d49404bb2772"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a <code>QSettings</code> object initialized with the application state file path.  <br /></td></tr>
+<tr class="separator:af940d86d3e6af1e21651d49404bb2772"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa094aa1a784b6a21d771472daa946530" id="r_aa094aa1a784b6a21d771472daa946530"><td class="memItemLeft" align="right" valign="top">virtual const std::filesystem::path &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1App.html#aa094aa1a784b6a21d771472daa946530">cacheLocation</a> ()=0</td></tr>
+<tr class="memdesc:aa094aa1a784b6a21d771472daa946530"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the path to the application cache directory.  <br /></td></tr>
+<tr class="separator:aa094aa1a784b6a21d771472daa946530"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afc67e5a8066c908a1e0c40b2bf0baeef" id="r_afc67e5a8066c908a1e0c40b2bf0baeef"><td class="memItemLeft" align="right" valign="top">virtual const std::filesystem::path &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1App.html#afc67e5a8066c908a1e0c40b2bf0baeef">configLocation</a> ()=0</td></tr>
+<tr class="memdesc:afc67e5a8066c908a1e0c40b2bf0baeef"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the path to the application config directory.  <br /></td></tr>
+<tr class="separator:afc67e5a8066c908a1e0c40b2bf0baeef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a38dd18cac21a6c595e799b8700f70ddf" id="r_a38dd18cac21a6c595e799b8700f70ddf"><td class="memItemLeft" align="right" valign="top">virtual const std::filesystem::path &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1App.html#a38dd18cac21a6c595e799b8700f70ddf">dataLocation</a> ()=0</td></tr>
+<tr class="memdesc:a38dd18cac21a6c595e799b8700f70ddf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the path to the application data directory.  <br /></td></tr>
+<tr class="separator:a38dd18cac21a6c595e799b8700f70ddf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a4bffdd9346fb2af114c5ece47708926f" id="r_a4bffdd9346fb2af114c5ece47708926f"><td class="memItemLeft" align="right" valign="top"><a id="a4bffdd9346fb2af114c5ece47708926f" name="a4bffdd9346fb2af114c5ece47708926f"></a>
-static <a class="el" href="classalbert_1_1App.html">App</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>instance</b> ()</td></tr>
-<tr class="memdesc:a4bffdd9346fb2af114c5ece47708926f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the global app instance. <br /></td></tr>
-<tr class="separator:a4bffdd9346fb2af114c5ece47708926f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Application control</div></td></tr>
 <tr class="memitem:af5ed7d9ddfd90e6c176df8dc9359e0f0" id="r_af5ed7d9ddfd90e6c176df8dc9359e0f0"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1App.html#af5ed7d9ddfd90e6c176df8dc9359e0f0">restart</a> ()</td></tr>
 <tr class="memdesc:af5ed7d9ddfd90e6c176df8dc9359e0f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Restarts the application.  <br /></td></tr>
@@ -147,22 +162,6 @@ static <a class="el" href="classalbert_1_1App.html">App</a> &amp;&#160;</td><td 
 <tr class="memitem:a580dea4d4a66dc0b4755566d442e9dc4" id="r_a580dea4d4a66dc0b4755566d442e9dc4"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1App.html#a580dea4d4a66dc0b4755566d442e9dc4">quit</a> ()</td></tr>
 <tr class="memdesc:a580dea4d4a66dc0b4755566d442e9dc4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Quits the application.  <br /></td></tr>
 <tr class="separator:a580dea4d4a66dc0b4755566d442e9dc4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr><td colspan="2"><div class="groupHeader">Persistence</div></td></tr>
-<tr class="memitem:a1d7a5b39baf71d49199a94cae7036efe" id="r_a1d7a5b39baf71d49199a94cae7036efe"><td class="memItemLeft" align="right" valign="top">static std::unique_ptr&lt; QSettings &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1App.html#a1d7a5b39baf71d49199a94cae7036efe">settings</a> ()</td></tr>
-<tr class="memdesc:a1d7a5b39baf71d49199a94cae7036efe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a <code>QSettings</code> object initialized with the application configuration file path.  <br /></td></tr>
-<tr class="separator:a1d7a5b39baf71d49199a94cae7036efe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae8bffacf1109c4c391b13b2b175a42be" id="r_ae8bffacf1109c4c391b13b2b175a42be"><td class="memItemLeft" align="right" valign="top">static std::unique_ptr&lt; QSettings &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1App.html#ae8bffacf1109c4c391b13b2b175a42be">state</a> ()</td></tr>
-<tr class="memdesc:ae8bffacf1109c4c391b13b2b175a42be"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a <code>QSettings</code> object initialized with the application state file path.  <br /></td></tr>
-<tr class="separator:ae8bffacf1109c4c391b13b2b175a42be"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a415406f14b944200a312ae9cd1989aa1" id="r_a415406f14b944200a312ae9cd1989aa1"><td class="memItemLeft" align="right" valign="top">static const std::filesystem::path &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1App.html#a415406f14b944200a312ae9cd1989aa1">configLocation</a> ()</td></tr>
-<tr class="memdesc:a415406f14b944200a312ae9cd1989aa1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the path to the application config directory.  <br /></td></tr>
-<tr class="separator:a415406f14b944200a312ae9cd1989aa1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af1a5e70db581f094926140dded1819c2" id="r_af1a5e70db581f094926140dded1819c2"><td class="memItemLeft" align="right" valign="top">static const std::filesystem::path &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1App.html#af1a5e70db581f094926140dded1819c2">cacheLocation</a> ()</td></tr>
-<tr class="memdesc:af1a5e70db581f094926140dded1819c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the path to the application cache directory.  <br /></td></tr>
-<tr class="separator:af1a5e70db581f094926140dded1819c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4a01a85952e4eb818cf3c4697d38e914" id="r_a4a01a85952e4eb818cf3c4697d38e914"><td class="memItemLeft" align="right" valign="top">static const std::filesystem::path &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1App.html#a4a01a85952e4eb818cf3c4697d38e914">dataLocation</a> ()</td></tr>
-<tr class="memdesc:a4a01a85952e4eb818cf3c4697d38e914"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the path to the application data directory.  <br /></td></tr>
-<tr class="separator:a4a01a85952e4eb818cf3c4697d38e914"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="signals" name="signals"></a>
 Signals</h2></td></tr>
@@ -176,8 +175,8 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>removed</b> (<a class
 <tr class="separator:a553a4bdcaf86650e3cb7113f8b0b8c6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="af1a5e70db581f094926140dded1819c2" name="af1a5e70db581f094926140dded1819c2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af1a5e70db581f094926140dded1819c2">&#9670;&#160;</a></span>cacheLocation()</h2>
+<a id="aa094aa1a784b6a21d771472daa946530" name="aa094aa1a784b6a21d771472daa946530"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa094aa1a784b6a21d771472daa946530">&#9670;&#160;</a></span>cacheLocation()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -186,7 +185,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>removed</b> (<a class
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static const std::filesystem::path &amp; albert::App::cacheLocation </td>
+          <td class="memname">virtual const std::filesystem::path &amp; albert::App::cacheLocation </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -194,7 +193,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>removed</b> (<a class
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -204,8 +203,8 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>removed</b> (<a class
 
 </div>
 </div>
-<a id="a415406f14b944200a312ae9cd1989aa1" name="a415406f14b944200a312ae9cd1989aa1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a415406f14b944200a312ae9cd1989aa1">&#9670;&#160;</a></span>configLocation()</h2>
+<a id="afc67e5a8066c908a1e0c40b2bf0baeef" name="afc67e5a8066c908a1e0c40b2bf0baeef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afc67e5a8066c908a1e0c40b2bf0baeef">&#9670;&#160;</a></span>configLocation()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -214,7 +213,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>removed</b> (<a class
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static const std::filesystem::path &amp; albert::App::configLocation </td>
+          <td class="memname">virtual const std::filesystem::path &amp; albert::App::configLocation </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -222,7 +221,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>removed</b> (<a class
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -232,8 +231,8 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>removed</b> (<a class
 
 </div>
 </div>
-<a id="a4a01a85952e4eb818cf3c4697d38e914" name="a4a01a85952e4eb818cf3c4697d38e914"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4a01a85952e4eb818cf3c4697d38e914">&#9670;&#160;</a></span>dataLocation()</h2>
+<a id="a38dd18cac21a6c595e799b8700f70ddf" name="a38dd18cac21a6c595e799b8700f70ddf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a38dd18cac21a6c595e799b8700f70ddf">&#9670;&#160;</a></span>dataLocation()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -242,7 +241,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>removed</b> (<a class
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static const std::filesystem::path &amp; albert::App::dataLocation </td>
+          <td class="memname">virtual const std::filesystem::path &amp; albert::App::dataLocation </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -250,7 +249,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>removed</b> (<a class
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -316,8 +315,8 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>removed</b> (<a class
 
 </div>
 </div>
-<a id="a1d7a5b39baf71d49199a94cae7036efe" name="a1d7a5b39baf71d49199a94cae7036efe"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1d7a5b39baf71d49199a94cae7036efe">&#9670;&#160;</a></span>settings()</h2>
+<a id="a644bbb307270b099bba3451b46843dab" name="a644bbb307270b099bba3451b46843dab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a644bbb307270b099bba3451b46843dab">&#9670;&#160;</a></span>settings()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -326,7 +325,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>removed</b> (<a class
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static std::unique_ptr&lt; QSettings &gt; albert::App::settings </td>
+          <td class="memname">virtual std::unique_ptr&lt; QSettings &gt; albert::App::settings </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -334,7 +333,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>removed</b> (<a class
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -345,8 +344,8 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>removed</b> (<a class
 
 </div>
 </div>
-<a id="ae8bffacf1109c4c391b13b2b175a42be" name="ae8bffacf1109c4c391b13b2b175a42be"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae8bffacf1109c4c391b13b2b175a42be">&#9670;&#160;</a></span>state()</h2>
+<a id="af940d86d3e6af1e21651d49404bb2772" name="af940d86d3e6af1e21651d49404bb2772"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af940d86d3e6af1e21651d49404bb2772">&#9670;&#160;</a></span>state()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -355,7 +354,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>removed</b> (<a class
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static std::unique_ptr&lt; QSettings &gt; albert::App::state </td>
+          <td class="memname">virtual std::unique_ptr&lt; QSettings &gt; albert::App::state </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -363,7 +362,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>removed</b> (<a class
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">

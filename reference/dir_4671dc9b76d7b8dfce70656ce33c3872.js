@@ -37,6 +37,7 @@ var dir_4671dc9b76d7b8dfce70656ce33c3872 =
     [ "rankedqueryhandler.h", "rankedqueryhandler_8h_source.html", null ],
     [ "rankitem.h", "rankitem_8h_source.html", null ],
     [ "ratelimiter.h", "ratelimiter_8h_source.html", null ],
+    [ "scopedfuture.h", "scopedfuture_8h_source.html", null ],
     [ "standarditem.h", "standarditem_8h_source.html", null ],
     [ "systemutil.h", "systemutil_8h_source.html", null ],
     [ "telemetryprovider.h", "telemetryprovider_8h_source.html", null ],

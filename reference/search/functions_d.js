@@ -6,5 +6,5 @@ var searchData=
   ['percentencoded_3',['percentEncoded',['../group__util__net.html#ga0e68a87ae8dac1ea0433a9fb71dce5cb',1,'albert']]],
   ['pixmap_4',['pixmap',['../classalbert_1_1Icon.html#a3046051e43ea6924f0df20548182f319',1,'albert::Icon']]],
   ['plugininstance_5',['PluginInstance',['../classalbert_1_1PluginInstance.html#a97268fde3a98b3ea1857a5effd01e277',1,'albert::PluginInstance']]],
-  ['plugins_6',['plugins',['../classalbert_1_1PluginProvider.html#a7976388d5144d9a0a0e34156afaabf32',1,'albert::PluginProvider']]]
+  ['plugins_6',['plugins',['../classalbert_1_1PluginProvider.html#a49cbe4ca0196d8d00d9b8bec843299e0',1,'albert::PluginProvider']]]
 ];

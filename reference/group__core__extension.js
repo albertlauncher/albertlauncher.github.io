@@ -16,7 +16,7 @@ var group__core__extension =
     ] ],
     [ "albert::PluginProvider", "classalbert_1_1PluginProvider.html", [
       [ "~PluginProvider", "classalbert_1_1PluginProvider.html#a1d3172a2832639a55d0fcf30905b9fec", null ],
-      [ "plugins", "classalbert_1_1PluginProvider.html#a7976388d5144d9a0a0e34156afaabf32", null ]
+      [ "plugins", "classalbert_1_1PluginProvider.html#a49cbe4ca0196d8d00d9b8bec843299e0", null ]
     ] ],
     [ "albert::QueryHandler", "classalbert_1_1QueryHandler.html", [
       [ "~QueryHandler", "classalbert_1_1QueryHandler.html#acf232f6837086273927896776b721bea", null ],

@@ -14,6 +14,6 @@ var searchData=
   ['pluginloader_11',['PluginLoader',['../classalbert_1_1PluginLoader.html',1,'albert']]],
   ['pluginmetadata_12',['PluginMetadata',['../classalbert_1_1PluginMetadata.html',1,'albert']]],
   ['pluginprovider_13',['PluginProvider',['../classalbert_1_1PluginProvider.html',1,'albert']]],
-  ['plugins_14',['plugins',['../classalbert_1_1PluginProvider.html#a7976388d5144d9a0a0e34156afaabf32',1,'albert::PluginProvider']]],
+  ['plugins_14',['plugins',['../classalbert_1_1PluginProvider.html#a49cbe4ca0196d8d00d9b8bec843299e0',1,'albert::PluginProvider']]],
   ['prioritize_5fperfect_5fmatch_15',['prioritize_perfect_match',['../classalbert_1_1UsageScoring.html#adcd9e1668cfba5dd310d4e5990fd9562',1,'albert::UsageScoring']]]
 ];

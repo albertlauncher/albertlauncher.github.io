@@ -100,7 +100,7 @@ var group__core__query =
     [ "albert::Item", "classalbert_1_1Item.html", [
       [ "Observer", "classalbert_1_1Item_1_1Observer.html", [
         [ "~Observer", "classalbert_1_1Item_1_1Observer.html#aaff4b4ce29528767642aa308ef432c22", null ],
-        [ "notify", "classalbert_1_1Item_1_1Observer.html#a4a5efa14ef8660b013e4296784768da0", null ]
+        [ "onItemChanged", "classalbert_1_1Item_1_1Observer.html#a85efa56ba58942b58831cd3d766a3deb", null ]
       ] ],
       [ "~Item", "classalbert_1_1Item.html#a12e5b15918eac6708436805ea544b343", null ],
       [ "actions", "classalbert_1_1Item.html#ad8423cbb1d705f5f3837478c120fc2c0", null ],

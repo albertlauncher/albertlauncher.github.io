@@ -144,7 +144,7 @@ $(document).ready(function(){initNavTree('plugindependency_8h_source.html',''); 
 <div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>    {</div>
 <div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>        <span class="keywordflow">try</span></div>
 <div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>        {</div>
-<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>            this-&gt;dependency_ = <span class="keyword">dynamic_cast&lt;</span>T*<span class="keyword">&gt;</span>(App::instance().extensions().at(<span class="keywordtype">id</span>));</div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>            this-&gt;dependency_ = <span class="keyword">dynamic_cast&lt;</span>T*<span class="keyword">&gt;</span>(<a class="code hl_function" href="namespacealbert.html#ac6fcf0ab8eebdca3d4248d750f0b387e">app</a>().<a class="code hl_function" href="classalbert_1_1App.html#a3a914db8ecc9a845b21f0e9758993d3a">extensions</a>().at(<span class="keywordtype">id</span>));</div>
 <div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span> </div>
 <div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>            <span class="keywordflow">if</span> (!this-&gt;dependency_)</div>
 <div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>                <span class="keywordflow">throw</span> std::runtime_error(</div>
@@ -179,15 +179,15 @@ $(document).ready(function(){initNavTree('plugindependency_8h_source.html',''); 
 <div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span>        id_(id)</div>
 <div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span>    {</div>
 <div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span>        <span class="keywordflow">try</span> {</div>
-<div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span>            this-&gt;dependency_ = <span class="keyword">dynamic_cast&lt;</span>T*<span class="keyword">&gt;</span>(App::instance().extensions().at(<span class="keywordtype">id</span>));</div>
+<div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span>            this-&gt;dependency_ = <span class="keyword">dynamic_cast&lt;</span>T*<span class="keyword">&gt;</span>(<a class="code hl_function" href="namespacealbert.html#ac6fcf0ab8eebdca3d4248d750f0b387e">app</a>().<a class="code hl_function" href="classalbert_1_1App.html#a3a914db8ecc9a845b21f0e9758993d3a">extensions</a>().at(<span class="keywordtype">id</span>));</div>
 <div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span>            <span class="keywordflow">if</span> (!this-&gt;dependency_)</div>
 <div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span>                WARN &lt;&lt; QStringLiteral(<span class="stringliteral">&quot;Found &#39;%1&#39; but failed casting to expected type.&quot;</span>).arg(<span class="keywordtype">id</span>);</div>
 <div class="line"><a id="l00108" name="l00108"></a><span class="lineno">  108</span>        } <span class="keywordflow">catch</span> (<span class="keyword">const</span> std::out_of_range &amp;) { <span class="comment">/* okay, optional */</span> }</div>
 <div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span> </div>
-<div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span>        conn_add_ = QObject::connect(&amp;App::instance(), &amp;App::added,</div>
+<div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span>        conn_add_ = QObject::connect(&amp;<a class="code hl_function" href="namespacealbert.html#ac6fcf0ab8eebdca3d4248d750f0b387e">app</a>(), &amp;App::added,</div>
 <div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span>                                     [<span class="keyword">this</span>](Extension *e){ onRegistered(e);});</div>
 <div class="line"><a id="l00112" name="l00112"></a><span class="lineno">  112</span> </div>
-<div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span>        conn_rem_ = QObject::connect(&amp;App::instance(), &amp;App::removed,</div>
+<div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span>        conn_rem_ = QObject::connect(&amp;<a class="code hl_function" href="namespacealbert.html#ac6fcf0ab8eebdca3d4248d750f0b387e">app</a>(), &amp;App::removed,</div>
 <div class="line"><a id="l00114" name="l00114"></a><span class="lineno">  114</span>                                     [<span class="keyword">this</span>](Extension *e){ onDeregistered(e);});</div>
 <div class="line"><a id="l00115" name="l00115"></a><span class="lineno">  115</span>    }</div>
 </div>
@@ -251,11 +251,13 @@ $(document).ready(function(){initNavTree('plugindependency_8h_source.html',''); 
 </div>
 <div class="line"><a id="l00173" name="l00173"></a><span class="lineno">  173</span> </div>
 <div class="line"><a id="l00174" name="l00174"></a><span class="lineno">  174</span>}</div>
+<div class="ttc" id="aclassalbert_1_1App_html_a3a914db8ecc9a845b21f0e9758993d3a"><div class="ttname"><a href="classalbert_1_1App.html#a3a914db8ecc9a845b21f0e9758993d3a">albert::App::extensions</a></div><div class="ttdeci">virtual const std::map&lt; QString, Extension * &gt; &amp; extensions() const =0</div><div class="ttdoc">Get map of all registered extensions.</div></div>
 <div class="ttc" id="aclassalbert_1_1StrongDependency_html"><div class="ttname"><a href="classalbert_1_1StrongDependency.html">albert::StrongDependency</a></div><div class="ttdoc">Convenience holder class for hard plugin dependencies.</div><div class="ttdef"><b>Definition</b> plugindependency.h:46</div></div>
 <div class="ttc" id="aclassalbert_1_1StrongDependency_html_a7e32e6842ba5b5b2b5e27a0cae225d2f"><div class="ttname"><a href="classalbert_1_1StrongDependency.html#a7e32e6842ba5b5b2b5e27a0cae225d2f">albert::StrongDependency::StrongDependency</a></div><div class="ttdeci">StrongDependency(QString id)</div><div class="ttdoc">Constructs a StrongDependency with id.</div><div class="ttdef"><b>Definition</b> plugindependency.h:54</div></div>
 <div class="ttc" id="aclassalbert_1_1WeakDependency_html"><div class="ttname"><a href="classalbert_1_1WeakDependency.html">albert::WeakDependency</a></div><div class="ttdoc">Convenience holder class for soft plugin dependencies.</div><div class="ttdef"><b>Definition</b> plugindependency.h:94</div></div>
 <div class="ttc" id="aclassalbert_1_1WeakDependency_html_aa7134ad13996b4bbe26d7dd13d1d05c4"><div class="ttname"><a href="classalbert_1_1WeakDependency.html#aa7134ad13996b4bbe26d7dd13d1d05c4">albert::WeakDependency::WeakDependency</a></div><div class="ttdeci">WeakDependency(const QString &amp;id, std::function&lt; void(bool)&gt; on_registered={})</div><div class="ttdoc">Constructs a WeakDependency with id and callback on_registered.</div><div class="ttdef"><b>Definition</b> plugindependency.h:100</div></div>
 <div class="ttc" id="anamespacealbert_html"><div class="ttname"><a href="namespacealbert.html">albert</a></div><div class="ttdoc">The Albert namespace.</div><div class="ttdef"><b>Definition</b> app.h:55</div></div>
+<div class="ttc" id="anamespacealbert_html_ac6fcf0ab8eebdca3d4248d750f0b387e"><div class="ttname"><a href="namespacealbert.html#ac6fcf0ab8eebdca3d4248d750f0b387e">albert::app</a></div><div class="ttdeci">App &amp; app()</div><div class="ttdoc">Returns the global app instance.</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

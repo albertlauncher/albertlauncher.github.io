@@ -7,6 +7,229 @@
     
       
         <item>
+          <title>Albert v35.0.0 released</title>
+          <description>&lt;h1 id=&quot;albert-v3500-released&quot;&gt;Albert v35.0.0 released&lt;/h1&gt;
+
+&lt;h3 id=&quot;features&quot;&gt;Features&lt;/h3&gt;
+
+&lt;h4 id=&quot;core&quot;&gt;Core&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;em&gt;PluginsQueryHandler&lt;/em&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert/commit/014ea3794c3e028ad3457bace8a4a0e20b423ad5&quot;&gt;Do not match plugins id&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/albertlauncher/albert/commit/c71b199d0ed2519ea98f602490c0577d60aecb72&quot;&gt;Drop CLI option –report&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/albertlauncher/albert/commit/ccb94a969b10595697775cf91decf12713266c74&quot;&gt;Create core dumps on fatal errors&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;RateLimiter&lt;/em&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert/commit/0f7f2b5a93f32e9fc13cb9a977d8e1cc8de80ca2&quot;&gt;Do not implicitly consume a granted acquire&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;RateLimiter&lt;/em&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert/commit/0d85d65fa54bde31f3f8b326d34bd0d0e9876800&quot;&gt;Add coroutine awaiter (for smart pointers as well)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/albertlauncher/albert/commit/f2e75430cba1633fd05ac54b72334a3b28ede91e&quot;&gt;Do not kill async coroutines on cancel&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;[&lt;strong&gt;BREAKING&lt;/strong&gt;] &lt;em&gt;TriggersQueryHandler&lt;/em&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert/commit/530ef63ea33be75991a0178df2e5de299f8fd27f&quot;&gt;Do not match the handler id&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;MatchConfig&lt;/em&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert/commit/ff57af3c401e32aba146e06b29fe1f5a96f2051e&quot;&gt;Add option &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ignore_underscore&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/albertlauncher/albert/commit/4cf238660775d32a20385804d84de60411deca8b&quot;&gt;Add localization option&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;plugins&quot;&gt;Plugins&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Albert&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-application/commit/6d09141740361e896eb9a42caa30379f52e4a104&quot;&gt;Add es, fr, ja, ko, pt, zh translations&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Applications&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-applications/commit/0a1f24218fb7372959b64eacc5a48628a8aa7eb3&quot;&gt;Add es, fr, ja, ko, pt, zh translations&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Bluetooth&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-bluetooth/commit/070a0152a57120858f774c23f0eea4de226186a6&quot;&gt;Add es, fr, ja, ko, pt, zh translations&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Caffeine&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-caffeine/commit/e121c8c05021ce1857847f3dfc57e29d10a786ae&quot;&gt;Add es, fr, ja, ko, pt, zh translations&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Calculator&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-calculator-qalculate/commit/c01efd97c46af2459194e25242c2414a8529402e&quot;&gt;Add es, fr, ja, ko, pt, zh translations&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Chromium&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-chromium/commit/0ff742c5dd7f0f3647c2ea82ee21fce1fc3774a3&quot;&gt;Revert icon composition on hidpi displays&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-chromium/commit/8281bb2bb987bd126f21732f99a29a7852833bfa&quot;&gt;Flatpak/Snapcraft support&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-chromium/commit/8e9dcf044834b10a344cb65a71e56ae650d5063a&quot;&gt;Drop relative path from profile combobox, add full path tooltip&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-chromium/commit/b76b4e207ab80107555966426c1d7c00778d40c3&quot;&gt;Add es, fr, ja, ko, pt, zh translations&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Clipboard&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-clipboard/commit/b65e97111b4728dc73c426df178f2e27da2e1a66&quot;&gt;Add es, fr, ja, ko, pt, zh translations&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Commandline&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-commandline/commit/40f0526b97570a3cb880678f8335c1f6dd063db0&quot;&gt;Add es, fr, ja, ko, pt, zh translations&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Contacts&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-contacts/commit/f7a95e1be039af85dcda2c6d51bcdcfd8a99ba08&quot;&gt;Add es, fr, ja, ko, pt, zh translations&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Date and time&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-datetime/commit/635ae14ac97c272942df8eb79b21c828ed559184&quot;&gt;Add es, fr, ja, ko, pt, zh translations&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Dictionary&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-dictionary/commit/32101c7a7f4110f290f87fee28dd5834bdeb6308&quot;&gt;Add es, fr, ja, ko, pt, zh translations&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Documentation&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-docs/commit/21d54c447dabfc35850de62a81390c4dd4cbd1d2&quot;&gt;Add es, fr, ja, ko, pt, zh translations&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Files&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-files/commit/99d557ac9938605d5e647f211c360988d39ce4aa&quot;&gt;Special value text ∞ for 0 time interval&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-files/commit/7ebc481ae48647119da30c8cd4aebcb155d73a77&quot;&gt;Add es, fr, ja, ko, pt, zh translations&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Firefox&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-python-firefox/commit/ba59efff203f0197c186d4dcf1649b71379fbc37&quot;&gt;Handle Firefox data dir under .config/mozilla and fallback to .mozilla/config&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-python-firefox/commit/fc04cb1a285078354b117941561ac87b79a0205e&quot;&gt;Add chronologically ordered history search handler&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;GitHub&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-github/commit/ec161a1b89eabfe97a51b14e6eca2d0a01aae5ea&quot;&gt;Show user account on empty query&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-github/commit/e5258326201803e90f3ee070eb235af03b32983f&quot;&gt;Add es, fr, ja, ko, pt, zh translations&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Hash Generator&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-hash/commit/afe8bb1f88a78426dd3fabd327aed9bd2391cebb&quot;&gt;Add es, fr, ja, ko, pt, zh translations&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Homebrew&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-homebrew/commit/d8b442ac4b410302ebd11a2fbb5329e0a9ee2527&quot;&gt;Add es, fr, ja, ko, pt, zh translations&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Locate&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-python-locate/commit/d5c2ef7190a8d3d7e5390b821f592886724deb5c&quot;&gt;Add copy action&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Media player remote&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-mediaremote/commit/ac292ffb0a7a5fac26636922414b75803c3a46db&quot;&gt;Add es, fr, ja, ko, pt, zh translations&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Menu bar&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-menubar/commit/3173a9ba877a0a9a838621ce9cca12e453c9ae52&quot;&gt;Add es, fr, ja, ko, pt, zh translations&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Obsidian&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-obsidian/commit/5adf6bbbc076cdb673ae1b2d95e851f543640dc8&quot;&gt;Add es, fr, ja, ko, pt, zh translations&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Python plugins&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-python/commit/15433b46fe34d095ddd4233068cf8c775fcceef6&quot;&gt;Add es, fr, ja, ko, pt, zh translations&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;SSH&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-ssh/commit/dde8c14a0eaed3549cc44d3cd44800026ac163e8&quot;&gt;Add es, fr, ja, ko, pt, zh translations&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Snippets&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-snippets/commit/1913dd825adf2326c42db563e53bf0eec9ecba60&quot;&gt;Add es, fr, ja, ko, pt, zh translations&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Spotify&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-spotify/commit/b85581e7a8657b7425696da296d7a83c54bf54b2&quot;&gt;Add es, fr, ja, ko, pt, zh translations&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;System&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-system/commit/45d3a3683cb0d59dcbc4960e83b04bb81a168705&quot;&gt;Add es, fr, ja, ko, pt, zh translations&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Time zones&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-timezones/commit/8200cc0f351184c04cb3517e5235bee702b171fa&quot;&gt;Add es, fr, ja, ko, pt, zh translations&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Timers&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-timer/commit/e596b900d9a821225cd276226d1c72a5edc2a3e7&quot;&gt;Add es, fr, ja, ko, pt, zh translations&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;URL Handler&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-urlhandler/commit/9c900a2041a7ee1e2216d2706a27392e1ecef0a5&quot;&gt;Add es, fr, ja, ko, pt, zh translations&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;VPN&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-vpn/commit/a8728644bb8cf68fa655b04ee8ec8e1f8279ca8c&quot;&gt;Add es, fr, ja, ko, pt, zh translations&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Web search&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-websearch/commit/3601b78e909be11a1d8edc4ee5aecff6598de6f5&quot;&gt;Add es, fr, ja, ko, pt, zh translations&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Widgets BoxModel&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-widgetsboxmodel/commit/0f8695dc2a6f9dcc7e2a79fa92d4875c2bd4a5d6&quot;&gt;Add es, fr, ja, ko, pt, zh translations&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;api&quot;&gt;API&lt;/h3&gt;
+
+&lt;h4 id=&quot;core-1&quot;&gt;Core&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;[&lt;strong&gt;BREAKING&lt;/strong&gt;] &lt;em&gt;Item::Observer&lt;/em&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert/commit/cce44d2f813386a6d5dff1e62d4445829948ed27&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;notify&lt;/code&gt; &amp;gt; &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;onItemChanged&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/albertlauncher/albert/commit/800e42b8d5f1a102721f1f01c6a91cbb05abbb5c&quot;&gt;Add shorthand &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;albert::app&lt;/code&gt; for &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;albert::App::instance&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;RankItem&lt;/em&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert/commit/cb4cd505f9598dfcbc716844dce84c071a44be47&quot;&gt;Make constructor non-explicit&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;[&lt;strong&gt;BREAKING&lt;/strong&gt;] &lt;em&gt;App&lt;/em&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert/commit/a31432a3b76a2ee37fb5705a6bc71af7493c1f7e&quot;&gt;Remove redundant instance getter&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;[&lt;strong&gt;BREAKING&lt;/strong&gt;] &lt;em&gt;PluginProvider&lt;/em&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert/commit/12aa2cc466f26a8920f8c90be346ec4ad9be2fc3&quot;&gt;Make loader getter const&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;[&lt;strong&gt;BREAKING&lt;/strong&gt;] &lt;em&gt;App&lt;/em&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert/commit/9640efe3e4041ac6d7c81d8ea965174b583f4caf&quot;&gt;Make several static member functions non-static&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/albertlauncher/albert/commit/62ed3a1a9391ed45f19ff5de52dfa90d5af93884&quot;&gt;Add a l10n flag indicating localization usage&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;performance&quot;&gt;Performance&lt;/h3&gt;
+
+&lt;h4 id=&quot;core-2&quot;&gt;Core&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/albertlauncher/albert/commit/935d94a0ba86b2c5740bb8cad0bfe8a4085ffc64&quot;&gt;Avoid &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;QApplication&lt;/code&gt; instantiation before commandline parsing&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/albertlauncher/albert/commit/eb321ef6eaa537e02a90e83c5c8056a7c76e3452&quot;&gt;Optimize query string preprocessing&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;fixes&quot;&gt;Fixes&lt;/h3&gt;
+
+&lt;h4 id=&quot;core-3&quot;&gt;Core&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/albertlauncher/albert/commit/9bd846270bc148a6c84ec020ea6ddbac7205872a&quot;&gt;Action exception text translation&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/albertlauncher/albert/commit/cbddfac2238be1b1401b3aa87c372f49540c7d3b&quot;&gt;Dev bundle suffix has no effect&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/albertlauncher/albert/commit/1efbc1a91c8b2a7739a5a99c471e8f983d599800&quot;&gt;Avoid unneccesary copies in global query&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/albertlauncher/albert/commit/a39e341e5b5b35c9fe35394cdf2bce39da7080cf&quot;&gt;Restart does not work&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/albertlauncher/albert/commit/bce0f206ec3b575261bbad6b0cf4195a131d1bb2&quot;&gt;CLI accepts invalid URLs&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;AsyncGeneratorQueryHandler&lt;/em&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert/commit/871daa90b507aa6eedc3945b4a48cc6268847840&quot;&gt;Proper iterator handling&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;PathManager&lt;/em&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert/commit/eda6b01c19906091da919635adaf5371232abfcd&quot;&gt;Setting additional paths has no immediate effect&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/albertlauncher/albert/commit/2c102d2812f1b54e4523097d35e67d0c6a6a6d9e&quot;&gt;SEGV on qFatal without initialized QGuiApplication&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/albertlauncher/albert/commit/ef8700812cd504ea4e4b4c7b93cd726b0cc87b9f&quot;&gt;Errors while loading frontend not being catched&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/albertlauncher/albert/commit/a71c734321a5727f5fe82b4640ab40addc060a1a&quot;&gt;Ubuntu builds&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/albertlauncher/albert/commit/ef942fc3e475fd2d4d6e67621bf84125ea84ef41&quot;&gt;Clicking the slider groove has no effect&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;plugins-1&quot;&gt;Plugins&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Arch Linux Wiki&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-python-arch-wiki/commit/94eeba3d7109e5019d9122753f69bb28151e6b8f&quot;&gt;Proper query context usage&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Chromium&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-chromium/commit/cd743e6f409230b65910d0e293b7f6d9756f3660&quot;&gt;Crashes on FaviconsDatabase miss&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-chromium/commit/b46f608eafc4fc91242e98e7f025d09d1e3fc118&quot;&gt;Loading plugin fails when configured profile directory disappeared&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;em&gt;i18n&lt;/em&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-chromium/commit/47a816ec8423981a58cf52423eb5676423ab9e4a&quot;&gt;Fix wrong ts file, tidy up&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-chromium/commit/db5e79208263fef192aff76d7a9402efaadad41e&quot;&gt;Ubuntu builds (IWYU)&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Documentation&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-docs/commit/c1a576a9eee548f13be50bb4149a3dfb005cc85a&quot;&gt;Invalid zeal download url (again)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Files&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-files/commit/158975d0d225df326f9148101e3adbaeba2f61ab&quot;&gt;Time interval 0 not stored&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;GitHub&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-github/commit/9dfcf7d6d364c19d62b2dbf49e2e84bfcae757fc&quot;&gt;Fedora builds&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-github/commit/8318f38c6dff09c0d23251326019b0b6f0dd1e77&quot;&gt;Ubuntu builds&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Python plugins&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-python/commit/945f6b6b84d5d81067aff8ec82459e2565683acb&quot;&gt;Use PYBIND11_VERSION_MICRO instead *_PATCH&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-python/commit/45f0f1db659c2003a8001606d52adcc9e7512cf2&quot;&gt;Loss of precision in &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;RankItem&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-python/commit/0fe96e7104601c6077b27facfce2534731306891&quot;&gt;Do not catch action exceptions early&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-python/commit/ce2af6bceaeb775461605a56fe9d1b93238f7d55&quot;&gt;Exclude hidden files on install&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-python/commit/d47d0053b8f93bcb4b40e80f844082314f768623&quot;&gt;Wrap C++ return type in &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;GeneratorQueryHandler::items&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;VSCode projects&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-python-vscode-projects/commit/1647bfce47442a55db99f9b0bccf89667b187a98&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;runTerminal&lt;/code&gt; command&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-python-vscode-projects/commit/108cb96eb6bf56c2da4cfab15743faa67b0f2746&quot;&gt;No recent entries in current vscode versions&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Widgets BoxModel&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-widgetsboxmodel/commit/9647910c7ba8e7347c808148c56b527c260d0892&quot;&gt;Revert “Cache icon by item identifier”&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-widgetsboxmodel/commit/d9dbba067995256ff2b47981022fac27d9abf37e&quot;&gt;Redraw background when dpr changes&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;documentation&quot;&gt;Documentation&lt;/h3&gt;
+
+&lt;h4 id=&quot;core-4&quot;&gt;Core&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;em&gt;AsyncGeneratorQueryHandler&lt;/em&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert/commit/f9bac83a2454c9e9f41a912ec5f4386615494d7c&quot;&gt;Add coro caveats warning&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;miscellaneous-tasks&quot;&gt;Miscellaneous Tasks&lt;/h3&gt;
+
+&lt;h4 id=&quot;core-5&quot;&gt;Core&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/albertlauncher/albert/commit/ae286aa4706af5d9e8b93945db0a14b4549f2b76&quot;&gt;Remove feature request contact link&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/albertlauncher/albert/commit/41a6a215db60ece63a26c154ac8577631e2cc282&quot;&gt;Dynamic endpoint lookup&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/albertlauncher/albert/commit/858a79ff84d0b621a8fbccc4149986852989e29f&quot;&gt;Add ScopedFuture prototype&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/albertlauncher/albert/commit/2124b25893f898b98c6d2d85bba9f18a45c6b3b7&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;expected&lt;/code&gt; instead &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;exception&lt;/code&gt; in RPCServer::sendMessage&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;CI&lt;/em&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert/commit/dbd69ac8310828456a3ccae53da9f7d5977139be&quot;&gt;Use LLVM@20 for macOS builds&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/albertlauncher/albert/commit/ad940f43ff2e08c7eb66d43aca1f38915665b5f0&quot;&gt;Test&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;plugins-2&quot;&gt;Plugins&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Albert&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-application/commit/d094d0cbb2b8c36da0905fd6853fcb40001247a3&quot;&gt;Adapt API changes&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Applications&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-applications/commit/1c594b6c2dcac93c81035c9f313106ae83f5b5f3&quot;&gt;Adapt API changes&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Date and time&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-datetime/commit/5ccd1321827bc7d59be0808333a9223807c4030a&quot;&gt;Adapt API changes&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;GitHub&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-github/commit/5548249c8a2a15c8b2a9d4c7823ce0410b21d1c4&quot;&gt;Adapt to RateLimiter changes&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-github/commit/54bee21f2f9d12873dbe90e3de067c5dccd11e2a&quot;&gt;Adapt API changes&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Obsidian&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-obsidian/commit/c144e2b74122099904503ccddfc4e22ec6ce41b5&quot;&gt;Adapt API changes&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Python plugins&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-python/commit/d34684e3aba245a56afc6ae69c7f01819841f28b&quot;&gt;Adapt API changes&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-python/commit/720efa675f13346009974d2392dc89ac326a8c35&quot;&gt;Update to pybind v3.0.4&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Snippets&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-snippets/commit/0b3e6276d24ced6aab5dbefd6149f7eb42dad34c&quot;&gt;Adapt API changes&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Spotify&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-spotify/commit/738fbb9d48666375ca703bba751ca202123564e3&quot;&gt;Update README with Spotify Development Mode warning&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-spotify/commit/203ca606282ab77c8eaf32d2f671ad5ed5a5f605&quot;&gt;Adapt API changes&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-spotify/commit/60afbb3dc1ce9dc7576890db0bbaeae235f310ea&quot;&gt;Adapt to RateLimiter changes&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Widgets BoxModel&lt;/strong&gt; · &lt;a href=&quot;https://github.com/albertlauncher/albert-plugin-widgetsboxmodel/commit/a40d5bbd3862f1f379c27c3bad223fd628c44373&quot;&gt;Adapt API changes&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Check the &lt;a href=&quot;https://github.com/albertlauncher/albert/compare/v34.0.10...v35.0.0&quot;&gt;commit log&lt;/a&gt; for details.&lt;/p&gt;
+</description>
+          <pubDate>2026-07-24T21:58:00+00:00</pubDate>
+          <link>https://albertlauncher.github.io/2026/07/24/albert-v35.0.0-released/</link>
+          <guid isPermaLink="true">https://albertlauncher.github.io/2026/07/24/albert-v35.0.0-released/</guid>
+        </item>
+      
+    
+      
+        <item>
           <title>Albert v34.0.10 released</title>
           <description>&lt;h1 id=&quot;albert-v34010-released&quot;&gt;Albert v34.0.10 released&lt;/h1&gt;
 
