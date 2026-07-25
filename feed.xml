@@ -10,6 +10,27 @@
           <title>Albert v35.1.0 released</title>
           <description>&lt;h1 id=&quot;albert-v3510-released&quot;&gt;Albert v35.1.0 released&lt;/h1&gt;
 
+&lt;h3 id=&quot;features&quot;&gt;Features&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/albertlauncher/albert/commit/f54342cd3f4795ab04a80cbeec9bab2f9e2749db&quot;&gt;&lt;em&gt;HotkeyDialog&lt;/em&gt; · Describe the supported key actions&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;fixes&quot;&gt;Fixes&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/albertlauncher/albert/commit/3d7906e9e4dfddce80ef0ec0c70df1530d12a164&quot;&gt;Broken commandline interface&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/albertlauncher/albert/commit/3578f704e793704de75a7843de7f7ba403d2545e&quot;&gt;SEGV on sending message in client mode&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;miscellaneous-tasks&quot;&gt;Miscellaneous Tasks&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/albertlauncher/albert/commit/ac3b30eac9b0cd59c0cdb5255f81ad9ea435cb3d&quot;&gt;Update CI workflow dependencies&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/albertlauncher/albert/commit/20ef08e93cdf987ff9b5c10bec3f2a458394f3da&quot;&gt;Add stalebot setup for abandoned need-info issues&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/albertlauncher/albert/commit/394031876d265866152e36c11ebe0afedda6fe65&quot;&gt;Let dependanbot manage github action dependencies&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
 &lt;p&gt;Check the &lt;a href=&quot;https://github.com/albertlauncher/albert/compare/v35.0.0...v35.1.0&quot;&gt;commit log&lt;/a&gt; for details.&lt;/p&gt;
 </description>
           <pubDate>2026-07-25T14:47:00+00:00</pubDate>
