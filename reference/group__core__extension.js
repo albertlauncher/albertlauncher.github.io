@@ -8,7 +8,7 @@ var group__core__extension =
     ] ],
     [ "albert::FallbackHandler", "classalbert_1_1FallbackHandler.html", [
       [ "~FallbackHandler", "classalbert_1_1FallbackHandler.html#a071609d784d84ddab90dba76b87dfd84", null ],
-      [ "fallbacks", "classalbert_1_1FallbackHandler.html#a131fd6896a43672eac646f29da7222ed", null ]
+      [ "fallbacks", "classalbert_1_1FallbackHandler.html#a292b0e0ec0bb8b664782ea2dd1a179be", null ]
     ] ],
     [ "albert::GlobalQueryHandler", "classalbert_1_1GlobalQueryHandler.html", [
       [ "~GlobalQueryHandler", "classalbert_1_1GlobalQueryHandler.html#a3e4cba0351c0d47953476559db4b9b3a", null ],

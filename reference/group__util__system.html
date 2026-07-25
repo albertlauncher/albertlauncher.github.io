@@ -132,7 +132,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>albert::havePasteSupp
 <tr class="memdesc:ga0f190f5266c9ee4d4c44ee3b21af9876"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the <code>true</code> if the platform supports pasting, else <code>false</code>. <br /></td></tr>
 <tr class="separator:ga0f190f5266c9ee4d4c44ee3b21af9876"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga88cb18f19f7c6fed45b25fba5e6bf9b5" id="r_ga88cb18f19f7c6fed45b25fba5e6bf9b5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__util__system.html#ga88cb18f19f7c6fed45b25fba5e6bf9b5">albert::setClipboardTextAndPaste</a> (const QString &amp;text)</td></tr>
-<tr class="memdesc:ga88cb18f19f7c6fed45b25fba5e6bf9b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the system clipboard to <em>text</em> and pastes <em>text</em> to the front-most window.  <br /></td></tr>
+<tr class="memdesc:ga88cb18f19f7c6fed45b25fba5e6bf9b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the system clipboard to <em>text</em> and pastes it to the front-most window.  <br /></td></tr>
 <tr class="separator:ga88cb18f19f7c6fed45b25fba5e6bf9b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga82b1c3911ee6a270ac3891315f28c179" id="r_ga82b1c3911ee6a270ac3891315f28c179"><td class="memItemLeft" align="right" valign="top">long long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__util__system.html#ga82b1c3911ee6a270ac3891315f28c179">albert::runDetachedProcess</a> (const QStringList &amp;commandline)</td></tr>
 <tr class="memdesc:ga82b1c3911ee6a270ac3891315f28c179"><td class="mdescLeft">&#160;</td><td class="mdescRight">Starts the <em>commandline</em> in a new process, and detaches from it.  <br /></td></tr>
@@ -215,7 +215,7 @@ QString&#160;</td><td class="memItemRight" valign="bottom"><b>albert::toQString<
 </div><div class="memdoc">
 
 <p>Starts the <em>commandline</em> in a new process, and detaches from it. </p>
-<p>Returns the PID on success; otherwise returns 0. The process will be started in the directory <code>working_dir</code>. If <code>working_dir</code> is empty, the working directory is the users home directory. </p>
+<p>Returns the PID on success; otherwise returns 0. The process will be started in the directory <em>working_dir</em>. Defaults to user home directory if <em>working_dir</em> is empty. </p>
 
 </div>
 </div>
@@ -235,7 +235,7 @@ QString&#160;</td><td class="memItemRight" valign="bottom"><b>albert::toQString<
       </table>
 </div><div class="memdoc">
 
-<p>Sets the system clipboard to <em>text</em> and pastes <em>text</em> to the front-most window. </p>
+<p>Sets the system clipboard to <em>text</em> and pastes it to the front-most window. </p>
 <p>Check <a class="el" href="group__util__system.html#ga0f190f5266c9ee4d4c44ee3b21af9876">albert::havePasteSupport</a> before using this function. </p>
 
 </div>

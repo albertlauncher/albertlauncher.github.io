@@ -1,7 +1,7 @@
 var searchData=
 [
   ['fallbackhandler_0',['FallbackHandler',['../classalbert_1_1FallbackHandler.html',1,'albert']]],
-  ['fallbacks_1',['fallbacks',['../classalbert_1_1FallbackHandler.html#a131fd6896a43672eac646f29da7222ed',1,'albert::FallbackHandler']]],
+  ['fallbacks_1',['fallbacks',['../classalbert_1_1FallbackHandler.html#a292b0e0ec0bb8b664782ea2dd1a179be',1,'albert::FallbackHandler']]],
   ['fetchmore_2',['fetchMore',['../classalbert_1_1QueryExecution.html#ae5b0b067d821bd6ea8205c2895b38ee1',1,'albert::QueryExecution']]],
   ['filedialogback_3',['FileDialogBack',['../classalbert_1_1Icon.html#aa191d4250a5cb1ddfcd146e94ac91168a3d5946b0b3c069f80210be572427a5f9',1,'albert::Icon']]],
   ['filedialogcontentsview_4',['FileDialogContentsView',['../classalbert_1_1Icon.html#aa191d4250a5cb1ddfcd146e94ac91168a20ab877b5ff851670947c86254230b95',1,'albert::Icon']]],

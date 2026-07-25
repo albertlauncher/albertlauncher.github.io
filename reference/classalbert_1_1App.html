@@ -120,7 +120,7 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>showSettings<
 <tr><td colspan="2"><div class="groupHeader">Plugins and extensions</div></td></tr>
 <tr class="memitem:a86073928e2c3a3a3932b0aa4c63614e2" id="r_a86073928e2c3a3a3932b0aa4c63614e2"><td class="memItemLeft" align="right" valign="top"><a id="a86073928e2c3a3a3932b0aa4c63614e2" name="a86073928e2c3a3a3932b0aa4c63614e2"></a>
 virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>localizationEnabled</b> () const =0</td></tr>
-<tr class="memdesc:a86073928e2c3a3a3932b0aa4c63614e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns whether PluginLoaders should load translations. <br /></td></tr>
+<tr class="memdesc:a86073928e2c3a3a3932b0aa4c63614e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns <code>true</code> when a <a class="el" href="classalbert_1_1PluginLoader.html">PluginLoader</a> should load translations, <code>false</code> otherwise. <br /></td></tr>
 <tr class="separator:a86073928e2c3a3a3932b0aa4c63614e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3a914db8ecc9a845b21f0e9758993d3a" id="r_a3a914db8ecc9a845b21f0e9758993d3a"><td class="memItemLeft" align="right" valign="top"><a id="a3a914db8ecc9a845b21f0e9758993d3a" name="a3a914db8ecc9a845b21f0e9758993d3a"></a>
 virtual const std::map&lt; QString, <a class="el" href="classalbert_1_1Extension.html">Extension</a> * &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>extensions</b> () const =0</td></tr>
@@ -129,12 +129,12 @@ virtual const std::map&lt; QString, <a class="el" href="classalbert_1_1Extension
 <tr class="memitem:aa33ce08d3670e92590342c23e99372dc" id="r_aa33ce08d3670e92590342c23e99372dc"><td class="memTemplParams" colspan="2"><a id="aa33ce08d3670e92590342c23e99372dc" name="aa33ce08d3670e92590342c23e99372dc"></a>
 template&lt;typename T &gt; </td></tr>
 <tr class="memitem:aa33ce08d3670e92590342c23e99372dc"><td class="memTemplItemLeft" align="right" valign="top">std::map&lt; QString, T * &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><b>extensions</b> () const</td></tr>
-<tr class="memdesc:aa33ce08d3670e92590342c23e99372dc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get map of all extensions of type T. <br /></td></tr>
+<tr class="memdesc:aa33ce08d3670e92590342c23e99372dc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get map of all extensions of type <code>T</code> <br /></td></tr>
 <tr class="separator:aa33ce08d3670e92590342c23e99372dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a351ba65b65fe7feeec2c2a11e65a4f64" id="r_a351ba65b65fe7feeec2c2a11e65a4f64"><td class="memTemplParams" colspan="2"><a id="a351ba65b65fe7feeec2c2a11e65a4f64" name="a351ba65b65fe7feeec2c2a11e65a4f64"></a>
 template&lt;typename T &gt; </td></tr>
 <tr class="memitem:a351ba65b65fe7feeec2c2a11e65a4f64"><td class="memTemplItemLeft" align="right" valign="top">T *&#160;</td><td class="memTemplItemRight" valign="bottom"><b>extension</b> (const QString &amp;id) const</td></tr>
-<tr class="memdesc:a351ba65b65fe7feeec2c2a11e65a4f64"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get extension by id implicitly dynamic_cast'ed to type T. <br /></td></tr>
+<tr class="memdesc:a351ba65b65fe7feeec2c2a11e65a4f64"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get extension by <em>id</em> implicitly <code>dynamic_cast</code>'ed to type <code>T</code>. <br /></td></tr>
 <tr class="separator:a351ba65b65fe7feeec2c2a11e65a4f64"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Persistence</div></td></tr>
 <tr class="memitem:a644bbb307270b099bba3451b46843dab" id="r_a644bbb307270b099bba3451b46843dab"><td class="memItemLeft" align="right" valign="top">virtual std::unique_ptr&lt; QSettings &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalbert_1_1App.html#a644bbb307270b099bba3451b46843dab">settings</a> ()=0</td></tr>
