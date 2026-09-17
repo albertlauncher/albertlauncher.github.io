@@ -22,14 +22,14 @@
   },"3": {
     "doc": "Basics",
     "title": "Extensions",
-    "content": "An extension is a logical unit extending the app with a particular functionality. Each plugin can provide multiple extension implementations and expose its own extension interfaces. More on this topic can be found in the Extension section . ",
+    "content": "An extension is a logical unit extending the app with a particular functionality. Each plugin can provide multiple extension implementations and expose its own extension interfaces. More on this topic can be found in the Extension section. ",
     "url": "/basics/#extensions",
     
     "relUrl": "/basics/#extensions"
   },"4": {
     "doc": "Basics",
     "title": "Queries",
-    "content": "There are three built-in extension interfaces that handle user input: . If the query starts with a trigger of a trigger query handler extension, the query is handled exclusively by the corresponding handler. This allows the handler to set an inline input hint, asynchronously add match items and as such define their order. If the query does not start with a trigger, the query is handled by all enabled global query handler extensions in parallel and eventually the match items are merged and sorted by match and usage score. In any case the enabled fallback handler extensions provide a separate set of fallbacks items, which are displayed when the matches are empty or when the user explicitly requests them. ",
+    "content": "There are three built-in extension interfaces that handle user input: . If the query starts with a trigger of a trigger query handler extension, the query is handled exclusively by the corresponding handler. This allows the handler to set an inline input hint, asynchronously add match items and thereby define their order. If the query does not start with a trigger, the query is handled by all enabled global query handler extensions in parallel and eventually the match items are merged and sorted by match and usage score. In any case the enabled fallback handler extensions provide a separate set of fallback items, which are displayed when the matches are empty or when the user explicitly requests them. ",
     "url": "/basics/#queries",
     
     "relUrl": "/basics/#queries"
@@ -43,7 +43,7 @@
   },"6": {
     "doc": "Basics",
     "title": "User interface",
-    "content": ". Besides its primary function, the input line displays the input action text and input hint and contains the settings button. If the input starts with a trigger of a trigger query handler, it is highlighted. If available the input action text of the currently selected item will be displayed right beside your input. Hit Tab to replace the current input with it. If space permits, the input hint of the query handler will be displayed right-aligned in the input box. The settings button is appears on the right side of the input line if you hover over it or if a query a query is being processed. Left-clicking opens the settings window, while right-clicking shows a context menu. The manually entered text of the input line is stored in the input history when the window is hidden. This input history can be used to search and browse your past input. Holding Shift enables input history navigation for ⬆ and ⬇ no matter which item is selected. When the results list is hidden or the first item is selected ⬆ works without holding Shift. If enabled, the (manually set) input text is used for input history search. Input history navigation then only shows input history entries matching the input text. The results list displays result items of a query. Hold and release Super⌃ to switch between match items and fallback items. Result items can have multiple associated actions. The default action of an item is activated by pressing Return or Enter. To display the list of alternative actions of an item Ctrl⌘+Return or hold Alt⌥ . As a reference the following table lists the keys you can use to control Albert: . | Key | Action | . | Esc | Hide the window. | . | Alt⌥ (Hold)Ctrl⌘+Return | Show actions. | . | Super⌃ (Hold) | Show fallbacks. | . | Shift+⬆ | Next entry in input history. | . | Shift+⬇ | Previous entry in input history. | . | Tab | Activate input action of the selected item (evaluation, completion, etc). | . | Return,Ctrl⌘+O | Activate item. | . | Shift+Return | Insert new line. | . | Ctrl⌘+Shift+ReturnCtrl⌘+Shift+O | Activate item but do not hide. | . | Ctrl⌘+, | Open settings window. | . | ⬆,⬇,PgUp,PgDn | Navigation in item lists. | . | Alt⌥+F4,⌘+Q | Quit Albert (Depends on settings). | . | Ctrl⌘+H/J/K/L | Vim bindings. Synthesize to arrows. | . | Ctrl⌘+N/P | Emacs bindings. Synthesize to arrows. | . ",
+    "content": ". Besides its primary function, the input line displays the input action text and input hint and contains the settings button. If the input starts with a trigger of a trigger query handler, it is highlighted. If available the input action text of the currently selected item will be displayed right beside your input. Hit Tab to replace the current input with it. If space permits, the input hint of the query handler will be displayed right-aligned in the input box. The settings button appears on the right side of the input line if you hover over it or if a query is being processed. Left-clicking opens the settings window, while right-clicking shows a context menu. The manually entered text of the input line is stored in the input history when the window is hidden. This input history can be used to search and browse your past input. Holding Shift enables input history navigation for ⬆ and ⬇ no matter which item is selected. When the results list is hidden or the first item is selected ⬆ works without holding Shift. If enabled, the (manually set) input text is used for input history search. Input history navigation then only shows input history entries matching the input text. The results list displays result items of a query. Hold and release Super⌃ to switch between match items and fallback items. Result items can have multiple associated actions. The default action of an item is activated by pressing Return or Enter. To display the list of alternative actions of an item Ctrl⌘+Return or hold Alt⌥ . As a reference the following table lists the keys you can use to control Albert: . | Key | Action | . | Esc | Hide the window. | . | Alt⌥ (Hold)Ctrl⌘+Return | Show actions. | . | Super⌃ (Hold) | Show fallbacks. | . | Shift+⬆ | Next entry in input history. | . | Shift+⬇ | Previous entry in input history. | . | Tab | Activate input action of the selected item (evaluation, completion, etc). | . | Return,Ctrl⌘+O | Activate item. | . | Shift+Return | Insert new line. | . | Ctrl⌘+Shift+ReturnCtrl⌘+Shift+O | Activate item but do not hide. | . | Ctrl⌘+, | Open settings window. | . | ⬆,⬇,PgUp,PgDn | Navigation in item lists. | . | Alt⌥+F4,⌘+Q | Quit Albert (Depends on the settings). | . | Ctrl⌘+H/J/K/L | Vim bindings. Synthesize to arrows. | . | Ctrl⌘+N/P | Emacs bindings. Synthesize to arrows. | . ",
     "url": "/basics/#user-interface",
     
     "relUrl": "/basics/#user-interface"
@@ -57,7 +57,7 @@
   },"8": {
     "doc": "Contributing",
     "title": "Code",
-    "content": "The place for official plugin repositories is the Albert launcher organization. The main branch of a plugin repository represents the latest version that is or will be distributed with the application and therefore has to be protected. Contributions have to pass peer reviewing via pull request. As such contributors have to work on their own fork and send a PR. The rationale is to ensure . | Safety. For users and developers. | Simplicity. Upstream main branch is reviewed and distributable. | Tidiness. git status is clean or contains approved plugin changes. | . New plugins . We highly appreciate new plugin additions, however to be shipped there should be a demand for its use case. If you want your plugin to be added to the official repositories, put it to the list of candidates in the organization readme and promote it in the community chat. Once your plugin has some users, you can request its addition to the official repositories. For a plugin to be accepted it has to satisfy the following requirements: . | The project is licensed under a permissive open source license (e.g. MIT, Apache, BSD). | The project has an active maintainer. | The repository content is essential to the functionality of the plugin. Keep in mind that in future somebody else may want to maintain the plugin and for distribution the size of the repository should be minimal. | Icons are vector graphics or 128x128 raster images. | Repository has a linear git history free of binary blobs. | Commits are compliant with the Conventional Commit specification. | . Having a concise README.md summarizing features, requirements, limitations, supported platforms and implementation details is recommended. Fixes and Features . Before putting a lot of effort into a contribution, open an issue and discuss your planned changes. This is important, because there is a chance that your changes may be rejected. Contributing to existing plugins is straightforward. | Fork the repository. | Work on the fork. | Send a pull request. | Go through the review process. | . ",
+    "content": "The place for official plugin repositories is the Albert launcher organization. The main branch of a plugin repository represents the latest version that is or will be distributed with the application and therefore has to be protected. Contributions have to pass peer reviewing via pull request. As such contributors have to work on their own fork and send a PR. The rationale is to ensure: . | Safety. For users and developers. | Simplicity. Upstream main branch is reviewed and distributable. | Tidiness. git status is clean or contains approved plugin changes. | . New plugins . We highly appreciate new plugin additions, however to be shipped there should be a demand for its use case. If you want your plugin to be added to the official repositories, put it to the list of candidates in the organization readme and promote it in the community chat. Once your plugin has some users, you can request its addition to the official repositories. For a plugin to be accepted it has to satisfy the following requirements: . | The project is licensed under a permissive open source license (e.g. MIT, Apache, BSD). | The project has an active maintainer. | The repository content is essential to the functionality of the plugin. Keep in mind that in future somebody else may want to maintain the plugin and for distribution the size of the repository should be minimal. | Icons are vector graphics or 128x128 raster images. | Repository has a linear git history free of binary blobs. | Commits are compliant with the Conventional Commit specification. | . Having a concise README.md summarizing features, requirements, limitations, supported platforms and implementation details is recommended. Fixes and Features . Before putting a lot of effort into a contribution, open an issue and discuss your planned changes. This is important, because there is a chance that your changes may be rejected. Contributing to existing plugins is straightforward. | Fork the repository. | Work on the fork. | Send a pull request. | Go through the review process. | . ",
     "url": "/contributing/#code",
     
     "relUrl": "/contributing/#code"
@@ -197,7 +197,7 @@
   },"28": {
     "doc": "FAQ",
     "title": "How to use a custom app/tray icon?",
-    "content": "mkdir -p \"~/.local/share/icons/hicolor/scalable/apps/\" # Overwrite the default app icon cp &lt;your-icon&gt;.svg \"~/.local/share/icons/hicolor/scalable/apps/albert.svg\" # Overwrite the default tray icon cp &lt;your-icon&gt;.svg \"~/.local/share/icons/hicolor/scalable/apps/albert-tray.svg\" . ",
+    "content": "mkdir -p ~/.local/share/icons/hicolor/scalable/apps/ # Overwrite the default app icon cp &lt;your-icon&gt;.svg ~/.local/share/icons/hicolor/scalable/apps/albert.svg # Overwrite the default tray icon cp &lt;your-icon&gt;.svg ~/.local/share/icons/hicolor/scalable/apps/albert-tray.svg . ",
     "url": "/faq/#how-to-use-a-custom-apptray-icon",
     
     "relUrl": "/faq/#how-to-use-a-custom-apptray-icon"
@@ -293,33 +293,33 @@
     
     "relUrl": "/help/"
   },"42": {
-    "doc": "Installation",
-    "title": "Installation",
-    "content": "Prebuilt packages are available for Linux and macOS. Windows is not supported yet. ",
-    "url": "/installation/",
-    
-    "relUrl": "/installation/"
-  },"43": {
     "doc": "Extension",
     "title": "Writing extensions",
-    "content": "Before you start reading the details of extending Albert, make sure you have read the basics. Albert can be extended using C++ or Python. | Native C++ plugins benefit the performance and power of (Obj)C(++) and the native access to Qt (Eventloop, translations, the framework itself …). | Python plugins on the other hand are easier to write and distribute and PyPi has a library for almost everything you can think of. However the Albert Python API is a limited subset of the native API and the GIL prevents true parallelism. | . ",
+    "content": "Before you start reading the details of extending Albert, make sure you have read the basics. Albert can be extended using C++ or Python. | Native C++ plugins benefit the performance and power of (Obj)C(++) and the native access to Qt (Event loop, translations, the framework itself …). | Python plugins on the other hand are easier to write and distribute and PyPi has a library for almost everything you can think of. However, the Albert Python API is a limited subset of the native API and the GIL prevents true parallelism. | . ",
     "url": "/extension/#writing-extensions",
     
     "relUrl": "/extension/#writing-extensions"
-  },"44": {
+  },"43": {
     "doc": "Extension",
     "title": "API overview",
-    "content": "Every plugin has to implement the abstract PluginInstance , which provides a list of Extension instances. The built-in extension interfaces related to query handling are: . | QueryHandler Base query handler interface for triggered queries. | GlobalQueryHandler Query handler participating in the global search. | FallbackHandler Query handler providing fallback items. | . All query handlers provide instances of the Item interface, which contains several methods related to the user interface, most notably the Action factory. In addition to the core API, utilities facilitate plugin development and help developers to provide users with a streamlined search experience. | StandardItem Value-based Item implementation. | Matcher Utility for configurable string matching. | AsyncGeneratorQueryHandler Coroutine-based asynchronous generator query handler. | GeneratorQueryHandler Coroutine-based synchronous generator query handler. | RankedQueryHandler Usage-ranked query handler. | IndexQueryHandler Index-based GlobalQueryHandler implementation. | . Next, read the section of your prefered API, build something cool and share it. ",
+    "content": "Every plugin has to implement the abstract PluginInstance , which provides a list of Extension instances. The built-in extension interfaces related to query handling are: . | QueryHandler Base query handler interface for triggered queries. | GlobalQueryHandler Query handler participating in the global search. | FallbackHandler Query handler providing fallback items. | . All query handlers provide instances of the Item interface, which contains several methods related to the user interface, most notably the Action factory. In addition to the core API, utilities facilitate plugin development and help developers to provide users with a streamlined search experience. | StandardItem Value-based Item implementation. | Matcher Utility for configurable string matching. | AsyncGeneratorQueryHandler Coroutine-based asynchronous generator query handler. | GeneratorQueryHandler Coroutine-based synchronous generator query handler. | RankedQueryHandler Usage-ranked query handler. | IndexQueryHandler Index-based GlobalQueryHandler implementation. | . Next, read the section of your preferred API, build something cool and share it. ",
     "url": "/extension/#api-overview",
     
     "relUrl": "/extension/#api-overview"
-  },"45": {
+  },"44": {
     "doc": "Extension",
     "title": "Extension",
     "content": " ",
     "url": "/extension/",
     
     "relUrl": "/extension/"
+  },"45": {
+    "doc": "Installation",
+    "title": "Installation",
+    "content": "Prebuilt packages are available for Linux and macOS. Windows is not supported yet. ",
+    "url": "/installation/",
+    
+    "relUrl": "/installation/"
   },"46": {
     "doc": "Home",
     "title": "Focus on the essence.",
@@ -386,7 +386,7 @@
   },"55": {
     "doc": "macOS",
     "title": "macOS",
-    "content": "Albert is available via homebrew tap. The package is built and hosted on GitHub. The homebrew tap provides a cask for Albert. To install Albert via homebrew run the following commands: . brew tap albertlauncher/albert brew update brew install albert . brew update and brew upgrade will keep the app up to date. Note that the packaged app is not signed. Read the caveats section of brew install. For convenience the cask creates an ad-hoc signature and disables Gatekeeper for the app. See the postflight section of the cask. The provided bundle is not self-contained and uses dependencies provided by homebrew. This allows using shared memory and reduces the actual private memory consumption to a negliable amount. ",
+    "content": "Albert is available via homebrew tap. The package is built and hosted on GitHub. The homebrew tap provides a cask for Albert. To install Albert via homebrew run the following commands: . brew tap albertlauncher/albert brew update brew install albert . brew update and brew upgrade will keep the app up to date. Note that the packaged app is not signed. Read the caveats section of brew install. For convenience the cask creates an ad-hoc signature and disables Gatekeeper for the app. See the postflight section of the cask. The provided bundle is not self-contained and uses dependencies provided by homebrew. This allows using shared memory and reduces the actual private memory consumption to a negligible amount. ",
     "url": "/installation/macos/",
     
     "relUrl": "/installation/macos/"
