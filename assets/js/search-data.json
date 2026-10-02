@@ -293,33 +293,33 @@
     
     "relUrl": "/help/"
   },"42": {
-    "doc": "Extension",
-    "title": "Writing extensions",
-    "content": "Before you start reading the details of extending Albert, make sure you have read the basics. Albert can be extended using C++ or Python. | Native C++ plugins benefit the performance and power of (Obj)C(++) and the native access to Qt (Event loop, translations, the framework itself …). | Python plugins on the other hand are easier to write and distribute and PyPi has a library for almost everything you can think of. However, the Albert Python API is a limited subset of the native API and the GIL prevents true parallelism. | . ",
-    "url": "/extension/#writing-extensions",
-    
-    "relUrl": "/extension/#writing-extensions"
-  },"43": {
-    "doc": "Extension",
-    "title": "API overview",
-    "content": "Every plugin has to implement the abstract PluginInstance , which provides a list of Extension instances. The built-in extension interfaces related to query handling are: . | QueryHandler Base query handler interface for triggered queries. | GlobalQueryHandler Query handler participating in the global search. | FallbackHandler Query handler providing fallback items. | . All query handlers provide instances of the Item interface, which contains several methods related to the user interface, most notably the Action factory. In addition to the core API, utilities facilitate plugin development and help developers to provide users with a streamlined search experience. | StandardItem Value-based Item implementation. | Matcher Utility for configurable string matching. | AsyncGeneratorQueryHandler Coroutine-based asynchronous generator query handler. | GeneratorQueryHandler Coroutine-based synchronous generator query handler. | RankedQueryHandler Usage-ranked query handler. | IndexQueryHandler Index-based GlobalQueryHandler implementation. | . Next, read the section of your preferred API, build something cool and share it. ",
-    "url": "/extension/#api-overview",
-    
-    "relUrl": "/extension/#api-overview"
-  },"44": {
-    "doc": "Extension",
-    "title": "Extension",
-    "content": " ",
-    "url": "/extension/",
-    
-    "relUrl": "/extension/"
-  },"45": {
     "doc": "Installation",
     "title": "Installation",
     "content": "Prebuilt packages are available for Linux and macOS. Windows is not supported yet. ",
     "url": "/installation/",
     
     "relUrl": "/installation/"
+  },"43": {
+    "doc": "Extension",
+    "title": "Writing extensions",
+    "content": "Before you start reading the details of extending Albert, make sure you have read the basics. Albert can be extended using C++ or Python. | Native C++ plugins benefit the performance and power of (Obj)C(++) and the native access to Qt (Event loop, translations, the framework itself …). | Python plugins on the other hand are easier to write and distribute and PyPi has a library for almost everything you can think of. However, the Albert Python API is a limited subset of the native API and the GIL prevents true parallelism. | . ",
+    "url": "/extension/#writing-extensions",
+    
+    "relUrl": "/extension/#writing-extensions"
+  },"44": {
+    "doc": "Extension",
+    "title": "API overview",
+    "content": "Every plugin has to implement the abstract PluginInstance , which provides a list of Extension instances. The built-in extension interfaces related to query handling are: . | QueryHandler Base query handler interface for triggered queries. | GlobalQueryHandler Query handler participating in the global search. | FallbackHandler Query handler providing fallback items. | . All query handlers provide instances of the Item interface, which contains several methods related to the user interface, most notably the Action factory. In addition to the core API, utilities facilitate plugin development and help developers to provide users with a streamlined search experience. | StandardItem Value-based Item implementation. | Matcher Utility for configurable string matching. | AsyncGeneratorQueryHandler Coroutine-based asynchronous generator query handler. | GeneratorQueryHandler Coroutine-based synchronous generator query handler. | RankedQueryHandler Usage-ranked query handler. | IndexQueryHandler Index-based GlobalQueryHandler implementation. | . Next, read the section of your preferred API, build something cool and share it. ",
+    "url": "/extension/#api-overview",
+    
+    "relUrl": "/extension/#api-overview"
+  },"45": {
+    "doc": "Extension",
+    "title": "Extension",
+    "content": " ",
+    "url": "/extension/",
+    
+    "relUrl": "/extension/"
   },"46": {
     "doc": "Home",
     "title": "Focus on the essence.",
